@@ -76,13 +76,15 @@ const localTexts = existsSync(inputFile)
 	: [];
 const remoteTexts = process.env.PENDING_URL
 	? await fetchPending(process.env.PENDING_URL, process.env.PENDING_TOKEN)
-	: [];
+	: null;
 
-if (process.env.PENDING_URL) {
-	console.log(`collection server: ${remoteTexts.length} texts, ${localTexts.length} local`);
+if (remoteTexts !== null) {
+	console.log(`collection server: ${remoteTexts.length} texts`);
 }
 
-const pending = [...new Set([...remoteTexts, ...localTexts])]
+const texts = remoteTexts ?? localTexts;
+
+const pending = [...new Set(texts)]
 	.filter(key => key.length > 0 && !known.has(normalize(key)) && !knownValues.has(normalize(key)))
 	.filter(key => !IGNORED_PREFIXES.some(prefix => key.startsWith(prefix)))
 	.filter(looksLikeText)
