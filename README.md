@@ -3,10 +3,18 @@
 Translates Old School RuneScape in-game text: NPC and player dialogue, right-click menus and
 the contents of the quest journal, achievement diaries and combat achievements.
 
+## Why this plugin exists
+
 Translator Enhanced continues the [Translator](https://github.com/iolave/runelite-the-translator)
-plugin by iolave. The journals are translated with a reviewed dictionary instead of machine
-translation, so proper names stay exactly as they are in game and task requirements remain
-visible.
+plugin by iolave. The original has not received code changes since January 2026 and its
+automatic translation service stopped responding, so its translations gradually went stale.
+The quest journal, achievement diaries and combat achievements were never translated at all:
+those screens stayed in English.
+
+This project keeps the same idea and the same menu and dialogue data, and adds what was
+missing: a reviewed dictionary for the journals, requirements that stay visible, a layout
+that holds when a task is longer than the original, and translation updates that arrive
+without a plugin release.
 
 ## Features
 
