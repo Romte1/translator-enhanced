@@ -14,9 +14,11 @@ by iolave.
 - Reviewed Spanish dictionary for quest journals, achievement diaries and combat
   achievements (nearly a thousand entries), bundled with the plugin and downloadable at
   runtime.
+- Per-language journals dictionary and queue: every supported language grows with the same
+  collection server, and the translated state is tracked per language.
 - Diary requirements are preserved and the journal list is re-laid out: long tasks wrap, the
   empty requirement widgets collapse and the scroll reaches the last tier.
-- General -> Dictionary URL: the dictionary is downloaded on start, so translation updates
+- The dictionary is downloaded on start from the project repository, so translation updates
   no longer need a plugin release.
 - scripts/translate-worker.mjs: LLM first pass with the project rules, reviewed examples
   and mechanical validation of tags, numbers and placeholders.
