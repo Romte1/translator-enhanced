@@ -1,0 +1,30 @@
+
+Difficulty:;Moeilijkheidsgraad:
+Length:;Duur:
+Storyline:;Verhaallijn:
+Release Year:;Uitgavejaar:
+Requirements:;Vereisten:
+Recommendations:;Aanbevelingen:
+Show on Map;Toon op kaart
+Novice;Beginner
+Intermediate;Gevorderd
+Experienced;Ervaren
+Master;Meester
+Grandmaster;Grootmeester
+Easy;Makkelijk
+Medium;Gemiddeld
+Hard;Moeilijk
+Short;Kort
+Long;Lang
+Very Short;Zeer kort
+Very Long;Zeer lang
+Standalone;Zelfstandig
+I can start this quest by talking to <col=800000>Elena<col=000080> at her home in northern <col=800000>East Ardougne<col=000080>.;Ik kan deze opdracht starten door te praten met <col=800000>Elena<col=000080> in haar huis in het noorden van <col=800000>East Ardougne<col=000080>.
+I can start this quest by talking to <col=800000>Willow<col=000080> on the path south of <col=800000>Ice Mountain<col=000080>.;Ik kan deze opdracht starten door te praten met <col=800000>Willow<col=000080> op het pad ten zuiden van <col=800000>Ice Mountain<col=000080>.
+I can start this quest by talking to <col=800000>Sir Amik Varze<col=000080> in the <col=800000>White Knights' Castle<col=000080>.;Ik kan deze opdracht starten door te praten met <col=800000>Sir Amik Varze<col=000080> in het <col=800000>White Knights' Castle<col=000080>.
+I can start this quest by talking to <col=800000>Doric<col=000080> at his home north of <col=800000>Falador<col=000080>.;Ik kan deze opdracht starten door te praten met <col=800000>Doric<col=000080> bij hem thuis ten noorden van <col=800000>Falador<col=000080>.
+I can start this quest by talking to <col=800000>Aris<col=000080> in her tent in <col=800000>Varrock Square<col=000080>.;Ik kan deze opdracht starten door te praten met <col=800000>Aris<col=000080> in haar tent op <col=800000>Varrock Square<col=000080>.
+I can start this quest by talking to <col=800000>Captain Tock<col=000080> north of <col=800000>Port Sarim<col=000080>.;Ik kan deze opdracht starten door te praten met <col=800000>Captain Tock<col=000080> ten noorden van <col=800000>Port Sarim<col=000080>.
+I can start this quest by talking to the <col=800000>Guildmaster<col=000080> in the <col=800000>Champions' Guild<col=000080>.;Ik kan deze opdracht starten door te praten met de <col=800000>Guildmaster<col=000080> in het <col=800000>Champions' Guild<col=000080>.
+I can start this quest by talking to the <col=800000>Goblin Generals<col=000080> in <col=800000>Goblin Village<col=000080>.;Ik kan deze opdracht starten door te praten met de <col=800000>Goblin Generals<col=000080> in <col=800000>Goblin Village<col=000080>.
+I can start this quest by talking to <col=800000>Redbeard Frank<col=000080> on the <col=800000>Port Sarim<col=000080> docks.;Ik kan deze opdracht starten door te praten met <col=800000>Redbeard Frank<col=000080> op de kade van <col=800000>Port Sarim<col=000080>.
