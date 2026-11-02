@@ -84,23 +84,23 @@ Standalone;Autonoma
 <col=ffff00>Fremennik Tasks;<col=ffff00>Attività di Fremennik
 <col=ffffff>(<col=800000>The Fremennik Trials<col=000080>, <col=800000>Started Fairytale II - Cure a Queen<col=000080><col=ffffff>);<col=ffffff>(<col=800000>The Fremennik Trials<col=000080>, <col=800000>Iniziata Fairytale II - Cure a Queen<col=000080><col=ffffff>)
 <col=ffffff>(<col=800000>Horror from the Deep<col=000080>, <col=800000>Started The Fremennik Trials<col=000080><col=ffffff>);<col=ffffff>(<col=800000>Horror from the Deep<col=000080>, <col=800000>Iniziata The Fremennik Trials<col=000080><col=ffffff>)
-<col=ffffff>(<col=800000>40 Mining<col=000080>, <col=800000>Started Between a Rock...<col=000080><col=ffffff>);<col=ffffff>(<col=800000>40 Mining<col=000080>, <col=800000>Iniziato Between a Rock...<col=000080><col=ffffff>)
-<col=ffffff>(<col=800000>75 Thieving<col=000080>, <col=800000>Started The Giant Dwarf<col=000080><col=ffffff>);<col=ffffff>(<col=800000>75 Thieving<col=000080>, <col=800000>Iniziato The Giant Dwarf<col=000080><col=ffffff>)
+<col=ffffff>(<col=800000>40 Mining<col=000080>, <col=800000>Started Between a Rock...<col=000080><col=ffffff>);<col=ffffff>(<col=800000>40 Mining<col=000080>, <col=800000>Iniziata Between a Rock...<col=000080><col=ffffff>)
+<col=ffffff>(<col=800000>75 Thieving<col=000080>, <col=800000>Started The Giant Dwarf<col=000080><col=ffffff>);<col=ffffff>(<col=800000>75 Thieving<col=000080>, <col=800000>Iniziata The Giant Dwarf<col=000080><col=ffffff>)
 <col=000000>Kill each of the Dagannoth Kings.;<col=000000>Uccidi ognuno dei Dagannoth Kings.
 <col=000000>Craft 56 astral runes simultaneously from Essence;<col=000000>Crea 56 astral runes simultaneamente da Essence
 <col=000000>without the use of Extracts.<col=ffffff>(<col=800000>82 Runecraft<col=000080>, <col=800000>Lunar Diplomacy<col=000080><col=ffffff>);<col=000000>senza usare Extracts.<col=ffffff>(<col=800000>82 Runecraft<col=000080>, <col=800000>Lunar Diplomacy<col=000080><col=ffffff>)
 <col=000000>Create a dragonstone amulet in the Neitiznot furnace.;<col=000000>Crea un dragonstone amulet nella fornace di Neitiznot.
-<col=ffffff>(<col=800000>80 Crafting<col=000080>, <col=800000>Started The Fremennik Isles<col=000080><col=ffffff>);<col=ffffff>(<col=800000>80 Crafting<col=000080>, <col=800000>Iniziato The Fremennik Isles<col=000080><col=ffffff>)
+<col=ffffff>(<col=800000>80 Crafting<col=000080>, <col=800000>Started The Fremennik Isles<col=000080><col=ffffff>);<col=ffffff>(<col=800000>80 Crafting<col=000080>, <col=800000>Iniziata The Fremennik Isles<col=000080><col=ffffff>)
 <col=000000>Complete a lap of the Rellekka agility course.<col=ffffff>(<col=800000>80 Agility<col=000080><col=ffffff>);<col=000000>Completa un giro del percorso di Agility di Rellekka.<col=ffffff>(<col=800000>80 Agility<col=000080><col=ffffff>)
 <col=000000>Kill the generals of Armadyl, Bandos, Saradomin and;<col=000000>Uccidi i generali di Armadyl, Bandos, Saradomin e
 <col=000000>Zamorak in the God Wars Dungeon.;<col=000000>Zamorak nella God Wars Dungeon.
 <col=000000>Slay a Spiritual mage within the Godwars Dungeon.<col=ffffff>(<col=800000>83 Slayer<col=000080>, <col=800000>Troll Stronghold<col=000080><col=ffffff>);<col=000000>Uccidi un Spiritual mage dentro la Godwars Dungeon.<col=ffffff>(<col=800000>83 Slayer<col=000080>, <col=800000>Troll Stronghold<col=000080><col=ffffff>)
 <col=ffff00>Falador Area Tasks;<col=ffff00>Compiti dell'area di Falador
-<col=000000>Find out what your family crest is from Sir Renitee.<col=ffffff>(<col=800000>16 Construction<col=000080><col=ffffff>);<col=000000>Scopri qual è il tuo family crest da Sir Renitee.<col=ffffff>(<col=800000>16 Construction<col=000080><col=ffffff>)
+<col=000000>Find out what your family crest is from Sir Renitee.<col=ffffff>(<col=800000>16 Construction<col=000080><col=ffffff>);<col=000000>Scopri qual è il tuo stemma di famiglia da Sir Renitee.<col=ffffff>(<col=800000>16 Construction<col=000080><col=ffffff>)
 <col=000000>Climb over the western Falador wall.<col=ffffff>(<col=800000>5 Agility<col=000080><col=ffffff>);<col=000000>Scala il muro occidentale di Falador.<col=ffffff>(<col=800000>5 Agility<col=000080><col=ffffff>)
 <col=000000>Browse Sarah's farm shop.;<col=000000>Sfoglia il negozio della fattoria di Sarah.
 <col=000000>Get a Haircut or a Shave from the Falador Hairdresser.;<col=000000>Fatti tagliare i capelli o fatti radere dal Falador Hairdresser.
-<col=000000>Fill a bucket from the pump north of Falador west bank.;<col=000000>Riempi un bucket dalla pompa a nord di Falador west bank.
+<col=000000>Fill a bucket from the pump north of Falador west bank.;<col=000000>Riempi un bucket dalla pompa a nord della riva ovest di Falador.
 <col=000000>Kill a duck in Falador park.;<col=000000>Uccidi un'anatra nel parco di Falador.
 <col=000000>Make a mind tiara.;<col=000000>Crea una mind tiara.
 <col=000000>Take the boat to Entrana.;<col=000000>Prendi la barca per Entrana.
