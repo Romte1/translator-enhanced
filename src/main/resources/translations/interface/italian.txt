@@ -133,3 +133,27 @@ Standalone;Autonoma
 <col=000000>Kill the Blue Dragon under the Heroes' Guild.<col=ffffff>(<col=800000>Heroes' Quest<col=000080><col=ffffff>);<col=000000>Uccidi il Blue Dragon sotto la Heroes' Guild.<col=ffffff>(<col=800000>Heroes' Quest<col=000080><col=ffffff>)
 <col=000000>Crack a wall safe within Rogues Den.<col=ffffff>(<col=800000>50 Thieving<col=000080><col=ffffff>);<col=000000>Scassina una cassaforte a muro a Rogues Den.<col=ffffff>(<col=800000>50 Thieving<col=000080><col=ffffff>)
 <col=000000>Recharge your prayer in the Port Sarim church while;<col=000000>Ricarica la tua preghiera nella chiesa di Port Sarim mentre
+Elite;Élite
+<col=000000>wearing full Proselyte.<col=ffffff>(<col=800000>30 Defence<col=000080>, <col=800000>The Slug Menace<col=000080><col=ffffff>);<col=000000>indossando il set completo Proselyte.<col=ffffff>(<col=800000>30 Defence<col=000080>, <col=800000>The Slug Menace<col=000080><col=ffffff>)
+<col=000000>Enter the Warriors' Guild.;<col=000000>Entra nella Warriors' Guild.
+<col=000000>Equip a dwarven helmet within the dwarven mines.;<col=000000>Equipaggia un dwarven helmet nelle dwarven mines.
+<col=000000>Craft 252 Air Runes simultaneously from Essence without;<col=000000>Crea 252 Air Runes contemporaneamente da Essence senza
+<col=000000>the use of Extracts.<col=ffffff>(<col=800000>88 Runecraft<col=000080><col=ffffff>);<col=000000>l'uso di Extracts.<col=ffffff>(<col=800000>88 Runecraft<col=000080><col=ffffff>)
+<col=000000>Purchase a White 2h Sword from Sir Vyvin.<col=ffffff>(<col=800000>Wanted!<col=000080><col=ffffff>);<col=000000>Acquista una White 2h Sword da Sir Vyvin.<col=ffffff>(<col=800000>Wanted!<col=000080><col=ffffff>)
+<col=000000>Find at least 3 magic roots at once when digging up your;<col=000000>Trova almeno 3 magic roots in una volta quando dissotterri il tuo
+<col=000000>magic tree in Falador.<col=ffffff>(<col=800000>91 Farming<col=000080>, <col=800000>75 Woodcutting<col=000080><col=ffffff>);<col=000000>magic tree a Falador.<col=ffffff>(<col=800000>91 Farming<col=000080>, <col=800000>75 Woodcutting<col=000080><col=ffffff>)
+<col=000000>Perform a skillcape or quest cape emote at the top of;<col=000000>Esegui un'emote con skillcape o quest cape in cima a
+<col=000000>Jump over the strange floor in Taverley dungeon.<col=ffffff>(<col=800000>80 Agility<col=000080><col=ffffff>);<col=000000>Salta sopra lo strano pavimento nella Taverley dungeon.<col=ffffff>(<col=800000>80 Agility<col=000080><col=ffffff>)
+<col=000000>Mix a Saradomin brew in Falador east bank.<col=ffffff>(<col=800000>81 Herblore<col=000080><col=ffffff>);<col=000000>Prepara una Saradomin brew nella banca est di Falador.<col=ffffff>(<col=800000>81 Herblore<col=000080><col=ffffff>)
+Description: <col=ffffff>Kill a Brutal Black Dragon.</col>;Descrizione: <col=ffffff>Uccidi un Brutal Black Dragon.</col>
+Description: <col=ffffff>Open Bryophyta's chest 5 times.</col>;Descrizione: <col=ffffff>Apri la cassa di Bryophyta 5 volte.</col>
+Description: <col=ffffff>Kill all 3 of Bryophyta's growthlings within 3 seconds of the first one dying.</col>;Descrizione: <col=ffffff>Uccidi tutti e 3 i growthlings di Bryophyta entro 3 secondi dalla morte del primo.</col>
+Description: <col=ffffff>Kill Skotizo with a demonbane weapon equipped.</col>;Descrizione: <col=ffffff>Uccidi Skotizo con un'arma demonbane equipaggiata.</col>
+Description: <col=ffffff>Kill the Mad Angel after getting 3 consecutive enhanced attacks by successfully praying against the smite attacks during her enrage phase.</col>;Descrizione: <col=ffffff>Uccidi la Mad Angel dopo aver ottenuto 3 attacchi potenziati consecutivi pregando con successo contro gli attacchi smite durante la sua fase di furia.</col>
+Description: <col=ffffff>Kill the Mad Angel 25 times.</col>;Descrizione: <col=ffffff>Uccidi la Mad Angel 25 volte.</col>
+Description: <col=ffffff>Kill Brutus whilst neither equipping nor consuming anything.</col>;Descrizione: <col=ffffff>Uccidi Brutus senza equipaggiare né consumare nulla.</col>
+Description: <col=ffffff>Kill the Shellbane Gryphon 10 times within 12:30 minutes of entering the cave.</col>;Descrizione: <col=ffffff>Uccidi il Shellbane Gryphon 10 volte entro 12:30 minuti dall'ingresso nella caverna.</col>
+Description: <col=ffffff>Kill the Shellbane Gryphon 50 times.</col>;Descrizione: <col=ffffff>Uccidi il Shellbane Gryphon 50 volte.</col>
+Description: <col=ffffff>Kill the Royal Titans 10 times.</col>;Descrizione: <col=ffffff>Uccidi i Royal Titans 10 volte.</col>
+Description: <col=ffffff>Kill Amoxliatl using only glacial temotli as a weapon.</col>;Descrizione: <col=ffffff>Uccidi Amoxliatl usando solo glacial temotli come arma.</col>
+Type: <col=ffffff>Restriction</col> <col=dfdfdf>(+2 points)</col>;Tipo: <col=ffffff>Restrizione</col> <col=dfdfdf>(+2 punti)</col>

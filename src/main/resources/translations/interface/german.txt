@@ -133,3 +133,25 @@ Standalone;Eigenständig
 <col=000000>Kill the Blue Dragon under the Heroes' Guild.<col=ffffff>(<col=800000>Heroes' Quest<col=000080><col=ffffff>);<col=000000>Töte den Blue Dragon unter der Heroes' Guild.<col=ffffff>(<col=800000>Heroes' Quest<col=000080><col=ffffff>)
 <col=000000>Crack a wall safe within Rogues Den.<col=ffffff>(<col=800000>50 Thieving<col=000080><col=ffffff>);<col=000000>Knacke einen Wandtresor in Rogues Den.<col=ffffff>(<col=800000>50 Thieving<col=000080><col=ffffff>)
 <col=000000>Recharge your prayer in the Port Sarim church while;<col=000000>Lade dein Gebet in der Kirche von Port Sarim auf, während
+<col=000000>wearing full Proselyte.<col=ffffff>(<col=800000>30 Defence<col=000080>, <col=800000>The Slug Menace<col=000080><col=ffffff>);<col=000000>vollständige Proselyte tragend.<col=ffffff>(<col=800000>30 Defence<col=000080>, <col=800000>The Slug Menace<col=000080><col=ffffff>)
+<col=000000>Enter the Warriors' Guild.;<col=000000>Betritt die Warriors' Guild.
+<col=000000>Equip a dwarven helmet within the dwarven mines.;<col=000000>Rüste einen dwarven helmet in den dwarven mines aus.
+<col=000000>Craft 252 Air Runes simultaneously from Essence without;<col=000000>Stelle 252 Air Runes gleichzeitig aus Essence her, ohne
+<col=000000>the use of Extracts.<col=ffffff>(<col=800000>88 Runecraft<col=000080><col=ffffff>);<col=000000>die Verwendung von Extracts.<col=ffffff>(<col=800000>88 Runecraft<col=000080><col=ffffff>)
+<col=000000>Purchase a White 2h Sword from Sir Vyvin.<col=ffffff>(<col=800000>Wanted!<col=000080><col=ffffff>);<col=000000>Kaufe ein White 2h Sword von Sir Vyvin.<col=ffffff>(<col=800000>Wanted!<col=000080><col=ffffff>)
+<col=000000>Find at least 3 magic roots at once when digging up your;<col=000000>Finde mindestens 3 magic roots auf einmal beim Ausgraben deines
+<col=000000>Perform a skillcape or quest cape emote at the top of;<col=000000>Führe eine skillcape- oder quest cape-Emote auf der Spitze von
+<col=000000>Jump over the strange floor in Taverley dungeon.<col=ffffff>(<col=800000>80 Agility<col=000080><col=ffffff>);<col=000000>Springe über den seltsamen Boden in Taverley dungeon.<col=ffffff>(<col=800000>80 Agility<col=000080><col=ffffff>)
+<col=000000>Mix a Saradomin brew in Falador east bank.<col=ffffff>(<col=800000>81 Herblore<col=000080><col=ffffff>);<col=000000>Braue einen Saradomin brew in der Ostbank von Falador.<col=ffffff>(<col=800000>81 Herblore<col=000080><col=ffffff>)
+Description: <col=ffffff>Kill a Brutal Black Dragon.</col>;Beschreibung: <col=ffffff>Töte einen Brutal Black Dragon.</col>
+Description: <col=ffffff>Open Bryophyta's chest 5 times.</col>;Beschreibung: <col=ffffff>Öffne Bryophyta's Truhe 5 Mal.</col>
+Description: <col=ffffff>Kill all 3 of Bryophyta's growthlings within 3 seconds of the first one dying.</col>;Beschreibung: <col=ffffff>Töte alle 3 von Bryophyta's growthlings innerhalb von 3 Sekunden, nachdem der erste gestorben ist.</col>
+Description: <col=ffffff>Kill Skotizo with a demonbane weapon equipped.</col>;Beschreibung: <col=ffffff>Töte Skotizo mit einer ausgerüsteten demonbane-Waffe.</col>
+Description: <col=ffffff>Kill the Mad Angel after getting 3 consecutive enhanced attacks by successfully praying against the smite attacks during her enrage phase.</col>;Beschreibung: <col=ffffff>Töte den Mad Angel, nachdem du 3 aufeinanderfolgende verstärkte Angriffe erhalten hast, indem du während ihrer Wutphase erfolgreich gegen die smite-Angriffe gebetet hast.</col>
+Description: <col=ffffff>Kill the Mad Angel 25 times.</col>;Beschreibung: <col=ffffff>Töte den Mad Angel 25 Mal.</col>
+Description: <col=ffffff>Kill Brutus whilst neither equipping nor consuming anything.</col>;Beschreibung: <col=ffffff>Töte Brutus, ohne dabei etwas auszurüsten oder zu verbrauchen.</col>
+Description: <col=ffffff>Kill the Shellbane Gryphon 10 times within 12:30 minutes of entering the cave.</col>;Beschreibung: <col=ffffff>Töte den Shellbane Gryphon 10 Mal innerhalb von 12:30 Minuten nach Betreten der Höhle.</col>
+Description: <col=ffffff>Kill the Shellbane Gryphon 50 times.</col>;Beschreibung: <col=ffffff>Töte den Shellbane Gryphon 50 Mal.</col>
+Description: <col=ffffff>Kill the Royal Titans 10 times.</col>;Beschreibung: <col=ffffff>Töte die Royal Titans 10 Mal.</col>
+Description: <col=ffffff>Kill Amoxliatl using only glacial temotli as a weapon.</col>;Beschreibung: <col=ffffff>Töte Amoxliatl, indem du nur glacial temotli als Waffe verwendest.</col>
+Type: <col=ffffff>Restriction</col> <col=dfdfdf>(+2 points)</col>;Typ: <col=ffffff>Einschränkung</col> <col=dfdfdf>(+2 Punkte)</col>

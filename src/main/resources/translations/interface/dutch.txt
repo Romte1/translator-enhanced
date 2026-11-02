@@ -78,3 +78,28 @@ I can start this quest by talking to <col=800000>Jamila<col=000080> at her stall
 <col=000000>Catch a Sabre-toothed Kyatt.<col=ffffff>(<col=800000>55 Hunter<col=000080><col=ffffff>);<col=000000>Vang een Sabre-toothed Kyatt.<col=ffffff>(<col=800000>55 Hunter<col=000080><col=ffffff>)
 <col=000000>Mix a super defence potion in the Fremennik province.;<col=000000>Meng een super defence potion in de Fremennik provincie.
 <col=000000>Steal from the Keldagrim Gem Stall.;<col=000000>Steel van de Keldagrim Gem Stall.
+<col=ffffff>(<col=800000>75 Thieving<col=000080>, <col=800000>Started The Giant Dwarf<col=000080><col=ffffff>);<col=ffffff>(<col=800000>75 Thieving<col=000080>, <col=800000>The Giant Dwarf begonnen<col=000080><col=ffffff>)
+<col=000000>Craft a Neitiznot shield on Neitiznot.;<col=000000>Maak een Neitiznot shield op Neitiznot.
+<col=000000>Mine 5 Adamantite ores on Jatizso.<col=ffffff>(<col=800000>70 Mining<col=000080>, <col=800000>The Fremennik Isles<col=000080><col=ffffff>);<col=000000>Delg 5 Adamantite ore op Jatizso.<col=ffffff>(<col=800000>70 Mining<col=000080>, <col=800000>The Fremennik Isles<col=000080><col=ffffff>)
+<col=000000>Obtain 100% support from your kingdom subjects.;<col=000000>Verkrijg 100% steun van je koninkrijksonderdanen.
+<col=000000>Teleport to Waterbirth Island.<col=ffffff>(<col=800000>72 Magic<col=000080>, <col=800000>Lunar Diplomacy<col=000080><col=ffffff>);<col=000000>Teleporteer naar Waterbirth Island.<col=ffffff>(<col=800000>72 Magic<col=000080>, <col=800000>Lunar Diplomacy<col=000080><col=ffffff>)
+<col=000000>Obtain the Blast Furnace Foreman's permission to use the;<col=000000>Verkrijg toestemming van de Blast Furnace Foreman om de
+<col=000000>Blast Furnace for free.<col=ffffff>(<col=800000>60 Smithing<col=000080>, <col=800000>Started The Giant Dwarf<col=000080><col=ffffff>);<col=000000>Blast Furnace gratis te gebruiken.<col=ffffff>(<col=800000>60 Smithing<col=000080>, <col=800000>The Giant Dwarf begonnen<col=000080><col=ffffff>)
+<col=000000>Kill each of the Dagannoth Kings.;<col=000000>Versla elk van de Dagannoth Kings.
+<col=000000>Craft 56 astral runes simultaneously from Essence;<col=000000>Maak 56 astral runes tegelijk uit Essence
+<col=000000>without the use of Extracts.<col=ffffff>(<col=800000>82 Runecraft<col=000080>, <col=800000>Lunar Diplomacy<col=000080><col=ffffff>);<col=000000>zonder Extracts te gebruiken.<col=ffffff>(<col=800000>82 Runecraft<col=000080>, <col=800000>Lunar Diplomacy<col=000080><col=ffffff>)
+<col=000000>Create a dragonstone amulet in the Neitiznot furnace.;<col=000000>Maak een dragonstone amulet in de oven van Neitiznot.
+<col=ffffff>(<col=800000>80 Crafting<col=000080>, <col=800000>Started The Fremennik Isles<col=000080><col=ffffff>);<col=ffffff>(<col=800000>80 Crafting<col=000080>, <col=800000>The Fremennik Isles begonnen<col=000080><col=ffffff>)
+<col=000000>Complete a lap of the Rellekka agility course.<col=ffffff>(<col=800000>80 Agility<col=000080><col=ffffff>);<col=000000>Voltooi een ronde van de Agility-baan in Rellekka.<col=ffffff>(<col=800000>80 Agility<col=000080><col=ffffff>)
+<col=000000>Kill the generals of Armadyl, Bandos, Saradomin and;<col=000000>Versla de generaals van Armadyl, Bandos, Saradomin en
+<col=000000>Zamorak in the God Wars Dungeon.;<col=000000>Zamorak in de God Wars Dungeon.
+<col=000000>Slay a Spiritual mage within the Godwars Dungeon.<col=ffffff>(<col=800000>83 Slayer<col=000080>, <col=800000>Troll Stronghold<col=000080><col=ffffff>);<col=000000>Versla een Spiritual mage in de Godwars Dungeon.<col=ffffff>(<col=800000>83 Slayer<col=000080>, <col=800000>Troll Stronghold<col=000080><col=ffffff>)
+<col=ffff00>Falador Area Tasks;<col=ffff00>Taken in het Falador-gebied
+<col=000000>Find out what your family crest is from Sir Renitee.<col=ffffff>(<col=800000>16 Construction<col=000080><col=ffffff>);<col=000000>Ontdek wat je familiewapen is van Sir Renitee.<col=ffffff>(<col=800000>16 Construction<col=000080><col=ffffff>)
+<col=000000>Climb over the western Falador wall.<col=ffffff>(<col=800000>5 Agility<col=000080><col=ffffff>);<col=000000>Klim over de westelijke muur van Falador.<col=ffffff>(<col=800000>5 Agility<col=000080><col=ffffff>)
+<col=000000>Browse Sarah's farm shop.;<col=000000>Bekijk Sarah's boerderijwinkel.
+<col=000000>Get a Haircut or a Shave from the Falador Hairdresser.;<col=000000>Haal een knipbeurt of scheerbeurt bij de kapper van Falador.
+<col=000000>Fill a bucket from the pump north of Falador west bank.;<col=000000>Vul een emmer bij de pomp ten noorden van de westelijke bank van Falador.
+<col=000000>Kill a duck in Falador park.;<col=000000>Versla een eend in Falador park.
+<col=000000>Make a mind tiara.;<col=000000>Maak een mind tiara.
+<col=000000>Take the boat to Entrana.;<col=000000>Neem de boot naar Entrana.
