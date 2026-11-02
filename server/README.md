@@ -27,7 +27,27 @@ client (opt-in) ──POST /api/v1/data-collection──► server ──GET /ap
 | Fly.io | no free tier | paid |
 | VPS | ~$4/month | paid |
 
-## Cloudflare (recommended, free)
+## Deploy from the dashboard (no CLI)
+
+This touches nothing outside the resources you create here, so it cannot affect another
+project on the same account.
+
+1. **Database**: Workers & Pages -> D1 SQL Database -> *Create database* ->
+   `translator-enhanced`.
+2. Open it -> **Console** -> paste `schema.sql` -> *Execute*.
+3. **Worker**: Workers & Pages -> *Create* -> *Create Worker* ->
+   `translator-enhanced-collection` -> Deploy the default hello world.
+4. *Edit code* -> replace everything with `worker.mjs` -> Deploy.
+5. **Settings -> Bindings -> Add -> D1 database**: variable name `DB`, database
+   `translator-enhanced` -> Save -> Deploy.
+6. **Settings -> Variables and Secrets -> Add**: type *Secret*, name `ADMIN_TOKEN`, a long
+   random value -> Save -> Deploy.
+7. Open `https://<worker>.<account>.workers.dev/health`. It must answer
+   `{"ok":true,"texts":0,"translated":0}`.
+
+No `wrangler login`, no local credentials, no shared state with other Workers.
+
+## Cloudflare (CLI)
 
 ```bash
 npm install -g wrangler

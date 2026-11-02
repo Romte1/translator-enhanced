@@ -46,6 +46,23 @@ The hub reviews source, so everything is built from this repository:
 
 3. Open a pull request. The bot builds the plugin and a reviewer checks the code.
 
+The hub repository only stores the marker; the code stays here. A description that speeds up
+the review:
+
+```
+Continues the Translator plugin (iolave/runelite-the-translator).
+
+The original has had no code changes since January 2026, its machine translation API
+returns 400s, and journal texts were never translated at all. This build adds a reviewed
+dictionary, fixes the journal layout and requirements, and translates menus at render time
+so Menu Entry Swapper keeps working. Translation data is downloaded separately, so only
+code changes need a new marker commit.
+```
+
+The hub's own README recommends contributing to existing plugins to avoid fragmentation, so
+the `Why this project exists` section in this repository's README is the main argument for
+an independent entry.
+
 When the PR is merged the plugin appears in the hub and users install it like any other. The
 hub keeps a pinned commit, so **translation data still updates without a release** through
 `General -> Dictionary URL`; the pin only affects code.
