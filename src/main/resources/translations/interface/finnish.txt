@@ -1,0 +1,31 @@
+
+Difficulty:;Vaikeustaso:
+Length:;Pituus:
+Storyline:;Tarinalinja:
+Release Year:;Julkaisuvuosi:
+Requirements:;Vaatimukset:
+Recommendations:;Suositukset:
+Show on Map;Näytä kartalla
+Novice;Aloittelija
+Intermediate;Keskitaso
+Experienced;Kokenut
+Master;Mestari
+Grandmaster;Suurmestari
+Easy;Helppo
+Medium;Keskitaso
+Hard;Vaikea
+Elite;Eliitti
+Short;Lyhyt
+Long;Pitkä
+Very Short;Erittäin lyhyt
+Very Long;Erittäin pitkä
+Standalone;Itsenäinen
+I can start this quest by talking to <col=800000>Elena<col=000080> at her home in northern <col=800000>East Ardougne<col=000080>.;Voin aloittaa tämän tehtävän puhumalla <col=800000>Elena<col=000080>lle hänen kotonaan <col=800000>East Ardougne<col=000080>n pohjoisosassa.
+I can start this quest by talking to <col=800000>Willow<col=000080> on the path south of <col=800000>Ice Mountain<col=000080>.;Voin aloittaa tämän tehtävän puhumalla <col=800000>Willow<col=000080>ille polulla <col=800000>Ice Mountain<col=000080>in eteläpuolella.
+I can start this quest by talking to <col=800000>Sir Amik Varze<col=000080> in the <col=800000>White Knights' Castle<col=000080>.;Voin aloittaa tämän tehtävän puhumalla <col=800000>Sir Amik Varze<col=000080>lle <col=800000>White Knights' Castle<col=000080>ssa.
+I can start this quest by talking to <col=800000>Doric<col=000080> at his home north of <col=800000>Falador<col=000080>.;Voin aloittaa tämän tehtävän puhumalla <col=800000>Doric<col=000080>ille hänen kodissaan <col=800000>Falador<col=000080>in pohjoispuolella.
+I can start this quest by talking to <col=800000>Aris<col=000080> in her tent in <col=800000>Varrock Square<col=000080>.;Voin aloittaa tämän tehtävän puhumalla <col=800000>Aris<col=000080>ille hänen teltassaan <col=800000>Varrock Square<col=000080>lla.
+I can start this quest by talking to <col=800000>Captain Tock<col=000080> north of <col=800000>Port Sarim<col=000080>.;Voin aloittaa tämän tehtävän puhumalla <col=800000>Captain Tock<col=000080>ille <col=800000>Port Sarim<col=000080>in pohjoispuolella.
+I can start this quest by talking to the <col=800000>Guildmaster<col=000080> in the <col=800000>Champions' Guild<col=000080>.;Voin aloittaa tämän tehtävän puhumalla <col=800000>Guildmaster<col=000080>ille <col=800000>Champions' Guild<col=000080>issa.
+I can start this quest by talking to the <col=800000>Goblin Generals<col=000080> in <col=800000>Goblin Village<col=000080>.;Voin aloittaa tämän tehtävän puhumalla <col=800000>Goblin Generals<col=000080>ille <col=800000>Goblin Village<col=000080>ssa.
+I can start this quest by talking to <col=800000>Redbeard Frank<col=000080> on the <col=800000>Port Sarim<col=000080> docks.;Voin aloittaa tämän tehtävän puhumalla <col=800000>Redbeard Frank<col=000080>ille <col=800000>Port Sarim<col=000080>in satamalaitureilla.

@@ -29,3 +29,28 @@ I can start this quest by talking to <col=800000>Jamila<col=000080> at her stall
 <str>cake. I brought the cook an egg, some flour and some milk and;<str>bolo. Eu trouxe ao cozinheiro um ovo, um pouco de farinha e um pouco de leite e
 <str>the cook made a delicious looking cake with them.;<str>o cozinheiro fez um bolo de aparência deliciosa com eles.
 <str>As a reward he now lets me use his high quality range which;<str>Como recompensa, ele agora me permite usar seu fogão de alta qualidade.
+Difficulty:;Dificuldade:
+Length:;Duração:
+Storyline:;História:
+Release Year:;Ano de lançamento:
+Requirements:;Requisitos:
+Recommendations:;Recomendações:
+Novice;Novato
+Intermediate;Intermediário
+Experienced;Experiente
+Master;Mestre
+Grandmaster;Grão-mestre
+Easy;Fácil
+Medium;Médio
+Hard;Difícil
+Short;Curto
+Long;Longo
+Very Short;Muito Curto
+Very Long;Muito Longo
+Standalone;Independente
+<col=800000>None;<col=800000>Nenhum
+<str>lets me burn things less whenever I wish to cook there.;<str>me permite queimar menos coisas sempre que quero cozinhar lá.
+<col=ffff00>Kandarin Tasks;<col=ffff00>Tarefas de Kandarin
+<col=ff0000>QUEST COMPLETE!;<col=ff0000>MISSÃO CONCLUÍDA!
+<col=ffff00>Fremennik Tasks;<col=ffff00>Tarefas de Fremennik
+<col=000000>Catch a Cerulean twitch.<col=ffffff>(<col=800000>11 Hunter<col=000080><col=ffffff>);<col=000000>Capture uma Cerulean twitch.<col=ffffff>(<col=800000>11 Hunter<col=000080><col=ffffff>)

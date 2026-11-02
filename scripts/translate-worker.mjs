@@ -133,6 +133,7 @@ if (dryRun) {
 mkdirSync(dirname(outputFile), { recursive: true });
 
 let written = 0;
+let usedTokens = 0;
 
 for (let i = 0; i < todo.length; i += batchSize) {
 	const batch = todo.slice(i, i + batchSize);
@@ -165,7 +166,7 @@ for (let i = 0; i < todo.length; i += batchSize) {
 	console.log(`batch ${Math.ceil((i + 1) / batchSize)}/${batches}: ${lines.length}/${batch.length}`);
 }
 
-console.log(`wrote ${written} translations to ${outputFile}`);
+console.log(`wrote ${written} translations to ${outputFile} (${usedTokens} tokens)`);
 
 async function fetchPending(url, token, language) {
 	const response = await fetch(`${url}?limit=2000&type=interface&language=${encodeURIComponent(language)}`, {
@@ -273,6 +274,8 @@ async function requestTranslation(batch) {
 	}
 
 	const payload = await response.json();
+	usedTokens += payload.usage?.total_tokens ?? 0;
+
 	const finish = payload.choices?.[0]?.finish_reason;
 	if (finish && finish !== "stop") {
 		console.warn(`response cut off (${finish}), retrying the missing lines one by one`);

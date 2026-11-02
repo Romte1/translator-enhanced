@@ -59,3 +59,28 @@ I can start this quest by talking to <col=800000>Jamila<col=000080> at her stall
 <col=000000>Teleport to Waterbirth Island.<col=ffffff>(<col=800000>72 Magic<col=000080>, <col=800000>Lunar Diplomacy<col=000080><col=ffffff>);<col=000000>Teleportiere zu Waterbirth Island.<col=ffffff>(<col=800000>72 Magic<col=000080>, <col=800000>Lunar Diplomacy<col=000080><col=ffffff>)
 <col=000000>Obtain the Blast Furnace Foreman's permission to use the;<col=000000>Erhalte die Erlaubnis des Blast Furnace Foreman's, um zu benutzen
 <col=000000>Blast Furnace for free.<col=ffffff>(<col=800000>60 Smithing<col=000080>, <col=800000>Started The Giant Dwarf<col=000080><col=ffffff>);<col=000000>Blast Furnace kostenlos.<col=ffffff>(<col=800000>60 Smithing<col=000080>, <col=800000>Started The Giant Dwarf<col=000080><col=ffffff>)
+Difficulty:;Schwierigkeit:
+Length:;Länge:
+Storyline:;Handlungsstrang:
+Release Year:;Erscheinungsjahr:
+Requirements:;Voraussetzungen:
+Recommendations:;Empfehlungen:
+Novice;Anfänger
+Intermediate;Fortgeschritten
+Experienced;Erfahren
+Master;Meister
+Grandmaster;Großmeister
+Easy;Einfach
+Medium;Mittel
+Hard;Schwer
+Short;Kurz
+Long;Lang
+Very Short;Sehr kurz
+Very Long;Sehr lang
+Standalone;Eigenständig
+<col=800000>None;<col=800000>Keine
+<col=ffff00>Kandarin Tasks;<col=ffff00>Kandarin-Aufgaben
+<col=ff0000>QUEST COMPLETE!;<col=ff0000>QUEST ABGESCHLOSSEN!
+<col=ffff00>Fremennik Tasks;<col=ffff00>Fremennik-Aufgaben
+<col=ffffff>(<col=800000>The Fremennik Trials<col=000080>, <col=800000>Started Fairytale II - Cure a Queen<col=000080><col=ffffff>);<col=ffffff>(<col=800000>The Fremennik Trials<col=000080>, <col=800000>Gestartet Fairytale II - Cure a Queen<col=000080><col=ffffff>)
+<col=ffffff>(<col=800000>Horror from the Deep<col=000080>, <col=800000>Started The Fremennik Trials<col=000080><col=ffffff>);<col=ffffff>(<col=800000>Horror from the Deep<col=000080>, <col=800000>Gestartet The Fremennik Trials<col=000080><col=ffffff>)
