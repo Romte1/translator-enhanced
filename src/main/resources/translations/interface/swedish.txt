@@ -29,3 +29,29 @@ I can start this quest by talking to <col=800000>Captain Tock<col=000080> north 
 I can start this quest by talking to the <col=800000>Guildmaster<col=000080> in the <col=800000>Champions' Guild<col=000080>.;Jag kan starta det här uppdraget genom att prata med <col=800000>Guildmaster<col=000080> i <col=800000>Champions' Guild<col=000080>.
 I can start this quest by talking to the <col=800000>Goblin Generals<col=000080> in <col=800000>Goblin Village<col=000080>.;Jag kan starta det här uppdraget genom att prata med <col=800000>Goblin Generals<col=000080> i <col=800000>Goblin Village<col=000080>.
 I can start this quest by talking to <col=800000>Redbeard Frank<col=000080> on the <col=800000>Port Sarim<col=000080> docks.;Jag kan starta det här uppdraget genom att prata med <col=800000>Redbeard Frank<col=000080> på kajerna i <col=800000>Port Sarim<col=000080>.
+I can start this quest by talking to <col=800000>Rantz<col=000080> south east of <col=800000>Gu'Tanoth<col=000080>.;Jag kan starta det här uppdraget genom att prata med <col=800000>Rantz<col=000080> sydöst om <col=800000>Gu'Tanoth<col=000080>.
+I can start this quest by talking to <col=800000>Curator Haig Halen<col=000080> in the <col=800000>Varrock Museum<col=000080>.;Jag kan starta det här uppdraget genom att prata med <col=800000>Curator Haig Halen<col=000080> på <col=800000>Varrock Museum<col=000080>.
+I can start this quest by talking to <col=800000>Bill Teach<col=000080> in the <col=800000>Green Ghost Inn<col=000080> in <col=800000>Port Phasmatys<col=000080>.;Jag kan starta det här uppdraget genom att prata med <col=800000>Bill Teach<col=000080> på <col=800000>Green Ghost Inn<col=000080> i <col=800000>Port Phasmatys<col=000080>.
+I can start this quest by talking to <col=800000>Veronica<col=000080> south of <col=800000>Draynor Manor<col=000080>.;Jag kan starta det här uppdraget genom att prata med <col=800000>Veronica<col=000080> söder om <col=800000>Draynor Manor<col=000080>.
+I can start this quest by talking to <col=800000>Ava<col=000080> in <col=800000>Draynor Manor<col=000080>.;Jag kan starta det här uppdraget genom att prata med <col=800000>Ava<col=000080> i <col=800000>Draynor Manor<col=000080>.
+I can start this quest by talking to <col=800000>Ur-tag<col=000080> at his home in <col=800000>Dorgesh-Kaan<col=000080>.;Jag kan starta det här uppdraget genom att prata med <col=800000>Ur-tag<col=000080> hemma hos honom i <col=800000>Dorgesh-Kaan<col=000080>.
+I can start this quest by talking to <col=800000>Mori<col=000080> in <col=800000>Arceuus<col=000080>.;Jag kan starta det här uppdraget genom att prata med <col=800000>Mori<col=000080> i <col=800000>Arceuus<col=000080>.
+I can start this quest by talking to <col=800000>Guildmaster Apatura<col=000080> in the <col=800000>Hunter Guild<col=000080>.;Jag kan starta det här uppdraget genom att prata med <col=800000>Guildmaster Apatura<col=000080> i <col=800000>Hunter Guild<col=000080>.
+I started this quest by talking to the <col=800000>Cook<col=000080> in <col=800000>Lumbridge Castle<col=000080>.;Jag startade det här uppdraget genom att prata med <col=800000>Cook<col=000080> i <col=800000>Lumbridge Castle<col=000080>.
+I can start this quest by talking to <col=800000>Wizard Mizgog<col=000080> in the <col=800000>Wizards' Tower<col=000080>.;Jag kan starta det här uppdraget genom att prata med <col=800000>Wizard Mizgog<col=000080> i <col=800000>Wizards' Tower<col=000080>.
+I can start this quest by talking to <col=800000>Romeo<col=000080> in <col=800000>Varrock Square<col=000080>.;Jag kan starta det här uppdraget genom att prata med <col=800000>Romeo<col=000080> på <col=800000>Varrock Square<col=000080>.
+I can start this quest by talking to <col=800000>Cassius<col=000080> south of the <col=800000>Lumbridge Windmill<col=000080>.;Jag kan starta det här uppdraget genom att prata med <col=800000>Cassius<col=000080> söder om <col=800000>Lumbridge Windmill<col=000080>.
+I can start this quest by talking to <col=800000>Abigale<col=000080> by the shore in <col=800000>Lumbridge Swamp<col=000080>.;Jag kan starta det här uppdraget genom att prata med <col=800000>Abigale<col=000080> vid stranden i <col=800000>Lumbridge Swamp<col=000080>.
+I can start this quest by talking to <col=800000>Jamila<col=000080> at her stall in <col=800000>Sophanem<col=000080>.;Jag kan starta det här uppdraget genom att prata med <col=800000>Jamila<col=000080> vid hennes stånd i <col=800000>Sophanem<col=000080>.
+<col=800000>None;<col=800000>Inga
+<str>It was the Duke of Lumbridge's birthday, but his cook had;<str>Det var Duke of Lumbridges födelsedag, men hans kock hade
+<str>forgotten to buy the ingredients he needed to make him a;<str>glömt att köpa ingredienserna han behövde för att göra honom en
+<str>cake. I brought the cook an egg, some flour and some milk and;<str>cake. Jag tog med ett egg, lite flour och lite milk till kocken och
+<str>the cook made a delicious looking cake with them.;<str>kocken gjorde en cake som såg läcker ut av dem.
+<str>As a reward he now lets me use his high quality range which;<str>Som belöning låter han mig nu använda hans högkvalitativa spis som
+<str>lets me burn things less whenever I wish to cook there.;<str>gör att jag bränner saker mindre när jag vill laga mat där.
+<col=ffff00>Kandarin Tasks;<col=ffff00>Kandarin-uppdrag
+<col=ff0000>QUEST COMPLETE!;<col=ff0000>UPPDRAGET SLUTFÖRT!
+<col=ffff00>Fremennik Tasks;<col=ffff00>Fremennik-uppdrag
+<col=000000>Catch a Cerulean twitch.<col=ffffff>(<col=800000>11 Hunter<col=000080><col=ffffff>);<col=000000>Fånga en Cerulean twitch.<col=ffffff>(<col=800000>11 Hunter<col=000080><col=ffffff>)
+<col=000000>Change your boots at Yrsa's Shoe Store.<col=ffffff>(<col=800000>The Fremennik Trials<col=000080><col=ffffff>);<col=000000>Byt dina boots i Yrsa's Shoe Store.<col=ffffff>(<col=800000>The Fremennik Trials<col=000080><col=ffffff>)
