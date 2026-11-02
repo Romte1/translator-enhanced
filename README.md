@@ -71,8 +71,8 @@ Two limits, both by design:
 
 You do not have to wait for an update to fix a bad translation:
 
-1. Create `~/.runelite/translator/overrides/<language>.txt`, for example
-   `~/.runelite/translator/overrides/spanish.txt`.
+1. Create `~/.runelite/plugin-data/translator-enhanced/overrides/<language>.txt`, for example
+   `~/.runelite/plugin-data/translator-enhanced/overrides/spanish.txt`.
 2. Add one correction per line, in the same format as the translation files:
 
    ```

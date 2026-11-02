@@ -38,10 +38,12 @@ import net.runelite.client.eventbus.Subscribe;
 import net.runelite.client.events.ConfigChanged;
 import net.runelite.client.plugins.Plugin;
 import net.runelite.client.plugins.PluginDescriptor;
+import net.runelite.client.util.Filepath;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import javax.inject.Inject;
+import java.io.IOException;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ExecutorService;
@@ -56,7 +58,9 @@ import java.util.concurrent.atomic.AtomicInteger;
 @PluginDescriptor(
 	name = "Translator Enhanced",
 	description = "Translate OSRS dialogues, menus, items, NPCs, objects and journals",
-	tags = {"text", "language", "translate"}
+	tags = {"text", "language", "translate"},
+	internalName = "translator-enhanced",
+	legacyDataDirectory = "translator"
 )
 public class TranslatorPlugin extends Plugin
 {
@@ -89,6 +93,9 @@ public class TranslatorPlugin extends Plugin
 	@Inject
 	private WidgetTranslator widgetTranslator;
 
+	@Inject
+	private InterfaceTextCapture interfaceCapture;
+
 	private ExecutorService loader;
 
 	private ScheduledExecutorService collector;
@@ -108,6 +115,17 @@ public class TranslatorPlugin extends Plugin
 	{
 		loader = Executors.newFixedThreadPool(2, daemonThreads("translator-loader"));
 		collector = Executors.newSingleThreadScheduledExecutor(daemonThreads("translator-collector"));
+
+		try
+		{
+			Filepath directory = getPluginDirectory();
+			store.setDirectory(directory);
+			interfaceCapture.setDirectory(directory);
+		}
+		catch (IOException e)
+		{
+			log.warn("failed to prepare the plugin directory, local corrections are disabled", e);
+		}
 
 		store.setLanguage(config.selectLanguage());
 		api.setTextCaptureEnabled(config.enableTextCapture());

@@ -189,7 +189,7 @@ public interface TranslatorConfig extends Config
 		keyName = "captureInterfaceTexts",
 		name = "Capture untranslated",
 		description = "Save every journal text that has no reviewed translation to<br>" +
-			"<b>~/.runelite/translator/untranslated/&lt;language&gt;.txt</b> so it can be translated.",
+			"<b>~/.runelite/plugin-data/translator-enhanced/untranslated/&lt;language&gt;.txt</b> so it can be translated.",
 		position = 2,
 		section = JOURNALS_SECTION
 	)
@@ -222,7 +222,7 @@ public interface TranslatorConfig extends Config
 		keyName = "useLocalCorrections",
 		name = "Use corrections",
 		description = "Apply the corrections bundled with the plugin plus your own from<br>" +
-			"<b>~/.runelite/translator/overrides/&lt;language&gt;.txt</b>",
+			"<b>~/.runelite/plugin-data/translator-enhanced/overrides/&lt;language&gt;.txt</b>",
 		position = 1,
 		section = QUALITY_SECTION
 	)

@@ -1,18 +1,14 @@
 package com.translator;
 
-import net.runelite.client.RuneLite;
+import net.runelite.client.util.Filepath;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import javax.inject.Inject;
 import javax.inject.Singleton;
-import java.io.File;
+import java.io.BufferedReader;
 import java.io.IOException;
-import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
-import java.nio.file.Path;
 import java.nio.file.StandardOpenOption;
-import java.util.List;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 
@@ -24,7 +20,7 @@ import java.util.concurrent.ConcurrentHashMap;
  * names of NPCs, monsters and places that must stay in english, which is something an
  * automatic translation can not know.</p>
  *
- * <p>Output: {@code ~/.runelite/translator/untranslated/<language>.txt}, one
+ * <p>Output: {@code untranslated/<language>.txt} inside the plugin data directory, one
  * {@code english;} line per text, ready to be filled in and merged into
  * {@code src/main/resources/translations/interface/<language>.txt}.</p>
  */
@@ -33,21 +29,26 @@ class InterfaceTextCapture
 {
 	private static final Logger log = LoggerFactory.getLogger(InterfaceTextCapture.class);
 
-	private static final File OUTPUT_DIR = new File(RuneLite.RUNELITE_DIR, "translator/untranslated");
-
 	/**
 	 * {@code file + \u0000 + text} of everything already written or already present in the file,
 	 * so restarting the client does not duplicate the contribution file.
 	 */
 	private final Set<String> captured = ConcurrentHashMap.newKeySet();
 
-	private final Set<Path> loadedFiles = ConcurrentHashMap.newKeySet();
+	private final Set<Filepath> loadedFiles = ConcurrentHashMap.newKeySet();
+
+	private Filepath directory;
 
 	private boolean writeFailed;
 
 	@Inject
 	InterfaceTextCapture()
 	{
+	}
+
+	void setDirectory(Filepath directory)
+	{
+		this.directory = directory;
 	}
 
 	/**
@@ -59,12 +60,12 @@ class InterfaceTextCapture
 	 */
 	void capture(TranslatorConfig.Language language, String text)
 	{
-		if (text == null || text.isEmpty())
+		if (directory == null || text == null || text.isEmpty())
 		{
 			return;
 		}
 
-		Path file = new File(OUTPUT_DIR, language + ".txt").toPath();
+		Filepath file = directory.join("untranslated").join(language + ".txt");
 		String key = file + "\u0000" + text;
 
 		if (captured.contains(key) || !captured.add(key))
@@ -76,9 +77,8 @@ class InterfaceTextCapture
 
 		try
 		{
-			Files.createDirectories(OUTPUT_DIR.toPath());
-			Files.write(file, (text + ";\n").getBytes(StandardCharsets.UTF_8),
-				StandardOpenOption.CREATE, StandardOpenOption.APPEND);
+			file.getParent().createDirectories();
+			file.write(text + ";\n", StandardOpenOption.CREATE, StandardOpenOption.APPEND);
 		}
 		catch (IOException e)
 		{
@@ -93,17 +93,17 @@ class InterfaceTextCapture
 	/**
 	 * Reads the keys already present so they are not written again.
 	 */
-	private void loadExistingKeys(Path file)
+	private void loadExistingKeys(Filepath file)
 	{
-		if (!loadedFiles.add(file) || !Files.isRegularFile(file))
+		if (!loadedFiles.add(file) || !file.isFile())
 		{
 			return;
 		}
 
-		try
+		try (BufferedReader reader = file.openBufferedReader())
 		{
-			List<String> lines = Files.readAllLines(file, StandardCharsets.UTF_8);
-			for (String line : lines)
+			String line;
+			while ((line = reader.readLine()) != null)
 			{
 				if (line.isEmpty() || line.charAt(0) == '#')
 				{

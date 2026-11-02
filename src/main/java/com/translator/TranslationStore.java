@@ -1,20 +1,17 @@
 package com.translator;
 
-import net.runelite.client.RuneLite;
+import net.runelite.client.util.Filepath;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import javax.inject.Inject;
 import javax.inject.Singleton;
 import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.Reader;
 import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
@@ -38,7 +35,7 @@ import java.util.regex.PatternSyntaxException;
  * <ol>
  *   <li>dictionaries from {@code github.com/iolave/osrs-translations}</li>
  *   <li>corrections bundled with the plugin ({@code /translations/overrides/<lang>.txt})</li>
- *   <li>the user's own corrections ({@code ~/.runelite/translator/overrides/<lang>.txt})</li>
+ *   <li>the user's own corrections ({@code ~/.runelite/plugin-data/translator-enhanced/overrides/<lang>.txt})</li>
  * </ol>
  */
 @Singleton
@@ -58,11 +55,11 @@ class TranslationStore
 
 	private static final Pattern TAG = Pattern.compile("<[^>]*>");
 	private static final Pattern WHITESPACE = Pattern.compile("\\s+");
-	private static final File USER_OVERRIDES_DIR = new File(RuneLite.RUNELITE_DIR, "translator/overrides");
-	private static final File INTERFACE_CACHE_DIR = new File(RuneLite.RUNELITE_DIR, "translator/interface");
 
 	private final TranslatorAPI api;
 	private final TranslatorConfig config;
+
+	private Filepath directory;
 
 	private final Map<TranslationType, Map<String, String>> dictionaries = new ConcurrentHashMap<>();
 
@@ -111,6 +108,11 @@ class TranslationStore
 		dictionaries.clear();
 		patterns.clear();
 		reverse.clear();
+	}
+
+	void setDirectory(Filepath directory)
+	{
+		this.directory = directory;
 	}
 
 	boolean isLoaded(TranslationType type)
@@ -314,7 +316,7 @@ class TranslationStore
 
 	private void applyOnlineInterface(Map<String, String> dictionary, TranslatorConfig.Language language)
 	{
-		File cache = new File(INTERFACE_CACHE_DIR, language + ".txt");
+		Filepath cache = directory == null ? null : directory.join("interface").join(language + ".txt");
 
 		try
 		{
@@ -335,11 +337,11 @@ class TranslationStore
 		{
 			log.debug("failed to download interface translations, using the cached copy", e);
 
-			if (cache.isFile())
+			if (cache != null && cache.isFile())
 			{
-				try (InputStream in = new FileInputStream(cache))
+				try (InputStream in = cache.openInputStream())
 				{
-					readOverrides(dictionary, in, cache.getAbsolutePath());
+					readOverrides(dictionary, in, cache.toString());
 				}
 				catch (IOException ignored)
 				{
@@ -348,15 +350,20 @@ class TranslationStore
 		}
 	}
 
-	private static void writeCache(File file, Map<String, String> entries)
+	private static void writeCache(Filepath file, Map<String, String> entries)
 	{
+		if (file == null)
+		{
+			return;
+		}
+
 		StringBuilder builder = new StringBuilder();
 		entries.forEach((key, value) -> builder.append(key).append(';').append(value).append('\n'));
 
 		try
 		{
-			Files.createDirectories(file.getParentFile().toPath());
-			Files.write(file.toPath(), builder.toString().getBytes(StandardCharsets.UTF_8));
+			file.getParent().createDirectories();
+			file.write(builder.toString());
 		}
 		catch (IOException e)
 		{
@@ -376,12 +383,12 @@ class TranslationStore
 			TranslationStore.class.getResourceAsStream(String.format(BUNDLED_OVERRIDES, language)),
 			"bundled " + language);
 
-		File userFile = new File(USER_OVERRIDES_DIR, language + ".txt");
-		if (userFile.isFile())
+		Filepath userFile = directory == null ? null : directory.join("overrides").join(language + ".txt");
+		if (userFile != null && userFile.isFile())
 		{
-			try (InputStream in = new FileInputStream(userFile))
+			try (InputStream in = userFile.openInputStream())
 			{
-				applied += readOverrides(dictionary, in, userFile.getAbsolutePath());
+				applied += readOverrides(dictionary, in, userFile.toString());
 			}
 			catch (IOException e)
 			{
