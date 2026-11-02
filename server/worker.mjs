@@ -103,27 +103,33 @@ export default {
 
 				const body = await request.json();
 				const now = new Date().toISOString();
-				const statements = [];
+				const items = [];
 
 				for (const item of body?.items ?? []) {
 					const type = String(item?.type ?? "interface");
 					const text = String(item?.text ?? "");
 
-					if (text.length === 0) {
-						continue;
+					if (text.length > 0) {
+						items.push({ type, text, hash: await sha256(type + "\n" + text) });
 					}
-
-					statements.push(
-						env.DB
-							.prepare("INSERT OR REPLACE INTO translated (hash, at) VALUES (?, ?)")
-							.bind(await sha256(type + "\n" + text), now));
 				}
 
-				if (statements.length > 0) {
-					await env.DB.batch(statements);
+				let marked = 0;
+
+				for (let i = 0; i < items.length; i += 50) {
+					const chunk = items.slice(i, i + 50);
+					const marks = chunk.map(() => "?").join(",");
+
+					await env.DB
+						.prepare("INSERT OR IGNORE INTO translated (hash, at) " +
+							`SELECT hash, ? FROM texts WHERE hash IN (${marks})`)
+						.bind(now, ...chunk.map(item => item.hash))
+						.run();
+
+					marked += chunk.length;
 				}
 
-				return send(200, { marked: statements.length });
+				return send(200, { marked });
 			}
 
 			return send(404, { error: "not found" });

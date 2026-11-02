@@ -82,13 +82,17 @@ automatically**: the PR is reviewed.
 
 ## 4. Queue and PR automation
 
-`PENDING_URL` makes the worker read the aggregated queue instead of a local file, and after
-a successful run it marks those texts as translated so they never come back:
+`PENDING_URL` makes the worker read the aggregated queue instead of a local file:
 
 ```bash
 PENDING_URL=https://<server>/api/v1/pending \
 PENDING_TOKEN=... LLM_API_KEY=... node scripts/translate-worker.mjs spanish
 ```
+
+Marking is **never** done by the worker. A pull request can be reviewed, delayed or closed,
+so removing texts from the queue before the dictionary has them would lose them. Instead
+`.github/workflows/mark-translated.yml` runs after a merge to master and marks every key that
+is now in the dictionary. The server only accepts hashes that already exist in its queue.
 
 `.github/workflows/translate.yml` does the same on GitHub (manual or every Monday): fetch the
 queue, translate, merge, `./gradlew build`, open a rolling PR. CI validates duplicate keys,

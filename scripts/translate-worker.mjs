@@ -124,7 +124,6 @@ if (dryRun) {
 mkdirSync(dirname(outputFile), { recursive: true });
 
 let written = 0;
-const translatedKeys = [];
 
 for (let i = 0; i < todo.length; i += batchSize) {
 	const batch = todo.slice(i, i + batchSize);
@@ -137,7 +136,6 @@ for (let i = 0; i < todo.length; i += batchSize) {
 			return;
 		}
 		lines.push(`${batch[index]};${value}`);
-		translatedKeys.push(batch[index]);
 		warnTranslatedSkills(batch[index], value);
 	});
 
@@ -147,10 +145,6 @@ for (let i = 0; i < todo.length; i += batchSize) {
 }
 
 console.log(`wrote ${written} translations to ${outputFile}`);
-
-if (process.env.PENDING_URL && translatedKeys.length > 0) {
-	await markTranslated(process.env.PENDING_URL, process.env.PENDING_TOKEN, translatedKeys);
-}
 
 async function fetchPending(url, token) {
 	const response = await fetch(`${url}?limit=2000`, {
@@ -165,21 +159,6 @@ async function fetchPending(url, token) {
 	return (payload.texts ?? []).map(row => row.text).filter(text => typeof text === "string");
 }
 
-async function markTranslated(url, token, texts) {
-	const endpoint = url.replace(/\/pending$/, "/translated");
-	const response = await fetch(endpoint, {
-		method: "POST",
-		headers: {
-			"Content-Type": "application/json",
-			...(token ? { Authorization: `Bearer ${token}` } : {}),
-		},
-		body: JSON.stringify({ items: texts.map(text => ({ type: "interface", text })) }),
-	});
-
-	if (!response.ok) {
-		console.warn(`failed to mark translations: ${response.status}`);
-	}
-}
 
 function loadEnvFile(file) {
 	if (!existsSync(file)) {
