@@ -1193,3 +1193,10 @@ Type: <col=ffffff>Perfection</col> <col=dfdfdf>(+5 points)</col>;Tipo: <col=ffff
 <col=000000>without the use of Extracts.<col=ffffff>(<col=800000>59 Runecraft<col=000080>, <col=800000>Lost City<col=000080><col=ffffff>);<col=000000>sin usar Extracts.<col=ffffff>(<col=800000>59 Runecraft<col=000080>, <col=800000>Lost City<col=000080><col=ffffff>)
 Monster: <col=ffffff>Moons of Peril</col>;Monstruo: <col=ffffff>Moons of Peril</col>
 Total Points: 0 - Next unlock in 41 points;Puntos totales: 0 - Próximo desbloqueo en 41 puntos
+Trade with;Comerciar con
+Walk here;Camina aquí
+Description: <col=ffffff>Kill a Bloodveld.</col>;Descripción: <col=ffffff>Mata un Bloodveld.</col>
+Open wiki guide:;Abrir guía wiki:
+Open wiki quick guide:;Abrir guía rápida wiki:
+Read journal:;Leer diario:
+Show on map:;Mostrar en el mapa:
