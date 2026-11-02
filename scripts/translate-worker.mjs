@@ -152,7 +152,7 @@ for (let i = 0; i < todo.length; i += batchSize) {
 console.log(`wrote ${written} translations to ${outputFile}`);
 
 async function fetchPending(url, token, language) {
-	const response = await fetch(`${url}?limit=2000&language=${encodeURIComponent(language)}`, {
+	const response = await fetch(`${url}?limit=2000&type=interface&language=${encodeURIComponent(language)}`, {
 		headers: token ? { Authorization: `Bearer ${token}` } : {},
 	});
 
