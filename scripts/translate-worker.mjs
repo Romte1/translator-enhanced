@@ -71,6 +71,10 @@ const knownValues = new Set(
 		.map(line => normalize(line.slice(line.indexOf(";") + 1)))
 );
 
+const otherLanguageValues = language === "spanish"
+	? new Set()
+	: readValues("spanish");
+
 const localTexts = existsSync(inputFile)
 	? readLines(inputFile).map(line => line.slice(0, line.lastIndexOf(";")))
 	: [];
@@ -171,6 +175,16 @@ function readSeed(language) {
 		.filter(line => line.includes(";"))
 		.map(line => line.slice(0, line.indexOf(";")))
 		.filter(key => key.length > 0 && !key.startsWith("re:"));
+}
+
+function readValues(language) {
+	const file = join(root, "src", "main", "resources", "translations", "interface", `${language}.txt`);
+
+	return new Set(
+		readLines(file)
+			.filter(line => line.includes(";"))
+			.map(line => normalize(line.slice(line.indexOf(";") + 1)))
+	);
 }
 
 
@@ -347,6 +361,10 @@ function validate(source, translation) {
 	}
 
 	if (JSON.stringify(numbers(source)) !== JSON.stringify(numbers(translation))) {
+		return null;
+	}
+
+	if (language !== "spanish" && translation.length > 25 && otherLanguageValues.has(normalize(translation))) {
 		return null;
 	}
 

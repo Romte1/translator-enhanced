@@ -4,6 +4,10 @@ These rules are the contract for every reviewed translation: contributors, maint
 the automated first pass all apply the same checklist. `InterfaceDictionaryTest` enforces the
 mechanical parts (tags, numbers, placeholders, duplicates).
 
+They are language neutral: every text that is not a proper noun is translated **into the
+target language**, and the examples below are only about what is translated, not about the
+language of the output.
+
 ## Words that stay in English
 
 | Category | Examples |
@@ -18,34 +22,22 @@ mechanical parts (tags, numbers, placeholders, duplicates).
 Rule of thumb: if the word is a proper name in game (capitalised and referring to a unique
 entity), it is not translated.
 
-**Item names stay in English even inside a sentence.** A diary task says `Buy a candle from
-the Chandler`, not `Compra una vela`: `candle` is an item, exactly like `flax`, `coal`, `egg`,
+**Item names stay in English even inside a sentence.** `Buy a candle from the Chandler` keeps
+`candle`; only the surrounding words are translated. The same applies to `flax`, `coal`, `egg`,
 `flour`, `milk`, `cake`, `tea`, `stew`, `bass`, `mackerel`, `shark`, `Jute seeds`,
-`Limpwurt root`, `Maple logs`, `Stamina Mix`... The surrounding words are translated; the item
-noun is not.
-
-Examples:
-
-| English | Spanish |
-| --- | --- |
-| `I brought the cook an egg, some flour and some milk` | `Le llevé al cocinero un egg, algo de flour y algo de milk` |
-| `Buy a candle from the Chandler in Catherby.` | `Compra un candle al Chandler de Catherby.` |
-| `Mine some coal near the coal trucks.` | `Mina algo de coal cerca de los coal trucks.` |
-| `Buy a Stew from the Seers' pub.` | `Compra un Stew en el pub de los Seers.` |
+`Limpwurt root`, `Maple logs`, `Stamina Mix`...
 
 ## Words that are translated
 
-* descriptive sentences (`I can start this quest by talking to ...` -> `Puedo empezar esta misión hablando con ...`);
-* interface labels: `Difficulty:` -> `Dificultad:`, `Length:` -> `Duración:`,
-  `Storyline:` -> `Trama:`, `Release Year:` -> `Año de lanzamiento:`, `Requirements:` ->
-  `Requisitos:`, `Recommendations:` -> `Recomendaciones:`, `Show on Map` -> `Mostrar en el mapa`;
+* descriptive sentences (`I can start this quest by talking to ...` keeps the structure, with
+  the translated verbs);
+* interface labels: `Difficulty:`, `Length:`, `Storyline:`, `Release Year:`, `Requirements:`,
+  `Recommendations:`, `Show on Map`;
 * tiers: `Easy/Medium/Hard/Elite`, `Novice/Intermediate/Experienced/Master/Grandmaster`,
   `Short/Long/Very Short/Very Long`;
-* generic words in headings: `Tasks` -> `Tareas`.
-* generic nouns: `quest` -> `misión`, `miniquest` -> `minimisión`, `task` -> `tarea`.
-  The **name** of a quest or miniquest stays in English (`Bone Voyage`), the generic word does
-  not: `I can start this miniquest by talking to ...` -> `Puedo empezar esta minimisión
-  hablando con ...`.
+* generic words in headings: `Tasks`, `Description`, `Type`;
+* generic nouns: `quest`, `miniquest`, `task`. The **name** of a quest or miniquest stays in
+  English (`Bone Voyage`), the generic word does not.
 
 ## Structure (enforced by tests)
 
@@ -54,21 +46,17 @@ Examples:
 2. Keep every number that appears in the original.
 3. `re:` entries keep their `$1`, `$2` placeholders and must not add new groups.
 4. A paragraph split across several widgets is translated **line by line**, without adding or
-   removing line breaks. Example (Cook's Assistant journal):
-
-   ```
-   <str>It was the Duke of Lumbridge's birthday, but his cook had
-   <str>forgotten to buy the ingredients he needed to make him a
-   ```
-
+   removing line breaks.
 5. Keys are exact: leading/trailing spaces, punctuation and capitalisation included.
 
 ## Style
 
-* Neutral Spanish; avoid regionalisms where possible.
-* Diary tasks use imperative: `Pesca`, `Compra`, `Recoge`, `Planta`, `Mata`.
+* Neutral, natural language for the target locale; avoid regionalisms.
+* Diary tasks use the imperative form of the target language.
 * Keep sentences short: the interface wraps at a fixed width.
 * Do not add information that is not in the original.
+* The output is written **only in the target language**. English is kept for the proper nouns
+  above, and nothing else.
 
 ## Automated first pass (prompt template)
 
@@ -98,5 +86,6 @@ The output is reviewed before merging; it is never committed automatically.
 - [ ] tags identical
 - [ ] numbers identical
 - [ ] no new/removed line breaks
-- [ ] reads naturally in Spanish
+- [ ] written entirely in the target language
+- [ ] reads naturally
 - [ ] `./gradlew build` passes
