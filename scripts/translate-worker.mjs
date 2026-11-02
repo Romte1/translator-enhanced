@@ -136,7 +136,19 @@ let written = 0;
 
 for (let i = 0; i < todo.length; i += batchSize) {
 	const batch = todo.slice(i, i + batchSize);
-	const translated = await translateBatch(batch);
+	let translated;
+
+	try {
+		translated = await translateBatch(batch);
+	} catch (e) {
+		if (String(e.message).includes("tokens per day")) {
+			console.warn("daily token limit reached, keeping the results written so far");
+			break;
+		}
+
+		throw e;
+	}
+
 	const lines = [];
 
 	translated.forEach((value, index) => {
@@ -221,7 +233,7 @@ async function requestTranslation(batch) {
 		{
 			model,
 			temperature: 0,
-			max_tokens: Math.min(budget, 600 + batch.length * 150),
+			max_tokens: Math.min(budget, 200 + batch.length * 70),
 			messages: [
 				{
 					role: "system",

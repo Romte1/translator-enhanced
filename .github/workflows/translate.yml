@@ -53,7 +53,8 @@ jobs:
           PENDING_URL: ${{ vars.PENDING_URL }}
           PENDING_TOKEN: ${{ secrets.PENDING_TOKEN }}
           SEED_FROM: spanish
-          LIMIT: 120
+          LIMIT: 60
+          BATCH_SIZE: 30
         run: node scripts/translate-worker.mjs "${{ matrix.language }}"
 
       - name: Merge
