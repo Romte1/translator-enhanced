@@ -31,13 +31,15 @@ class TranslatorAPI
 
 	private static final String TRANSLATIONS_URL =
 		"https://raw.githubusercontent.com/iolave/osrs-translations/refs/heads/master/%s/%s.txt";
+	private static final String INTERFACE_URL =
+		"https://raw.githubusercontent.com/Romte1/translator-enhanced/refs/heads/master/"
+			+ "src/main/resources/translations/interface/%s.txt";
+	private static final String DATA_COLLECTION_URL =
+		"https://translator-enhanced-collection.ivan-ni224.workers.dev/api/v1/data-collection";
 	private static final MediaType JSON = MediaType.parse("application/json; charset=utf-8");
 
 	@Inject
 	private OkHttpClient client;
-
-	@Inject
-	private TranslatorConfig config;
 
 	private final Set<String> collectedTexts = ConcurrentHashMap.newKeySet();
 
@@ -47,7 +49,7 @@ class TranslatorAPI
 	{
 		if (type == TranslationType.INTERFACE)
 		{
-			return downloadFrom(config.interfaceTranslationsUrl().replace("{language}", lang.toString()));
+			return downloadFrom(String.format(INTERFACE_URL, lang));
 		}
 
 		return downloadFrom(String.format(TRANSLATIONS_URL, lang, type.fileName()));
@@ -97,9 +99,7 @@ class TranslatorAPI
 
 	void flushCollectedTexts() throws IOException
 	{
-		String url = config.dataCollectionUrl();
-
-		if (!textCaptureEnabled || collectedTexts.isEmpty() || url == null || url.trim().isEmpty())
+		if (!textCaptureEnabled || collectedTexts.isEmpty())
 		{
 			return;
 		}
@@ -129,7 +129,7 @@ class TranslatorAPI
 		Request request = new Request.Builder()
 			.header("Content-Type", "application/json")
 			.method("POST", RequestBody.create(JSON, body.toString()))
-			.url(url)
+			.url(DATA_COLLECTION_URL)
 			.build();
 
 		try (Response response = client.newCall(request).execute())

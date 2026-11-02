@@ -8,7 +8,6 @@ The plugin is a separate project now: **Translator Enhanced**, with its own conf
 GitHub -> Settings -> Repository name: `translator-enhanced`. GitHub keeps redirects from
 the old URL, but update the references anyway:
 
-* `General -> Dictionary URL` (already points at `Romte1/translator-enhanced`);
 * `.github/workflows/translate.yml` has no repository name;
 * `README.md` badges and links.
 
@@ -65,10 +64,11 @@ an independent entry.
 
 When the PR is merged the plugin appears in the hub and users install it like any other. The
 hub keeps a pinned commit, so **translation data still updates without a release** through
-`General -> Dictionary URL`; the pin only affects code.
+the dictionary address; the pin only affects code.
 
 ## 5. After the first release
 
 * Keep the `master` branch buildable: the hub rebuilds from the pinned commit.
 * Bump `version` in `build.gradle` for code changes.
 * Open a new hub PR with the new commit to update the pin.
+

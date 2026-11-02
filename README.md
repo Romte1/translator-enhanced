@@ -110,8 +110,8 @@ player opens a journal
 * **Nothing ships unreviewed.** The worker only proposes; the pull request is reviewed and
   CI validates tags, numbers, placeholders and duplicates.
 * **Data and code are separate.** The dictionary is bundled as a fallback and also
-  downloaded from `General -> Dictionary URL`, so translation changes do not need a plugin
-  release; only code changes do.
+  downloaded from the project repository (a fixed address, not a user setting), so
+  translation changes do not need a plugin release; only code changes do.
 
 Details: [docs/translations.md](docs/translations.md),
 [docs/translation-rules.md](docs/translation-rules.md) and
@@ -123,8 +123,6 @@ Details: [docs/translations.md](docs/translations.md),
 | --- | --- | --- |
 | General | Language | Spanish |
 | General | Enable text capture (opt-in) | off |
-| General | Collection server | empty |
-| General | Dictionary URL | this repository |
 | Menus | Menu options | **on** |
 | Menus | NPC names | off |
 | Menus | Item names | off |

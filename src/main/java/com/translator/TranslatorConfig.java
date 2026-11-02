@@ -79,33 +79,6 @@ public interface TranslatorConfig extends Config
 		return false;
 	}
 
-	@ConfigItem(
-		keyName = "dataCollectionUrl",
-		name = "Collection server",
-		description = "Endpoint that receives the texts without a translation.<br>" +
-			"Empty disables the upload.",
-		position = 3,
-		section = GENERAL_SECTION
-	)
-	default String dataCollectionUrl()
-	{
-		return "";
-	}
-
-	@ConfigItem(
-		keyName = "interfaceTranslationsUrl",
-		name = "Dictionary URL",
-		description = "Where the journals dictionary is downloaded from.<br>" +
-			"{language} is replaced with the selected language.",
-		position = 4,
-		section = GENERAL_SECTION
-	)
-	default String interfaceTranslationsUrl()
-	{
-		return "https://raw.githubusercontent.com/Romte1/translator-enhanced/refs/heads/master/"
-			+ "src/main/resources/translations/interface/{language}.txt";
-	}
-
 	@ConfigSection(
 		position = 2,
 		name = "Menus",

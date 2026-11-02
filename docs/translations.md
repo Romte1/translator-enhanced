@@ -104,8 +104,8 @@ bundled ──► online dictionary ──► user overrides ──► aliases
                 │ fails: cached copy in ~/.runelite/translator/interface/
 ```
 
-`General -> Dictionary URL` decides where it comes from (`{language}` is replaced). Use a
-repository that all clients share, not a personal fork:
+The address is a constant in `TranslatorAPI`, maintained by the project, not a user setting.
+It points at the repository every client shares, not at a personal machine:
 
 * the canonical home for this data is a public translations repository
   (`iolave/osrs-translations` already hosts the menu and dialogue files), or
