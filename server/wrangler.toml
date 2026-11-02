@@ -1,0 +1,8 @@
+name = "translator-enhanced-collection"
+main = "worker.mjs"
+compatibility_date = "2025-01-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "translator-enhanced"
+database_id = "REPLACE_WITH_THE_ID_PRINTED_BY_WRANGLER"

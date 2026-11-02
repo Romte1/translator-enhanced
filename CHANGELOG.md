@@ -5,6 +5,38 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v2.0.0] - 2026-11-01
+
+First release as an independent plugin, **Translator Enhanced**, based on Translator 1.4.0
+by iolave.
+
+### Added
+- Reviewed Spanish dictionary for quest journals, achievement diaries and combat
+  achievements (nearly a thousand entries), bundled with the plugin and downloadable at
+  runtime.
+- Diary requirements are preserved and the journal list is re-laid out: long tasks wrap, the
+  empty requirement widgets collapse and the scroll reaches the last tier.
+- General -> Dictionary URL: the dictionary is downloaded on start, so translation updates
+  no longer need a plugin release.
+- scripts/translate-worker.mjs: LLM first pass with the project rules, reviewed examples
+  and mechanical validation of tags, numbers and placeholders.
+- scripts/merge-translations.mjs and server/: a collection service that aggregates the
+  texts every client sees and marks them as translated once handled.
+- .github/workflows/translate.yml: scheduled or manual run that opens a pull request.
+- Tests for the dictionary, the parsers and the menu target.
+
+### Changed
+- Menus are translated at render time (MenuOpened / BeforeMenuRender) instead of
+  MenuEntryAdded, so Menu Entry Swapper keeps its ordering.
+- Journal texts are matched ignoring colour tags and line breaks, so a task keeps its
+  translation when the game rewraps it.
+- Config group is 	ranslator-enhanced; Java 11; logging follows the RuneLite guidelines.
+
+### Removed
+- Real-time machine translation (pi.datpmt.com, Google fallback), chat message
+  translation and the options that enabled them.
+- The interface inspector and the debug options that relied on reflection.
+
 ## [v1.3.0] - 2026-01-20
 
 ### Added

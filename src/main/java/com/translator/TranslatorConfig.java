@@ -24,11 +24,16 @@
  */
 package com.translator;
 
-import net.runelite.client.config.*;
+import net.runelite.client.config.Config;
+import net.runelite.client.config.ConfigGroup;
+import net.runelite.client.config.ConfigItem;
+import net.runelite.client.config.ConfigSection;
 
-@ConfigGroup("translator")
-public interface TranslatorConfig extends Config {
-	enum Language{
+@ConfigGroup("translator-enhanced")
+public interface TranslatorConfig extends Config
+{
+	enum Language
+	{
 		finnish,
 		french,
 		german,
@@ -38,113 +43,230 @@ public interface TranslatorConfig extends Config {
 		swedish,
 		dutch
 	}
-	@ConfigSection(
-		position = 1,
-		name = "General configuration",
-		description = "General plugin configuration"
-	)
-	String generalConfigSection = "generalConfig";
+
+	String GENERAL_SECTION = "general";
+	String MENUS_SECTION = "menus";
+	String TEXT_SECTION = "text";
+	String JOURNALS_SECTION = "journals";
+	String QUALITY_SECTION = "quality";
+
+	@ConfigSection(position = 1, name = "General", description = "Language and data collection")
+	String general = GENERAL_SECTION;
 
 	@ConfigItem(
 		keyName = "SelectLanguage",
 		name = "Language",
-		description = "Select target language",
+		description = "Language to translate to",
 		position = 1,
-		section = generalConfigSection
+		section = GENERAL_SECTION
 	)
-	default Language selectLanguage() {
+	default Language selectLanguage()
+	{
 		return Language.spanish;
 	}
 
 	@ConfigItem(
 		keyName = "enableOSRSTextCollection",
 		name = "Enable text capture",
-		description = "If enabled, OSRS game texts will be captured in order to improve and have a more complete translation system (dialogues, guides, npc names).\n"+
-			"We highly suggest to enable this option so you can contribute to the plugin.",
-		warning = "Enabling this feature submits your IP address to a 3rd-party server not controlled or verified by Runelite developers.",
+		description = "Sends texts that have no translation yet to the project API so they can be added.<br>" +
+			"Opt-in: nothing is sent unless you enable this.",
+		warning = "This feature submits your IP address to a 3rd-party server not controlled or verified by RuneLite developers",
 		position = 2,
-		section = generalConfigSection
+		section = GENERAL_SECTION
 	)
-	default boolean enableTextCapture() {
+	default boolean enableTextCapture()
+	{
 		return false;
+	}
+
+	@ConfigItem(
+		keyName = "dataCollectionUrl",
+		name = "Collection server",
+		description = "Endpoint that receives the texts without a translation.<br>" +
+			"Empty disables the upload.",
+		position = 3,
+		section = GENERAL_SECTION
+	)
+	default String dataCollectionUrl()
+	{
+		return "";
+	}
+
+	@ConfigItem(
+		keyName = "interfaceTranslationsUrl",
+		name = "Dictionary URL",
+		description = "Where the journals dictionary is downloaded from.<br>" +
+			"{language} is replaced with the selected language.",
+		position = 4,
+		section = GENERAL_SECTION
+	)
+	default String interfaceTranslationsUrl()
+	{
+		return "https://raw.githubusercontent.com/Romte1/translator-enhanced/refs/heads/master/"
+			+ "src/main/resources/translations/interface/{language}.txt";
 	}
 
 	@ConfigSection(
 		position = 2,
-		name = "Static translations",
-		description = "Translate using files from the github.com/iolave/osrs-translations repository"
+		name = "Menus",
+		description = "What to translate inside right click menus"
 	)
-	String staticTranslations = "staticTranslations";
+	String menus = MENUS_SECTION;
 
 	@ConfigItem(
-		keyName = "translateWidgets",
-		name = "Chatbox: Translate dialogues",
-		description = "Translate chat box dialogues",
+		keyName = "translateMenuOptions",
+		name = "Menu options",
+		description = "Translate the action itself: Talk-to, Examine, Bank, Walk here...",
 		position = 1,
-		section = staticTranslations
+		section = MENUS_SECTION
 	)
-	default boolean translateWidgets() {
+	default boolean translateMenuOptions()
+	{
 		return true;
 	}
 
 	@ConfigItem(
-		keyName = "translateWidgetsOptions",
-		name = "Chatbox: Translate dialogues options",
-		description = "Translate chatbox dialogue options (messes with quest helper)",
+		keyName = "translateNpcNames",
+		name = "NPC names",
+		description = "Translate names of NPCs and monsters.<br>" +
+			"Other players and guides use the english names.",
 		position = 2,
-		section = staticTranslations
+		section = MENUS_SECTION
 	)
-	default boolean translateWidgetsOptions() {
+	default boolean translateNpcNames()
+	{
+		return false;
+	}
+
+	@ConfigItem(
+		keyName = "translateItemNames",
+		name = "Item names",
+		description = "Translate names of items, in the inventory and on the ground.<br>" +
+			"Trading and guides use the english names.",
+		position = 3,
+		section = MENUS_SECTION
+	)
+	default boolean translateItemNames()
+	{
+		return false;
+	}
+
+	@ConfigItem(
+		keyName = "translateObjectNames",
+		name = "Object names",
+		description = "Translate names of scenery and objects.<br>" +
+			"Guides use the english names.",
+		position = 4,
+		section = MENUS_SECTION
+	)
+	default boolean translateObjectNames()
+	{
+		return false;
+	}
+
+	@ConfigSection(position = 3, name = "Text", description = "Dialogues and messages")
+	String text = TEXT_SECTION;
+
+	@ConfigItem(
+		keyName = "translateDialogues",
+		name = "Chatbox: dialogues",
+		description = "Translate the NPC and player dialogue lines",
+		position = 1,
+		section = TEXT_SECTION
+	)
+	default boolean translateDialogues()
+	{
 		return true;
 	}
 
 	@ConfigItem(
-		keyName = "translateMenuEntries",
-		name = "Menu: Translate entries",
-		description = "Translate menu entries like (Walk here, Use, Rub, etc)",
-		position = 3,
-		section = staticTranslations
+		keyName = "translateDialogueOptions",
+		name = "Chatbox: dialogue options",
+		description = "Translate the clickable answers of a dialogue.<br>" +
+			"Plugins that pick answers for you match the english text.",
+		position = 2,
+		section = TEXT_SECTION
 	)
-	default boolean translateMenuEntries() {
-		return true;
+	default boolean translateDialogueOptions()
+	{
+		return false;
 	}
 
 	@ConfigSection(
 		position = 4,
-		name = "Real-time translations",
-		description = "Translate texts within OSRS in real-time"
+		name = "Journals",
+		description = "Quest journal, achievement diaries and combat achievements"
 	)
-	String realtimeTranslations = "realtimeTranslations";
+	String journals = JOURNALS_SECTION;
 
 	@ConfigItem(
-		keyName = "enableRealtimeTranslations",
-		name = "Enable real-time translations",
-		description = "Enable this plugin to do translations in real-time",
-		warning = "Enabling this feature submits your IP address to a 3rd-party server not controlled or verified by Runelite developers.",
-		position = 1,
-		section = realtimeTranslations
-	)
-	default boolean enableRealtimeTranslations() {
-		return false;
-	}
-	@ConfigItem(
 		keyName = "translateQuestGuide",
-		name = "Journals: Translate quest guides",
-		description = "Translate quest guide journals in real time",
-		position = 2,
-		section = realtimeTranslations
+		name = "Translate journals",
+		description = "Translate the quest journal, achievement diaries and combat achievements<br>" +
+			"with the reviewed translations that ship with the plugin.",
+		position = 1,
+		section = JOURNALS_SECTION
 	)
-	default boolean translateQuestGuide() {
+	default boolean translateQuestGuide()
+	{
 		return true;
 	}
+
 	@ConfigItem(
-		keyName = "translateChatBox",
-		name = "Chatbox: Translate messages",
-		description = "Translate chat box messages in real time",
-		position = 3,
-		section = realtimeTranslations
+		keyName = "captureInterfaceTexts",
+		name = "Capture untranslated",
+		description = "Save every journal text that has no reviewed translation to<br>" +
+			"<b>~/.runelite/translator/untranslated/&lt;language&gt;.txt</b> so it can be translated.",
+		position = 2,
+		section = JOURNALS_SECTION
 	)
-	default boolean translateChatBox() {
+	default boolean captureInterfaceTexts()
+	{
+		return false;
+	}
+
+	@ConfigItem(
+		keyName = "useOnlineInterfaceTranslations",
+		name = "Download translations",
+		description = "Keep the journals dictionary updated without a plugin update.<br>" +
+			"Turn it off while editing the bundled file locally.",
+		position = 3,
+		section = JOURNALS_SECTION
+	)
+	default boolean useOnlineInterfaceTranslations()
+	{
+		return true;
+	}
+
+	@ConfigSection(
+		position = 5,
+		name = "Translation quality",
+		description = "Corrections applied on top of the downloaded translations"
+	)
+	String quality = QUALITY_SECTION;
+
+	@ConfigItem(
+		keyName = "useLocalCorrections",
+		name = "Use corrections",
+		description = "Apply the corrections bundled with the plugin plus your own from<br>" +
+			"<b>~/.runelite/translator/overrides/&lt;language&gt;.txt</b>",
+		position = 1,
+		section = QUALITY_SECTION
+	)
+	default boolean useLocalCorrections()
+	{
+		return true;
+	}
+
+	@ConfigItem(
+		keyName = "reloadTranslations",
+		name = "Reload translations",
+		description = "Download the translation files again",
+		position = 2,
+		section = QUALITY_SECTION
+	)
+	default boolean reloadTranslations()
+	{
 		return false;
 	}
 }

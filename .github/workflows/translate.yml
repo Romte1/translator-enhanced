@@ -1,0 +1,68 @@
+name: Translate pending texts
+
+on:
+  workflow_dispatch:
+    inputs:
+      language:
+        description: Language to translate to
+        required: false
+        default: spanish
+  schedule:
+    - cron: "0 6 * * 1"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 11
+
+      - name: Check API key
+        env:
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+        run: |
+          if [ -z "$LLM_API_KEY" ]; then
+            echo "::error::Set the LLM_API_KEY repository secret"
+            exit 1
+          fi
+
+      - name: Translate
+        env:
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
+          LLM_MODEL: ${{ vars.LLM_MODEL }}
+          PENDING_URL: ${{ vars.PENDING_URL }}
+          PENDING_TOKEN: ${{ secrets.PENDING_TOKEN }}
+        run: node scripts/translate-worker.mjs "${{ inputs.language || 'spanish' }}"
+
+      - name: Merge
+        run: node scripts/merge-translations.mjs "${{ inputs.language || 'spanish' }}"
+
+      - name: Validate
+        run: ./gradlew build --console=plain
+
+      - name: Open pull request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: Translate pending interface texts
+          title: "Translations: pending interface texts"
+          body: |
+            Machine first pass generated with `scripts/translate-worker.mjs`.
+
+            The build validates tags, numbers, placeholders and duplicates, but the wording
+            still needs a review before merging.
+          branch: translations/pending
+          delete-branch: true

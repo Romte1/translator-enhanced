@@ -1,0 +1,15 @@
+CREATE TABLE IF NOT EXISTS texts (
+	hash TEXT PRIMARY KEY,
+	type TEXT NOT NULL,
+	text TEXT NOT NULL,
+	count INTEGER NOT NULL DEFAULT 0,
+	first TEXT NOT NULL,
+	last TEXT NOT NULL
+);
+
+CREATE INDEX IF NOT EXISTS texts_by_count ON texts(count DESC);
+
+CREATE TABLE IF NOT EXISTS translated (
+	hash TEXT PRIMARY KEY,
+	at TEXT NOT NULL
+);

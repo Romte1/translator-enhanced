@@ -1,200 +1,146 @@
 package com.translator;
 
-import com.google.gson.*;
-import okhttp3.*;
-import org.apache.commons.text.StringEscapeUtils;
+import com.google.gson.JsonArray;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonPrimitive;
+import okhttp3.MediaType;
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.RequestBody;
+import okhttp3.Response;
+import okhttp3.ResponseBody;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
-import java.io.*;
-import java.net.URLEncoder;
-import java.nio.charset.StandardCharsets;
-import java.util.HashMap;
-import java.util.HashSet;
-import javax.annotation.Nullable;
 import javax.inject.Inject;
 import javax.inject.Singleton;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.Reader;
+import java.nio.charset.StandardCharsets;
+import java.util.Map;
+import java.util.Set;
+import java.util.concurrent.ConcurrentHashMap;
 
 @Singleton
-class TranslatorAPI {
-	enum TranslationFileType {
-		dialogue,
-		npc,
-		item,
-		object,
-		menu_entry_option
-	}
+class TranslatorAPI
+{
+	private static final Logger log = LoggerFactory.getLogger(TranslatorAPI.class);
 
-	/**
-	 * An HTTP Client to access the Google Translate API.
-	 */
+	private static final String TRANSLATIONS_URL =
+		"https://raw.githubusercontent.com/iolave/osrs-translations/refs/heads/master/%s/%s.txt";
+	private static final MediaType JSON = MediaType.parse("application/json; charset=utf-8");
+
 	@Inject
 	private OkHttpClient client;
+
 	@Inject
 	private TranslatorConfig config;
-	private final HashSet<String> collectedGameText = new HashSet<>();
-	private final String baseURL = "https://runelite-translator-api-production.up.railway.app";
 
-	/**
-	 * Send collected dialogues to the runelite-translator-api.
-	 */
-	void sendCollectedGameText() throws Exception {
-		if (!config.enableTextCapture()) {
+	private final Set<String> collectedTexts = ConcurrentHashMap.newKeySet();
+
+	private volatile boolean textCaptureEnabled;
+
+	Map<String, String> download(TranslationType type, TranslatorConfig.Language lang) throws IOException
+	{
+		if (type == TranslationType.INTERFACE)
+		{
+			return downloadFrom(config.interfaceTranslationsUrl().replace("{language}", lang.toString()));
+		}
+
+		return downloadFrom(String.format(TRANSLATIONS_URL, lang, type.fileName()));
+	}
+
+	private Map<String, String> downloadFrom(String url) throws IOException
+	{
+		Request request = new Request.Builder()
+			.method("GET", null)
+			.url(url)
+			.build();
+
+		try (Response response = client.newCall(request).execute())
+		{
+			ResponseBody responseBody = response.body();
+			if (response.code() != 200 || responseBody == null)
+			{
+				throw new IOException("failed to download " + url + ", status " + response.code());
+			}
+
+			try (InputStream in = responseBody.byteStream();
+				 Reader reader = new InputStreamReader(in, StandardCharsets.UTF_8))
+			{
+				return TranslationStore.parse(reader);
+			}
+		}
+	}
+
+	void setTextCaptureEnabled(boolean enabled)
+	{
+		textCaptureEnabled = enabled;
+		if (!enabled)
+		{
+			collectedTexts.clear();
+		}
+	}
+
+	void collect(TranslationType type, String text)
+	{
+		if (!textCaptureEnabled || text == null || text.isEmpty())
+		{
 			return;
 		}
 
-		if (collectedGameText.isEmpty()) {
+		collectedTexts.add(type.fileName() + ";" + text);
+	}
+
+	void flushCollectedTexts() throws IOException
+	{
+		String url = config.dataCollectionUrl();
+
+		if (!textCaptureEnabled || collectedTexts.isEmpty() || url == null || url.trim().isEmpty())
+		{
 			return;
 		}
 
 		JsonArray body = new JsonArray();
-		for (String gt : collectedGameText) {
-			String[] gtSplitted = gt.split(";");
-			if (gtSplitted.length < 2) {
+		for (String entry : collectedTexts)
+		{
+			int separator = entry.indexOf(';');
+			if (separator <= 0 || separator == entry.length() - 1)
+			{
 				continue;
 			}
-			JsonPrimitive type = new JsonPrimitive(gtSplitted[0]);
-			JsonElement text = new JsonPrimitive(gt.replace(String.format("%s;",gtSplitted[0]), ""));
 
-			JsonObject obj = new JsonObject();
-			obj.add("type", type);
-			obj.add("text", text);
-
-			body.add(obj);
+			JsonObject object = new JsonObject();
+			object.add("type", new JsonPrimitive(entry.substring(0, separator)));
+			JsonElement text = new JsonPrimitive(entry.substring(separator + 1));
+			object.add("text", text);
+			body.add(object);
 		}
 
-		MediaType JSON = MediaType.parse("application/json; charset=utf-8");
-		RequestBody rb = RequestBody.create(JSON, body.toString());
+		if (body.size() == 0)
+		{
+			collectedTexts.clear();
+			return;
+		}
 
-		Request req = new Request.Builder()
+		Request request = new Request.Builder()
 			.header("Content-Type", "application/json")
-			.method("POST", rb)
-			.url(String.format("%s/api/v1/data-collection", baseURL))
+			.method("POST", RequestBody.create(JSON, body.toString()))
+			.url(url)
 			.build();
 
-		Response response = client.newCall(req).execute();
-		if (response.code() != 200) {
-			response.close();
-			throw new Exception("failed to send collected game text, got status " + response.code());
-		}
-		response.close();
-
-		collectedGameText.clear();
-	}
-
-	void collectGameTextData(
-		TranslationFileType type,
-		String text
-	) {
-		collectedGameText.add(String.format("%s;%s", type, text));
-	}
-
-	HashMap<String, String> getTranslationMap(
-		TranslationFileType type,
-		TranslatorConfig.Language lang
-	) throws Exception {
-		InputStream in;
-		String url = buildTranslationFileURL(type, lang);
-
-		try {
-			Request req = new Request.Builder()
-				.method("GET", null)
-				.url(url)
-				.build();
-
-			Response response = client.newCall(req).execute();
-			if (response.code() != 200) {
-				response.close();
-				throw new Exception("failed to download translation file, got status " + response.code());
-			}
-			ResponseBody body = response.body();
-			if (body == null) {
-				throw new Exception("got null body");
-			}
-
-			in = body.byteStream();
-		} catch (IOException e) {
-			String msg = String.format("failed to download %s translation for %s", lang, type);
-			throw new Exception(msg, e);
-		}
-
-		HashMap<String,String> map = parseCSV(in, ";");
-		in.close();
-		return map;
-	}
-
-	private HashMap<String, String> parseCSV(InputStream in, String delimiter) throws Exception {
-		HashMap<String, String> words = new HashMap<>();
-		BufferedReader br = new BufferedReader(new InputStreamReader(in));
-		String line;
-		while ((line = br.readLine()) != null) {
-			String[] temp = line.split(delimiter);
-			if (temp.length > 1) {
-				words.put(temp[0], temp[1]);
+		try (Response response = client.newCall(request).execute())
+		{
+			if (response.code() != 200)
+			{
+				throw new IOException("failed to send collected texts, got status " + response.code());
 			}
 		}
 
-		return words;
-	}
-
-	private String buildTranslationFileURL(
-		TranslationFileType type,
-		TranslatorConfig.Language lang
-	) {
-		return String.format(
-			"https://raw.githubusercontent.com/iolave/osrs-translations/refs/heads/master/%s/%s.txt",
-			lang,
-			type
-		);
-	}
-
-	@Nullable public String translate(
-		TranslatorConfig.Language target,
-		String text
-	) throws Exception {
-		if (!config.enableRealtimeTranslations()) {
-			return null;
-		}
-
-		String to = null;
-		switch (target) {
-			case dutch: to = "nl"; break;
-			case french: to = "fr"; break;
-			case german: to = "de"; break;
-			case finnish: to = "fi"; break;
-			case italian: to = "it"; break;
-			case spanish: to = "es"; break;
-			case swedish: to = "sv"; break;
-			case portuguese: to = "pt"; break;
-			// ADD MISSING SUPPORTED LANGUAGES HERE
-			default:
-				throw new Exception("language " + target + " not supported yet");
-		}
-		Request req = new Request.Builder()
-			.method("GET", null)
-			.url(String.format(
-				"https://api.datpmt.com/api/v2/dictionary/translate?from_lang=en&to_lang=%s&string=%s",
-				to,
-				URLEncoder.encode(text,"utf-8")
-			))
-			.build();
-
-		Response response = client.newCall(req).execute();
-		if (response.code() != 200) {
-			response.close();
-			throw new Exception("failed to translate game text, got status " + response.code());
-		}
-
-		ResponseBody body = response.body();
-		if (body == null) {
-			throw new Exception("got null body from translator");
-		}
-
-		String translated =new String(body.bytes(), StandardCharsets.UTF_8);
-		response.close();
-
-		if (translated.startsWith("\"") && translated.endsWith("\"")) {
-			translated = translated.substring(1, translated.length()-1);
-		}
-
-		return StringEscapeUtils.unescapeJava(translated);
+		collectedTexts.clear();
+		log.debug("sent {} collected texts", body.size());
 	}
 }
