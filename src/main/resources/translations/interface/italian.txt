@@ -1,0 +1,61 @@
+
+Description: <col=ffffff>Kill a Bloodveld.</col>;Descrizione: <col=ffffff>Uccidi un Bloodveld.</col>
+I can start this quest by talking to <col=800000>Sir Amik Varze<col=000080> in the <col=800000>White Knights' Castle<col=000080>.;Posso iniziare questa quest parlando con <col=800000>Sir Amik Varze<col=000080> nel <col=800000>White Knights' Castle<col=000080>.
+Show on Map;Mostra sulla mappa
+I can start this quest by talking to <col=800000>Elena<col=000080> at her home in northern <col=800000>East Ardougne<col=000080>.;Posso iniziare questa quest parlando con <col=800000>Elena<col=000080> a casa sua nel nord di <col=800000>East Ardougne<col=000080>.
+I can start this quest by talking to <col=800000>Willow<col=000080> on the path south of <col=800000>Ice Mountain<col=000080>.;Posso iniziare questa quest parlando con <col=800000>Willow<col=000080> sul sentiero a sud di <col=800000>Ice Mountain<col=000080>.
+I can start this quest by talking to <col=800000>Doric<col=000080> at his home north of <col=800000>Falador<col=000080>.;Posso iniziare questa quest parlando con <col=800000>Doric<col=000080> a casa sua a nord di <col=800000>Falador<col=000080>.
+I can start this quest by talking to <col=800000>Aris<col=000080> in her tent in <col=800000>Varrock Square<col=000080>.;Posso iniziare questa quest parlando con <col=800000>Aris<col=000080> nella sua tenda in <col=800000>Varrock Square<col=000080>.
+I can start this quest by talking to <col=800000>Captain Tock<col=000080> north of <col=800000>Port Sarim<col=000080>.;Posso iniziare questa quest parlando con <col=800000>Captain Tock<col=000080> a nord di <col=800000>Port Sarim<col=000080>.
+I can start this quest by talking to the <col=800000>Guildmaster<col=000080> in the <col=800000>Champions' Guild<col=000080>.;Posso iniziare questa quest parlando con il <col=800000>Guildmaster<col=000080> nella <col=800000>Champions' Guild<col=000080>.
+I can start this quest by talking to the <col=800000>Goblin Generals<col=000080> in <col=800000>Goblin Village<col=000080>.;Posso iniziare questa quest parlando con i <col=800000>Goblin Generals<col=000080> in <col=800000>Goblin Village<col=000080>.
+I can start this quest by talking to <col=800000>Redbeard Frank<col=000080> on the <col=800000>Port Sarim<col=000080> docks.;Posso iniziare questa quest parlando con <col=800000>Redbeard Frank<col=000080> sui moli di <col=800000>Port Sarim<col=000080>.
+I can start this quest by talking to <col=800000>Rantz<col=000080> south east of <col=800000>Gu'Tanoth<col=000080>.;Posso iniziare questa quest parlando con <col=800000>Rantz<col=000080> a sud‑est di <col=800000>Gu'Tanoth<col=000080>.
+I can start this quest by talking to <col=800000>Curator Haig Halen<col=000080> in the <col=800000>Varrock Museum<col=000080>.;Posso iniziare questa quest parlando con <col=800000>Curator Haig Halen<col=000080> nel <col=800000>Varrock Museum<col=000080>.
+I can start this quest by talking to <col=800000>Bill Teach<col=000080> in the <col=800000>Green Ghost Inn<col=000080> in <col=800000>Port Phasmatys<col=000080>.;Posso iniziare questa quest parlando con <col=800000>Bill Teach<col=000080> nel <col=800000>Green Ghost Inn<col=000080> a <col=800000>Port Phasmatys<col=000080>.
+I can start this quest by talking to <col=800000>Veronica<col=000080> south of <col=800000>Draynor Manor<col=000080>.;Posso iniziare questa quest parlando con <col=800000>Veronica<col=000080> a sud di <col=800000>Draynor Manor<col=000080>.
+I can start this quest by talking to <col=800000>Ava<col=000080> in <col=800000>Draynor Manor<col=000080>.;Posso iniziare questa quest parlando con <col=800000>Ava<col=000080> in <col=800000>Draynor Manor<col=000080>.
+I can start this quest by talking to <col=800000>Ur-tag<col=000080> at his home in <col=800000>Dorgesh-Kaan<col=000080>.;Posso iniziare questa quest parlando con <col=800000>Ur-tag<col=000080> a casa sua in <col=800000>Dorgesh-Kaan<col=000080>.
+I can start this quest by talking to <col=800000>Mori<col=000080> in <col=800000>Arceuus<col=000080>.;Posso iniziare questa quest parlando con <col=800000>Mori<col=000080> in <col=800000>Arceuus<col=000080>.
+I can start this quest by talking to <col=800000>Guildmaster Apatura<col=000080> in the <col=800000>Hunter Guild<col=000080>.;Posso iniziare questa quest parlando con <col=800000>Guildmaster Apatura<col=000080> nella <col=800000>Hunter Guild<col=000080>.
+I started this quest by talking to the <col=800000>Cook<col=000080> in <col=800000>Lumbridge Castle<col=000080>.;Ho iniziato questa quest parlando con il <col=800000>Cook<col=000080> in <col=800000>Lumbridge Castle<col=000080>.
+I can start this quest by talking to <col=800000>Wizard Mizgog<col=000080> in the <col=800000>Wizards' Tower<col=000080>.;Posso iniziare questa quest parlando con <col=800000>Wizard Mizgog<col=000080> nella <col=800000>Wizards' Tower<col=000080>.
+I can start this quest by talking to <col=800000>Romeo<col=000080> in <col=800000>Varrock Square<col=000080>.;Posso iniziare questa quest parlando con <col=800000>Romeo<col=000080> in <col=800000>Varrock Square<col=000080>.
+I can start this quest by talking to <col=800000>Cassius<col=000080> south of the <col=800000>Lumbridge Windmill<col=000080>.;Posso iniziare questa quest parlando con <col=800000>Cassius<col=000080> a sud del <col=800000>Lumbridge Windmill<col=000080>.
+I can start this quest by talking to <col=800000>Abigale<col=000080> by the shore in <col=800000>Lumbridge Swamp<col=000080>.;Posso iniziare questa quest parlando con <col=800000>Abigale<col=000080> sulla riva in <col=800000>Lumbridge Swamp<col=000080>.
+I can start this quest by talking to <col=800000>Jamila<col=000080> at her stall in <col=800000>Sophanem<col=000080>.;Posso iniziare questa quest parlando con <col=800000>Jamila<col=000080> al suo banco in <col=800000>Sophanem<col=000080>.
+<str>It was the Duke of Lumbridge's birthday, but his cook had;<str>Era il compleanno del Duca di Lumbridge, ma il suo cuoco aveva
+<str>forgotten to buy the ingredients he needed to make him a;<str>dimenticato di comprare gli ingredienti necessari per preparargli una
+<str>cake. I brought the cook an egg, some flour and some milk and;<str>torta. Ho portato al cuoco un uovo, della farina e del latte e
+<str>the cook made a delicious looking cake with them.;<str>il cuoco ha preparato una torta dall’aspetto delizioso con essi.
+<str>As a reward he now lets me use his high quality range which;<str>Come ricompensa ora mi permette di usare il suo forno di alta qualità.
+<str>lets me burn things less whenever I wish to cook there.;<str>mi permette di bruciare meno le cose quando voglio cucinare lì.
+<col=000000>Catch a Cerulean twitch.<col=ffffff>(<col=800000>11 Hunter<col=000080><col=ffffff>);<col=000000>Cattura un Cerulean twitch.<col=ffffff>(<col=800000>11 Hunter<col=000080><col=ffffff>)
+<col=000000>Change your boots at Yrsa's Shoe Store.<col=ffffff>(<col=800000>The Fremennik Trials<col=000080><col=ffffff>);<col=000000>Cambia gli stivali al negozio di scarpe di Yrsa.<col=ffffff>(<col=800000>The Fremennik Trials<col=000080><col=ffffff>)
+<col=000000>Kill 5 Rock crabs.;<col=000000>Uccidi 5 granchi di roccia.
+<col=000000>Craft a tiara from scratch in Rellekka.;<col=000000>Crea una tiara da zero a Rellekka.
+<col=000000>Browse the Stonemasons shop.<col=ffffff>(<col=800000>Started The Giant Dwarf<col=000080><col=ffffff>);<col=000000>Sfoglia il negozio dei muratori.<col=ffffff>(<col=800000>Started The Giant Dwarf<col=000080><col=ffffff>)
+<col=000000>Collect 5 Snape grass on Waterbirth Island.;<col=000000>Raccogli 5 erba Snape sull'Isola Waterbirth.
+<col=000000>Steal from the Keldagrim crafting or baker's stall.;<col=000000>Ruba dallo stand di artigianato o del fornaio di Keldagrim.
+<col=000000>Fill a bucket with water at the Rellekka well.;<col=000000>Riempi un secchio d'acqua al pozzo di Rellekka.
+<col=000000>Enter the Troll Stronghold.<col=ffffff>(<col=800000>Death Plateau<col=000080>, <col=800000>Started Troll Stronghold<col=000080><col=ffffff>);<col=000000>Entra nella Fortezza dei Troll.<col=ffffff>(<col=800000>Death Plateau<col=000080>, <col=800000>Started Troll Stronghold<col=000080><col=ffffff>)
+<col=000000>Chop and burn some oak logs in the Fremennik Province.;<col=000000>Taglia e brucia alcuni tronchi di quercia nella Provincia Fremennik.
+<col=000000>Slay a Brine rat.<col=ffffff>(<col=800000>47 Slayer<col=000080>, <col=800000>Started Olaf's Quest<col=000080><col=ffffff>);<col=000000>Uccidi un ratto di Salamoia.<col=ffffff>(<col=800000>47 Slayer<col=000080>, <col=800000>Started Olaf's Quest<col=000080><col=ffffff>)
+<col=000000>Travel to the Snowy Hunter Area via Eagle.<col=ffffff>(<col=800000>Eagles' Peak<col=000080><col=ffffff>);<col=000000>Viaggia all'Area di Caccia Nevosa via Aquila.<col=ffffff>(<col=800000>Eagles' Peak<col=000080><col=ffffff>)
+<col=000000>Mine some coal in Rellekka.<col=ffffff>(<col=800000>30 Mining<col=000080>, <col=800000>The Fremennik Trials<col=000080><col=ffffff>);<col=000000>Estrai del carbone a Rellekka.<col=ffffff>(<col=800000>30 Mining<col=000080>, <col=800000>The Fremennik Trials<col=000080><col=ffffff>)
+<col=000000>Steal from the Rellekka Fish stalls.<col=ffffff>(<col=800000>42 Thieving<col=000080>, <col=800000>The Fremennik Trials<col=000080><col=ffffff>);<col=000000>Ruba dallo stand di pesci di Rellekka.<col=ffffff>(<col=800000>42 Thieving<col=000080>, <col=800000>The Fremennik Trials<col=000080><col=ffffff>)
+<col=000000>Travel to Miscellania by Fairy ring.;<col=000000>Viaggia a Miscellania tramite anello fatato.
+<col=000000>Catch a Snowy knight.<col=ffffff>(<col=800000>35 Hunter<col=000080><col=ffffff>);<col=000000>Cattura un cavaliere nevoso.<col=ffffff>(<col=800000>35 Hunter<col=000080><col=ffffff>)
+<col=000000>Pick up your Pet Rock from your POH Menagerie.;<col=000000>Ritira il tuo Pet Rock dalla Menagerie della tua POH.
+<col=000000>Visit the Lighthouse from Waterbirth island.;<col=000000>Visita il Faro dall'isola Waterbirth.
+<col=000000>Mine some gold at the Arzinian mine.;<col=000000>Estrai dell'oro nella miniera Arzinian.
+<col=000000>Teleport to Trollheim.<col=ffffff>(<col=800000>61 Magic<col=000080>, <col=800000>Eadgar's Ruse<col=000080><col=ffffff>);<col=000000>Teletrasporto a Trollheim.<col=ffffff>(<col=800000>61 Magic<col=000080>, <col=800000>Eadgar's Ruse<col=000080><col=ffffff>)
+<col=000000>Catch a Sabre-toothed Kyatt.<col=ffffff>(<col=800000>55 Hunter<col=000080><col=ffffff>);<col=000000>Cattura un Sabre-toothed Kyatt.<col=ffffff>(<col=800000>55 Hunter<col=000080><col=ffffff>)
+<col=000000>Mix a super defence potion in the Fremennik province.;<col=000000>Prepara una super defence potion nella provincia di Fremennik.
+<col=000000>Steal from the Keldagrim Gem Stall.;<col=000000>Ruba dallo stand di gemme di Keldagrim.
+<col=000000>Craft a Neitiznot shield on Neitiznot.;<col=000000>Crea uno scudo di Neitiznot a Neitiznot.
+<col=000000>Mine 5 Adamantite ores on Jatizso.<col=ffffff>(<col=800000>70 Mining<col=000080>, <col=800000>The Fremennik Isles<col=000080><col=ffffff>);<col=000000>Estrai 5 Adamantite ores a Jatizso.<col=ffffff>(<col=800000>70 Mining<col=000080>, <col=800000>The Fremennik Isles<col=000080><col=ffffff>)
+<col=000000>Obtain 100% support from your kingdom subjects.;<col=000000>Ottieni il 100% di supporto dai sudditi del tuo regno.
+<col=000000>Teleport to Waterbirth Island.<col=ffffff>(<col=800000>72 Magic<col=000080>, <col=800000>Lunar Diplomacy<col=000080><col=ffffff>);<col=000000>Teletrasporta a Waterbirth Island.<col=ffffff>(<col=800000>72 Magic<col=000080>, <col=800000>Lunar Diplomacy<col=000080><col=ffffff>)
+<col=000000>Obtain the Blast Furnace Foreman's permission to use the;<col=000000>Ottieni il permesso del Blast Furnace Foreman per usare il
+<col=000000>Blast Furnace for free.<col=ffffff>(<col=800000>60 Smithing<col=000080>, <col=800000>Started The Giant Dwarf<col=000080><col=ffffff>);<col=000000>Fornace a getto gratis.<col=ffffff>(<col=800000>60 Smithing<col=000080>, <col=800000>Started The Giant Dwarf<col=000080><col=ffffff>)
