@@ -47,25 +47,15 @@ export default {
 
 				for (let i = 0; i < items.length; i += 50) {
 					const chunk = items.slice(i, i + 50);
-					const marks = chunk.map(() => "?").join(",");
-					const done = await env.DB
-						.prepare(`SELECT hash FROM translated WHERE hash IN (${marks})`)
-						.bind(...chunk.map(item => item.hash))
-						.all();
-					const known = new Set((done.results ?? []).map(row => row.hash));
 
-					const statements = chunk
-						.filter(item => !known.has(item.hash))
-						.map(item => env.DB
-							.prepare(
-								"INSERT INTO texts (hash, type, text, count, first, last) VALUES (?, ?, ?, 1, ?, ?) " +
-								"ON CONFLICT(hash) DO UPDATE SET count = texts.count + 1, last = excluded.last")
-							.bind(item.hash, item.type, item.text, now, now));
+					const statements = chunk.map(item => env.DB
+						.prepare(
+							"INSERT INTO texts (hash, type, text, count, first, last) VALUES (?, ?, ?, 1, ?, ?) " +
+							"ON CONFLICT(hash) DO UPDATE SET count = texts.count + 1, last = excluded.last")
+						.bind(item.hash, item.type, item.text, now, now));
 
-					if (statements.length > 0) {
-						await env.DB.batch(statements);
-						received += statements.length;
-					}
+					await env.DB.batch(statements);
+					received += statements.length;
 				}
 
 				return send(200, { received });
