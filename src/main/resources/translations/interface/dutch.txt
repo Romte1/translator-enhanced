@@ -28,3 +28,28 @@ I can start this quest by talking to <col=800000>Captain Tock<col=000080> north 
 I can start this quest by talking to the <col=800000>Guildmaster<col=000080> in the <col=800000>Champions' Guild<col=000080>.;Ik kan deze opdracht starten door te praten met de <col=800000>Guildmaster<col=000080> in het <col=800000>Champions' Guild<col=000080>.
 I can start this quest by talking to the <col=800000>Goblin Generals<col=000080> in <col=800000>Goblin Village<col=000080>.;Ik kan deze opdracht starten door te praten met de <col=800000>Goblin Generals<col=000080> in <col=800000>Goblin Village<col=000080>.
 I can start this quest by talking to <col=800000>Redbeard Frank<col=000080> on the <col=800000>Port Sarim<col=000080> docks.;Ik kan deze opdracht starten door te praten met <col=800000>Redbeard Frank<col=000080> op de kade van <col=800000>Port Sarim<col=000080>.
+I can start this quest by talking to <col=800000>Rantz<col=000080> south east of <col=800000>Gu'Tanoth<col=000080>.;Ik kan deze opdracht starten door met <col=800000>Rantz<col=000080> te praten, ten zuidoosten van <col=800000>Gu'Tanoth<col=000080>.
+I can start this quest by talking to <col=800000>Curator Haig Halen<col=000080> in the <col=800000>Varrock Museum<col=000080>.;Ik kan deze opdracht starten door met <col=800000>Curator Haig Halen<col=000080> te praten in het <col=800000>Varrock Museum<col=000080>.
+I can start this quest by talking to <col=800000>Bill Teach<col=000080> in the <col=800000>Green Ghost Inn<col=000080> in <col=800000>Port Phasmatys<col=000080>.;Ik kan deze opdracht starten door met <col=800000>Bill Teach<col=000080> te praten in de <col=800000>Green Ghost Inn<col=000080> in <col=800000>Port Phasmatys<col=000080>.
+I can start this quest by talking to <col=800000>Veronica<col=000080> south of <col=800000>Draynor Manor<col=000080>.;Ik kan deze opdracht starten door met <col=800000>Veronica<col=000080> te praten, ten zuiden van <col=800000>Draynor Manor<col=000080>.
+I can start this quest by talking to <col=800000>Ava<col=000080> in <col=800000>Draynor Manor<col=000080>.;Ik kan deze opdracht starten door met <col=800000>Ava<col=000080> te praten in <col=800000>Draynor Manor<col=000080>.
+I can start this quest by talking to <col=800000>Ur-tag<col=000080> at his home in <col=800000>Dorgesh-Kaan<col=000080>.;Ik kan deze opdracht starten door met <col=800000>Ur-tag<col=000080> te praten bij hem thuis in <col=800000>Dorgesh-Kaan<col=000080>.
+I can start this quest by talking to <col=800000>Mori<col=000080> in <col=800000>Arceuus<col=000080>.;Ik kan deze opdracht starten door met <col=800000>Mori<col=000080> te praten in <col=800000>Arceuus<col=000080>.
+I can start this quest by talking to <col=800000>Guildmaster Apatura<col=000080> in the <col=800000>Hunter Guild<col=000080>.;Ik kan deze opdracht starten door met <col=800000>Guildmaster Apatura<col=000080> te praten in de <col=800000>Hunter Guild<col=000080>.
+I started this quest by talking to the <col=800000>Cook<col=000080> in <col=800000>Lumbridge Castle<col=000080>.;Ik ben deze opdracht begonnen door met de <col=800000>Cook<col=000080> te praten in <col=800000>Lumbridge Castle<col=000080>.
+I can start this quest by talking to <col=800000>Wizard Mizgog<col=000080> in the <col=800000>Wizards' Tower<col=000080>.;Ik kan deze opdracht starten door met <col=800000>Wizard Mizgog<col=000080> te praten in de <col=800000>Wizards' Tower<col=000080>.
+I can start this quest by talking to <col=800000>Romeo<col=000080> in <col=800000>Varrock Square<col=000080>.;Ik kan deze opdracht starten door met <col=800000>Romeo<col=000080> te praten in <col=800000>Varrock Square<col=000080>.
+I can start this quest by talking to <col=800000>Cassius<col=000080> south of the <col=800000>Lumbridge Windmill<col=000080>.;Ik kan deze opdracht starten door met <col=800000>Cassius<col=000080> te praten, ten zuiden van de <col=800000>Lumbridge Windmill<col=000080>.
+I can start this quest by talking to <col=800000>Abigale<col=000080> by the shore in <col=800000>Lumbridge Swamp<col=000080>.;Ik kan deze opdracht starten door met <col=800000>Abigale<col=000080> te praten aan de kust in <col=800000>Lumbridge Swamp<col=000080>.
+I can start this quest by talking to <col=800000>Jamila<col=000080> at her stall in <col=800000>Sophanem<col=000080>.;Ik kan deze opdracht starten door met <col=800000>Jamila<col=000080> te praten bij haar kraam in <col=800000>Sophanem<col=000080>.
+<col=800000>None;<col=800000>Geen
+<str>It was the Duke of Lumbridge's birthday, but his cook had;<str>Het was de verjaardag van de Duke of Lumbridge, maar zijn kok was
+<str>forgotten to buy the ingredients he needed to make him a;<str>vergeten de ingrediënten te kopen die hij nodig had om een
+<str>cake. I brought the cook an egg, some flour and some milk and;<str>cake te maken. Ik bracht de kok een egg, wat flour en wat milk en
+<str>the cook made a delicious looking cake with them.;<str>de kok maakte daarmee een heerlijk uitziende cake.
+<str>As a reward he now lets me use his high quality range which;<str>Als beloning mag ik nu zijn hoogwaardige fornuis gebruiken, dat
+<str>lets me burn things less whenever I wish to cook there.;<str>waardoor ik minder laat aanbranden wanneer ik daar wil koken.
+<col=ffff00>Kandarin Tasks;<col=ffff00>Kandarin Taken
+<col=ff0000>QUEST COMPLETE!;<col=ff0000>OPDRACHT VOLTOOID!
+<col=ffff00>Fremennik Tasks;<col=ffff00>Fremennik Taken
+<col=000000>Catch a Cerulean twitch.<col=ffffff>(<col=800000>11 Hunter<col=000080><col=ffffff>);<col=000000>Vang een Cerulean twitch.<col=ffffff>(<col=800000>11 Hunter<col=000080><col=ffffff>)
