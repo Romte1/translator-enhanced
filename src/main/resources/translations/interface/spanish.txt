@@ -1063,3 +1063,133 @@ Type: <col=ffffff>Kill Count</col> <col=dfdfdf>(+5 points)</col>;Tipo: <col=ffff
 Type: <col=ffffff>Perfection</col> <col=dfdfdf>(+1 point)</col>;Tipo: <col=ffffff>Perfección</col> <col=dfdfdf>(+1 punto)</col>
 Type: <col=ffffff>Perfection</col> <col=dfdfdf>(+4 points)</col>;Tipo: <col=ffffff>Perfección</col> <col=dfdfdf>(+4 puntos)</col>
 Type: <col=ffffff>Perfection</col> <col=dfdfdf>(+5 points)</col>;Tipo: <col=ffffff>Perfección</col> <col=dfdfdf>(+5 puntos)</col>
+<col=000000>Altar in Sophanem.;<col=000000>Altar en Sophanem.
+<col=000000>amulet that was imbued there.;<col=000000>amuleto que fue imbuido allí.
+<col=000000>Bake a wild pie at the Nardah Clay Oven.;<col=000000>Hornea una wild pie en el Nardah Clay Oven.
+<col=000000>Bake some Bread on the Lumbridge kitchen range.<col=ffffff>(<col=000080><str>Cook's Assistant</str><col=ffffff>);<col=000000>Hornea un Bread en la cocina de Lumbridge.<col=ffffff>(<col=000080><str>Cook's Assistant</str><col=ffffff>)
+<col=000000>Burn some Maple logs with a bow in Seers' Village.;<col=000000>Quema algunos Maple logs con un arco en Seers' Village.
+<col=000000>Burn some yew logs on the Nardah Mayor's balcony.;<col=000000>Quema algunos yew logs en el balcón del Nardah Mayor.
+<col=000000>cage.;<col=000000>jaula.
+<col=000000>Cast the Ardougne Teleport spell.;<col=000000>Lanza el hechizo Ardougne Teleport.
+<col=000000>Catch a karambwan.;<col=000000>Atrapa un karambwan.
+<col=000000>Catch a Leaping Sturgeon.;<col=000000>Atrapa un Leaping Sturgeon.
+<col=000000>Catch a Mackerel at Catherby.;<col=000000>Atrapa un Mackerel en Catherby.
+<col=000000>Catch a Red Salamander.;<col=000000>Atrapa un Red Salamander.
+<col=000000>Catch a swamp lizard.<col=ffffff>(<col=800000>29 Hunter<col=000080><col=ffffff>);<col=000000>Atrapa un swamp lizard.<col=ffffff>(<col=800000>29 Hunter<col=000080><col=ffffff>)
+<col=000000>Catch an Orange Salamander.;<col=000000>Atrapa un Orange Salamander.
+<col=000000>Catch and cook a Bass in Catherby.;<col=000000>Atrapa y cocina un Bass en Catherby.
+<col=000000>Catch any fish on the Fishing Platform.;<col=000000>Atrapa cualquier pez en la Fishing Platform.
+<col=000000>Catch some Anchovies in Al Kharid.<col=ffffff>(<col=800000>15 Fishing<col=000080><col=ffffff>);<col=000000>Atrapa algunos Anchovies en Al Kharid.<col=ffffff>(<col=800000>15 Fishing<col=000080><col=ffffff>)
+<col=000000>Catherby shore.;<col=000000>Catherby playa.
+<col=000000>Change your family crest to the Saradomin symbol.;<col=000000>Cambia tu escudo familiar al símbolo de Saradomin.
+<col=000000>Charge a Water Orb.;<col=000000>Carga un Water Orb.
+<col=000000>Check the health of a palm tree in Brimhaven.;<col=000000>Comprueba la salud de una palmera en Brimhaven.
+<col=000000>Check the health of a Palm tree near tree gnome village.;<col=000000>Comprueba la salud de una palmera cerca de tree gnome village.
+<col=000000>Check the health of your Calquat tree patch.;<col=000000>Comprueba la salud de tu Calquat tree patch.
+<col=000000>Chop some Mahogany logs north of the Farming Guild.</col><col=ffffff>(<col=800000>50 Woodcutting<col=000080><col=ffffff>);<col=000000>Corta algunos Mahogany logs al norte de Farming Guild.</col><col=ffffff>(<col=800000>50 Woodcutting<col=000080><col=ffffff>)
+<col=000000>Chop some Redwood logs.</col><col=ffffff>(<col=800000>90 Woodcutting<col=000080><col=ffffff>);<col=000000>Corta algunos Redwood logs.</col><col=ffffff>(<col=800000>90 Woodcutting<col=000080><col=ffffff>)
+<col=000000>Chop some Teak logs near Uzer.;<col=000000>Corta algunos Teak logs cerca de Uzer.
+<col=000000>Claim a ticket from the Agility Arena in Brimhaven.;<col=000000>Reclama un ticket del Agility Arena en Brimhaven.
+<col=000000>Climb over the western Falador wall.;<col=000000>Escala el muro occidental de Falador.
+<col=000000>Climb the stairs within Brimhaven Dungeon.;<col=000000>Sube las escaleras dentro de Brimhaven Dungeon.
+<col=000000>Climb to the summit of the Agility Pyramid.;<col=000000>Escala hasta la cima de la Agility Pyramid.
+<col=000000>Collect 5 palm leaves.;<col=000000>Recoge 5 palm leaves.
+<col=000000>Collect some Nightshade from the Skavid Caves.;<col=000000>Recoge Nightshade de las Skavid Caves.
+<col=000000>Complete a lap of Ardougne's rooftop agility course.;<col=000000>Completa una vuelta al curso de agilidad en la azotea de Ardougne.
+<col=000000>Complete a lap of the Falador rooftop agility course.;<col=000000>Completa una vuelta al curso de agilidad en la azotea de Falador.
+<col=000000>Complete a lap of the Pollnivneach agility course.;<col=000000>Completa una vuelta al curso de agilidad en Pollnivneach.
+<col=000000>Complete a lap of the Seers' Village agility course.;<col=000000>Completa una vuelta al curso de agilidad en Seers' Village.
+<col=000000>Cook a karambwan thoroughly.;<col=000000>Cocina un karambwan bien.
+<col=000000>Cook a spider on a stick.;<col=000000>Cocina un spider en un stick.
+<col=000000>Cook a thin Snail on the Port Phasmatys range.<col=ffffff>(<col=800000>12 Cooking<col=000080><col=ffffff>);<col=000000>Cocina un thin Snail en el range de Port Phasmatys.<col=ffffff>(<col=800000>12 Cooking<col=000080><col=ffffff>)
+<col=000000>Crack a wall safe within Rogues Den.;<col=000000>Abre una wall safe dentro de Rogues Den.
+<col=000000>Craft a fruit basket on the Falador Farm loom.;<col=000000>Crea un fruit basket en el loom de Falador Farm.
+<col=000000>Craft any Snelm from scratch in Morytania.<col=ffffff>(<col=800000>15 Crafting<col=000080><col=ffffff>);<col=000000>Crea cualquier Snelm desde cero en Morytania.<col=ffffff>(<col=800000>15 Crafting<col=000080><col=ffffff>)
+<col=000000>Craft some nature runes from Essence.;<col=000000>Crea algunas nature runes a partir de Essence.
+<col=000000>Craft some water runes from Essence.<col=ffffff>(<col=800000>5 Runecraft<col=000080><col=ffffff>);<col=000000>Crea algunas water runes a partir de Essence.<col=ffffff>(<col=800000>5 Runecraft<col=000080><col=ffffff>)
+<col=000000>Create a combat potion in the desert.;<col=000000>Crea una combat potion en el desierto.
+<col=000000>Create a Mind helmet.;<col=000000>Crea un Mind helmet.
+<col=000000>Create a Mithril Platebody in Nardah.;<col=000000>Crea un Mithril Platebody en Nardah.
+<col=000000>Create a Strength potion in the Lovakengj Pub.</col><col=ffffff>(<col=800000>12 Herblore<col=000080><col=ffffff>);<col=000000>Crea un Strength potion en el Lovakengj Pub.</col><col=ffffff>(<col=800000>12 Herblore<col=000080><col=ffffff>)
+<col=000000>Create an Ape Atoll teleport tablet.</col><col=ffffff>(<col=800000>90 Magic<col=000080>, <col=800000>38 Mining<col=000080>, <col=800000>38 Crafting<col=000080><col=ffffff>);<col=000000>Crea un Ape Atoll teleport tablet.</col><col=ffffff>(<col=800000>90 Magic<col=000080>, <col=800000>38 Mining<col=000080>, <col=800000>38 Crafting<col=000080><col=ffffff>)
+<col=000000>Cross the Coal truck log shortcut.;<col=000000>Cruza el atajo del tronco de los Coal trucks.
+<col=000000>Cut a log from a mahogany tree.;<col=000000>Corta un tronco de un árbol de mahogany.
+<col=000000>Cut a log from a teak tree.;<col=000000>Corta un tronco de un árbol de teak.
+<col=000000>Defeat a Locust Rider with Keris.;<col=000000>Derrota a un Locust Rider con Keris.
+<col=000000>Deliver an artefact to Captain Khaled.</col><col=ffffff>(<col=800000>49 Thieving<col=000080><col=ffffff>);<col=000000>Entregar un artefacto a Captain Khaled.</col><col=ffffff>(<col=800000>49 Thieving<col=000080><col=ffffff>)
+<col=000000>Dungeon.<col=ffffff>(<col=800000>83 Slayer<col=000080>, <col=800000>60 Agility or 60 Strength<col=000080><col=ffffff>);<col=000000>Mazmorra.<col=ffffff>(<col=800000>83 Slayer<col=000080>, <col=800000>60 Agility or 60 Strength<col=000080><col=ffffff>)
+<col=000000>Enter the Combat Training Camp north of W. Ardougne.;<col=000000>Entra al Combat Training Camp al norte de W. Ardougne.
+<col=000000>Enter the Magic Guild.;<col=000000>Entra al Magic Guild.
+<col=000000>Enter the mining guild wearing a Prospector helmet.;<col=000000>Entra al mining guild con un Prospector helmet puesto.
+<col=000000>Enter the Ranging guild.;<col=000000>Entra al Ranging guild.
+<col=000000>Enter the Woodcutting Guild.</col><col=ffffff>(<col=800000>60 Woodcutting<col=000080><col=ffffff>);<col=000000>Entra al Woodcutting Guild.</col><col=ffffff>(<col=800000>60 Woodcutting<col=000080><col=ffffff>)
+<col=000000>Enter your Player Owned House from Hosidius.</col><col=ffffff>(<col=800000>25 Construction<col=000080><col=ffffff>);<col=000000>Entra a tu Player Owned House desde Hosidius.</col><col=ffffff>(<col=800000>25 Construction<col=000080><col=ffffff>)
+<col=000000>Enter your POH from Yanille.;<col=000000>Entra a tu POH desde Yanille.
+<col=000000>Exchange gems for a machete.;<col=000000>Canjea gems por un machete.
+<col=000000>Find out what your family crest is from Sir Renitee.;<col=000000>Descubre cuál es tu escudo familiar con Sir Renitee.
+<col=000000>Fish a Trout from the River Molch.</col><col=ffffff>(<col=800000>20 Fishing<col=000080><col=ffffff>);<col=000000>Pesca una Trout del River Molch.</col><col=ffffff>(<col=800000>20 Fishing<col=000080><col=ffffff>)
+<col=000000>Get a slayer task from the Slayer Master in Canifis.<col=ffffff>(<col=800000>20 Combat<col=000080><col=ffffff>);<col=000000>Obtén una slayer task del Slayer Master en Canifis.<col=ffffff>(<col=800000>20 Combat<col=000080><col=ffffff>)
+<col=000000>Grapple over Yanille's south wall.;<col=000000>Escala la pared sur de Yanille.
+<col=000000>Great Kourend.</col><col=ffffff>(<col=800000>The Depths of Despair<col=000080>, <col=800000>The Queen of Thieves<col=000080>, ;<col=000000>Great Kourend.</col><col=ffffff>(<col=800000>The Depths of Despair<col=000080>, <col=800000>The Queen of Thieves<col=000080>,
+<col=000000>Grow a healthy fruit tree in the patch near Brimhaven.;<col=000000>Planta un árbol frutal saludable en el parche cerca de Brimhaven.
+<col=000000>Have Sedridor teleport you to the Essence Mine.<col=ffffff>(<col=800000>Rune Mysteries<col=000080><col=ffffff>);<col=000000>Haz que Sedridor te teletransporte a la Essence Mine.<col=ffffff>(<col=800000>Rune Mysteries<col=000080><col=ffffff>)
+<col=000000>Jump over the strange floor in Taverley dungeon.;<col=000000>Salta sobre el suelo extraño en la mazmorra de Taverley.
+<col=000000>Kill a Banshee in the Slayer Tower.<col=ffffff>(<col=800000>15 Slayer<col=000080><col=ffffff>);<col=000000>Mata una Banshee en la Slayer Tower.<col=ffffff>(<col=800000>15 Slayer<col=000080><col=ffffff>)
+<col=000000>Kill a Fire Giant inside Baxtorian Waterfall.;<col=000000>Mata un Fire Giant dentro de Baxtorian Waterfall.
+<col=000000>Kill a Hydra in the Karuulm Slayer Dungeon.</col><col=ffffff>(<col=800000>95 Slayer<col=000080><col=ffffff>);<col=000000>Mata una Hydra en la Karuulm Slayer Dungeon.</col><col=ffffff>(<col=800000>95 Slayer<col=000080><col=ffffff>)
+<col=000000>Kill a Mogre at Mudskipper Point.;<col=000000>Mata un Mogre en Mudskipper Point.
+<col=000000>Kill a Wyrm in the Karuulm Slayer Dungeon.</col><col=ffffff>(<col=800000>62 Slayer<col=000080><col=ffffff>);<col=000000>Mata a un Wyrm en la Karuulm Slayer Dungeon.</col><col=ffffff>(<col=800000>62 Slayer<col=000080><col=ffffff>)
+<col=000000>Kill the Blue Dragon under the Heroes' Guild.;<col=000000>Mata al Blue Dragon bajo la Heroes' Guild.
+<col=000000>Light a Bullseye lantern at the Chemist's in Rimmington.;<col=000000>Enciende un Bullseye lantern en el Chemist's de Rimmington.
+<col=000000>magic tree en Falador.;<col=000000>árbol mágico en Falador.
+<col=000000>magic tree in Falador.;<col=000000>árbol mágico en Falador.
+<col=000000>Mine some coal near the coal trucks.;<col=000000>Mina algo de coal cerca de los coal trucks.
+<col=000000>Mine some Gold ore at the Crafting Guild.;<col=000000>Mina algo de Gold ore en el Crafting Guild.
+<col=000000>Mine some Granite.;<col=000000>Mina algo de Granite.
+<col=000000>Mine some Iron at the Mount Karuulm mine.</col><col=ffffff>(<col=000080><str>15 Mining</str><col=ffffff>);<col=000000>Mina algo de Iron en la mina de Mount Karuulm.</col><col=ffffff>(<col=000080><str>15 Mining</str><col=ffffff>)
+<col=000000>Mine some Iron ore at the Al Kharid mine.<col=ffffff>(<col=000080><str>15 Mining</str><col=ffffff>);<col=000000>Mina algo de Iron ore en la mina de Al Kharid.<col=ffffff>(<col=000080><str>15 Mining</str><col=ffffff>)
+<col=000000>Mine some Lovakite.</col><col=ffffff>(<col=800000>65 Mining<col=000080><col=ffffff>);<col=000000>Mina algo de Lovakite.</col><col=ffffff>(<col=800000>65 Mining<col=000080><col=ffffff>)
+<col=000000>Mine some Volcanic sulphur.</col><col=ffffff>(<col=800000>42 Mining<col=000080><col=ffffff>);<col=000000>Mina algo de Volcanic sulphur.</col><col=ffffff>(<col=800000>42 Mining<col=000080><col=ffffff>)
+<col=000000>mine.;<col=000000>mina.
+<col=000000>Mix a Saradomin brew in Falador east bank.;<col=000000>Mezcla una Saradomin brew en el banco este de Falador.
+<col=000000>patch.;<col=000000>parche.
+<col=000000>Pick some Dwarf weed from the herb patch at Catherby.;<col=000000>Recoge algo de Dwarf weed del herb patch en Catherby.
+<col=000000>Pick some Torstol from the patch north of Ardougne.;<col=000000>Recoge algo de Torstol del patch al norte de Ardougne.
+<col=000000>Pickpocket a Falador guard.;<col=000000>Roba al guardia de Falador.
+<col=000000>Pickpocket a Hero.;<col=000000>Roba a un Hero.
+<col=000000>Pickpocket the master farmer north of Ardougne.;<col=000000>Roba al master farmer al norte de Ardougne.
+<col=000000>Place a Scarecrow in the Falador farming patch.;<col=000000>Coloca un Scarecrow en el Falador farming patch.
+<col=000000>Purchase a White 2h Sword from Sir Vyvin.;<col=000000>Compra un White 2h Sword a Sir Vyvin.
+<col=000000>Restore your prayer points at the nature altar.<col=ffffff>(<col=800000>Nature Spirit<col=000080><col=ffffff>);<col=000000>Restaurar tus puntos de oración en el nature altar.<col=ffffff>(<col=800000>Nature Spirit<col=000080><col=ffffff>)
+<col=000000>shoe mine.;<col=000000>Mina shoe.
+<col=000000>Slay a Cave bug beneath Lumbridge Swamp.<col=ffffff>(<col=800000>7 Slayer<col=000080><col=ffffff>);<col=000000>Mata un Cave bug bajo Lumbridge Swamp.<col=ffffff>(<col=800000>7 Slayer<col=000080><col=ffffff>)
+<col=000000>Slay a desert lizard.;<col=000000>Mata un desert lizard.
+<col=000000>Smith a Mithril platebody near Ardougne.;<col=000000>Forja un Mithril platebody cerca de Ardougne.
+<col=000000>Smith a Rune Hasta at Otto's Grotto.;<col=000000>Forja un Rune Hasta en Otto's Grotto.
+<col=000000>Speak to the KQ head in your POH.;<col=000000>Habla con el jefe KQ en tu POH.
+<col=000000>Squeeze through the crevice in the Dwarven mines.;<col=000000>Aprieta la grieta en las minas enanas.
+<col=000000>Steal a feather from the Desert Phoenix.;<col=000000>Roba una pluma del Desert Phoenix.
+<col=000000>Steal from a chest in Ardougne Castle.;<col=000000>Roba de un cofre en Ardougne Castle.
+<col=000000>Steal from a Hosidius Food Stall.</col><col=ffffff>(<col=800000>25 Thieving<col=000080><col=ffffff>);<col=000000>Roba de un Hosidius Food Stall.</col><col=ffffff>(<col=800000>25 Thieving<col=000080><col=ffffff>)
+<col=000000>Steal from the chest in Hemenster.;<col=000000>Roba del cofre en Hemenster.
+<col=000000>String a Maple shortbow in Seers' Village bank.;<col=000000>Enhebra un Maple shortbow en el banco de Seers' Village.
+<col=000000>Teleport to Camelot.;<col=000000>Teletransporta a Camelot.
+<col=000000>Teleport to Catherby.;<col=000000>Teletransporta a Catherby.
+<col=000000>Teleport to Enakhra's Temple with the Camulet.;<col=000000>Teletransporta al Enakhra's Temple con el Camulet.
+<col=000000>Teleport to Falador.;<col=000000>Teletransporta a Falador.
+<col=000000>Teleport to the Watchtower.;<col=000000>Teletransporta a la Watchtower.
+<col=000000>the use of Extracts.;<col=000000>el uso de Extracts.
+<col=000000>the Wilderness.;<col=000000>la Wilderness.
+<col=000000>Trap a horned graahk.;<col=000000>Atrapa un horned graahk.
+<col=000000>Travel to the Desert via Eagle.;<col=000000>Viaja al Desert en águila.
+<col=000000>Travel to Uzer via Magic Carpet.;<col=000000>Viaja a Uzer en Magic Carpet.
+<col=000000>Use the gnome glider to travel to Karamja.;<col=000000>Usa el gnome glider para viajar a Karamja.
+<col=000000>Use Vigroy and Hajedy's cart service.;<col=000000>Usa el servicio de carro de Vigroy y Hajedy.
+<col=000000>Visit the Genie.;<col=000000>Visita al Genie.
+<col=000000>Visit the Port Sarim Rat Pits.;<col=000000>Visita los Rat Pits de Port Sarim.
+<col=000000>wearing full Proselyte.;<col=000000>vistiendo Proselyte completo.
+<col=000000>Witchaven or Yanille.;<col=000000>Witchaven o Yanille.
+<col=000000>without the use of Extracts.;<col=000000>sin usar Extracts.
+<col=000000>without the use of Extracts.<col=ffffff>(<col=800000>59 Runecraft<col=000080>, <col=800000>Lost City<col=000080><col=ffffff>);<col=000000>sin usar Extracts.<col=ffffff>(<col=800000>59 Runecraft<col=000080>, <col=800000>Lost City<col=000080><col=ffffff>)
+Monster: <col=ffffff>Moons of Peril</col>;Monstruo: <col=ffffff>Moons of Peril</col>
+Total Points: 0 - Next unlock in 41 points;Puntos totales: 0 - Próximo desbloqueo en 41 puntos
