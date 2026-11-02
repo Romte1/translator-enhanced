@@ -68,8 +68,9 @@ texts players actually see.
   object names (off, each one independent).
 * **Journals**: quest journal, achievement diaries and combat achievements, with
   requirements and difficulty preserved.
-* **Languages**: Dutch, Finnish, French, German, Italian, Portuguese, Spanish and Swedish for
-  menus and dialogues; Spanish for journals.
+* **Languages**: Dutch, Finnish, French, German, Italian, Portuguese, Spanish and Swedish.
+  Menus and dialogues use the upstream files; journals use one dictionary per language,
+  grown by the same shared queue so every language reaches the same coverage.
 * **Local corrections**: fix a bad entry without waiting for a release.
 * **Dynamic loading**: translation files are downloaded only for the feature groups you
   enable, so the plugin does not keep 180.000 unused entries in memory.

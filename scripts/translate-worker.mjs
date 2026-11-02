@@ -75,16 +75,21 @@ const localTexts = existsSync(inputFile)
 	? readLines(inputFile).map(line => line.slice(0, line.lastIndexOf(";")))
 	: [];
 const remoteTexts = process.env.PENDING_URL
-	? await fetchPending(process.env.PENDING_URL, process.env.PENDING_TOKEN)
+	? await fetchPending(process.env.PENDING_URL, process.env.PENDING_TOKEN, language)
 	: null;
 
 if (remoteTexts !== null) {
-	console.log(`collection server: ${remoteTexts.length} texts`);
+	console.log(`collection server (${language}): ${remoteTexts.length} texts`);
+}
+
+const seedTexts = process.env.SEED_FROM ? readSeed(process.env.SEED_FROM) : [];
+if (seedTexts.length > 0) {
+	console.log(`seed: ${seedTexts.length} keys from ${process.env.SEED_FROM}`);
 }
 
 const texts = remoteTexts ?? localTexts;
 
-const pending = [...new Set(texts)]
+const pending = [...new Set([...texts, ...seedTexts])]
 	.filter(key => key.length > 0 && !known.has(normalize(key)) && !knownValues.has(normalize(key)))
 	.filter(key => !IGNORED_PREFIXES.some(prefix => key.startsWith(prefix)))
 	.filter(looksLikeText)
@@ -146,8 +151,8 @@ for (let i = 0; i < todo.length; i += batchSize) {
 
 console.log(`wrote ${written} translations to ${outputFile}`);
 
-async function fetchPending(url, token) {
-	const response = await fetch(`${url}?limit=2000`, {
+async function fetchPending(url, token, language) {
+	const response = await fetch(`${url}?limit=2000&language=${encodeURIComponent(language)}`, {
 		headers: token ? { Authorization: `Bearer ${token}` } : {},
 	});
 
@@ -157,6 +162,15 @@ async function fetchPending(url, token) {
 
 	const payload = await response.json();
 	return (payload.texts ?? []).map(row => row.text).filter(text => typeof text === "string");
+}
+
+function readSeed(language) {
+	const file = join(root, "src", "main", "resources", "translations", "interface", `${language}.txt`);
+
+	return readLines(file)
+		.filter(line => line.includes(";"))
+		.map(line => line.slice(0, line.indexOf(";")))
+		.filter(key => key.length > 0 && !key.startsWith("re:"));
 }
 
 

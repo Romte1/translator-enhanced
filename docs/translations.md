@@ -51,7 +51,7 @@ translated.jsonl  hash
 | Method | Path | Auth | Payload |
 | --- | --- | --- | --- |
 | `POST` | `/api/v1/data-collection` | rate limited | `[{"type":"interface","text":"..."}]` |
-| `GET` | `/api/v1/pending?limit=500&type=interface` | bearer | sorted by `count` |
+| `GET` | `/api/v1/pending?limit=500&type=interface&language=french` | bearer | sorted by `count` |
 | `POST` | `/api/v1/translated` | bearer | `{"items":[{"type":"interface","text":"..."}]}` |
 | `GET` | `/health` | none | counters |
 
@@ -80,14 +80,24 @@ Tags and numbers are checked mechanically; a wrong line is discarded and retried
 Names, titles and requirement-only widgets are never sent. **It is not merged
 automatically**: the PR is reviewed.
 
+Each language has its own dictionary and its own queue view. The source texts are the same
+for everyone, so one table feeds all of them; only the "translated" mark is per language.
+
+`SEED_FROM=spanish` makes a run start from the keys of another dictionary. That is how the
+other languages reach the same coverage as Spanish without waiting for a player to open every
+screen: with `LIMIT`, each run fills a slice and the rest stays for the next one.
+
 ## 4. Queue and PR automation
 
 `PENDING_URL` makes the worker read the aggregated queue instead of a local file:
 
 ```bash
 PENDING_URL=https://<server>/api/v1/pending \
-PENDING_TOKEN=... LLM_API_KEY=... node scripts/translate-worker.mjs spanish
+PENDING_TOKEN=... LLM_API_KEY=... node scripts/translate-worker.mjs french
 ```
+
+The GitHub Action runs the same flow once per language (matrix, one job at a time) and opens
+one rolling PR per language.
 
 Marking is **never** done by the worker. A pull request can be reviewed, delayed or closed,
 so removing texts from the queue before the dictionary has them would lose them. Instead

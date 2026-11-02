@@ -21,8 +21,8 @@ if (!pendingUrl) {
 
 const file = join(root, "src", "main", "resources", "translations", "interface", `${language}.txt`);
 if (!existsSync(file)) {
-	console.log(`missing ${file}`);
-	process.exit(1);
+	console.log(`no dictionary for ${language}, nothing to mark`);
+	process.exit(0);
 }
 
 const endpoint = pendingUrl.replace(/\/pending$/, "/translated");
@@ -43,7 +43,7 @@ for (let i = 0; i < texts.length; i += 200) {
 			"Content-Type": "application/json",
 			...(token ? { Authorization: `Bearer ${token}` } : {}),
 		},
-		body: JSON.stringify({ items: chunk }),
+		body: JSON.stringify({ language, items: chunk }),
 	});
 
 	if (!response.ok) {

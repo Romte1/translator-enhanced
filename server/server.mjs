@@ -78,9 +78,7 @@ const server = createServer(async (req, res) => {
 				}
 
 				const hash = hashOf(type, text);
-				if (translated.has(hash)) {
-					continue;
-				}
+				
 
 				const row = texts.get(hash);
 				if (row) {
@@ -102,10 +100,11 @@ const server = createServer(async (req, res) => {
 			}
 
 			const type = url.searchParams.get("type");
+			const language = url.searchParams.get("language") ?? "spanish";
 			const limit = Math.min(Number(url.searchParams.get("limit") ?? 500), 2000);
 
 			const rows = [...texts.values()]
-				.filter(row => !translated.has(row.hash) && (type === null || row.type === type))
+				.filter(row => !translated.has(markKey(language, row.hash)) && (type === null || row.type === type))
 				.sort((a, b) => b.count - a.count || a.text.localeCompare(b.text))
 				.slice(0, limit)
 				.map(row => ({ type: row.type, text: row.text, count: row.count }));
@@ -119,13 +118,16 @@ const server = createServer(async (req, res) => {
 			}
 
 			const body = await readJson(req, 1024 * 1024);
+			const language = String(body?.language ?? "spanish");
 			let marked = 0;
 
 			for (const item of body?.items ?? []) {
 				const hash = hashOf(String(item?.type ?? "interface"), String(item?.text ?? ""));
-				if (texts.has(hash) && !translated.has(hash)) {
-					translated.add(hash);
-					appendFileSync(translatedFile, hash + "\n", "utf8");
+				const key = markKey(language, hash);
+
+				if (texts.has(hash) && !translated.has(key)) {
+					translated.add(key);
+					appendFileSync(translatedFile, `${language}\t${hash}\n`, "utf8");
 					marked++;
 				}
 			}
@@ -161,11 +163,18 @@ function load() {
 
 	if (existsSync(translatedFile)) {
 		for (const line of readFileSync(translatedFile, "utf8").split("\n")) {
-			if (line.length > 0) {
-				translated.add(line.trim());
+			if (line.length === 0) {
+				continue;
 			}
+
+			const [language, hash] = line.includes("\t") ? line.split("\t") : ["spanish", line];
+			translated.add(markKey(language.trim(), hash.trim()));
 		}
 	}
+}
+
+function markKey(language, hash) {
+	return language + "\n" + hash;
 }
 
 function persist() {

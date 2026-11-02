@@ -77,20 +77,21 @@ export default {
 				}
 
 				const type = url.searchParams.get("type");
+				const language = url.searchParams.get("language") ?? "spanish";
 				const limit = Math.min(Number(url.searchParams.get("limit") ?? 500), 2000);
 
 				const rows = type === null
 					? await env.DB
 						.prepare("SELECT type, text, count FROM texts " +
-							"WHERE hash NOT IN (SELECT hash FROM translated) " +
+							"WHERE hash NOT IN (SELECT hash FROM translated WHERE language = ?) " +
 							"ORDER BY count DESC, text ASC LIMIT ?")
-						.bind(limit)
+						.bind(language, limit)
 						.all()
 					: await env.DB
 						.prepare("SELECT type, text, count FROM texts " +
-							"WHERE type = ? AND hash NOT IN (SELECT hash FROM translated) " +
+							"WHERE type = ? AND hash NOT IN (SELECT hash FROM translated WHERE language = ?) " +
 							"ORDER BY count DESC, text ASC LIMIT ?")
-						.bind(type, limit)
+						.bind(type, language, limit)
 						.all();
 
 				return send(200, { texts: rows.results ?? [] });
@@ -103,6 +104,7 @@ export default {
 
 				const body = await request.json();
 				const now = new Date().toISOString();
+				const language = String(body?.language ?? "spanish");
 				const items = [];
 
 				for (const item of body?.items ?? []) {
@@ -121,9 +123,9 @@ export default {
 					const marks = chunk.map(() => "?").join(",");
 
 					await env.DB
-						.prepare("INSERT OR IGNORE INTO translated (hash, at) " +
-							`SELECT hash, ? FROM texts WHERE hash IN (${marks})`)
-						.bind(now, ...chunk.map(item => item.hash))
+						.prepare("INSERT OR IGNORE INTO translated (language, hash, at) " +
+							`SELECT ?, hash, ? FROM texts WHERE hash IN (${marks})`)
+						.bind(language, now, ...chunk.map(item => item.hash))
 						.run();
 
 					marked += chunk.length;

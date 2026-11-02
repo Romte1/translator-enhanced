@@ -13,9 +13,13 @@ client (opt-in) ──POST /api/v1/data-collection──► server ──GET /ap
 | Method | Path | Auth | Payload |
 | --- | --- | --- | --- |
 | `POST` | `/api/v1/data-collection` | none | `[{"type":"interface","text":"..."}]` |
-| `GET` | `/api/v1/pending?limit=500&type=interface` | bearer | sorted by `count` |
+| `GET` | `/api/v1/pending?limit=500&type=interface&language=french` | bearer | sorted by `count` |
 | `POST` | `/api/v1/translated` | bearer | `{"items":[{"type":"interface","text":"..."}]}` |
 | `GET` | `/health` | none | counters |
+
+The `translated` state is **per target language**: a text translated to Spanish stays in the
+queue for French. Databases created before this change: run `migrate-language.sql` in the D1
+console (it recreates the table; the marks are rebuilt after the next merge).
 
 ## Where to host it
 

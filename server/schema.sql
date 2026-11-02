@@ -10,6 +10,8 @@ CREATE TABLE IF NOT EXISTS texts (
 CREATE INDEX IF NOT EXISTS texts_by_count ON texts(count DESC);
 
 CREATE TABLE IF NOT EXISTS translated (
-	hash TEXT PRIMARY KEY,
-	at TEXT NOT NULL
+	language TEXT NOT NULL,
+	hash TEXT NOT NULL,
+	at TEXT NOT NULL,
+	PRIMARY KEY (language, hash)
 );

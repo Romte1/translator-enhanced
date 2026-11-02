@@ -19,7 +19,7 @@ if (!existsSync(translatedFile)) {
 }
 
 const signature = text => text.replace(/<[^>]*>/g, "").replace(/\s+/g, "");
-const current = readFileSync(dictionaryFile, "utf8");
+const current = existsSync(dictionaryFile) ? readFileSync(dictionaryFile, "utf8") : "";
 const keys = new Set(
 	current.split(/\r?\n/)
 		.filter(line => line.includes(";"))
