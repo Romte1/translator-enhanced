@@ -157,3 +157,43 @@ Description: <col=ffffff>Kill the Shellbane Gryphon 50 times.</col>;Descrizione:
 Description: <col=ffffff>Kill the Royal Titans 10 times.</col>;Descrizione: <col=ffffff>Uccidi i Royal Titans 10 volte.</col>
 Description: <col=ffffff>Kill Amoxliatl using only glacial temotli as a weapon.</col>;Descrizione: <col=ffffff>Uccidi Amoxliatl usando solo glacial temotli come arma.</col>
 Type: <col=ffffff>Restriction</col> <col=dfdfdf>(+2 points)</col>;Tipo: <col=ffffff>Restrizione</col> <col=dfdfdf>(+2 punti)</col>
+Type: <col=ffffff>Speed</col> <col=dfdfdf>(+2 points)</col>;Tipo: <col=ffffff>Speed</col> <col=dfdfdf>(+2 points)</col>
+I can start this quest by talking to <col=800000>Alina<col=000080> and <col=800000>Noah<col=000080> in <col=800000>Varrock Square<col=000080>.;Posso iniziare questa quest parlando con <col=800000>Alina<col=000080> e <col=800000>Noah<col=000080> in <col=800000>Varrock Square<col=000080>.
+I can start this quest by talking to <col=800000>Veos<col=000080> on the <col=800000>Port Piscarilius<col=000080> docks.;Posso iniziare questa quest parlando con <col=800000>Veos<col=000080> sul molo di <col=800000>Port Piscarilius<col=000080>.
+I can start this quest by talking to <col=800000>Brother Kojo<col=000080> in the <col=800000>Clock Tower<col=000080> south of <col=800000>East Ardougne<col=000080>.;Posso iniziare questa quest parlando con <col=800000>Brother Kojo<col=000080> nella <col=800000>Clock Tower<col=000080> a sud di <col=800000>East Ardougne<col=000080>.
+<str>I arrived on Tutorial Island and met the Gielinor Guide, who;<str>Sono arrivato su Tutorial Island e ho incontrato il Gielinor Guide, che
+<str>welcomed me on my journey to becoming an adventurer.;<str>mi ha accolto nel mio viaggio per diventare un avventuriero.
+<str>I met Brynna, the Survival Expert. She taught me how to catch;<str>Ho incontrato Brynna, l'Esperta di Sopravvivenza. Mi ha insegnato come catturare
+<str>shrimp with a fishing net, and then how to cook those shrimp;<str>gamberetti con una rete da pesca, e poi come cuocerli
+<str>on a fire made from logs I had cut myself.;<str>su un fuoco fatto con tronchi che avevo tagliato io stesso.
+<str>Lev, the Master Chef, explained proper cooking techniques to;<str>Lev, il Master Chef, ha spiegato le corrette tecniche di cottura a
+<str>me. With his guidance I made a loaf of bread from flour and;<str>me. Con la sua guida ho fatto una pagnotta di pane da farina e
+<str>water.;<str>acqua.
+<str>The Quest Guide taught me about my quest list and quest;<str>Il Quest Guide mi ha insegnato la mia lista di quest e i
+<str>journals. These are a useful tool for tracking my progress;<str>diari delle quest. Questi sono uno strumento utile per tenere traccia dei miei progressi
+<str>through quests in Gielinor.;<str>nelle quest in Gielinor.
+<str>I then met Dezzick, the Mining Instructor. He handed me a;<str>Ho poi incontrato Dezzick, l'Istruttore di Mining. Mi ha dato un
+<str>pickaxe and tasked me with mining some copper and tin ores;<str>piccone e mi ha incaricato di estrarre un po' di rame e stagno
+<str>in order to smelt a bronze bar in the furnace, which I managed;<str>per fondere una barra di bronzo nella fornace, cosa che ho gestito
+<str>to successfully complete!;<str>con successo!
+<str>Dezzick told me to make a bronze dagger with the bronze bar I;<str>Dezzick mi ha detto di fare un pugnale di bronzo con la barra di bronzo che ho
+<str>had smelted. To that end, he handed me a hammer and pointed;<str>aveva fuso. A tal fine, mi ha dato un martello e ha indicato
+<str>me to the anvils.;<str>me agli incudini.
+<str>Vannaka taught me how to equip and unequip my weapons and;<str>Vannaka mi ha insegnato come equipaggiare e disequipaggiare le mie armi e
+<str>armour from my inventory in order to prepare me for combat.;<str>armatura dal mio inventario per prepararmi al combattimento.
+<str>I managed to kill a rat in Vannaka's cage.;<str>Sono riuscito a uccidere un ratto nella gabbia di Vannaka.
+<str>Vannaka taught me the basics of melee and ranged combat,;<str>Vannaka mi ha insegnato le basi del combattimento melee e ranged,
+<str>giving me the weapons I needed to achieve that.;<str>dandomi le armi di cui avevo bisogno per farlo.
+<str>It would appear I can safely store my items with the Bank of;<str>Sembra che io possa conservare in sicurezza i miei oggetti presso la Bank of
+<str>Gielinor, which will make them accessible from any branch and;<str>Gielinor, il che li renderà accessibili da qualsiasi filiale e
+<str>means I don't have to carry them everywhere with me.;<str>significa che non devo portarli ovunque con me.
+<str>According to the Account Guide, I should be proactive with my;<str>Secondo la Account Guide, dovrei essere proattivo con il mio
+<str>security to protect my account.;<str>sicurezza per proteggere il mio account.
+<str>Brother Brace taught me about the Prayer skill. It can provide;<str>Brother Brace mi ha insegnato la Prayer skill. Può fornire
+<str>a number of benefits to my regular activities, but costs;<str>un certo numero di benefici alle mie attività regolari, ma costa
+<str>prayer points which can be restored at any altar or holy site. I;<str>prayer points che possono essere ripristinati in qualsiasi altare o sito sacro. Io
+<str>can train it by burying bones and scattering ashes.;<str>posso allenarlo seppellendo ossa e spargendo cenere.
+<str>Having met Terrova, I was instructed to cast Wind Strike on;<str>Avendo incontrato Terrova, mi è stato detto di lanciare Wind Strike su
+<str>one of his chickens. Fortunately, my magical prowess allowed;<str>uno dei suoi polli. Fortunatamente, la mia abilità magica ha permesso
+<str>me to successfully achieve this.;<str>di riuscire con successo.
+<str>I can stay on Tutorial Island to learn more about Ironman;<str>Posso rimanere su Tutorial Island per imparare di più su Ironman
