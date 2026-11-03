@@ -120,3 +120,43 @@ Standalone;Indépendante
 <col=000000>without the use of Extracts.<col=ffffff>(<col=800000>56 Runecraft<col=000080><col=ffffff>);<col=000000>sans l'utilisation de Extracts.<col=ffffff>(<col=800000>56 Runecraft<col=000080><col=ffffff>)
 <col=000000>Change your family crest to the Saradomin symbol.<col=ffffff>(<col=800000>70 Prayer<col=000080><col=ffffff>);<col=000000>Changez votre blason familial en le symbole de Saradomin.<col=ffffff>(<col=800000>70 Prayer<col=000080><col=ffffff>)
 <col=000000>Kill the Giant Mole beneath Falador park.;<col=000000>Tuez le Giant Mole sous le parc de Falador.
+<col=000000>Kill a duck in Falador park.;<col=000000>Tuez un canard dans le parc de Falador.
+<col=000000>Smith some Blurite Limbs on Doric's Anvil.<col=ffffff>(<col=000080><str>10 Mining</str>, <col=800000>13 Smithing<col=000080>, <col=800000>The Knight's Sword<col=000080>, <col=800000>Doric's Quest<col=000080><col=ffffff>);<col=000000>Fabriquez quelques Blurite Limbs sur l'enclume de Doric.<col=ffffff>(<col=000080><str>10 Mining</str>, <col=800000>13 Smithing<col=000080>, <col=800000>The Knight's Sword<col=000080>, <col=800000>Doric's Quest<col=000080><col=ffffff>)
+<col=000000>Kill a Skeletal Wyvern in the Asgarnia Ice Dungeon.<col=ffffff>(<col=800000>72 Slayer<col=000080><col=ffffff>);<col=000000>Tuez un Skeletal Wyvern dans l'Asgarnia Ice Dungeon.<col=ffffff>(<col=800000>72 Slayer<col=000080><col=ffffff>)
+<col=000000>Complete a lap of the Falador rooftop agility course.<col=ffffff>(<col=800000>50 Agility<col=000080><col=ffffff>);<col=000000>Complétez un tour du parcours d'agilité sur les toits de Falador.<col=ffffff>(<col=800000>50 Agility<col=000080><col=ffffff>)
+<col=000000>Enter the mining guild wearing a Prospector helmet.<col=ffffff>(<col=800000>60 Mining<col=000080><col=ffffff>);<col=000000>Entrez dans la mining guild en portant un Prospector helmet.<col=ffffff>(<col=800000>60 Mining<col=000080><col=ffffff>)
+<col=000000>Kill the Blue Dragon under the Heroes' Guild.<col=ffffff>(<col=800000>Heroes' Quest<col=000080><col=ffffff>);<col=000000>Tuez le Blue Dragon sous la Heroes' Guild.<col=ffffff>(<col=800000>Heroes' Quest<col=000080><col=ffffff>)
+<col=000000>Crack a wall safe within Rogues Den.<col=ffffff>(<col=800000>50 Thieving<col=000080><col=ffffff>);<col=000000>Ouvrez un coffre mural dans Rogues Den.<col=ffffff>(<col=800000>50 Thieving<col=000080><col=ffffff>)
+<col=000000>Recharge your prayer in the Port Sarim church while;<col=000000>Rechargez votre prière dans l'église de Port Sarim tout en
+<col=000000>wearing full Proselyte.<col=ffffff>(<col=800000>30 Defence<col=000080>, <col=800000>The Slug Menace<col=000080><col=ffffff>);<col=000000>portant un Proselyte complet.<col=ffffff>(<col=800000>30 Defence<col=000080>, <col=800000>The Slug Menace<col=000080><col=ffffff>)
+<col=000000>Enter the Warriors' Guild.;<col=000000>Entrez dans la Warriors' Guild.
+<col=000000>Equip a dwarven helmet within the dwarven mines.;<col=000000>Équipez un dwarven helmet dans les dwarven mines.
+<col=000000>Craft 252 Air Runes simultaneously from Essence without;<col=000000>Fabriquez 252 Air Runes simultanément à partir d'Essence sans
+<col=000000>the use of Extracts.<col=ffffff>(<col=800000>88 Runecraft<col=000080><col=ffffff>);<col=000000>utiliser d'Extracts.<col=ffffff>(<col=800000>88 Runecraft<col=000080><col=ffffff>)
+<col=000000>Purchase a White 2h Sword from Sir Vyvin.<col=ffffff>(<col=800000>Wanted!<col=000080><col=ffffff>);<col=000000>Achetez un White 2h Sword à Sir Vyvin.<col=ffffff>(<col=800000>Wanted!<col=000080><col=ffffff>)
+<col=000000>Find at least 3 magic roots at once when digging up your;<col=000000>Trouvez au moins 3 magic roots d'un coup en creusant votre
+<col=000000>magic tree in Falador.<col=ffffff>(<col=800000>91 Farming<col=000080>, <col=800000>75 Woodcutting<col=000080><col=ffffff>);<col=000000>magic tree à Falador.<col=ffffff>(<col=800000>91 Farming<col=000080>, <col=800000>75 Woodcutting<col=000080><col=ffffff>)
+<col=000000>Perform a skillcape or quest cape emote at the top of;<col=000000>Effectuez une emote de skillcape ou quest cape au sommet de
+<col=000000>Jump over the strange floor in Taverley dungeon.<col=ffffff>(<col=800000>80 Agility<col=000080><col=ffffff>);<col=000000>Sautez par-dessus le sol étrange dans le donjon de Taverley.<col=ffffff>(<col=800000>80 Agility<col=000080><col=ffffff>)
+<col=000000>Mix a Saradomin brew in Falador east bank.<col=ffffff>(<col=800000>81 Herblore<col=000080><col=ffffff>);<col=000000>Préparez une Saradomin brew à la banque à l'est de Falador.<col=ffffff>(<col=800000>81 Herblore<col=000080><col=ffffff>)
+Description: <col=ffffff>Kill a Brutal Black Dragon.</col>;Description: <col=ffffff>Tuez un Brutal Black Dragon.</col>
+Description: <col=ffffff>Open Bryophyta's chest 5 times.</col>;Description : <col=ffffff>Ouvrez le coffre de Bryophyta 5 fois.</col>
+Description: <col=ffffff>Kill all 3 of Bryophyta's growthlings within 3 seconds of the first one dying.</col>;Description : <col=ffffff>Tuez les 3 growthlings de Bryophyta dans les 3 secondes suivant la mort du premier.</col>
+Description: <col=ffffff>Kill Skotizo with a demonbane weapon equipped.</col>;Description : <col=ffffff>Tuez Skotizo avec une arme demonbane équipée.</col>
+Description: <col=ffffff>Kill the Mad Angel after getting 3 consecutive enhanced attacks by successfully praying against the smite attacks during her enrage phase.</col>;Description : <col=ffffff>Tuez le Mad Angel après avoir obtenu 3 attaques renforcées consécutives en priant avec succès contre les attaques smite pendant sa phase de rage.</col>
+Description: <col=ffffff>Kill the Mad Angel 25 times.</col>;Description : <col=ffffff>Tuez le Mad Angel 25 fois.</col>
+Description: <col=ffffff>Kill Brutus whilst neither equipping nor consuming anything.</col>;Description : <col=ffffff>Tuez Brutus sans équiper ni consommer quoi que ce soit.</col>
+Description: <col=ffffff>Kill the Shellbane Gryphon 10 times within 12:30 minutes of entering the cave.</col>;Description : <col=ffffff>Tuez le Shellbane Gryphon 10 fois dans les 12 :30 minutes suivant votre entrée dans la grotte.</col>
+Description: <col=ffffff>Kill the Shellbane Gryphon 50 times.</col>;Description : <col=ffffff>Tuez le Shellbane Gryphon 50 fois.</col>
+Description: <col=ffffff>Kill the Royal Titans 10 times.</col>;Description : <col=ffffff>Tuez les Royal Titans 10 fois.</col>
+Description: <col=ffffff>Kill Amoxliatl using only glacial temotli as a weapon.</col>;Description : <col=ffffff>Tuez Amoxliatl en n'utilisant que glacial temotli comme arme.</col>
+Type: <col=ffffff>Restriction</col> <col=dfdfdf>(+2 points)</col>;Type : <col=ffffff>Restriction</col> <col=dfdfdf>(+2 points)</col>
+Type: <col=ffffff>Speed</col> <col=dfdfdf>(+2 points)</col>;Type : <col=ffffff>Speed</col> <col=dfdfdf>(+2 points)</col>
+I can start this quest by talking to <col=800000>Alina<col=000080> and <col=800000>Noah<col=000080> in <col=800000>Varrock Square<col=000080>.;Je peux commencer cette quête en parlant à <col=800000>Alina<col=000080> et <col=800000>Noah<col=000080> dans <col=800000>Varrock Square<col=000080>.
+I can start this quest by talking to <col=800000>Veos<col=000080> on the <col=800000>Port Piscarilius<col=000080> docks.;Je peux commencer cette quête en parlant à <col=800000>Veos<col=000080> sur les quais de <col=800000>Port Piscarilius<col=000080>.
+I can start this quest by talking to <col=800000>Brother Kojo<col=000080> in the <col=800000>Clock Tower<col=000080> south of <col=800000>East Ardougne<col=000080>.;Je peux commencer cette quête en parlant à <col=800000>Brother Kojo<col=000080> dans la <col=800000>Clock Tower<col=000080> au sud de <col=800000>East Ardougne<col=000080>.
+<str>I arrived on Tutorial Island and met the Gielinor Guide, who;<str>Je suis arrivé sur Tutorial Island et ai rencontré le Gielinor Guide, qui
+<str>welcomed me on my journey to becoming an adventurer.;<str>m'a souhaité la bienvenue dans mon parcours pour devenir aventurier.
+<str>I met Brynna, the Survival Expert. She taught me how to catch;<str>J'ai rencontré Brynna, l'Expert en survie. Elle m'a appris comment attraper
+<str>shrimp with a fishing net, and then how to cook those shrimp;<str>des crevettes avec un filet de pêche, puis comment cuire ces crevettes
+<str>on a fire made from logs I had cut myself.;<str>sur un feu fait de bûches que j'avais moi‑même coupées.

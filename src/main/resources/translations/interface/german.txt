@@ -155,3 +155,43 @@ Description: <col=ffffff>Kill the Shellbane Gryphon 50 times.</col>;Beschreibung
 Description: <col=ffffff>Kill the Royal Titans 10 times.</col>;Beschreibung: <col=ffffff>Töte die Royal Titans 10 Mal.</col>
 Description: <col=ffffff>Kill Amoxliatl using only glacial temotli as a weapon.</col>;Beschreibung: <col=ffffff>Töte Amoxliatl, indem du nur glacial temotli als Waffe verwendest.</col>
 Type: <col=ffffff>Restriction</col> <col=dfdfdf>(+2 points)</col>;Typ: <col=ffffff>Einschränkung</col> <col=dfdfdf>(+2 Punkte)</col>
+<col=000000>magic tree in Falador.<col=ffffff>(<col=800000>91 Farming<col=000080>, <col=800000>75 Woodcutting<col=000080><col=ffffff>);<col=000000>magic tree in Falador.<col=ffffff>(<col=800000>91 Farming<col=000080>, <col=800000>75 Woodcutting<col=000080><col=ffffff>)
+Type: <col=ffffff>Speed</col> <col=dfdfdf>(+2 points)</col>;Typ: <col=ffffff>Geschwindigkeit</col> <col=dfdfdf>(+2 Punkte)</col>
+I can start this quest by talking to <col=800000>Alina<col=000080> and <col=800000>Noah<col=000080> in <col=800000>Varrock Square<col=000080>.;Ich kann diese Quest starten, indem ich mit <col=800000>Alina<col=000080> und <col=800000>Noah<col=000080> in <col=800000>Varrock Square<col=000080> spreche.
+I can start this quest by talking to <col=800000>Veos<col=000080> on the <col=800000>Port Piscarilius<col=000080> docks.;Ich kann diese Quest starten, indem ich mit <col=800000>Veos<col=000080> am <col=800000>Port Piscarilius<col=000080> Hafen spreche.
+I can start this quest by talking to <col=800000>Brother Kojo<col=000080> in the <col=800000>Clock Tower<col=000080> south of <col=800000>East Ardougne<col=000080>.;Ich kann diese Quest starten, indem ich mit <col=800000>Brother Kojo<col=000080> im <col=800000>Clock Tower<col=000080> südlich von <col=800000>East Ardougne<col=000080> spreche.
+<str>I arrived on Tutorial Island and met the Gielinor Guide, who;<str>Ich kam auf Tutorial Island an und traf den Gielinor Guide, der
+<str>welcomed me on my journey to becoming an adventurer.;<str>begrüßte mich auf meiner Reise, ein Abenteurer zu werden.
+<str>I met Brynna, the Survival Expert. She taught me how to catch;<str>Ich traf Brynna, die Survival-Expertin. Sie lehrte mich, wie man
+<str>shrimp with a fishing net, and then how to cook those shrimp;<str>Garnelen mit einem Fischernetz fängt, und dann, wie man diese Garnelen kocht
+<str>on a fire made from logs I had cut myself.;<str>über einem Feuer, das aus von mir selbst gehackten Stämmen gemacht wurde.
+<str>Lev, the Master Chef, explained proper cooking techniques to;<str>Lev, der Master Chef, erklärte mir richtige Kochtechniken
+<str>me. With his guidance I made a loaf of bread from flour and;<str>mir. Mit seiner Anleitung stellte ich ein Brot aus Mehl und
+<str>water.;<str>Wasser her.
+<str>The Quest Guide taught me about my quest list and quest;<str>Der Quest Guide zeigte mir meine Quest-Liste und Quest
+<str>journals. These are a useful tool for tracking my progress;<str>Journale. Diese sind ein nützliches Werkzeug, um meinen Fortschritt
+<str>through quests in Gielinor.;<str>bei Quests in Gielinor zu verfolgen.
+<str>I then met Dezzick, the Mining Instructor. He handed me a;<str>Dann traf ich Dezzick, den Mining Instructor. Er gab mir ein
+<str>pickaxe and tasked me with mining some copper and tin ores;<str>Pickaxe und beauftragte mich, etwas Kupfer- und Zinn-Erz zu abbauen
+<str>in order to smelt a bronze bar in the furnace, which I managed;<str>um in einem Ofen einen Bronze-Barren zu schmelzen, was mir
+<str>to successfully complete!;<str>erfolgreich gelang!
+<str>Dezzick told me to make a bronze dagger with the bronze bar I;<str>Dezzick sagte mir, einen Bronze dagger mit dem Bronze bar zu machen, den ich
+<str>had smelted. To that end, he handed me a hammer and pointed;<str>geschmolzen hatte. Zu diesem Zweck gab er mir einen Hammer und zeigte
+<str>me to the anvils.;<str>mir die Ambosse.
+<str>Vannaka taught me how to equip and unequip my weapons and;<str>Vannaka lehrte mich, wie man meine Waffen ausrüstet und ablegt und
+<str>armour from my inventory in order to prepare me for combat.;<str>Ausrüstung aus meinem Inventar, um mich auf den Kampf vorzubereiten.
+<str>I managed to kill a rat in Vannaka's cage.;<str>Ich schaffte es, eine Ratte in Vannakas Käfig zu töten.
+<str>Vannaka taught me the basics of melee and ranged combat,;<str>Vannaka lehrte mich die Grundlagen von Melee- und Ranged-Kampf,
+<str>giving me the weapons I needed to achieve that.;<str>gab mir die Waffen, die ich dafür brauchte.
+<str>It would appear I can safely store my items with the Bank of;<str>Es scheint, ich kann meine Gegenstände sicher bei der Bank of
+<str>Gielinor, which will make them accessible from any branch and;<str>Gielinor lagern, was sie von jedem Zweig aus zugänglich macht und
+<str>means I don't have to carry them everywhere with me.;<str>bedeutet, dass ich sie nicht überall mit mir tragen muss.
+<str>According to the Account Guide, I should be proactive with my;<str>Laut dem Account Guide sollte ich proaktiv sein mit meinem
+<str>security to protect my account.;<str>Sicherheit, um mein Konto zu schützen.
+<str>Brother Brace taught me about the Prayer skill. It can provide;<str>Brother Brace lehrte mich über die Prayer-Fertigkeit. Sie kann
+<str>a number of benefits to my regular activities, but costs;<str>eine Reihe von Vorteilen für meine regulären Aktivitäten bieten, kostet aber
+<str>prayer points which can be restored at any altar or holy site. I;<str>Prayer-Punkte, die an jedem Altar oder heiligen Ort wiederhergestellt werden können. Ich
+<str>can train it by burying bones and scattering ashes.;<str>kann sie trainieren, indem ich Knochen begrabe und Asche verstreue.
+<str>Having met Terrova, I was instructed to cast Wind Strike on;<str>Nachdem ich Terrova getroffen hatte, wurde mir aufgetragen, Wind Strike zu wirken auf
+<str>one of his chickens. Fortunately, my magical prowess allowed;<str>eines seiner Hühner. Glücklicherweise ermöglichte meine magische Fähigkeit
+<str>me to successfully achieve this.;<str>mir, dies erfolgreich zu erreichen.
