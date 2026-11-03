@@ -128,3 +128,42 @@ Standalone;Independente
 <col=000000>Change your family crest to the Saradomin symbol.<col=ffffff>(<col=800000>70 Prayer<col=000080><col=ffffff>);<col=000000>Mude o seu brasão de família para o símbolo de Saradomin.<col=ffffff>(<col=800000>70 Prayer<col=000080><col=ffffff>)
 <col=000000>Kill the Giant Mole beneath Falador park.;<col=000000>Mate o Giant Mole sob o parque de Falador.
 <col=000000>Kill a Skeletal Wyvern in the Asgarnia Ice Dungeon.<col=ffffff>(<col=800000>72 Slayer<col=000080><col=ffffff>);<col=000000>Mate um Skeletal Wyvern na Asgarnia Ice Dungeon.<col=ffffff>(<col=800000>72 Slayer<col=000080><col=ffffff>)
+<col=000000>Complete a lap of the Falador rooftop agility course.<col=ffffff>(<col=800000>50 Agility<col=000080><col=ffffff>);<col=000000>Complete uma volta do curso de agilidade no telhado de Falador.<col=ffffff>(<col=800000>50 Agility<col=000080><col=ffffff>)
+<col=000000>Enter the mining guild wearing a Prospector helmet.<col=ffffff>(<col=800000>60 Mining<col=000080><col=ffffff>);<col=000000>Entre na Mining Guild usando um capacete Prospector.<col=ffffff>(<col=800000>60 Mining<col=000080><col=ffffff>)
+<col=000000>Kill the Blue Dragon under the Heroes' Guild.<col=ffffff>(<col=800000>Heroes' Quest<col=000080><col=ffffff>);<col=000000>Mate o Blue Dragon sob a Heroes' Guild.<col=ffffff>(<col=800000>Heroes' Quest<col=000080><col=ffffff>)
+<col=000000>Crack a wall safe within Rogues Den.<col=ffffff>(<col=800000>50 Thieving<col=000080><col=ffffff>);<col=000000>Quebre um cofre de parede dentro da Rogues Den.<col=ffffff>(<col=800000>50 Thieving<col=000080><col=ffffff>)
+<col=000000>Recharge your prayer in the Port Sarim church while;<col=000000>Recarregue sua oração na igreja de Port Sarim enquanto
+<col=000000>wearing full Proselyte.<col=ffffff>(<col=800000>30 Defence<col=000080>, <col=800000>The Slug Menace<col=000080><col=ffffff>);<col=000000>vestindo Proselyte completo.<col=ffffff>(<col=800000>30 Defence<col=000080>, <col=800000>The Slug Menace<col=000080><col=ffffff>)
+<col=000000>Enter the Warriors' Guild.;<col=000000>Entre na Warriors' Guild.
+<col=000000>Equip a dwarven helmet within the dwarven mines.;<col=000000>Equipe um dwarven helmet dentro das dwarven mines.
+<col=000000>Craft 252 Air Runes simultaneously from Essence without;<col=000000>Crie 252 Air Runes simultaneamente a partir de Essence sem
+<col=000000>the use of Extracts.<col=ffffff>(<col=800000>88 Runecraft<col=000080><col=ffffff>);<col=000000>o uso de Extracts.<col=ffffff>(<col=800000>88 Runecraft<col=000080><col=ffffff>)
+<col=000000>Purchase a White 2h Sword from Sir Vyvin.<col=ffffff>(<col=800000>Wanted!<col=000080><col=ffffff>);<col=000000>Compre um White 2h Sword de Sir Vyvin.<col=ffffff>(<col=800000>Wanted!<col=000080><col=ffffff>)
+<col=000000>Find at least 3 magic roots at once when digging up your;<col=000000>Encontre ao menos 3 magic roots de uma vez ao cavar sua
+<col=000000>magic tree in Falador.<col=ffffff>(<col=800000>91 Farming<col=000080>, <col=800000>75 Woodcutting<col=000080><col=ffffff>);<col=000000>magic tree em Falador.<col=ffffff>(<col=800000>91 Farming<col=000080>, <col=800000>75 Woodcutting<col=000080><col=ffffff>)
+<col=000000>Perform a skillcape or quest cape emote at the top of;<col=000000>Faça uma animação de skillcape ou quest cape no topo de
+<col=000000>Jump over the strange floor in Taverley dungeon.<col=ffffff>(<col=800000>80 Agility<col=000080><col=ffffff>);<col=000000>Salte sobre o chão estranho na Taverley dungeon.<col=ffffff>(<col=800000>80 Agility<col=000080><col=ffffff>)
+<col=000000>Mix a Saradomin brew in Falador east bank.<col=ffffff>(<col=800000>81 Herblore<col=000080><col=ffffff>);<col=000000>Misture um Saradomin brew no banco leste de Falador.<col=ffffff>(<col=800000>81 Herblore<col=000080><col=ffffff>)
+Description: <col=ffffff>Kill a Brutal Black Dragon.</col>;Description: <col=ffffff>Mate um Brutal Black Dragon.</col>
+Description: <col=ffffff>Open Bryophyta's chest 5 times.</col>;Description: <col=ffffff>Abra o baú de Bryophyta 5 vezes.</col>
+Description: <col=ffffff>Kill all 3 of Bryophyta's growthlings within 3 seconds of the first one dying.</col>;Description: <col=ffffff>Mate os 3 growthlings de Bryophyta dentro de 3 segundos após o primeiro morrer.</col>
+Description: <col=ffffff>Kill Skotizo with a demonbane weapon equipped.</col>;Description: <col=ffffff>Mate Skotizo com uma arma demonbane equipada.</col>
+Description: <col=ffffff>Kill the Mad Angel after getting 3 consecutive enhanced attacks by successfully praying against the smite attacks during her enrage phase.</col>;Descrição: <col=ffffff>Mate o Mad Angel após obter 3 ataques aprimorados consecutivos rezando com sucesso contra os ataques de smite durante sua fase de fúria.</col>
+Description: <col=ffffff>Kill the Mad Angel 25 times.</col>;Descrição: <col=ffffff>Mate o Mad Angel 25 vezes.</col>
+Description: <col=ffffff>Kill Brutus whilst neither equipping nor consuming anything.</col>;Descrição: <col=ffffff>Mate Brutus sem equipar ou consumir nada.</col>
+Description: <col=ffffff>Kill the Shellbane Gryphon 10 times within 12:30 minutes of entering the cave.</col>;Descrição: <col=ffffff>Mate o Shellbane Gryphon 10 vezes dentro de 12:30 minutos após entrar na caverna.</col>
+Description: <col=ffffff>Kill the Shellbane Gryphon 50 times.</col>;Descrição: <col=ffffff>Mate o Shellbane Gryphon 50 vezes.</col>
+Description: <col=ffffff>Kill the Royal Titans 10 times.</col>;Descrição: <col=ffffff>Mate os Royal Titans 10 vezes.</col>
+Description: <col=ffffff>Kill Amoxliatl using only glacial temotli as a weapon.</col>;Descrição: <col=ffffff>Mate Amoxliatl usando apenas glacial temotli como arma.</col>
+Type: <col=ffffff>Restriction</col> <col=dfdfdf>(+2 points)</col>;Tipo: <col=ffffff>Restrição</col> <col=dfdfdf>(+2 pontos)</col>
+Type: <col=ffffff>Speed</col> <col=dfdfdf>(+2 points)</col>;Tipo: <col=ffffff>Velocidade</col> <col=dfdfdf>(+2 pontos)</col>
+I can start this quest by talking to <col=800000>Alina<col=000080> and <col=800000>Noah<col=000080> in <col=800000>Varrock Square<col=000080>.;Posso iniciar esta quest falando com <col=800000>Alina<col=000080> e <col=800000>Noah<col=000080> em <col=800000>Varrock Square<col=000080>.
+I can start this quest by talking to <col=800000>Veos<col=000080> on the <col=800000>Port Piscarilius<col=000080> docks.;Posso iniciar esta quest falando com <col=800000>Veos<col=000080> nos cais de <col=800000>Port Piscarilius<col=000080>.
+I can start this quest by talking to <col=800000>Brother Kojo<col=000080> in the <col=800000>Clock Tower<col=000080> south of <col=800000>East Ardougne<col=000080>.;Posso iniciar esta quest falando com <col=800000>Brother Kojo<col=000080> na <col=800000>Clock Tower<col=000080> ao sul de <col=800000>East Ardougne<col=000080>.
+<str>I arrived on Tutorial Island and met the Gielinor Guide, who;<str>Cheguei na Tutorial Island e encontrei o Gielinor Guide, que
+<str>welcomed me on my journey to becoming an adventurer.;<str>me recebeu na minha jornada para me tornar um adventurer.
+<str>I met Brynna, the Survival Expert. She taught me how to catch;<str>Conheci Brynna, a Survival Expert. Ela me ensinou como capturar
+<str>shrimp with a fishing net, and then how to cook those shrimp;<str>shrimp com uma fishing net, e então como cozinhar esses shrimp
+<str>on a fire made from logs I had cut myself.;<str>sobre um fire feito de logs que eu mesmo cortei.
+<str>Lev, the Master Chef, explained proper cooking techniques to;<str>Lev, o Master Chef, explicou técnicas adequadas de cooking
+<str>me. With his guidance I made a loaf of bread from flour and;<str>para mim. Com sua orientação fiz um loaf of bread de flour e
