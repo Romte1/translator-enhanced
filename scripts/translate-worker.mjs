@@ -234,7 +234,7 @@ async function requestTranslation(batch) {
 		{
 			model,
 			temperature: 0,
-			max_tokens: Math.min(budget, 200 + batch.length * 70),
+			max_tokens: Math.min(budget, 400 + batch.length * 120),
 			messages: [
 				{
 					role: "system",
