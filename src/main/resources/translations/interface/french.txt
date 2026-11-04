@@ -264,3 +264,28 @@ You are not prepared;Vous n'êtes pas préparé
 <col=000000>Plant some Logavano seeds at the Tithe Farm.</col><col=ffffff>(<col=800000>74 Farming<col=000080><col=ffffff>);<col=000000>Plantez des graines Logavano à la Tithe Farm.</col><col=ffffff>(<col=800000>74 Farming<col=000080><col=ffffff>)
 Description: <col=ffffff>Kill a Lizardman Shaman in Molch which has not dealt damage to anyone (excluding its Spawns).</col>;Description : <col=ffffff>Tuez un Lizardman Shaman à Molch qui n'a infligé de dégâts à personne (à l'exception de ses Spawn).</col>
 Description: <col=ffffff>Kill an Aberrant Spectre.</col>;Description : <col=ffffff>Tuez un Aberrant Spectre.</col>
+<str>Lev, the Master Chef, explained proper cooking techniques to;<str>Lev, le Master Chef, a expliqué les techniques de cuisine appropriées à
+<str>me. With his guidance I made a loaf of bread from flour and;<str>me. Avec ses conseils, j'ai fait un pain à partir de flour et
+<str>water.;<str>eau.
+<str>The Quest Guide taught me about my quest list and quest;<str>The Quest Guide m'a enseigné ma quest list et quest
+<str>journals. These are a useful tool for tracking my progress;<str>journals. Ce sont des outils utiles pour suivre ma progression
+<str>through quests in Gielinor.;<str>à travers les quests dans Gielinor.
+<str>I then met Dezzick, the Mining Instructor. He handed me a;<str>J'ai ensuite rencontré Dezzick, le Mining Instructor. Il m'a donné un
+<str>pickaxe and tasked me with mining some copper and tin ores;<str>pickaxe et m'a chargé d'extraire du copper et du tin ores
+<str>in order to smelt a bronze bar in the furnace, which I managed;<str>afin de fondre un bronze bar dans le furnace, ce que j'ai réussi
+<str>to successfully complete!;<str>à le compléter avec succès !
+<str>Dezzick told me to make a bronze dagger with the bronze bar I;<str>Dezzick m'a dit de fabriquer un bronze dagger avec le bronze bar que j'ai
+<str>had smelted. To that end, he handed me a hammer and pointed;<str>avais fondu. À cette fin, il m'a donné un hammer et a indiqué
+<str>me to the anvils.;<str>vers les anvils.
+<str>Vannaka taught me how to equip and unequip my weapons and;<str>Vannaka m'a appris comment équiper et déséquiper mes weapons et
+<str>armour from my inventory in order to prepare me for combat.;<str>armour depuis mon inventory afin de me préparer au combat.
+<str>I managed to kill a rat in Vannaka's cage.;<str>J'ai réussi à tuer un rat dans la cage de Vannaka.
+<str>Vannaka taught me the basics of melee and ranged combat,;<str>Vannaka m'a enseigné les bases du melee et du ranged combat,
+<str>giving me the weapons I needed to achieve that.;<str>me donnant les weapons dont j'avais besoin pour cela.
+<str>It would appear I can safely store my items with the Bank of;<str>Il semblerait que je puisse stocker mes items en toute sécurité avec la Bank of
+<str>Gielinor, which will make them accessible from any branch and;<str>Gielinor, ce qui les rendra accessibles depuis n'importe quelle branche et
+<str>means I don't have to carry them everywhere with me.;<str>signifie que je n'ai pas à les porter partout avec moi.
+<str>According to the Account Guide, I should be proactive with my;<str>Selon le Account Guide, je devrais être proactif avec mon
+<str>security to protect my account.;<str>sécurité pour protéger mon compte.
+<str>Brother Brace taught me about the Prayer skill. It can provide;<str>Brother Brace m'a enseigné la Prayer skill. Elle peut fournir
+<str>a number of benefits to my regular activities, but costs;<str>un certain nombre d'avantages à mes activités régulières, mais coûte
