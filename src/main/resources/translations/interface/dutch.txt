@@ -141,3 +141,26 @@ Description: <col=ffffff>Kill a Bloodveld.</col>;Beschrijving: <col=ffffff>Vermo
 <col=000000>Find at least 3 magic roots at once when digging up your;<col=000000>Vind minstens 3 magic roots tegelijk bij het uitgraven van je
 <col=000000>Perform a skillcape or quest cape emote at the top of;<col=000000>Voer een skillcape of quest cape emote uit bovenaan
 <col=000000>Jump over the strange floor in Taverley dungeon.<col=ffffff>(<col=800000>80 Agility<col=000080><col=ffffff>);<col=000000>Spring over de vreemde vloer in Taverley dungeon.<col=ffffff>(<col=800000>80 Agility<col=000080><col=ffffff>)
+Dancing with Statues;Dansen met standbeelden
+Dodging the Dragon;De draak ontwijken
+Hot on Your Feet;Snel op je voeten
+Playing with Lasers;Spelen met lasers
+Supplies? Who Needs 'em?;Voorraad? Wie heeft die nodig?
+... 'til Dawn;... tot de dageraad
+A siphon will solve this;Een zuiger lost dit op
+All out of medics;Geen medici meer
+Back in My Day...;In mijn tijd...
+Back so soon?;Zo snel terug?
+Better get movin';Beter gaan bewegen
+Big, Black and Fiery;Groot, zwart en vurig
+Calm Before the Storm;Rust voor de storm
+Contain this!;Bevat dit!
+Death to the Archer King;Dood aan de Archer King
+Death to the Seer King;Dood aan de Seer King
+Death to the Warrior King;Dood aan de Warrior King
+Denying the Healers;De healers ontzeggen
+Description: <col=ffffff>Kill a Black Dragon.</col>;Beschrijving: <col=ffffff>Kill a Black Dragon.</col>
+Description: <col=ffffff>Kill any Barrows Brother using only magical damage.</col>;Beschrijving: <col=ffffff>Kill any Barrows Brother using only magical damage.</col>
+Description: <col=ffffff>Kill the Chaos Fanatic without anyone being hit by his explosion attack.</col>;Beschrijving: <col=ffffff>Kill the Chaos Fanatic without anyone being hit by his explosion attack.</col>
+Description: <col=ffffff>Open the Barrows chest 10 times.</col>;Beschrijving: <col=ffffff>Open the Barrows chest 10 times.</col>
+Digging in;Graven in
