@@ -81,3 +81,35 @@ I can start this quest by talking to <col=800000>Jamila<col=000080> at her stall
 <col=000000>Steal from the Keldagrim Gem Stall.;<col=000000>Stjäl från ädelstensståndet i Keldagrim.
 <col=ffffff>(<col=800000>75 Thieving<col=000080>, <col=800000>Started The Giant Dwarf<col=000080><col=ffffff>);<col=ffffff>(<col=800000>75 Thieving<col=000080>, <col=800000>Startade The Giant Dwarf<col=000080><col=ffffff>)
 <col=000000>Craft a Neitiznot shield on Neitiznot.;<col=000000>Tillverka en Neitiznot shield på Neitiznot.
+Dancing with Statues;Dans med statyer
+Dodging the Dragon;Undvika draken
+Hot on Your Feet;Het på fötterna
+Playing with Lasers;Leka med laser
+Supplies? Who Needs 'em?;Förnödenheter? Vem behöver dem?
+... 'til Dawn;... till gryningen
+A siphon will solve this;En sifon löser detta
+All out of medics;Ingen sjukvård kvar
+Back in My Day...;På min tid...
+Back so soon?;Tillbaka så snart?
+Better get movin';Bättre skynda sig
+Big, Black and Fiery;Stor, svart och flammande
+Calm Before the Storm;Stilla före stormen
+Camping the King;Campa kungen
+Chambers of Xeric (5-Scale) Speed-Chaser;Chambers of Xeric (5-Scale) Snabbhetsjägare
+Chambers of Xeric (Solo) Speed-Chaser;Chambers of Xeric (Solo) Snabbhetsjägare
+Chambers of Xeric (Trio) Speed-Chaser;Chambers of Xeric (Trio) Snabbhetsjägare
+Chambers of Xeric Master;Chambers of Xeric Mästare
+Chambers of Xeric: CM (5-Scale) Speed-Chaser;Chambers of Xeric: CM (5-Scale) Snabbhetsjägare
+Chambers of Xeric: CM (Solo) Speed-Chaser;Chambers of Xeric: CM (Solo) Snabbhetsjägare
+Chambers of Xeric: CM (Trio) Speed-Chaser;Chambers of Xeric: CM (Trio) Snabbhetsjägare
+Chambers of Xeric: CM Master;Chambers of Xeric: CM Mästare
+Contain this!;Håll tillbaka detta!
+Death to the Archer King;Döda Archer King
+Death to the Seer King;Döda Seer King
+Death to the Warrior King;Döda Warrior King
+Denying the Healers;Hindra helarna
+Description: <col=ffffff>Kill a Black Dragon.</col>;Beskrivning: <col=ffffff>Döda en Black Dragon.</col>
+Description: <col=ffffff>Kill any Barrows Brother using only magical damage.</col>;Beskrivning: <col=ffffff>Döda någon Barrows Brother med endast magisk skada.</col>
+Description: <col=ffffff>Kill the Chaos Fanatic without anyone being hit by his explosion attack.</col>;Beskrivning: <col=ffffff>Döda Chaos Fanatic utan att någon blir träffad av hans explosionsattack.</col>
+Description: <col=ffffff>Open the Barrows chest 10 times.</col>;Beskrivning: <col=ffffff>Öppna Barrows chest 10 gånger.</col>
+Digging in;Gräva

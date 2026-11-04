@@ -195,3 +195,35 @@ I can start this quest by talking to <col=800000>Brother Kojo<col=000080> in the
 <str>Having met Terrova, I was instructed to cast Wind Strike on;<str>Nachdem ich Terrova getroffen hatte, wurde mir aufgetragen, Wind Strike zu wirken auf
 <str>one of his chickens. Fortunately, my magical prowess allowed;<str>eines seiner Hühner. Glücklicherweise ermöglichte meine magische Fähigkeit
 <str>me to successfully achieve this.;<str>mir, dies erfolgreich zu erreichen.
+Dancing with Statues;Tanzen mit Statuen
+Dodging the Dragon;Ausweichen vor dem Drachen
+Hot on Your Feet;Heiß an deinen Füßen
+Playing with Lasers;Spielen mit Lasern
+Supplies? Who Needs 'em?;Vorräte? Wer braucht die?
+... 'til Dawn;... bis zum Morgengrauen
+A siphon will solve this;Ein Siphon wird das lösen
+All out of medics;Keine Mediziner mehr
+Back in My Day...;In meiner Jugend...
+Back so soon?;Schon so schnell zurück?
+Better get movin';Besser du bewegst dich
+Big, Black and Fiery;Groß, schwarz und feurig
+Calm Before the Storm;Ruhe vor dem Sturm
+Camping the King;Camping des Königs
+Chambers of Xeric (5-Scale) Speed-Chaser;Chambers of Xeric (5-Scale) Geschwindigkeitsjäger
+Chambers of Xeric (Solo) Speed-Chaser;Chambers of Xeric (Solo) Geschwindigkeitsjäger
+Chambers of Xeric (Trio) Speed-Chaser;Chambers of Xeric (Trio) Geschwindigkeitsjäger
+Chambers of Xeric Master;Chambers of Xeric Meister
+Chambers of Xeric: CM (5-Scale) Speed-Chaser;Chambers of Xeric: CM (5-Scale) Geschwindigkeitsjäger
+Chambers of Xeric: CM (Solo) Speed-Chaser;Chambers of Xeric: CM (Solo) Geschwindigkeitsjäger
+Chambers of Xeric: CM (Trio) Speed-Chaser;Chambers of Xeric: CM (Trio) Geschwindigkeitsjäger
+Chambers of Xeric: CM Master;Chambers of Xeric: CM Meister
+Contain this!;Enthalte das!
+Death to the Archer King;Tod dem Archer King
+Death to the Seer King;Tod dem Seer King
+Death to the Warrior King;Tod dem Warrior King
+Denying the Healers;Heiler abweisen
+Description: <col=ffffff>Kill a Black Dragon.</col>;Beschreibung: <col=ffffff>Töte einen Black Dragon.</col>
+Description: <col=ffffff>Kill any Barrows Brother using only magical damage.</col>;Beschreibung: <col=ffffff>Töte jeden Barrows Brother nur mit magischem Schaden.</col>
+Description: <col=ffffff>Open the Barrows chest 10 times.</col>;Beschreibung: <col=ffffff>Öffne die Barrows Truhe 10 Mal.</col>
+Digging in;Graben
+Doesn't bug me;Stört mich nicht
