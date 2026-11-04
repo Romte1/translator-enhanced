@@ -525,3 +525,38 @@ More than just a ranged weapon;Mais que apenas uma arma de Ranged
 Movin' on up;Subindo
 No Time for Death;Sem tempo para a Morte
 No skipping allowed;Não é permitido pular
+No time to pray;Sem tempo para rezar
+No toppings, no drinks, thanks;Sem coberturas, sem bebidas, obrigado
+One by one;Um por um
+Praying to the Gods;Rezando aos Deuses
+Putting It Olm on the Line;Colocando Olm em jogo
+Ready to Pounce;Pronto para saltar
+Reflecting on This Encounter;Refletindo sobre este encontro
+Rockin' around the croc;Balancando ao redor do croc
+Shadow dancer;Dançarino das Sombras
+Smarter than a Cow;Mais esperto que uma Vaca
+Something of an expert myself;Sou meio especialista
+Space is Tight;Espaço está apertado
+Stick 'em With the Pointy End;Aponte-os com a ponta
+Stop Drop and Roll;Pare, Caia e Role
+The Bane of Demons;A Ruína dos Demônios
+There is no escape!;Não há escapatória!
+Three Times the Thrashing;Três Vezes o Flagelo
+Through Fire and Flames;Através de Fogo e Chamas
+Toppling the Diarchy;Derrubando a Diarquia
+Trying to fit in;Tentando se encaixar
+Two Times the Torment;Duas Vezes o Tormento
+Up for the Challenge;Pronto para o Desafio
+Warden't you believe it;Warden, não acredita?
+Who Is the King Now?;Quem é o Rei Agora?
+You Didn't Say Anything About a Bat;Você Não Disse Nada Sobre um Morcego
+You are not prepared;Você não está preparado
+<col=000000>Plant some Logavano seeds at the Tithe Farm.</col><col=ffffff>(<col=800000>74 Farming<col=000080><col=ffffff>);<col=000000>Plante algumas sementes Logavano na Tithe Farm.</col><col=ffffff>(<col=800000>74 Farming<col=000080><col=ffffff>)
+Description: <col=ffffff>Kill a Lizardman Shaman in Molch which has not dealt damage to anyone (excluding its Spawns).</col>;Descrição: <col=ffffff>Mate um Lizardman Shaman em Molch que não causou dano a ninguém (excluindo seus Spawn).</col>
+Description: <col=ffffff>Kill an Aberrant Spectre.</col>;Descrição: <col=ffffff>Mate um Aberrant Spectre.</col>
+<str>water.;<str>água.
+<col=000000>Visit the Isle of Crandor via the dungeon below the;<col=000000>Visite a Isle of Crandor via a masmorra abaixo da
+<col=000000>volcano.<col=ffffff>(<col=800000>Started Dragon Slayer I<col=000080><col=ffffff>);<col=000000>vulcão.<col=ffffff>(<col=800000>Started Dragon Slayer I<col=000080><col=ffffff>)
+<col=000000>Use Vigroy and Hajedy's cart service.<col=ffffff>(<col=800000>Shilo Village<col=000080><col=ffffff>);<col=000000>Use o serviço de carruagem de Vigroy e Hajedy.<col=ffffff>(<col=800000>Shilo Village<col=000080><col=ffffff>)
+<col=000000>Earn 100% favour in the village of Tai Bwo Wannai.;<col=000000>Ganhe 100% de favor na vila de Tai Bwo Wannai.
+<col=000000>Cook a spider on a stick.<col=ffffff>(<col=800000>16 Cooking<col=000080><col=ffffff>);<col=000000>Cozinhe uma aranha em um bastão.<col=ffffff>(<col=800000>16 Cooking<col=000080><col=ffffff>)
