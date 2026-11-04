@@ -262,3 +262,39 @@ Let them fight;Lasciali combattere
 Master of Buckets;Maestro dei secchi
 More than just a ranged weapon;Più di una semplice arma a distanza
 Movin' on up;Andando su
+No Time for Death;Nessun tempo per la morte
+No skipping allowed;Non è consentito saltare
+No time to pray;Nessun tempo per pregare
+No toppings, no drinks, thanks;Nessun topping, nessuna bevanda, grazie
+One by one;Uno alla volta
+Praying to the Gods;Pregando gli dei
+Putting It Olm on the Line;Mettere Olm in gioco
+Ready to Pounce;Pronto a balzare
+Reflecting on This Encounter;Riflettendo su questo incontro
+Rockin' around the croc;Rockin' intorno al croc
+Shadow dancer;Danzatore d'ombra
+Smarter than a Cow;Più intelligente di una mucca
+Something of an expert myself;Un po' esperto anch'io
+Space is Tight;Lo spazio è ristretto
+Stick 'em With the Pointy End;Colpiscili con la punta
+Stop Drop and Roll;Fermati, abbassati e rotola
+The Bane of Demons;Il Flagello dei Demoni
+Theatre of Blood Master;Maestro del Theatre of Blood
+Theatre of Blood Veteran;Veterano del Theatre of Blood
+Theatre of Blood: SM Adept;Theatre of Blood: SM Adepto
+Theatre of Blood: SM Speed-Chaser;Theatre of Blood: SM Cacciatore di Velocità
+There is no escape!;Non c'è scampo!
+Three Times the Thrashing;Tre volte la Frustata
+Through Fire and Flames;Attraverso Fuoco e Fiamme
+Toppling the Diarchy;Rovesciare la Diarchia
+Trying to fit in;Cercare di integrarsi
+Two Times the Torment;Due volte il Tormento
+Up for the Challenge;Pronto per la Sfida
+Warden't you believe it;Warden, non ci crederai
+Who Is the King Now?;Chi è il Re ora?
+You Didn't Say Anything About a Bat;Non hai detto nulla su un Pipistrello
+You are not prepared;Non sei preparato
+<col=000000>Plant some Logavano seeds at the Tithe Farm.</col><col=ffffff>(<col=800000>74 Farming<col=000080><col=ffffff>);<col=000000>Pianta dei semi Logavano nella Tithe Farm.</col><col=ffffff>(<col=800000>74 Farming<col=000080><col=ffffff>)
+Description: <col=ffffff>Kill a Lizardman Shaman in Molch which has not dealt damage to anyone (excluding its Spawns).</col>;Descrizione: <col=ffffff>Uccidi un Lizardman Shaman in Molch che non ha inflitto danni a nessuno (esclusi i suoi Spawns).</col>
+Description: <col=ffffff>Kill an Aberrant Spectre.</col>;Descrizione: <col=ffffff>Uccidi un Aberrant Spectre.</col>
+<str>mode, or use my Home Teleport to travel to the mainland.;<str>modalità, o usa il mio Home Teleport per viaggiare verso la terraferma.

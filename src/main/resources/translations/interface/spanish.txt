@@ -938,10 +938,10 @@ I can start this quest by talking to an <col=800000>Injured Tortugan<col=000080>
 I can start this quest by talking to <col=800000>Denulth<col=000080> in his tent in <col=800000>Burthorpe<col=000080>.;Empieza la misión hablando con <col=800000>Denulth<col=000080> en su tienda en <col=800000>Burthorpe<col=000080>.
 I can start this quest by talking to <col=800000>Ug<col=000080> in the <col=800000>Troll Stronghold<col=000080>.;Empieza la misión hablando con <col=800000>Ug<col=000080> en el <col=800000>Troll Stronghold<col=000080>.
 I can start this quest by talking to <col=800000>Kangai Mau<col=000080> in the <col=800000>Shrimp and Parrot<col=000080> in <col=800000>Brimhaven<col=000080>.;Empieza la misión hablando con <col=800000>Kangai Mau<col=000080> en el <col=800000>Shrimp and Parrot<col=000080> en <col=800000>Brimhaven<col=000080>.
-Description: <col=ffffff>Kill Bryophyta with either poison or venom being the final source of damage.</col>;Description: <col=ffffff>Mata a Bryophyta con veneno o toxina como daño final.</col>
-Description: <col=ffffff>Kill Bryophyta without suffering any poison damage.</col>;Description: <col=ffffff>Mata a Bryophyta sin recibir daño de veneno.</col>
+Description: <col=ffffff>Kill Bryophyta with either poison or venom being the final source of damage.</col>;Descripción: <col=ffffff>Mata a Bryophyta con veneno o toxina como daño final.</col>
+Description: <col=ffffff>Kill Bryophyta without suffering any poison damage.</col>;Descripción: <col=ffffff>Mata a Bryophyta sin recibir daño de veneno.</col>
 Description: <col=ffffff>Kill Bryophyta with the Protect from Magic prayer active.</col>;Descripción: <col=ffffff>Mata a Bryophyta con la oración Protect from Magic activa.</col>
-Description: <col=ffffff>Open Bryophyta's chest once.</col>;Description: <col=ffffff>Abre el cofre de Bryophyta una vez.</col>
+Description: <col=ffffff>Open Bryophyta's chest once.</col>;Descripción: <col=ffffff>Abre el cofre de Bryophyta una vez.</col>
 <col=000000>Catch a Copper Longtail.<col=ffffff>(<col=800000>9 Hunter<col=000080><col=ffffff>);<col=000000>Atrapa un Copper Longtail.<col=ffffff>(<col=800000>9 Hunter<col=000080><col=ffffff>)
 <col=000000>Complete a novice game of Pest Control.<col=ffffff>(<col=800000>40 Combat<col=000080><col=ffffff>);<col=000000>Completa una partida novato de Pest Control.<col=ffffff>(<col=800000>40 Combat<col=000080><col=ffffff>)
 <col=000000>Mine some Iron Ore near Piscatoris.<col=ffffff>(<col=000080><str>15 Mining</str><col=ffffff>);<col=000000>Mina algo de Iron Ore cerca de Piscatoris.<col=ffffff>(<col=000080><str>15 Mining</str><col=ffffff>)
@@ -979,12 +979,12 @@ Description: <col=ffffff>Open Bryophyta's chest once.</col>;Description: <col=ff
 <col=000000>Have Prissy Scilla protect your Magic tree.<col=ffffff>(<col=800000>75 Farming<col=000080><col=ffffff>);<col=000000>Haz que Prissy Scilla proteja tu Magic tree.<col=ffffff>(<col=800000>75 Farming<col=000080><col=ffffff>)
 <col=000000>least 1000 kills.<col=ffffff>(<col=800000>Big Chompy Bird Hunting<col=000080><col=ffffff>);<col=000000>al menos 1000 kills.<col=ffffff>(<col=800000>Big Chompy Bird Hunting<col=000080><col=ffffff>)
 <col=000000>Pickpocket an Elf.<col=ffffff>(<col=800000>85 Thieving<col=000080>, <col=800000>Started Mourning's End Part I<col=000080><col=ffffff>);<col=000000>Roba a un Elf.<col=ffffff>(<col=800000>85 Thieving<col=000080>, <col=800000>Started Mourning's End Part I<col=000080><col=ffffff>)
-Description: <col=ffffff>Kill Cerberus 75 times.</col>;Description: <col=ffffff>Mata a Cerberus 75 veces.</col>
-Description: <col=ffffff>Kill Cerberus after successfully negating 6 or more attacks from Summoned Souls.</col>;Description: <col=ffffff>Mata a Cerberus después de negar con éxito 6 o más ataques de Summoned Souls.</col>
-Description: <col=ffffff>Kill Cerberus without taking damage from any lava pools.</col>;Description: <col=ffffff>Mata a Cerberus sin recibir daño de ningún lava pool.</col>
-Description: <col=ffffff>Kill Cerberus without taking any melee damage.</col>;Description: <col=ffffff>Mata a Cerberus sin recibir daño cuerpo a cuerpo.</col>
-Description: <col=ffffff>Kill Cerberus 150 times.</col>;Description: <col=ffffff>Mata a Cerberus 150 veces.</col>
-Description: <col=ffffff>Kill Cerberus without any of the Summoned Souls being spawned.</col>;Description: <col=ffffff>Mata a Cerberus sin que se generen Summoned Souls.</col>
+Description: <col=ffffff>Kill Cerberus 75 times.</col>;Descripción: <col=ffffff>Mata a Cerberus 75 veces.</col>
+Description: <col=ffffff>Kill Cerberus after successfully negating 6 or more attacks from Summoned Souls.</col>;Descripción: <col=ffffff>Mata a Cerberus después de negar con éxito 6 o más ataques de Summoned Souls.</col>
+Description: <col=ffffff>Kill Cerberus without taking damage from any lava pools.</col>;Descripción: <col=ffffff>Mata a Cerberus sin recibir daño de ningún lava pool.</col>
+Description: <col=ffffff>Kill Cerberus without taking any melee damage.</col>;Descripción: <col=ffffff>Mata a Cerberus sin recibir daño cuerpo a cuerpo.</col>
+Description: <col=ffffff>Kill Cerberus 150 times.</col>;Descripción: <col=ffffff>Mata a Cerberus 150 veces.</col>
+Description: <col=ffffff>Kill Cerberus without any of the Summoned Souls being spawned.</col>;Descripción: <col=ffffff>Mata a Cerberus sin que se generen Summoned Souls.</col>
 <col=000000>Enter the Wilderness Godwars Dungeon.;<col=000000>Entra en el Wilderness Godwars Dungeon.
 <col=000000>Cast Low Alchemy at the Fountain of Rune.<col=ffffff>(<col=800000>21 Magic<col=000080><col=ffffff>);<col=000000>Lanza Low Alchemy en la Fountain of Rune.<col=ffffff>(<col=800000>21 Magic<col=000080><col=ffffff>)
 <col=000000>Kill an Earth Warrior in the Wilderness beneath Edgeville.<col=ffffff>(<col=800000>15 Agility<col=000080><col=ffffff>);<col=000000>Mata un Earth Warrior en el Wilderness bajo Edgeville.<col=ffffff>(<col=800000>15 Agility<col=000080><col=ffffff>)
@@ -1257,3 +1257,42 @@ Kill It with Fire;Mátalo con fuego
 King-sized clobbering;Golpe de rey
 Let it seep in;Déjalo que se filtre
 Let them fight;Déjalos pelear
+Master of Buckets;Maestro de Cubos
+Moons of Peril Speed-Chaser;Perseguidor de velocidad de Moons of Peril
+More than just a ranged weapon;Más que solo un arma de Ranged
+Movin' on up;Subiendo
+No Time for Death;Sin tiempo para la muerte
+No skipping allowed;No se permite saltarse
+No time to pray;No hay tiempo para rezar
+No toppings, no drinks, thanks;Sin ingredientes extra, sin bebidas, gracias
+One by one;Uno a uno
+Praying to the Gods;Rezando a los dioses
+Putting It Olm on the Line;Poniendo a Olm en la línea
+Ready to Pounce;Listo para saltar
+Reflecting on This Encounter;Reflexionando sobre este encuentro
+Rockin' around the croc;Rockeando alrededor del cocodrilo
+Shadow dancer;Bailarín de sombra
+Smarter than a Cow;Más listo que una vaca
+Something of an expert myself;Algo de experto soy yo
+Space is Tight;El espacio es estrecho
+Stick 'em With the Pointy End;Golpéalos con el extremo puntiagudo
+Stop Drop and Roll;Detén, suelta y rueda
+The Bane of Demons;La perdición de los demonios
+Theatre of Blood Master;Maestro del Theatre of Blood
+Theatre of Blood Veteran;Veterano del Theatre of Blood
+Theatre of Blood: SM Adept;Theatre of Blood: SM Adepto
+Theatre of Blood: SM Speed-Chaser;Theatre of Blood: SM Cazador de velocidad
+There is no escape!;¡No hay escape!
+Three Times the Thrashing;Tres veces la paliza
+Through Fire and Flames;A través del fuego y las llamas
+Toppling the Diarchy;Derrocando la Diarquía
+Trying to fit in;Intentando encajar
+Two Times the Torment;Dos veces el tormento
+Up for the Challenge;Listo para el desafío
+Warden't you believe it;Warden, ¿no lo crees?
+Who Is the King Now?;¿Quién es el rey ahora?
+You Didn't Say Anything About a Bat;No dijiste nada sobre un murciélago
+You are not prepared;No estás preparado
+<col=000000>Plant some Logavano seeds at the Tithe Farm.</col><col=ffffff>(<col=800000>74 Farming<col=000080><col=ffffff>);<col=000000>Planta algunas semillas Logavano en la Tithe Farm.</col><col=ffffff>(<col=800000>74 Farming<col=000080><col=ffffff>)
+Description: <col=ffffff>Kill a Lizardman Shaman in Molch which has not dealt damage to anyone (excluding its Spawns).</col>;Descripción: <col=ffffff>Mata a un Lizardman Shaman en Molch que no haya infligido daño a nadie (excluyendo sus Spawns).</col>
+Description: <col=ffffff>Kill an Aberrant Spectre.</col>;Descripción: <col=ffffff>Mata a un Aberrant Spectre.</col>

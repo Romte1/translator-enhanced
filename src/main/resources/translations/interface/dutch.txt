@@ -164,3 +164,42 @@ Description: <col=ffffff>Kill any Barrows Brother using only magical damage.</co
 Description: <col=ffffff>Kill the Chaos Fanatic without anyone being hit by his explosion attack.</col>;Beschrijving: <col=ffffff>Dood de Chaos Fanatic zonder dat iemand door zijn explosieaanval geraakt wordt.</col>
 Description: <col=ffffff>Open the Barrows chest 10 times.</col>;Beschrijving: <col=ffffff>Open de Barrows chest 10 keer.</col>
 Digging in;Graven
+Camping the King;Kamperen op de Koning
+Chambers of Xeric (5-Scale) Speed-Chaser;Chambers of Xeric (5-Scale) Snelheidsjager
+Chambers of Xeric (Solo) Speed-Chaser;Chambers of Xeric (Solo) Snelheidsjager
+Chambers of Xeric (Trio) Speed-Chaser;Chambers of Xeric (Trio) Snelheidsjager
+Chambers of Xeric Master;Chambers of Xeric Meester
+Chambers of Xeric Veteran;Chambers of Xeric Veteraan
+Chambers of Xeric: CM (5-Scale) Speed-Chaser;Chambers of Xeric: CM (5-Scale) Snelheidsjager
+Chambers of Xeric: CM (Solo) Speed-Chaser;Chambers of Xeric: CM (Solo) Snelheidsjager
+Chambers of Xeric: CM (Trio) Speed-Chaser;Chambers of Xeric: CM (Trio) Snelheidsjager
+Chambers of Xeric: CM Master;Chambers of Xeric: CM Meester
+Doesn't bug me;Stoort me niet
+Don't Look at Me!;Kijk niet naar mij!
+Don't Look at the Eclipse;Kijk niet naar de zonsverduistering
+Done before Dusk;Gedaan voor zonsondergang
+Dropped the ball;De bal laten vallen
+Fancy feet;Stijlvolle voeten
+Fat of the Land;Het vette van het land
+Fighting as Intended;Vechten zoals bedoeld
+Finding the Weak Spot;Het zwakke punt vinden
+Fire fighter;Brandweerman
+Fire in the Hole!;Vuur in het gat!
+Fragment of Seren Speed-Trialist;Fragment van Seren Speed-Trialist
+From One King to Another;Van de ene koning naar de andere
+Helpful spirit who?;Behulpzame geest, wie?
+I need room;Ik heb ruimte nodig
+I was here first!;Ik was hier eerst!
+I'm in a rush;Ik heb haast
+I'm your son;Ik ben je zoon
+Into the Den of Giants;Naar het hol van reuzen
+Is it a bird?;Is het een vogel?
+Kill It with Fire;Dood het met vuur
+King-sized clobbering;Koninklijke aframmeling
+Let it seep in;Laat het doordringen
+Let them fight;Laat ze vechten
+Master of Buckets;Meester van emmers
+More than just a ranged weapon;Meer dan alleen een ranged weapon
+Movin' on up;Op naar boven
+No Time for Death;Geen tijd voor de dood
+No skipping allowed;Overslaan niet toegestaan
