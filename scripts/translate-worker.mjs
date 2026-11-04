@@ -75,6 +75,9 @@ const otherLanguageValues = language === "spanish"
 	? new Set()
 	: readValues("spanish");
 
+const sourceValues = readValues("spanish");
+const SPANISH_LABEL = /^(Monstruo|Tipo|Rango|Completado|Puntos totales|Descripción|Dificultad|Requisitos|Recomendaciones|Tareas|Filtros|Nivel de)\s*:/i;
+
 const localTexts = existsSync(inputFile)
 	? readLines(inputFile).map(line => line.slice(0, line.lastIndexOf(";")))
 	: [];
@@ -96,6 +99,8 @@ const texts = remoteTexts ?? localTexts;
 const pending = [...new Set([...texts, ...seedTexts])]
 	.filter(key => key.length > 0 && !known.has(normalize(key)) && !knownValues.has(normalize(key)))
 	.filter(key => !IGNORED_PREFIXES.some(prefix => key.startsWith(prefix)))
+	.filter(key => !SPANISH_LABEL.test(key))
+	.filter(key => !(normalize(key).length > 12 && sourceValues.has(normalize(key))))
 	.filter(looksLikeText)
 	.slice(0, limit > 0 ? limit : undefined);
 

@@ -113,3 +113,31 @@ Description: <col=ffffff>Kill any Barrows Brother using only magical damage.</co
 Description: <col=ffffff>Kill the Chaos Fanatic without anyone being hit by his explosion attack.</col>;Beskrivning: <col=ffffff>Döda Chaos Fanatic utan att någon blir träffad av hans explosionsattack.</col>
 Description: <col=ffffff>Open the Barrows chest 10 times.</col>;Beskrivning: <col=ffffff>Öppna Barrows chest 10 gånger.</col>
 Digging in;Gräva
+Doesn't bug me;Det stör mig inte
+Don't Look at Me!;Titta inte på mig!
+Don't Look at the Eclipse;Titta inte på solförmörkelsen
+Done before Dusk;Gjort innan skymning
+Dropped the ball;Tappade bollen
+Fancy feet;Fina fötter
+Fat of the Land;Fett från landet
+Fighting as Intended;Kämpa som avsett
+Finding the Weak Spot;Hitta den svaga punkten
+Fire fighter;Brandman
+Fire in the Hole!;Eld i hålet!
+Fragment of Seren Speed-Trialist;Fragment av Seren Speed-Trialist
+From One King to Another;Från en kung till en annan
+Helpful spirit who?;Hjälpsam ande vem?
+I need room;Jag behöver plats
+I was here first!;Jag var här först!
+I'm in a rush;Jag har bråttom
+I'm your son;Jag är din son
+Into the Den of Giants;In i Jättarnas håla
+Is it a bird?;Är det en fågel?
+Kill It with Fire;Döda den med eld
+King-sized clobbering;Kungstor smäll
+Let it seep in;Låt det sippra in
+Let them fight;Låt dem kämpa
+Master of Buckets;Mästare av hinkar
+More than just a ranged weapon;Mer än bara ett ranged weapon
+Movin' on up;På väg upp
+No Time for Death;Ingen tid för döden

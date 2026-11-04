@@ -228,3 +228,37 @@ Description: <col=ffffff>Kill any Barrows Brother using only magical damage.</co
 Description: <col=ffffff>Open the Barrows chest 10 times.</col>;Descrizione: <col=ffffff>Apri il Barrows chest 10 volte.</col>
 Digging in;Scavando
 Doesn't bug me;Non mi infastidisce
+Monster: <col=ffffff>Chambers of Xeric: CM</col>;Mostro: <col=ffffff>Chambers of Xeric: CM</col>
+Monster: <col=ffffff>Chambers of Xeric</col>;Mostro: <col=ffffff>Chambers of Xeric</col>
+Monster: <col=ffffff>Doom of Mokhaiotl</col>;Mostro: <col=ffffff>Doom of Mokhaiotl</col>
+Monster: <col=ffffff>Theatre of Blood: Hard Mode</col>;Mostro: <col=ffffff>Theatre of Blood: Hard Mode</col>
+Monster: <col=ffffff>Theatre of Blood</col>;Mostro: <col=ffffff>Theatre of Blood</col>
+Monster: <col=ffffff>Tombs of Amascut: Expert Mode</col>;Mostro: <col=ffffff>Tombs of Amascut: Expert Mode</col>
+Monster: <col=ffffff>Tombs of Amascut</col>;Mostro: <col=ffffff>Tombs of Amascut</col>
+Description: <col=ffffff>Kill the Chaos Fanatic without anyone being hit by his explosion attack.</col>;Descrizione: <col=ffffff>Uccidi il Chaos Fanatic senza che nessuno venga colpito dalla sua esplosione.</col>
+Don't Look at Me!;Non guardarmi!
+Don't Look at the Eclipse;Non guardare l'Eclisse
+Done before Dusk;Fatto prima del tramonto
+Dropped the ball;Lanciato la palla
+Fancy feet;Piedi eleganti
+Fat of the Land;Grasso della terra
+Fighting as Intended;Combattimento come previsto
+Finding the Weak Spot;Trovare il punto debole
+Fire fighter;Pompiere
+Fire in the Hole!;Fuoco nella buca!
+Fragment of Seren Speed-Trialist;Frammento di Seren Speed-Trialist
+From One King to Another;Da un Re all'altro
+Helpful spirit who?;Spirito utile chi?
+I need room;Ho bisogno di spazio
+I was here first!;Sono stato qui per primo!
+I'm in a rush;Sono di fretta
+I'm your son;Sono tuo figlio
+Into the Den of Giants;Nella Tana dei Giganti
+Is it a bird?;È un uccello?
+Kill It with Fire;Uccidilo con il fuoco
+King-sized clobbering;Colpo da re
+Let it seep in;Lascia che penetri
+Let them fight;Lasciali combattere
+Master of Buckets;Maestro dei secchi
+More than just a ranged weapon;Più di una semplice arma a distanza
+Movin' on up;Andando su
