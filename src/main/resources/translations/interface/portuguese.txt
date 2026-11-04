@@ -560,3 +560,23 @@ Description: <col=ffffff>Kill an Aberrant Spectre.</col>;Descrição: <col=fffff
 <col=000000>Use Vigroy and Hajedy's cart service.<col=ffffff>(<col=800000>Shilo Village<col=000080><col=ffffff>);<col=000000>Use o serviço de carroça de Vigroy e Hajedy.<col=ffffff>(<col=800000>Shilo Village<col=000080><col=ffffff>)
 <col=000000>Earn 100% favour in the village of Tai Bwo Wannai.;<col=000000>Ganhe 100% de favor na vila de Tai Bwo Wannai.
 <col=000000>Cook a spider on a stick.<col=ffffff>(<col=800000>16 Cooking<col=000080><col=ffffff>);<col=000000>Cozinhe uma aranha num espeto.<col=ffffff>(<col=800000>16 Cooking<col=000080><col=ffffff>)
+<col=000000>Charter the Lady of the Waves from Cairn Isle to Port;<col=000000>Alugue a Lady of the Waves de Cairn Isle para Port
+<col=000000>Cut a log from a teak tree.<col=ffffff>(<col=800000>35 Woodcutting<col=000080>, <col=800000>Jungle Potion<col=000080><col=ffffff>);<col=000000>Corte um tronco de uma árvore de teak.<col=ffffff>(<col=800000>35 Woodcutting<col=000080>, <col=800000>Jungle Potion<col=000080><col=ffffff>)
+<col=000000>Cut a log from a mahogany tree.<col=ffffff>(<col=800000>50 Woodcutting<col=000080>, <col=800000>Jungle Potion<col=000080><col=ffffff>);<col=000000>Corte um tronco de uma árvore de mahogany.<col=ffffff>(<col=800000>50 Woodcutting<col=000080>, <col=800000>Jungle Potion<col=000080><col=ffffff>)
+<col=000000>Catch a karambwan.<col=ffffff>(<col=800000>65 Fishing<col=000080>, <col=800000>Started Tai Bwo Wannai Trio<col=000080><col=ffffff>);<col=000000>Capture um karambwan.<col=ffffff>(<col=800000>65 Fishing<col=000080>, <col=800000>Started Tai Bwo Wannai Trio<col=000080><col=ffffff>)
+<col=000000>Exchange gems for a machete.<col=ffffff>(<col=800000>Jungle Potion<col=000080><col=ffffff>);<col=000000>Troque gemas por um machete.<col=ffffff>(<col=800000>Jungle Potion<col=000080><col=ffffff>)
+<col=000000>Use the gnome glider to travel to Karamja.<col=ffffff>(<col=800000>The Grand Tree<col=000080><col=ffffff>);<col=000000>Use o planador gnômico para viajar para Karamja.<col=ffffff>(<col=800000>The Grand Tree<col=000080><col=ffffff>)
+<col=000000>Grow a healthy fruit tree in the patch near Brimhaven.<col=ffffff>(<col=800000>27 Farming<col=000080><col=ffffff>);<col=000000>Plante uma árvore frutífera saudável no canteiro perto de Brimhaven.<col=ffffff>(<col=800000>27 Farming<col=000080><col=ffffff>)
+<col=000000>Trap a horned graahk.<col=ffffff>(<col=800000>41 Hunter<col=000080><col=ffffff>);<col=000000>Capture um horned graahk.<col=ffffff>(<col=800000>41 Hunter<col=000080><col=ffffff>)
+<col=000000>Chop the vines to gain deeper access to Brimhaven;<col=000000>Corte as vinhas para ganhar acesso mais profundo a Brimhaven
+<col=000000>Cross the lava using the stepping stones within Brimhaven;<col=000000>Cruze a lava usando as pedras de apoio dentro de Brimhaven
+<col=000000>Climb the stairs within Brimhaven Dungeon.<col=ffffff>(<col=800000>10 Woodcutting<col=000080><col=ffffff>);<col=000000>Suba as escadas dentro da Brimhaven Dungeon.<col=ffffff>(<col=800000>10 Woodcutting<col=000080><col=ffffff>)
+<col=000000>Charter a ship from the shipyard in the far east of;<col=000000>Alugue um navio do estaleiro no extremo leste de
+<col=000000>Mine a red topaz from a gem rock.;<col=000000>Minere um red topaz de uma rocha de gemas.
+<col=000000>Become the Champion of the Fight Pits.;<col=000000>Torne-se o Campeão das Fight Pits.
+<col=000000>Successfully kill a Ket-Zek in the Fight Caves.;<col=000000>Mate um Ket-Zek com sucesso nas Fight Caves.
+<col=000000>Eat an oomlie wrap.;<col=000000>Coma um oomlie wrap.
+<col=000000>Craft some nature runes from Essence.<col=ffffff>(<col=800000>44 Runecraft<col=000080><col=ffffff>);<col=000000>Fabrique algumas nature runes a partir de Essence.<col=ffffff>(<col=800000>44 Runecraft<col=000080><col=ffffff>)
+<col=000000>Cook a karambwan thoroughly.<col=ffffff>(<col=800000>30 Cooking<col=000080>, <col=800000>Tai Bwo Wannai Trio<col=000080><col=ffffff>);<col=000000>Cozinhe um karambwan completamente.<col=ffffff>(<col=800000>30 Cooking<col=000080>, <col=800000>Tai Bwo Wannai Trio<col=000080><col=ffffff>)
+<col=000000>Kill a deathwing in the dungeon under the Kharazi Jungle.;<col=000000>Mate um deathwing na masmorra sob a Kharazi Jungle.
+<col=000000>Use the crossbow shortcut south of the volcano.;<col=000000>Use o atalho de besta ao sul do vulcão.

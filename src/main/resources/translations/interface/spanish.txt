@@ -1296,3 +1296,4 @@ You are not prepared;No estás preparado
 <col=000000>Plant some Logavano seeds at the Tithe Farm.</col><col=ffffff>(<col=800000>74 Farming<col=000080><col=ffffff>);<col=000000>Planta algunas semillas Logavano en la Tithe Farm.</col><col=ffffff>(<col=800000>74 Farming<col=000080><col=ffffff>)
 Description: <col=ffffff>Kill a Lizardman Shaman in Molch which has not dealt damage to anyone (excluding its Spawns).</col>;Descripción: <col=ffffff>Mata a un Lizardman Shaman en Molch que no haya infligido daño a nadie (excluyendo sus Spawns).</col>
 Description: <col=ffffff>Kill an Aberrant Spectre.</col>;Descripción: <col=ffffff>Mata a un Aberrant Spectre.</col>
+Nylocas, On the Rocks;Nylocas, En las rocas

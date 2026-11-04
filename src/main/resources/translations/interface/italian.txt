@@ -298,3 +298,24 @@ You are not prepared;Non sei preparato
 Description: <col=ffffff>Kill a Lizardman Shaman in Molch which has not dealt damage to anyone (excluding its Spawns).</col>;Descrizione: <col=ffffff>Uccidi un Lizardman Shaman in Molch che non ha inflitto danni a nessuno (esclusi i suoi Spawns).</col>
 Description: <col=ffffff>Kill an Aberrant Spectre.</col>;Descrizione: <col=ffffff>Uccidi un Aberrant Spectre.</col>
 <str>mode, or use my Home Teleport to travel to the mainland.;<str>modalità, o usa il mio Home Teleport per viaggiare verso la terraferma.
+<str>I spoke to Reldo in the Varrock Palace Library. At his;<str>Ho parlato con Reldo nella Varrock Palace Library. Al suo
+<str>suggestion, I read a book called The Shield of Arrav. The book;<str>suggerimento, ho letto un libro intitolato The Shield of Arrav. Il libro
+<str>detailed the theft of the legendary Shield of Arrav and the;<str>descriveva il furto del leggendario Shield of Arrav e il
+<str>reward on offer to anyone able to recover it.;<str>premio offerto a chiunque riesca a recuperarlo.
+<str>I spoke to Reldo about the missing Shield of Arrav. He gave;<str>Ho parlato con Reldo del Shield of Arrav scomparso. Lui ha dato
+<str>me details on the Phoenix Gang and the Black Arm Gang, the;<str>mi dettagli sulla Phoenix Gang e sulla Black Arm Gang, le
+<str>two groups suspected of being in possession of the Shield.;<str>due gruppi sospettati di possedere lo Shield.
+<str>Following advice from Reldo, I spoke to Baraek in Varrock;<str>Seguendo il consiglio di Reldo, ho parlato con Baraek a Varrock
+<str>Square about the Phoenix Gang. He told me I'd find the Gang;<str>Square riguardo la Phoenix Gang. Mi ha detto che avrei trovato il
+<str>Headquarters in the VTAM Building south east of the Blue;<str>Quartier generale nel VTAM Building a sud-est del Blue
+<str>I spoke to Straven in the Phoenix Gang Headquarters south;<str>Ho parlato con Straven nel quartier generale della Phoenix Gang a sud
+<str>east of the Blue Moon Inn. He offered to let me join the Gang;<str>est del Blue Moon Inn. Mi ha offerto di far parte della Gang
+<str>in return for killing Jonny the Beard and recovering an;<str>in cambio di uccidere Jonny the Beard e recuperare un
+<str>Intelligence Report from him.;<str>Intelligence Report da lui.
+<str>I confronted and killed Jonny the Beard in the Blue Moon Inn;<str>Ho affrontato e ucciso Jonny the Beard nel Blue Moon Inn
+<str>and took an Intelligence Report from him. I gave this Report to;<str>e ho preso un Intelligence Report da lui. Ho dato questo Report a
+<str>Straven and he allowed me to join the Phoenix Gang.;<str>Straven e lui mi ha permesso di unirmi al Phoenix Gang.
+<str>I searched the Phoenix Gang Headquarters and found half of;<str>Ho cercato il Phoenix Gang Headquarters e ho trovato metà di
+<str>the Shield of Arrav. I took this Shield Half to the Varrock;<str>lo Shield of Arrav. Ho portato questa Shield Half al Varrock
+<str>Museum and Curator Haig Halen confirmed it to be genuine. He;<str>Museum e Curator Haig Halen ha confermato che è autentico. Lui
+<str>then gave me two Half-Certificates. Meanwhile, a Fellow;<str>mi ha poi dato due Half-Certificates. Nel frattempo, un Compagno
