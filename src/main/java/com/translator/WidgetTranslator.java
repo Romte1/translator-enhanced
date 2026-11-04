@@ -1,10 +1,13 @@
 package com.translator;
 
 import net.runelite.api.Client;
+import net.runelite.api.ScriptID;
 import net.runelite.api.gameval.InterfaceID;
 import net.runelite.api.widgets.ComponentID;
 import net.runelite.api.widgets.Widget;
 import net.runelite.api.widgets.WidgetType;
+import net.runelite.client.plugins.Plugin;
+import net.runelite.client.plugins.PluginManager;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -24,7 +27,7 @@ class WidgetTranslator
 	private static final int LINE_HEIGHT = 20;
 	private static final int DIARY_MAX_LINE_LENGTH = 60;
 	private static final int MAX_WIDGET_DEPTH = 12;
-	private static final int QUEST_INTERFACE_POLL_TICKS = 3;
+	private static final int QUEST_INTERFACE_POLL_TICKS = 1;
 
 	private static final int[] QUEST_INTERFACES =
 	{
@@ -51,18 +54,109 @@ class WidgetTranslator
 	private final TranslatorConfig config;
 	private final TranslatorAPI api;
 	private final InterfaceTextCapture interfaceCapture;
+	private final PluginManager pluginManager;
 
 	private int ticks;
+	private long lastCaScan;
+	private long lastFrameScan;
 
 	@Inject
 	WidgetTranslator(Client client, TranslationStore store, TranslatorConfig config,
-		TranslatorAPI api, InterfaceTextCapture interfaceCapture)
+		TranslatorAPI api, InterfaceTextCapture interfaceCapture, PluginManager pluginManager)
 	{
 		this.client = client;
 		this.store = store;
 		this.config = config;
 		this.api = api;
 		this.interfaceCapture = interfaceCapture;
+		this.pluginManager = pluginManager;
+	}
+
+	void onScriptPostFired(int scriptId)
+	{
+		translateDialogue();
+		translateDialogueOptions();
+
+		if (isJournalScript(scriptId))
+		{
+			translateQuestInterfaces();
+		}
+
+		translateCaTasksThrottled();
+	}
+
+	void onVariableChanged()
+	{
+		translateCaTasksThrottled();
+	}
+
+	void onBeforeRender()
+	{
+		if (!hasVisibleJournal())
+		{
+			return;
+		}
+
+		long now = System.currentTimeMillis();
+		if (now - lastFrameScan < 16)
+		{
+			return;
+		}
+
+		lastFrameScan = now;
+		translateQuestInterfaces();
+	}
+
+	private boolean hasVisibleJournal()
+	{
+		for (int root : QUEST_INTERFACES)
+		{
+			Widget widget = client.getWidget(root);
+
+			if (widget != null && !widget.isHidden())
+			{
+				return true;
+			}
+		}
+
+		return false;
+	}
+
+	private void translateCaTasksThrottled()
+	{
+		if (client.getWidget(InterfaceID.CaTasks.UNIVERSE) == null)
+		{
+			return;
+		}
+
+		long now = System.currentTimeMillis();
+		if (now - lastCaScan < 50)
+		{
+			return;
+		}
+
+		lastCaScan = now;
+		translateCaTasks();
+	}
+
+	private void translateCaTasks()
+	{
+		Widget root = client.getWidget(InterfaceID.CaTasks.UNIVERSE);
+		if (root != null)
+		{
+			translateRecursively(root, 0, Collections.newSetFromMap(new IdentityHashMap<Widget, Boolean>()));
+		}
+	}
+
+	static boolean isJournalScript(int scriptId)
+	{
+		return scriptId == ScriptID.DIARY_UPDATE_LINECOUNT || scriptId == ScriptID.QUEST_UPDATE_LINECOUNT;
+	}
+
+	void onWidgetLoaded()
+	{
+		translateDialogue();
+		translateDialogueOptions();
 	}
 
 	void onGameTick()
@@ -133,7 +227,14 @@ class WidgetTranslator
 		}
 
 		String source = text;
-		String translated = store.lookup(TranslationType.INTERFACE, text);
+		String translated = text.contains(ANNOTATION_PREFIX)
+			? null
+			: store.lookupAnnotated(TranslationType.INTERFACE, text);
+
+		if (translated == null)
+		{
+			translated = store.lookup(TranslationType.INTERFACE, text);
+		}
 
 		if (translated == null)
 		{
@@ -220,6 +321,11 @@ class WidgetTranslator
 			key = "Your new task is to kill [SLAYER_TASK_AMT_AND_MONSTER]";
 		}
 
+		if (store.lookupOriginal(TranslationType.DIALOGUE, key) != null)
+		{
+			return;
+		}
+
 		String translated = store.lookup(TranslationType.DIALOGUE, key);
 		if (translated == null)
 		{
@@ -238,6 +344,7 @@ class WidgetTranslator
 
 		if (!translated.equals(text))
 		{
+			log.debug("dialogue: [{}] -> [{}]", text, translated);
 			widget.setText(translated);
 		}
 	}
@@ -245,6 +352,11 @@ class WidgetTranslator
 	private void translateDialogueOptions()
 	{
 		if (!config.translateDialogueOptions())
+		{
+			return;
+		}
+
+		if (config.questHelperIntegration() && questHelperActive())
 		{
 			return;
 		}
@@ -269,6 +381,11 @@ class WidgetTranslator
 			}
 
 			String key = text.replace("<br>", " ").trim();
+			if (store.lookupOriginal(TranslationType.DIALOGUE, key) != null)
+			{
+				continue;
+			}
+
 			String translated = store.lookup(TranslationType.DIALOGUE, key);
 			if (translated == null)
 			{
@@ -276,9 +393,28 @@ class WidgetTranslator
 			}
 			else if (!translated.equals(text))
 			{
+				log.debug("dialogue option: [{}] -> [{}]", text, translated);
 				child.setText(translated);
 			}
 		}
+	}
+
+	private boolean questHelperActive()
+	{
+		for (Plugin plugin : pluginManager.getPlugins())
+		{
+			if (isQuestHelperClass(plugin.getClass().getName()) && pluginManager.isPluginActive(plugin))
+			{
+				return true;
+			}
+		}
+
+		return false;
+	}
+
+	static boolean isQuestHelperClass(String className)
+	{
+		return className.startsWith("com.questhelper.");
 	}
 
 	private void relayout(Widget widget)
@@ -308,13 +444,33 @@ class WidgetTranslator
 		}
 
 		int y = 0;
-		boolean previousWrapped = false;
+		boolean previousEmbedded = false;
+		Set<String> tiers = tierLabels();
 
 		for (Widget child : children)
 		{
 			String text = child.getText();
+			boolean empty = text == null || text.trim().isEmpty();
+			boolean requirement = text != null && text.contains(ANNOTATION_PREFIX);
 
-			if (text != null && !text.contains("<br>"))
+			if (previousEmbedded && requirement)
+			{
+				child.setOriginalHeight(0);
+				child.setOriginalY(y);
+				child.revalidate();
+				previousEmbedded = false;
+				continue;
+			}
+
+			if (empty)
+			{
+				child.setOriginalHeight(0);
+				child.setOriginalY(y);
+				child.revalidate();
+				continue;
+			}
+
+			if (!text.contains("<br>"))
 			{
 				int annotation = text.indexOf(ANNOTATION_PREFIX);
 				if (annotation > 0 && WidgetReflow.visibleLength(text) > DIARY_MAX_LINE_LENGTH)
@@ -325,24 +481,49 @@ class WidgetTranslator
 			}
 
 			int lines = countLines(text);
-			boolean empty = text == null || text.trim().isEmpty();
-			int height = empty && previousWrapped ? 0 : lines * LINE_HEIGHT;
+			boolean header = tiers.contains(WidgetReflow.visibleText(text));
+			int paddingTop = header ? 12 : 0;
+			int paddingBottom = header ? 2 : 0;
 
+			y += paddingTop;
+
+			int height = lines * LINE_HEIGHT;
 			child.setOriginalHeight(height);
 			child.setOriginalY(y);
 			child.revalidate();
 
-			y += height;
-
-			if (!empty)
-			{
-				previousWrapped = lines > 1;
-			}
+			y += height + paddingBottom;
+			previousEmbedded = requirement;
 		}
 
 		parent.setScrollHeight(Math.max(parent.getHeight(), y));
 		parent.revalidate();
 		parent.revalidateScroll();
+
+		Widget scrollbar = client.getWidget(InterfaceID.AreaTask.SCROLLBAR);
+		log.debug("relayout parent={} children={} total={} scroll={} scrollbar={}x{} scroll={}",
+			parent.getId(), children.size(), y, parent.getScrollHeight(),
+			scrollbar == null ? -1 : scrollbar.getWidth(),
+			scrollbar == null ? -1 : scrollbar.getHeight(),
+			scrollbar == null ? -1 : scrollbar.getScrollHeight());
+	}
+
+	private Set<String> tierLabels()
+	{
+		Set<String> labels = new HashSet<>();
+
+		for (String key : new String[]{"Easy", "Medium", "Hard", "Elite"})
+		{
+			labels.add(key);
+
+			String value = store.lookup(TranslationType.INTERFACE, key);
+			if (value != null)
+			{
+				labels.add(WidgetReflow.visibleText(value));
+			}
+		}
+
+		return labels;
 	}
 
 	private static int countLines(String text)

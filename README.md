@@ -49,6 +49,7 @@ one by one in `Menus`.
 | Menus | Object names | off |
 | Text | Chatbox: dialogues | **on** |
 | Text | Chatbox: dialogue options | off |
+| Text | Quest Helper integration | off |
 | Journals | Translate journals | **on** |
 | Journals | Capture untranslated | off |
 | Journals | Download translations | **on** |
@@ -63,7 +64,10 @@ Menu Entry Swapper and Quest Helper keep working.
 Two limits, both by design:
 
 * **Dialogue options** are off by default: Quest Helper picks the answer by matching the
-  English text, so translating it breaks its auto-answer.
+  English text, so translating it breaks its auto-answer. If you use Quest Helper, enable
+  `Text -> Quest Helper integration`: the conversation is translated but the answer options
+  stay in English while Quest Helper is active. It is a compromise, not a full integration;
+  leave it off if you prefer translated options and answer manually.
 * Some plugins compare the clicked option text (`MenuOptionClicked`) and will not react to a
   translated option. Turn `Menus -> Menu options` off if one misbehaves.
 

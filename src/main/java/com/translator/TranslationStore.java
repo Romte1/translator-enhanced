@@ -82,6 +82,9 @@ class TranslationStore
 	 */
 	private final Map<TranslationType, Map<String, String>> signatures = new ConcurrentHashMap<>();
 
+	/** Bare task text mapped to the translation that includes its requirements. */
+	private final Map<TranslationType, Map<String, String>> annotated = new ConcurrentHashMap<>();
+
 	/**
 	 * Language the loaded dictionaries belong to. Bumped on every language change so a slow
 	 * download of the previous language can not overwrite the new one.
@@ -108,6 +111,8 @@ class TranslationStore
 		dictionaries.clear();
 		patterns.clear();
 		reverse.clear();
+		signatures.clear();
+		annotated.clear();
 	}
 
 	void setDirectory(Filepath directory)
@@ -129,6 +134,8 @@ class TranslationStore
 		dictionaries.clear();
 		patterns.clear();
 		reverse.clear();
+		signatures.clear();
+		annotated.clear();
 	}
 
 	/**
@@ -180,6 +187,7 @@ class TranslationStore
 		patterns.put(type, compiled);
 		reverse.put(type, buildReverse(merged));
 		signatures.put(type, buildSignatures(merged));
+		annotated.put(type, buildAnnotated(merged));
 		log.info("loaded {} translations for {}/{} ({} corrections applied, {} patterns)",
 			downloaded, language, type.fileName(), overrides, compiled.size());
 	}
@@ -513,6 +521,18 @@ class TranslationStore
 		return original;
 	}
 
+	/** @return the translation of a bare task that includes its requirements, or {@code null} */
+	String lookupAnnotated(TranslationType type, String text)
+	{
+		if (text == null || text.isEmpty())
+		{
+			return null;
+		}
+
+		Map<String, String> map = annotated.get(type);
+		return map == null ? null : map.get(text);
+	}
+
 	/**
 	 * @return the text without line breaks or tags, used as a last resort when comparing
 	 */
@@ -529,7 +549,7 @@ class TranslationStore
 		return text.replace("<br>", " ").replaceAll("\\s{2,}", " ").trim();
 	}
 
-	private static Map<String, String> buildReverse(Map<String, String> dictionary)
+	static Map<String, String> buildReverse(Map<String, String> dictionary)
 	{
 		Map<String, String> reversed = new HashMap<>();
 
@@ -570,6 +590,24 @@ class TranslationStore
 			if (!entry.getKey().startsWith(PATTERN_PREFIX) && entry.getValue() != null)
 			{
 				index.putIfAbsent(signature(entry.getKey()), entry.getValue());
+			}
+		}
+
+		return index;
+	}
+
+	static Map<String, String> buildAnnotated(Map<String, String> dictionary)
+	{
+		Map<String, String> index = new HashMap<>();
+
+		for (Map.Entry<String, String> entry : dictionary.entrySet())
+		{
+			String key = entry.getKey();
+			int annotation = key.indexOf(ANNOTATION_PREFIX);
+
+			if (annotation > 0 && entry.getValue() != null)
+			{
+				index.putIfAbsent(key.substring(0, annotation), entry.getValue());
 			}
 		}
 

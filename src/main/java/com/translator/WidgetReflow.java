@@ -77,4 +77,36 @@ final class WidgetReflow
 
 		return length;
 	}
+
+	/** @return the text without tags, trimmed */
+	static String visibleText(String text)
+	{
+		if (text == null)
+		{
+			return "";
+		}
+
+		StringBuilder result = new StringBuilder(text.length());
+		boolean inTag = false;
+
+		for (int i = 0; i < text.length(); i++)
+		{
+			char c = text.charAt(i);
+
+			if (c == '<')
+			{
+				inTag = true;
+			}
+			else if (c == '>')
+			{
+				inTag = false;
+			}
+			else if (!inTag)
+			{
+				result.append(c);
+			}
+		}
+
+		return result.toString().trim();
+	}
 }

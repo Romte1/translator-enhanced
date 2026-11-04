@@ -27,12 +27,14 @@ package com.translator;
 import com.google.inject.Provides;
 import net.runelite.api.Client;
 import net.runelite.api.MenuEntry;
-import net.runelite.api.ScriptID;
 import net.runelite.api.events.BeforeMenuRender;
+import net.runelite.api.events.BeforeRender;
 import net.runelite.api.events.GameTick;
 import net.runelite.api.events.MenuEntryAdded;
 import net.runelite.api.events.MenuOpened;
 import net.runelite.api.events.ScriptPostFired;
+import net.runelite.api.events.VarbitChanged;
+import net.runelite.api.events.WidgetLoaded;
 import net.runelite.client.config.ConfigManager;
 import net.runelite.client.eventbus.Subscribe;
 import net.runelite.client.events.ConfigChanged;
@@ -228,10 +230,25 @@ public class TranslatorPlugin extends Plugin
 	@Subscribe
 	public void onScriptPostFired(ScriptPostFired event)
 	{
-		if (event.getScriptId() == ScriptID.QUEST_UPDATE_LINECOUNT)
-		{
-			widgetTranslator.translateQuestInterfaces();
-		}
+		widgetTranslator.onScriptPostFired(event.getScriptId());
+	}
+
+	@Subscribe
+	public void onWidgetLoaded(WidgetLoaded event)
+	{
+		widgetTranslator.onWidgetLoaded();
+	}
+
+	@Subscribe
+	public void onVarbitChanged(VarbitChanged event)
+	{
+		widgetTranslator.onVariableChanged();
+	}
+
+	@Subscribe
+	public void onBeforeRender(BeforeRender event)
+	{
+		widgetTranslator.onBeforeRender();
 	}
 
 	private void reloadEnabledTranslations()

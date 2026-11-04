@@ -121,3 +121,8 @@ Stats;Estadísticas
 Continue;Continuar
 Cancel;Cancelar
 Walk here;Caminar aquí
+Grand Exchange;Grand Exchange
+Welcome to the Grand Exchange. Would you like to trade now, or exchange item sets?;Bienvenido al Grand Exchange. ¿Le gustaría comerciar ahora o intercambiar conjuntos de artículos?
+Hello, and welcome to the Grand Exchange! How can I help you?;¡Hola y bienvenido al Grand Exchange! ¿Le puedo ayudar en algo?
+How do I use the Grand Exchange?;¿Cómo uso el Grand Exchange?
+This Grand Exchange! Isn't it marvellous! I've never seen anything like it in my life.;¡Este Grand Exchange! ¿No es maravilloso? Nunca he visto nada parecido en mi vida.

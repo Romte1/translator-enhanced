@@ -165,6 +165,21 @@ public interface TranslatorConfig extends Config
 		return false;
 	}
 
+	@ConfigItem(
+		keyName = "questHelperIntegration",
+		name = "Quest Helper integration",
+		description = "An intermediate solution for assisted NPC conversations: the dialogue is<br>" +
+			"translated, but the answer options stay in English while Quest Helper is active, so<br>" +
+			"it can still choose the correct one. Leave it off if you prefer translated options<br>" +
+			"and do not rely on Quest Helper's automatic answers.",
+		position = 3,
+		section = TEXT_SECTION
+	)
+	default boolean questHelperIntegration()
+	{
+		return false;
+	}
+
 	@ConfigSection(
 		position = 4,
 		name = "Journals",

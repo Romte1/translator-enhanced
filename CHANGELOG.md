@@ -25,17 +25,27 @@ by iolave.
 - scripts/merge-translations.mjs and server/: a collection service that aggregates the
   texts every client sees and marks them as translated once handled.
 - .github/workflows/translate.yml: scheduled or manual run that opens a pull request.
-- Tests for the dictionary, the parsers and the menu target.
+- Tests for the dictionary, the parsers, the menu target, the text wrapping and the
+  annotated lookup.
+- Quest Helper integration (off by default): the conversation is translated, but the
+  dialogue options stay in English so Quest Helper can still choose the correct answer.
 
 ### Changed
 - Menus are translated at render time (MenuOpened / BeforeMenuRender) instead of
   MenuEntryAdded, so Menu Entry Swapper keeps its ordering.
+- Dialogue, journal and combat achievement text is translated before it is drawn, so the
+  screens no longer show English for a moment when they open.
 - Journal texts are matched ignoring colour tags and line breaks, so a task keeps its
   translation when the game rewraps it.
-- Config group is 	ranslator-enhanced; Java 11; logging follows the RuneLite guidelines.
+- Config group is translator-enhanced; Java 11; logging follows the RuneLite guidelines.
+
+### Fixed
+- Diary requirements no longer disappear or duplicate, and the spacing is even down to the
+  last tier.
+- Place names such as Grand Exchange stay in English.
 
 ### Removed
-- Real-time machine translation (pi.datpmt.com, Google fallback), chat message
+- Real-time machine translation (api.datpmt.com, Google fallback), chat message
   translation and the options that enabled them.
 - The interface inspector and the debug options that relied on reflection.
 

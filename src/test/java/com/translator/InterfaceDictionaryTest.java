@@ -20,6 +20,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 
@@ -130,6 +131,36 @@ public class InterfaceDictionaryTest
 			assertTrue("translation longer than the original (" + translation.length()
 					+ " > " + source.length() + "): " + key,
 				translation.length() <= source.length());
+		}
+	}
+
+	@Test
+	public void keysAreNotTranslations() throws Exception
+	{
+		for (String language : languages())
+		{
+			Map<String, String> dictionary = dictionary(language);
+			Set<String> values = new HashSet<>();
+
+			for (String value : dictionary.values())
+			{
+				values.add(TranslationStore.signature(value));
+			}
+
+			for (Map.Entry<String, String> entry : dictionary.entrySet())
+			{
+				String key = entry.getKey();
+				if (key.startsWith("re:"))
+				{
+					continue;
+				}
+
+				String signature = TranslationStore.signature(key);
+				boolean identity = signature.equals(TranslationStore.signature(entry.getValue()));
+
+				assertFalse(language + ": key is also a translation: " + key,
+					!identity && signature.length() > 20 && values.contains(signature));
+			}
 		}
 	}
 
