@@ -227,3 +227,37 @@ Description: <col=ffffff>Kill any Barrows Brother using only magical damage.</co
 Description: <col=ffffff>Open the Barrows chest 10 times.</col>;Beschreibung: <col=ffffff>Öffne die Barrows Truhe 10 Mal.</col>
 Digging in;Graben
 Doesn't bug me;Stört mich nicht
+Monstruo: <col=ffffff>Chambers of Xeric: CM</col>;Monster: <col=ffffff>Chambers of Xeric: CM</col>
+Monstruo: <col=ffffff>Chambers of Xeric</col>;Monster: <col=ffffff>Chambers of Xeric</col>
+Monstruo: <col=ffffff>Doom of Mokhaiotl</col>;Monster: <col=ffffff>Doom of Mokhaiotl</col>
+Monstruo: <col=ffffff>Theatre of Blood: Hard Mode</col>;Monster: <col=ffffff>Theatre of Blood: Hard Mode</col>
+Monstruo: <col=ffffff>Theatre of Blood</col>;Monster: <col=ffffff>Theatre of Blood</col>
+Monstruo: <col=ffffff>Tombs of Amascut: Expert Mode</col>;Monster: <col=ffffff>Tombs of Amascut: Expert Mode</col>
+Monstruo: <col=ffffff>Tombs of Amascut</col>;Monster: <col=ffffff>Tombs of Amascut</col>
+Description: <col=ffffff>Kill the Chaos Fanatic without anyone being hit by his explosion attack.</col>;Beschreibung: <col=ffffff>Töte den Chaos Fanatic, ohne dass jemand von seiner Explosionsattacke getroffen wird.</col>
+Don't Look at Me!;Schau mich nicht an!
+Don't Look at the Eclipse;Schau nicht zum Eclipse
+Done before Dusk;Erledigt vor der Dämmerung
+Dropped the ball;Den Ball fallen lassen
+Fancy feet;Schicke Füße
+Fat of the Land;Fett des Landes
+Fighting as Intended;Kämpfen wie vorgesehen
+Finding the Weak Spot;Den Schwachpunkt finden
+Fire fighter;Feuerkämpfer
+Fire in the Hole!;Feuer im Loch!
+From One King to Another;Von einem König zum anderen
+Helpful spirit who?;Hilfsbereiter Geist wer?
+I need room;Ich brauche Platz
+I was here first!;Ich war zuerst hier!
+I'm in a rush;Ich bin in Eile
+I'm your son;Ich bin dein Sohn
+Into the Den of Giants;In die Höhle der Riesen
+Is it a bird?;Ist das ein Vogel?
+Kill It with Fire;Töte es mit Feuer
+King-sized clobbering;Königsgroßes Zerstampfen
+Let it seep in;Lass es eindringen
+Let them fight;Lass sie kämpfen
+Master of Buckets;Meister der Eimer
+More than just a ranged weapon;Mehr als nur eine Ranged-Waffe
+Movin' on up;Weiter nach oben
+No Time for Death;Keine Zeit für den Tod
