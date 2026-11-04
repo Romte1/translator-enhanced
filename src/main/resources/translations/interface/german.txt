@@ -262,3 +262,20 @@ Praying to the Gods;Zu den Göttern beten
 Ready to Pounce;Bereit zum Sprung
 Reflecting on This Encounter;Nachdenken über diese Begegnung
 Rockin' around the croc;Rocken um den Croc
+Shadow dancer;Schatten Tänzer
+Smarter than a Cow;Klüger als eine Kuh
+Something of an expert myself;Ein Experte von mir
+Space is Tight;Der Raum ist eng
+Stick 'em With the Pointy End;Steck sie mit der spitzen Seite
+Stop Drop and Roll;Stopp Fallen und Rollen
+The Bane of Demons;Der Fluch der Dämonen
+Theatre of Blood Master;Theatre of Blood Meister
+There is no escape!;Es gibt kein Entkommen!
+Three Times the Thrashing;Dreimal das Zerschmettern
+Through Fire and Flames;Durch Feuer und Flammen
+Toppling the Diarchy;Den Diarchy umstürzen
+Trying to fit in;Versuchen, dazuzugehören
+Two Times the Torment;Zweimal die Qual
+Up for the Challenge;Bereit für die Herausforderung
+Warden't you believe it;Warden, glaubst du das nicht
+Who Is the King Now?;Wer ist jetzt der König?
