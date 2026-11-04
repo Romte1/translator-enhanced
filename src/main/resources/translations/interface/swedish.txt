@@ -141,3 +141,37 @@ Master of Buckets;Mästare av hinkar
 More than just a ranged weapon;Mer än bara ett ranged weapon
 Movin' on up;På väg upp
 No Time for Death;Ingen tid för döden
+No skipping allowed;Ingen skippning tillåten
+No time to pray;Ingen tid att be
+No toppings, no drinks, thanks;Inga pålägg, inga drycker, tack
+Nylocas, On the Rocks;Nylocas, På is
+One by one;En efter en
+Praying to the Gods;Be till gudarna
+Putting It Olm on the Line;Sätta Olm på spel
+Ready to Pounce;Redo att hoppa
+Reflecting on This Encounter;Reflektera över detta möte
+Rockin' around the croc;Rocka runt krokodilen
+Shadow dancer;Skuggdansare
+Smarter than a Cow;Smartare än en ko
+Something of an expert myself;Jag är något av en expert
+Space is Tight;Utrymmet är trångt
+Stick 'em With the Pointy End;Stick dem med den spetsiga änden
+Stop Drop and Roll;Stanna, släpp och rulla
+The Bane of Demons;Demonernas förbannelse
+Theatre of Blood Master;Theatre of Blood Mästare
+There is no escape!;Det finns ingen flykt!
+Three Times the Thrashing;Tre gånger piskning
+Through Fire and Flames;Genom eld och lågor
+Toppling the Diarchy;Störta diarkin
+Trying to fit in;Försöker passa in
+Two Times the Torment;Två gånger plågan
+Up for the Challenge;Redo för utmaningen
+Who Is the King Now?;Vem är kungen nu?
+You Didn't Say Anything About a Bat;Du nämnde inget om en fladdermus
+You are not prepared;Du är inte förberedd
+<col=000000>Plant some Logavano seeds at the Tithe Farm.</col><col=ffffff>(<col=800000>74 Farming<col=000080><col=ffffff>);<col=000000>Plantera några Logavano-frön på Tithe Farm.</col><col=ffffff>(<col=800000>74 Farming<col=000080><col=ffffff>)
+Description: <col=ffffff>Kill a Bloodveld.</col>;Beskrivning: <col=ffffff>Döda en Bloodveld.</col>
+Description: <col=ffffff>Kill a Lizardman Shaman in Molch which has not dealt damage to anyone (excluding its Spawns).</col>;Beskrivning: <col=ffffff>Döda en Lizardman Shaman i Molch som inte har skadat någon (exklusive dess Spawns).</col>
+Description: <col=ffffff>Kill an Aberrant Spectre.</col>;Beskrivning: <col=ffffff>Döda en Aberrant Spectre.</col>
+<col=000000>Mine 5 Adamantite ores on Jatizso.<col=ffffff>(<col=800000>70 Mining<col=000080>, <col=800000>The Fremennik Isles<col=000080><col=ffffff>);<col=000000>Bryt 5 Adamantite ores på Jatizso.<col=ffffff>(<col=800000>70 Mining<col=000080>, <col=800000>The Fremennik Isles<col=000080><col=ffffff>)
+<col=000000>Obtain 100% support from your kingdom subjects.;<col=000000>Få 100% stöd från dina kungadömetsundersåtar.
