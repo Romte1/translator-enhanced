@@ -203,3 +203,25 @@ More than just a ranged weapon;Meer dan alleen een ranged weapon
 Movin' on up;Op naar boven
 No Time for Death;Geen tijd voor de dood
 No skipping allowed;Overslaan niet toegestaan
+No time to pray;Geen tijd om te bidden
+No toppings, no drinks, thanks;Geen toppings, geen drankjes, dank je
+Nylocas, On the Rocks;Nylocas, Op de rotsen
+One by one;Eén voor één
+Praying to the Gods;Bidden tot de Goden
+Putting It Olm on the Line;Het Olm op het spel zetten
+Ready to Pounce;Klaar om te springen
+Reflecting on This Encounter;Nadenken over deze ontmoeting
+Rockin' around the croc;Rocken rond de krokodil
+Shadow dancer;Schaduwdanser
+Smarter than a Cow;Slimmer dan een koe
+Something of an expert myself;Een beetje een expert ben ik
+Space is Tight;Ruimte is krap
+Stick 'em With the Pointy End;Stak ze met het puntige uiteinde
+Stop Drop and Roll;Stop, val en rol
+The Bane of Demons;De plaag van demonen
+Theatre of Blood Master;Theatre of Blood Meester
+Theatre of Blood Veteran;Theatre of Blood Veteraan
+There is no escape!;Er is geen ontsnapping!
+Three Times the Thrashing;Drie keer de afranseling
+Through Fire and Flames;Door vuur en vlammen
+Toppling the Diarchy;Omverwerpen van de Diarchy
