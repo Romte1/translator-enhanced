@@ -1200,3 +1200,27 @@ Open wiki guide:;Abrir guía wiki:
 Open wiki quick guide:;Abrir guía rápida wiki:
 Read journal:;Leer diario:
 Show on map:;Mostrar en el mapa:
+Dancing with Statues;Bailando con estatuas
+Dodging the Dragon;Esquivando al Dragón
+Hot on Your Feet;Caliente bajo tus pies
+Playing with Lasers;Jugando con láseres
+Supplies? Who Needs 'em?;¿Suministros? ¿Quién los necesita?
+... 'til Dawn;... hasta el amanecer
+A siphon will solve this;Un sifón resolverá esto
+All out of medics;Sin médicos
+Back in My Day...;En mis tiempos...
+Back so soon?;¿Regresas tan pronto?
+Better get movin';Mejor muévete
+Big, Black and Fiery;Grande, negro y ardiente
+Calm Before the Storm;Calma antes de la tormenta
+Camping the King;Acampar al King
+Contain this!;¡Contén esto!
+Death to the Archer King;Muerte al Archer King
+Death to the Seer King;Muerte al Seer King
+Death to the Warrior King;Muerte al Warrior King
+Denying the Healers;Negando a los Healers
+Description: <col=ffffff>Kill a Black Dragon.</col>;Descripción: <col=ffffff>Mata un Black Dragon.</col>
+Description: <col=ffffff>Kill any Barrows Brother using only magical damage.</col>;Descripción: <col=ffffff>Mata a cualquier Barrows Brother usando solo daño mágico.</col>
+Description: <col=ffffff>Open the Barrows chest 10 times.</col>;Descripción: <col=ffffff>Abre el Barrows chest 10 veces.</col>
+Digging in;Cavando
+Doesn't bug me;No me molesta
