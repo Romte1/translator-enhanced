@@ -180,3 +180,28 @@ More than just a ranged weapon;Enemmän kuin pelkkä ranged-ase
 Movin' on up;Nousen ylöspäin
 No Time for Death;Ei aikaa kuolemalle
 No skipping allowed;Ohittaminen kielletty
+Chambers of Xeric (5-Scale) Speed-Chaser;Chambers of Xeric (5-Scale) Nopeus-kiihdytys
+Chambers of Xeric (Solo) Speed-Chaser;Chambers of Xeric (Solo) Nopeus-kiihdytys
+Chambers of Xeric (Trio) Speed-Chaser;Chambers of Xeric (Trio) Nopeus-kiihdytys
+Chambers of Xeric Master;Chambers of Xeric Master Nopeus-kiihdytys
+Chambers of Xeric Veteran;Chambers of Xeric Veteran Nopeus-kiihdytys
+Chambers of Xeric: CM (5-Scale) Speed-Chaser;Chambers of Xeric: CM (5-Scale) Nopeus-kiihdytys
+Chambers of Xeric: CM (Solo) Speed-Chaser;Chambers of Xeric: CM (Solo) Nopeus-kiihdytys
+Chambers of Xeric: CM (Trio) Speed-Chaser;Chambers of Xeric: CM (Trio) Nopeus-kiihdytys
+Chambers of Xeric: CM Master;Chambers of Xeric: CM Master Nopeus-kiihdytys
+Moons of Peril Speed-Chaser;Moons of Peril Nopeus-kiihdytys
+No time to pray;Ei aikaa rukoilla
+No toppings, no drinks, thanks;Ei täytteitä, ei juomia, kiitos
+Nylocas, On the Rocks;Nylocas, Kivissä
+One by one;Yksi kerrallaan
+Praying to the Gods;Rukoillen jumalia
+Putting It Olm on the Line;Laitetaan Olm peliin
+Ready to Pounce;Valmiina hyppäämään
+Reflecting on This Encounter;Miettimässä tätä kohtaamista
+Rockin' around the croc;Rockerointi krokotiilin ympärillä
+Shadow dancer;Varjotanssija
+Smarter than a Cow;Älykkäämpi kuin lehmä
+Something of an expert myself;Olen itsekin asiantuntija
+Space is Tight;Tilaa on vähän
+Stick 'em With the Pointy End;Lyö ne terävällä puolella
+Stop Drop and Roll;Pysähdy, putoa ja rullaa
