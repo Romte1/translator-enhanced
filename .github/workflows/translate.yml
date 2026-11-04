@@ -66,7 +66,24 @@ jobs:
         run: ./gradlew build --console=plain
 
       - name: Open pull request
+        id: pr
+        continue-on-error: true
         if: ${{ inputs.language == '' || inputs.language == matrix.language }}
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: Translate pending ${{ matrix.language }} texts
+          title: "Translations: ${{ matrix.language }}"
+          body: |
+            Machine first pass generated with `scripts/translate-worker.mjs` for
+            **${{ matrix.language }}**.
+
+            The build validates tags, numbers, placeholders and duplicates, but the wording
+            still needs a review before merging.
+          branch: translations/${{ matrix.language }}
+          delete-branch: true
+
+      - name: Open pull request (retry)
+        if: ${{ steps.pr.outcome == 'failure' }}
         uses: peter-evans/create-pull-request@v6
         with:
           commit-message: Translate pending ${{ matrix.language }} texts
