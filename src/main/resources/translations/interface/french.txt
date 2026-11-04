@@ -184,3 +184,43 @@ Description: <col=ffffff>Kill any Barrows Brother using only magical damage.</co
 Description: <col=ffffff>Open the Barrows chest 10 times.</col>;Description : <col=ffffff>Ouvrez le Barrows chest 10 fois.</col>
 Digging in;Creuser
 Doesn't bug me;Ça ne me dérange pas
+Monstruo: <col=ffffff>Chambers of Xeric: CM</col>;Monstre: <col=ffffff>Chambers of Xeric: CM</col>
+Monstruo: <col=ffffff>Chambers of Xeric</col>;Monstre: <col=ffffff>Chambers of Xeric</col>
+Monstruo: <col=ffffff>Doom of Mokhaiotl</col>;Monstre: <col=ffffff>Doom of Mokhaiotl</col>
+Monstruo: <col=ffffff>Theatre of Blood: Hard Mode</col>;Monstre: <col=ffffff>Theatre of Blood: Hard Mode</col>
+Monstruo: <col=ffffff>Theatre of Blood</col>;Monstre: <col=ffffff>Theatre of Blood</col>
+Monstruo: <col=ffffff>Tombs of Amascut: Expert Mode</col>;Monstre: <col=ffffff>Tombs of Amascut: Expert Mode</col>
+Monstruo: <col=ffffff>Tombs of Amascut</col>;Monstre: <col=ffffff>Tombs of Amascut</col>
+Chambers of Xeric (5-Scale) Speed-Chaser;Chambers of Xeric (5-Scale) Chasseur de vitesse
+Chambers of Xeric (Solo) Speed-Chaser;Chambers of Xeric (Solo) Chasseur de vitesse
+Chambers of Xeric (Trio) Speed-Chaser;Chambers of Xeric (Trio) Chasseur de vitesse
+Chambers of Xeric Master;Chambers of Xeric Maître
+Chambers of Xeric Veteran;Chambers of Xeric Vétéran
+Chambers of Xeric: CM (5-Scale) Speed-Chaser;Chambers of Xeric: CM (5-Scale) Chasseur de vitesse
+Chambers of Xeric: CM (Solo) Speed-Chaser;Chambers of Xeric: CM (Solo) Chasseur de vitesse
+Chambers of Xeric: CM (Trio) Speed-Chaser;Chambers of Xeric: CM (Trio) Chasseur de vitesse
+Chambers of Xeric: CM Master;Chambers of Xeric: CM Maître
+Description: <col=ffffff>Kill the Chaos Fanatic without anyone being hit by his explosion attack.</col>;Description : <col=ffffff>Tuez le Chaos Fanatic sans que personne ne soit touché par son attaque d'explosion.</col>
+Don't Look at Me!;Ne me regarde pas !
+Don't Look at the Eclipse;Ne regarde pas l'éclipse
+Done before Dusk;Terminé avant le crépuscule
+Dropped the ball;Balle lâchée
+Fancy feet;Pieds chics
+Fat of the Land;Le gras de la terre
+Fighting as Intended;Combat comme prévu
+Finding the Weak Spot;Trouver le point faible
+Fire fighter;Pompier
+Fire in the Hole!;Feu dans le trou !
+Fragment of Seren Speed-Trialist;Fragment de Seren Speed-Trialist
+From One King to Another;D'un roi à l'autre
+Helpful spirit who?;Quel esprit utile ?
+I need room;J'ai besoin d'espace
+I was here first!;J'étais ici le premier !
+I'm in a rush;Je suis pressé
+I'm your son;Je suis ton fils
+Into the Den of Giants;Dans le repaire des géants
+Is it a bird?;Est-ce un oiseau ?
+Kill It with Fire;Tuez-le avec le feu
+King-sized clobbering;Coup de roi
+Let it seep in;Laissez-le s'infiltrer
+Let them fight;Laissez-les se battre
