@@ -127,3 +127,26 @@ Description: <col=ffffff>Kill a Bloodveld.</col>;Kuvaus: <col=ffffff>Tapa Bloodv
 <col=000000>Craft 140 Mind runes simultaneously from Essence;<col=000000>Valmista 140 Mind runea samanaikaisesti Essence‑stä
 <col=000000>without the use of Extracts.<col=ffffff>(<col=800000>56 Runecraft<col=000080><col=ffffff>);<col=000000>ilman Extracts‑käyttöä.<col=ffffff>(<col=800000>56 Runecraft<col=000080><col=ffffff>)
 <col=000000>Change your family crest to the Saradomin symbol.<col=ffffff>(<col=800000>70 Prayer<col=000080><col=ffffff>);<col=000000>Vaihda perheesi vaakuna Saradomin‑symboliin.<col=ffffff>(<col=800000>70 Prayer<col=000080><col=ffffff>)
+Dancing with Statues;Tanssia patsaitten kanssa
+Dodging the Dragon;Lohikäärmeen väistäminen
+Hot on Your Feet;Kuuma jaloillasi
+Playing with Lasers;Laserien kanssa leikkiminen
+Supplies? Who Needs 'em?;Tarvikkeet? Kuka niitä tarvitsee?
+... 'til Dawn;... aamuun asti
+A siphon will solve this;Siphoni ratkaisee tämän
+All out of medics;Lääkäreitä loppu
+Back in My Day...;Entisaikoin...
+Back so soon?;Palasit niin pian?
+Better get movin';Parempi lähteä liikkeelle
+Big, Black and Fiery;Suuri, musta ja tulinen
+Calm Before the Storm;Tyyni ennen myrskyä
+Contain this!;Pidä tämä!
+Death to the Archer King;Kuole Archer Kingille
+Death to the Seer King;Kuole Seer Kingille
+Death to the Warrior King;Kuole Warrior Kingille
+Denying the Healers;Estä Healers
+Description: <col=ffffff>Kill a Black Dragon.</col>;Kuvaus: <col=ffffff>Kill a Black Dragon.</col>
+Description: <col=ffffff>Kill any Barrows Brother using only magical damage.</col>;Kuvaus: <col=ffffff>Kill any Barrows Brother using only magical damage.</col>
+Description: <col=ffffff>Kill the Chaos Fanatic without anyone being hit by his explosion attack.</col>;Kuvaus: <col=ffffff>Kill the Chaos Fanatic without anyone being hit by his explosion attack.</col>
+Description: <col=ffffff>Open the Barrows chest 10 times.</col>;Kuvaus: <col=ffffff>Open the Barrows chest 10 times.</col>
+Digging in;Kaivaaminen
