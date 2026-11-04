@@ -485,3 +485,43 @@ Description: <col=ffffff>Kill any Barrows Brother using only magical damage.</co
 Description: <col=ffffff>Open the Barrows chest 10 times.</col>;Descrição: <col=ffffff>Abra o Barrows chest 10 vezes.</col>
 Digging in;Cavando
 Doesn't bug me;Não me incomoda
+Monstruo: <col=ffffff>Chambers of Xeric: CM</col>;Monstro: <col=ffffff>Chambers of Xeric: CM</col>
+Monstruo: <col=ffffff>Chambers of Xeric</col>;Monstro: <col=ffffff>Chambers of Xeric</col>
+Monstruo: <col=ffffff>Doom of Mokhaiotl</col>;Monstro: <col=ffffff>Doom of Mokhaiotl</col>
+Monstruo: <col=ffffff>Theatre of Blood: Hard Mode</col>;Monstro: <col=ffffff>Theatre of Blood: Hard Mode</col>
+Monstruo: <col=ffffff>Theatre of Blood</col>;Monstro: <col=ffffff>Theatre of Blood</col>
+Monstruo: <col=ffffff>Tombs of Amascut: Expert Mode</col>;Monstro: <col=ffffff>Tombs of Amascut: Expert Mode</col>
+Monstruo: <col=ffffff>Tombs of Amascut</col>;Monstro: <col=ffffff>Tombs of Amascut</col>
+Description: <col=ffffff>Kill the Chaos Fanatic without anyone being hit by his explosion attack.</col>;Descrição: <col=ffffff>Mate o Chaos Fanatic sem que ninguém seja atingido por seu ataque de explosão.</col>
+Don't Look at Me!;Não Olhe para Mim!
+Don't Look at the Eclipse;Não Olhe para o Eclipse
+Done before Dusk;Feito antes do Crepúsculo
+Dropped the ball;Deixou a bola
+Fancy feet;Pés elegantes
+Fat of the Land;O melhor da terra
+Fighting as Intended;Lutando como planejado
+Finding the Weak Spot;Encontrando o ponto fraco
+Fire fighter;Bombeiro
+Fire in the Hole!;Fogo na cova!
+Fragment of Seren Speed-Trialist;Fragmento de Seren Speed-Trialist
+From One King to Another;De um rei para outro
+Helpful spirit who?;Espírito útil quem?
+I need room;Preciso de espaço
+I was here first!;Eu estava aqui primeiro!
+I'm in a rush;Estou com pressa
+I'm your son;Sou seu filho
+Into the Den of Giants;Na Toca dos Gigantes
+Is it a bird?;É um pássaro?
+Kill It with Fire;Mate-o com Fogo
+King-sized clobbering;Golpe de tamanho rei
+Let it seep in;Deixe entrar
+Let them fight;Deixe-os lutar
+Master of Buckets;Mestre dos Baldes
+Monstruo: <col=ffffff>Fragment of Seren</col>;Monstro: <col=ffffff>Fragment of Seren</col>
+Monstruo: <col=ffffff>Theatre of Blood: Entry Mode</col>;Monstro: <col=ffffff>Theatre of Blood: Entry Mode</col>
+Monstruo: <col=ffffff>Tombs of Amascut: Entry Mode</col>;Monstro: <col=ffffff>Tombs of Amascut: Entry Mode</col>
+Moons of Peril Speed-Chaser;Perseguidor de Velocidade das Luas de Perigo
+More than just a ranged weapon;Mais que apenas uma arma de Ranged
+Movin' on up;Subindo
+No Time for Death;Sem tempo para a Morte
+No skipping allowed;Não é permitido pular
