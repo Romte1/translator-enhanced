@@ -197,3 +197,34 @@ I can start this quest by talking to <col=800000>Brother Kojo<col=000080> in the
 <str>one of his chickens. Fortunately, my magical prowess allowed;<str>uno dei suoi polli. Fortunatamente, la mia abilità magica ha permesso
 <str>me to successfully achieve this.;<str>di riuscire con successo.
 <str>I can stay on Tutorial Island to learn more about Ironman;<str>Posso rimanere su Tutorial Island per imparare di più su Ironman
+Dancing with Statues;Ballare con le statue
+Dodging the Dragon;Schivare il Drago
+Hot on Your Feet;Caldo ai tuoi piedi
+Playing with Lasers;Giocare con i Laser
+Supplies? Who Needs 'em?;Rifornimenti? Chi ne ha bisogno?
+... 'til Dawn;... fino all'alba
+A siphon will solve this;Un sifone risolverà questo
+All out of medics;Finiti i medici
+Back in My Day...;Ai miei tempi...
+Back so soon?;Tornato così presto?
+Better get movin';Meglio muoversi
+Big, Black and Fiery;Grande, Nero e Infuocato
+Calm Before the Storm;Calma prima della tempesta
+Camping the King;Accampare il Re
+Chambers of Xeric (5-Scale) Speed-Chaser;Chambers of Xeric (5-Scale) Cacciatore di velocità
+Chambers of Xeric (Solo) Speed-Chaser;Chambers of Xeric (Solo) Cacciatore di velocità
+Chambers of Xeric (Trio) Speed-Chaser;Chambers of Xeric (Trio) Cacciatore di velocità
+Chambers of Xeric Veteran;Chambers of Xeric Veterano
+Chambers of Xeric: CM (5-Scale) Speed-Chaser;Chambers of Xeric: CM (5-Scale) Cacciatore di velocità
+Chambers of Xeric: CM (Solo) Speed-Chaser;Chambers of Xeric: CM (Solo) Cacciatore di velocità
+Chambers of Xeric: CM (Trio) Speed-Chaser;Chambers of Xeric: CM (Trio) Cacciatore di velocità
+Contain this!;Contieni questo!
+Death to the Archer King;Morte al Re Arciere
+Death to the Seer King;Morte al Re Veggente
+Death to the Warrior King;Morte al Re Guerriero
+Denying the Healers;Negare i Curatori
+Description: <col=ffffff>Kill a Black Dragon.</col>;Descrizione: <col=ffffff>Uccidi un Black Dragon.</col>
+Description: <col=ffffff>Kill any Barrows Brother using only magical damage.</col>;Descrizione: <col=ffffff>Uccidi qualsiasi Barrows Brother usando solo danni magici.</col>
+Description: <col=ffffff>Open the Barrows chest 10 times.</col>;Descrizione: <col=ffffff>Apri il Barrows chest 10 volte.</col>
+Digging in;Scavando
+Doesn't bug me;Non mi infastidisce
