@@ -1224,3 +1224,36 @@ Description: <col=ffffff>Kill any Barrows Brother using only magical damage.</co
 Description: <col=ffffff>Open the Barrows chest 10 times.</col>;Descripción: <col=ffffff>Abre el Barrows chest 10 veces.</col>
 Digging in;Cavando
 Doesn't bug me;No me molesta
+Chambers of Xeric (5-Scale) Speed-Chaser;Chambers of Xeric (5-Scale) Cazador de velocidad
+Chambers of Xeric (Solo) Speed-Chaser;Chambers of Xeric (Solo) Cazador de velocidad
+Chambers of Xeric (Trio) Speed-Chaser;Chambers of Xeric (Trio) Cazador de velocidad
+Chambers of Xeric Master;Chambers of Xeric Maestro
+Chambers of Xeric Veteran;Chambers of Xeric Veterano
+Chambers of Xeric: CM (5-Scale) Speed-Chaser;Chambers of Xeric: CM (5-Scale) Cazador de velocidad
+Chambers of Xeric: CM (Solo) Speed-Chaser;Chambers of Xeric: CM (Solo) Cazador de velocidad
+Chambers of Xeric: CM (Trio) Speed-Chaser;Chambers of Xeric: CM (Trio) Cazador de velocidad
+Chambers of Xeric: CM Master;Chambers of Xeric: CM Maestro
+Description: <col=ffffff>Kill the Chaos Fanatic without anyone being hit by his explosion attack.</col>;Descripción: <col=ffffff>Mata al Chaos Fanatic sin que nadie sea alcanzado por su ataque de explosión.</col>
+Don't Look at Me!;¡No me mires!
+Don't Look at the Eclipse;No mires el Eclipse
+Done before Dusk;Hecho antes del anochecer
+Dropped the ball;Dejé caer la pelota
+Fancy feet;Pies elegantes
+Fat of the Land;Lo mejor de la tierra
+Fighting as Intended;Luchando como está previsto
+Finding the Weak Spot;Encontrando el punto débil
+Fire fighter;Bombero
+Fire in the Hole!;¡Fuego en el agujero!
+Fragment of Seren Speed-Trialist;Fragmento de Seren Speed-Trialist
+From One King to Another;De un rey a otro
+Helpful spirit who?;¿Espíritu útil quién?
+I need room;Necesito espacio
+I was here first!;¡Yo estuve aquí primero!
+I'm in a rush;Tengo prisa
+I'm your son;Soy tu hijo
+Into the Den of Giants;En la guarida de los gigantes
+Is it a bird?;¿Es un pájaro?
+Kill It with Fire;Mátalo con fuego
+King-sized clobbering;Golpe de rey
+Let it seep in;Déjalo que se filtre
+Let them fight;Déjalos pelear
