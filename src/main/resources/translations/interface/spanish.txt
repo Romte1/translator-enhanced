@@ -1257,3 +1257,42 @@ Kill It with Fire;Mátalo con fuego
 King-sized clobbering;Golpe de rey
 Let it seep in;Déjalo que se filtre
 Let them fight;Déjalos pelear
+Master of Buckets;Maestro de Cubos
+Moons of Peril Speed-Chaser;Perseguidor de velocidad de Moons of Peril
+More than just a ranged weapon;Más que solo un arma de Ranged
+Movin' on up;Subiendo
+No Time for Death;Sin tiempo para la muerte
+No skipping allowed;No se permite saltarse
+No time to pray;No hay tiempo para rezar
+No toppings, no drinks, thanks;Sin ingredientes extra, sin bebidas, gracias
+One by one;Uno a uno
+Praying to the Gods;Rezando a los Gods
+Putting It Olm on the Line;Poniendo a Olm en la línea
+Ready to Pounce;Listo para saltar
+Reflecting on This Encounter;Reflexionando sobre este encuentro
+Rockin' around the croc;Rockeando alrededor del cocodrilo
+Shadow dancer;Bailarín de sombra
+Smarter than a Cow;Más listo que una Vaca
+Something of an expert myself;Algo de experto soy yo
+Space is Tight;El espacio es estrecho
+Stick 'em With the Pointy End;Golpéalos con el extremo puntiagudo
+Stop Drop and Roll;Detén, suelta y rueda
+The Bane of Demons;La perdición de los demonios
+Theatre of Blood Master;Maestro del Theatre of Blood
+Theatre of Blood Veteran;Veterano del Theatre of Blood
+Theatre of Blood: SM Adept;Theatre of Blood: SM Adepto
+Theatre of Blood: SM Speed-Chaser;Theatre of Blood: SM Cazador de velocidad
+There is no escape!;¡No hay escape!
+Three Times the Thrashing;Tres veces la paliza
+Through Fire and Flames;A través del fuego y las llamas
+Toppling the Diarchy;Derrocando la Diarquía
+Trying to fit in;Intentando encajar
+Two Times the Torment;Dos veces el tormento
+Up for the Challenge;Listo para el desafío
+Warden't you believe it;Warden, ¿no lo crees?
+Who Is the King Now?;¿Quién es el rey ahora?
+You Didn't Say Anything About a Bat;No dijiste nada sobre un murciélago
+You are not prepared;No estás preparado
+<col=000000>Plant some Logavano seeds at the Tithe Farm.</col><col=ffffff>(<col=800000>74 Farming<col=000080><col=ffffff>);<col=000000>Planta algunas semillas Logavano en la Tithe Farm.</col><col=ffffff>(<col=800000>74 Farming<col=000080><col=ffffff>)
+Description: <col=ffffff>Kill a Lizardman Shaman in Molch which has not dealt damage to anyone (excluding its Spawns).</col>;Description: <col=ffffff>Mata a un Lizardman Shaman en Molch que no haya infligido daño a nadie (excluyendo sus Spawns).</col>
+Description: <col=ffffff>Kill an Aberrant Spectre.</col>;Description: <col=ffffff>Mata a un Aberrant Spectre.</col>
