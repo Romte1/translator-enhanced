@@ -7,6 +7,10 @@ on:
         description: Translate only one language (empty = all)
         required: false
         default: ""
+      limit:
+        description: Max texts per language (default 40)
+        required: false
+        default: "40"
   schedule:
     - cron: "0 6 * * 1"
 
@@ -53,7 +57,7 @@ jobs:
           PENDING_URL: ${{ vars.PENDING_URL }}
           PENDING_TOKEN: ${{ secrets.PENDING_TOKEN }}
           SEED_FROM: spanish
-          LIMIT: 40
+          LIMIT: ${{ inputs.limit || '40' }}
           BATCH_SIZE: 20
         run: node scripts/translate-worker.mjs "${{ matrix.language }}"
 
