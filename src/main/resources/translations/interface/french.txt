@@ -160,3 +160,27 @@ I can start this quest by talking to <col=800000>Brother Kojo<col=000080> in the
 <str>I met Brynna, the Survival Expert. She taught me how to catch;<str>J'ai rencontré Brynna, l'Expert en survie. Elle m'a appris comment attraper
 <str>shrimp with a fishing net, and then how to cook those shrimp;<str>des crevettes avec un filet de pêche, puis comment cuire ces crevettes
 <str>on a fire made from logs I had cut myself.;<str>sur un feu fait de bûches que j'avais moi‑même coupées.
+Dancing with Statues;Danser avec les statues
+Dodging the Dragon;Esquiver le Dragon
+Hot on Your Feet;Chauds aux pieds
+Playing with Lasers;Jouer avec les lasers
+Supplies? Who Needs 'em?;Fournitures ? Qui en a besoin ?
+... 'til Dawn;... jusqu'à l'aube
+A siphon will solve this;Un siphon résoudra cela
+All out of medics;Plus aucun médecin
+Back in My Day...;À mon époque...
+Back so soon?;De retour si vite ?
+Better get movin';Mieux vaut bouger
+Big, Black and Fiery;Grand, noir et flamboyant
+Calm Before the Storm;Calme avant la tempête
+Camping the King;Camper le King
+Contain this!;Contenez ceci !
+Death to the Archer King;Mort à l'Archer King
+Death to the Seer King;Mort au Seer King
+Death to the Warrior King;Mort au Warrior King
+Denying the Healers;Refuser les Healers
+Description: <col=ffffff>Kill a Black Dragon.</col>;Description : <col=ffffff>Tuez un Black Dragon.</col>
+Description: <col=ffffff>Kill any Barrows Brother using only magical damage.</col>;Description : <col=ffffff>Tuez n'importe quel Barrows Brother en n'utilisant que des dégâts magiques.</col>
+Description: <col=ffffff>Open the Barrows chest 10 times.</col>;Description : <col=ffffff>Ouvrez le Barrows chest 10 fois.</col>
+Digging in;Creuser
+Doesn't bug me;Ça ne me dérange pas
