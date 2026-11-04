@@ -150,3 +150,33 @@ Description: <col=ffffff>Kill any Barrows Brother using only magical damage.</co
 Description: <col=ffffff>Kill the Chaos Fanatic without anyone being hit by his explosion attack.</col>;Kuvaus: <col=ffffff>Tapa Chaos Fanatic ilman että kukaan jää hänen räjähdyshyökkäyksensä alle.</col>
 Description: <col=ffffff>Open the Barrows chest 10 times.</col>;Kuvaus: <col=ffffff>Avaa Barrows chest 10 kertaa.</col>
 Digging in;Kaivaaminen
+Camping the King;Leiriydy kuninkaan
+Doesn't bug me;Ei häiritse minua
+Don't Look at Me!;Älä katso minua!
+Don't Look at the Eclipse;Älä katso pimennystä
+Done before Dusk;Valmistettu ennen hämärää
+Dropped the ball;Pudotti pallon
+Fancy feet;Tyylikkäät jalat
+Fat of the Land;Maan runsas
+Fighting as Intended;Taistelu kuten on tarkoitettu
+Finding the Weak Spot;Heikon kohdan löytäminen
+Fire fighter;Palomies
+Fire in the Hole!;Tulipalo!
+Fragment of Seren Speed-Trialist;Serenin Speed-Trialist -fragmentti
+From One King to Another;Yhdeltä kuninkaalta toiselle
+Helpful spirit who?;Auttava henki, kuka?
+I need room;Tarvitsen tilaa
+I was here first!;Olin täällä ensin!
+I'm in a rush;Minulla on kiire
+I'm your son;Olen sinun poikasi
+Into the Den of Giants;Jättien luolaan
+Is it a bird?;Onko se lintu?
+Kill It with Fire;Tapa se tulessa
+King-sized clobbering;Kuninkaan kokoista hakkausta
+Let it seep in;Anna sen imeytyä
+Let them fight;Anna heidän taistella
+Master of Buckets;Ämpärien mestari
+More than just a ranged weapon;Enemmän kuin pelkkä ranged weapon
+Movin' on up;Nousen ylöspäin
+No Time for Death;Ei aikaa kuolemalle
+No skipping allowed;Ohittaminen kielletty
