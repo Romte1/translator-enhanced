@@ -452,3 +452,36 @@ Fighting as Intended II;Lutando como Pretendido II
 <col=000000>Kill a jogre in the Pothole dungeon.;<col=000000>Mate um jogre na Pothole dungeon.
 <col=000000>Claim a ticket from the Agility Arena in Brimhaven.<col=ffffff>(<col=800000>30 Agility<col=000080><col=ffffff>);<col=000000>Pegue um bilhete na Agility Arena em Brimhaven.<col=ffffff>(<col=800000>30 Agility<col=000080><col=ffffff>)
 <col=000000>Discover hidden wall in the dungeon below the volcano.;<col=000000>Descubra a parede escondida na masmorra abaixo do vulcão.
+Dancing with Statues;Dançando com Estátuas
+Dodging the Dragon;Desviando do Dragão
+Hot on Your Feet;Quente nos seus pés
+Playing with Lasers;Brincando com Lasers
+Supplies? Who Needs 'em?;Suprimentos? Quem precisa deles?
+... 'til Dawn;... até o Amanhecer
+A siphon will solve this;Um sifão resolverá isso
+All out of medics;Sem médicos
+Back in My Day...;Na minha época...
+Back so soon?;De volta tão cedo?
+Better get movin';Melhor se mexer
+Big, Black and Fiery;Grande, Preto e Ardente
+Calm Before the Storm;Calma antes da Tempestade
+Camping the King;Acampando o Rei
+Chambers of Xeric (5-Scale) Speed-Chaser;Chambers of Xeric (5-Scale) Caçador de Velocidade
+Chambers of Xeric (Solo) Speed-Chaser;Chambers of Xeric (Solo) Caçador de Velocidade
+Chambers of Xeric (Trio) Speed-Chaser;Chambers of Xeric (Trio) Caçador de Velocidade
+Chambers of Xeric Master;Chambers of Xeric Mestre
+Chambers of Xeric Veteran;Chambers of Xeric Veterano
+Chambers of Xeric: CM (5-Scale) Speed-Chaser;Chambers of Xeric: CM (5-Scale) Caçador de Velocidade
+Chambers of Xeric: CM (Solo) Speed-Chaser;Chambers of Xeric: CM (Solo) Caçador de Velocidade
+Chambers of Xeric: CM (Trio) Speed-Chaser;Chambers of Xeric: CM (Trio) Caçador de Velocidade
+Chambers of Xeric: CM Master;Chambers of Xeric: CM Mestre
+Contain this!;Contenha isto!
+Death to the Archer King;Morte ao Archer King
+Death to the Seer King;Morte ao Seer King
+Death to the Warrior King;Morte ao Warrior King
+Denying the Healers;Negando os Healers
+Description: <col=ffffff>Kill a Black Dragon.</col>;Descrição: <col=ffffff>Mate um Black Dragon.</col>
+Description: <col=ffffff>Kill any Barrows Brother using only magical damage.</col>;Descrição: <col=ffffff>Mate qualquer Barrows Brother usando apenas dano mágico.</col>
+Description: <col=ffffff>Open the Barrows chest 10 times.</col>;Descrição: <col=ffffff>Abra o Barrows chest 10 vezes.</col>
+Digging in;Cavando
+Doesn't bug me;Não me incomoda
