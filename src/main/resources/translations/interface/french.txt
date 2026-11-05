@@ -95,7 +95,7 @@ Standalone;Indépendante
 <col=000000>Climb over the western Falador wall.<col=ffffff>(<col=800000>5 Agility<col=000080><col=ffffff>);<col=000000>Escaladez le mur occidental de Falador.<col=ffffff>(<col=800000>5 Agility<col=000080><col=ffffff>)
 <col=000000>Browse Sarah's farm shop.;<col=000000>Parcourez la boutique de ferme de Sarah.
 <col=000000>Get a Haircut or a Shave from the Falador Hairdresser.;<col=000000>Obtenez un Haircut ou un Shave chez le Falador Hairdresser.
-<col=000000>Fill a bucket from the pump north of Falador west bank.;<col=000000>Remplissez un bucket à la pompe
+<col=000000>Fill a bucket from the pump north of Falador west bank.;<col=000000>Remplissez un bucket à la pompe au nord de la banque ouest de Falador.
 <col=000000>Make a mind tiara.;<col=000000>Fabriquez une mind tiara.
 <col=000000>Take the boat to Entrana.;<col=000000>Prenez le bateau pour Entrana.
 <col=000000>Repair a broken strut in the Motherlode Mine.;<col=000000>Réparez un support cassé dans la Motherlode Mine.

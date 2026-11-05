@@ -10,6 +10,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
@@ -173,6 +174,67 @@ public class InterfaceDictionaryTest
 			{
 				assertTrue(language + ": empty value for: " + entry.getKey(),
 					!entry.getValue().trim().isEmpty());
+			}
+		}
+	}
+
+	@Test
+	public void properNounsStayEnglish() throws Exception
+	{
+		Set<String> names = new HashSet<>(Arrays.asList(
+			"Attack", "Strength", "Defence", "Ranged", "Prayer", "Magic", "Runecraft",
+			"Construction", "Hitpoints", "Agility", "Herblore", "Thieving", "Crafting",
+			"Fletching", "Slayer", "Hunter", "Mining", "Smithing", "Fishing", "Cooking",
+			"Firemaking", "Woodcutting", "Farming", "Sailing",
+			"Grand Exchange", "Theatre of Blood", "Chambers of Xeric", "Tombs of Amascut",
+			"Barrows", "Varrock", "Falador", "Lumbridge", "Draynor", "Karamja", "Brimhaven",
+			"Kharazi Jungle", "Waterbirth Island", "God Wars Dungeon", "Dagannoth Kings",
+			"Neitiznot", "Rellekka", "Wilderness", "Ardougne", "Canifis", "Morytania",
+			"Tirannwn", "Kandarin", "Asgarnia", "Misthalin", "Prifddinas", "Great Kourend",
+			"Gielinor", "Blue Moon Inn", "Varrock Museum", "Shilo Village", "Tai Bwo Wannai",
+			"Lunar Diplomacy", "Dragon Slayer", "Monkey Madness", "The Grand Tree",
+			"Jungle Potion", "Nylocas", "Olm", "Warden", "Verzik Vitur", "Zulrah",
+			"Vorkath", "Cerberus", "Skotizo", "Bryophyta", "Scurrius", "Nex", "Bandos",
+			"Armadyl", "Saradomin", "Zamorak", "Zaros", "Guthix", "Seren", "Tumeken",
+			"Elidinis", "Amascut", "Icthlarin", "Twisted bow", "Scythe of vitur",
+			"Tumeken's shadow", "Dragon claws", "Elysian", "Inferno", "Fight Caves",
+			"Wintertodt", "Tempoross", "Zalcano", "Hespori", "Gauntlet", "Nightmare"));
+
+		for (String language : languages())
+		{
+			for (Map.Entry<String, String> entry : dictionary(language).entrySet())
+			{
+				String key = entry.getKey();
+				if (key.startsWith("re:"))
+				{
+					continue;
+				}
+
+				String plainKey = TAG.matcher(key).replaceAll("").trim();
+				String plainValue = TAG.matcher(entry.getValue()).replaceAll("").trim();
+				if (!plainKey.matches(".*[.!?]$") && !names.contains(plainKey))
+				{
+					continue;
+				}
+
+				for (String name : names)
+				{
+					Pattern pattern = Pattern.compile("\\b" + Pattern.quote(name) + "\\b");
+					if (!pattern.matcher(plainKey).find())
+					{
+						continue;
+					}
+
+					if (plainKey.equals(name))
+					{
+						assertEquals(language + ": proper noun translated: " + key, name, plainValue);
+					}
+					else
+					{
+						assertTrue(language + ": proper noun missing from translation: " + key,
+							plainValue.contains(name));
+					}
+				}
 			}
 		}
 	}

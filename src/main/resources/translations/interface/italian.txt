@@ -35,7 +35,7 @@ I can start this quest by talking to <col=800000>Jamila<col=000080> at her stall
 <col=000000>Kill 5 Rock crabs.;<col=000000>Uccidi 5 granchi di roccia.
 <col=000000>Craft a tiara from scratch in Rellekka.;<col=000000>Crea una tiara da zero a Rellekka.
 <col=000000>Browse the Stonemasons shop.<col=ffffff>(<col=800000>Started The Giant Dwarf<col=000080><col=ffffff>);<col=000000>Sfoglia il negozio dei muratori.<col=ffffff>(<col=800000>Started The Giant Dwarf<col=000080><col=ffffff>)
-<col=000000>Collect 5 Snape grass on Waterbirth Island.;<col=000000>Raccogli 5 erba Snape sull'Isola Waterbirth.
+<col=000000>Collect 5 Snape grass on Waterbirth Island.;<col=000000>Raccogli 5 Snape grass su Waterbirth Island.
 <col=000000>Steal from the Keldagrim crafting or baker's stall.;<col=000000>Ruba dallo stand di artigianato o del fornaio di Keldagrim.
 <col=000000>Fill a bucket with water at the Rellekka well.;<col=000000>Riempi un secchio d'acqua al pozzo di Rellekka.
 <col=000000>Enter the Troll Stronghold.<col=ffffff>(<col=800000>Death Plateau<col=000080>, <col=800000>Started Troll Stronghold<col=000080><col=ffffff>);<col=000000>Entra nella Fortezza dei Troll.<col=ffffff>(<col=800000>Death Plateau<col=000080>, <col=800000>Started Troll Stronghold<col=000080><col=ffffff>)
@@ -47,7 +47,7 @@ I can start this quest by talking to <col=800000>Jamila<col=000080> at her stall
 <col=000000>Travel to Miscellania by Fairy ring.;<col=000000>Viaggia a Miscellania tramite anello fatato.
 <col=000000>Catch a Snowy knight.<col=ffffff>(<col=800000>35 Hunter<col=000080><col=ffffff>);<col=000000>Cattura un Snowy knight.<col=ffffff>(<col=800000>35 Hunter<col=000080><col=ffffff>)
 <col=000000>Pick up your Pet Rock from your POH Menagerie.;<col=000000>Ritira il tuo Pet Rock dalla Menagerie della tua POH.
-<col=000000>Visit the Lighthouse from Waterbirth island.;<col=000000>Visita il Faro dall'isola Waterbirth.
+<col=000000>Visit the Lighthouse from Waterbirth island.;<col=000000>Visita il Lighthouse da Waterbirth Island.
 <col=000000>Mine some gold at the Arzinian mine.;<col=000000>Estrai dell'oro nella miniera Arzinian.
 <col=000000>Teleport to Trollheim.<col=ffffff>(<col=800000>61 Magic<col=000080>, <col=800000>Eadgar's Ruse<col=000080><col=ffffff>);<col=000000>Teletrasporto a Trollheim.<col=ffffff>(<col=800000>61 Magic<col=000080>, <col=800000>Eadgar's Ruse<col=000080><col=ffffff>)
 <col=000000>Catch a Sabre-toothed Kyatt.<col=ffffff>(<col=800000>55 Hunter<col=000080><col=ffffff>);<col=000000>Cattura un Sabre-toothed Kyatt.<col=ffffff>(<col=800000>55 Hunter<col=000080><col=ffffff>)
