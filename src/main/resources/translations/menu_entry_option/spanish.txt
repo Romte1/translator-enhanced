@@ -601,10 +601,8 @@ Comercio;Comercio
 Carterista;carterista
 Examinar;Examinar
 Caminar aqui;Caminar aquí
-Ataque;ataque
 Cerca;cerca
 Buscar;Buscar
-Abierto;abierto
 Tronchar;tronchar
 Hablar con;Hablar con
 Take-Coffin;Tomar Coffin
@@ -780,9 +778,6 @@ Open <col=ff9040>Western Provinces Journal</col>;Abrir <col=ff9040>Western Provi
 Wiki <col=ff9040>Western Provinces Journal</col>;Wiki <col=ff9040>Western Provinces Journal</col>
 Peek;Asomarse
 Disturb;Molestar
-Annuler;anulador
-Marcher ici;Marchador aquí
-Examiner;Examinador
 Add-mulch;Agregar mantillo
 Reset;Reiniciar
 Top-Floor;Último piso
@@ -864,11 +859,8 @@ Toggle K/D;Alternar K/D
 Take-seed;Tomar seed
 Take-pickaxe;Tomar pickaxe
 Dyes;Tintes
-Anadir ignorar;Anadir ignorante
 Withdraw-50000;Retirar-50000
-Informe;informe
 activar;activar
-Anadir amigo;anadir amigo
 Deposit-50000;Depositar-50000
 Accurate;Preciso
 Longrange;De largo alcance
@@ -884,10 +876,6 @@ Seers' Village;Seers' Village
 Camelot;Camelot
 Deposit-120000;Depositar-120000
 Withdraw-120000;Retirar-120000
-Gehen Sie hier;Gehen Sie aquí
-Reden mit;Reden con
-Prüfen;Prufen
-Schließen;Schließen
 Tutorial;Tutorial
 Open in browser;Abrir en el navegador
 Pass (private);Pasar (privado)
@@ -1055,9 +1043,6 @@ Comercio con;Comerciar con
 conjuntos;conjuntos
 Eliminar;Eliminar
 Usar;usar
-Gota;gota
-Banco;banco
-Intercambio;Intercambio
 Seguir;Seguir
 Historia;historia
 Recolectar;Recolectar
@@ -1073,28 +1058,21 @@ Last-destination (DKS);Último destino (DKS)
 Add Favourite;Agregar favorito
 Use code;Usar código
 Destroy ALL;Destruir TODO
-Comer;Contendiente
 Deposit-5000;Depositar-5000
 Llevar;Llevar
 Precios;Precios
 Withdraw-5000;Retirar-5000
 Cocinando;Cocinando
-BotÃ­n;Botín
 Kandarin Monastery;Kandarin Monastery
 Default quantity: 107;Cantidad predeterminada: 107
-Empunar;Empunar
-Deposito;Deposito
 +50%;+50%
 Default quantity: 5,000;Cantidad predeterminada: 5,000
-Tener puesto;tener puesto
 -50%;-50%
-Vista;Vista
 Construir;construir
 Subir;subir
 Ingresar;Ingresar
 Bajar;Bajar
 Lanzar;Lanzar
-Mina;mina
 Water Bolt;Water Bolt
 Use <col=00ff00>Special Attack</col>;Usar <col=00ff00>Ataque especial</col>
 Select option C;Seleccionar la opción C
@@ -1855,9 +1833,7 @@ Toggle Counter;Alternar contador
 Open Log;Abrir registro
 Stronghold;Fortaleza
 Fremennik Dungeon;Fremennik Dungeon
-Parler Ã;Parler Ã 
 Retirer-X;Jubilado-X
-Activer;activo
 Retirer-5;Jubilado-5
 Suivre;Suivre
 Retirer-1;Jubilado-1
@@ -1868,7 +1844,6 @@ Configurer;Configurador
 Retirer-tout-sauf-1;Jubilador-tout-sauf-1
 Commerce;Comercio
 Marchez ici;Marchez aquí
-Ã‰changez avec;Échangez avec
 Descendre;descender
 Banque;banco
 Abattre;Abattre
@@ -2031,13 +2006,10 @@ Nehmen;Nehmen
 Entfernen;Entfernen
 Bericht;bericht
 Handeln mit;mano con
-Fällen;Caído
 Ausloggen;Ausloggen
-Ausüben;Ausüben
 Tropfen;Tropfen
 Suchen;talen
 Verwenden;Verwenden
-Beten;Betén
 Taschendieb;Taschendieb
 Handeln;Handeln
 Eingeben;Eingeben
@@ -2064,11 +2036,8 @@ Unhide;Mostrar
 Stint;Escatimar
 Preise;precio
 Geschichte;Geschichte
-Gießen;Giessen
 Crack;Agrietar
-Ignorieren hinzufügen;Ignorar hinzufügen
 Wert;wert
-Freund hinzufügen;Freund hinzufügen
 Heim;Heim
 Baumodus;Baumodus
 Haus eines Freundes;Haus eines Freundes
@@ -2382,30 +2351,18 @@ Move left;Mover a la izquierda
 Turn clockwise;Girar en el sentido de las agujas del reloj
 Turn anti-clockwise;Girar en sentido antihorario
 Jeter;Jeter
-Vérifier;Verificador
 Attaquer;Atacar
 Prendre;Prender
-Râteler;Râteler
 Signaler;señalizador
 Manier;manier
 Inspecter;inspector
 Manger;Pesebre
-Utiliser;Usuario
 Fouiller;Fouiller
-Parler à;Parlerà
 Enterrer;Entrar
-Monter;monter
-Échanger;Cambiador
-Détruire;Detruire
 Fermer;Fermer
 Frotter;frotter
-Voler à la tire;Voler à la tire
-Réclamer;Reclamar
 Fondre;fondo
 Forger;Falsificador
-Cuisiner;cocinero
-Étage supérieur;Etage superior
-Déposer;depositador
 Sortie;Salida
 Say-name;decir nombre
 Add;Agregar
@@ -2421,17 +2378,10 @@ Goal;Meta
 Set to XP value;Establecer el valor de XP
 Set to current XP;Establecer en XP actual
 Set to level;Establecer en nivel
-Étage inférieur;Etage inferior
-Activer/Désactiver;Activar/Desactivar
-Activer/Désactiver les avertissements;Activar/desactivar los anuncios
-Réclamer les trophées;Reclamar los trofeos
 Porter;Portero
 Entrer;entrar
 Filet;Filete
-Appât;Appât
-Monter à bord;Monter a bordo
 S'agripper;S'agripper
-Prier à;Prierà
 Trancher;tranquero
 Lire;Lira
 Miner;Minero
@@ -2489,7 +2439,6 @@ Last-destination (BKR);Último destino (BKR)
 Construire;Construir
 Lancer;Lancero
 Caresser;acariciador
-Voler à;Volerá
 Chasser;cazador
 Acheter;Comprar
 No, don't leave.;No, no te vayas.
@@ -2512,8 +2461,6 @@ Se faufiler;Se faufiler
 Sell: 1 x Raw trout;Vender: 1 x Raw trout
 Supply;Suministrar
 Escort;Escoltar
-Objets de fêtes;Objetos de fiesta
-Utiliser le code;Utilizar el código
 Exclaim;Exclamar
 Unmorph;Desmorfizar
 Question;Preguntar
@@ -2538,7 +2485,6 @@ Withdraw-636;Retirar-636
 Withdraw-64;Retirar-64
 Withdraw-60;Retirar-60
 Deposit-732;Depositar-732
-À l'extérieur;En el exterior
 Couper;cuper
 Default quantity: 60;Cantidad predeterminada: 60
 Deposit-236;Depositar-236
@@ -2653,7 +2599,6 @@ Add friend Zourberts;Añadir amigo Zourberts
 Add friend YoMd_Debo;Añadir amigo YoMd_Debo
 Add ignore Whoisu82;Ignorar a Whoisu82
 Goutte;gota
-DÃ©truire;Détruire
 Recherche;Rebuscado
 Buy Membership;Comprar membresía
 Add ignore OATHSLAYER42;Ignorar a OATHSLAYER42
@@ -2693,10 +2638,7 @@ Remove<col=ff9040> Hint arrow;Eliminar<col=ff9040> flecha de sugerencia
 Show<col=ff9040> Hint;Mostrar<col=ff9040> Sugerencia
 Ring-last-destination (AKP);Último destino del anillo (AKP)
 Withdraw-1884;Retirar-1884
-Récompenses;recompensas
-Tête de mort;Tête de mort
 Prix;premio
-Décanter;Licorera
 Objets;Objetos
 Butin;butín
 Historique;histórico
@@ -2734,7 +2676,6 @@ Hide Information Panel;Ocultar panel de información
 Channel (Varlamore);Canal (Varlamore)
 Exit Leagues;Salir de Ligas
 Briser;Briser
-Entrer (invité);Entrer (invitar)
 Entrer (membre);Entrer (miembro)
 NER Lookup;Buscar NER
 Lunar Isle;Lunar Isle
@@ -3144,13 +3085,8 @@ Back to Recruitment Board;Volver a la Junta de Reclutamiento
 Cortar;Cortar
 Lista de amigos;lista de amigos
 Negocie com;negociar com
-Esconder;esconder
-Denúnciar;Denunciar
-Caminhe até aqui;Caminhe até aqui
-Opções de Combate;Opciones de combate
 Jogar;Jogar
 Atacar;atacar
-Configurações;Configuraciones
 Falar com;Falar com
 Controles;Controles
 Conta;contacto
@@ -3164,71 +3100,44 @@ Move Right;Mover a la derecha
 Move Down;Mover hacia abajo
 Fire!;¡Fuego!
 Capture;Capturar
-Diários de conquistas;Diarios de conquistas
 View <col=ff9040>Construction</col> guide;Ver guía de <col=ff9040>Construction</col>
 Largar;largar
 Subida;Subida
 Saber mais;Saber más
 Empunhar;Empunhar
 Digitar;digital
-Inventário;inventario
-Ver caixa de entrada;Ver caja de entrada
-Fechar;Fechar
 Abrir;Abrir
 Vestir;Vestir
-Lançar;Lançar
-Pegar;pegar
-Depósito;Depósito
-Coletar;Coletar
 Sair;Sair
 Trocador de mundo;trocador del mundo
 Close Info;Cerrar información
 Selecione;Selección
-História;Historia
 Trocar;trocar
 Confirmar;Confirmar
 Conjuntos;Conjuntos
 Withdraw-727;Retirar-727
 Buy: 1 x Emerald;Comprar: 1 x Emerald
-Ver oferta;Ver oferta
-Abortar oferta;Abortar oferta
-Depósito-X;Depósito-X
-Preços;precios
-Depósitar-1;Depósitar-1
-Depósitar-10;Depósitar-10
 Deposit-727;Depositar-727
-Depósito-Tudo;Depósito-Tudo
-Depósitar-5;Depósitar-5
-Insira o preço;Insira o precio
 Make <col=ff9040>Emerald necklace</col>;Hacer <col=ff9040>Emerald necklace</col>
 Adicionar amigo;Agregar amigo
 Mostrar no mapa:;Mostrar no mapa:
-Leia o diário:;Leia el diario:
 Sell: 50 x Emerald necklace;Vender: 50 x Emerald necklace
 Saque;Saqué
 Withdraw-4000;Retirar-4000
 Recompensas;recompensas
-Compre 5;Compre 5
 Vender 50<col=ff9040>;Vendedor 50<col=ff9040>
 Vender 10<col=ff9040>;Vendedor 10<col=ff9040>
 Vender 1<col=ff9040>;Vendedor 1<col=ff9040>
-Compre 50;Compre 50
 Valor<col=ff9040>;Valor<col=ff9040>
-Compre 10;Compre 10
 Vender 5<col=ff9040>;Vendedor 5<col=ff9040>
-Compre 1;Compre 1
 Default quantity: 4,000;Cantidad predeterminada: 4,000
 Chefes;cocineros
 Tarefas;Tarefas
 Registro de coleta;Registro de coleta
-Visão geral;visión general
-Visão geral da coleção;Visão general da coleção
 Resgatar;Resgatar
-Compre-50;Compre-50
 Remover;Agente de mudanzas
 Default quantity: 15,000,000;Cantidad predeterminada: 15,000,000
 Deposit-6;Depositar-6
-Ver estatísticas do equipamento;Ver estadísticas del equipo
 Empty Dish;Vaciar
 Sell: 1,500 x Iron arrow;Vender: 1,500 x Iron arrow
 Buy: 1,500 x Headless arrow;Comprar: 1,500 x Headless arrow
@@ -3240,8 +3149,6 @@ Mostrar no mapa;Mostrar no mapa
 Mostrar;Mostrar
 Clear them all;Borrar todos
 Buy: 1 x Adamant platelegs;Comprar: 1 x Adamant platelegs
-Retaliação automática;Represalia automática
-Pedágio (10gp);Pedágio (10gp)
 Excluir amigo;excluir amigo
 Soco;Socó
 Bloquear;bloquear
@@ -3484,7 +3391,6 @@ Add ignore pull an pray;Ignorar a pull an pray
 Teleport to <col=ff8040>Volcanic Mine</col>;Teletransportarse a <col=ff8040>Volcanic Mine</col>
 Resources;Recursos
 Leave <col=ff8040>Volcanic Mine</col> channel;Salir del canal <col=ff8040>Volcanic Mine</col>
-Coletar no banco;Coletar en el banco
 View Hunter on the Wiki;Ver Hunter en la Wiki
 Karamja Shipyard;Karamja Shipyard
 Deposit-30000;Depositar-30000
@@ -3505,7 +3411,6 @@ Resupply;Reabastecer
 View Fishing on the Wiki;Ver Fishing en la Wiki
 Reset Streak;Restablecer racha
 Comprar-1;Comprar-1
-Saída;saída
 Open Livestream;Abrir transmisión en vivo
 Aya;Aya
 Deposit-3500;Depositar-3500
@@ -3545,8 +3450,6 @@ Release all placeholders (18);Liberar todos los marcadores de posición (18)
 Change icon (ranger);Cambiar icono (arquero)
 Change icon (mage);Cambiar icono (mago)
 Comprar tudo;Comprar todo
-Compre-X;Compre-X
-Poções;Poções
 Deposit-400;Depositar-400
 Withdraw-400;Retirar-400
 Vault;Bóveda
@@ -3745,27 +3648,21 @@ Add to;Añadir a
 Buy: 1 x Unfired bowl;Comprar: 1 x Unfired bowl
 Default quantity: 800;Cantidad predeterminada: 800
 Sell: 1 x Ensouled troll head;Vender: 1 x Ensouled troll head
-Remover espaços reservados;Eliminador de espacios reservados
 Contagem de cheques;Contagio de cheques
 Escolha;Escola
-Elenco;elenco
 Caminhe aqui;Caminhe aquí
 Alternar aviso;aviso alternativo
 Descer;descender
 Teletransporte do Mosteiro;Teletransporte do Mosteiro
 Mercado Geral;Mercado General
 Ativar;Atívar
-Ver todos os itens;Ver todos los elementos
 Procurar;procurar
-Viagem rápida;Viaje rápido
 Retirar-5;Retirar-5
 Viagem;Viaje
 Retirar-X;Retirar-X
-Depósito-10;deposito-10
 Guia Exibir;Guía Exibir
 Fale com;fale com
 Retirar-10;Retirar-10
-Depósito-1;deposito-1
 Retirar tudo menos 1;Retirar todo menos 1
 Fora;Foros
 Configurar;Configurar
@@ -3774,7 +3671,6 @@ Troca;Troca
 Retirar tudo;retirarse todo
 Escalar;escalar
 Retirar-1;Retirar-1
-Depósito-5;Depósito-5
 Ancinho;ancinho
 Embarcar;Embarcar
 Soltar;Soltar
@@ -3789,19 +3685,14 @@ Reiniciar;Reiniciar
 Vazio;Vazio
 Meu;mio
 Verificar;verificar
-Tendência;tendencia
 Descansar;Descansar
-Crânio;cráneo
 Cruzar;Cruzar
 Nova guia;nueva guia
 Guilda de Pesca;Guilda de Pesca
 Rede pequena;Red pequeña
 Alternar avisos;avisos alternativos
 Isca;isca
-Bebida;bebida
-Reivindique troféus;Trofeo Reivindique
 Ler;ler
-Quadro;cuadro
 Roubar;Roubar
 Balsa;Balsa
 Cheirava;cheiravá
@@ -3823,15 +3714,10 @@ Decantar;decantar
 Guest minimum skill total;Total mínimo de habilidades para invitados
 Alternar;alternar
 Piso superior;piso superior
-Verifique as cobranças;Verifique como cobranças
 Teleporte;Teletransporte
-Verificação de integridade;Verificación de integridad
 Piso inferior;piso inferior
 Luz;luz
 Doca;doca
-Pegue ferramentas;pegue ferramentas
-Pegue-rede;Pegue-rede
-Líquido;liquido
 Adicionar;Agregar
 Deposit All;Depositar todo
 Estudar;estudiar
@@ -3844,12 +3730,7 @@ Batida;batida
 Claro;claro
 Barra;barra
 Remover um;removedor um
-Itens de coleção;Artículos de colección
 Preencher;preencher
-Pautas de reivindicação;Pautas de reivindicação
-Armadura;Armadura
-Escavação;Escavação
-Pagar;pagar
 Olhe para dentro;Olhe para dentro
 Suba;suba
 Machado de loja;Machado de loja
@@ -3864,17 +3745,9 @@ Chupar;chupar
 Glider-to Lemanto Andra;Volar a Lemanto Andra
 Buy: 1 x Uncut diamond;Comprar: 1 x Uncut diamond
 Rastreamento;Rastreamento
-Características;Características
-Miscelânea;Miscelánea
 Enclave Ferox;Enclave Ferox
 Tome-5;Tomo-5
 Encher balde;encher balde
-Pegue-X;Pegue-X
-Subida rápida;Subida rapida
-Início individual;inicio individual
-Verifique munição;Verifique la munição
-Amarração;amarraçao
-Arpão;Arpao
 Desafio;Desafío
 Perder;Perder
 Juntar;Juntar
@@ -3883,9 +3756,7 @@ Sort-salvamento;orden-salvamento
 Corte;Corte
 Leve qualquer carga;Leve qualquer carga
 Levar carga;levantar carga
-Leve a última carga;Levanta la última carga
 Show key;Mostrar clave
-Instruções;Instrucciones
 Cooked or raw fish?;¿Pescado cocido o crudo?
 Check-Approval;Comprobar aprobación
 Passe de compra;pase de compra
@@ -3903,27 +3774,18 @@ Contagem do Canyon (oeste);Contagem do Cañón (oeste)
 Ore;Mineral
 Converter;Convertidor
 Quebrar;Quebrar
-Informações;Información
 Desbloquear;Desbloquear
-Atribuição;Atribuición
 Espremer;Espremer
 Saltar para cima;Saltar para arriba
 Pular sobre;Popular sobre
-Escolher;escolher
-Dispersão;dispersión
 Mergulho;Mergulho
 Mudar;mudar
-Gráfico;Gráfico
 Roubar de;Roubar de
-Porto Piscarilius;Puerto Piscarilio
-Fazer;fazer
 Buy: 2 x Xerician fabric;Comprar: 2 x Xerician fabric
 Release all placeholders (39);Liberar todos los marcadores de posición (39)
 Investigar;investigador
 Planador;planador
-Junte-se às Guerras do Castelo;Junte-se às Guerras do Castelo
 Withdraw-875;Retirar-875
-Estatísticas;Estadisticas
 Remexer;Remexer
 Deposit-875;Depositar-875
 Release all placeholders (30);Liberar todos los marcadores de posición (30)
@@ -3931,15 +3793,11 @@ Loja;loja
 Operar;Operar
 Redecorar;Redecorar
 Realocar;realocar
-Lutar em particular;Lutar en particular
 Invocar;Invocar
 Divino;divino
-Não;No
 Compra-1;Compra-1
 Compra-5;Compra-5
 Jarro de enchimento;Jarro de enchimento
-Vidência;Vidência
-Fuga rápida;fuga rapida
 Leite;leite
 Descarregar;Descarregar
 Machado;Machado
@@ -3950,15 +3808,12 @@ Taxa de cheque;Taxa de cheque
 Fogo;fuego
 Carregar X;Carregar X
 Espiar;Espiar
-Agitação;agitación
 Haste de uso;prisa de uso
 Nadar;Nadar
 Nade para;Nade para
-Bater;bateador
 Mergulhe;Merguhe
 Entrem;entrem
 Gazua;gazuá
-Remover carvão;removedor de carvao
 Change icon (coletas);Cambiar icono (coletas)
 Buy: 150 x Mithril arrowtips;Comprar: 150 x Mithril arrowtips
 Ressaca;Resaca
@@ -3966,7 +3821,6 @@ Passar;Pasar
 Pular;pular
 Buy: 1 x Gold bar;Comprar: 1 x Gold bar
 Localizar;localizar
-Verifique as etapas;Verifique como etapas
 Sentir;sentir
 Descida;Descida
 Reforma;Reforma
@@ -3975,18 +3829,13 @@ Pule para;Pule para
 Cisalhamento;Cisalhamento
 Watchtower;Watchtower
 Withdraw-855000;Retirar-855000
-Laço;Laço
 Esmagar;Esmagar
 Deposit-855000;Depositar-855000
 Buy: 70 x Dragon longsword;Comprar: 70 x Dragon longsword
 Default quantity: 855,000;Cantidad predeterminada: 855,000
-Reivindicações de registro de recompensas;Reivindicações de registro de recompensas
 Obter registro;Obtener registro
 Retirada;retirada
-Quadro Rápido;Cuadro Rápido
-Pule Através;Pule Através
 Plantar;Plantar
-Pegue o tesouro;Pegue o tesouro
 Atravessar;Atravesar
 Default quantity: 80,000;Cantidad predeterminada: 80,000
 Withdraw-80000;Retirar-80000
@@ -3996,61 +3845,31 @@ Escavar;Escávar
 Corte de cabelo;Corte de cabello
 Depilar;depilar
 Portagem(2-Ecto);Portagem(2-Ecto)
-Pagar (noroeste);Pagar (noroeste)
-Pagar (sudeste);Pagar (sudeste)
 Ir para;ir para
 Mover;Agente de mudanzas
 Comprar comida;comprar comida
-Comprar itens;comprar artículos
 Retirar-10000;Retirar-10000
-Tokens de reivindicação;Fichas de reivindicación
 Animar;animar
 Alternar-ressurgimento;Resurgimiento alternativo
 Empurrar;Empurrar
 Adicionar descobertas;Agregar descubrimientos
 Rachadura;Rachadura
-Coletar dados;Coletar dados
 Kick user;Expulsar usuario
 Chip;Chip
 Marca;marca
 Trancar;Trancar
-Peças de casco artesanal;Piezas de casco artesanal
-Comprar barco;comprar barco
-Barco personalizado;Barco personalizado
-Barco de recuperação;Barco de recuperación
 Arte;Arte
 Kits de reparo de artesanato;Fabricar kits de reparación
-Porto Sarim;Puerto Sarim
-Carta;carta
-Verifique as pontuações;Verifique como pontuações
-Livro de feitiços;Libro de feitiços
 Venerar;Venerar
 Cancelar tarefa;Cancelar tarefa
 Reivindicar recompensas;Reivindicar recompensas
 Relembrar;recordar
-Pegue a faca;Pegue a faca
-Caixa de pólvora;Caixa de Pólvora
 Observar;Observar
-Lutar;Lutar
 Comprar amuleto;comprar amuleto
-Corantes;Corantes
-Puxar;Puxar
-Prédio sem elevador;Predio sin elevador
-Compre tudo;compren todo
 Conversar;Conversar
-Cura;cura
-Ver estatísticas;Ver estadísticas
 Amigo do conselho;Subir al barco de un amigo
-Quadro anterior;cuadro anterior
-Grande pesquisa;grande pesquisa
-Capa de reivindicação;Capa de reivindicação
 Dificuldade de conjunto;Establecer dificultad
 Privado;privado
-Aberto para tudo;Aberto para todo
-Pagar (canteiro de árvore);Pagar (canteiro de árvore)
-Combustível;Combustível
-Picareta;picareta
-Último destino;último destino
 Deposit-255555;Depositar-255555
 Withdraw-255555;Retirar-255555
 Fill-in;Rellenar
@@ -4058,21 +3877,12 @@ Consult;Consultar
 Passo a passo;Pasar
 Saltar;saltar
 Reduzir;Talar
-Grande rede;gran red
-Armadilha;Armadilha
 Track-current;Seguir la corriente
 Efeitos visuais;Efectos visuales
-Coletar de;Coletar de
-Fazer um café;Fazer um café
-Verifique os totais;Verifique os totais
 Jaula;Jaula
-Salto;salto
-Equilíbrio;equilibrio
-Obstáculo;obstáculo
 Dig-below;cavar abajo
 Alternar K/D;Alternar K/D
 Descartar;Descartar
-Nenhum;nenhum
 Default quantity: 8;Cantidad predeterminada: 8
 Buy: 1 x Nardah teleport;Comprar: 1 x Nardah teleport
 Buy: 380 x Earth battlestaff;Comprar: 380 x Earth battlestaff
@@ -4096,8 +3906,6 @@ Playback;Reproducir
 Contact;Contactar
 Scan;Escanear
 Castori;Kastori
-Prьfen;Prüfen
-Fдllen;Fällen
 Add friend TheHedgeNite;Añadir amigo TheHedgeNite
 Add friend Yukon772;Añadir amigo Yukon772
 Add ignore X Huka;Ignorar a X Huka
@@ -4521,7 +4329,6 @@ Modificar;Modificar
 Navegar;Navegar
 Escapar;Escapar
 Retirar;retirarse
-Depósito-carga;deposito-carga
 Select <col=ff9040>Ectoplasmator</col>;Seleccionar <col=ff9040>Ectoplasmator</col>
 Select <col=ff9040>10 Tokens/Blighted entangle sack</col>;Seleccionar <col=ff9040>10 Tokens/Blighted entangle sack</col>
 Select <col=ff9040>Blighted entangle sack</col>;Seleccionar <col=ff9040>Blighted entangle sack</col>
@@ -4531,65 +4338,39 @@ Select <col=ff9040>30 Tokens/Spoils of war</col>;Seleccionar <col=ff9040>30 Toke
 Select <col=ff9040>Blighted ancient ice sack</col>;Seleccionar <col=ff9040>Blighted ancient ice sack</col>
 Select <col=ff9040>2500 Tokens/Soul cape</col>;Seleccionar <col=ff9040>2500 Tokens/Soul cape</col>
 Select <col=ff9040>Spoils of war</col>;Seleccionar <col=ff9040>Spoils of war</col>
-Código de resgate;Código de resgate
-Itens de férias;Artículos de férias
 Buy: 3 x Trout;Comprar: 3 x Trout
 Switch <col=ff8040>334</col>;Cambiar <col=ff8040>334</col>
-Torre de Vigia;Torre de Vigía
-Vez;Vez
 View journal <col=ff981f>Gertrude's Cat</col>;Ver diario <col=ff981f>Gertrude's Cat</col>
-Gatinho;gatinho
-Prancha de compra;Prancha de compra
 Release all placeholders (16);Liberar todos los marcadores de posición (16)
 AKR;AKR
 Switch <col=ff8040>370</col>;Cambiar <col=ff8040>370</col>
 Leave <col=ff8040>Fishing Trawler</col> channel;Abandonar el canal <col=ff8040>Fishing Trawler</col>
 Default quantity: 45;Cantidad predeterminada: 45
-Sacrifício;sacrificio
-O Pandemônio;O Pandemônio
-Pegue-barco;pegue-barco
-Ponto Musa;Ponto Musa
-Dê-Espada;Dê-Espada
-Campainha;Campaña
 Hackear;Hackear
 Casa de amigo;casa de amigos
-Munição;municipio
-Modo de construção;Modo de construcción
-Anel;anel
-Última visita;Última visita
-Sonhar;Sonhar
 Adicionar casa;Agregar casa
-Página inicial;Página inicial
 Check Totals;Comprobar totales
-Martelo;Martelo
 View Log;Ver registro
-Completo;Completo
 Clues Collections;Colecciones de pistas
 View Tasks Dashboard;Ver panel de tareas
 Visit;Visitar
 Climb-off;Bajar
 RuneProfile;RuneProfile
 Alimentar;Alimentar
-Ajuda;Ajuda
 Misturas Take-5;Tomar 5 brebajes
-Mistura para tomar;Mistura para tomar
 Take-10 misturas;Tomar 10 misturas
 Reset time;Restablecer tiempo
 Minerar;Minar
 Resumo do Personagem;Resumen del personaje
 Abrir Ajudante de Atividades;Abrir Ayudante de Atividades
 Lista de Quests;Lista de misiones
-Alterar Corrida;Alterar Corrida
 Magias;Magias
 Para o Norte;Mirar al norte
 Colosseum;Colosseum
 Duel Arena;Duel Arena
 Negociar;negociar
 Entrar;Entrar
-Rastelar;Rastelar
 Abrir Loja;Abrir tienda
-Vasculhar;Vasculhar
-Escolher Feitiço;Escolher Feitiço
 Equipamentos;Equipos
 Retirar-Tudo;Retirar-Tudo
 Depositar-Tudo;Depositar-Tudo
@@ -4597,59 +4378,25 @@ Depositar-X;Depositar-X
 Depositar-10;Depositar-10
 Depositar-5;Depositar-5
 Depositar-1;Depositar-1
-Gerenciar Conta;Gerenciar Conta
 Viajar;Viajar
-Itens Equipados;Artículos Equipados
-Músicas;Músicas
-Quantidade padrão: Todos;Cantidad de padrón: Todos
-Esconder Menu;Menú Esconder
-Quantidade padrão: 5;Cantidad de padrón: 5
-Quantidade padrão: 10;Cantidad de padrón: 10
 Mostrar Menu;Mostrar Menú
 Expandir;Expandir
 Mostrar tutorial;Mostrar tutorial
-Depositar Invetário;Depositar Invetário
 Ver tag;Ver etiqueta
-Esvaziar itens;artículos de esvaziar
-Esvaziar;Esvaziar
-Beber de;Beber de
-Charte para Porto Khazard;Carta para Porto Khazard
-Seu Clã;Seu Clã
 Grupo;grupo
-Veja outro Clã;Veja outro Clã
 Ofertar;ofertar
 Customizar;Personalizar
-Digite a Quantidade;Digite una cuantificada
-Quantidade padrão: 1;Cantidad de padrón: 1
-Voltar;Voltar
-Preço médio;Precio medio
-Ver itens mantidos na morte;Ver artículos mantidos na morte
-Depositar itens Equipados;Depositar artículos equipados
-Chamar Seguidor;Chamar Seguidor
-Pregar;Pregar
-Ver guia de preços;Ver guia de precios
-Histórico;histórico
 Saltar para baixo;Saltar para abajo
-Configurações de bloqueio de depósito;Configuraciones de bloque de depósito
-Bater na Porta;Bater na Porta
 Florescer;florescer
-Elenco Flor;Elenco Flor
-Aldeia dos Videntes;Aldeia dos Videntes
-Camelo;camello
-Esconder Itens Equipados;Esconder Itens Equipados
-Fechar Ajudante de Atividades;Fechar Ayudante de Atividades
 Colocar dentro;Colocar dentro
 Favorite;Marcar como favorito
 Show more;Mostrar más
-Arrombar;Arrobar
 Mudar de Nome;Mudar de nombre
 Retirar-1000;Retirar-1000
 Sell: 1 x Xerician hat;Vender: 1 x Xerician hat
 Orar;Orar
-Oferta;oferta
 Buy: 3 x Shattered cannon ornament kit;Comprar: 3 x Shattered cannon ornament kit
 Buy: 1 x Mystic hat (light);Comprar: 1 x Mystic hat (light)
-Change icon (runas);Cambiar icono (runas)
 Change icon (teleport);Cambiar icono (teletransporte)
 Change icon (seed);Cambiar icono (semilla)
 Mos Le'Harmless;Mos Le'Harmless
@@ -4662,12 +4409,9 @@ Toggle-warning;Alternar advertencia
 Task;Tarea
 Set Hotkey (Not set);Establecer tecla de acceso rápido (no configurada)
 Float;Flotar
-Tosquiar;Tosquiar
-Fornalha;Fornalha
 Buy: 1 x Eye of newt;Comprar: 1 x Eye of newt
 Buy: 1 x Raw herring;Comprar: 1 x Raw herring
 Change icon (rocks);Cambiar icono (rocas)
-Verifique elogios;Verifique elogios
 Default quantity: 150;Cantidad predeterminada: 150
 Use Suggested Settings;Usar la configuración sugerida
 Castle Drakan;Castle Drakan
@@ -4701,14 +4445,10 @@ Reivindicar;Reivindicar
 Take-Vial;Tomar Vial
 Take-Meat;Tomar Meat
 Enviar Mensagem;Enviar mensaje
-Modificar Oferta;Modificar oferta
-Classificação;Clasificación
 Espectador;Espectador
 Barbear;barbero
 Desenterrar;Desenterrar
 Rezar;Rezar
-Girar no sentido horário;Girar no sentido horario
-Girar no sentido anti-horário;Girar no sentido anti-horario
 Admirar;almirante
 Sentado;sentado
 Shoot-at;Disparar a
@@ -4719,7 +4459,6 @@ Metamorfose;metamorfose
 Trabalhar em;Trabalhar em
 Atualizar;actualizar
 Lithkren;Lithkren
-Remover decorações;Removedor de decoraciones
 -6%;-6%
 +6%;+6%
 Buy: 30 x Saradomin brew(4);Comprar: 30 x Saradomin brew(4)
@@ -4732,7 +4471,6 @@ Crystalise-potion;Cristalizar poción
 Buy: 2 x Onion;Comprar: 2 x Onion
 Sell: 1 x Bandos godsword;Vender: 1 x Bandos godsword
 Withdraw-2,000;Retirar-2,000
-Configuração;Configuración
 Procure por armadilhas;Comprar por armadilhas
 Extinguir;extinguir
 Buy: 100 x Bronze arrowtips;Comprar: 100 x Bronze arrowtips
@@ -4761,7 +4499,6 @@ Select <col=ff9040>Soul cape</col>;Seleccionar <col=ff9040>Soul cape</col>
 Select <col=ff9040>Blighted karambwan</col>;Seleccionar <col=ff9040>Blighted karambwan</col>
 Select <col=ff9040>Blighted manta ray</col>;Seleccionar <col=ff9040>Blighted manta ray</col>
 Deposit-9000000;Depositar-9000000
-Padrão;Padrón
 Wipe;Limpiar
 Seek;Buscar
 Sign up;Inscribirse
@@ -4895,9 +4632,6 @@ Pacote;pacote
 Ver Lista de Amigos;Ver Lista de Amigos
 Descompacte;Descompactar
 Ver Lista de Ignorados;Ver Lista de Ignorados
-Coletar-Item;Coletar-Item
-Coletar-Nota;Coletar-Nota
-Trocar capa de fogo;Trocar capa de niebla
 Release all placeholders (48);Liberar todos los marcadores de posición (48)
 Withdraw-24;Retirar-24
 Deposit-24;Depositar-24
@@ -4932,7 +4666,6 @@ Deposit-1300;Depositar-1300
 Teleport to <col=ff8040>TzHaar Fight Pit</col>;Teletransportarse a <col=ff8040>TzHaar Fight Pit</col>
 Join <col=ff8040>TzHaar Fight Pit</col> channel;Unirse al canal <col=ff8040>TzHaar Fight Pit</col>
 Switch <col=ff8040>362</col>;Cambiar <col=ff8040>362</col>
-Botﾃｭn;Botón
 Take-eggs;Tomar eggs
 Open-stomach;Abrir estómago
 Buy: 1 x Iron platelegs;Comprar: 1 x Iron platelegs
@@ -5137,7 +4870,6 @@ Withdraw-2147483647;Retirar-2147483647
 Travel to<col=ff9040> Tree Gnome Stronghold;Viajar a<col=ff9040> Tree Gnome Stronghold
 Travel to<col=ff9040> Chaos Druid Tower;Viajar a<col=ff9040> Chaos Druid Tower
 Make <col=ff9040>Sapphire bracelet</col>;Hacer <col=ff9040>Sapphire bracelet</col>
-Botín;Botín
 Withdraw-36000;Retirar-36000
 Deposit-36000;Depositar-36000
 Sell: 1 x Necklace of anguish;Vender: 1 x Necklace of anguish
@@ -5220,7 +4952,6 @@ Deposit-999;Depositar-999
 View <col=ff9040>Gauntlet Map</col>;Ver <col=ff9040>Gauntlet Map</col>
 Pedal;Pedalear
 Buy: 8 x Split log;Comprar: 8 x Split log
-Échanger avec;Cambiar con
 Withdraw-12500;Retirar-12500
 Deposit-12500;Depositar-12500
 Deposit-28;Depositar-28
@@ -5302,14 +5033,11 @@ Withdraw-680000;Retirar-680000
 Scorch;Quemar
 Flare;Destellar
 Ring-last-destination (BLP);Último destino del anillo (BLP)
-Zerstören;Zerstören
 Take-one;Tomar uno
 Default quantity: 15,000;Cantidad predeterminada: 15,000
 Withdraw-1899;Retirar-1899
 Deposit-1899;Depositar-1899
 Buy: 5,000 x Air rune;Comprar: 5,000 x Air rune
-ÐžÑ‚Ð¼ÐµÐ½Ð°;ÐžÑ‚Ð¼ÐµÐ½Ð°
-Ð˜Ð´Ð¸ Ñ�ÑŽÐ´Ð°;Ð˜Ð´Ð¸ Ñ�ÑŽÐ´Ð°
 Withdraw-45000;Retirar-45000
 Deposit-45000;Depositar-45000
 Default quantity: 45,000;Cantidad predeterminada: 45,000
