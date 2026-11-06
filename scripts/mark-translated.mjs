@@ -11,6 +11,7 @@ import { fileURLToPath } from "node:url";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const language = process.argv[2] ?? "spanish";
+const type = process.argv[3] ?? "interface";
 const pendingUrl = process.env.PENDING_URL;
 const token = process.env.PENDING_TOKEN;
 
@@ -19,7 +20,7 @@ if (!pendingUrl) {
 	process.exit(0);
 }
 
-const file = join(root, "src", "main", "resources", "translations", "interface", `${language}.txt`);
+const file = join(root, "src", "main", "resources", "translations", type, `${language}.txt`);
 if (!existsSync(file)) {
 	console.log(`no dictionary for ${language}, nothing to mark`);
 	process.exit(0);
@@ -31,7 +32,7 @@ const texts = readFileSync(file, "utf8")
 	.filter(line => line.includes(";") && !line.trimStart().startsWith("#"))
 	.map(line => line.slice(0, line.indexOf(";")))
 	.filter(key => key.length > 0 && !key.startsWith("re:"))
-	.map(key => ({ type: "interface", text: key }));
+	.map(key => ({ type, text: key }));
 
 let marked = 0;
 
