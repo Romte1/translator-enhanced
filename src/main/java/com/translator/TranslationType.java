@@ -11,31 +11,33 @@ package com.translator;
 public enum TranslationType
 {
 	/** Chatbox dialogues (NPC / player lines). */
-	DIALOGUE("dialogue", true),
+	DIALOGUE("dialogue", true, false),
 	/** NPC names, eg. {@code Goblin}. */
-	NPC("npc", true),
+	NPC("npc", true, false),
 	/** Item names, eg. {@code Abyssal whip}. */
-	ITEM("item", true),
+	ITEM("item", true, false),
 	/** Game object names, eg. {@code Tree}. */
-	OBJECT("object", true),
+	OBJECT("object", true, false),
 	/** Right click menu options, eg. {@code Talk-to}. */
-	MENU_OPTION("menu_entry_option", true),
+	MENU_OPTION("menu_entry_option", false, true),
 	/**
 	 * Interface texts (quest journals, achievement diaries, combat achievements...).
 	 *
-	 * <p>Not downloadable: these texts are curated by the project, because machine
-	 * translations of them are unreliable and they contain proper nouns (NPCs, places,
+	 * <p>Not downloadable from osrs-translations: these texts are curated by the project, because
+	 * machine translations of them are unreliable and they contain proper nouns (NPCs, places,
 	 * monsters) that must stay in english.</p>
 	 */
-	INTERFACE("interface", false);
+	INTERFACE("interface", false, true);
 
 	private final String fileName;
 	private final boolean downloadable;
+	private final boolean bundled;
 
-	TranslationType(String fileName, boolean downloadable)
+	TranslationType(String fileName, boolean downloadable, boolean bundled)
 	{
 		this.fileName = fileName;
 		this.downloadable = downloadable;
+		this.bundled = bundled;
 	}
 
 	/**
@@ -52,5 +54,13 @@ public enum TranslationType
 	public boolean isDownloadable()
 	{
 		return downloadable;
+	}
+
+	/**
+	 * @return whether this dictionary has a reviewed copy bundled with the plugin
+	 */
+	public boolean isBundled()
+	{
+		return bundled;
 	}
 }

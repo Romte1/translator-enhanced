@@ -10,8 +10,10 @@ import { fileURLToPath } from "node:url";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const language = process.argv[2] ?? "spanish";
-const dictionaryFile = join(root, "src", "main", "resources", "translations", "interface", `${language}.txt`);
-const translatedFile = join(root, "build", `translated-${language}.txt`);
+const type = process.argv[3] ?? "interface";
+const dictionaryFile = join(root, "src", "main", "resources", "translations", type, `${language}.txt`);
+const translatedFile = join(root, "build",
+	type === "interface" ? `translated-${language}.txt` : `translated-${type}-${language}.txt`);
 
 if (!existsSync(translatedFile)) {
 	console.log("nothing to merge");

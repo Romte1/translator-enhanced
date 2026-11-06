@@ -137,6 +137,19 @@ public interface TranslatorConfig extends Config
 		return false;
 	}
 
+	@ConfigItem(
+		keyName = "useOnlineMenuTranslations",
+		name = "Download menu translations",
+		description = "Keep the menu dictionary updated without a plugin update.<br>" +
+			"Turn it off while editing the bundled file locally.",
+		position = 5,
+		section = MENUS_SECTION
+	)
+	default boolean useOnlineMenuTranslations()
+	{
+		return true;
+	}
+
 	@ConfigSection(position = 3, name = "Text", description = "Dialogues and messages")
 	String text = TEXT_SECTION;
 

@@ -23,7 +23,14 @@ import { fileURLToPath } from "node:url";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const language = process.argv[2] ?? "spanish";
+const type = process.argv[3] ?? "interface";
 const dryRun = process.argv.includes("--dry-run");
+
+const TYPES = new Set(["interface", "menu_entry_option"]);
+if (!TYPES.has(type)) {
+	console.error(`unknown dictionary type: ${type}`);
+	process.exit(1);
+}
 
 loadEnvFile(join(root, ".env"));
 
@@ -39,9 +46,11 @@ if (!apiKey && !dryRun) {
 	process.exit(1);
 }
 
-const pendingFile = join(root, "build", `pending-${language}.txt`);
-const dictionaryFile = join(root, "src", "main", "resources", "translations", "interface", `${language}.txt`);
-const outputFile = join(root, "build", `translated-${language}.txt`);
+const pendingFile = join(root, "build",
+	type === "interface" ? `pending-${language}.txt` : `pending-${type}-${language}.txt`);
+const dictionaryFile = join(root, "src", "main", "resources", "translations", type, `${language}.txt`);
+const outputFile = join(root, "build",
+	type === "interface" ? `translated-${language}.txt` : `translated-${type}-${language}.txt`);
 
 /**
  * Names and requirement-only widgets are never translated, so they are not sent.
@@ -57,9 +66,11 @@ if (!existsSync(inputFile) && !process.env.PENDING_URL) {
 	process.exit(1);
 }
 
-const rules = readFileSync(join(root, "docs", "translation-rules.md"), "utf8");
-const examples = pickExamples(language, 8);
-const systemPrompt = buildSystemPrompt(language, rules, examples);
+const rules = readFileSync(
+	join(root, "docs", type === "menu_entry_option" ? "menu-entry-rules.md" : "translation-rules.md"),
+	"utf8");
+const examples = type === "interface" ? pickExamples(language, 8) : [];
+const systemPrompt = buildSystemPrompt(language, rules, examples, type === "menu_entry_option");
 const known = new Set(
 	readLines(dictionaryFile)
 		.filter(line => line.includes(";"))
@@ -73,23 +84,23 @@ const knownValues = new Set(
 
 const otherLanguageValues = language === "spanish"
 	? new Set()
-	: readValues("spanish");
+	: readValues(type, "spanish");
 
-const sourceValues = readValues("spanish");
+const sourceValues = readValues(type, "spanish");
 const SPANISH_LABEL = /^(Monstruo|Tipo|Rango|Completado|Puntos totales|Descripción|Dificultad|Requisitos|Recomendaciones|Tareas|Filtros|Nivel de)\s*:/i;
 
 const localTexts = existsSync(inputFile)
 	? readLines(inputFile).map(line => line.slice(0, line.lastIndexOf(";")))
 	: [];
 const remoteTexts = process.env.PENDING_URL
-	? await fetchPending(process.env.PENDING_URL, process.env.PENDING_TOKEN, language)
+	? await fetchPending(process.env.PENDING_URL, process.env.PENDING_TOKEN, language, type)
 	: null;
 
 if (remoteTexts !== null) {
-	console.log(`collection server (${language}): ${remoteTexts.length} texts`);
+	console.log(`collection server (${language}/${type}): ${remoteTexts.length} texts`);
 }
 
-const seedTexts = process.env.SEED_FROM ? readSeed(process.env.SEED_FROM) : [];
+const seedTexts = type === "interface" && process.env.SEED_FROM ? readSeed(process.env.SEED_FROM) : [];
 if (seedTexts.length > 0) {
 	console.log(`seed: ${seedTexts.length} keys from ${process.env.SEED_FROM}`);
 }
@@ -101,7 +112,7 @@ const pending = [...new Set([...texts, ...seedTexts])]
 	.filter(key => !IGNORED_PREFIXES.some(prefix => key.startsWith(prefix)))
 	.filter(key => !SPANISH_LABEL.test(key))
 	.filter(key => !(normalize(key).length > 12 && sourceValues.has(normalize(key))))
-	.filter(looksLikeText)
+	.filter(type === "interface" ? looksLikeText : looksLikeMenuOption)
 	.slice(0, limit > 0 ? limit : undefined);
 
 if (pending.length === 0) {
@@ -173,8 +184,8 @@ for (let i = 0; i < todo.length; i += batchSize) {
 
 console.log(`wrote ${written} translations to ${outputFile} (${usedTokens} tokens)`);
 
-async function fetchPending(url, token, language) {
-	const response = await fetch(`${url}?limit=2000&type=interface&language=${encodeURIComponent(language)}`, {
+async function fetchPending(url, token, language, type) {
+	const response = await fetch(`${url}?limit=2000&type=${encodeURIComponent(type)}&language=${encodeURIComponent(language)}`, {
 		headers: token ? { Authorization: `Bearer ${token}` } : {},
 	});
 
@@ -195,8 +206,8 @@ function readSeed(language) {
 		.filter(key => key.length > 0 && !key.startsWith("re:"));
 }
 
-function readValues(language) {
-	const file = join(root, "src", "main", "resources", "translations", "interface", `${language}.txt`);
+function readValues(type, language) {
+	const file = join(root, "src", "main", "resources", "translations", type, `${language}.txt`);
 
 	return new Set(
 		readLines(file)
@@ -318,21 +329,34 @@ function looksLikeText(key) {
 		.some(word => word.length > 0 && word === word.toLowerCase() && /\p{L}/u.test(word));
 }
 
-function buildSystemPrompt(language, rules, examples) {
+function looksLikeMenuOption(key) {
+	return /[A-Za-z]/.test(key) && key.length <= 200;
+}
+
+function buildSystemPrompt(language, rules, examples, menu) {
 	const exampleBlock = examples.length === 0
 		? ""
 		: "\n\n## Reviewed examples: English => " + language +
 			"\n\nFollow this style exactly: names and items stay in English, tags are copied verbatim.\n\n" +
 			examples.map(([source, target]) => `${source}\n=> ${target}`).join("\n\n");
 
-	return "You translate Old School RuneScape interface texts from English to " +
-		`${language}.\n\n${rules}${exampleBlock}\n\n` +
+	const keep = menu
+		? "Translate every action as a Spanish infinitive; only leave item, NPC, place, skill and spell names unchanged."
+		: "Translate every input: only return it unchanged when it is a proper name.";
+
+	const ending = menu
+		? "Do not leave an action in English."
+		: "If a text is only a name, reply with the text unchanged.";
+
+	return "You translate Old School RuneScape " +
+		(menu ? "right-click menu options" : "interface texts") +
+		` from English to ${language}.\n\n${rules}${exampleBlock}\n\n` +
 		"Each input line starts with its index and a pipe: `index|english text`. " +
 		"Reply with one line per input, keeping the same index and pipe: `index|translation`. " +
 		"Output every index exactly once, even when two inputs are identical. " +
-		"Translate every input: only return it unchanged when it is a proper name. " +
+		keep + " " +
 		"Do not repeat the original text, do not add explanations, do not use code fences. " +
-		"If a text is only a name, reply with the text unchanged.";
+		ending;
 }
 
 function pickExamples(language, count) {

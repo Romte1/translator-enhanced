@@ -31,9 +31,9 @@ class TranslatorAPI
 
 	private static final String TRANSLATIONS_URL =
 		"https://raw.githubusercontent.com/iolave/osrs-translations/refs/heads/master/%s/%s.txt";
-	private static final String INTERFACE_URL =
+	private static final String CURATED_URL =
 		"https://raw.githubusercontent.com/Romte1/translator-enhanced/refs/heads/master/"
-			+ "src/main/resources/translations/interface/%s.txt";
+			+ "src/main/resources/translations/%s/%s.txt";
 	private static final String DATA_COLLECTION_URL =
 		"https://translator-enhanced-collection.ivan-ni224.workers.dev/api/v1/data-collection";
 	private static final MediaType JSON = MediaType.parse("application/json; charset=utf-8");
@@ -47,9 +47,9 @@ class TranslatorAPI
 
 	Map<String, String> download(TranslationType type, TranslatorConfig.Language lang) throws IOException
 	{
-		if (type == TranslationType.INTERFACE)
+		if (type.isBundled())
 		{
-			return downloadFrom(String.format(INTERFACE_URL, lang));
+			return downloadFrom(String.format(CURATED_URL, type.fileName(), lang));
 		}
 
 		return downloadFrom(String.format(TRANSLATIONS_URL, lang, type.fileName()));

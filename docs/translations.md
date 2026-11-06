@@ -66,9 +66,9 @@ Deployment (Railway/Fly/VPS) is in [server/README.md](../server/README.md).
 
 ## 3. Translation: machine first pass + human approval
 
-`docs/translation-rules.md` holds the rules and the glossary. The worker
-(`scripts/translate-worker.mjs`) sends the rules plus eight reviewed examples from the
-dictionary, and validates every answer:
+`docs/translation-rules.md` holds the rules and the glossary. Menu options use
+`docs/menu-entry-rules.md`. The worker (`scripts/translate-worker.mjs`) sends the rules plus
+eight reviewed examples from the dictionary, and validates every answer:
 
 1. keep proper nouns (NPCs, bosses, items, places, quest names) in english;
 2. keep skill names in english (`Ranged`, `Cooking`...);
@@ -93,7 +93,14 @@ screen: with `LIMIT`, each run fills a slice and the rest stays for the next one
 
 ```bash
 PENDING_URL=https://<server>/api/v1/pending \
-PENDING_TOKEN=... LLM_API_KEY=... node scripts/translate-worker.mjs french
+PENDING_TOKEN=... LLM_API_KEY=... node scripts/translate-worker.mjs french interface
+```
+
+Menu options use the same worker with the type as the third argument:
+
+```bash
+PENDING_URL=https://<server>/api/v1/pending \
+PENDING_TOKEN=... LLM_API_KEY=... node scripts/translate-worker.mjs french menu_entry_option
 ```
 
 The GitHub Action runs the same flow once per language (matrix, one job at a time) and opens
@@ -121,12 +128,12 @@ bundled ──► online dictionary ──► user overrides ──► aliases
 The address is a constant in `TranslatorAPI`, maintained by the project, not a user setting.
 It points at the repository every client shares, not at a personal machine:
 
-* the canonical home for this data is a public translations repository
-  (`iolave/osrs-translations` already hosts the menu and dialogue files), or
-* a dedicated repository owned by the project, with every build pointed at it.
+* `interface/` and `menu_entry_option/` are curated here and downloaded from this repository;
+* `dialogue`, `npc`, `item` and `object` still come from `iolave/osrs-translations` until
+  they are migrated too.
 
-Until that exists, the default points at the development fork. A downloaded file with fewer
-entries than the bundled one is ignored, so a stale branch can never regress the plugin.
+A downloaded file with fewer entries than the bundled one is ignored, so a stale branch can
+never regress the plugin.
 
 ## 6. Local workflow (no server)
 
@@ -136,6 +143,9 @@ entries than the bundled one is ignored, so a stale branch can never regress the
 node scripts/translate-worker.mjs spanish
 # 2. review build/translated-spanish.txt, then
 node scripts/merge-translations.mjs spanish
+# menu options
+node scripts/translate-worker.mjs spanish menu_entry_option
+node scripts/merge-translations.mjs spanish menu_entry_option
 ./gradlew build
 ```
 

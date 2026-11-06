@@ -26,11 +26,11 @@ Wear;Equipar
 Remove;Quitar
 Check;Comprobar
 Rub;Frotar
-Play;Jugar
+Play;Tocar
 Value;Valor
 Follow;Seguir
 Trade with;Comerciar con
-Report;Reportar
+Report;Denunciar
 Lookup;Buscar
 Hunt;Cazar
 Steal-from;Robar

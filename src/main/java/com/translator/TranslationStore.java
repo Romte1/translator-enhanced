@@ -45,6 +45,7 @@ class TranslationStore
 
 	private static final String BUNDLED_OVERRIDES = "/translations/overrides/%s.txt";
 	private static final String BUNDLED_INTERFACE = "/translations/interface/%s.txt";
+	private static final String BUNDLED_MENU_OPTION = "/translations/menu_entry_option/%s.txt";
 	private static final String PATTERN_PREFIX = "re:";
 
 	/**
@@ -150,24 +151,27 @@ class TranslationStore
 
 		Map<String, String> merged;
 		int downloaded;
-		if (type.isDownloadable())
-		{
-			merged = new HashMap<>(api.download(type, language));
-			downloaded = merged.size();
-		}
-		else
+		if (type.isBundled())
 		{
 			merged = new HashMap<>();
 			readOverrides(
 				merged,
-				TranslationStore.class.getResourceAsStream(String.format(BUNDLED_INTERFACE, language)),
-				"bundled interface " + language);
+				TranslationStore.class.getResourceAsStream(String.format(
+					type == TranslationType.INTERFACE ? BUNDLED_INTERFACE : BUNDLED_MENU_OPTION, language)),
+				"bundled " + type.fileName() + " " + language);
 			downloaded = merged.size();
 
-			if (config.useOnlineInterfaceTranslations())
+			if (type == TranslationType.MENU_OPTION
+				? config.useOnlineMenuTranslations()
+				: config.useOnlineInterfaceTranslations())
 			{
-				applyOnlineInterface(merged, language);
+				applyOnline(type, merged, language);
 			}
+		}
+		else
+		{
+			merged = new HashMap<>(api.download(type, language));
+			downloaded = merged.size();
 		}
 
 		int overrides = applyOverrides(merged, language);
@@ -322,28 +326,29 @@ class TranslationStore
 		}
 	}
 
-	private void applyOnlineInterface(Map<String, String> dictionary, TranslatorConfig.Language language)
+	private void applyOnline(TranslationType type, Map<String, String> dictionary,
+		TranslatorConfig.Language language)
 	{
-		Filepath cache = directory == null ? null : directory.join("interface").join(language + ".txt");
+		Filepath cache = directory == null ? null : directory.join(type.fileName()).join(language + ".txt");
 
 		try
 		{
-			Map<String, String> online = api.download(TranslationType.INTERFACE, language);
+			Map<String, String> online = api.download(type, language);
 
 			if (online.size() < dictionary.size())
 			{
-				log.debug("ignoring {} online interface translations: fewer entries than the bundled ones",
-					online.size());
+				log.debug("ignoring {} online {} translations: fewer entries than the bundled ones",
+					online.size(), type.fileName());
 				return;
 			}
 
 			dictionary.putAll(online);
 			writeCache(cache, online);
-			log.debug("applied {} online interface translations", online.size());
+			log.debug("applied {} online {} translations", online.size(), type.fileName());
 		}
 		catch (IOException e)
 		{
-			log.debug("failed to download interface translations, using the cached copy", e);
+			log.debug("failed to download {} translations, using the cached copy", type.fileName(), e);
 
 			if (cache != null && cache.isFile())
 			{
