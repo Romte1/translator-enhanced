@@ -39,6 +39,8 @@ tasks.register('run', JavaExec) {
 	description = 'Run a development RuneLite client with the plugin loaded'
 	classpath = sourceSets.test.runtimeClasspath
 	mainClass = 'com.translator.translator'
+	// The Jagex account panel is only available in developer mode.
+	args '--developer-mode', '--debug'
 	// RuneLite refuses to load builtin plugins without assertions enabled
 	jvmArgs '-ea'
 }
