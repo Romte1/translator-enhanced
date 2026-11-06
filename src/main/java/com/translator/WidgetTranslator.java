@@ -446,6 +446,8 @@ class WidgetTranslator
 		int y = 0;
 		boolean previousEmbedded = false;
 		Set<String> tiers = tierLabels();
+		int lastTextOriginalY = 0;
+		int lastTextNewY = 0;
 
 		for (Widget child : children)
 		{
@@ -453,12 +455,26 @@ class WidgetTranslator
 			boolean empty = text == null || text.trim().isEmpty();
 			boolean requirement = text != null && text.contains(ANNOTATION_PREFIX);
 
+			log.debug("diary child id={} type={} empty={} oy={} oh={} text=[{}]",
+				child.getId(), child.getType(), empty, child.getOriginalY(),
+				child.getOriginalHeight(), text == null ? "" : text.trim());
+
 			if (previousEmbedded && requirement)
 			{
 				child.setOriginalHeight(0);
 				child.setOriginalY(y);
 				child.revalidate();
 				previousEmbedded = false;
+				continue;
+			}
+
+			if (empty && child.getType() == WidgetType.LINE)
+			{
+				// The client draws the completed-task strike-through with a line widget.
+				// Keep it, and move it by the same offset as the text it belongs to.
+				int offset = child.getOriginalY() - lastTextOriginalY;
+				child.setOriginalY(Math.max(0, lastTextNewY + offset));
+				child.revalidate();
 				continue;
 			}
 
@@ -488,6 +504,8 @@ class WidgetTranslator
 			y += paddingTop;
 
 			int height = lines * LINE_HEIGHT;
+			lastTextOriginalY = child.getOriginalY();
+			lastTextNewY = y;
 			child.setOriginalHeight(height);
 			child.setOriginalY(y);
 			child.revalidate();
