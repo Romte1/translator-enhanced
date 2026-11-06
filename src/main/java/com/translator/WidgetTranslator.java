@@ -19,15 +19,22 @@ import java.util.HashSet;
 import java.util.IdentityHashMap;
 import java.util.List;
 import java.util.Set;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 class WidgetTranslator
 {
 	private static final Logger log = LoggerFactory.getLogger(WidgetTranslator.class);
 
 	private static final int LINE_HEIGHT = 20;
-	private static final int DIARY_MAX_LINE_LENGTH = 60;
 	private static final int MAX_WIDGET_DEPTH = 12;
 	private static final int QUEST_INTERFACE_POLL_TICKS = 1;
+	private static final int JOURNAL_SCROLL_GROUP = InterfaceID.Journalscroll.UNIVERSE >>> 16;
+	private static final Pattern LEADING_TAGS = Pattern.compile("^(?:<[^>]+>)+");
+	private static final Pattern TRAILING_TAGS = Pattern.compile("(?:<[^>]+>)+$");
+	private static final Pattern COLOUR_TAG = Pattern.compile("<col=[^>]+>");
+
+	private int lastLayoutHeight = -1;
 
 	private static final int[] QUEST_INTERFACES =
 	{
@@ -80,6 +87,11 @@ class WidgetTranslator
 		if (isJournalScript(scriptId))
 		{
 			translateQuestInterfaces();
+
+			if (scriptId == ScriptID.DIARY_UPDATE_LINECOUNT)
+			{
+				refreshJournalLayout();
+			}
 		}
 
 		translateCaTasksThrottled();
@@ -271,16 +283,178 @@ class WidgetTranslator
 			translated = translated + source.substring(originalAnnotation);
 		}
 
+		translated = preserveStrike(widget.getText(), source, translated);
+
 		int annotation = translated.indexOf(ANNOTATION_PREFIX);
-		if (annotation > 0 && WidgetReflow.visibleLength(translated) > DIARY_MAX_LINE_LENGTH)
+		int budget = diaryBudget(widget, null);
+		if (annotation > 0 && WidgetReflow.visibleLength(translated) > budget)
 		{
 			String requirement = translated.substring(annotation);
-			List<String> lines = WidgetReflow.wrap(requirement, DIARY_MAX_LINE_LENGTH);
+			List<String> lines = WidgetReflow.wrap(requirement, budget);
 			translated = translated.substring(0, annotation) + "<br>" + String.join("<br>", lines);
 		}
 
+		boolean struck = isStruck(widget.getText());
 		widget.setText(translated);
-		relayout(widget);
+		relayout(widget, struck);
+	}
+
+	static boolean isStruck(String text)
+	{
+		if (text == null)
+		{
+			return false;
+		}
+
+		int open = text.indexOf("<str>");
+		return open >= 0 && WidgetReflow.visibleLength(text.substring(0, open)) == 0;
+	}
+
+	static String preserveStrike(String current, String source, String translated)
+	{
+		if (translated == null)
+		{
+			return null;
+		}
+
+		String original = current != null && !current.isEmpty() ? current : source;
+		if (original == null || !original.contains("<str>"))
+		{
+			return translated;
+		}
+
+		int open = original.indexOf("<str>");
+		boolean struck = open >= 0
+			&& WidgetReflow.visibleLength(original.substring(0, open)) == 0;
+
+		if (!struck)
+		{
+			return translated;
+		}
+
+		int annotation = translated.indexOf(ANNOTATION_PREFIX);
+		String translatedMain = annotation > 0 ? translated.substring(0, annotation) : translated;
+		if (translatedMain.contains("<str>"))
+		{
+			return translated;
+		}
+
+		String result;
+		if (annotation > 0)
+		{
+			result = wrapStrike(translatedMain) + strikeAllColours(translated.substring(annotation));
+		}
+		else
+		{
+			result = wrapStrike(translated);
+		}
+
+		return result;
+	}
+
+	// The client resets <str> at line breaks and colour changes.
+	static String strikeLines(String text)
+	{
+		StringBuilder result = new StringBuilder();
+		String[] lines = text.split("<br>", -1);
+		String colour = "";
+
+		for (int i = 0; i < lines.length; i++)
+		{
+			if (i > 0)
+			{
+				result.append("<br>");
+			}
+
+			String line = lines[i].replace("<str>", "").replace("</str>", "");
+			if (!line.startsWith("<col=") && !colour.isEmpty())
+			{
+				line = colour + line;
+			}
+
+			Matcher matcher = COLOUR_TAG.matcher(line);
+			if (matcher.find())
+			{
+				colour = matcher.group();
+			}
+
+			if (WidgetReflow.visibleText(line).isEmpty())
+			{
+				result.append(line);
+			}
+			else if (line.contains("<col="))
+			{
+				result.append(strikeAllColours(line));
+			}
+			else
+			{
+				result.append(wrapStrike(line));
+			}
+		}
+
+		return result.toString();
+	}
+
+	private static String wrapStrike(String text)
+	{
+		Matcher leading = LEADING_TAGS.matcher(text);
+		String prefix = leading.find() ? leading.group() : "";
+		String rest = text.substring(prefix.length());
+
+		Matcher trailing = TRAILING_TAGS.matcher(rest);
+		String suffix = trailing.find() ? trailing.group() : "";
+		String middle = rest.substring(0, rest.length() - suffix.length());
+
+		return prefix + "<str>" + middle + "</str>" + suffix;
+	}
+
+	static String strikeAllColours(String text)
+	{
+		String plain = text.replace("<str>", "").replace("</str>", "");
+		Matcher first = COLOUR_TAG.matcher(plain);
+		if (!first.find())
+		{
+			return wrapStrike(plain);
+		}
+
+		StringBuilder result = new StringBuilder();
+		int firstStart = first.start();
+		String leading = plain.substring(0, firstStart);
+		if (WidgetReflow.visibleText(leading).isEmpty())
+		{
+			result.append(leading);
+		}
+		else
+		{
+			result.append("<str>").append(leading).append("</str>");
+		}
+
+		Matcher colours = COLOUR_TAG.matcher(plain);
+		int last = firstStart;
+
+		while (colours.find())
+		{
+			result.append(plain, last, colours.end());
+			int start = colours.end();
+			Matcher next = COLOUR_TAG.matcher(plain);
+			next.region(start, plain.length());
+			int end = next.find() ? next.start() : plain.length();
+			String segment = plain.substring(start, end);
+
+			if (WidgetReflow.visibleText(segment).isEmpty())
+			{
+				result.append(segment);
+			}
+			else
+			{
+				result.append("<str>").append(segment).append("</str>");
+			}
+
+			last = end;
+		}
+
+		result.append(plain.substring(last));
+		return result.toString();
 	}
 
 	private void translateDialogue()
@@ -417,7 +591,7 @@ class WidgetTranslator
 		return className.startsWith("com.questhelper.");
 	}
 
-	private void relayout(Widget widget)
+	private void relayout(Widget widget, boolean struck)
 	{
 		Widget parent = findParent(client.getWidget(InterfaceID.Journalscroll.UNIVERSE), widget, 0);
 
@@ -431,6 +605,28 @@ class WidgetTranslator
 			return;
 		}
 
+		relayout(parent, widget.getId(), struck);
+	}
+
+	// The built-in Diary Requirements plugin resets the scroll height after our layout.
+	private void refreshJournalLayout()
+	{
+		Widget parent = client.getWidget(InterfaceID.Journalscroll.TEXTLAYER);
+
+		if (parent == null || lastLayoutHeight <= 0)
+		{
+			return;
+		}
+
+		int expectedHeight = Math.max(parent.getHeight(), lastLayoutHeight + LINE_HEIGHT);
+		if (parent.getScrollHeight() != expectedHeight)
+		{
+			relayout(parent, -1, false);
+		}
+	}
+
+	private void relayout(Widget parent, int targetId, boolean struck)
+	{
 		List<Widget> children = new ArrayList<>();
 		Set<Widget> seen = Collections.newSetFromMap(new IdentityHashMap<Widget, Boolean>());
 		collectChildren(children, seen, parent.getChildren());
@@ -446,8 +642,6 @@ class WidgetTranslator
 		int y = 0;
 		boolean previousEmbedded = false;
 		Set<String> tiers = tierLabels();
-		int lastTextOriginalY = 0;
-		int lastTextNewY = 0;
 
 		for (Widget child : children)
 		{
@@ -455,26 +649,12 @@ class WidgetTranslator
 			boolean empty = text == null || text.trim().isEmpty();
 			boolean requirement = text != null && text.contains(ANNOTATION_PREFIX);
 
-			log.debug("diary child id={} type={} empty={} oy={} oh={} text=[{}]",
-				child.getId(), child.getType(), empty, child.getOriginalY(),
-				child.getOriginalHeight(), text == null ? "" : text.trim());
-
 			if (previousEmbedded && requirement)
 			{
 				child.setOriginalHeight(0);
 				child.setOriginalY(y);
 				child.revalidate();
 				previousEmbedded = false;
-				continue;
-			}
-
-			if (empty && child.getType() == WidgetType.LINE)
-			{
-				// The client draws the completed-task strike-through with a line widget.
-				// Keep it, and move it by the same offset as the text it belongs to.
-				int offset = child.getOriginalY() - lastTextOriginalY;
-				child.setOriginalY(Math.max(0, lastTextNewY + offset));
-				child.revalidate();
 				continue;
 			}
 
@@ -486,14 +666,24 @@ class WidgetTranslator
 				continue;
 			}
 
-			if (!text.contains("<br>"))
+			int budget = diaryBudget(child, parent);
+			List<String> wrapped = new ArrayList<>();
+			for (String segment : text.split("<br>", -1))
 			{
-				int annotation = text.indexOf(ANNOTATION_PREFIX);
-				if (annotation > 0 && WidgetReflow.visibleLength(text) > DIARY_MAX_LINE_LENGTH)
-				{
-					text = text.substring(0, annotation) + "<br>" + text.substring(annotation);
-					child.setText(text);
-				}
+				wrapped.addAll(WidgetReflow.wrap(segment, budget));
+			}
+
+			String joined = String.join("<br>", wrapped);
+			if (!joined.equals(text))
+			{
+				text = joined;
+				child.setText(text);
+			}
+
+			if (struck && child.getId() == targetId)
+			{
+				text = strikeLines(text);
+				child.setText(text);
 			}
 
 			int lines = countLines(text);
@@ -504,8 +694,6 @@ class WidgetTranslator
 			y += paddingTop;
 
 			int height = lines * LINE_HEIGHT;
-			lastTextOriginalY = child.getOriginalY();
-			lastTextNewY = y;
 			child.setOriginalHeight(height);
 			child.setOriginalY(y);
 			child.revalidate();
@@ -514,16 +702,34 @@ class WidgetTranslator
 			previousEmbedded = requirement;
 		}
 
-		parent.setScrollHeight(Math.max(parent.getHeight(), y));
+		int contentHeight = Math.max(parent.getHeight(), y + LINE_HEIGHT);
+		parent.setScrollHeight(contentHeight);
 		parent.revalidate();
 		parent.revalidateScroll();
+		updateScrollbar(parent);
+		lastLayoutHeight = y;
+	}
 
-		Widget scrollbar = client.getWidget(InterfaceID.AreaTask.SCROLLBAR);
-		log.debug("relayout parent={} children={} total={} scroll={} scrollbar={}x{} scroll={}",
-			parent.getId(), children.size(), y, parent.getScrollHeight(),
-			scrollbar == null ? -1 : scrollbar.getWidth(),
-			scrollbar == null ? -1 : scrollbar.getHeight(),
-			scrollbar == null ? -1 : scrollbar.getScrollHeight());
+	private void updateScrollbar(Widget list)
+	{
+		if (list == null || (list.getId() >>> 16) != JOURNAL_SCROLL_GROUP)
+		{
+			return;
+		}
+
+		Widget scrollbar = client.getWidget(InterfaceID.Journalscroll.SCROLLBAR);
+		// Child 1 is the scrollbar handle created by the client.
+		Widget handle = scrollbar == null ? null : scrollbar.getChild(1);
+
+		if (handle == null)
+		{
+			return;
+		}
+
+		int scrollHeight = Math.max(1, list.getScrollHeight());
+		int handleHeight = Math.max(10, (scrollbar.getHeight() - 32) * list.getHeight() / scrollHeight);
+		handle.setOriginalHeight(handleHeight);
+		handle.revalidate();
 	}
 
 	private Set<String> tierLabels()
@@ -561,6 +767,12 @@ class WidgetTranslator
 		}
 
 		return lines;
+	}
+
+	private static int diaryBudget(Widget widget, Widget parent)
+	{
+		int width = widget.getWidth() > 0 ? widget.getWidth() : parent == null ? 0 : parent.getWidth();
+		return width > 0 ? Math.max(30, Math.min(53, width / 8)) : 53;
 	}
 
 	private static void collectChildren(List<Widget> target, Set<Widget> seen, Widget[] array)

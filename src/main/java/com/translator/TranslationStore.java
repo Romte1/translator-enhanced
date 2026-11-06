@@ -83,8 +83,9 @@ class TranslationStore
 	 */
 	private final Map<TranslationType, Map<String, String>> signatures = new ConcurrentHashMap<>();
 
-	/** Bare task text mapped to the translation that includes its requirements. */
 	private final Map<TranslationType, Map<String, String>> annotated = new ConcurrentHashMap<>();
+
+	private final Map<TranslationType, Map<String, String>> annotatedSignatures = new ConcurrentHashMap<>();
 
 	/**
 	 * Language the loaded dictionaries belong to. Bumped on every language change so a slow
@@ -114,6 +115,7 @@ class TranslationStore
 		reverse.clear();
 		signatures.clear();
 		annotated.clear();
+		annotatedSignatures.clear();
 	}
 
 	void setDirectory(Filepath directory)
@@ -137,6 +139,7 @@ class TranslationStore
 		reverse.clear();
 		signatures.clear();
 		annotated.clear();
+		annotatedSignatures.clear();
 	}
 
 	/**
@@ -192,6 +195,7 @@ class TranslationStore
 		reverse.put(type, buildReverse(merged));
 		signatures.put(type, buildSignatures(merged));
 		annotated.put(type, buildAnnotated(merged));
+		annotatedSignatures.put(type, buildAnnotatedSignatures(merged));
 		log.info("loaded {} translations for {}/{} ({} corrections applied, {} patterns)",
 			downloaded, language, type.fileName(), overrides, compiled.size());
 	}
@@ -535,7 +539,14 @@ class TranslationStore
 		}
 
 		Map<String, String> map = annotated.get(type);
-		return map == null ? null : map.get(text);
+		String value = map == null ? null : map.get(text);
+		if (value != null)
+		{
+			return value;
+		}
+
+		Map<String, String> bySignature = annotatedSignatures.get(type);
+		return bySignature == null ? null : bySignature.get(signature(text));
 	}
 
 	/**
@@ -613,6 +624,24 @@ class TranslationStore
 			if (annotation > 0 && entry.getValue() != null)
 			{
 				index.putIfAbsent(key.substring(0, annotation), entry.getValue());
+			}
+		}
+
+		return index;
+	}
+
+	static Map<String, String> buildAnnotatedSignatures(Map<String, String> dictionary)
+	{
+		Map<String, String> index = new HashMap<>();
+
+		for (Map.Entry<String, String> entry : dictionary.entrySet())
+		{
+			String key = entry.getKey();
+			int annotation = key.indexOf(ANNOTATION_PREFIX);
+
+			if (annotation > 0 && entry.getValue() != null)
+			{
+				index.putIfAbsent(signature(key.substring(0, annotation)), entry.getValue());
 			}
 		}
 

@@ -22,9 +22,6 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 
-/**
- * Validates the reviewed menu option dictionaries.
- */
 public class MenuDictionaryTest
 {
 	private static final Path DIRECTORY = Paths.get("src/main/resources/translations/menu_entry_option");
