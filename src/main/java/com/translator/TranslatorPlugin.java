@@ -32,6 +32,7 @@ import net.runelite.api.events.BeforeRender;
 import net.runelite.api.events.GameTick;
 import net.runelite.api.events.MenuEntryAdded;
 import net.runelite.api.events.MenuOpened;
+import net.runelite.api.events.MenuOptionClicked;
 import net.runelite.api.events.ScriptPostFired;
 import net.runelite.api.events.VarbitChanged;
 import net.runelite.api.events.WidgetLoaded;
@@ -213,6 +214,12 @@ public class TranslatorPlugin extends Plugin
 	public void onMenuOpened(MenuOpened event)
 	{
 		menuTranslator.translateMenu(event.getMenuEntries());
+	}
+
+	@Subscribe(priority = 1000f)
+	public void onMenuOptionClicked(MenuOptionClicked event)
+	{
+		menuTranslator.restoreMenuOption(event);
 	}
 
 	@Subscribe

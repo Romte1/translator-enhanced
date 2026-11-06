@@ -2,6 +2,7 @@ package com.translator;
 
 import net.runelite.api.MenuAction;
 import net.runelite.api.MenuEntry;
+import net.runelite.api.events.MenuOptionClicked;
 import net.runelite.api.gameval.InterfaceID;
 import net.runelite.api.widgets.Widget;
 
@@ -75,6 +76,30 @@ class MenuEntryTranslator
 	void reset()
 	{
 		appliedTexts.clear();
+	}
+
+	// Other plugins match English options on click.
+	void restoreMenuOption(MenuOptionClicked event)
+	{
+		if (!config.translateMenuOptions())
+		{
+			return;
+		}
+
+		MenuEntry entry = event.getMenuEntry();
+		if (entry == null)
+		{
+			return;
+		}
+
+		String option = entry.getOption();
+		String original = option == null
+			? null
+			: store.lookupOriginal(TranslationType.MENU_OPTION, option);
+		if (original != null && !original.equals(option))
+		{
+			entry.setOption(original);
+		}
 	}
 
 	/**
