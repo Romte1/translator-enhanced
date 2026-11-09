@@ -5355,3 +5355,14 @@ Friends/Clan Only;Endast vänner/klan
 View Party:;Visa fest:
 Flip;Flip
 Begin;Börja
+Withdraw-454;Ta ut-454
+Deposit-454;Sätta in-454
+Enable-autotele;Aktivera-autotele
+Challenges;Utmaningar
+Reclaim-items;Återta föremål
+Align-net;Justera-nät
+Create-last;Skapa senast
+Remove-plank;Ta bort bräda
+Sell: 100 x Death rune;Sälja: 100 x Death rune
+Sell: 16 x Iron ore;Sälja: 16 x Iron ore
+Sell: 2 x Grimy ranarr weed;Sälja: 2 x Grimy ranarr weed
