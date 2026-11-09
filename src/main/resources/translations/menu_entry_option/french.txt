@@ -3647,4 +3647,4 @@ Information;Informations
 Reclaim-items;Récupérer-objets
 Align-net;Aligner-net
 Create-last;Créer-dernier
-Remove-plank;Retirer-planche
+Remove-plank;Retirer-plank
