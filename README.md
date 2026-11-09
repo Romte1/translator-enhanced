@@ -26,7 +26,8 @@ without a plugin release.
 * **Languages**: Dutch, Finnish, French, German, Italian, Portuguese, Spanish and Swedish.
 * **Local corrections**: change any translation yourself without waiting for an update.
 * **Dynamic loading**: only the translation files for the features you enable are downloaded,
-  so the plugin does not keep 180.000 unused entries in memory.
+  so the plugin does not keep 180.000 unused entries in memory. The interface dictionary also
+  has a bundled fallback.
 
 ### Why names are off by default
 
@@ -68,8 +69,8 @@ Two limits, both by design:
   `Text -> Quest Helper integration`: the conversation is translated but the answer options
   stay in English while Quest Helper is active. It is a compromise, not a full integration;
   leave it off if you prefer translated options and answer manually.
-* Some plugins compare the clicked option text (`MenuOptionClicked`) and will not react to a
-  translated option. Turn `Menus -> Menu options` off if one misbehaves.
+* Some plugins compare the clicked option text (`MenuOptionClicked`). The plugin restores the
+  original English option before those handlers run, so this is normally not a problem.
 
 ## Improving translations
 
@@ -89,16 +90,23 @@ You do not have to wait for an update to fix a bad translation:
 
 Priority, from lowest to highest: the downloaded file, the corrections bundled with the
 plugin, and your own corrections. If a correction is generally useful, send it as a pull
-request to the bundled file so everybody gets it.
+request to the
+[translation repository](https://github.com/Romte1/translator-enhanced-translations) so
+everybody gets it.
+
+## Translation data
+
+The reviewed menu and interface dictionaries are maintained in
+[translator-enhanced-translations](https://github.com/Romte1/translator-enhanced-translations).
+The plugin downloads them, validates the SHA-256 from the repository manifest, caches the
+last valid copy and uses the bundled interface dictionary as a fallback.
 
 ## Privacy
 
-The plugin works offline with the bundled data. It only contacts the network for the
-features you enable:
+The plugin can start offline: the interface dictionary has a bundled fallback and downloaded
+dictionaries are cached. It contacts the network for the features you enable:
 
-* downloading the translation files you selected;
-* downloading the journals dictionary (can be turned off with
-  `Journals -> Download translations`);
+* downloading the menu and interface dictionaries from the translation repository;
 * uploading untranslated texts, only when `General -> Enable text capture` is on.
 
 The upload sends the text, its type and the IP used for rate limiting. Nothing else: no

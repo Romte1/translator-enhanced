@@ -141,7 +141,7 @@ public interface TranslatorConfig extends Config
 		keyName = "useOnlineMenuTranslations",
 		name = "Download menu translations",
 		description = "Keep the menu dictionary updated without a plugin update.<br>" +
-			"Turn it off while editing the bundled file locally.",
+			"Turn it off to use only the last cached copy.",
 		position = 5,
 		section = MENUS_SECTION
 	)

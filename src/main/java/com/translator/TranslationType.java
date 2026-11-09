@@ -9,25 +9,27 @@ package com.translator;
 public enum TranslationType
 {
 	/** Chatbox dialogues (NPC / player lines). */
-	DIALOGUE("dialogue", false),
+	DIALOGUE("dialogue", false, false),
 	/** NPC names, eg. {@code Goblin}. */
-	NPC("npc", false),
+	NPC("npc", false, false),
 	/** Item names, eg. {@code Abyssal whip}. */
-	ITEM("item", false),
+	ITEM("item", false, false),
 	/** Game object names, eg. {@code Tree}. */
-	OBJECT("object", false),
+	OBJECT("object", false, false),
 	/** Right click menu options, eg. {@code Talk-to}. */
-	MENU_OPTION("menu_entry_option", true),
+	MENU_OPTION("menu_entry_option", false, true),
 	/** Interface texts (quest journals, achievement diaries, combat achievements). */
-	INTERFACE("interface", true);
+	INTERFACE("interface", true, true);
 
 	private final String fileName;
 	private final boolean bundled;
+	private final boolean curated;
 
-	TranslationType(String fileName, boolean bundled)
+	TranslationType(String fileName, boolean bundled, boolean curated)
 	{
 		this.fileName = fileName;
 		this.bundled = bundled;
+		this.curated = curated;
 	}
 
 	/**
@@ -41,5 +43,10 @@ public enum TranslationType
 	public boolean isBundled()
 	{
 		return bundled;
+	}
+
+	public boolean isCurated()
+	{
+		return curated;
 	}
 }

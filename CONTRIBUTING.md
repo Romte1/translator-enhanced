@@ -24,15 +24,22 @@ TranslatorPlugin      events only: wires RuneLite events to the components below
 
 server/server.mjs               self-hosted collection service
 server/worker.mjs               the same service for Cloudflare Workers + D1 (free)
-scripts/translate-worker.mjs    LLM first pass with rules and validation
-scripts/merge-translations.mjs  appends the reviewed output to the dictionary
 ```
 
 Everything that is not an event handler lives in its own class. Dictionaries are immutable
 once published, so the client thread never sees a half-loaded map, and the hot path
 (`MenuEntryAdded`) is a single field read when menu translation is disabled.
 
-## How translations are maintained
+## Translation data
+
+The reviewed menu and interface dictionaries live in a separate repository:
+[translator-enhanced-translations](https://github.com/Romte1/translator-enhanced-translations).
+Its manifest pins every file with SHA-256. The plugin downloads the selected dictionaries,
+validates them, caches the last valid copy and keeps the bundled interface dictionary as an
+offline fallback.
+
+Translation workers, rules, validation and GitHub Actions live in that repository. The
+plugin repository only contains the client code and the small interface fallback.
 
 ```
 player opens a journal
@@ -56,60 +63,33 @@ player opens a journal
 * **Collection is opt-in** (`General -> Enable text capture`, off by default) and carries the
   required warning. Only the text, the type and an anonymous hash are stored; no account, no
   player name. Texts that already have a translation are never sent.
-* **No client has priority.** Every text is keyed by `sha256(type + text)` and counted, so
-  the queue starts with what most players actually see, whoever sent it.
 * **Nothing ships unreviewed.** The worker only proposes; the pull request is reviewed and
-  CI validates tags, numbers, placeholders and duplicates.
-* **Data and code are separate.** The dictionary is bundled as a fallback and also downloaded
-  from the project repository at a fixed address, so translation changes do not need a plugin
-  release; only code changes do.
+  the translation repository validator checks tags, numbers, placeholders, duplicates and
+  the manifest.
+* **Data and code are separate.** Menu and interface dictionaries are downloaded from the
+  translation repository; only the interface dictionary has a bundled fallback. Translation
+  changes therefore do not need a plugin release.
 * **Per-language queues.** The source texts are shared; the "translated" mark is per target
   language, and each language has its own dictionary file.
 
-Details: [docs/translations.md](docs/translations.md),
-[docs/translation-rules.md](docs/translation-rules.md) and
-[server/README.md](server/README.md).
+Details: [translation repository](https://github.com/Romte1/translator-enhanced-translations)
+and [server/README.md](server/README.md).
 
 ## Finding a text that is not translated
 
 1. Open that screen in game.
 2. Enable `Journals -> Capture untranslated` (local file) or `General -> Enable text capture`
    (shared queue).
-3. Run `./scripts/merge-captures.ps1 -Language spanish` or the worker, and translate what it
-   reports.
+3. Work in the
+   [translation repository](https://github.com/Romte1/translator-enhanced-translations):
+   run its `merge-captures.ps1` or worker and translate what it reports.
 4. If the whole interface is ignored, add its root to `WidgetTranslator.QUEST_INTERFACES`.
 
-## Translation rules
+## Translation rules and workers
 
-Every contribution follows [docs/translation-rules.md](docs/translation-rules.md). The rules
-are enforced by `InterfaceDictionaryTest`: a malformed entry (wrong tags, numbers,
-placeholders or duplicate keys) fails the build.
-
-## Worker and server
-
-```bash
-# local first pass, no server
-node scripts/translate-worker.mjs spanish
-
-# from the shared queue
-PENDING_URL=https://<server>/api/v1/pending \
-PENDING_TOKEN=... LLM_API_KEY=... node scripts/translate-worker.mjs french
-
-# review, then append to the dictionary
-node scripts/merge-translations.mjs french
-```
-
-The worker defaults to Groq (`openai/gpt-oss-120b`). Put the key in `.env` at the repository
-root (git ignored). Any OpenAI compatible endpoint works through `LLM_BASE_URL` and
-`LLM_MODEL`; `--dry-run` shows the prompt and the batches without sending anything.
-
-`SEED_FROM=spanish` adds the keys of the Spanish dictionary to the queue of another language,
-which is how a new language reaches the same coverage without waiting for a player to open
-every screen. `LIMIT` caps how many texts a single run handles.
-
-`.github/workflows/translate.yml` runs the worker for every supported language on manual
-dispatch and every Monday, and opens one rolling pull request per language. Marking texts as
-translated happens only after the merge, in `mark-translated.yml`.
+The rules, workers, validation and GitHub Actions live in the
+[translation repository](https://github.com/Romte1/translator-enhanced-translations). See its
+README for the worker commands, secrets and manifest workflow.
 
 ## Publishing on the Plugin Hub
 

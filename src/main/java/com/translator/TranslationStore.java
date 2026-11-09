@@ -12,6 +12,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.Reader;
 import java.nio.charset.StandardCharsets;
+import java.nio.file.StandardCopyOption;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
@@ -45,7 +46,6 @@ class TranslationStore
 
 	private static final String BUNDLED_OVERRIDES = "/translations/overrides/%s.txt";
 	private static final String BUNDLED_INTERFACE = "/translations/interface/%s.txt";
-	private static final String BUNDLED_MENU_OPTION = "/translations/menu_entry_option/%s.txt";
 	private static final String PATTERN_PREFIX = "re:";
 
 	/**
@@ -154,26 +154,58 @@ class TranslationStore
 
 		Map<String, String> merged;
 		int downloaded;
-		if (type.isBundled())
+		Filepath cache = cachePath(type, language);
+
+		if (type.isCurated())
 		{
 			merged = new HashMap<>();
-			readOverrides(
-				merged,
-				TranslationStore.class.getResourceAsStream(String.format(
-					type == TranslationType.INTERFACE ? BUNDLED_INTERFACE : BUNDLED_MENU_OPTION, language)),
-				"bundled " + type.fileName() + " " + language);
-			downloaded = merged.size();
-
-			if (type == TranslationType.MENU_OPTION
-				? config.useOnlineMenuTranslations()
-				: config.useOnlineInterfaceTranslations())
+			if (type.isBundled())
 			{
-				applyOnline(type, merged, language);
+				readOverrides(
+					merged,
+					TranslationStore.class.getResourceAsStream(String.format(BUNDLED_INTERFACE, language)),
+					"bundled " + type.fileName() + " " + language);
 			}
+
+			boolean online = type == TranslationType.MENU_OPTION
+				? config.useOnlineMenuTranslations()
+				: config.useOnlineInterfaceTranslations();
+			if (online)
+			{
+				try
+				{
+					merged.putAll(api.downloadCurated(type, language, cache));
+				}
+				catch (IOException e)
+				{
+					log.debug("failed to download {} translations, using the cached copy",
+						type.fileName(), e);
+					readCache(cache, merged);
+				}
+			}
+			else
+			{
+				readCache(cache, merged);
+			}
+
+			downloaded = merged.size();
 		}
 		else
 		{
-			merged = new HashMap<>(api.download(type, language));
+			try
+			{
+				merged = new HashMap<>(api.download(type, language));
+				writeCache(cache, merged);
+			}
+			catch (IOException e)
+			{
+				merged = new HashMap<>();
+				readCache(cache, merged);
+				if (merged.isEmpty())
+				{
+					throw e;
+				}
+			}
 			downloaded = merged.size();
 		}
 
@@ -330,40 +362,26 @@ class TranslationStore
 		}
 	}
 
-	private void applyOnline(TranslationType type, Map<String, String> dictionary,
-		TranslatorConfig.Language language)
+	private Filepath cachePath(TranslationType type, TranslatorConfig.Language language)
 	{
-		Filepath cache = directory == null ? null : directory.join(type.fileName()).join(language + ".txt");
+		return directory == null ? null : directory.join(type.fileName()).join(language + ".txt");
+	}
 
-		try
+	private static void readCache(Filepath file, Map<String, String> dictionary)
+	{
+		if (file == null || !file.isFile())
 		{
-			Map<String, String> online = api.download(type, language);
+			return;
+		}
 
-			if (online.size() < dictionary.size())
-			{
-				log.debug("ignoring {} online {} translations: fewer entries than the bundled ones",
-					online.size(), type.fileName());
-				return;
-			}
-
-			dictionary.putAll(online);
-			writeCache(cache, online);
-			log.debug("applied {} online {} translations", online.size(), type.fileName());
+		try (InputStream in = file.openInputStream();
+			 Reader reader = new InputStreamReader(in, StandardCharsets.UTF_8))
+		{
+			dictionary.putAll(parse(reader));
 		}
 		catch (IOException e)
 		{
-			log.debug("failed to download {} translations, using the cached copy", type.fileName(), e);
-
-			if (cache != null && cache.isFile())
-			{
-				try (InputStream in = cache.openInputStream())
-				{
-					readOverrides(dictionary, in, cache.toString());
-				}
-				catch (IOException ignored)
-				{
-				}
-			}
+			log.debug("failed to read cached translations from {}", file, e);
 		}
 	}
 
@@ -380,11 +398,20 @@ class TranslationStore
 		try
 		{
 			file.getParent().createDirectories();
-			file.write(builder.toString());
+			Filepath temporary = file.getParent().createTempFile("translations-", ".tmp");
+			try
+			{
+				temporary.write(builder.toString());
+				temporary.moveTo(file, StandardCopyOption.REPLACE_EXISTING);
+			}
+			finally
+			{
+				temporary.deleteIfExists();
+			}
 		}
 		catch (IOException e)
 		{
-			log.debug("failed to cache interface translations", e);
+			log.debug("failed to cache translations at {}", file, e);
 		}
 	}
 

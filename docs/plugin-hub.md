@@ -64,7 +64,7 @@ an independent entry.
 
 When the PR is merged the plugin appears in the hub and users install it like any other. The
 hub keeps a pinned commit, so **translation data still updates without a release** through
-the dictionary address; the pin only affects code.
+the separate translation repository; the pin only affects code.
 
 ## 5. After the first release
 
