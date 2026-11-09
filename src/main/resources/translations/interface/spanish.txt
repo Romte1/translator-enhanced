@@ -938,10 +938,10 @@ I can start this quest by talking to an <col=800000>Injured Tortugan<col=000080>
 I can start this quest by talking to <col=800000>Denulth<col=000080> in his tent in <col=800000>Burthorpe<col=000080>.;Empieza la misión hablando con <col=800000>Denulth<col=000080> en su tienda en <col=800000>Burthorpe<col=000080>.
 I can start this quest by talking to <col=800000>Ug<col=000080> in the <col=800000>Troll Stronghold<col=000080>.;Empieza la misión hablando con <col=800000>Ug<col=000080> en el <col=800000>Troll Stronghold<col=000080>.
 I can start this quest by talking to <col=800000>Kangai Mau<col=000080> in the <col=800000>Shrimp and Parrot<col=000080> in <col=800000>Brimhaven<col=000080>.;Empieza la misión hablando con <col=800000>Kangai Mau<col=000080> en el <col=800000>Shrimp and Parrot<col=000080> en <col=800000>Brimhaven<col=000080>.
-Description: <col=ffffff>Kill Bryophyta with either poison or venom being the final source of damage.</col>;Descripción: <col=ffffff>Mata a Bryophyta con veneno o toxina como daño final.</col>
-Description: <col=ffffff>Kill Bryophyta without suffering any poison damage.</col>;Descripción: <col=ffffff>Mata a Bryophyta sin recibir daño de veneno.</col>
+Description: <col=ffffff>Kill Bryophyta with either poison or venom being the final source of damage.</col>;Description: <col=ffffff>Mata a Bryophyta con veneno o toxina como daño final.</col>
+Description: <col=ffffff>Kill Bryophyta without suffering any poison damage.</col>;Description: <col=ffffff>Mata a Bryophyta sin recibir daño de veneno.</col>
 Description: <col=ffffff>Kill Bryophyta with the Protect from Magic prayer active.</col>;Descripción: <col=ffffff>Mata a Bryophyta con la oración Protect from Magic activa.</col>
-Description: <col=ffffff>Open Bryophyta's chest once.</col>;Descripción: <col=ffffff>Abre el cofre de Bryophyta una vez.</col>
+Description: <col=ffffff>Open Bryophyta's chest once.</col>;Description: <col=ffffff>Abre el cofre de Bryophyta una vez.</col>
 <col=000000>Catch a Copper Longtail.<col=ffffff>(<col=800000>9 Hunter<col=000080><col=ffffff>);<col=000000>Atrapa un Copper Longtail.<col=ffffff>(<col=800000>9 Hunter<col=000080><col=ffffff>)
 <col=000000>Complete a novice game of Pest Control.<col=ffffff>(<col=800000>40 Combat<col=000080><col=ffffff>);<col=000000>Completa una partida novato de Pest Control.<col=ffffff>(<col=800000>40 Combat<col=000080><col=ffffff>)
 <col=000000>Mine some Iron Ore near Piscatoris.<col=ffffff>(<col=000080><str>15 Mining</str><col=ffffff>);<col=000000>Mina algo de Iron Ore cerca de Piscatoris.<col=ffffff>(<col=000080><str>15 Mining</str><col=ffffff>)
@@ -979,12 +979,12 @@ Description: <col=ffffff>Open Bryophyta's chest once.</col>;Descripción: <col=f
 <col=000000>Have Prissy Scilla protect your Magic tree.<col=ffffff>(<col=800000>75 Farming<col=000080><col=ffffff>);<col=000000>Haz que Prissy Scilla proteja tu Magic tree.<col=ffffff>(<col=800000>75 Farming<col=000080><col=ffffff>)
 <col=000000>least 1000 kills.<col=ffffff>(<col=800000>Big Chompy Bird Hunting<col=000080><col=ffffff>);<col=000000>al menos 1000 kills.<col=ffffff>(<col=800000>Big Chompy Bird Hunting<col=000080><col=ffffff>)
 <col=000000>Pickpocket an Elf.<col=ffffff>(<col=800000>85 Thieving<col=000080>, <col=800000>Started Mourning's End Part I<col=000080><col=ffffff>);<col=000000>Roba a un Elf.<col=ffffff>(<col=800000>85 Thieving<col=000080>, <col=800000>Started Mourning's End Part I<col=000080><col=ffffff>)
-Description: <col=ffffff>Kill Cerberus 75 times.</col>;Descripción: <col=ffffff>Mata a Cerberus 75 veces.</col>
-Description: <col=ffffff>Kill Cerberus after successfully negating 6 or more attacks from Summoned Souls.</col>;Descripción: <col=ffffff>Mata a Cerberus después de negar con éxito 6 o más ataques de Summoned Souls.</col>
-Description: <col=ffffff>Kill Cerberus without taking damage from any lava pools.</col>;Descripción: <col=ffffff>Mata a Cerberus sin recibir daño de ningún lava pool.</col>
-Description: <col=ffffff>Kill Cerberus without taking any melee damage.</col>;Descripción: <col=ffffff>Mata a Cerberus sin recibir daño cuerpo a cuerpo.</col>
-Description: <col=ffffff>Kill Cerberus 150 times.</col>;Descripción: <col=ffffff>Mata a Cerberus 150 veces.</col>
-Description: <col=ffffff>Kill Cerberus without any of the Summoned Souls being spawned.</col>;Descripción: <col=ffffff>Mata a Cerberus sin que se generen Summoned Souls.</col>
+Description: <col=ffffff>Kill Cerberus 75 times.</col>;Description: <col=ffffff>Mata a Cerberus 75 veces.</col>
+Description: <col=ffffff>Kill Cerberus after successfully negating 6 or more attacks from Summoned Souls.</col>;Description: <col=ffffff>Mata a Cerberus después de negar con éxito 6 o más ataques de Summoned Souls.</col>
+Description: <col=ffffff>Kill Cerberus without taking damage from any lava pools.</col>;Description: <col=ffffff>Mata a Cerberus sin recibir daño de ningún lava pool.</col>
+Description: <col=ffffff>Kill Cerberus without taking any melee damage.</col>;Description: <col=ffffff>Mata a Cerberus sin recibir daño cuerpo a cuerpo.</col>
+Description: <col=ffffff>Kill Cerberus 150 times.</col>;Description: <col=ffffff>Mata a Cerberus 150 veces.</col>
+Description: <col=ffffff>Kill Cerberus without any of the Summoned Souls being spawned.</col>;Description: <col=ffffff>Mata a Cerberus sin que se generen Summoned Souls.</col>
 <col=000000>Enter the Wilderness Godwars Dungeon.;<col=000000>Entra en el Wilderness Godwars Dungeon.
 <col=000000>Cast Low Alchemy at the Fountain of Rune.<col=ffffff>(<col=800000>21 Magic<col=000080><col=ffffff>);<col=000000>Lanza Low Alchemy en la Fountain of Rune.<col=ffffff>(<col=800000>21 Magic<col=000080><col=ffffff>)
 <col=000000>Kill an Earth Warrior in the Wilderness beneath Edgeville.<col=ffffff>(<col=800000>15 Agility<col=000080><col=ffffff>);<col=000000>Mata un Earth Warrior en el Wilderness bajo Edgeville.<col=ffffff>(<col=800000>15 Agility<col=000080><col=ffffff>)
@@ -1200,168 +1200,3 @@ Open wiki guide:;Abrir guía wiki:
 Open wiki quick guide:;Abrir guía rápida wiki:
 Read journal:;Leer diario:
 Show on map:;Mostrar en el mapa:
-Dancing with Statues;Bailando con estatuas
-Dodging the Dragon;Esquivando al Dragón
-Hot on Your Feet;Caliente bajo tus pies
-Playing with Lasers;Jugando con láseres
-Supplies? Who Needs 'em?;¿Suministros? ¿Quién los necesita?
-... 'til Dawn;... hasta el amanecer
-A siphon will solve this;Un sifón resolverá esto
-All out of medics;Sin médicos
-Back in My Day...;En mis tiempos...
-Back so soon?;¿Regresas tan pronto?
-Better get movin';Mejor muévete
-Big, Black and Fiery;Grande, negro y ardiente
-Calm Before the Storm;Calma antes de la tormenta
-Camping the King;Acampar al Rey
-Contain this!;¡Contén esto!
-Death to the Archer King;Muerte al Archer King
-Death to the Seer King;Muerte al Seer King
-Death to the Warrior King;Muerte al Warrior King
-Denying the Healers;Negando a los sanadores
-Description: <col=ffffff>Kill a Black Dragon.</col>;Descripción: <col=ffffff>Mata un Black Dragon.</col>
-Description: <col=ffffff>Kill any Barrows Brother using only magical damage.</col>;Descripción: <col=ffffff>Mata a cualquier Barrows Brother usando solo daño mágico.</col>
-Description: <col=ffffff>Open the Barrows chest 10 times.</col>;Descripción: <col=ffffff>Abre el Barrows chest 10 veces.</col>
-Digging in;Cavando
-Doesn't bug me;No me molesta
-Chambers of Xeric (5-Scale) Speed-Chaser;Chambers of Xeric (5-Scale) Cazador de velocidad
-Chambers of Xeric (Solo) Speed-Chaser;Chambers of Xeric (Solo) Cazador de velocidad
-Chambers of Xeric (Trio) Speed-Chaser;Chambers of Xeric (Trio) Cazador de velocidad
-Chambers of Xeric Master;Chambers of Xeric Maestro
-Chambers of Xeric Veteran;Chambers of Xeric Veterano
-Chambers of Xeric: CM (5-Scale) Speed-Chaser;Chambers of Xeric: CM (5-Scale) Cazador de velocidad
-Chambers of Xeric: CM (Solo) Speed-Chaser;Chambers of Xeric: CM (Solo) Cazador de velocidad
-Chambers of Xeric: CM (Trio) Speed-Chaser;Chambers of Xeric: CM (Trio) Cazador de velocidad
-Chambers of Xeric: CM Master;Chambers of Xeric: CM Maestro
-Description: <col=ffffff>Kill the Chaos Fanatic without anyone being hit by his explosion attack.</col>;Descripción: <col=ffffff>Mata al Chaos Fanatic sin que nadie sea alcanzado por su ataque de explosión.</col>
-Don't Look at Me!;¡No me mires!
-Don't Look at the Eclipse;No mires el Eclipse
-Done before Dusk;Hecho antes del anochecer
-Dropped the ball;Dejé caer la pelota
-Fancy feet;Pies elegantes
-Fat of the Land;Lo mejor de la tierra
-Fighting as Intended;Luchando como está previsto
-Finding the Weak Spot;Encontrando el punto débil
-Fire fighter;Bombero
-Fire in the Hole!;¡Fuego en el agujero!
-Fragment of Seren Speed-Trialist;Fragmento de Seren Speed-Trialist
-From One King to Another;De un rey a otro
-Helpful spirit who?;¿Espíritu útil quién?
-I need room;Necesito espacio
-I was here first!;¡Yo estuve aquí primero!
-I'm in a rush;Tengo prisa
-I'm your son;Soy tu hijo
-Into the Den of Giants;En la guarida de los gigantes
-Is it a bird?;¿Es un pájaro?
-Kill It with Fire;Mátalo con fuego
-King-sized clobbering;Golpe de rey
-Let it seep in;Déjalo que se filtre
-Let them fight;Déjalos pelear
-Master of Buckets;Maestro de Cubos
-Moons of Peril Speed-Chaser;Perseguidor de velocidad de Moons of Peril
-More than just a ranged weapon;Más que solo un arma de Ranged
-Movin' on up;Subiendo
-No Time for Death;Sin tiempo para la muerte
-No skipping allowed;No se permite saltarse
-No time to pray;No hay tiempo para rezar
-No toppings, no drinks, thanks;Sin ingredientes extra, sin bebidas, gracias
-One by one;Uno a uno
-Praying to the Gods;Rezando a los dioses
-Putting It Olm on the Line;Poniendo a Olm en la línea
-Ready to Pounce;Listo para saltar
-Reflecting on This Encounter;Reflexionando sobre este encuentro
-Rockin' around the croc;Rockeando alrededor del cocodrilo
-Shadow dancer;Bailarín de sombra
-Smarter than a Cow;Más listo que una vaca
-Something of an expert myself;Algo de experto soy yo
-Space is Tight;El espacio es estrecho
-Stick 'em With the Pointy End;Golpéalos con el extremo puntiagudo
-Stop Drop and Roll;Detén, suelta y rueda
-The Bane of Demons;La perdición de los demonios
-Theatre of Blood Master;Maestro del Theatre of Blood
-Theatre of Blood Veteran;Veterano del Theatre of Blood
-Theatre of Blood: SM Adept;Theatre of Blood: SM Adepto
-Theatre of Blood: SM Speed-Chaser;Theatre of Blood: SM Cazador de velocidad
-There is no escape!;¡No hay escape!
-Three Times the Thrashing;Tres veces la paliza
-Through Fire and Flames;A través del fuego y las llamas
-Toppling the Diarchy;Derrocando la Diarquía
-Trying to fit in;Intentando encajar
-Two Times the Torment;Dos veces el tormento
-Up for the Challenge;Listo para el desafío
-Warden't you believe it;Warden, ¿no lo crees?
-Who Is the King Now?;¿Quién es el rey ahora?
-You Didn't Say Anything About a Bat;No dijiste nada sobre un murciélago
-You are not prepared;No estás preparado
-<col=000000>Plant some Logavano seeds at the Tithe Farm.</col><col=ffffff>(<col=800000>74 Farming<col=000080><col=ffffff>);<col=000000>Planta algunas semillas Logavano en la Tithe Farm.</col><col=ffffff>(<col=800000>74 Farming<col=000080><col=ffffff>)
-Description: <col=ffffff>Kill a Lizardman Shaman in Molch which has not dealt damage to anyone (excluding its Spawns).</col>;Descripción: <col=ffffff>Mata a un Lizardman Shaman en Molch que no haya infligido daño a nadie (excluyendo sus Spawns).</col>
-Description: <col=ffffff>Kill an Aberrant Spectre.</col>;Descripción: <col=ffffff>Mata a un Aberrant Spectre.</col>
-Nylocas, On the Rocks;Nylocas, En las rocas
-<col=000000>the Falador Castle courtyard.;<col=000000>el patio del Falador Castle.
-You are awarded:;Has recibido:
-<col=000000>If I ever lose my Falador shield I can speak to Sir Rebral in;<col=000000>Si alguna vez pierdo mi Falador shield puedo hablar con Sir Rebral en
-<col=000000>If I ever lose my Wilderness sword I can speak to<br>the;<col=000000>Si alguna vez pierdo mi Wilderness sword puedo hablar con<br>el
-<col=000000>Lesser Fanatic by the Wilderness ditch in<br>Edgeville.;<col=000000>Lesser Fanatic junto al foso del Wilderness en<br>Edgeville.
-<str><col=ffffff>(<col=000080><str>50 Smithing</str>, <col=000080><str>Started Between a Rock...</str><col=ffffff>);<str><col=ffffff>(<col=000080><str>50 Smithing</str>, <col=000080><str>Between a Rock... iniciada</str><col=ffffff>)
-<col=000000>Gnome Child north at the Gnome Stronghold.;<col=000000>Gnome Child al norte del Gnome Stronghold.
-<str>Kill the Thermonuclear Smoke devil.;<str>Mata al Thermonuclear Smoke devil.
-<col=000000>Varrock square.;<col=000000>Plaza de Varrock.
-<str>Bake a summer pie in the Cooking Guild.<col=ffffff>(<col=000080><str>95 Cooking</str><col=ffffff>);<str>Hornea una summer pie en el Cooking Guild.<col=ffffff>(<col=000080><str>95 Cooking</str><col=ffffff>)
-<str>Browse Thessalia's store.;<str>Explora la tienda de Thessalia.
-<str>Buy a newspaper.;<str>Compra un periódico.
-<str>Catch some trout in the River Lum at Barbarian Village.<col=ffffff>(<col=000080><str>20 Fishing</str><col=ffffff>);<str>Atrapa algunos trout en el River Lum en Barbarian Village.<col=ffffff>(<col=000080><str>20 Fishing</str><col=ffffff>)
-<str>Chop down a dying tree in the Lumber Yard.;<str>Corta un árbol moribundo en el Lumber Yard.
-<str>Complete a lap of the Varrock Agility course.<col=ffffff>(<col=000080><str>30 Agility</str><col=ffffff>);<str>Completa una vuelta del Varrock Agility course.<col=ffffff>(<col=000080><str>30 Agility</str><col=ffffff>)
-<str>Craft some Earth runes from Essence.<col=ffffff>(<col=000080><str>9 Runecraft</str><col=ffffff>);<str>Fabrica algunas Earth runes con Essence.<col=ffffff>(<col=000080><str>9 Runecraft</str><col=ffffff>)
-<str>Enter the Champions' Guild.<col=ffffff>(<col=000080><str>32 Quest points</str><col=ffffff>);<str>Entra en la Champions' Guild.<col=ffffff>(<col=000080><str>32 Quest points</str><col=ffffff>)
-<str>Enter the second level of the Stronghold of<br>Security.;<str>Entra en el segundo nivel del Stronghold of<br>Security.
-<str>Get a Slayer task from Vannaka.<col=ffffff>(<col=000080><str>40 Combat</str><col=ffffff>);<str>Recibe una tarea de Slayer de Vannaka.<col=ffffff>(<col=000080><str>40 Combat</str><col=ffffff>)
-<str>Give a dog a bone!;<str>¡Dale un bone a un perro!
-<str>Jump over the fence south of Varrock.<col=ffffff>(<col=000080><str>13 Agility</str><col=ffffff>);<str>Salta la cerca al sur de Varrock.<col=ffffff>(<col=000080><str>13 Agility</str><col=ffffff>)
-<str>Make 20 Mahogany Planks in one go.;<str>Haz 20 Mahogany Planks de una vez.
-<str>Make a normal plank at the Sawmill.;<str>Haz una normal plank en el Sawmill.
-<str>Mine some Iron in the south east mining patch near;<str>Extrae algo de Iron en el parche de minería sureste cerca de
-<str>Perform the 4 emotes from the Stronghold of<br>Security.;<str>Realiza los 4 emotes del Stronghold of<br>Security.
-<str>Pray at the altar in Varrock palace with Smite active.<col=ffffff>(<col=000080><str>52 Prayer</str><col=ffffff>);<str>Reza en el altar del palacio de Varrock con Smite activo.<col=ffffff>(<col=000080><str>52 Prayer</str><col=ffffff>)
-<str>Select a colour for your kitten.;<str>Selecciona un color para tu gatito.
-<str>Steal from the Tea stall in Varrock.<col=ffffff>(<col=000080><str>5 Thieving</str><col=ffffff>);<str>Roba del puesto de té en Varrock.<col=ffffff>(<col=000080><str>5 Thieving</str><col=ffffff>)
-<str>Teleport to Barbarian Village with a skull<br>sceptre.;<str>Teletransporta a Barbarian Village con un skull<br>sceptre.
-<str>Teleport to Paddewwa.<col=ffffff>(<col=000080><str>54 Magic</str>, <col=000080><str>Desert Treasure I</str><col=ffffff>);<str>Teletransporta a Paddewwa.<col=ffffff>(<col=000080><str>54 Magic</str>, <col=000080><str>Desert Treasure I</str><col=ffffff>)
-<str>Teleport to the digsite using a Digsite pendant.<col=ffffff>(<col=000080><str>The Dig Site</str><col=ffffff>);<str>Teletransporta al Digsite usando un Digsite pendant.<col=ffffff>(<col=000080><str>The Dig Site</str><col=ffffff>)
-<str>Trade furs with the Fancy Dress Seller for a<br>spottier cape;<str>Intercambia furs con el Fancy Dress Seller por un<br>spottier cape
-<str>Use the balloon to travel from Varrock.;<str>Usa el globo para viajar desde Varrock.
-<str>Use the spirit tree north of Varrock.<col=ffffff>(<col=000080><str>Tree Gnome Village</str><col=ffffff>);<str>Usa el spirit tree al norte de Varrock.<col=ffffff>(<col=000080><str>Tree Gnome Village</str><col=ffffff>)
-<str>and equip it.<col=ffffff>(<col=000080><str>66 Hunter</str><col=ffffff>);<str>y equípalo.<col=ffffff>(<col=000080><str>66 Hunter</str><col=ffffff>)
-<col=000000>If I ever lose my Varrock armour I can speak to<br>Toby in;<col=000000>Si alguna vez pierdo mi Varrock armour puedo hablar con<br>Toby en
-<col=000000>If I ever lose my Western banner I can speak to the Elder;<col=000000>Si alguna vez pierdo mi Western banner puedo hablar con el Elder
-<str>potion.;<str>poción.
-<col=000000>Thorodin south of Rellekka.;<col=000000>Thorodin al sur de Rellekka.
-<str><col=ffffff>(<col=000080><str>Started Garden of Tranquillity</str>, <col=000080><str>Gertrude's Cat</str><col=ffffff>);<str><col=ffffff>(<col=000080><str>Garden of Tranquillity iniciada</str>, <col=000080><str>Gertrude's Cat</str><col=ffffff>)
-<str>Cast the teleport to Varrock spell.<col=ffffff>(<col=000080><str>25 Magic</str><col=ffffff>);<str>Lanza el hechizo de teletransporte a Varrock.<col=ffffff>(<col=000080><str>25 Magic</str><col=ffffff>)
-<str>Chop some yew logs in Varrock and burn them at the<br>top of;<str>Corta algunos yew logs en Varrock y quémalos en la<br>cima de
-<str>Collect at least 2 yew roots from the Tree patch<br>in Varrock;<str>Recoge al menos 2 yew roots del parche de árboles<br>en Varrock
-<str>Craft 100 or more earth runes simultaneously from;<str>Crea 100 o más earth runes simultáneamente de
-<str>Create a super combat potion in Varrock west bank.;<str>Crea una super combat potion en el banco oeste de Varrock.
-<str>Enter the Tolna dungeon after completing A Soul's<br>Bane.<col=ffffff>(<col=000080><str>A Soul's Bane</str><col=ffffff>);<str>Entra en la mazmorra Tolna después de completar A Soul's<br>Bane.<col=ffffff>(<col=000080><str>A Soul's Bane</str><col=ffffff>)
-<str>Essence without the use of Extracts.<col=ffffff>(<col=000080><str>78 Runecraft</str><col=ffffff>);<str>Esencia sin usar Extracts.<col=ffffff>(<col=000080><str>78 Runecraft</str><col=ffffff>)
-<str>Have Aubury teleport you to the Essence mine.<col=ffffff>(<col=000080><str>Rune<br>Mysteries</str><col=ffffff>);<str>Haz que Aubury te teletransporte a la mina de Essence.<col=ffffff>(<col=000080><str>Rune<br>Mysteries</str><col=ffffff>)
-<str>Have the Apothecary in Varrock make you a strength;<str>Haz que el Apothecary en Varrock te haga una strength
-<str>Have the Varrock estate agent decorate your house<br>with;<str>Haz que el agente inmobiliario de Varrock decore tu casa<br>con
-<str>Make a Waka Canoe near Edgeville.<col=ffffff>(<col=000080><str>57 Woodcutting</str><col=ffffff>);<str>Construye una Waka Canoe cerca de Edgeville.<col=ffffff>(<col=000080><str>57 Woodcutting</str><col=ffffff>)
-<str>Pick a White tree fruit.<col=ffffff>(<col=000080><str>25 Farming</str>, <col=000080><str>Garden of<br>Tranquillity</str><col=ffffff>);<str>Recoge un White tree fruit.<col=ffffff>(<col=000080><str>25 Farming</str>, <col=000080><str>Garden of<br>Tranquillity</str><col=ffffff>)
-<str>Smith and fletch ten rune darts within Varrock.;<str>Forja y fabrica diez rune darts dentro de Varrock.
-<str>Speak to Haig Halen after obtaining at least 50<br>Kudos.;<str>Habla con Haig Halen después de obtener al menos 50<br>Kudos.
-<str>Speak to Orlando Smith when you have achieved 153;<str>Habla con Orlando Smith cuando hayas alcanzado 153
-<str>Spin a bowl on the pottery wheel and fire it in<br>the oven in;<str>Gira un bowl en la rueda de alfarería y hornéalo en<br>el horno de
-<str>Squeeze through an obstacle pipe in Edgeville<br>dungeon.;<str>Pásate por una tubería de obstáculos en<br>la mazmorra de Edgeville.
-<str>Use Lunar magic to make 20 mahogany planks at the;<str>Usa magia Lunar para hacer 20 mahogany planks en el
-<str>the Varrock church.<col=ffffff>(<col=000080><str>60 Woodcutting</str>, <col=000080><str>60 Firemaking</str><col=ffffff>);<str>la iglesia de Varrock.<col=ffffff>(<col=000080><str>60 Woodcutting</str>, <col=000080><str>60 Firemaking</str><col=ffffff>)
-<col=000000>'Wedge' outside Camelot castle.;<col=000000>'Wedge' fuera de Camelot Castle.
-<str>Construct a Pyre ship from Magic Logs.;<str>Construye un Pyre ship con Magic Logs.
-<str>Have Aubury teleport you to the Essence mine.;<str>Haz que Aubury te teletransporte a la mina de Essence.
-<col=000000>If I ever lose my Desert amulet I can speak to Jarr at the;<col=000000>Si alguna vez pierdo mi Desert amulet puedo hablar con Jarr en el
-<col=000000>If I ever lose my Explorer's ring I can speak to<br>Mikasi;<col=000000>Si alguna vez pierdo mi Explorer's ring puedo hablar con<br>Mikasi
-<col=000000>If I ever lose my Fremennik sea boots I can speak to;<col=000000>Si alguna vez pierdo mis Fremennik sea boots puedo hablar con
-<col=000000>If I ever lose my Morytania legs I can speak to<br>Le-sabrè in;<col=000000>Si alguna vez pierdo mis Morytania legs puedo hablar con<br>Le-sabrè en
-<col=000000>outside Kourend Castle.;<col=000000>fuera de Kourend Castle.
-<col=000000>outside of Lumbridge Castle.;<col=000000>fuera de Lumbridge Castle.
