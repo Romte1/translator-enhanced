@@ -5355,3 +5355,19 @@ Friends/Clan Only;Endast vänner/klan
 View Party:;Visa fest:
 Flip;Flip
 Begin;Börja
+Withdraw-454;Ta ut-454
+Deposit-454;Sätta in-454
+Default quantity: 454;Standardkvantitet: 454
+Enable-autotele;Aktivera-autotele
+Challenges;Utmaningar
+Reclaim-items;Återta föremål
+Align-net;Justera nät
+Buy: 1 x Earth talisman;Köp: 1 x Earth talisman
+Buy: 1 x Iron ore;Köp: 1 x Iron ore
+Buy: 100 x Oak logs;Köp: 100 x Oak logs
+Buy: 4 x Coal;Köp: 4 x Coal
+Create-last;Skapa-sista
+Remove-plank;Ta bort bräda
+Sell: 100 x Death rune;Sälj: 100 x Death rune
+Sell: 16 x Iron ore;Sälj: 16 x Iron ore
+Sell: 2 x Grimy ranarr weed;Sälj: 2 x Grimy ranarr weed
