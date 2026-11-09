@@ -1,0 +1,61 @@
+Add friend;Adicionar amigo
+Add ignore;Adicionar ignorar
+Attack;Ataque
+Bank;Banco
+Buy;Comprar
+Cancel;Cancelar
+Cast;Elenco
+Check;Verificar
+Climb;Escalar
+Climb-down;Descer
+Climb-up;Subida
+Close;Fechar
+Continue;Continuar
+Deposit;Depósito
+Drink;Bebida
+Drop;Derrubar
+Eat;Comer
+Empty;Vazio
+Empty basket;Cesta vazia
+Empty Dish;Prato Vazio
+Examine;Examinar
+Exit;Saída
+Fill;Preencher
+Follow;Seguir
+Jump;Pular
+Look-at;Olhe para
+Message;Mensagem
+Net;Líquido
+Offer;Oferecer
+Open;Abrir
+Pass;Passar
+re:^Add friend (.+)$;Adicionar amigo $1
+re:^Add ignore (.+)$;Adicionar ignorar $1
+re:^Buy ([\d,]+)$;Comprar $1
+re:^Buy-([\d,]+)$;Comprar-$1
+re:^Buy: ([\d,]+) x (.+)$;Comprar: $1 x $2
+re:^Default quantity: ([\d,]+)$;Quantidade padrão: $1
+re:^Deposit ([\d,]+)$;Depositar $1
+re:^Deposit-([\d,]+)$;Depositar-$1
+re:^Remove-([\d,]+)$;Remover-$1
+re:^Sell ([\d,]+)$;Vender $1
+re:^Sell-([\d,]+)$;Vender-$1
+re:^Sell: ([\d,]+) x (.+)$;Vender: $1 x $2
+re:^Take-([\d,]+)$;Pegar-$1
+re:^Withdraw ([\d,]+)$;Retirar $1
+re:^Withdraw-([\d,]+)$;Retirar-$1
+Remove;Remover
+Report;Relatório
+Retrieve;Recuperar
+Search;Procurar
+Store;Loja
+Take;Pegar
+Talk-to;Fale com
+Teleport;Teleporte
+Trade;Troca
+Use;Usar
+View;Visualizar
+Walk here;Caminhe aqui
+Wear;Vestir
+Wield;Empunhar
+Withdraw;Retirar

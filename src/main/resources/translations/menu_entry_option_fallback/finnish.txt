@@ -1,0 +1,61 @@
+Add friend;Lisää ystävä
+Add ignore;Lisää ohitus
+Attack;Hyökkäys
+Bank;Pankki
+Buy;Ostaa
+Cancel;Peruuttaa
+Cast;Heittää
+Check;Tarkista
+Climb;Kiivetä
+Climb-down;Perääntyminen
+Climb-up;Kiipeäminen
+Close;Lähellä
+Continue;Jatkaa
+Deposit;Tallettaa
+Drink;Juoda
+Drop;Pudota
+Eat;Syödä
+Empty;Tyhjä
+Empty basket;Tyhjä kori
+Empty Dish;Tyhjä astia
+Examine;Tutki
+Exit;Poistu
+Fill;Täyttää
+Follow;Seuraa
+Jump;Hypätä
+Look-at;Katsokaa
+Message;Viesti
+Net;Net
+Offer;Tarjous
+Open;Avata
+Pass;Syöttö
+re:^Add friend (.+)$;Lisää ystävä $1
+re:^Add ignore (.+)$;Lisää ohitus $1
+re:^Buy ([\d,]+)$;Osta $1
+re:^Buy-([\d,]+)$;Osta-$1
+re:^Buy: ([\d,]+) x (.+)$;Osta: $1 x $2
+re:^Default quantity: ([\d,]+)$;Oletusmäärä: $1
+re:^Deposit ([\d,]+)$;Talleta $1
+re:^Deposit-([\d,]+)$;Talleta-$1
+re:^Remove-([\d,]+)$;Poista-$1
+re:^Sell ([\d,]+)$;Myy $1
+re:^Sell-([\d,]+)$;Myy-$1
+re:^Sell: ([\d,]+) x (.+)$;Myy: $1 x $2
+re:^Take-([\d,]+)$;Ota-$1
+re:^Withdraw ([\d,]+)$;Nosta $1
+re:^Withdraw-([\d,]+)$;Nosta-$1
+Remove;Poistaa
+Report;Raportoi
+Retrieve;Hakea
+Search;Haku
+Store;Store
+Take;Ota
+Talk-to;Keskustele
+Teleport;Teleportoi
+Trade;Kauppa
+Use;Käyttää
+View;Näytä
+Walk here;Kävele täällä
+Wear;Käyttää
+Wield;Käytellä
+Withdraw;Peruuttaa

@@ -1,0 +1,61 @@
+Add friend;Lägg till vän
+Add ignore;Lägg till ignorera
+Attack;Attack
+Bank;Bank
+Buy;Köpa
+Cancel;Avboka
+Cast;Kasta
+Check;Kontrollera
+Climb;Klättra
+Climb-down;Klättra ner
+Climb-up;Klättra upp
+Close;Nära
+Continue;Fortsätta
+Deposit;Deposition
+Drink;Dryck
+Drop;Släppa
+Eat;Äta
+Empty;Tömma
+Empty basket;Tom korg
+Empty Dish;Tom skål
+Examine;Undersöka
+Exit;Utgång
+Fill;Fylla
+Follow;Följa
+Jump;Hoppa
+Look-at;Titta-på
+Message;Meddelande
+Net;Netto
+Offer;Erbjuda
+Open;Öppna
+Pass;Passera
+re:^Add friend (.+)$;Lägg till vän $1
+re:^Add ignore (.+)$;Lägg till ignorera $1
+re:^Buy ([\d,]+)$;Köp $1
+re:^Buy-([\d,]+)$;Köp-$1
+re:^Buy: ([\d,]+) x (.+)$;Köp: $1 x $2
+re:^Default quantity: ([\d,]+)$;Standardkvantitet: $1
+re:^Deposit ([\d,]+)$;Sätt in $1
+re:^Deposit-([\d,]+)$;Sätt in-$1
+re:^Remove-([\d,]+)$;Ta bort-$1
+re:^Sell ([\d,]+)$;Sälj $1
+re:^Sell-([\d,]+)$;Sälj-$1
+re:^Sell: ([\d,]+) x (.+)$;Sälj: $1 x $2
+re:^Take-([\d,]+)$;Ta-$1
+re:^Withdraw ([\d,]+)$;Ta ut $1
+re:^Withdraw-([\d,]+)$;Ta ut-$1
+Remove;Ta bort
+Report;Rapportera
+Retrieve;Hämta
+Search;Söka
+Store;Lagra
+Take;Ta
+Talk-to;Prata med
+Teleport;Teleportera
+Trade;Handel
+Use;Använda
+View;Se
+Walk here;Gå hit
+Wear;Bära
+Wield;Svinga
+Withdraw;Dra tillbaka

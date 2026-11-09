@@ -47,6 +47,7 @@ class TranslationStore
 
 	private static final String BUNDLED_OVERRIDES = "/translations/overrides/%s.txt";
 	private static final String BUNDLED_INTERFACE = "/translations/interface/%s.txt";
+	private static final String BUNDLED_MENU_OPTION = "/translations/menu_entry_option_fallback/%s.txt";
 	private static final String PATTERN_PREFIX = "re:";
 
 	/**
@@ -162,9 +163,12 @@ class TranslationStore
 			merged = new HashMap<>();
 			if (type.isBundled())
 			{
+				String resource = type == TranslationType.MENU_OPTION
+					? BUNDLED_MENU_OPTION
+					: BUNDLED_INTERFACE;
 				readOverrides(
 					merged,
-					TranslationStore.class.getResourceAsStream(String.format(BUNDLED_INTERFACE, language)),
+					TranslationStore.class.getResourceAsStream(String.format(resource, language)),
 					"bundled " + type.fileName() + " " + language);
 			}
 

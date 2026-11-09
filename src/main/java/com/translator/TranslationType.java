@@ -17,7 +17,7 @@ public enum TranslationType
 	/** Game object names, eg. {@code Tree}. */
 	OBJECT("object", false, false),
 	/** Right click menu options, eg. {@code Talk-to}. */
-	MENU_OPTION("menu_entry_option", false, true),
+	MENU_OPTION("menu_entry_option", true, true),
 	/** Interface texts (quest journals, achievement diaries, combat achievements). */
 	INTERFACE("interface", true, true);
 

@@ -1,0 +1,61 @@
+Add friend;Vriend toevoegen
+Add ignore;Voeg negeren toe
+Attack;Aanval
+Bank;Bank
+Buy;Kopen
+Cancel;Annuleren
+Cast;Vorm
+Check;Rekening
+Climb;Beklimmen
+Climb-down;Klim naar beneden
+Climb-up;Klim omhoog
+Close;Dichtbij
+Continue;Doorgaan
+Deposit;Borg
+Drink;Drankje
+Drop;Druppel
+Eat;Eten
+Empty;Leeg
+Empty basket;Lege mand
+Empty Dish;Lege schotel
+Examine;Onderzoeken
+Exit;Uitgang
+Fill;Vullen
+Follow;Volgen
+Jump;Springen
+Look-at;Kijk-naar
+Message;Bericht
+Net;Netto
+Offer;Aanbod
+Open;Open
+Pass;Doorgang
+re:^Add friend (.+)$;Vriend toevoegen $1
+re:^Add ignore (.+)$;Voeg negeren toe $1
+re:^Buy ([\d,]+)$;Kopen $1
+re:^Buy-([\d,]+)$;Kopen-$1
+re:^Buy: ([\d,]+) x (.+)$;Kopen: $1 x $2
+re:^Default quantity: ([\d,]+)$;Standaardhoeveelheid: $1
+re:^Deposit ([\d,]+)$;Storten $1
+re:^Deposit-([\d,]+)$;Storten-$1
+re:^Remove-([\d,]+)$;Verwijderen-$1
+re:^Sell ([\d,]+)$;Verkopen $1
+re:^Sell-([\d,]+)$;Verkopen-$1
+re:^Sell: ([\d,]+) x (.+)$;Verkopen: $1 x $2
+re:^Take-([\d,]+)$;Nemen-$1
+re:^Withdraw ([\d,]+)$;Opnemen $1
+re:^Withdraw-([\d,]+)$;Opnemen-$1
+Remove;Verwijderen
+Report;Rapport
+Retrieve;Uittreden
+Search;Zoekopdracht
+Store;Winkel
+Take;Nemen
+Talk-to;Praat mee
+Teleport;Teleporteren
+Trade;Handel
+Use;Gebruik
+View;Weergave
+Walk here;Loop hier
+Wear;Dragen
+Wield;Hanteren
+Withdraw;Terugtrekken
