@@ -3641,3 +3641,9 @@ re:^Add friend (.+)$;Lägg till vän $1
 re:^Add ignore (.+)$;Lägg till ignorera $1
 re:^Remove-([\d,]+)$;Ta bort-$1
 re:^Take-([\d,]+)$;Ta-$1
+Enable-autotele;Aktivera-autotele
+Challenges;Utmaningar
+Reclaim-items;Återta-föremål
+Align-net;Justera-net
+Create-last;Skapa-sista
+Remove-plank;Ta-bort-planka
