@@ -34,7 +34,8 @@ import java.util.regex.PatternSyntaxException;
  *
  * <p>Corrections are applied on top of the downloaded data in this order:</p>
  * <ol>
- *   <li>dictionaries from {@code github.com/iolave/osrs-translations}</li>
+ *   <li>dictionaries from {@code github.com/iolave/osrs-translations} or the curated
+ *       translation repository</li>
  *   <li>corrections bundled with the plugin ({@code /translations/overrides/<lang>.txt})</li>
  *   <li>the user's own corrections ({@code ~/.runelite/plugin-data/translator-enhanced/overrides/<lang>.txt})</li>
  * </ol>
