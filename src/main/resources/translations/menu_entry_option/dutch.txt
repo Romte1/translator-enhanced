@@ -5355,3 +5355,20 @@ Friends/Clan Only;Alleen vrienden/clan
 View Party:;Bekijk partij:
 Flip;Omdraaien
 Begin;Beginnen
+Withdraw-454;Opnemen-454
+Deposit-454;Storten-454
+Default quantity: 454;Standaardhoeveelheid: 454
+Enable-autotele;Automatisch-tele activeren
+Challenges;Uitdagingen
+Information;Informatie
+Reclaim-items;Items terugvorderen
+Align-net;Net uitlijnen
+Buy: 1 x Earth talisman;Kopen: 1 x Earth talisman
+Buy: 1 x Iron ore;Kopen: 1 x Iron ore
+Buy: 100 x Oak logs;Kopen: 100 x Oak logs
+Buy: 4 x Coal;Kopen: 4 x Coal
+Create-last;Maak-laatste
+Remove-plank;Verwijder-plank
+Sell: 100 x Death rune;Verkopen: 100 x Death rune
+Sell: 16 x Iron ore;Verkopen: 16 x Iron ore
+Sell: 2 x Grimy ranarr weed;Verkopen: 2 x Grimy ranarr weed
