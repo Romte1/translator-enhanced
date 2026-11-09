@@ -3641,3 +3641,9 @@ re:^Add friend (.+)$;Freund hinzufügen $1
 re:^Add ignore (.+)$;Ignorieren hinzufügen $1
 re:^Remove-([\d,]+)$;Entfernen-$1
 re:^Take-([\d,]+)$;Nehmen-$1
+Enable-autotele;Aktivieren-Autotele
+Challenges;Herausforderungen
+Reclaim-items;Zurückfordern-Gegenstände
+Align-net;Ausrichten-Netz
+Create-last;Erstellen-letztes
+Remove-plank;Entfernen-Brett
