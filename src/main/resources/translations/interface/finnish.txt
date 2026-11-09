@@ -205,3 +205,41 @@ Something of an expert myself;Olen itsekin asiantuntija
 Space is Tight;Tilaa on vähän
 Stick 'em With the Pointy End;Pistä ne terävällä päällä
 Stop Drop and Roll;Pysähdy, laskeudu ja kieriskele
+<col=000000>the Falador Castle courtyard.;<col=000000>Falador Castlein sisäpiha.
+You are awarded:;Sinulle annetaan:
+<col=000000>If I ever lose my Falador shield I can speak to Sir Rebral in;<col=000000>Jos joskus kadotan Faladorin kilpeni, voin puhua Sir Rebralille
+<col=000000>If I ever lose my Wilderness sword I can speak to<br>the;<col=000000>Jos joskus kadotan Wilderness-miekani, voin puhua<br>tälle
+<col=000000>Lesser Fanatic by the Wilderness ditch in<br>Edgeville.;<col=000000>Lesser Fanatic Wilderness- ojassa<br>Edgevillessä.
+<str><col=ffffff>(<col=000080><str>50 Smithing</str>, <col=000080><str>Started Between a Rock...</str><col=ffffff>);<str><col=ffffff>(<col=000080><str>50 Smithing</str>, <col=000080><str>Aloitettu Between a Rock...</str><col=ffffff>)
+<col=000000>Gnome Child north at the Gnome Stronghold.;<col=000000>Gnome Child pohjoisessa Gnome Strongholdissa.
+<str>Kill the Thermonuclear Smoke devil.;<str>Tapaa Thermonuclear Smoke devil.
+<col=000000>Varrock square.;<col=000000>Varrockin aukio.
+<str>Bake a summer pie in the Cooking Guild.<col=ffffff>(<col=000080><str>95 Cooking</str><col=ffffff>);<str>Leivo kesäpiirakka Cooking Guildissa.<col=ffffff>(<col=000080><str>95 Cooking</str><col=ffffff>)
+<str>Browse Thessalia's store.;<str>Selaa Thessalia's kauppaa.
+<str>Buy a newspaper.;<str>Osta sanomalehti.
+<str>Catch some trout in the River Lum at Barbarian Village.<col=ffffff>(<col=000080><str>20 Fishing</str><col=ffffff>);<str>Pyydä lohta River Lumissa Barbarian Village.<col=ffffff>(<col=000080><str>20 Fishing</str><col=ffffff>)
+<str>Chop down a dying tree in the Lumber Yard.;<str>Kaada kuoleva puu Lumber Yardissa.
+<str>Complete a lap of the Varrock Agility course.<col=ffffff>(<col=000080><str>30 Agility</str><col=ffffff>);<str>Suorita kierros Varrock Agility -radalta.<col=ffffff>(<col=000080><str>30 Agility</str><col=ffffff>)
+<str>Craft some Earth runes from Essence.<col=ffffff>(<col=000080><str>9 Runecraft</str><col=ffffff>);<str>Valmista Earth -riimuja Essence:stä.<col=ffffff>(<col=000080><str>9 Runecraft</str><col=ffffff>)
+<str>Enter the Champions' Guild.<col=ffffff>(<col=000080><str>32 Quest points</str><col=ffffff>);<str>Mene Champions' Guildiin.<col=ffffff>(<col=000080><str>32 Quest points</str><col=ffffff>)
+<str>Enter the second level of the Stronghold of<br>Security.;<str>Mene Stronghold of<br>Securityn toiselle tasolle.
+<str>Get a Slayer task from Vannaka.<col=ffffff>(<col=000080><str>40 Combat</str><col=ffffff>);<str>Hanki Slayer-tehtävä Vannakalta.<col=ffffff>(<col=000080><str>40 Combat</str><col=ffffff>)
+<str>Give a dog a bone!;<str>Anna koiralle luu!
+<str>Jump over the fence south of Varrock.<col=ffffff>(<col=000080><str>13 Agility</str><col=ffffff>);<str>Hyppää aidan yli Varrockin eteläpuolella.<col=ffffff>(<col=000080><str>13 Agility</str><col=ffffff>)
+<str>Make 20 Mahogany Planks in one go.;<str>Valmista 20 Mahogany Planks kerralla.
+<str>Make a normal plank at the Sawmill.;<str>Valmista tavallinen plank Sawmillissa.
+<str>Mine some Iron in the south east mining patch near;<str>Kaiva rautaa Kaakkoisessa kaivosalueessa lähellä
+<str>Perform the 4 emotes from the Stronghold of<br>Security.;<str>Suorita 4 elettä Stronghold of<br>Security.
+<str>Pray at the altar in Varrock palace with Smite active.<col=ffffff>(<col=000080><str>52 Prayer</str><col=ffffff>);<str>Rukoile alttarilla Varrockin palatsissa Smite-kykyllä.<col=ffffff>(<col=000080><str>52 Prayer</str><col=ffffff>)
+<str>Select a colour for your kitten.;<str>Valitse väri kissallesi.
+<str>Steal from the Tea stall in Varrock.<col=ffffff>(<col=000080><str>5 Thieving</str><col=ffffff>);<str>Varasta Tea stall Varrockissa.<col=ffffff>(<col=000080><str>5 Thieving</str><col=ffffff>)
+<str>Teleport to Barbarian Village with a skull<br>sceptre.;<str>Teleporttaa Barbarian Villageen skull<br>sceptrella.
+<str>Teleport to Paddewwa.<col=ffffff>(<col=000080><str>54 Magic</str>, <col=000080><str>Desert Treasure I</str><col=ffffff>);<str>Teleporttaa Paddewwaan.<col=ffffff>(<col=000080><str>54 Magic</str>, <col=000080><str>Desert Treasure I</str><col=ffffff>)
+<str>Teleport to the digsite using a Digsite pendant.<col=ffffff>(<col=000080><str>The Dig Site</str><col=ffffff>);<str>Teleporttaa digsiteen Digsite pendantilla.<col=ffffff>(<col=000080><str>The Dig Site</str><col=ffffff>)
+<str>Trade furs with the Fancy Dress Seller for a<br>spottier cape;<str>Käy vaihtamassa turkkeja Fancy Dress Sellerin kanssa saadaksesi<br>spottier cape
+<str>Use the balloon to travel from Varrock.;<str>Käytä ilmapalloa matkustaaksesi Varrockista.
+<str>Use the spirit tree north of Varrock.<col=ffffff>(<col=000080><str>Tree Gnome Village</str><col=ffffff>);<str>Käytä spirit treea Varrockin pohjoispuolella.<col=ffffff>(<col=000080><str>Tree Gnome Village</str><col=ffffff>)
+<str>and equip it.<col=ffffff>(<col=000080><str>66 Hunter</str><col=ffffff>);<str>ja varusta se.<col=ffffff>(<col=000080><str>66 Hunter</str><col=ffffff>)
+<str>potion.;<str>taikajuoma.
+<col=000000>If I ever lose my Varrock armour I can speak to<br>Toby in;<col=000000>Jos koskaan kadotan Varrock-armorini, voin puhua Tobylle<br>in
+<col=000000>If I ever lose my Western banner I can speak to the Elder;<col=000000>Jos koskaan kadotan Western-lippuni, voin puhua Elderille

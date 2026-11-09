@@ -5355,3 +5355,20 @@ Friends/Clan Only;Vain ystävät/klaanit
 View Party:;Näytä juhlat:
 Flip;Kääntää
 Begin;Alkaa
+Withdraw-454;Nosta-454
+Deposit-454;Talleta-454
+Default quantity: 454;Oletusmäärä: 454
+Enable-autotele;Ota automaattitele käyttöön
+Challenges;Haasteet
+Information;Tietoa
+Reclaim-items;Palauta esineet
+Align-net;Aseta verkko
+Buy: 1 x Earth talisman;Osta: 1 x Earth talisman
+Buy: 1 x Iron ore;Osta: 1 x Iron ore
+Buy: 100 x Oak logs;Osta: 100 x Oak logs
+Buy: 4 x Coal;Osta: 4 x Coal
+Create-last;Luo viimeinen
+Remove-plank;Poista lauta
+Sell: 100 x Death rune;Myy: 100 x Death rune
+Sell: 16 x Iron ore;Myy: 16 x Iron ore
+Sell: 2 x Grimy ranarr weed;Myy: 2 x Grimy ranarr weed
