@@ -223,7 +223,6 @@ All;Alle
 Enter quantity;Voer het aantal in
 +1;+1
 Offer;Aanbod
-Buy: 1 x Nature rune;Koop: 1 x Natuurrune
 Buy-offer;Koop-aanbieding
 Chop-down;Afhaken
 Look North;Kijk naar het noorden
@@ -262,21 +261,14 @@ Guide;Gids
 View tab;Tabblad bekijken
 Collapse tab;Tabblad samenvouwen
 Withdraw-X;Intrekken-X
-Withdraw-10000;Intrekken-10000
-Withdraw-10;Intrekken-10
 Withdraw-All;Alles intrekken
 Remove placeholders;Tijdelijke aanduidingen verwijderen
-Withdraw-5;Intrekken-5
 Withdraw-All-but-1;Trek-alles-behalve-1 terug
-Withdraw-1;Intrekken-1
 Release;Uitgave
-Default quantity: 10,000;Standaardhoeveelheid: 10.000
-Default quantity: 1;Standaardhoeveelheid: 1
 Set custom quantity;Aangepaste hoeveelheid instellen
 View tag tab;Tabblad Tag bekijken
 Rename tag tab;Hernoem het tagtabblad
 Delete tag tab;Tabblad Tag verwijderen
-Default quantity: 10;Standaardhoeveelheid: 10
 Enable layout;Indeling inschakelen
 Change icon;Pictogram wijzigen
 Export tag tab;Tabblad Exporttag
@@ -299,10 +291,7 @@ Default quantity: All;Standaardhoeveelheid: Alles
 Deposit inventory;Inventaris deponeren
 Deposit worn items;Bewaar versleten artikelen
 Disable;Uitzetten
-Default quantity: 5;Standaardhoeveelheid: 5
-Withdraw-14;Intrekken-14
 Pay (Fruit tree);Betalen (Fruitboom)
-Default quantity: 14;Standaardhoeveelheid: 14
 Wield;Hanteren
 Wear;Dragen
 Dismantle;Ontmantelen
@@ -347,9 +336,6 @@ Deposit-All;Storting-Alles
 Default quantity: <col=ff9040>5</col>;Standaard aantal: <col=ff9040>5</col>
 Deposit Lock Settings;Instellingen voor stortingsvergrendeling
 Disable inventory locks;Schakel voorraadvergrendelingen uit
-Deposit-10;Borg-10
-Deposit-1;Borg-1
-Deposit-5;Storting-5
 Default quantity: <col=ff9040>1</col>;Standaard aantal: <col=ff9040>1</col>
 Shave;Scheren
 Haircut;Kapsel
@@ -398,8 +384,6 @@ Restore Default Zoom;Herstel standaardzoom
 Select <col=ff981f>Interfaces;Selecteer <col=ff981f>Interfaces
 Buy-X;Koop-X
 Potions;Drankjes
-Buy-5;Koop-5
-Buy-1;Koop-1
 Buy-All;Koop-alles
 Show worn items;Laat gedragen items zien
 Bottom-floor;Benedenverdieping
@@ -468,11 +452,9 @@ Pass;Doorgang
 <col=ffff00>Group:</col> Show all;<col=ffff00>Groep:</col> Alles weergeven
 <col=ffff00>Group:</col> Show none;<col=ffff00>Groep:</col> Geen tonen
 Quench;Afschrikken
-Withdraw-18;Intrekken-18
 Inside;Binnen
 Home;Thuis
 Group;Groep
-Deposit-18;Borg-18
 Build mode;Bouwmodus
 Resurrect;Herrijzen
 Friend's house;Het huis van een vriend
@@ -514,12 +496,7 @@ Chart;Grafiek
 Last-destination (AIP);Laatste bestemming (AIP)
 Zoom out;Uitzoomen
 Zanaris;Zanaris
-Buy 50;Koop 50
 Value;Waarde
-Buy 10;Koop 10
-Buy 1;Koop 1
-Buy-50;Koop-50
-Buy 5;Koop 5
 Climb-over;Klim eroverheen
 Milk;Melk
 Take-axe;Neem-bijl
@@ -555,7 +532,6 @@ View journal <col=ff981f>X Marks the Spot</col>;Bekijk dagboek <col=ff981f>X Mar
 Sell 50<col=ff9040>;Verkoop 50<col=ff9040>
 Sell 10<col=ff9040>;Verkoop 10<col=ff9040>
 Sell 1<col=ff9040>;Verkoop 1<col=ff9040>
-Buy-10;Koop-10
 Value<col=ff9040>;Waarde<col=ff9040>
 Feel;Gevoel
 Sell 5<col=ff9040>;Verkoop 5<col=ff9040>
@@ -629,7 +605,6 @@ Group: Previous;Groep: Vorige
 Pray;Bidden
 Investigate;Onderzoeken
 Jump-onto;Spring erop
-Withdraw-500;Intrekken-500
 Move-left;Verplaats naar links
 Grab;Grijp
 Move-down;Omlaag
@@ -643,9 +618,7 @@ Add-X<col=ff9040>;Add-X<col=ff9040>
 Add-10<col=ff9040>;Optellen-10<col=ff9040>
 Add-All<col=ff9040>;Alles toevoegen<col=ff9040>
 Add<col=ff9040>;Voeg<col=ff9040> ​​toe
-Deposit-500;Borg-500
 Check charges;Controleer de kosten
-Default quantity: 500;Standaardhoeveelheid: 500
 Filter;Filter
 Load-outs;Uitladingen
 Done;Klaar
@@ -707,7 +680,6 @@ Collect-note;Verzamel-notitie
 Collect-item;Verzamelitem
 Disable <col=ff9040>Notes;Schakel <col=ff9040>Notities uit
 Info;Info
-Sell: 1 x Bronze med helm;Verkoop: 1 x bronzen med helm
 Pick-Lock;Inbreker
 Collect-items;Verzamel-items
 Collect-notes;Verzamel-notities
@@ -723,35 +695,19 @@ Tan <col=ff7000>1;Geelbruin <col=ff7000>1
 Tan <col=ff7000>All;Geelbruin <col=ff7000>Alles
 Smithing;Smeedwerk
 Remove-X;Verwijder-X
-Remove-10;Verwijderen-10
-Remove-5;Verwijderen-5
 Remove-All;Alles verwijderen
 Hunter;Jager
 Firemaking;Vuur maken
 Enable <col=ff9040>Swap;Schakel <col=ff9040>Wisselen in
 Add all;Voeg alles toe
 Release all placeholders (1);Alle tijdelijke aanduidingen vrijgeven (1)
-Buy: 160 x Cowhide;Koop: 160 x koeienhuid
 Set price;Prijs instellen
-Sell: 195 x Leather;Verkoop: 195 x leer
-Sell: 175 x Leather;Verkoop: 175 x leer
-Buy: 10 x Air tiara;Koop: 10 x Air tiara
-Buy: 2 x Ring mould;Koop: 2 x ringvorm
 pic;foto
 Set quantity;Hoeveelheid instellen
 Set wiki price;Stel de wikiprijs in
 Accept trade;Accepteer handel
 Accept;Accepteren
-Buy: 1 x Mithril gold-trimmed set (lg);Kopen: 1 x Mithril set met gouden randen (lg)
-Buy: 15 x Diamond;Koop: 15 x Diamant
-Sell: 55 x Emerald;Verkoop: 55 x Smaragd
-Buy: 55 x Emerald;Koop: 55 x Smaragd
-Buy: 1 x Poison;Koop: 1 x Gif
-Buy: 34 x Ruby necklace;Koop: 34 x Robijn ketting
 Search for item;Zoek naar artikel
-Sell: 124 x Tuna;Verkoop: 124 x Tonijn
-Buy: 1 x Rune axe;Koop: 1 x Runenbijl
-Sell: 83 x Energy potion(4);Verkoop: 83 x Energiedrank(4)
 Check-Count;Controletelling
 Bash;Bas
 Earth Bolt;Aarde Bout
@@ -767,9 +723,7 @@ Push;Duw
 Quantity:;Hoeveelheid:
 View Smithing on the Wiki;Bekijk Smithing op de Wiki
 Pull;Trekken
-Buy: 129 x Limpwurt root;Koop: 129 x Limpwurtwortel
 View <col=ff9040>Mining</col> guide;Bekijk de <col=ff9040>Mijnbouw</col> gids
-Buy: 600 x Hammer;Koop: 600 x Hamer
 Pick refreshment;Kies verfrissing
 Focus;Focus
 Open <col=ff9040>Morytania Journal</col>;Open <col=ff9040>Morytania-dagboek</col>
@@ -817,7 +771,6 @@ Fur Clothing;Bontkleding
 Brimhaven;Brimhaven
 Aldarin;Aldarin
 Taverley;Taverley
-Default quantity: 200,000,000;Standaardhoeveelheid: 200.000.000
 Prifddinas;Prifddina's
 Lock-slot;Slot-gleuf
 Pollnivneach;Pollnivneach
@@ -829,10 +782,7 @@ Hosidius;Hosidius
 WOM lookup;WOM opzoeken
 Unload;Lossen
 Contract;Contract
-Withdraw-200000000;Intrekken-200000000
 Rimmington;Rimmington
-Deposit-200000000;Storting-200000000
-Deposit-14;Storting-14
 Purchase Amulet;Amulet kopen
 Drink-from;Drink-van
 Float Canoe;Vlotter kano
@@ -865,11 +815,9 @@ Take-seed;Neem zaad
 Take-pickaxe;Neem-houweel
 Dyes;Kleurstoffen
 Anadir ignorar;Anadir negeert
-Withdraw-50000;Intrekken-50000
 Informe;Informeer
 activar;activar
 Anadir amigo;Anadir amigo
-Deposit-50000;Borg-50000
 Accurate;Nauwkeurig
 Longrange;Lange afstand
 Prod;Prod
@@ -879,11 +827,8 @@ Glider-to Ta Quir Priw;Zweefvliegtuig naar Ta Quir Priw
 Travel to<col=ff9040> Barbarian Village;Reis naar<col=ff9040> ​​Barbarendorp
 Travel to<col=ff9040> Edgeville;Reis naar<col=ff9040> ​​Edgeville
 Downgrade;Downgraden
-Buy: 1 x Dragon axe;Koop: 1 x Drakenbijl
 Seers' Village;Zienersdorp
 Camelot;Camelot
-Deposit-120000;Borg-120000
-Withdraw-120000;Intrekken-120000
 Gehen Sie hier;Gehen Sie hier
 Reden mit;Reden mit
 Prüfen;Prüfen
@@ -922,7 +867,6 @@ Coin Collection;Muntenverzameling
 Boss Log;Baas Logboek
 Miscellania;Diversen
 Falador;Falador
-Deposit-10000;Borg-10000
 Skrach Uglogwee;Skrach Uglogwee
 Lumbridge Guide;Lumbridge-gids
 Wartface & Bentnoze;Wrattengezicht & Bentnoze
@@ -931,7 +875,6 @@ Evil Dave;Slechte Dave
 Mountain Dwarf;Berg dwerg
 Pirate Pete;Piraat Piet
 Sir Amik Varze;Heer Amik Varze
-Buy: 10 x Stamina potion(4);Koop: 10 x Stamina-drankje(4)
 Pass-through;Doorgang
 +99%;+99%
 Cut;Snee
@@ -963,10 +906,6 @@ Breach Check;Controle op inbreuk
 Shop;Winkel
 Unlocks;Ontgrendelt
 Prayers;Gebeden
-Sell-10;Verkopen-10
-Sell-1;Verkoop-1
-Sell-5;Verkopen-5
-Sell-50;Verkopen-50
 Deadman;Dode man
 Points Info;Punteninformatie
 About;Over
@@ -981,16 +920,11 @@ Select <col=ff9040>Confirm</col>;Selecteer <col=ff9040>Bevestigen</col>
 Dream;Droom
 Ammo;Munitie
 Toggle setting;Schakel instelling
-Withdraw-19;Intrekken-19
-Default quantity: 19;Standaardhoeveelheid: 19
 Manoeuvre-past;Manoeuvre-verleden
-Buy: 1 x Yellow dye;Kopen: 1 x Gele kleurstof
 View <col=ff9040>Firemaking</col> guide;Bekijk de <col=ff9040>Vuurmaken</col> handleiding
 Weave;Weven
 Take-boat;Neem-boot
 Ardougne;Ardougné
-Withdraw-100;Intrekken-100
-Deposit-100;Borg-100
 Remove-coal;Verwijder-kolen
 Tuxedo-time;Smoking-tijd
 Turn;Draai
@@ -1030,10 +964,6 @@ A;A
 Play your tune.;Speel je deuntje.
 F#;F#
 C#;C#
-Default quantity: 100;Standaardhoeveelheid: 100
-Deposit-1000;Borg-1000
-Withdraw-1000;Intrekken-1000
-Sell: 17 x Big bones;Verkoop: 17 x Grote botten
 Previous;Vorig
 45 days membership;45 dagen lidmaatschap
 Buy Bonds;Koop obligaties
@@ -1048,8 +978,6 @@ Murder;Moord
 Walk-on;Doorloopbaar
 Chill;Chill
 Fix;Repareren
-Take-5;Neem-5
-Take-10;Neem-10
 Bail-with;Borgtocht met
 Comercio con;Commercieel con
 conjuntos;conjunto's
@@ -1064,9 +992,7 @@ Recolectar;Recolectar
 Offer-X<col=ff9040>;Aanbieding-X<col=ff9040>
 Offer<col=ff9040>;Aanbieding<col=ff9040>
 Offer-All<col=ff9040>;Aanbieding-alles<col=ff9040>
-Deposit-107;Borg-107
 Offer-10<col=ff9040>;Aanbieding-10<col=ff9040>
-Withdraw-107;Intrekken-107
 Offer-5<col=ff9040>;Aanbieding-5<col=ff9040>
 Assignment;Opdracht
 Last-destination (DKS);Laatste bestemming (DKS)
@@ -1074,18 +1000,14 @@ Add Favourite;Favoriet toevoegen
 Use code;Gebruik code
 Destroy ALL;Vernietig ALLES
 Comer;Komer
-Deposit-5000;Borg-5000
 Llevar;Llevar
 Precios;Precisies
-Withdraw-5000;Intrekken-5000
 Cocinando;Cocinando
 BotÃ­n;Botín
 Kandarin Monastery;Kandarin-klooster
-Default quantity: 107;Standaard aantal: 107
 Empunar;Empunar
 Deposito;Storting
 +50%;+50%
-Default quantity: 5,000;Standaardhoeveelheid: 5.000
 Tener puesto;Tener puesto
 -50%;-50%
 Vista;Uitzicht
@@ -1112,9 +1034,6 @@ Leap;Sprong
 Mark;Markering
 Unmark;Markering opheffen
 Open GE Tracker to;Open GE Tracker voor
-Buy: 1 x Iron scimitar;Koop: 1 x ijzeren kromzwaard
-Buy: 1 x Iron platebody;Koop: 1 x ijzeren plaatlichaam
-Sell: 1 x Iron dagger;Verkoop: 1 x IJzeren dolk
 Wind Strike;Windaanval
 Fire Wave;Vuurgolf
 Wind Bolt;Windbout
@@ -1133,9 +1052,6 @@ Last-destination (DJR);Laatste bestemming (DJR)
 Illegal / harmful content;Illegale/schadelijke inhoud
 Last-destination (AKR);Laatste bestemming (AKR)
 Hammer;Hamer
-Deposit-600;Borg-600
-Withdraw-600;Intrekken-600
-Withdraw-200000;Intrekken-200000
 Prospect;Verwachting
 Wind-up;Opwinden
 Look-under;Kijk onder
@@ -1144,8 +1060,6 @@ Climb-across;Klim over
 Swing-on;Swing-aan
 Swing-across;Zwaai over
 Pay-fare;Betaaltarief
-Withdraw-3000;Intrekken-3000
-Deposit-3000;Borg-3000
 Cut down;Snijd af
 Cut-wood;Gezaagd hout
 Eperlano;Eperlano
@@ -1153,10 +1067,8 @@ Last-destination (CKR);Laatste bestemming (CKR)
 Teeth-grip;Tanden-grip
 Last-destination (DKR);Laatste bestemming (DKR)
 Pick-apple;Pick-appel
-Remove-1;Verwijderen-1
 Cage;Kooi
 Banknotes;Bankbiljetten
-Default quantity: 600;Standaardhoeveelheid: 600
 Water Strike;Wateraanval
 Fire Surge;Brandgolf
 Wind Surge;Windstoot
@@ -1197,8 +1109,6 @@ Apply;Toepassen
 Edit;Bewerking
 Members;Leden
 Permissions;Machtigingen
-Withdraw-15;Intrekken-15
-Deposit-15;Borg-15
 Dive;Duiken
 Devices;Apparaten
 Charge;Aanval
@@ -1215,30 +1125,22 @@ Heal;Genezen
 Up;Omhoog
 Down;Omlaag
 Take-many;Neem-veel
-Withdraw-28;Intrekken-28
-Withdraw-65;Intrekken-65
 Change-style;Verander-stijl
 Hasty-rummage;Haastig snuffelen
 Colossal Wyrm Remains;De kolossale Wyrm-overblijfselen
 Choose;Kiezen
 Slide-along;Schuif mee
-Deposit-40;Borg-40
-Withdraw-50;Intrekken-50
-Withdraw-40;Intrekken-40
-Withdraw-2000;Intrekken-2000
 Dive in;Duik erin
 Swim to;Zwem naar
 Use-rod;Gebruik-staaf
 Swim;Zwemmen
 Construct;Construct
-Deposit-2000;Borg-2000
 Get in;Stap in
 Take treasure;Neem een ​​schat
 Get-rewards;Ontvang-beloningen
 Plant;Plant
 Last-destination (DLQ);Laatste bestemming (DLQ)
 Last-destination (AJP);Laatste bestemming (AJP)
-Default quantity: 40;Standaardhoeveelheid: 40
 Load;Laden
 Demolish;Slopen
 Quick-escape;Snel ontsnappen
@@ -1272,7 +1174,6 @@ The Pandemonium;Het pandemonium
 Repair-boat;Reparatie-boot
 Modify;Bewerken
 Set sails;Zeilen zetten
-Default quantity: 2,000;Standaardhoeveelheid: 2.000
 Build-trap;Bouwval
 Stop-navigating;Stop met navigeren
 Pry-open;Wrik open
@@ -1287,12 +1188,7 @@ Board friend's boat;Ga aan boord van de boot van een vriend
 Accept task;Accepteer taak
 Deposit-held;In deposito gehouden
 Deposit-cargo;Statiegeld
-Withdraw-7;Intrekken-7
-Deposit-7;Storting-7
 Select option B;Selecteer optie B
-Default quantity: 7;Standaardhoeveelheid: 7
-Withdraw-2;Intrekken-2
-Deposit-2;Storting-2
 Last-destination (DKP);Laatste bestemming (DKP)
 Reinforce;Versterken
 Burst;Uitbarsting
@@ -1306,11 +1202,6 @@ Check-charge;Cheque-kosten
 Enakhra's Temple Entrance;Enakhra's tempelingang
 Last-tier contract;Contract op het laatste niveau
 Fire-at;Vuur-op
-Deposit-35000;Borg-35000
-Withdraw-35000;Intrekken-35000
-Default quantity: 35,000;Standaardhoeveelheid: 35.000
-Deposit-3;Storting-3
-Withdraw-3;Intrekken-3
 Collect-data;Verzamel-gegevens
 Bloom;Bloeien
 Listen;Luisteren
@@ -1320,9 +1211,6 @@ Last-destination (CLR);Laatste bestemming (CLR)
 Flush;Spoelen
 Last-destination (AKQ);Laatste bestemming (AKQ)
 Set-trap;Set-trap
-Deposit-30;Borg-30
-Withdraw-30;Intrekken-30
-Default quantity: 30;Standaardhoeveelheid: 30
 Check totals;Controleer de totalen
 Reverse;Achteruit
 Stop boat;Boot stoppen
@@ -1342,7 +1230,6 @@ Last-destination (AKS);Laatste bestemming (AKS)
 Last-destination (CIS);Laatste bestemming (CIS)
 View journal <col=ff981f>Shilo Village</col>;Bekijk dagboek <col=ff981f>Shilo Village</col>
 View journal <col=ff981f>Priest in Peril</col>;Bekijk dagboek <col=ff981f>Priester in gevaar</col>
-Withdraw-20000;Intrekken-20000
 Get bird;Neem een ​​vogel
 Quick-Travel;Snel reizen
 Embark;Aan boord gaan
@@ -1350,9 +1237,7 @@ Take tools;Neem gereedschap
 Climb Up;Klim omhoog
 Build on;Bouw voort
 Make <col=ff9040>Ruby ring</col>;Maak <col=ff9040>Robijnring</col>
-Withdraw-13;Intrekken-13
 Make <col=ff9040>Ruby necklace</col>;Maak <col=ff9040>Robijnhalsketting</col>
-Deposit-13;Storting-13
 Make <col=ff9040>Ruby amulet (u)</col>;Maak <col=ff9040>Robijn amulet (u)</col>
 Charter-to Catherby;Charter-naar Catherby
 Blow;Blazen
@@ -1396,31 +1281,23 @@ Storage Unlocks;Opslag ontgrendelt
 Climb-through (private);Doorklimmen (privé)
 Peek (normal);Kijkje (normaal)
 Climb-through (normal);Doorloop (normaal)
-Deposit-20000;Borg-20000
 Banish;Verbannen
 Check runes;Controleer runen
 Blow-on;Opblazen
 Ring;Ring
-Deposit-1500;Borg-1500
-Withdraw-1500;Intrekken-1500
 Disable warning;Waarschuwing uitschakelen
 Leave platform;Verlaat het perron
-Withdraw-200;Intrekken-200
-Deposit-200;Borg-200
 Fend;Afweren
 Jab;Jab
-Default quantity: 200;Standaardhoeveelheid: 200
 Swipe;Veeg
 Pay (north-west);Betaal (noordwest)
 Pay (south-east);Betaal (zuidoost)
-Default quantity: 1,500;Standaardhoeveelheid: 1.500
 Change icon (fazenda);Pictogram wijzigen (fazenda)
 Disable layout;Schakel lay-out uit
 Duplicate-item;Dubbel item
 Remove-layout;Verwijder-lay-out
 Harvest;Oogst
 Cure;Genezing
-Default quantity: 13;Standaardhoeveelheid: 13
 Make <col=ff9040>Dragonstone ring</col>;Maak <col=ff9040>Drakensteenring</col>
 Convert;Overzetten
 Buy or Redeem Bonds;Obligaties kopen of inwisselen
@@ -1450,22 +1327,16 @@ Wizards' Tower;Tovenaarstoren
 Tackle;Aanpakken
 Form clan;Vorm een ​​clan
 Invite;Uitnodiging
-Withdraw-683;Intrekken-683
-Deposit-683;Borg-683
 Ban;Verbod
 Guzzle;Slik
-Default quantity: 1,000;Standaardhoeveelheid: 1.000
 <col=ffff00>Set chat mode:</col> Group (/@g);<col=ffff00>Chatmodus instellen:</col> Groep (@g)
 Directions;Routebeschrijving
-Withdraw-500000;Intrekken-500000
-Deposit-500000;Storting-500000
 Unpack;Uitpakken
 8;8 
 7;7 
 6;6 
 12 months membership;12 maanden lidmaatschap
 Temple;Tempel
-Default quantity: 50;Standaardhoeveelheid: 50
 Request;Verzoek
 Withdraw All;Alles intrekken
 Pay (south);Betaal (zuid)
@@ -1477,21 +1348,14 @@ Bonds;Obligaties
 Look up name;Naam opzoeken
 Redeem;Inwisselen
 -3%;-3%
-Deposit-1000000;Storting-1000000
 +3%;+3%
-Withdraw-1000000;Intrekken-1000000
-Withdraw-4;Intrekken-4
 Put-inside;Binnen gezet
-Deposit-80;Borg-80
-Deposit-1650;Borg-1650
-Deposit-4000;Borg-4000
 Toggle-respawn;Schakel-respawn
 Claim Pet Rock;Claim Pet Rock
 Ok;OK
 Deposit-items;Statiegeldartikelen
 Shake;Schudden
 Remove-lid;Verwijder deksel
-Buy: 1 x Salve graveyard teleport;Koop: 1 x Salve kerkhofteleportatie
 Cast Bloom;Giet Bloom
 Preview;Voorbeeld
 Colour;Kleur
@@ -1506,7 +1370,6 @@ Polish;Pools
 Enter name;Voer naam in
 View Guest Count;Bekijk het aantal gasten
 Squeeze-past;Knijp voorbij
-Default quantity: 20,000;Standaardhoeveelheid: 20.000
 Take-concoction;Take-brouwsel
 Take-5 concoctions;Take-5 brouwsels
 Talk;Gesprek
@@ -1592,35 +1455,20 @@ Walk-through;Doorloop
 Not now;Niet nu
 Jump-Down;Spring naar beneden
 Clear all;Alles wissen
-Withdraw-652;Intrekken-652
-Deposit-652;Borg-652
-Deposit-57;Borg-57
-Withdraw-66;Intrekken-66
-Withdraw-57;Intrekken-57
-Withdraw-63;Intrekken-63
 Hide <col=ff9040>Minimap</col>;Verberg <col=ff9040>Minimap</col>
 Show <col=ff9040>Minimap</col>;Toon <col=ff9040>Minikaart</col>
 Remove<col=ff9040> Focus;Verwijder<col=ff9040> ​​Focus
-Default quantity: 57;Standaard aantal: 57
 Select option A;Selecteer optie A
-Deposit-208;Borg-208
-Withdraw-208;Intrekken-208
-Withdraw-236;Intrekken-236
-Default quantity: 208;Standaardhoeveelheid: 208
 Stroke;Hartinfarct
 Pan;Pan
 Gem Mine;Edelsteen van mij
 Mount Karuulm;Mount Karuulm
 Kourend Woodland;Kourend bos
-Withdraw-195;Intrekken-195
-Withdraw-2400;Intrekken-2400
-Deposit-195;Borg-195
 View Friends List;Bekijk vriendenlijst
 Add Name;Naam toevoegen
 Delete Name;Naam verwijderen
 Water;Water
 Open link;Link openen
-Default quantity: 195;Standaardhoeveelheid: 195
 Get-training;Krijg training
 Bank-cargo;Banklading
 Honour;Eer
@@ -1634,7 +1482,6 @@ Port Roberts;Haven Roberts
 Check-ammunition;Controle-munitie
 Command;Commando
 Change loadout name;Wijzig de uitrustingsnaam
-Default quantity: 50,000;Standaardhoeveelheid: 50.000
 Open storage tab;Open het tabblad Opslag
 Reset-ammunition;Reset-munitie
 Stop following Captain's target;Stop met het volgen van het doel van de Kapitein
@@ -1663,23 +1510,14 @@ Set Hotkey (D);Sneltoets instellen (D)
 Set Hotkey (C);Sneltoets instellen (C)
 Set Hotkey (5);Sneltoets instellen (5)
 Set Hotkey (6);Sneltoets instellen (6)
-Deposit-420000;Borg-420000
-Withdraw-420000;Intrekken-420000
-Default quantity: 420,000;Standaardhoeveelheid: 420.000
 Last-destination (CJR);Laatste bestemming (CJR)
 Last-destination (CIQ);Laatste bestemming (CIQ)
 Last-destination (CIR);Laatste bestemming (CIR)
 Hang-over;Kater
-Withdraw-5529;Intrekken-5529
-Deposit-5529;Borg-5529
-Default quantity: 5,529;Standaardhoeveelheid: 5.529
 Ardougne Farm;Ardougne-boerderij
 Dump;Dumpen
-Withdraw 3;Intrekken 3
 Alchemy;Alchimie
-Withdraw 4;Intrekken 4
 Energy;Energie
-Withdraw 1;Intrekken 1
 Signal;Signaal
 Withdraw X;X intrekken
 Rumour;Gerucht
@@ -1704,7 +1542,6 @@ Start-previous-rank;Start-vorige-rang
 Start-trial;Start-proefperiode
 Jump-across;Spring over
 Last-destination (ALP);Laatste bestemming (ALP)
-Sell: 3 x Iron arrow;Verkoop: 3 x ijzeren pijl
 Quick-Pay(100);Snel betalen(100)
 Send-parcel;Pakket versturen
 Reset Safe;Veilig opnieuw instellen
@@ -1734,25 +1571,11 @@ Set Hotkey (L);Sneltoets instellen (L)
 Last-destination (ALS);Laatste bestemming (ALS)
 Descend;Afdalen
 Weiss;Weiss
-Withdraw-503;Intrekken-503
 Scoreboard;Scorebord
-Withdraw-38;Intrekken-38
-Default quantity: 38;Standaard aantal: 38
-Withdraw-25;Intrekken-25
-Withdraw-604;Intrekken-604
-Deposit-26;Borg-26
-Withdraw-26;Intrekken-26
-Deposit-25;Borg-25
-Withdraw-220;Intrekken-220
-Deposit-36;Borg-36
-Deposit-115;Borg-115
-Withdraw-115;Intrekken-115
-Withdraw-36;Intrekken-36
 Standard;Standaard
 Play-fetch;Speel-haal
 Climb up;Klim omhoog
 Lletya;Lletya
-Default quantity: 115;Standaard aantal: 115
 Target;Doel
 Activity;Activiteit
 Enter-corrupted;Enter-corrupt
@@ -1772,17 +1595,10 @@ Lower;Lager
 Claim-slime;Claim-slijm
 Port Phasmatys;Haven Phasmatys
 Charter-to Port Phasmatys;Charter-naar-haven Phasmatys
-Deposit-4;Storting-4
-Default quantity: 4;Standaardhoeveelheid: 4
-Withdraw-40000;Intrekken-40000
-Deposit-40000;Borg-40000
-Buy: 1 x Green dragonhide set;Koop: 1 x set groene drakenhuiden
 Poke;Por
 Jump off;Spring eraf
 Burgh Teleport;Burgh Teleport
 Ecto Teleport;Ecto Teleport
-Withdraw-1168;Intrekken-1168
-Deposit-1168;Borg-1168
 Store-preform;Bewaar-voorvorm
 Commission;Commissie
 Quench-preform;Afschrik-voorvorm
@@ -1798,49 +1614,18 @@ Fuel;Brandstof
 Next page;Volgende pagina
 New partner;Nieuwe partner
 Remove from playlist 1;Verwijderen uit afspeellijst 1
-Default quantity: 40,000;Standaardhoeveelheid: 40.000
 Ascend;Stijgen
-Deposit-2194;Borg-2194
-Withdraw-2194;Intrekken-2194
-Default quantity: 2,194;Standaardhoeveelheid: 2.194
 Destruir;Destruir
-Deposit-300;Borg-300
-Withdraw-300;Intrekken-300
 Claim-runes;Claim-runen
 Step-into;Stap in
-Default quantity: 300;Standaardhoeveelheid: 300
-Withdraw-2253;Intrekken-2253
-Withdraw-31;Intrekken-31
-Withdraw-2236;Intrekken-2236
-Deposit-2236;Borg-2236
-Withdraw-2539;Intrekken-2539
-Withdraw-5408;Intrekken-5408
-Withdraw-527;Intrekken-527
-Default quantity: 15;Standaardhoeveelheid: 15
 Set Hotkey (E);Sneltoets instellen (E)
 Cut-vine;Snijwijnstok
 Camarones;Camaronen
 Hardcore Ironman Group;Een hardcore Ironman-groep
-Default quantity: 2,236;Standaardhoeveelheid: 2.236
-Deposit-680;Borg-680
-Withdraw-680;Intrekken-680
 Rescue;Redden
-Default quantity: 680;Standaardhoeveelheid: 680
-Deposit-4328;Borg-4328
-Withdraw-4328;Intrekken-4328
-Withdraw-4952;Intrekken-4952
-Withdraw-5944;Intrekken-5944
-Deposit-4952;Borg-4952
-Default quantity: 4,952;Standaardhoeveelheid: 4.952
-Default quantity: 5,944;Standaardhoeveelheid: 5.944
-Withdraw-8376;Intrekken-8376
-Withdraw-8480;Intrekken-8480
-Deposit-8376;Borg-8376
 Spring;Lente
 Safety switch;Veiligheidsschakelaar
 Gear;Versnelling
-Withdraw-11896;Intrekken-11896
-Deposit-11896;Deposit-11896
 Gandius;Gandius
 Kar-Hewo;Kar-Hewo
 Swing;Schommel
@@ -1877,7 +1662,6 @@ Ouvrir;Ouvrir
 Remove-one;Verwijder één
 Lap-count;Rondetelling
 Cooking;Koken
-Default quantity: 11,896;Standaardhoeveelheid: 11.896
 Ban guest;Gast verbieden
 Kick guest;Kick gast
 Assemble;Monteren
@@ -1891,9 +1675,6 @@ Move Schematic Up;Schema omhoog verplaatsen
 Rotate the image;Draai de afbeelding
 Move Schematic Right;Verplaats schema naar rechts
 Jump-through;Doorspringen
-Withdraw-29;Intrekken-29
-Deposit-29;Borg-29
-Default quantity: 29;Standaard aantal: 29
 Set Hotkey (J);Sneltoets instellen (J)
 Set Hotkey (O);Sneltoets instellen (O)
 Set Hotkey (H);Sneltoets instellen (H)
@@ -1905,17 +1686,13 @@ Play-quietly;Speel rustig
 Entertain;Vermaken
 Disarm;Ontwapenen
 Sync WOM Group;Synchroniseer WOM-groep
-Withdraw-800;Intrekken-800
-Deposit-800;Borg-800
 Retrieve-egg;Ophalen-ei
 Expanded;Uitgebreid
 Preview auto layout;Voorbeeld van automatische lay-out
 Toggle warning;Schakel waarschuwing in
 Climb through;Klim er doorheen
 Check count;Controleer aantal
-Withdraw-150;Intrekken-150
 Disassemble;Demonteren
-Deposit-150;Borg-150
 Gloomthorn Trail;Gloomthorn-pad
 Make party;Maak feest
 Destinations;Bestemmingen
@@ -1955,7 +1732,6 @@ General-stats;Algemene statistieken
 Teleport to <col=ff8040>Clan Wars</col>;Teleporteer naar <col=ff8040>Clanoorlogen</col>
 Join <col=ff8040>Clan Wars</col> channel;Sluit je aan bij het <col=ff8040>Clan Wars</col>-kanaal
 Use this layout;Gebruik deze lay-out
-Withdraw-80;Intrekken-80
 Quick-slide;Snelle dia
 Slide;Dia
 Visual-effects;Visuele effecten
@@ -1964,7 +1740,6 @@ Deposit-runes;Deposit-runen
 Power-up;Opstarten
 Take-chisel;Neem-beitel
 Place-cell;Plaats-cel
-Take-1;Neem-1
 Dark Mage;Donkere Magiër
 View-stats;Bekijk statistieken
 View-glory;Uitzicht-glorie
@@ -2001,7 +1776,6 @@ Make <col=ff9040>Gold ring</col>;Maak <col=ff9040>Gouden ring</col>
 Make <col=ff9040>Gold necklace</col>;Maak <col=ff9040>Gouden ketting</col>
 Swing across;Zwaai over
 Pick-orange;Pluk-sinaasappel
-Buy: 5 x Ranarr seed;Koop: 5 x Ranarr-zaad
 Deposit buckets;Stort emmers
 Claim Sand;Zand claimen
 Ferry;Veerboot
@@ -2089,8 +1863,6 @@ Crown Info;Kroon-informatie
 Last-destination (BLR);Laatste bestemming (BLR)
 Complete;Compleet
 Climb over;Klim er overheen
-Withdraw-56;Intrekken-56
-Default quantity: 56;Standaard aantal: 56
 Smash-to-bits;In stukken slaan
 Enchant-Vials;Betover-flesjes
 Trade-Co-op;Handelscoöperatie
@@ -2116,26 +1888,7 @@ Teleport to destination;Teleporteren naar bestemming
 eat;eten
 Cast Spell;Spreek spreuk uit
 Lift;Tillen
-Sell: 28 x Bucket of water;Verkoop: 28 x Emmer water
-Buy: 350 x Bucket;Koop: 350 x Emmer
-Sell: 392 x Bucket of water;Verkoop: 392 x Emmer water
-Withdraw-9;Intrekken-9
-Deposit-9;Storting-9
-Withdraw-27;Intrekken-27
-Deposit-27;Borg-27
-Sell: 500 x Logs;Verkoop: 500 x boomstammen
-Default quantity: 27;Standaard aantal: 27
-Sell: 494 x Banana;Verkoop: 494 x Banaan
-Sell: 390 x Banana;Verkoop: 390 x Banaan
-Buy: 400 x Bones;Koop: 400 x botten
-Sell: 300 x Banana;Verkoop: 300 x Banaan
 cast;vorm
-Sell: 416 x Banana;Verkoop: 416 x Banaan
-Default quantity: 9;Standaardhoeveelheid: 9
-Sell: 100 x Pastry dough;Verkoop: 100 x Gebakdeeg
-Buy: 200 x Pot of flour;Koop: 200 x Pot meel
-Sell: 1,064 x Bucket of water;Verkoop: 1.064 x Emmer water
-Sell: 252 x Bucket of water;Verkoop: 252 x Emmer water
 Toggle-minerals;Toggle-mineralen
 Take-bowl;Neem-kom
 Accept exchange;Accepteer uitwisseling
@@ -2146,41 +1899,13 @@ Activate machine;Activeer machine
 Unlock machine;Ontgrendel de machine
 Cancel operation;Annuleer de bewerking
 Rank;Rang
-Sell: 1,010 x Banana;Verkoop: 1.010 x Banaan
 Last-destination (CIP);Laatste bestemming (CIP)
 Set name;Naam instellen
 wield;hanteren
-Sell: 99 x Bones;Verkoop: 99 x botten
-Sell: 23 x Logs;Verkoop: 23 x boomstammen
-Withdraw-25000000;Intrekken-25000000
-Sell: 1 x Old school bond;Verkoop: 1 x Oldschoolobligatie
-Withdraw-100000;Intrekken-100000
-Deposit-25000000;Storting-25000000
-Buy: 2 x Steel scimitar;Koop: 2 x stalen kromzwaard
-Default quantity: 100,000;Standaardhoeveelheid: 100.000
-Buy: 1 x Studded body;Koop: 1 x lichaam met studs
-Deposit-100000;Storting-100000
 Beanspruchen;Bonenpruchen
 Smoke;Rook
 Last-destination (BJR);Laatste bestemming (BJR)
-Deposit-250;Borg-250
-Withdraw-43;Intrekken-43
-Withdraw-250;Intrekken-250
-Deposit-43;Borg-43
-Default quantity: 18;Standaardhoeveelheid: 18
-Withdraw-1971;Intrekken-1971
-Withdraw-1601;Intrekken-1601
-Deposit-1601;Borg-1601
-Withdraw-552;Intrekken-552
-Deposit-552;Borg-552
-Withdraw-5128;Intrekken-5128
-Deposit-5128;Borg-5128
-Withdraw-72000;Intrekken-72000
-Deposit-72000;Borg-72000
-Default quantity: 72,000;Standaardhoeveelheid: 72.000
-Default quantity: 26;Standaard aantal: 26
 Buy X;Koop X
-Withdraw-1092;Intrekken-1092
 Ring-last-destination (DLQ);Bel laatste bestemming (DLQ)
 Remove-decorations;Verwijder-decoraties
 Jump on;Spring verder
@@ -2193,13 +1918,9 @@ Throw-water;Gooi-water
 Check-level;Controleniveau
 Strike;Staking
 Cut-branch;Snijtak
-Deposit-13000;Borgsom-13000
-Withdraw-13000;Intrekken-13000
 Play-With;Speel-met
 Trophies;Trofeeën
 Talk-At;Praat-bij
-Deposit-7785;Borg-7785
-Withdraw-7785;Intrekken-7785
 Mount;Monteren
 Unstuff;Ontstoppen
 Change-clothes;Verander kleding
@@ -2216,15 +1937,8 @@ Change icon (herb run);Pictogram wijzigen (kruidenrun)
 Look out;Kijk uit
 Last-destination (DIP);Laatste bestemming (DIP)
 Ta Quir Priw;Ta Quir Priw
-Deposit-9000;Borg-9000
-Withdraw-9000;Intrekken-9000
 Vote Now;Stem nu
-Withdraw-144000;Intrekken-144000
 Give;Geven
-Withdraw-45;Intrekken-45
-Deposit-45;Borg-45
-Sell: 1 x Plank;Verkoop: 1 x Plank
-Buy: 5 x Bolt of cloth;Koop: 5 x Bolt stof
 Withdraw-Notes;Intrekken-notities
 Remove-Placeholder;Verwijderen-placeholder
 Remove-All-Placeholders;Verwijder alle tijdelijke aanduidingen
@@ -2246,22 +1960,8 @@ Select <col=ff981f>Elite;Selecteer <col=ff981f>Elite
 Select <col=ff981f>Hard;Selecteer <col=ff981f>Moeilijk
 Master Tasks;Hoofdtaken
 Grandmaster Tasks;Grootmeestertaken
-Withdraw-150000;Intrekken-150000
-Deposit-150000;Borg-150000
-Default quantity: 150,000;Standaardhoeveelheid: 150.000
-Withdraw-888;Intrekken-888
 Clear-All;Alles wissen
 Climb-through;Doorklim
-Withdraw-15000;Intrekken-15000
-Deposit-15000;Borgsom-15000
-Withdraw-826;Intrekken-826
-Withdraw-120;Intrekken-120
-Deposit-19;Borg-19
-Default quantity: 3;Standaardhoeveelheid: 3
-Deposit-264;Borg-264
-Withdraw-264;Intrekken-264
-Withdraw-119;Intrekken-119
-Deposit-119;Borg-119
 Plank sack;Plankenzak
 Amy's saw;Amy's zaag
 Carpenter's boots;Timmermanslaarzen
@@ -2270,8 +1970,6 @@ Carpenter's shirt;Timmermanshemd
 Hosidius blueprints;Hosidius-blauwdrukken
 Supply crate;Levering krat
 Carpenter's helmet;Timmermanshelm
-Withdraw-20;Intrekken-20
-Deposit-20;Borg-20
 Deposit All from Inventory;Stort alles uit de inventaris
 Ghorrock Dungeon;Ghorrock-kerker
 The Stranglewood;Het Wurghout
@@ -2283,41 +1981,20 @@ Undead Grasp;Ondode greep
 Take-from <col=00ffff>Fishing;Take-from <col=00ffff>Vissen
 Take-from <col=00ffff>Hunting;Take-from <col=00ffff>Jagen
 Take-from <col=00ffff>Herblore;Take-from <col=00ffff>Herblore
-Default quantity: 119;Standaard aantal: 119
-Deposit-888;Borg-888
 Decorate;Versieren
 Carve;Snijd
-Buy: 1 x Iron pickaxe;Koop: 1 x ijzeren houweel
-Withdraw-12;Intrekken-12
-Default quantity: 12;Standaardhoeveelheid: 12
-Deposit-12;Storting-12
 Boss list;Baas lijst
 Pirate's Cove;Piratenbaai
 Island of Stone;Eiland van steen
 Ungael;Ungaël
 Waterbirth Island;Watergeboorte eiland
-Default quantity: 448;Standaard aantal: 448
-Deposit-448;Borg-448
-Withdraw-448;Intrekken-448
 Exit Speedrunning;Sluit Speedrunning af
-Default quantity: 20;Standaardhoeveelheid: 20
-Withdraw-11;Intrekken-11
-Withdraw-6;Intrekken-6
-Withdraw-2502;Intrekken-2502
-Withdraw-30002;Intrekken-30002
-Withdraw-3002;Intrekken-3002
-Deposit-2502;Borg-2502
-Deposit-30002;Borg-30002
 Quick-travel;Snel reizen
 Roll;Rollen
-Default quantity: 30,002;Standaardhoeveelheid: 30.002
 Step-over;Stap over
 Menagerie (outdoors);Menagerie (buiten)
 Menagerie (indoors);Menagerie (binnen)
 Hall - Quest trophies;Hall - Quest-trofeeën
-Buy: 5 x Stamina potion(4);Koop: 5 x Stamina-drankje(4)
-Default quantity: 3,728;Standaardhoeveelheid: 3.728
-Withdraw-3728;Intrekken-3728
 Make <col=ff9040>Sapphire necklace</col>;Maak <col=ff9040>Saffierhalsketting</col>
 Darkmeyer;Donkermeyer
 Slepe;Slaap
@@ -2338,12 +2015,8 @@ Teleports;Teleporteert
 Black chinchompas;Zwarte chinchompas
 Carnivorous chinchompas;Vleesetende chinchompas
 POH Portals;POH-portals
-Deposit-42;Borg-42
-Withdraw-42;Intrekken-42
 The Darkfrost;De Donkervorst
 <col=E89C46>Kastori</col>;<col=E89C46>Kastori</col>
-Deposit-3728;Borg-3728
-Deposit-50;Borg-50
 Craft-goods;Ambachtelijke goederen
 Pass-to;Doorgeven aan
 Mineral Pack;Mineraalpakket
@@ -2363,7 +2036,6 @@ turn tile;tegel draaien
 Sindarpos;Sindarpos
 Evade;Ontwijken
 Off/On;Uit/Aan
-Sell: 12 x Iron dagger;Verkoop: 12 x IJzeren dolk
 Start-wave;Start-golf
 Finish;Finish
 Hoop;Hoepel
@@ -2411,11 +2083,8 @@ Say-name;Zeg-naam
 Add;Toevoegen
 Adjust;Aanpassen
 Gnome Stronghold;Kabouterbolwerk
-Withdraw-8902;Intrekken-8902
-Deposit-8902;Borg-8902
 Last-destination (ALQ);Laatste bestemming (ALQ)
 View Channel;Kanaal bekijken
-Default quantity: 8,902;Standaardhoeveelheid: 8.902
 Tracker;Volger
 Goal;Doel
 Set to XP value;Stel in op XP-waarde
@@ -2437,16 +2106,9 @@ Lire;Lire
 Miner;Mijnwerker
 Retirer;Gepensioneerde
 Armure;pantser
-Withdraw-305;Intrekken-305
-Withdraw-378;Intrekken-378
-Deposit-378;Borg-378
 Bind;Binden
 Crawl;Kruipen
 Cut-foot;Snijvoet
-Default quantity: 378;Standaard aantal: 378
-Withdraw-911;Intrekken-911
-Deposit-911;Borg-911
-Deposit-200000;Borg-200000
 Sand;Zand
 Staves;Notenbalken
 S'occuper de;S'occuper de
@@ -2454,32 +2116,8 @@ Se reposer;Zie reposer
 Leurre;Leurre
 Voir;Voir
 Vider;Vider
-Sell: 27 x Logs;Verkoop: 27 x boomstammen
 Verrouiller;Verrouiller
-Add ignore TangledHob;Voeg negeren TangledHob toe
-Add ignore TSwangin;Voeg negeer TSwangin toe
-Default quantity: 200,000;Standaardhoeveelheid: 200.000
-Add friend TofuFlies;Vriend toevoegen TofuFlies
-Add friend TSwangin;Vriend toevoegen TSwangin
-Add friend Thegravywavy;Vriend toevoegen Thegravywavy
-Add friend Warmtalon56;Vriend toevoegen Warmtalon56
-Add ignore Warmtalon56;Voeg negeer Warmtalon56 toe
-Add ignore T0x4;Voeg negeer T0x4 toe
-Add friend Vixivine;Voeg vriend Vixivine toe
 Leave <col=ff8040>Pest Control</col> channel;Verlaat het kanaal <col=ff8040>Ongediertebestrijding</col>
-Add ignore SuGIMa Donk;Voeg negeer SuGIMa Donk toe
-Add ignore SynPol;Voeg negeer SynPol toe
-Add friend SynPol;Vriend toevoegen SynPol
-Add ignore SW4GN4R0K;Voeg negeren SW4GN4R0K toe
-Add ignore Vixivine;Voeg negeer Vixivine toe
-Add ignore Tora Cipha;Voeg negeer Tora Cipha toe
-Add friend T0x4;Vriend toevoegen T0x4
-Add friend SW4GN4R0K;Voeg vriend SW4GN4R0K toe
-Add friend Tora Cipha;Vriend Tora Cipha toevoegen
-Add friend TangledHob;Vriend toevoegen TangledHob
-Add friend SuGIMa Donk;Vriend toevoegen SuGIMa Donk
-Add ignore Thegravywavy;Voeg negeer Thegravywavy toe
-Add ignore TofuFlies;Voeg negeer TofuFlies toe
 Ranged XP: 10 points;Afstands-XP: 10 punten
 Hitpoints XP: 10 points;Hitpoints-XP: 10 punten
 Hitpoints XP: 1 point;Levenspunten XP: 1 punt
@@ -2495,21 +2133,11 @@ Acheter;Acheter
 No, don't leave.;Nee, ga niet weg.
 Expel members;Leden uitsluiten
 Recruitment;Rekrutering
-Sell: 1 x Bronze axe;Verkoop: 1 x bronzen bijl
 Check-keys;Controlesleutels
-Withdraw-59;Intrekken-59
-Deposit-59;Borg-59
-Withdraw-82;Intrekken-82
-Deposit-49;Borg-49
-Withdraw-34;Intrekken-34
-Withdraw-37;Intrekken-37
-Withdraw-49;Intrekken-49
-Default quantity: 49;Standaard aantal: 49
 Attraper;Aantrekker
 Cueillir;Cueillir
 Interagir;Interagir
 Se faufiler;Zie faufiler
-Sell: 1 x Raw trout;Verkoop: 1 x rauwe forel
 Supply;Levering
 Escort;Escort
 Objets de fêtes;Objecten van feesten
@@ -2530,40 +2158,21 @@ Toggle-view;Wisselweergave
 Recharge-prayer;Opladen-gebed
 Last-destination (DIS);Laatste bestemming (DIS)
 Last-destination (BKP);Laatste bestemming (BKP)
-Withdraw-51;Intrekken-51
-Deposit-60;Borg-60
-Deposit-51;Borg-51
-Withdraw-732;Intrekken-732
-Withdraw-636;Intrekken-636
-Withdraw-64;Intrekken-64
-Withdraw-60;Intrekken-60
-Deposit-732;Borg-732
 À l'extérieur;Aan de buitenkant
 Couper;Coupé
-Default quantity: 60;Standaardhoeveelheid: 60
-Deposit-236;Borg-236
 DJR;DJR
 Favourites;Favorieten
 AJR;AJR
 CIR;CIR
 CIS;GOS
-Default quantity: 236;Standaard aantal: 236
 View List;Lijst bekijken
 DIP;DIP
 Last-destination (BKS);Laatste bestemming (BKS)
 BKS;BKS
-Buy: 1 x Tuna;Koop: 1 x tonijn
-Deposit-2787;Borg-2787
-Withdraw-2787;Intrekken-2787
-Default quantity: 2,787;Standaardhoeveelheid: 2.787
 Tirer;Tirer
-Sell: 1 x Skills necklace;Verkoop: 1 x Skills-ketting
 View-game;Bekijk-spel
 Cancel preview;Voorbeeld annuleren
-Withdraw-856;Intrekken-856
-Deposit-856;Borg-856
 Last-destination (DLR);Laatste bestemming (DLR)
-Default quantity: 9,000;Standaardhoeveelheid: 9.000
 Click this to add coal.;Klik hierop om steenkool toe te voegen.
 Turn tar valve up;Draai de teerklep omhoog
 Turn pressure valve up;Draai het drukventiel omhoog
@@ -2619,65 +2228,17 @@ Select <col=ff981f>Nature rune;Selecteer <col=ff981f>Natuurrune
 Examine <col=ff981f>Death rune;Onderzoek <col=ff981f>Death rune
 Lemanto Andra;Lemanto Andra
 Battlefield of Khazard;Slagveld van Khazard
-Add ignore Wildcat;Voeg negeer Wildcat toe
-Add friend Xclearwater2;Vriend toevoegen Xclearwater2
-Add friend X1_Cygnus;Voeg vriend X1_Cygnus toe
-Add friend VeshonsAcc;Vriend toevoegen VeshonsAcc
-Add ignore X1_Cygnus;Voeg negeer X1_Cygnus toe
-Add friend XRatchet1313;Voeg vriend XRatchet1313 toe
-Add friend Wildcat;Voeg vriend Wildcat toe
-Add ignore Xclearwater2;Voeg negeer Xclearwater2 toe
-Add ignore VeshonsAcc;Negeer VeshonsAcc toevoegen
 Join <col=ff8040>Shield of Arrav</col> channel;Sluit je aan bij het <col=ff8040>Shield of Arrav</col>-kanaal
-Add ignore XRatchet1313;Voeg negeer XRatchet1313 toe
-Add ignore XxGARLITCHxX;Voeg negeer XxGARLITCHxX toe
-Add friend XxGARLITCHxX;Voeg vriend XxGARLITCHxX toe
-Add ignore Zarvll;Voeg negeer Zarvll toe
-Add friend Zpazt196;Voeg vriend Zpazt196 toe
-Add ignore xater;Voeg negeer xater toe
-Add friend Whoisu82;Vriend toevoegen Whoisu82
-Add friend Zarvll;Voeg vriend Zarvll toe
-Add friend wblion;Voeg vriend wblion toe
 Leave <col=ff8040>Shield of Arrav</col> channel;Verlaat het <col=ff8040>Schild van Arrav</col> kanaal
-Add ignore Wenedi;Voeg negeer Wenedi toe
-Add ignore wblion;Voeg negeer wblion toe
-Add ignore YoMd_Debo;Voeg negeer YoMd_Debo toe
-Add ignore Zpazt196;Voeg negeer Zpazt196 toe
 Teleport to <col=ff8040>Shield of Arrav</col>;Teleporteer naar <col=ff8040>Schild van Arrav</col>
-Add ignore westymartell;Voeg negeer westymartell toe
-Add ignore Zourberts;Voeg negeer Zourberts toe
-Add friend xater;Vriend xater toevoegen
-Add friend Wenedi;Vriend toevoegen Wenedi
-Add friend westymartell;Voeg vriend westymartell toe
-Add friend Zourberts;Voeg vriend Zourberts toe
-Add friend YoMd_Debo;Vriend toevoegen YoMd_Debo
-Add ignore Whoisu82;Voeg negeer Whoisu82 toe
 Goutte;Goutte
 DÃ©truire;Detruire
 Recherche;Onderzoek
 Buy Membership;Koop lidmaatschap
-Add ignore OATHSLAYER42;Voeg negeren OATHSLAYER42 toe
 Switch <col=ff8040>491</col>;Schakel <col=ff8040>491</col> over
-Add friend thobblee;Vriend thobblee toevoegen
-Add ignore Igvor;Voeg negeer Igvor toe
-Add ignore Trickster416;Voeg negeer Trickster416 toe
-Add friend Igvor;Voeg vriend Igvor toe
-Add friend Iron Veetz;Vriend toevoegen Iron Veetz
-Add ignore thobblee;Voeg 'negeer thobblee' toe
-Add ignore Runeflick;Voeg negeer Runeflick toe
 Teleport to <col=ff8040>Burthorpe Games Room</col>;Teleporteer naar <col=ff8040>Burthorpe-speelkamer</col>
-Add friend GingerbreadF;Vriend toevoegen GingerbreadF
 Leave <col=ff8040>Burthorpe Games Room</col> channel;Verlaat het kanaal <col=ff8040>Burthorpe Games Room</col>
-Add ignore Iron Veetz;Voeg Negeer Iron Veetz toe
-Add ignore Wag City;Voeg Negeer Wag City toe
-Add friend Wag City;Voeg vriend Wag City toe
-Add friend OATHSLAYER42;Vriend toevoegen OATHSLAYER42
-Add ignore GingerbreadF;Voeg negeer GingerbreadF toe
-Add friend jalc2026;Voeg vriend jalc2026 toe
 Join <col=ff8040>Burthorpe Games Room</col> channel;Word lid van het <col=ff8040>Burthorpe Games Room</col>-kanaal
-Add ignore jalc2026;Voeg negeer jalc2026 toe
-Add friend Runeflick;Voeg vriend Runeflick toe
-Add friend Trickster416;Vriend toevoegen Trickster416
 Claim-Shield;Claim-Schild
 Swing Across;Zwaai over
 Oubliette;Oubliet
@@ -2692,7 +2253,6 @@ CKR;CKR
 Remove<col=ff9040> Hint arrow;Verwijder<col=ff9040> ​​Hintpijl
 Show<col=ff9040> Hint;Toon<col=ff9040> ​​Tip
 Ring-last-destination (AKP);Ring-laatste bestemming (AKP)
-Withdraw-1884;Intrekken-1884
 Récompenses;Vergoedingen
 Tête de mort;Tête de mort
 Prix;Prijs
@@ -2738,7 +2298,6 @@ Entrer (invité);Enterer (uitgenodigd)
 Entrer (membre);Enterer (lid)
 NER Lookup;NER opzoeken
 Lunar Isle;Maan eiland
-Sell: 1 x Mithril chainbody;Verkoop: 1 x Mithril kettinglichaam
 Tirannwn;Tirannwn
 Kourend;Kourend
 Channel (Wilderness);Kanaal (wildernis)
@@ -2746,14 +2305,12 @@ Varlamore;Varlamore
 Asgarnia;Asgarnia
 Swap-Effect;Wisseleffect
 Toggle absorption;Schakel absorptie in
-Default quantity: 500,000;Standaardhoeveelheid: 500.000
 Play-with;Speel-met
 Afirmar;Bevestiger
 Withdraw-all;Trek alles terug
 Withdraw-last;Intrekken als laatste
 Orar en;Orar nl
 Crumble Undead;Verkruimel ondoden
-Sell: 104 x Bronze bar;Verkoop: 104 x Bronzen baar
 Valor;Moed
 Remove from playlist 2;Verwijderen uit afspeellijst 2
 Peer-into;Peer-in
@@ -2763,16 +2320,8 @@ Offer All;Bied alles aan
 Offer X;Aanbieding X
 Robar de;Robar de
 View journal <col=ff981f>Children of the Sun</col>;Bekijk dagboek <col=ff981f>Kinderen van de zon</col>
-Sell: 14 x Cowhide;Verkoop: 14 x koeienhuid
-Buy: 1 x Mithril platelegs;Koop: 1 x Mithril plaatpoten
-Default quantity: 3,000;Standaardhoeveelheid: 3.000
-Withdraw-1800;Intrekken-1800
-Deposit-1800;Borg-1800
-Sell: 2 x Gold bar;Verkoop: 2 x Goudbaar
 Clamber;Klauteren
 View journal <col=ff981f>Druidic Ritual</col>;Bekijk dagboek <col=ff981f>Druïdische rituelen</col>
-Sell: 1 x Bronze sq shield;Verkoop: 1 x bronzen vierkant schild
-Buy: 1 x Steel platebody;Koop: 1 x stalen plaatlichaam
 Rules;Regels
 Looting;Plunderen
 Area of effect;Effectgebied
@@ -2785,135 +2334,11 @@ Last-destination (Shilo village: Stepping stone);Laatste bestemming (Shilo-dorp:
 Last-destination (Auburn valley: Log balance (north));Laatste bestemming (Auburn-vallei: houtsaldo (noord))
 Last-destination (Mort myre: Stepping stone);Laatste bestemming (Mort myre: Opstapje)
 Last-destination (Hosidius: River stepping stone);Laatste bestemming (Hosidius: rivierstapsteen)
-Buy: 1 x Team-42 cape;Koop: 1 x Team-42-cape
-Add ignore Runheim;Voeg negeer Runheim toe
-Add ignore dds maniac;Voeg negeer dds-maniak toe
-Add ignore maxncheech;Voeg negeer maxncheech toe
-Add friend Crybals;Voeg vriend Crybals toe
-Add ignore Valdromus;Voeg negeer Valdromus toe
-Add ignore keysuka;Voeg negeer-keysuka toe
-Add friend Fe Striction;Voeg vriend Fe Sstriction toe
-Add ignore My Void op;Voeg Negeer Mijn Leegte toe
-Add ignore ElCapiDanno;Voeg negeer ElCapiDanno toe
-Add friend Lxnchables;Vriend toevoegen Lxnchables
-Add friend CippsyPotato;Voeg vriend CipsyPotato toe
-Add friend Rangertomgun;Voeg vriend Rangertomgun toe
-Add ignore DarkLord845;Voeg negeer DarkLord845 toe
-Add ignore jjonive;Voeg negeer jjonive toe
-Add friend HueyTheFool;Vriend toevoegen HueyTheFool
-Add ignore CippsyPotato;Voeg negeer CipsyPotato toe
-Add ignore WasabiHole;Voeg Negeer WasabiHole toe
-Add ignore dougismyuser;Voeg negeer dougismyuser toe
-Add ignore ReignDown;Voeg negeer ReignDown toe
-Add friend lil ferdex;Vriend lil ferdex toevoegen
-Add friend Shaky Knees;Voeg vriend Shaky Knees toe
-Add ignore EeselIM;Voeg negeer EeselIM toe
-Add friend DarkLord845;Voeg vriend DarkLord845 toe
-Add ignore HueyTheFool;Voeg negeer HueyTheFool toe
-Add friend N00boBaggins;Voeg vriend N00boBaggins toe
-Add ignore bazy;Voeg negeer bazy toe
-Add ignore Shaky Knees;Voeg 'Negeer Shaky Knees' toe
-Add friend Onyxmine;Voeg vriend Onyxmine toe
-Add friend B POS1TIVE;Voeg vriend B POS1TIVE toe
-Add ignore IronTaint98;Voeg negeer IronTaint98 toe
-Add friend jjonive;Voeg vriend jjonive toe
-Add friend WasabiHole;Vriend toevoegen WasabiHole
-Add friend Zero Magik;Voeg vriend Zero Magik toe
-Add friend dds maniac;Voeg vriend dds-maniak toe
-Add ignore Lxnchables;Voeg negeer Lxnchables toe
-Add ignore CommonTroll;Voeg negeer CommonTroll toe
-Add ignore mr backshots;Voeg negeer mr-backshots toe
-Add ignore Pvt-Stainz;Voeg negeer Pvt-Stainz toe
-Add friend Black Block2;Voeg vriend Black Block2 toe
-Add friend RaioRaioRaio;Vriend toevoegen RaioRaioRaio
-Add ignore Pee Knight;Voeg Negeer Pee Knight toe
-Add friend Wolfsail2331;Vriend toevoegen Wolfsail2331
-Add friend Nimaruz;Voeg vriend Nimaruz toe
-Add ignore cas2891111;Voeg negeren cas2891111 toe
-Add friend 69Potatoes;Vriend toevoegen 69Aardappelen
-Add friend AhrimedJob;Vriend toevoegen AhrimedJob
-Add friend mr backshots;Voeg vriend mr. backshots toe
-Add friend bazy;Vriend Bazy toevoegen
-Add friend Notdevoid30;Vriend toevoegen Notdevoid30
-Add ignore AhrimedJob;Voeg negeer AhrimedJob toe
-Add friend Tomtes HCIM;Voeg vriend Tomtes HCIM toe
-Add ignore JerryJag;Voeg negeer JerryJag toe
-Add friend Pee Knight;Voeg vriend Pee Knight toe
-Add friend EeselIM;Vriend toevoegen EeselIM
-Add friend Kappa Cabba;Voeg vriend Kappa Cabba toe
-Add friend Mazumizu;Voeg vriend Mazumizu toe
-Add friend Wallpii;Voeg vriend Wallpii toe
-Add friend SilentEunuch;Vriend toevoegen SilentEunuch
-Add ignore Rangertomgun;Voeg negeer Rangertomgun toe
-Add ignore Tavov;Negeer Tavov toevoegen
-Add friend BreakingChin;Vriend toevoegen BreakingChin
-Add friend Maatumaatu;Vriend toevoegen Maatumaatu
-Add friend maxncheech;Voeg vriend maxncheech toe
-Add friend JerryJag;Voeg vriend JerryJag toe
-Add friend ElCapiDanno;Voeg vriend ElCapiDanno toe
-Add friend ReignDown;Vriend toevoegen ReignDown
-Add friend mr herry 12;Vriend mr.herry 12 toevoegen
-Add friend TreviiFTW;Vriend toevoegen TreviiFTW
-Add friend Runheim;Voeg vriend Runheim toe
-Add friend dougismyuser;Vriend toevoegen dougismyuser
-Add ignore Mazumizu;Voeg negeer Mazumizu toe
-Add ignore Zero Magik;Voeg negeer Zero Magik toe
-Add ignore mr herry 12;Voeg 'negeer meneer herry' 12 toe
-Add friend Pvt-Stainz;Vriend toevoegen Pvt-Stainz
-Add ignore Frinkytastic;Voeg negeer Frinkytastic toe
-Add friend Valdromus;Voeg vriend Valdromus toe
-Add friend Futanarian69;Vriend toevoegen Futanarian69
-Add friend IsIt1ron;Voeg vriend IsIt1ron toe
-Add ignore TreviiFTW;Voeg negeer TreviiFTW toe
-Add friend IronTaint98;Voeg vriend IronTaint98 toe
-Add friend Frinkytastic;Vriend toevoegen Frinkytastic
-Add ignore fa gf;Voeg negeer fa gf toe
-Add ignore lil ferdex;Voeg negeer lil ferdex toe
-Add ignore Built By AI;Voeg negeren toe, gebouwd door AI
-Add ignore Maatumaatu;Voeg negeer Maatumaatu toe
-Add ignore Notdevoid30;Voeg negeer Notdevoid30 toe
-Add ignore Wolfsail2331;Voeg negeer Wolfsail2331 toe
-Add ignore Nimaruz;Voeg negeer Nimaruz toe
-Add friend Built By AI;Vriend toevoegen Gebouwd door AI
-Add ignore jpeg art;Voeg negeer-jpeg-afbeeldingen toe
-Add friend cas2891111;Vriend toevoegen cas2891111
-Add friend keysuka;Vriend keyuka toevoegen
-Add ignore Black Block2;Voeg Negeer Zwart Blok2 toe
-Add friend H311fire191;Vriend toevoegen H311fire191
-Add ignore Fe Striction;Voeg negeer Fe-strictie toe
-Add ignore N00boBaggins;Voeg negeer N00boBaggins toe
-Add ignore 69Potatoes;Voeg negeer 69Aardappelen toe
-Add ignore CutePoisonnn;Voeg negeer CutePoisonnn toe
-Add friend fa gf;Voeg vriend fa gf toe
-Add ignore Onyxmine;Voeg negeer Onyxmine toe
-Add ignore BreakingChin;Voeg negeren BreakingChin toe
-Add ignore Crybals;Voeg negeer Crybals toe
-Add ignore Futanarian69;Voeg negeer Futanarian69 toe
-Add friend CommonTroll;Vriend toevoegen CommonTroll
-Add ignore IsIt1ron;Voeg negeer IsIt1ron toe
-Add ignore H311fire191;Voeg negeren H311fire191 toe
-Add ignore Wallpii;Voeg negeer Wallpii toe
-Add ignore Tomtes HCIM;Voeg Tomtes HCIM negeren toe
-Add friend CutePoisonnn;Vriend toevoegen CutePoisonnn
-Add friend Tavov;Vriend toevoegen Tavov
-Add ignore Kappa Cabba;Voeg Negeer Kappa Cabba toe
-Add ignore B POS1TIVE;Voeg negeren B POS1TIEF toe
-Add friend My Void op;Vriend toevoegen My Void op
-Add ignore RaioRaioRaio;Voeg negeer RaioRaioRaio toe
-Add friend jpeg art;Voeg jpeg-kunst van een vriend toe
-Add ignore SilentEunuch;Voeg negeren SilentEunuch toe
-Deposit-400000;Borg-400000
-Withdraw-400000;Intrekken-400000
-Buy: 10 x Camelot teleport;Koop: 10 x Camelot-teleportatie
 Modo de construccion;Modus van de constructie
 Casa;Casa
 Casa de amigos;Huis van amigo's
 Switch <col=ff8040>394</col>;Schakel <col=ff8040>394</col> over
 Make<col=ff9040> Waka canoe;Maak<col=ff9040> ​​Waka-kano
-Default quantity: 99;Standaardhoeveelheid: 99
-Deposit-99;Borg-99
-Withdraw-99;Intrekken-99
-Withdraw 5;Intrekken 5
 View <col=ff9040>Woodcutting</col> guide;Bekijk de gids <col=ff9040>Houtsnijden</col>
 ALP;ALP
 Quick-start;Snel aan de slag
@@ -2927,33 +2352,21 @@ Select <col=ff891f>Demonic Trident Ornament Kit.;Selecteer <col=ff891f>Demonisch
 Select <col=ff891f>Leagues VI Relic Hunter (T3);Selecteer <col=ff891f>Leagues VI Relic Hunter (T3)
 Unlocked;Ontgrendeld
 Zoom Out;Uitzoomen
-Sell: 21 x Hard leather;Verkoop: 21 x Hard leer
 Sniff;Snuif
-Withdraw-190;Intrekken-190
 Select <col=ff981f>Imp repellent;Selecteer <col=ff981f>Imp-afstotend
 Select <col=ff981f>Jar generator;Selecteer <col=ff981f>Jar-generator
 Select <col=ff981f>Magic butterfly net;Selecteer <col=ff981f>Magisch vlindernet
 Select <col=ff981f>Impling jar;Selecteer <col=ff981f>Implementatiepot
 Last-destination (CKQ);Laatste bestemming (CKQ)
-Sell: 1 x Beer glass;Verkoop: 1 x Bierglas
-Deposit-190;Borg-190
 Locked;Vergrendeld
 Reclaim;Terugvorderen
 Select <col=ff891f>Leagues V Death;Selecteer <col=ff891f>Leagues V Dood
 Select <col=ff891f>Leagues V Portal;Selecteer <col=ff891f>Leagues V-portal
 Select <col=ff891f>Demonic Butler Scroll;Selecteer <col=ff891f>Demonische Butler-scroll
 Select <col=ff891f>Leagues V Curtains;Selecteer <col=ff891f>Leagues V-gordijnen
-Buy: 1 x Demonic trident ornament kit;Koop: 1 x Demonische drietandversieringsset
-Withdraw-339;Intrekken-339
 Rumour-settings;Geruchten-instellingen
-Deposit-123123;Borg-123123
-Withdraw-123123;Intrekken-123123
 Fur-clothing;Bontkleding
 Take-log;Take-log
-Default quantity: 55;Standaard aantal: 55
-Withdraw-55;Intrekken-55
-Deposit-55;Borg-55
-Sell: 19 x Ogre arrow;Verkoop: 19 x Ogre-pijl
 Vote;Stemmen
 Check tax;Controleer belasting
 Request-supplies;Aanvraag-benodigdheden
@@ -2968,24 +2381,17 @@ Sabotage;Sabotage
 Plant-evidence;Plant-bewijs
 Charter-to Civitas illa Fortis;Charter aan Civitas illa Fortis
 Bless;Zegenen
-Buy: 1 x Steel pickaxe;Kopen: 1 x Stalen pikhouweel
 Impling-jar;Impling-pot
 Butterfly-jar;Vlinderpot
 Make <col=ff9040>Sapphire ring</col>;Maak <col=ff9040>Saffierring</col>
 Make <col=ff9040>Emerald ring</col>;Maak <col=ff9040>Smaragdgroene ring</col>
-Deposit-2500;Borg-2500
-Withdraw-2500;Intrekken-2500
 Crush;Verbrijzeling
-Withdraw-35;Intrekken-35
-Deposit-35;Borg-35
 Look-into;Kijk-in
-Buy: 1 x Rope;Koop: 1 x touw
 Reset Vertical;Verticaal opnieuw instellen
 Resize Vertical;Formaat verticaal wijzigen
 View <col=ff9040>Attack</col> guide;Bekijk de <col=ff9040>Aanval</col>-gids
 View <col=ff9040>Slayer</col> guide;Bekijk de <col=ff9040>Slayer</col>-gids
 View <col=ff9040>Hitpoints</col> guide;Bekijk de <col=ff9040>Hitpoints</col>-gids
-Default quantity: 35;Standaard aantal: 35
 Body type A;Lichaamstype A
 View Facial hair;Bekijk Gezichtshaar
 View Hair;Bekijk Haar
@@ -2998,11 +2404,6 @@ View Body types;Bekijk lichaamstypes
 Upgrades;Upgrades
 Benefits;Voordelen
 Lookup-entity;Opzoekentiteit
-Deposit-1181;Borg-1181
-Withdraw-1181;Intrekken-1181
-Buy: 1 x Rune crossbow;Koop: 1 x Rune-kruisboog
-Deposit-8;Storting-8
-Withdraw-8;Intrekken-8
 Select <col=ff891f>Shattered Relic Hunter (T1);Selecteer <col=ff891f>Verbrijzelde relikwiejager (T1)
 Select <col=ff891f>Shattered Mystic Orn Kit;Selecteer <col=ff891f>Verbrijzelde Mystic Orn-kit
 Select <col=ff891f>Trailblazer Graceful Kits x6;Selecteer <col=ff891f>Trailblazer Graceful Kits x6
@@ -3024,17 +2425,10 @@ Select <col=ff891f>Trailblazer Globe;Selecteer <col=ff891f>Trailblazer Globe
 Select <col=ff891f>Trailblazer Teleport Scroll;Selecteer <col=ff891f>Trailblazer Teleport Scroll
 Select <col=ff891f>Echo Venator Bow Orn Kit;Selecteer <col=ff891f>Echo Venator Bow Orn-set
 Recoil Settings;Terugslaginstellingen
-Deposit-339;Borg-339
-Default quantity: 339;Standaard aantal: 339
 Recoil settings;Terugslag instellingen
-Withdraw-6000000;Intrekken-6000000
 Bandit Camp;Bandietenkamp
 Lava Maze;Lava doolhof
 Chaos Temple;Chaos-tempel
-Withdraw-6000;Intrekken-6000
-Deposit-6000;Borg-6000
-Buy: 13 x Rune platebody;Koop: 13 x Rune-platebody
-Buy: 1 x Mithril full helm;Koop: 1 x Mithril volledige roer
 Check completion;Controleer de voltooiing
 Channel (Kandarin);Kanaal (Kandarin)
 Make <col=ff9040>Onyx amulet (u)</col>;Maak <col=ff9040>Onyx-amulet (u)</col>
@@ -3042,21 +2436,9 @@ Make <col=ff9040>Onyx bracelet</col>;Maak <col=ff9040>Onyx armband</col>
 Buy sets:;Setjes kopen:
 Jump-from;Spring-van
 Channel (Karamja);Kanaal (Karamja)
-Default quantity: 6,000;Standaardhoeveelheid: 6.000
-Buy: 1 x Adamant full helm;Koop: 1 x Adamant volledige roer
-Buy: 150 x Rune dagger;Koop: 150 x Runendolk
 Master;Meester
 Make <col=ff9040>Slayer ring (8)</col>;Maak <col=ff9040>Slayer-ring (8)</col>
-Sell: 1 x Uncut emerald;Verkoop: 1 x Ongeslepen smaragd
 Make-cuppa;Make-cuppa
-Buy: 1 x Armadyl rune armour set (lg);Kopen: 1 x Armadyl runenpantserset (lg)
-Sell: 1 x Armadyl platelegs;Verkoop: 1 x Armadyl platelegs
-Deposit-499;Borg-499
-Withdraw-499;Intrekken-499
-Buy: 15 x Rune platebody;Koop: 15 x Rune-platebody
-Sell: 500 x Amulet of strength;Verkoop: 500 x Amulet van kracht
-Buy: 1 x Rune platebody;Koop: 1 x Rune-plaatlichaam
-Buy: 1 x Rune longsword;Koop: 1 x Rune-langzwaard
 Unstore;Opslaan ongedaan maken
 Ring-last-destination (DJP);Ring-laatste bestemming (DJP)
 Rustle;Ruis
@@ -3066,31 +2448,10 @@ Ring-last-destination (BJS);Ring-laatste bestemming (BJS)
 Aim and Fire;Richt en vuur
 Amy;Amy
 View Info;Bekijk informatie
-Buy: 20 x Rune platebody;Koop: 20 x Rune-platebody
-Buy: 40 x Rune full helm;Koop: 40 x Rune volledig roer
-Deposit-38;Borg-38
-Buy: 80 x Adamant platebody;Koop: 80 x Adamant platebody
-Buy: 100 x Sapphire amulet;Koop: 100 x saffieramulet
-Withdraw-5000000;Intrekken-5000000
-Deposit-5000000;Borg-5000000
-Default quantity: 5,000,000;Standaardhoeveelheid: 5.000.000
-Deposit-3000000;Borg-3000000
-Deposit-13500000;Borgsom-13500000
-Withdraw-13500000;Intrekken-13500000
-Deposit-15000000;Borg-15000000
-Withdraw-3000000;Intrekken-3000000
-Withdraw-15000000;Intrekken-15000000
-Withdraw-108;Intrekken-108
-Deposit-108;Borg-108
-Deposit-542;Borg-542
-Withdraw-542;Intrekken-542
 Teleport to <col=ff8040>Castle Wars</col>;Teleporteer naar <col=ff8040>Kasteeloorlogen</col>
 Join <col=ff8040>Castle Wars</col> channel;Word lid van het <col=ff8040>Castle Wars</col>-kanaal
 Make <col=ff9040>Diamond bracelet</col>;Maak <col=ff9040>Diamanten armband</col>
 Blackout;Verduistering
-Withdraw-23;Intrekken-23
-Deposit-23;Borg-23
-Default quantity: 23;Standaard aantal: 23
 Select <col=ff891f>Tier 1 Adventurer's Outfit;Selecteer <col=ff891f>Niveau 1 avonturiersoutfit
 Select <col=ff891f>Tier 2 Adventurer's Outfit;Selecteer <col=ff891f>Niveau 2 avonturiersoutfit
 Select <col=ff891f>Speedy Teleport Scroll;Selecteer <col=ff891f>Snelle teleportscroll
@@ -3100,7 +2461,6 @@ Collections overview;Collecties overzicht
 Stairs to Timeline exhibit;Trap naar tijdlijntentoonstelling
 Collections Overview;Collectiesoverzicht
 Last-destination (ALR);Laatste bestemming (ALR)
-Default quantity: 542;Standaard aantal: 542
 Select <col=ff9040>Pineapple punch;Selecteer <col=ff9040>Ananaspunch
 Select <col=ff9040>Fruit blast;Selecteer <col=ff9040>Fruitexplosie
 Select <col=ff9040>Blurberry special;Selecteer <col=ff9040>Blurberry speciaal
@@ -3108,29 +2468,18 @@ Mix-cocktail;Mix-cocktail
 Select <col=ff9040>Chocolate saturday;Selecteer <col=ff9040>Chocolade zaterdag
 Select <col=ff9040>Drunk dragon;Selecteer <col=ff9040>Dronken draak
 Select <col=ff9040>Short green guy;Selecteer <col=ff9040>Korte groene man
-Default quantity: 2;Standaardhoeveelheid: 2
 Magic XP: 1 point;Magische XP: 1 punt
 Magic XP: 100 points;Magische XP: 100 punten
 Strength XP: 100 points;Sterkte XP: 100 punten
 Magic XP: 10 points;Magische XP: 10 punten
 Ranged XP: 100 points;Afstands-XP: 100 punten
-Buy: 70 x Ruby amulet;Koop: 70 x Robijn amulet
-Buy: 1,000 x Ruby amulet;Koop: 1.000 x Robijnamulet
 Steal;Stelen
-Buy: 2,000 x Cosmic rune;Koop: 2.000 x Kosmische rune
 Toggle-activity;Schakel-activiteit
-Buy: 1,320 x Cosmic rune;Koop: 1.320 x Kosmische rune
-Default quantity: 6,000,000;Standaardhoeveelheid: 6.000.000
 Release all placeholders (38);Alle tijdelijke aanduidingen vrijgeven (38)
-Deposit-6000000;Borg-6000000
 Dissolve;Oplossen
-Sell: 826 x Amulet of strength;Verkoop: 826 x Amulet van kracht
 BJS;BJS
 BJP;BJP
 Ring-last-destination (CKQ);Ring-laatste bestemming (CKQ)
-Buy: 1 x Gilded platelegs;Koop: 1 x Vergulde platelegs
-Buy: 1 x Bones;Koop: 1 x botten
-Sell: 13,000 x Steel nails;Verkoop: 13.000 x stalen spijkers
 View <col=ff9040>Smithing</col> guide;Bekijk de <col=ff9040>Smiding</col>-gids
 Clan name;Clannaam
 Permission access;Toegang tot toestemming
@@ -3156,9 +2505,6 @@ Controles;Controles
 Conta;Conta
 Habilidades;Habilidades
 Previous page;Vorige pagina
-Buy: 1,990 x Ruby amulet;Koop: 1.990 x Robijnamulet
-Sell: 1,310 x Amulet of strength;Verkoop: 1.310 x Amulet van kracht
-Buy: 90 x Rune platebody;Koop: 90 x Rune-platebody
 Move Left;Ga naar links
 Move Right;Ga naar rechts
 Move Down;Ga naar beneden
@@ -3188,15 +2534,12 @@ História;Geschiedenis
 Trocar;Trocar
 Confirmar;Bevestiging
 Conjuntos;Conjunto's
-Withdraw-727;Intrekken-727
-Buy: 1 x Emerald;Koop: 1 x Smaragd
 Ver oferta;Veel aangeboden
 Abortar oferta;Abortus aangeboden
 Depósito-X;Deposito-X
 Preços;Preços
 Depósitar-1;Depositar-1
 Depósitar-10;Depositar-10
-Deposit-727;Borg-727
 Depósito-Tudo;Deposito-Tudo
 Depósitar-5;Depositar-5
 Insira o preço;Insira of preço
@@ -3204,9 +2547,7 @@ Make <col=ff9040>Emerald necklace</col>;Maak <col=ff9040>Smaragd ketting</col>
 Adicionar amigo;Aanvullende amigo
 Mostrar no mapa:;Mostrar geen kaart:
 Leia o diário:;Leia of dagboek:
-Sell: 50 x Emerald necklace;Verkoop: 50 x Emerald ketting
 Saque;Saque
-Withdraw-4000;Intrekken-4000
 Recompensas;Vergoedingen
 Compre 5;Compre 5
 Vender 50<col=ff9040>;Leverancier 50<col=ff9040>
@@ -3217,7 +2558,6 @@ Valor<col=ff9040>;Moed<col=ff9040>
 Compre 10;Compre 10
 Vender 5<col=ff9040>;Leverancier 5<col=ff9040>
 Compre 1;Compre 1
-Default quantity: 4,000;Standaardhoeveelheid: 4.000
 Chefes;Chef-koks
 Tarefas;Tarefas
 Registro de coleta;Registratie van coleta
@@ -3226,271 +2566,55 @@ Visão geral da coleção;Visueel algemeen de coleção
 Resgatar;Resgatar
 Compre-50;Compre-50
 Remover;Verwijderaar
-Default quantity: 15,000,000;Standaardhoeveelheid: 15.000.000
-Deposit-6;Borg-6
 Ver estatísticas do equipamento;Bekijk de statistieken van de uitrusting
 Empty Dish;Lege schotel
-Sell: 1,500 x Iron arrow;Verkoop: 1.500 x ijzeren pijl
-Buy: 1,500 x Headless arrow;Koop: 1.500 x pijl zonder kop
-Buy: 3 x Chocolate bar;Koop: 3 x Chocoladereep
 Look-in;Kijk-in
 Look in;Kijk naar binnen
 Info:;Info:
 Mostrar no mapa;Mostrar geen kaart
 Mostrar;Mostrar
 Clear them all;Wis ze allemaal
-Buy: 1 x Adamant platelegs;Koop: 1 x Adamant platelegs
 Retaliação automática;Automatische beloning
 Pedágio (10gp);Pedagogiek (10gp)
 Excluir amigo;Excluier amigo
 Soco;Soco
 Bloquear;Blok
-Deposit-18000;Borg-18000
-Withdraw-18000;Intrekken-18000
-Add friend OmfgitsJezus;Vriend toevoegen OmfgitsJezus
-Add friend lunaluna;Vriend Lunaluna toevoegen
-Add ignore SPINOZA78;Voeg negeren SPINOZA78 toe
-Add ignore YoungJimz;Voeg negeer YoungJimz toe
-Add ignore New Burial;Voeg negeer nieuwe begrafenis toe
-Add friend ReadSR;Vriend toevoegen ReadSR
-Add ignore WyattsWildy;Voeg negeer WyattsWildy toe
-Add friend Wheat312;Vriend toevoegen Tarwe312
-Add friend Pow3rmaxsk1l;Vriend toevoegen Pow3rmaxsk1l
-Add ignore OmfgitsJezus;Voeg negeer OmfgitsJezus toe
-Add ignore Marc Ecko;Voeg negeer Marc Ecko toe
-Add friend LinuxS3XTips;Vriend toevoegen LinuxS3XTips
-Add friend pedromain;Voeg vriend pedromain toe
-Add ignore Pimptime69;Voeg negeer Pimptime69 toe
-Add ignore Macdin;Voeg negeer Macdin toe
-Add ignore Pow3rmaxsk1l;Voeg negeer Pow3rmaxsk1l toe
-Add friend SirPudrick;Voeg vriend SirPudrick toe
-Add friend Runsirongi;Vriend toevoegen Runsirongi
-Add friend Tim Sanchez;Voeg vriend Tim Sanchez toe
-Add ignore pedromain;Voeg negeer pedromain toe
-Add friend WyattsWildy;Vriend toevoegen WyattsWildy
-Add ignore Voidloser;Voeg negeer Voidloser toe
-Add friend MavenDracan;Vriend toevoegen MavenDracan
-Add friend Marc Ecko;Voeg vriend Marc Ecko toe
-Add friend YoungJimz;Vriend toevoegen YoungJimz
-Add friend Pimptime69;Voeg vriend Pimptime69 toe
-Add ignore TerpyHigh;Voeg negeer TerpyHigh toe
-Add friend SPINOZA78;Vriend toevoegen SPINOZA78
-Add friend YBN Aleedarg;Vriend toevoegen YBN Aleedarg
-Add ignore YBN Aleedarg;Voeg negeren YBN Aleedarg toe
-Add ignore Runsirongi;Voeg negeer Runsirongi toe
-Add ignore ReadSR;Voeg negeer ReadSR toe
-Add ignore Wheat312;Voeg negeer Tarwe312 toe
-Add ignore LinuxS3XTips;Voeg negeer LinuxS3XTips toe
-Add ignore MavenDracan;Voeg negeer MavenDracan toe
-Add ignore x DAPPER DAN;Voeg negeer x DAPPER DAN toe
-Add friend Voidloser;Vriend toevoegen Voidloser
-Add friend New Burial;Vriend toevoegen Nieuwe begrafenis
-Add friend Macdin;Voeg vriend Macdin toe
-Add friend x DAPPER DAN;Vriend x DAPPER DAN toevoegen
-Add friend Tylon561;Voeg vriend Tylon561 toe
-Add friend TerpyHigh;Vriend toevoegen TerpyHigh
-Add friend Serve God;Vriend toevoegen Serveer God
-Add ignore Tim Sanchez;Voeg negeer Tim Sanchez toe
-Add ignore SirPudrick;Voeg negeren SirPudrick toe
-Add ignore Serve God;Voeg Negeren Serve God toe
-Add ignore lunaluna;Voeg negeer lunaluna toe
-Add ignore Tylon561;Voeg negeer Tylon561 toe
 Void Knight Seal;Ongeldige ridderzegel
 Void Knight Top;Ongeldige riddertop
 Void Ranger Helm;Ongeldige Ranger-helm
 Void Knight Gloves;Ongeldige ridderhandschoenen
-Add ignore Goth Girl XO;Voeg Negeer Goth Girl XO toe
-Add ignore Perry2fly;Voeg negeer Perry2fly toe
-Add friend LAMPTIONED;Vriend toevoegen LAMPTIONED
-Add friend J a c k e l;Vriend toevoegen J a c k e l
-Add friend Zul n Dro;Vriend toevoegen Zul n Dro
-Add friend SekiroTank;Vriend toevoegen SekiroTank
-Add ignore NotSeeGIM;Voeg negeer NotSeeGIM toe
-Add ignore Lumberg;Voeg negeer Lumberg toe
-Add ignore LAMPTIONED;Voeg negeren LAMPTIONED toe
-Add ignore Pontiff1;Voeg negeer Paus1 toe
-Add ignore Yunglitho;Voeg negeer Yunglitho toe
-Add friend NotSeeGIM;Vriend toevoegen NotSeeGIM
-Add ignore KisaMiaow;Voeg negeer KisaMiaow toe
-Add ignore Sibyllistes;Voeg negeer Sibyllistes toe
-Add ignore ZeroPolone;Voeg Negeer ZeroPolone toe
-Add friend Leo LaRocca;Voeg vriend Leo LaRocca toe
-Add ignore J a c k e l;Voeg negeer J a c k e l toe
-Add friend YurBoiFrost;Vriend toevoegen YurBoiFrost
-Add friend Ostehbos;Vriend toevoegen Ostehbos
-Add ignore Kat Kill U;Voeg negeer Kat Kill U toe
-Add friend Kat Kill U;Voeg vriend Kat Kill U toe
-Add ignore nerdnd;Negeer nerdnd toevoegen
-Add friend ToughShitMF;Vriend toevoegen ToughShitMF
-Add friend ZeroPolone;Voeg vriend ZeroPolone toe
-Add friend sky roarrent;Voeg vriend Sky Roarrent toe
-Add friend Sibyllistes;Vriend toevoegen Sibyllistes
-Add friend Goth Girl XO;Voeg vriend Goth Girl XO toe
-Add ignore Ostehbos;Voeg negeer Ostehbos toe
-Add ignore Zul n Dro;Voeg negeer Zul n Dro toe
-Add ignore YurBoiFrost;Voeg negeren YurBoiFrost toe
-Add ignore R O S I T A;Voeg negeer R O S I T A toe
-Add ignore TBAGMASTER66;Voeg negeer TBAGMASTER66 toe
-Add friend nerdnd;Vriend nerdnd toevoegen
-Add friend Iron Typhil;Voeg vriend Iron Typphil toe
-Add ignore Iron Typhil;Voeg 'negeer Iron Typphil' toe
-Add ignore sky roarrent;Voeg 'negeer sky roarrent' toe
-Add friend Lumberg;Voeg vriend Lumberg toe
-Add ignore SekiroTank;Voeg negeer SekiroTank toe
-Add ignore S00prman;Voeg negeer S00prman toe
-Add friend R O S I T A;Vriend toevoegen R O S I T A
-Add friend TBAGMASTER66;Vriend toevoegen TBAGMASTER66
-Add ignore Leo LaRocca;Voeg negeer Leo LaRocca toe
-Add friend Yunglitho;Voeg vriend Yunglitho toe
-Add friend S00prman;Vriend toevoegen S00prman
-Add ignore ToughShitMF;Voeg negeer ToughShitMF toe
-Add friend KisaMiaow;Voeg vriend KisaMiaow toe
-Add friend Pontiff1;Voeg vriend toe Paus1
-Add friend Perry2fly;Voeg vriend Perry2fly toe
-Add ignore ValconNE;Voeg negeer ValconNE toe
-Add friend The Fe Boi;Vriend toevoegen The Fe Boi
-Add friend Uncle Rustus;Vriend toevoegen Oom Rustus
-Add ignore WarheartRahl;Voeg negeer WarheartRahl toe
-Add ignore Uncle Rustus;Voeg negeer oom Rustus toe
-Add ignore V B Stubby;Voeg negeer V B Stubby toe
 Leave <col=ff8040>Barbarian Assault</col> channel;Verlaat het kanaal <col=ff8040>Barbarian Assault</col>
-Add ignore uwu sad;Voeg negeer uwu verdrietig toe
-Add friend thyhighone;Voeg vriend thyhighone toe
-Add ignore The Fe Boi;Voeg negeer The Fe Boi toe
-Add ignore weedy;Voeg negeer onkruid toe
 Switch <col=ff8040>306</col>;Schakel <col=ff8040>306</col> over
-Add ignore Turk Grimsby;Voeg negeer Turk Grimsby toe
 Join <col=ff8040>Barbarian Assault</col> channel;Sluit je aan bij het <col=ff8040>Barbarian Assault</col>-kanaal
-Add friend Turk Grimsby;Voeg vriend Turk Grimsby toe
-Add friend WarheartRahl;Voeg vriend WarheartRahl toe
-Add friend V B Stubby;Voeg vriend V B Stubby toe
-Add friend uwu sad;Vriend toevoegen uwu verdrietig
-Add ignore thyhighone;Voeg negeer thyhighone toe
 Teleport to <col=ff8040>Barbarian Assault</col>;Teleporteer naar <col=ff8040>Barbaarse aanval</col>
-Add friend ValconNE;Vriend toevoegen ValconNE
-Add friend weedy;Voeg vriend Weedy toe
 Take-Tofu;Take-Tofu
 Stock-Up;Voorraad-up
 Take-Crackers;Take-Crackers
 Take-Worms;Take-Wormen
-Add friend YarpiYarpi;Vriend toevoegen YarpiYarpi
-Add ignore Vamp Wook;Voeg negeer Vamp Wook toe
-Add friend Vamp Wook;Voeg vriend Vamp Wook toe
-Add ignore Zomaeris X;Voeg negeer Zomaeris X toe
-Add friend Zomaeris X;Voeg vriend Zomaeris X toe
-Add friend Zenoo;Voeg vriend Zenoo toe
-Add ignore YarpiYarpi;Voeg negeer YarpiYarpi toe
-Add ignore Zenoo;Voeg negeer Zenoo toe
-Add friend wookiearmpit;Voeg vriend wookiearmpit toe
-Add ignore WarluciaIM;Voeg negeer WarluciaIM toe
 Reset-wave;Reset-golf
-Add ignore ThatVietCong;Voeg negeer ThatVietCong toe
-Add friend ThatVietCong;Vriend toevoegen ThatVietCong
-Add ignore wookiearmpit;Negeer wookiearmpit toevoegen
-Add friend WarluciaIM;Vriend toevoegen WarluciaIM
 Write-Role;Schrijfrol
-Add ignore PearlLight21;Voeg negeer PearlLight21 toe
-Add friend swar0vski;Voeg vriend swar0vski toe
 Teleport to <col=ff8040>Soul Wars</col>;Teleporteer naar <col=ff8040>Soul Wars</col>
-Add friend shayboshark;Voeg vriend shayboshark toe
-Add friend treterr;Voeg vriend treterr toe
-Add friend SwitchHeel;Voeg vriend SwitchHeel toe
-Add ignore treterr;Negeer treterr toevoegen
 Leave <col=ff8040>Tombs of Amascut</col> channel;Verlaat het kanaal <col=ff8040>Tombs of Amascut</col>
-Add friend Seward Park;Voeg vriend Seward Park toe
-Add ignore toxicsnopipe;Voeg negeer toxicsnopipe toe
-Add ignore Willem Engel;Voeg negeren Willem Engel toe
-Add ignore so258;Voeg negeer so258 toe
-Add friend SarpanchJr;Vriend toevoegen SarpanchJr
-Add ignore xMysiq;Voeg negeer xMysiq toe
-Add friend PearlLight21;Vriend toevoegen PearlLight21
 Switch <col=ff8040>320</col>;Schakel <col=ff8040>320</col> over
-Add friend so258;Vriend toevoegen so258
 Teleport to <col=ff8040>Tombs of Amascut</col>;Teleporteer naar <col=ff8040>Tombs of Amascut</col>
-Add friend verba gladii;Voeg vriend verba gladii toe
 Join <col=ff8040>Soul Wars</col> channel;Sluit je aan bij het <col=ff8040>Soul Wars</col>-kanaal
-Add ignore TasteSeeker;Voeg negeer TasteSeeker toe
-Add friend Mr Fou;Voeg vriend meneer Fou toe
-Add ignore swar0vski;Voeg negeer swar0vski toe
-Add ignore SwitchHeel;Voeg Negeer SwitchHeel toe
-Add ignore sinsavage3;Voeg negeer sinsavage3 toe
-Add friend TheBadWo1f;Vriend toevoegen TheBadWo1f
-Add friend Willem Engel;Voeg vriend Willem Engel toe
-Add ignore WhiiiteRaven;Voeg negeer WhiiteRaven toe
 Leave <col=ff8040>Soul Wars</col> channel;Verlaat het kanaal <col=ff8040>Soul Wars</col>
-Add ignore Seward Park;Voeg negeer Seward Park toe
 Switch <col=ff8040>338</col>;Schakel <col=ff8040>338</col> over
-Add ignore shayboshark;Voeg negeer shayboshark toe
-Add friend xMysiq;Voeg vriend xMysiq toe
-Add ignore TheBadWo1f;Voeg negeer TheBadWo1f toe
 Teleport to <col=ff8040>God Wars</col>;Teleporteer naar <col=ff8040>God Wars</col>
-Add friend WhiiiteRaven;Vriend toevoegen WhiiteRaven
-Add ignore SarpanchJr;Voeg negeer SarpanchJr toe
-Add friend sinsavage3;Voeg vriend sinsavage3 toe
-Add ignore RoughNRaw;Voeg negeer RoughNRaw toe
-Add ignore Tyrolls;Voeg negeer Tirollen toe
-Add friend Sun Kannon;Voeg vriend Sun Kannon toe
-Add friend bballfrk11;Vriend toevoegen bballfrk11
-Add ignore Jojofatdong;Voeg negeer Jojofatdong toe
-Add friend Jojofatdong;Vriend toevoegen Jojofatdong
-Add ignore verba gladii;Voeg 'negeer verba gladii' toe
-Add ignore Im Tweedd;Voeg 'negeer ik' toe
 Leave <col=ff8040>God Wars</col> channel;Verlaat het <col=ff8040>God Wars</col> kanaal
-Add friend RoughNRaw;Vriend toevoegen RoughNRaw
 Join <col=ff8040>Tombs of Amascut</col> channel;Word lid van het kanaal <col=ff8040>Tombs of Amascut</col>
-Add ignore Sun Kannon;Voeg negeer Sun Kannon toe
-Add friend TasteSeeker;Vriend toevoegen TasteSeeker
 Join <col=ff8040>God Wars</col> channel;Sluit je aan bij het <col=ff8040>God Wars</col>-kanaal
-Add friend Tyrolls;Vriend toevoegen Tirollen
-Add ignore Mr Fou;Voeg 'negeer meneer Fou' toe
-Add friend Im Tweedd;Vriend toevoegen, ik ben Tweedd
-Add ignore bballfrk11;Voeg negeer bballfrk11 toe
-Add friend toxicsnopipe;Voeg vriend toxicsnopipe toe
-Add friend Ziconic222;Vriend toevoegen Ziconic222
-Add friend waudakwoody;Voeg vriend waudakwoody toe
-Add ignore RockApe101;Voeg negeer RockApe101 toe
 Teleport to <col=ff8040>Shooting Stars</col>;Teleporteer naar <col=ff8040>vallende sterren</col>
-Add ignore Wildy Powian;Voeg negeer Wildy Powian toe
-Add friend Zunestro;Vriend Zunestro toevoegen
-Add friend pull an pray;Voeg een vriend toe en doe een gebed
-Add ignore Bxrly;Voeg negeer Bxrly toe
-Add ignore zChap;Voeg negeer zChap toe
-Add friend Salvinate262;Vriend toevoegen Salvinate262
 Leave <col=ff8040>Shooting Stars</col> channel;Verlaat het <col=ff8040>Shooting Stars</col>-kanaal
-Add friend youngMendo;Vriend toevoegen youngMendo
-Add ignore youngMendo;Voeg negeer youngMendo toe
-Add ignore WiseOldDuke;Voeg negeer WiseOldDuke toe
 Join <col=ff8040>Volcanic Mine</col> channel;Sluit je aan bij het kanaal <col=ff8040>Volcanic Mine</col>
-Add friend Wildy Powian;Voeg vriend Wildy Powian toe
-Add friend Bxrly;Vriend toevoegen Bxrly
-Add friend Wyvnex;Vriend toevoegen Wyvnex
-Add friend xNeoPure;Voeg vriend xNeoPure toe
-Add friend zChap;Voeg vriend zChap toe
-Add friend WiseOldDuke;Vriend toevoegen WiseOldDuke
-Add ignore Wyvnex;Voeg negeer Wyvnex toe
-Add ignore Ziconic222;Voeg negeer Ziconic222 toe
-Add ignore Yeahnope;Voeg negeer Yeahnope toe
 Join <col=ff8040>Shooting Stars</col> channel;Word lid van het <col=ff8040>Shooting Stars</col>-kanaal
-Add friend Yeahnope;Vriend toevoegen Yeahnope
-Add ignore Wheresblanky;Voeg negeren Wheresblanky toe
-Add friend Wheresblanky;Vriend toevoegen Wheresblanky
-Add ignore Zunestro;Voeg negeer Zunestro toe
-Add ignore Salvinate262;Voeg negeer Salvinate262 toe
-Add ignore xNeoPure;Voeg negeer xNeoPure toe
-Add ignore waudakwoody;Voeg negeer waudakwoody toe
 Switch <col=ff8040>323</col>;Schakel <col=ff8040>323</col> over
-Add friend RockApe101;Voeg vriend RockApe101 toe
-Add ignore pull an pray;Voeg negeren toe, trek een gebed
 Teleport to <col=ff8040>Volcanic Mine</col>;Teleporteer naar <col=ff8040>Vulkanische mijn</col>
 Resources;Bronnen
 Leave <col=ff8040>Volcanic Mine</col> channel;Verlaat het kanaal <col=ff8040>Vulkanische mijn</col>
 Coletar no banco;Coletar geen banco
 View Hunter on the Wiki;Bekijk Hunter op de Wiki
 Karamja Shipyard;Karamja-scheepswerf
-Deposit-30000;Borg-30000
-Withdraw-30000;Intrekken-30000
-Withdraw-220000;Intrekken-220000
-Deposit-220000;Borg-220000
 Teleport to <col=ff8040>Shades of Mort'ton</col>;Teleporteer naar <col=ff8040>Shades of Mort'ton</col>
 Join <col=ff8040>Shades of Mort'ton</col> channel;Word lid van het <col=ff8040>Shades of Mort'ton</col>-kanaal
 Switch <col=ff8040>377</col>;Schakel <col=ff8040>377</col> over
@@ -3508,22 +2632,14 @@ Comprar-1;Vergelijk-1
 Saída;Saída
 Open Livestream;Livestream openen
 Aya;Ja
-Deposit-3500;Borg-3500
-Withdraw-3500;Intrekken-3500
 Comprar-5;Vergelijk-5
 Cambio de imagen;Cambio van afbeelding
-Buy: 10,000 x Stew;Koop: 10.000 x Stoofpot
-Sell: 2 x Nature rune;Verkoop: 2 x Natuurrune
 Sync your collection log with Temple;Synchroniseer uw verzamellogboek met Temple
-Sell: 1 x Logs;Verkoop: 1 x boomstammen
-Sell: 1 x Bear fur;Verkoop: 1 x berenbont
 Stairs to Dig Site exhibit;Trap naar tentoonstelling Dig Site
 Stairs to Natural History exhibit;Trap naar de tentoonstelling over natuurlijke historie
 Chute;Chute
 Charter-to Port Khazard;Charter-naar Port Khazard
 Excluir;Uitsluiten
-Buy: 1 x White bead;Kopen: 1 x Witte kraal
-Buy: 1 x Bucket of milk;Koop: 1 x Emmer melk
 Teleport to <col=ff8040>Guardians of the Rift</col>;Teleporteer naar <col=ff8040>Guardians of the Rift</col>
 Join <col=ff8040>Guardians of the Rift</col> channel;Sluit je aan bij het <col=ff8040>Guardians of the Rift</col>-kanaal
 Ghostly Grasp;Spookachtige greep
@@ -3537,9 +2653,6 @@ View <col=ff9040>Farming</col> guide;Bekijk de gids <col=ff9040>Boeren</col>
 Teleport to <col=ff8040>Tithe Farm</col>;Teleporteer naar <col=ff8040>Tidenboerderij</col>
 Join <col=ff8040>Tithe Farm</col> channel;Word lid van het kanaal <col=ff8040>Tithe Farm</col>
 Change icon (corp);Pictogram wijzigen (corp)
-Withdraw-12000000;Intrekken-12000000
-Withdraw-1116;Intrekken-1116
-Deposit-1116;Borg-1116
 Change icon (melee);Pictogram wijzigen (melee)
 Release all placeholders (18);Alle tijdelijke aanduidingen vrijgeven (18)
 Change icon (ranger);Pictogram wijzigen (ranger)
@@ -3547,131 +2660,22 @@ Change icon (mage);Pictogram wijzigen (mage)
 Comprar tudo;Vergelijk tudo
 Compre-X;Compre-X
 Poções;Poções
-Deposit-400;Borg-400
-Withdraw-400;Intrekken-400
 Vault;Kluis
-Deposit-2000000;Borg-2000000
-Withdraw-2000000;Intrekken-2000000
 Select <col=ff891f>Grid master tabard (g);Selecteer <col=ff891f>Tabblad Rastermaster (g)
 Select <col=ff891f>Swords and emblem (b);Selecteer <col=ff891f>Zwaarden en embleem (b)
 Select <col=ff891f>Grid master tabard (b);Selecteer <col=ff891f>Tabblad Rastermaster (b)
-Buy: 2 x Cheese;Koop: 2 x Kaas
-Buy: 1 x Bronze bar;Koop: 1 x bronzen staaf
-Buy: 2 x Teleport to house;Kopen: 2 x Teleporteren naar huis
-Buy: 2 x Falador teleport;Koop: 2 x Falador-teleport
-Withdraw-90;Intrekken-90
-Deposit-90;Borg-90
-Buy: 30 x Bones;Koop: 30 x botten
-Sell: 180 x Arrow shaft;Verkoop: 180 x Pijlschacht
 He/him;Hij/hem
 Comprar;Vergelijk
 Charter-to Musa Point;Charter-naar Musa Point
-Buy: 6 x Chocolate cake;Koop: 6 x Chocoladetaart
 Leave <col=ff8040>Shades of Mort'ton</col> channel;Verlaat het <col=ff8040>Shades of Mort'ton</col> kanaal
-Add ignore GRANDPAROWEN;Voeg negeer GROOTPAROWEN toe
-Add friend vapkez;Vriend vapkez toevoegen
-Add friend GRANDPAROWEN;Vriend toevoegen GRANDPAROWEN
-Add friend Marko Slice;Voeg vriend Marko Slice toe
-Add ignore Meowser121;Voeg negeer Meowser121 toe
-Add ignore Zobozo1;Voeg negeer Zobozo1 toe
-Add friend Soliidary;Vriend toevoegen Solidair
-Add ignore KONQUERX;Voeg negeer KONQUERX toe
-Add ignore Marko Slice;Voeg Negeer Marko Slice toe
-Add ignore Sloppy McNut;Voeg negeer Sloppy McNut toe
-Add friend Omegasquadga;Vriend toevoegen Omegasquadga
-Add friend Sloppy McNut;Vriend toevoegen Sloppy McNut
-Add friend Zobozo1;Voeg vriend Zobozo1 toe
-Add friend Meowser121;Vriend toevoegen Meowser121
-Add ignore Omegasquadga;Voeg negeer Omegasquadga toe
-Add ignore vapkez;Voeg negeer vapkez toe
-Add ignore Soliidary;Voeg negeren Solidair toe
-Add friend KONQUERX;Vriend toevoegen KONQUERX
-Buy: 1 x Black 2h sword;Koop: 1 x Zwart 2h-zwaard
-Buy: 2,100 x Chaos rune;Koop: 2.100 x Chaos-rune
 Pick-spine;Pick-ruggengraat
 Jump-Across;Spring over
 Quick-board;Snel bord
-Withdraw-1100;Intrekken-1100
-Deposit-1100;Borg-1100
-Default quantity: 1,100;Standaardhoeveelheid: 1.100
-Withdraw-11000;Intrekken-11000
-Deposit-11000;Borg-11000
 Challenge-mode;Uitdagingsmodus
-Default quantity: 6;Standaardhoeveelheid: 6
-Add ignore xBroellers;Voeg negeer xBroellers toe
-Add ignore VenturedOut;Voeg negeer VenturedOut toe
-Add ignore POX IV;Voeg negeer POX IV toe
-Add ignore RN Kiwi;Voeg negeer RN Kiwi toe
-Add friend S a b a10;Vriend toevoegen S a b a10
-Add ignore LostTooMany;Voeg negeer LostTooMany toe
-Add ignore Thermidex;Voeg negeer Thermidex toe
-Add friend ZellaDey;Voeg vriend ZellaDey toe
-Add friend Owlbeaker;Voeg vriend Uilbeker toe
-Add friend TheCount423;Vriend toevoegen TheCount423
-Add friend Tuwah as;Voeg vriend Tuwah toe als
-Add friend xbongesx;Voeg vriend xbongesx toe
-Add friend Tm1453;Vriend toevoegen Tm1453
-Add ignore S a b a10;Voeg negeren S a b a10 toe
-Add ignore TheCount423;Voeg negeer TheCount423 toe
-Add ignore Pro Flex;Voeg negeer Pro Flex toe
-Add ignore slayinfaerie;Voeg negeer slayinfaerie toe
-Add friend RN Kiwi;Voeg vriend RN Kiwi toe
-Add friend Vedranimall;Vriend toevoegen Vedranimall
-Add friend Urukhairintj;Vriend toevoegen Urukhairintj
-Add friend qazedc10;Vriend toevoegen qazedc10
-Add friend vt_8o8;Voeg vriend vt_8o8 toe
-Add friend Monstyyy;Voeg vriend Monstyyy toe
-Add ignore ZellaDey;Voeg negeer ZellaDey toe
-Add ignore Yrrabo;Voeg negeer Yrrabo toe
-Add friend LostTooMany;Vriend toevoegen LostTooMany
-Add ignore Ued Ghost;Voeg negeer Ued Ghost toe
-Add friend Stokesberger;Vriend toevoegen Stokesberger
-Add ignore Owlbeaker;Voeg negeer Uilbeker toe
-Add friend valerielilw;Voeg vriend valerielilw toe
-Add ignore qazedc10;Voeg negeer qazedc10 toe
-Add ignore Prolly so;Voeg negeer Prolly toe
-Add ignore Magolllon;Voeg negeer Magolllon toe
-Add ignore Monstyyy;Voeg negeer Monstyyy toe
-Add friend POX IV;Vriend POX IV toevoegen
-Add friend Slangbellan;Vriend toevoegen Slangbellan
-Add ignore xbongesx;Voeg negeer xbongesx toe
-Add ignore Vedranimall;Voeg negeer Vedranimall toe
-Add friend TheoChapman;Voeg vriend TheoChapman toe
-Add ignore valerielilw;Voeg negeer valerielilw toe
-Add friend xBroellers;Voeg vriend xBroellers toe
-Add ignore Stokesberger;Negeer Stokesberger toevoegen
-Add ignore vt_8o8;Voeg negeer vt_8o8 toe
-Add friend Yrrabo;Vriend toevoegen Yrrabo
-Add friend Ued Ghost;Voeg vriend Ued Ghost toe
-Add friend Thermidex;Vriend toevoegen Thermidex
-Add friend Pikig;Voeg vriend Pikig toe
-Add ignore Tuwah as;Voeg 'negeer Tuwah' toe als
-Add friend slayinfaerie;Voeg vriend slayinfaerie toe
-Add friend Prolly so;Voeg vriend Prolly toe
-Add friend Magolllon;Vriend Magollon toevoegen
-Add ignore TheoChapman;Voeg negeer TheoChapman toe
-Add ignore Urukhairintj;Voeg negeer Urukhairintj toe
-Add friend Pro Flex;Voeg vriend Pro Flex toe
-Add ignore Pikig;Voeg negeer Pikig toe
-Add ignore Slangbellan;Voeg negeren Slangbellan toe
-Add friend VenturedOut;Vriend toevoegen VenturedOut
-Add ignore Tm1453;Voeg negeer Tm1453 toe
 Change icon (mission's);Pictogram wijzigen (missie's)
-Add ignore pharmon;Negeer pharmon toevoegen
-Add friend pharmon;Vriend pharmon toevoegen
-Add ignore Sup3rluminal;Voeg negeer Sup3rluminal toe
-Add ignore MercyGate;Voeg MercyGate negeren toe
-Add friend Sup3rluminal;Vriend toevoegen Sup3rluminal
-Add friend MercyGate;Vriend MercyGate toevoegen
 Make <col=ff9040>Ruby bracelet</col>;Maak <col=ff9040>Robijn armband</col>
-Deposit-7000;Borg-7000
-Withdraw-60000;Intrekken-60000
-Withdraw-7000;Intrekken-7000
-Withdraw-12000;Intrekken-12000
-Deposit-12000;Borg-12000
 More Info;Meer informatie
 Look-up;Kijk omhoog
-Buy: 1 x Pot;Kopen: 1 x Pot
 Load last duel's settings;Laad de instellingen van het laatste duel
 Load preset settings;Vooraf ingestelde instellingen laden
 Save settings;Instellingen opslaan
@@ -3681,40 +2685,25 @@ CKS;CKS
 AJP;AJP
 DKP;DKP
 Select <col=ff9040>Wizard blizzard;Selecteer <col=ff9040>Wizard-blizzard
-Deposit-12000000;Storting-12000000
-Default quantity: 7,000;Standaardhoeveelheid: 7.000
 Pay (east);Betalen (oost)
 Pay (west);Betaal (west)
 Remove-Bone;Verwijder-bot
 Remove-Pot;Verwijder-pot
 Group name;Groepsnaam
 Create Group;Groep aanmaken
-Buy: 9 x Bucket;Koop: 9 x Emmer
-Withdraw-1200;Intrekken-1200
-Deposit-1200;Borg-1200
 Teleport to <col=ff8040>Fishing Trawler</col>;Teleporteer naar <col=ff8040>Visstrawler</col>
 Join <col=ff8040>Fishing Trawler</col> channel;Sluit je aan bij het <col=ff8040>Fishing Trawler</col>-kanaal
-Buy: 4 x Red dye;Koop: 4 x Rode kleurstof
 Screenshot;Schermafbeelding
-Buy: 100 x Logs;Koop: 100 x boomstammen
 +15%;+15%
-Buy: 5,000 x Pure essence;Koop: 5.000 x Pure essentie
 Attempt Translation;Poging tot vertaling
 +40%;+40%
 -40%;-40%
-Buy: 1 x Secateurs;Koop: 1 x snoeischaar
-Withdraw-14000000;Intrekken-14000000
-Deposit-14000000;Borgsom-14000000
 Abort;Afbreken
 Steer left;Stuur links
 Steer right;Stuur rechts
 Increase throttle;Verhoog het gaspedaal
 Decrease throttle;Gaspedaal verlagen
 -15%;-15%
-Default quantity: 1,000,000;Standaardhoeveelheid: 1.000.000
-Default quantity: 12,000,000;Standaardhoeveelheid: 12.000.000
-Buy: 20 x Ranarr potion (unf);Koop: 20 x Ranarr-drankje (unf)
-Sell: 1 x Uncut jade;Verkoop: 1 x Ongesneden jade
 DIR;DIR
 BLP;BLP
 Travel to<col=ff9040> Wilderness Pond;Reis naar<col=ff9040> ​​Wildernisvijver
@@ -3722,7 +2711,6 @@ Restore;Herstellen
 Swap-options;Swap-opties
 Set Hotkey (Q);Sneltoets instellen (Q)
 Set Hotkey (P);Sneltoets instellen (P)
-Buy: 1 x Strength potion(4);Koop: 1 x Krachtdrankje(4)
 Cyrisus;Cyrisus
 Captain Ginea;Kapitein Ginea
 Krystilia;Krystilia
@@ -3731,20 +2719,7 @@ Konar;Konar
 Kuradal;Kuradal
 Barbarian Guard;Barbaarse Garde
 Lanthus;Lanthus
-Buy: 700 x Chocolate dust;Koop: 700 x Chocoladestof
-Buy: 600 x Ranarr potion (unf);Koop: 600 x Ranarr-drankje (unf)
-Sell: 600 x Prayer potion(3);Verkoop: 600 x Gebedsdrankje(3)
-Buy: 1 x Limpwurt root;Koop: 1 x Limpwurtwortel
-Sell: 1 x Super strength(3);Verkoop: 1 x Supersterkte(3)
-Buy: 600 x Limpwurt root;Koop: 600 x Limpwurtwortel
-Sell: 600 x Super strength(3);Verkoop: 600 x supersterkte(3)
-Buy: 1 x Bandos rune armour set (lg);Kopen: 1 x Bandos runenpantserset (lg)
-Buy: 200 x Kwuarm potion (unf);Koop: 200 x Kwuarm-drankje (unf)
-Buy: 200 x Limpwurt root;Koop: 200 x Limpwurtwortel
 Add to;Toevoegen aan
-Buy: 1 x Unfired bowl;Koop: 1 x Ongebakken kom
-Default quantity: 800;Standaardhoeveelheid: 800
-Sell: 1 x Ensouled troll head;Verkoop: 1 x Ensouled trolkop
 Remover espaços reservados;Espaços-reserveringen verwijderen
 Contagem de cheques;Contagem de cheques
 Escolha;Escolha
@@ -3862,7 +2837,6 @@ Venda 50<col=ff9040>;Verkoop 50<col=ff9040>
 Reparar;Reparatie
 Chupar;Chupar
 Glider-to Lemanto Andra;Zweefvliegtuig naar Lemanto Andra
-Buy: 1 x Uncut diamond;Kopen: 1 x Ongeslepen diamant
 Rastreamento;Rastreamento
 Características;Karakteristieken
 Miscelânea;Diversen
@@ -3917,15 +2891,12 @@ Gráfico;Grafisch
 Roubar de;Roubar de
 Porto Piscarilius;Porto Piscarilius
 Fazer;Fazer
-Buy: 2 x Xerician fabric;Koop: 2 x Xerician-stof
 Release all placeholders (39);Alle tijdelijke aanduidingen vrijgeven (39)
 Investigar;Onderzoeker
 Planador;Planador
 Junte-se às Guerras do Castelo;Junte-se às Guerras do Castelo
-Withdraw-875;Intrekken-875
 Estatísticas;Statistieken
 Remexer;Remexer
-Deposit-875;Borg-875
 Release all placeholders (30);Alle tijdelijke aanduidingen vrijgeven (30)
 Loja;Loja
 Operar;Operator
@@ -3944,8 +2915,6 @@ Leite;Leite
 Descarregar;Downloaden
 Machado;Machado
 Roubar sino;Roubar sino
-Deposit-5555;Borg-5555
-Withdraw-5555;Intrekken-5555
 Taxa de cheque;Taxa de cheque
 Fogo;Fogo
 Carregar X;Carregar X
@@ -3960,11 +2929,9 @@ Entrem;Entrem
 Gazua;Gazua
 Remover carvão;Verwijderaar carvão
 Change icon (coletas);Pictogram wijzigen (coletas)
-Buy: 150 x Mithril arrowtips;Koop: 150 x Mithril pijlpunten
 Ressaca;Ressaca
 Passar;Passar
 Pular;Pulier
-Buy: 1 x Gold bar;Koop: 1 x Goudbaar
 Localizar;Localizar
 Verifique as etapas;Verifique als etapas
 Sentir;Sentir
@@ -3974,12 +2941,8 @@ Cliente em potencial;Klant potentieel
 Pule para;Pule para
 Cisalhamento;Cisalhamento
 Watchtower;Uitkijktoren
-Withdraw-855000;Intrekken-855000
 Laço;Laço
 Esmagar;Esmagar
-Deposit-855000;Borgsom-855000
-Buy: 70 x Dragon longsword;Koop: 70 x Draken langzwaard
-Default quantity: 855,000;Standaardhoeveelheid: 855.000
 Reivindicações de registro de recompensas;Beloningsregistraties terugbetalen
 Obter registro;Verkrijg registratie
 Retirada;Retirada
@@ -3988,9 +2951,6 @@ Pule Através;Pule Através
 Plantar;Plantair
 Pegue o tesouro;Pegue of tesouro
 Atravessar;Atravessar
-Default quantity: 80,000;Standaardhoeveelheid: 80.000
-Withdraw-80000;Intrekken-80000
-Deposit-80000;Borg-80000
 Iban Blast;Iban explosie
 Escavar;Escavar
 Corte de cabelo;Corte de cabelo
@@ -4051,8 +3011,6 @@ Pagar (canteiro de árvore);Pagar (canteiro de árvore)
 Combustível;Verbrandingsvermogen
 Picareta;Picareta
 Último destino;Ultieme bestemming
-Deposit-255555;Borg-255555
-Withdraw-255555;Intrekken-255555
 Fill-in;Invullen
 Consult;Raadplegen
 Passo a passo;Passo een passo
@@ -4073,9 +3031,6 @@ Dig-below;Graaf hieronder
 Alternar K/D;Alternatieve K/D
 Descartar;Ontscartar
 Nenhum;Nenhum
-Default quantity: 8;Standaardhoeveelheid: 8
-Buy: 1 x Nardah teleport;Koop: 1 x Nardah-teleport
-Buy: 380 x Earth battlestaff;Koop: 380 x aardse strijdstaf
 Toggle-vials;Toggle-flacons
 Search-for-traps;Zoek-naar-vallen
 -20%;-20%
@@ -4084,436 +3039,20 @@ Conjure;Toveren
 Set as Client;Stel in als klant
 Remove-rat;Verwijder-rat
 Quick-falcon;Snelle valk
-Buy: 4 x Extended stamina potion(4);Koop: 4 x Uitgebreid uithoudingsvermogendrankje(4)
-Default quantity: 1,522;Standaardhoeveelheid: 1.522
-Withdraw-1522;Intrekken-1522
 Check/Uncharge;Controleren/ontladen
 Set Hotkey (R);Sneltoets instellen (R)
 Set Hotkey (S);Sneltoets instellen (S)
-Deposit-300000;Borg-300000
-Withdraw-300000;Intrekken-300000
 Playback;Afspelen
 Contact;Contact
 Scan;Scannen
 Castori;Castori
 Prьfen;Prüfen
 Fдllen;Fällen
-Add friend TheHedgeNite;Vriend toevoegen TheHedgeNite
-Add friend Yukon772;Voeg vriend Yukon772 toe
-Add ignore X Huka;Voeg negeer X Huka toe
-Add friend wildturkey63;Voeg vriend wildturkey63 toe
-Add ignore unholysadist;Voeg negeer onholysadist toe
-Add friend X Huka;Voeg vriend X Huka toe
-Add ignore Yukon772;Voeg negeer Yukon772 toe
-Add ignore ZooCluesMan;Voeg negeren ZooCluesMan toe
-Add ignore whimsywhale;Voeg negeer whimsywhale toe
-Add friend Temptationss;Vriend toevoegen Temptationss
-Add friend thinHairyIM;Vriend toevoegen thinHairyIM
-Add ignore wildturkey63;Voeg negeer wildturkey63 toe
-Add friend ZooCluesMan;Vriend toevoegen ZooCluesMan
-Add ignore thinHairyIM;Voeg negeer thinHairyIM toe
-Add ignore Tomppazz93;Voeg negeer Tomppazz93 toe
-Add friend whimsywhale;Vriend whimsywhale toevoegen
-Add ignore ValentHobby;Voeg negeer ValentHobby toe
-Add ignore TheHedgeNite;Voeg negeer TheHedgeNite toe
-Add friend ValentHobby;Vriend toevoegen ValentHobby
-Add ignore Temptationss;Voeg negeer verleidingen toe
-Add friend unholysadist;Voeg vriend unholysadist toe
-Add friend Tomppazz93;Voeg vriend Tomppazz93 toe
-Add ignore Rel1ik999;Voeg negeer Rel1ik999 toe
-Add ignore Sorry_scrub;Negeren Sorry_scrub toevoegen
-Add ignore Zazzali;Voeg negeer Zazzali toe
-Add ignore LordFalahar;Voeg Negeer LordFalahar toe
-Add ignore Menlo Manny;Voeg negeer Menlo Manny toe
-Add ignore MisWhis4Real;Voeg negeren MisWhis4Real toe
-Add friend PreAres;Vriend toevoegen PreAres
-Add ignore PlsRngeezus;Voeg negeer PlsRngeezus toe
-Add friend MyFriesBro;Vriend toevoegen MyFriesBro
-Add friend PrincessCMW;Vriend toevoegen PrincessCMW
-Add friend Smoker_484;Vriend toevoegen Smoker_484
-Add ignore RomaRobot;Voeg negeer RomaRobot toe
-Add ignore RentaSoupO;Voeg negeer RentaSoupO toe
-Add friend prutlars47;Voeg vriend prutlars47 toe
-Add friend Plague_Bat;Voeg vriend Plague_Bat toe
-Add ignore TheNewDos;Voeg negeer TheNewDos toe
-Add friend Rel1ik999;Vriend toevoegen Rel1ik999
-Add friend TheMurph33;Vriend toevoegen TheMurph33
-Add ignore Rargh 4 Real;Voeg negeer Rargh 4 Real toe
-Add ignore NsaneVulture;Voeg negeer NsaneVulture toe
-Add ignore MyFriesBro;Voeg negeer MyFriesBro toe
-Add ignore Risin_Up_LDG;Voeg negeer Risin_Up_LDG toe
-Add friend Mangyman13;Vriend toevoegen Mangyman13
-Add ignore limit 45;Voeg negeerlimiet 45 toe
-Add ignore L0TTl;Voeg negeer L0TTl toe
-Add friend RentaSoupO;Vriend toevoegen RentaSoupO
-Add friend L0TTl;Vriend toevoegen L0TTl
-Add friend Tallig3;Vriend toevoegen Tallig3
-Add ignore Tallig3;Voeg negeer Tallig3 toe
-Add ignore ResetHard;Negeer ResetHard toevoegen
-Add friend Ry The Fly;Voeg vriend Ry The Fly toe
-Add ignore Shade Plus;Voeg negeer Shade Plus toe
-Add friend NoPotsNoPans;Vriend toevoegen NoPotsNoPans
-Add ignore Saaguu;Voeg negeer Saaguu toe
-Add friend Lady Trinket;Voeg vriendin Lady Trinket toe
-Add friend Zaccdaripper;Voeg vriend Zaccdaripper toe
-Add ignore Mangyman13;Voeg negeer Mangyman13 toe
-Add friend Supahotfye;Vriend toevoegen Supahotfye
-Add ignore Powngenie420;Voeg negeren Powngenie420 toe
-Add friend Zazzali;Voeg vriend Zazzali toe
-Add friend Paladin Doop;Voeg vriend Paladin Doop toe
-Add friend Menlo Manny;Voeg vriend Menlo Manny toe
-Add friend KujooeIM;Vriend toevoegen KujooeIM
-Add friend SirJzilla;Vriend toevoegen SirJzilla
-Add ignore PreAres;Voeg negeer PreAres toe
-Add friend ResetHard;Vriend toevoegen ResetHard
-Add friend LandaHanz;Voeg vriend LandaHanz toe
-Add friend Risin_Up_LDG;Vriend toevoegen Risin_Up_LDG
-Add ignore Zaccdaripper;Voeg negeer Zaccdaripper toe
-Add friend Weyate;Vriend toevoegen Weyate
-Add ignore Ry The Fly;Voeg negeer Ry The Fly toe
-Add friend Rargh 4 Real;Vriend toevoegen Rargh 4 Real
-Add friend Sorry_scrub;Vriend toevoegen Sorry_scrub
-Add ignore KujooeIM;Voeg negeer KujooeIM toe
-Add ignore LandaHanz;Voeg negeer LandaHanz toe
-Add ignore PrincessCMW;Voeg Negeer PrincessCMW toe
-Add ignore Weyate;Voeg negeer Weyate toe
-Add friend PlsRngeezus;Vriend toevoegen PlsRngeezus
-Add ignore Supahotfye;Voeg negeer Supahotfye toe
-Add friend Shade Plus;Vriend toevoegen Shade Plus
-Add friend limit 45;Vriendenlimiet 45 toevoegen
-Add friend MisWhis4Real;Vriend toevoegen MisWhis4Real
-Add ignore NoPotsNoPans;Voeg negeer NoPotsNoPans toe
-Add ignore TheMurph33;Voeg negeer TheMurph33 toe
-Add ignore Lady Trinket;Voeg Negeer Lady Trinket toe
-Add friend Powngenie420;Vriend toevoegen Powngenie420
-Add friend RomaRobot;Vriend toevoegen RomaRobot
-Add ignore Plague_Bat;Voeg negeer Plague_Bat toe
-Add ignore SirJzilla;Voeg negeren SirJzilla toe
-Add friend TheNewDos;Vriend toevoegen TheNewDos
-Add friend NsaneVulture;Vriend toevoegen NsaneVulture
-Add friend LordFalahar;Voeg vriend LordFalahar toe
-Add ignore prutlars47;Voeg negeer prutlars47 toe
-Add ignore Paladin Doop;Voeg Paladin Doop toe
-Add ignore Smoker_484;Voeg negeer Smoker_484 toe
-Add friend Saaguu;Voeg vriend Saaguu toe
-Add ignore NotN_MyMouth;Voeg negeer NotN_MyMouth toe
-Add friend chxnoodsoup;Voeg vriend chxnoodsoup toe
-Add ignore BULLY xD;Voeg negeer BULLY xD toe
-Add ignore DabehOfa;Voeg negeer DabehOfa toe
-Add ignore p00pypie;Voeg negeer p00pypie toe
-Add ignore BiSpy;Voeg negeer BiSpy toe
-Add friend 3VO4;Voeg vriend 3VO4 toe
-Add ignore Grimgrok26;Voeg negeer Grimgrok26 toe
-Add friend p00pypie;Vriend p00pypie toevoegen
-Add friend EMO POS;Voeg vriend EMO POS toe
-Add ignore zoublemaul;Voeg negeer zoublemaul toe
-Add ignore Frantoon;Voeg negeer Frantoon toe
-Add ignore Dantelieri;Voeg negeer Dantelieri toe
-Add friend KingBlixky;Voeg vriend KingBlixky toe
-Add friend Genae;Voeg vriend Genae toe
-Add ignore Aged Jankem;Voeg 'negeer Aged Jankem' toe
-Add friend zoublemaul;Vriend zoublemaul toevoegen
-Add ignore IMATOBRO123;Voeg negeer IMATOBRO123 toe
-Add ignore Fouug;Voeg negeer Fouug toe
-Add friend BakingCo;Vriend toevoegen BakingCo
-Add ignore Genae;Negeer Genae toevoegen
-Add friend 3WoodLye;Voeg vriend 3WoodLye toe
-Add friend osrsgflv;Vriend toevoegen osrsgflv
-Add ignore IvorBromson;Voeg negeer IvorBromson toe
-Add friend BrawnsBoi;Vriend toevoegen BrawnsBoi
-Add ignore Mage Truffle;Voeg negeer Mage Truffel toe
-Add friend Benchouw2;Vriend toevoegen Benchouw2
-Add friend DabehOfa;Voeg vriend DabehOfa toe
-Add ignore Firefuryrose;Voeg negeer Firefuryrose toe
-Add ignore jjiscool1;Voeg negeer jjiscool1 toe
-Add friend IMATOBRO123;Vriend toevoegen IMATOBRO123
-Add friend Fouug;Voeg vriend Fouug toe
-Add friend Ankou2389;Vriend toevoegen Ankou2389
-Add ignore LumenGrave;Voeg negeer LumenGrave toe
-Add friend BULLY xD;Vriend toevoegen BULLY xD
-Add ignore Ankou2389;Voeg negeer Ankou2389 toe
-Add ignore rautakotkis;Voeg negeer rautakotkis toe
-Add ignore chxnoodsoup;Voeg negeer chxnoodsoup toe
-Add friend Env IRON;Vriend toevoegen Env IRON
-Add friend he who dares;Voeg een vriend toe die durft
-Add ignore PurejOor;Voeg negeren PurejOor toe
-Add friend IvorBromson;Voeg vriend IvorBromson toe
-Add ignore 3VO4;Voeg negeer 3VO4 toe
-Add friend Aged Jankem;Vriend toevoegen Aged Jankem
-Add ignore Env IRON;Voeg negeer Env IRON toe
-Add friend PurejOor;Vriend toevoegen PurejOor
-Add friend Firefuryrose;Voeg vriend Firefuryrose toe
-Add friend FlakPanzer95;Vriend toevoegen FlakPanzer95
-Add ignore 3WoodLye;Voeg negeer 3WoodLye toe
-Add ignore EMO POS;Voeg negeer EMO POS toe
-Add ignore db271;Voeg negeer db271 toe
-Add friend db271;Vriend db271 toevoegen
-Add friend NotN_MyMouth;Vriend toevoegen NotN_MyMouth
-Add ignore KingBlixky;Voeg negeer KingBlixky toe
-Add friend LumenGrave;Vriend toevoegen LumenGrave
-Add ignore NOBARA03;Voeg negeer NOBARA03 toe
-Add friend Dantelieri;Voeg vriend Dantelieri toe
-Add ignore osrsgflv;Voeg negeer osrsgflv toe
-Add friend Jackm12;Voeg vriend Jackm12 toe
-Add ignore Long Charm;Voeg Negeer Lange Charm toe
-Add friend jjiscool1;Voeg vriend jjiscool1 toe
-Add friend Long Charm;Voeg vriend Long Charm toe
-Add friend NOBARA03;Voeg vriend NOBARA03 toe
-Add friend Grimgrok26;Voeg vriend Grimgrok26 toe
-Add ignore Jackm12;Voeg negeer Jackm12 toe
-Add friend BiSpy;Voeg vriend BiSpy toe
-Add friend rautakotkis;Voeg vriend rautakotkis toe
-Add ignore BakingCo;Negeer BakingCo toevoegen
-Add ignore FlakPanzer95;Voeg negeer FlakPanzer95 toe
-Add friend Frantoon;Voeg vriend Frantoon toe
-Add ignore Benchouw2;Voeg negeer Benchouw2 toe
-Add friend Mage Truffle;Vriend toevoegen Mage Truffle
-Add ignore BrawnsBoi;Voeg negeer BrawnsBoi toe
-Add ignore he who dares;Voeg toe: negeer hij die durft
-Add ignore Liddobread;Voeg negeer Liddobrood toe
-Add ignore myassishappy;Voeg negeer mijnassishap toe
-Add friend J-LO89;Voeg vriend J-LO89 toe
-Add ignore J-LO89;Voeg negeer J-LO89 toe
-Add friend JibbaJabbaJo;Vriend toevoegen JibbaJabbaJo
-Add friend irritablevow;Voeg vriend prikkelbare gelofte toe
-Add ignore IronDairyMan;Voeg negeer IronDairyMan toe
-Add friend IronDairyMan;Vriend toevoegen IronDairyMan
-Add friend PilaNosPes;Vriend toevoegen PilaNosPes
-Add friend Qataro;Voeg vriend Qataro toe
-Add friend NormalNaveed;Vriend toevoegen NormalNaveed
-Add ignore K1ngSlay3rr;Voeg negeer K1ngSlay3rr toe
-Add friend K1ngSlay3rr;Vriend toevoegen K1ngSlay3rr
-Add friend i finna buss;Vriend toevoegen, ik finna buss
-Add friend Liddobread;Voeg vriend Liddobrood toe
-Add friend jattshigh;Voeg vriend jattshigh toe
-Add friend JaliscoMex;Vriend toevoegen JaliscoMex
-Add ignore SucubusOfWar;Voeg negeer SucubusOfWar toe
-Add friend naame2forget;Voeg vriend naame2forget toe
-Add ignore irritablevow;Voeg negeer prikkelbare gelofte toe
-Add ignore JaliscoMex;Voeg negeer JaliscoMex toe
-Add ignore JibbaJabbaJo;Voeg negeren JibbaJabbaJo toe
-Add friend myassishappy;Voeg vriend myassisappy toe
-Add ignore jattshigh;Voeg negeer jattshigh toe
-Add friend SucubusOfWar;Vriend toevoegen SucubusOfWar
-Add ignore Qataro;Voeg 'negeer Qataro' toe
-Add ignore naame2forget;Voeg negeer naam2vergeten toe
-Add ignore PilaNosPes;Voeg Negeer PilaNosPes toe
-Add ignore i finna buss;Voeg negeer ik finna buss toe
-Add ignore NormalNaveed;Voeg negeer NormalNaveed toe
 Dissolver;Oplosser
-Withdraw-22000000;Intrekken-22000000
-Add friend whiteclaw96;Voeg vriend whiteclaw96 toe
-Add friend wormnipples;Voeg vriendwormtepels toe
-Add ignore wormnipples;Voeg negeerwormnippels toe
-Add ignore whiteclaw96;Voeg negeer whiteclaw96 toe
-Add ignore HCIM KITAKER;Voeg negeer HCIM KITAKER toe
-Add friend kkush4life;Vriend toevoegen kkush4life
-Add ignore Lorik337;Voeg negeer Lorik337 toe
-Add ignore Metalmass515;Voeg negeer Metalmass515 toe
-Add ignore HulesMcGules;Voeg negeer HulesMcGules toe
-Add ignore Vegitto-Da;Voeg negeer Vegitto-Da toe
-Add friend Tawksic91;Vriend toevoegen Tawksic91
-Add friend Vegitto-Da;Vriend toevoegen Vegitto-Da
-Add friend Falco Main;Voeg vriend Falco Main toe
-Add friend iBeFoxx;Voeg vriend iBeFoxx toe
-Add ignore Tawksic91;Voeg negeer Tawksic91 toe
-Add ignore kkush4life;Voeg negeer kkush4life toe
-Add ignore IndolentHerr;Voeg negeer IndolentHerr toe
-Add friend Lorik337;Vriend toevoegen Lorik337
-Add friend Fen Beid;Voeg vriend Fen Beid toe
-Add ignore Falco Main;Voeg Negeer Falco Main toe
-Add ignore YepGreg;Voeg negeer YepGreg toe
-Add friend Fearddrkness;Vriend toevoegen Fearddrkness
-Add friend TwinFlames;Vriend TwinFlames toevoegen
-Add friend WreckeRalph;Vriend toevoegen WreckeRalph
-Add ignore SmartRegard;Voeg Negeer SmartRegard toe
-Add friend HCIM KITAKER;Voeg vriend HCIM KITAKER toe
-Add ignore matiainenn;Voeg negeer matiainenn toe
-Add ignore Fehootie;Voeg negeer Fehootie toe
-Add friend SmartRegard;Vriend toevoegen SmartRegard
-Add friend gennir 124;Voeg vriend gennir 124 toe
-Add friend Ev1LShrek;Voeg vriend Ev1LShrek toe
 Remove friend Fayyasha;Verwijder vriend Fayyasha
-Add friend Fell Silent;Vriend toevoegen Fell Silent
-Add ignore Fell Silent;Voeg negeren Fell Silent toe
-Add ignore iBeFoxx;Voeg negeer iBeFoxx toe
-Add friend Metalmass515;Vriend toevoegen Metalmass515
-Add ignore Fearddrkness;Voeg 'negeer Fearddrkness' toe
-Add friend HulesMcGules;Vriend toevoegen HulesMcGules
-Add ignore TheClawwwg;Voeg negeer TheClawwag toe
-Add friend Snook10;Vriend toevoegen Snook10
-Add friend Kurt Nir3;Voeg vriend Kurt Nir3 toe
-Add ignore PhatPhlap;Voeg negeer PhatPhlap toe
-Add ignore goosedrool;Voeg negeer kippenvel toe
-Add ignore Yewdragon33;Voeg negeer Yewdragon33 toe
-Add friend Fayyasha;Voeg vriend Fayyasha toe
-Add ignore eyeronSkyler;Voeg negeer eyeronSkyler toe
-Add friend Qualena;Vriend toevoegen Qualena
-Add ignore Jxper;Voeg negeer Jxper toe
-Add ignore Qualena;Voeg negeer Qualena toe
-Add friend Jxper;Vriend toevoegen Jxper
-Add friend FPwnJr;Vriend toevoegen FPwnJr
-Add friend Yewdragon33;Vriend toevoegen Yewdragon33
-Add friend mackatt79;Voeg vriend mackatt79 toe
-Add friend F14SH_177;Vriend toevoegen F14SH_177
-Add friend EL_FASTASMAS;Voeg vriend EL_FASTASMAS toe
-Add ignore Snook10;Voeg negeer Snook10 toe
-Add friend YepGreg;Vriend toevoegen YepGreg
-Add friend Pregnantkbd;Vriend toevoegen Zwangerkbd
-Add friend robbdawgg;Voeg vriend robbdawgg toe
-Add ignore ix zer0 xi;Voeg negeer ix nul0 xi toe
-Add friend F1ND1NGN3M0;Vriend toevoegen F1ND1NGN3M0
-Add friend IndolentHerr;Vriend toevoegen IndolentHerr
-Add ignore TSPsychotic;Voeg negeer TSPsychotisch toe
-Add ignore Ev1LShrek;Voeg negeer Ev1LShrek toe
-Add ignore robbdawgg;Voeg negeer robbdawgg toe
-Add ignore OSRSrockstar;Voeg negeer OSRSrockstar toe
-Add friend ix zer0 xi;Voeg vriend ix zer0 xi toe
-Add friend eyeronSkyler;Voeg vriend eyeronSkyler toe
-Add friend MysticalGato;Vriend toevoegen MysticalGato
-Add ignore WreckeRalph;Voeg negeer WreckeRalph toe
-Add ignore dua baji;Voeg negeer dua baji toe
-Add ignore gennir 124;Voeg negeergennir 124 toe
-Add friend TheClawwwg;Vriend toevoegen TheClawwag
-Add friend TSPsychotic;Vriend toevoegen TSPsychotic
-Add ignore FPwnJr;Voeg negeer FPwnJr toe
-Add ignore EL_FASTASMAS;Voeg negeer EL_FASTASMAS toe
-Add ignore TwinFlames;Voeg Negeer TwinFlames toe
-Add friend PhatPhlap;Vriend toevoegen PhatPhlap
-Add friend goosedrool;Vriend kippenvel toevoegen
-Add ignore Pregnantkbd;Voeg negeren Zwangerkbd toe
-Add ignore Fayyasha;Voeg negeer Fayyasha toe
-Add ignore mackatt79;Voeg negeer mackatt79 toe
-Add ignore F1ND1NGN3M0;Voeg negeer F1ND1NGN3M0 toe
-Add ignore F14SH_177;Voeg negeren F14SH_177 toe
-Add friend matiainenn;Vriend toevoegen matiainenn
-Add friend Fehootie;Voeg vriend Fehootie toe
-Add friend dua baji;Vriend dua baji toevoegen
-Add ignore Fen Beid;Voeg negeer Fen Beid toe
-Add ignore MysticalGato;Voeg negeren MysticalGato toe
-Add ignore Kurt Nir3;Voeg 'negeer Kurt Nir3' toe
-Add friend OSRSrockstar;Vriend toevoegen OSRSrockstar
-Add ignore DeRobertC;Voeg negeer DeRobertC toe
-Add ignore Artemis460;Voeg negeer Artemis460 toe
-Add friend Berrenta;Vriend toevoegen Berrenta
-Add friend CCoLa1;Voeg vriend CCoLa1 toe
-Add friend deathur5;Voeg vriend deathur5 toe
-Add ignore MAusuiy;Voeg negeer MAusuiy toe
-Add friend Creptarnk;Vriend toevoegen Creptarnk
-Add ignore MobileSafer;Voeg negeer MobileSafer toe
-Add ignore Creptarnk;Voeg negeer Creptarnk toe
-Add friend Drivemind99;Voeg vriend Drivemind99 toe
-Add friend B J O N ES;Voeg vriend B J O N ES toe
-Add friend Ulmandur;Vriend toevoegen Ulmandur
 Remove friend Paladin Doop;Verwijder vriend Paladin Doop
-Add friend soh wretched;Voeg vriend soh ellendig toe
-Add ignore Carihawk54;Voeg negeer Carihawk54 toe
-Add friend KatanaKatz;Voeg vriend KatanaKatz toe
-Add ignore basketluvr;Negeer basketluvr toevoegen
-Add friend Ch1ldOfGawd;Vriend toevoegen Ch1ldOfGawd
-Add friend aceminion;Vriend aceminion toevoegen
-Add ignore NotMePlayin;Voeg negeer NotMePlayin toe
-Add friend Rox R7;Voeg vriend Rox R7 toe
-Add ignore Germergenmuf;Voeg negeer Germergenmuf toe
 Remove friend OSRSrockstar;Verwijder vriend OSRSrockstar
-Add friend sdkflhs3;Vriend toevoegen sdkflhs3
-Add ignore Atlasleeuwx;Voeg negeer Atlasleeuwx toe
-Add friend Atlasleeuwx;Vriend toevoegen Atlasleeuwx
-Add ignore Abby55551;Voeg negeren Abby55551 toe
-Add friend LADY FOOFOO;Vriend LADY FOOFOO toevoegen
-Add ignore Lady_Ratmore;Voeg negeer Lady_Ratmore toe
-Add friend Drexter17;Vriend toevoegen Drexter17
-Add ignore B J O N ES;Voeg negeer B J O N ES toe
-Add ignore CodemanSlim;Voeg negeer CodemanSlim toe
-Add friend Aotrosego;Vriend toevoegen Aotrosego
-Add ignore LADY FOOFOO;Voeg negeer LADY FOOFOO toe
-Add ignore Rox R7;Voeg negeer Rox R7 toe
-Add ignore soh wretched;Voeg 'negeer soh ellendig' toe
-Add ignore meet tip;Voeg een negeer-meettip toe
-Add friend MobileSafer;Vriend toevoegen MobileSafer
-Add ignore HighGuySly;Voeg negeer HighGuySly toe
-Add ignore Phegalofi;Voeg negeer Phegalofi toe
-Add friend The Scholar;Vriend toevoegen The Scholar
-Add ignore Riffmage;Voeg negeer Riffmage toe
-Add friend MAusuiy;Vriend toevoegen MAusuiy
-Add ignore Ironatemunch;Voeg negeer Ironatemunch toe
-Add ignore Sugmite;Voeg negeer Sugmite toe
-Add friend HighGuySly;Vriend toevoegen HighGuySly
-Add friend RSN_DRiiiP;Voeg vriend RSN_DRiiiP toe
-Add ignore Dutchizm;Voeg negeer Dutchizm toe
-Add ignore Drivemind99;Voeg negeer Drivemin99 toe
-Add friend LilSlippers;Voeg vriend LilSlippers toe
-Add ignore LilSlippers;Voeg negeer LilSlippers toe
-Add friend basketluvr;Vriend toevoegen basketluvr
-Add friend Abby55551;Vriend toevoegen Abby55551
-Add ignore IronRyriku;Voeg negeer IronRyriku toe
-Add friend CodemanSlim;Vriend toevoegen CodemanSlim
-Add ignore 7steelsword;Voeg negeer 7steelsword toe
-Add friend Germergenmuf;Vriend toevoegen Germergenmuf
-Add ignore IM REDHAWK;Voeg 'negeer IM' REDHAWK toe
-Add friend Ironatemunch;Vriend toevoegen Ironatemunch
-Add friend 7steelsword;Voeg vriend 7steelsword toe
-Add ignore kinbred;Voeg negeer verwanten toe
-Add ignore Ulmandur;Voeg Negeer Ulmandur toe
-Add friend Bombtiger;Voeg vriend Bombtiger toe
-Add friend prenga6736;Voeg vriend prenga6736 toe
-Add friend Sugmite;Vriend toevoegen Sugmite
-Add ignore HugeJuggs5;Voeg negeer HugeJuggs5 toe
-Add ignore sdkflhs3;Voeg negeer sdkflhs3 toe
-Add friend humpndump69;Voeg vriend humpndump69 toe
-Add ignore Berrenta;Voeg negeer Berrenta toe
-Add ignore CCoLa1;Voeg negeer CCoLa1 toe
-Add ignore Alt 4 luck;Voeg negeer Alt 4 geluk toe
-Add ignore deathur5;Voeg negeer deathur5 toe
-Add ignore iw0wi;Voeg negeer iw0wi toe
-Add friend H1LDRYN;Vriend toevoegen H1LDRYN
-Add friend iw0wi;Voeg vriend iw0wi toe
-Add friend NotMePlayin;Vriend toevoegen NotMePlayin
-Add ignore TankedHim;Voeg negeer TankedHim toe
-Add friend IM REDHAWK;Voeg vriend IM REDHAWK toe
-Add friend Alt 4 luck;Voeg vriend Alt 4 geluk toe
-Add ignore Sjse;Negeer Sjse toevoegen
-Add ignore Dameblastop;Voeg negeer Dameblastop toe
-Add ignore prenga6736;Voeg negeer prenga6736 toe
-Add friend Dutchizm;Vriend toevoegen Dutchizm
-Add ignore humpndump69;Voeg negeer humpndump69 toe
-Add friend Dameblastop;Vriend toevoegen Dameblastop
-Add friend wildly dan;Vriend toevoegen dan
-Add ignore Ch1ldOfGawd;Voeg negeer Ch1ldOfGawd toe
-Add ignore The Scholar;Voeg Negeer The Scholar toe
-Add friend HugeJuggs5;Vriend toevoegen HugeJuggs5
-Add friend meet tip;Voeg een ontmoetingstip voor vrienden toe
-Add ignore BldCardinal8;Voeg negeer BldCardinal8 toe
-Add friend Riffmage;Vriend toevoegen Riffmage
-Add friend Sjse;Vriend toevoegen Sjse
-Add friend BldCardinal8;Vriend toevoegen BldCardinal8
-Add friend Calisto0044;Vriend toevoegen Calisto0044
-Add friend kinbred;Voeg verwante vriend toe
-Add ignore SnakemanGIM;Voeg Negeer SnakemanGIM toe
-Add friend Lady_Ratmore;Voeg vriend Lady_Ratmore toe
-Add ignore H1LDRYN;Voeg negeer H1LDRYN toe
-Add friend DmnKngCooler;Vriend toevoegen DmnKngCooler
-Add friend TankedHim;Vriend toevoegen TankedHim
-Add ignore Aotrosego;Voeg negeer Aotrosego toe
-Add ignore aceminion;Voeg negeer aceminion toe
-Add ignore Bombtiger;Voeg negeer Bombtiger toe
-Add friend dannnit;Voeg vriend dannnit toe
-Add ignore RSN_DRiiiP;Voeg negeer RSN_DRiiiP toe
-Add friend IronRyriku;Vriend toevoegen IronRyriku
-Add ignore KatanaKatz;Voeg negeer KatanaKatz toe
-Add ignore Calisto0044;Voeg negeer Calisto0044 toe
-Add ignore Drexter17;Voeg negeren Drexter17 toe
-Add ignore DmnKngCooler;Voeg negeer DmnKngCooler toe
-Add friend SnakemanGIM;Vriend toevoegen SnakemanGIM
-Add ignore dannnit;Voeg negeer dannnit toe
-Add friend Carihawk54;Vriend toevoegen Carihawk54
-Add friend Artemis460;Vriend toevoegen Artemis460
-Add ignore wildly dan;Voeg 'wild negeren' toe dan
-Add friend DeRobertC;Vriend toevoegen DeRobertC
-Add friend Phegalofi;Voeg vriend Phegalofi toe
 Change icon (clue);Pictogram wijzigen (aanwijzing)
-Default quantity: 22,000,000;Standaardhoeveelheid: 22.000.000
-Deposit-22000000;Storting-22000000
 Implantar;Implantaat
 Aparar;Aparar
 Desembarcar;Desembarcar
@@ -4533,7 +3072,6 @@ Select <col=ff9040>2500 Tokens/Soul cape</col>;Selecteer <col=ff9040>2500 tokens
 Select <col=ff9040>Spoils of war</col>;Selecteer <col=ff9040>Oorlogsbuit</col>
 Código de resgate;Herlaadcode
 Itens de férias;Het is een feest
-Buy: 3 x Trout;Koop: 3 x Forel
 Switch <col=ff8040>334</col>;Schakel <col=ff8040>334</col> over
 Torre de Vigia;Torre de Vigia
 Vez;Vez
@@ -4544,7 +3082,6 @@ Release all placeholders (16);Alle tijdelijke aanduidingen vrijgeven (16)
 AKR;AKR
 Switch <col=ff8040>370</col>;Schakel <col=ff8040>370</col> over
 Leave <col=ff8040>Fishing Trawler</col> channel;Verlaat het kanaal <col=ff8040>Visstrawler</col>
-Default quantity: 45;Standaard aantal: 45
 Sacrifício;Opoffering
 O Pandemônio;O Pandemônio
 Pegue-barco;Pegue-barco
@@ -4644,11 +3181,8 @@ Show more;Laat meer zien
 Arrombar;Arrombar
 Mudar de Nome;Mudar de Nome
 Retirar-1000;Met pensioen-1000
-Sell: 1 x Xerician hat;Verkoop: 1 x Xerician-hoed
 Orar;Orar
 Oferta;Oferta
-Buy: 3 x Shattered cannon ornament kit;Koop: 3 x Verbrijzelde kanonornamentset
-Buy: 1 x Mystic hat (light);Kopen: 1 x Mystic hoed (licht)
 Change icon (runas);Pictogram wijzigen (runa's)
 Change icon (teleport);Pictogram wijzigen (teleporteren)
 Change icon (seed);Pictogram wijzigen (seed)
@@ -4664,11 +3198,8 @@ Set Hotkey (Not set);Sneltoets instellen (niet ingesteld)
 Float;Vlot
 Tosquiar;Tosquiar
 Fornalha;Fornalha
-Buy: 1 x Eye of newt;Kopen: 1 x Oog van salamander
-Buy: 1 x Raw herring;Koop: 1 x Rauwe haring
 Change icon (rocks);Pictogram wijzigen (stenen)
 Verifique elogios;Verifique elogies
-Default quantity: 150;Standaardhoeveelheid: 150
 Use Suggested Settings;Gebruik voorgestelde instellingen
 Castle Drakan;Kasteel Drakan
 Ponder;Denk na
@@ -4693,7 +3224,6 @@ Take-supplies;Take-benodigdheden
 Harvest-from;Oogst-van
 Wrangle;Ruzie
 BLS;BLS
-Sell: 5 x Goblin mail;Verkoop: 5 x Goblinpost
 Interface;Interface
 Rede;Red
 Trocar de mundo;Trocar de mondo
@@ -4722,45 +3252,22 @@ Lithkren;Lithkren
 Remover decorações;Decoraties verwijderen
 -6%;-6%
 +6%;+6%
-Buy: 30 x Saradomin brew(4);Koop: 30 x Saradomin-brouwsel(4)
-Buy: 1 x Amulet of strength;Koop: 1 x Amulet van kracht
 Show less;Laat minder zien
 Pull-back;Terugtrekken
 Give-feathers;Geef-veren
 Trade-teeth;Handel-tanden
 Crystalise-potion;Kristalliseer-drankje
-Buy: 2 x Onion;Koop: 2 x Ui
-Sell: 1 x Bandos godsword;Verkoop: 1 x Bandos godszwaard
-Withdraw-2,000;Intrekken-2.000
 Configuração;Configuratie
 Procure por armadilhas;Koop gordeldieren
 Extinguir;Blusser
-Buy: 100 x Bronze arrowtips;Koop: 100 x bronzen pijlpunten
-Withdraw-605;Intrekken-605
-Default quantity: 605;Standaardhoeveelheid: 605
-Deposit-605;Borg-605
 Ofertar<col=ff9040>;Aanbieding<col=ff9040>
 Change icon (boses);Pictogram wijzigen (boses)
 Sync (Right-click Search);Synchroniseren (met de rechtermuisknop zoeken)
-Buy: 1 x Blighted manta ray;Koop: 1 x Verwoeste mantarog
-Buy: 1 x Leather body;Kopen: 1 x leren body
-Buy: 1 x Climbing boots;Koop: 1 x klimschoenen
-Buy: 20 x Dragon thrownaxe;Koop: 20 x Dragon-werpbijl
-Buy: 300 x Amethyst arrow;Koop: 300 x Amethistpijl
-Buy: 10 x Dragon knife;Koop: 10 x Drakenmes
-Buy: 1 x Ring of wealth (5);Koop: 1 x Ring van rijkdom (5)
-Buy: 1 x Amulet of glory(6);Koop: 1 x Amulet van glorie(6)
-Buy: 1 x Ranging potion(4);Koop: 1 x Variërend drankje(4)
-Buy: 1 x Anti-venom(4);Koop: 1 x Anti-gif(4)
-Buy: 100 x Rune knife(p++);Koop: 100 x Runemes(p++)
-Buy: 1 x Red d'hide chaps;Koop: 1 x Red d'hide chaps
-Buy: 1 x Coif;Kopen: 1 x Coif
 Release all placeholders (69);Alle tijdelijke aanduidingen vrijgeven (69)
 Select <col=ff9040>Blighted vengeance sack</col>;Selecteer <col=ff9040>Verwoeste wraakzak</col>
 Select <col=ff9040>Soul cape</col>;Selecteer <col=ff9040>Zielcape</col>
 Select <col=ff9040>Blighted karambwan</col>;Selecteer <col=ff9040>Verwoeste karambwan</col>
 Select <col=ff9040>Blighted manta ray</col>;Selecteer <col=ff9040>Verwoeste mantarog</col>
-Deposit-9000000;Borg-9000000
 Padrão;Padrão
 Wipe;Veeg
 Seek;Zoeken
@@ -4768,8 +3275,6 @@ Sign up;Schrijf je in
 Max/Med;Max/Med
 Join fight;Sluit je aan bij de strijd
 Zerker;Zerker
-Deposit-124000;Borgsom-124000
-Withdraw-124000;Intrekken-124000
 Toggle set effect;Schakel het ingestelde effect in of uit
 <col=ff0000>Delete tag tab;<col=ff0000>Tabblad met tags verwijderen
 CIP;CIP
@@ -4778,19 +3283,11 @@ Store-2,000;Winkel-2.000
 Bryophyta;Bryophyta
 Obor;Obor
 Branda and Eldric;Branda en Eldric
-Buy: 50 x Super restore(4);Koop: 50 x Superherstel(4)
-Buy: 100 x Anglerfish;Koop: 100 x Zeeduivel
 Change icon (royal titans);Pictogram wijzigen (koninklijke titanen)
-Default quantity: 124,000;Standaardhoeveelheid: 124.000
-Buy: 2,000 x Soul rune;Koop: 2.000 x Soul-rune
 Dentro;Dentro
 Carregar;Carregar
 Release all placeholders (42);Alle tijdelijke aanduidingen vrijgeven (42)
-Sell: 185 x Revenant ether;Verkoop: 185 x Revenant ether
 Release all placeholders (36);Alle tijdelijke aanduidingen vrijgeven (36)
-Sell: 1 x Bandos chestplate;Verkoop: 1 x Bandos borstplaat
-Sell: 1 x Bandos tassets;Verkoop: 1 x Bandos-tassets
-Buy: 1 x Pegasian boots;Koop: 1 x Pegasian-laarzen
 Bank-All;Bank-Alles
 Destroy-All;Vernietig alles
 Destroy-X;Vernietig-X
@@ -4857,37 +3354,25 @@ Release all placeholders (23);Alle tijdelijke aanduidingen vrijgeven (23)
 Deadman's Chest;Dodemansborst
 Adamant Arrow;Adamante pijl
 Dragon Pickaxe Upgrade Kit;Upgradekit voor Dragon-houweel
-Sell: 1 x Zaryte vambraces;Verkoop: 1 x Zaryte-vambraces
-Sell: 1 x Crimson kisten;Verkoop: 1 x Crimson kisten
-Buy: 1 x Helm of neitiznot;Koop: 1 x Helm van neitiznot
-Buy: 1 x Super combat potion(4);Koop: 1 x Supergevechtsdrank(4)
 Last-destination (DJQ);Laatste bestemming (DJQ)
 Last-destination (AJS);Laatste bestemming (AJS)
 Last-destination (AIR);Laatste bestemming (AIR)
 Pick-pocket;Zakkenroller
-Buy: 100 x Blighted anglerfish;Koop: 100 x Verwoeste zeeduivel
 Heart;Hart
 Change icon (pets);Pictogram wijzigen (huisdieren)
 Brincar com;Brincar com
-Default quantity: 250;Standaardhoeveelheid: 250
 Reset-time;Reset-tijd
 Create-book;Maak-boek
-Buy: 1 x Beer;Koop: 1 x Bier
 Continue-trek;Doorgaan-trek
 Evade-event;Ontwijk-gebeurtenis
 Return-to-Paterdomus;Terugkeer naar Paterdomus
 Swing-from;Swing-van
 Return-to-Burgh;Terugkeer naar Burgh
-Sell: 1 x Zamorak monk bottom;Verkoop: 1 x Zamorak monniksbroek
-Buy: 100 x Zamorak monk bottom;Koop: 100 x Zamorak-monniksbroek
 Poison Waste;Gif afval
 Definir destino;Bepaal het doel
 Teleporte para o destino;Teleporteer naar uw bestemming
 Copy Load-out;Kopieer Load-out
 +5;+5
-Deposit-700;Borg-700
-Withdraw-700;Intrekken-700
-Default quantity: 700;Standaardhoeveelheid: 700
 View journal <col=ff981f>Temple of the Eye</col>;Bekijk dagboek <col=ff981f>Tempel van het Oog</col>
 View journal <col=ff981f>Witch's Potion</col>;Bekijk dagboek <col=ff981f>Heksendrank</col>
 View journal <col=ff981f>Fishing Contest</col>;Bekijk dagboek <col=ff981f>Visserijwedstrijd</col>
@@ -4899,8 +3384,6 @@ Coletar-Item;Coletar-Item
 Coletar-Nota;Coletar-Nota
 Trocar capa de fogo;Trocar capa de fogo
 Release all placeholders (48);Alle tijdelijke aanduidingen vrijgeven (48)
-Withdraw-24;Intrekken-24
-Deposit-24;Storting-24
 Armadyl Halo;Armadyl Halo
 Select <col=ff9040>10 Tokens/Blighted teleport spell sack</col>;Selecteer <col=ff9040>10 Tokens/Blighted teleport-spreukzak</col>
 Select <col=ff9040>10 Tokens/Blighted anglerfish</col>;Selecteer <col=ff9040>10 Tokens/Blighted zeeduivel</col>
@@ -4909,8 +3392,6 @@ Select <col=ff9040>10 Tokens/Blighted ancient ice sack</col>;Selecteer <col=ff90
 Select <col=ff9040>10 Tokens/Blighted manta ray</col>;Selecteer <col=ff9040>10 tokens/verwoeste mantarog</col>
 Select <col=ff9040>10 Tokens/Blighted karambwan</col>;Selecteer <col=ff9040>10 tokens/verwoeste karambwan</col>
 Select <col=ff9040>250 Tokens/Ectoplasmator</col>;Selecteer <col=ff9040>250 Tokens/Ectoplasmator</col>
-Default quantity: 24;Standaard aantal: 24
-Sell: 4 x Amulet of glory;Verkoop: 4 x Amulet van glorie
 Toggle Respawn;Schakel Respawn in
 Toggle Effect;Wisseleffect
 Tie-rope;Stropdas
@@ -4922,20 +3403,14 @@ Brassica Halo;Brassica halo
 Seren Halo;Seren Halo
 Adicionar Todos;Aanvullend Todos
 Adicionar<col=ff9040>;Aanvullend<col=ff9040>
-Withdraw-1300;Intrekken-1300
-Default quantity: 1,300;Standaardhoeveelheid: 1.300
 Surrender;Overgave
-Deposit-184512;Borg-184512
-Withdraw-184512;Intrekken-184512
 Red Rock;Rode Rots
-Deposit-1300;Borg-1300
 Teleport to <col=ff8040>TzHaar Fight Pit</col>;Teleporteer naar <col=ff8040>TzHaar Fight Pit</col>
 Join <col=ff8040>TzHaar Fight Pit</col> channel;Sluit je aan bij het <col=ff8040>TzHaar Fight Pit</col>-kanaal
 Switch <col=ff8040>362</col>;Schakel <col=ff8040>362</col> over
 Botﾃｭn;Botﾃｭn
 Take-eggs;Neem eieren
 Open-stomach;Open buik
-Buy: 1 x Iron platelegs;Koop: 1 x IJzeren plaatpoten
 Short fuse;Korte lont
 Medium fuse;Middelmatige zekering
 Long fuse;Lange zekering
@@ -4959,7 +3434,6 @@ Tell-accurate;Vertel-nauwkeurig
 Tell-defensive;Vertel-defensief
 Tell-aggressive;Vertel-agressief
 Tell-controlled;Tell-gecontroleerd
-Sell: 100 x Dragon arrow(p++);Verkoop: 100 x Drakenpijl(p++)
 Fill-X;Vul-X
 Fill-All;Vul alles
 Eat-from;Eet-van
@@ -4971,89 +3445,33 @@ Tell-crackers;Tell-crackers
 Tell-tofu;Tell-tofu
 Tell-worms;Tell-wormen
 Fill potions;Vul drankjes
-Buy: 1 x Blood moon tassets;Koop: 1 x Bloedmaan-tassets
-Buy: 1 x Crimson kisten;Kopen: 1 x Crimson kisten
-Buy: 1 x Eye of ayak (uncharged);Kopen: 1 x Oog van ayak (ongeladen)
-Withdraw-840000;Intrekken-840000
 Custom quantity: 2,000;Aangepaste hoeveelheid: 2.000
-Buy: 1 x Saradomin brew(4);Koop: 1 x Saradomin-brouwsel(4)
-Deposit-840000;Borgsom-840000
 Watson;Watson
 Deposit potions;Stort drankjes
 Smoke Rush;Rookstorm
 Target Teleport Scroll;Doel Teleport Scroll
 Dark Bow Green Paint;Donkere booggroene verf
 Dark Bow White Paint;Donkere boog witte verf
-Buy: 1 x Rune platelegs;Koop: 1 x Rune-plaatpoten
-Buy: 30 x Blighted super restore(4);Koop: 30 x Blighted superherstel(4)
-Buy: 60 x Blighted vengeance sack;Koop: 60 x Blighted wraakzak
-Default quantity: 400;Standaardhoeveelheid: 400
-Sell: 4,444 x Revenant ether;Verkoop: 4.444 x Revenant-ether
-Sell: 1 x Extended anti-venom+(2);Verkoop: 1 x Uitgebreid anti-gif+(2)
 Release all placeholders (37);Alle tijdelijke aanduidingen vrijgeven (37)
 Sangvesti;Sangvesti
-Sell: 1 x Adamant arrow;Verkoop: 1 x Adamant pijl
-Sell: 1 x Adamant full helm;Verkoop: 1 x Adamant volledige roer
 Release all placeholders (41);Alle tijdelijke aanduidingen vrijgeven (41)
 Release all placeholders (22);Alle tijdelijke aanduidingen vrijgeven (22)
 Release all placeholders (5);Alle tijdelijke aanduidingen vrijgeven (5)
 Release all placeholders (3);Alle tijdelijke aanduidingen vrijgeven (3)
 Release all placeholders (31);Alle tijdelijke aanduidingen vrijgeven (31)
-Default quantity: 99,000;Standaardhoeveelheid: 99.000
-Deposit-99000;Borg-99000
-Withdraw-99000;Intrekken-99000
 DIQ;DIQ
-Deposit-1600;Borg-1600
-Withdraw-1600;Intrekken-1600
-Withdraw-450;Intrekken-450
-Deposit-450;Borg-450
-Sell: 33 x Bronze full helm;Verkoop: 33 x Bronzen volledige roer
 Charter-to Sunset Coast;Charter-naar Sunset Coast
 Bottle-boat;Flessenboot
 Tell-meat;Vertel-vlees
-Default quantity: 450;Standaardhoeveelheid: 450
 Release all placeholders (11);Alle tijdelijke aanduidingen vrijgeven (11)
 Release all placeholders (28);Alle tijdelijke aanduidingen vrijgeven (28)
-Sell: 107 x Stymphike feather;Verkoop: 107 x Stymphike-veer
-Buy: 1 x Bronze platebody;Koop: 1 x bronzen plaatlichaam
-Sell: 1 x Bronze kiteshield;Verkoop: 1 x bronzen vliegerschild
-Buy: 8 x Tuna;Koop: 8 x Tonijn
-Deposit-744;Borg-744
-Withdraw-744;Intrekken-744
-Default quantity: 744;Standaard aantal: 744
 Accept challenge;Accepteer uitdaging
 1 Def Pure;1 Zeker puur
-Buy: 10 x Willow longbow;Koop: 10 x Wilgen handboog
-Buy: 10 x Oak longbow;Koop: 10 x eiken handboog
-Sell: 9 x Banana;Verkoop: 9 x Banaan
-Sell: 162 x Banana;Verkoop: 162 x Banaan
-Buy: 100 x Willow longbow;Koop: 100 x Wilgen handboog
-Sell: 10 x Bronze scimitar;Verkoop: 10 x bronzen kromzwaard
-Deposit-11;Storting-11
-Sell: 318 x Cowhide;Verkoop: 318 x koeienhuid
-Buy: 200 x Bronze bar;Koop: 200 x bronzen staaf
 Select <col=ff9040>Blighted anglerfish</col>;Selecteer <col=ff9040>Verwoeste zeeduivel</col>
-Sell: 1 x Torva full helm (damaged);Verkoop: 1 x Torva volledige stuurstand (beschadigd)
-Buy: 200 x Coal;Koop: 200 x steenkool
-Sell: 304 x Steel bar;Verkoop: 304 x stalen staaf
-Withdraw-136;Intrekken-136
-Deposit-99999;Borg-99999
-Withdraw-99999;Intrekken-99999
 Balance-across;Balans-over
-Buy: 250 x Iron ore;Koop: 250 x ijzererts
-Deposit-136;Borg-136
-Default quantity: 136;Standaard aantal: 136
-Sell: 499 x Steel bar;Verkoop: 499 x stalen staaf
-Buy: 1,200 x Coal;Koop: 1.200 x steenkool
 9;9 
 Fill-1;Vul-1
 Fill-5;Vul-5
-Buy: 1 x Soft clay;Koop: 1 x Zachte klei
-Buy: 1 x Redberries;Koop: 1 x Rode bessen
-Withdraw-125000000;Intrekken-125000000
-Deposit-740000;Borg-740000
-Withdraw-740000;Intrekken-740000
-Default quantity: 740,000;Standaardhoeveelheid: 740.000
 View Magic on the Wiki;Bekijk magie op de Wiki
 Donate-X;Doneer-X
 Donate-10;Doneer-10
@@ -5062,57 +3480,31 @@ Donate;Doneer
 Donate-All;Doneer-alles
 Travel-Start;Reis-start
 Travel-End;Reis-einde
-Sell: 12 x Oak shortbow (u);Verkoop: 12 x Eiken korteboog (u)
 Trade-Builders-Store;Handelsbouwers-winkel
 Trade-General-Store;Handel-algemeen-winkel
-Withdraw-17;Intrekken-17
-Buy: 1 x Hueycoatl hide armour set;Koop: 1 x Hueycoatl huidpantserset
-Withdraw-5250;Intrekken-5250
-Deposit-5250;Borg-5250
-Default quantity: 5,250;Standaardhoeveelheid: 5.250
 Check rank;Controleer rang
 Check Rank;Controleer rang
 Set head slot to;Stel de kopsleuf in op
-Default quantity: 99,999;Standaardhoeveelheid: 99.999
 Set legs slot to;Stel de pootgleuf in op
 Set torso slot to;Stel de rompgleuf in op
 Set amulet slot to;Zet de amuletgleuf op
 Set boots slot to;Stel de laarzensleuf in op
 Set hands slot to;Zet de wijzerssleuf op
 Set cape slot to;Stel de capegleuf in op
-Sell: 32 x Air orb;Verkoop: 32 x luchtbol
-Buy: 400 x Wine of zamorak;Koop: 400 x Wijn van Zamorak
 Charter-to Aldarin;Charter-naar Aldarin
 Release all placeholders (10);Alle tijdelijke aanduidingen vrijgeven (10)
 Last-destination (CLP);Laatste bestemming (CLP)
-Buy: 2,120 x Air rune;Koop: 2.120 x Luchtrune
 Examine <col=ff981f>Infinity boots;Bekijk <col=ff981f>Infinity-laarzen
 Select <col=ff981f>Infinity boots;Selecteer <col=ff981f>Infinity-laarzen
-Withdraw-565;Intrekken-565
-Deposit-565;Borg-565
-Withdraw-410;Intrekken-410
 Take-cutting;Take-cutting
 Release-all;Laat alles los
-Sell: 204 x Leather;Verkoop: 204 x leer
 Chant;Zingen
-Buy: 1 x Eclipse moon armour set;Koop: 1 x Eclipse maanpantserset
-Buy: 1 x Rune full helm;Kopen: 1 x Rune volledig roer
-Withdraw-32000;Intrekken-32000
-Deposit-32000;Borg-32000
-Default quantity: 32,000;Standaardhoeveelheid: 32.000
 Pelt;Pelt
 Prepare-fish;Bereid vis
-Withdraw-36200;Intrekken-36200
-Deposit-36200;Borg-36200
-Withdraw-3200;Intrekken-3200
-Deposit-3200;Borg-3200
 -10%;-10%
 +10%;+10%
-Buy: 100 x Prayer potion(4);Koop: 100 x Gebedsdrankje(4)
-Buy: 1 x Pot of flour;Koop: 1 x Pot met meel
 Smash-ice;Smash-ijs
 Step-off;Stap af
-Buy: 1 x Mage's book;Koop: 1 x Mage's boek
 Walk-to;Loop-naar
 Press;Druk op
 Dismantle kit;Demontageset
@@ -5123,39 +3515,22 @@ Open (private);Open (privé)
 Open (normal);Open (normaal)
 Travel to<col=ff9040> The Clocktower;Reis naar<col=ff9040> ​​De Klokkentoren
 Travel to<col=ff9040> Tree Gnome Village;Reis naar<col=ff9040> ​​Boomkabouterdorp
-Buy: 1 x Orange dye;Kopen: 1 x Oranje kleurstof
-Buy: 1 x Goblin mail;Koop: 1 x Goblin-post
-Buy: 1 x Twisted trousers (t1);Kopen: 1 x gedraaide broek (t1)
 Push-against;Push-tegen
 Exit-through;Uitgang via
 Set shield slot to;Stel de schildsleuf in op
 Set weapon slot to;Stel wapensleuf in op
 Release all placeholders (53);Alle tijdelijke aanduidingen vrijgeven (53)
-Default quantity: 2,147,483,647;Standaardhoeveelheid: 2.147.483.647
-Deposit-2147483647;Borg-2147483647
-Withdraw-2147483647;Intrekken-2147483647
 Travel to<col=ff9040> Tree Gnome Stronghold;Reis naar <col=ff9040> ​​Boomkabouterbolwerk
 Travel to<col=ff9040> Chaos Druid Tower;Reis naar<col=ff9040> ​​Chaos Druid Tower
 Make <col=ff9040>Sapphire bracelet</col>;Maak <col=ff9040>Saffierarmband</col>
 Botín;Botín
-Withdraw-36000;Intrekken-36000
-Deposit-36000;Borg-36000
-Sell: 1 x Necklace of anguish;Verkoop: 1 x ketting van angst
 AKQ;AKQ
 CJQ;CJQ
 DKS;DKS
-Buy: 1 x Snakeskin boots;Koop: 1 x slangenleerlaarzen
-Buy: 1 x Rune kiteshield;Koop: 1 x Rune-vliegerschild
 Teleport to <col=ff8040>Last Man Standing</col>;Teleporteer naar <col=ff8040>Last Man Standing</col>
 Join <col=ff8040>Last Man Standing</col> channel;Word lid van het <col=ff8040>Last Man Standing</col>-kanaal
 Golden Zamorak Special;Gouden Zamorak-special
-Deposit-7680;Borg-7680
-Withdraw-7680;Intrekken-7680
-Default quantity: 7,680;Standaardhoeveelheid: 7.680
 Volcanic Whip Mix;Vulkanische zweepmix
-Sell: 3 x Crystal key;Verkoop: 3 x Kristallen sleutel
-Buy: 23 x Loop half of key;Kopen: 23 x Lushelft van sleutel
-Sell: 33 x Crystal key;Verkoop: 33 x Kristallen sleutel
 LatamDark;LatamDonker
 Expel;Verdrijven
 Resignation;Ontslag
@@ -5163,8 +3538,6 @@ Wipe title;Titel wissen
 Emote;Emote
 Sing;Zingen
 Change icon (armaduras);Pictogram wijzigen (armaduras)
-Sell: 1,090 x Steel cannonball;Verkoop: 1.090 x stalen kanonskogel
-Buy: 100 x Blighted vengeance sack;Koop: 100 x Blighted wraakzak
 Select <col=ff981f>Dust rune;Selecteer <col=ff981f>Stofrune
 Examine <col=ff981f>Dust rune;Onderzoek <col=ff981f>Dust rune
 Select <col=ff981f>Chaos rune;Selecteer <col=ff981f>Chaos-rune
@@ -5172,13 +3545,8 @@ Examine <col=ff981f>Chaos rune;Onderzoek <col=ff981f>Chaos-rune
 Release all placeholders (8);Alle tijdelijke aanduidingen vrijgeven (8)
 Join <col=ff8040>Mage Training Arena</col> channel;Word lid van het <col=ff8040>Mage Training Arena</col>-kanaal
 Teleport to <col=ff8040>Mage Training Arena</col>;Teleporteer naar <col=ff8040>Mage Training Arena</col>
-Default quantity: 300,000;Standaardhoeveelheid: 300.000
 Wyrmscraig;Wyrmscraig
 Simple;Eenvoudig
-Withdraw-3600;Intrekken-3600
-Buy: 1 x Old school bond;Koop: 1 x Oldschoolobligatie
-Withdraw-70000;Intrekken-70000
-Deposit-70000;Borg-70000
 <col=00afff>Resume autochat</col>;<col=00afff>Autochat hervatten</col>
 <col=00afff>Pause autochat</col>;<col=00afff>Autochat onderbreken</col>
 Look-through;Doorkijk
@@ -5199,32 +3567,11 @@ Level-up increments of 5;Niveau-up-stappen van 5
 Loot key broadcast value;Buit sleutel uitzendingswaarde
 Level-up increments of 10;Niveau-up-stappen van 10
 Personal best broadcasts;Persoonlijk beste uitzendingen
-Buy: 10,000 x Death rune;Koop: 10.000 x Doodsrune
-Sell: 1 x Guthix coif;Verkoop: 1 x Guthix-kapsel
-Buy: 14,546 x Death rune;Koop: 14.546 x Doodsrune
-Sell: 6,000 x Blood rune;Verkoop: 6.000 x Bloedrune
-Sell: 1 x Chaos rune;Verkoop: 1 x Chaos-rune
-Deposit-240;Borg-240
-Withdraw-240;Intrekken-240
-Withdraw-121;Intrekken-121
-Deposit-121;Borg-121
-Sell: 1 x Looting bag note;Verkoop: 1 x plunderzakbriefje
 Distract;Afleiden
 Burn-down;Burn-down
-Default quantity: 2,500;Standaardhoeveelheid: 2.500
-Sell: 30 x Iron ore;Verkoop: 30 x ijzererts
-Withdraw-999;Intrekken-999
-Withdraw-1050;Intrekken-1050
-Buy: 1 x Bloodbark legs;Koop: 1 x Bloedschorspoten
-Deposit-999;Borg-999
 View <col=ff9040>Gauntlet Map</col>;Bekijk <col=ff9040>Handschoenkaart</col>
 Pedal;Pedaal
-Buy: 8 x Split log;Koop: 8 x gekloofde boomstammen
 Échanger avec;Wisselaar avec
-Withdraw-12500;Intrekken-12500
-Deposit-12500;Borg-12500
-Deposit-28;Borg-28
-Buy: 400 x Aether rune;Koop: 400 x Aether-rune
 Shape-Air;Vorm-lucht
 Shape-Water;Vorm-Water
 Shape-Fire;Vorm-vuur
@@ -5239,119 +3586,58 @@ Move Fragment Down;Verplaats fragment naar beneden
 Move Fragment Right;Verplaats fragment naar rechts
 Shape-Mind;Vorm-geest
 Move Fragment Up;Verplaats fragment omhoog
-Withdraw-25000;Intrekken-25000
-Deposit-25000;Borgsom-25000
-Withdraw-719;Intrekken-719
-Deposit-719;Borg-719
 Charter-to Corsair Cove;Charter-naar Corsair Cove
-Withdraw-344;Intrekken-344
-Deposit-344;Borg-344
-Withdraw-977;Intrekken-977
-Deposit-977;Borg-977
-Default quantity: 977;Standaard aantal: 977
-Withdraw-175000000;Intrekken-175000000
-Default quantity: 175,000,000;Standaardhoeveelheid: 175.000.000
 Restore <col=ff9040>Minimap</col>;Herstel <col=ff9040>Minimap</col>
-Default quantity: 28;Standaard aantal: 28
 Last-destination (DIR);Laatste bestemming (DIR)
 Enter-cloud;Enter-cloud
 Submit;Indienen
-Deposit-175000000;Borgsom-175000000
-Buy: 1 x Water tiara;Koop: 1 x watertiara
-Withdraw-130;Intrekken-130
-Deposit-130;Borg-130
 Examine <col=ff981f>Mist rune;Onderzoek <col=ff981f>Mistrune
 Select <col=ff981f>Mist rune;Selecteer <col=ff981f>Mistrune
-Sell: 100 x Cowhide;Verkoop: 100 x koeienhuid
-Sell: 1 x Bronze dagger;Verkoop: 1 x Bronzen dolk
-Buy: 1 x Rune pickaxe;Koop: 1 x Rune-houweel
-Default quantity: 2,121,212,121;Standaardhoeveelheid: 2.121.212.121
-Withdraw-2121212121;Intrekken-2121212121
-Deposit-2121212121;Borg-2121212121
-Sell: 41 x Big bones;Verkoop: 41 x Grote botten
 Go-up;Ga omhoog
-Buy: 1 x Swampbark armour set;Koop: 1 x Swampbark-pantserset
-Withdraw-106500;Intrekken-106500
-Deposit-106500;Borgsom-106500
-Default quantity: 106,500;Standaardhoeveelheid: 106.500
-Buy: 100 x Anchovy pizza;Koop: 100 x Ansjovispizza
-Buy: 1 x Snakeskin bandana;Koop: 1 x slangenleer-bandana
-Buy: 100 x Blighted karambwan;Koop: 100 x Verwoeste karambwan
-Buy: 1 x Bandos tassets;Koop: 1 x Bandos-tassets
-Buy: 1 x Red dragonhide set;Kopen: 1 x Rode drakenhuidenset
-Buy: 1 x Zombie helmet;Koop: 1 x Zombiehelm
 Swim-to;Zwem naar
-Buy: 1 x Teal boots;Koop: 1 x Teal-laarzen
-Withdraw-8600;Intrekken-8600
-Deposit-8600;Borg-8600
-Withdraw-160;Intrekken-160
-Deposit-160;Borg-160
-Sell: 110 x Steel nails;Verkoop: 110 x stalen spijkers
 The Summer Shore;De zomerkust
-Deposit-1750;Borg-1750
-Withdraw-1750;Intrekken-1750
 Quick-open;Snel geopend
-Default quantity: 3,200;Standaardhoeveelheid: 3.200
 View Slayer on the Wiki;Bekijk Slayer op de Wiki
 Wyrmscraig Cavern;Wyrmscraig-grot
-Withdraw-5500;Intrekken-5500
-Deposit-6500;Borg-6500
-Withdraw-6500;Intrekken-6500
-Deposit-5500;Borg-5500
-Withdraw-680000;Intrekken-680000
 Scorch;Schroeien
 Flare;Gloed
 Ring-last-destination (BLP);Ring-laatste bestemming (BLP)
 Zerstören;Zerstören
 Take-one;Neem één
-Default quantity: 15,000;Standaardhoeveelheid: 15.000
-Withdraw-1899;Intrekken-1899
-Deposit-1899;Deposit-1899
-Buy: 5,000 x Air rune;Koop: 5.000 x Luchtrune
 ÐžÑ‚Ð¼ÐµÐ½Ð°;ÐžÑ‚Ð¼ÐµÐ½Ð°
 Ð˜Ð´Ð¸ Ñ�ÑŽÐ´Ð°;Ð˜Ð´Ð¸ Ñ�ÑŽÐ´Ð°
-Withdraw-45000;Intrekken-45000
-Deposit-45000;Borg-45000
-Default quantity: 45,000;Standaardhoeveelheid: 45.000
-Deposit-942;Borg-942
-Withdraw-942;Intrekken-942
-Buy: 100 x Iron arrow;Koop: 100 x ijzeren pijl
 Release all placeholders (20);Alle tijdelijke aanduidingen vrijgeven (20)
-Withdraw-296;Intrekken-296
-Deposit-296;Borg-296
-Default quantity: 296;Standaardhoeveelheid: 296
-Buy: 30 x Blighted vengeance sack;Koop: 30 x Blighted wraakzak
-Buy: 1 x Ring of recoil;Koop: 1 x terugslagring
-Buy: 1 x Black d'hide chaps;Koop: 1 x Black d'hide chaps
-Default quantity: 12,000;Standaardhoeveelheid: 12.000
-Buy: 10,000 x Nature rune;Koop: 10.000 x Natuurrune
 Cross-bridge;Kruisbrug
-Withdraw-340;Intrekken-340
-Deposit-340;Borg-340
-Default quantity: 340;Standaardhoeveelheid: 340
 Store-1,000;Winkel-1.000
 Release all placeholders (7);Alle tijdelijke aanduidingen vrijgeven (7)
 Remove <col=ff981f>Dragonstone bolts (e);Verwijder <col=ff981f>Dragonstone-bouten (e)
-Buy: 1 x Botanical pie;Koop: 1 x Botanische taart
 Select-trial;Select-proefperiode
 Deliver-rum;Lever-rum
 Minimise;Minimaliseer
 Exit trial;Verlaat de rechtszaak
 Quick-reset trial;Proefversie met snelle reset
 Reset trial;Proef opnieuw instellen
-Buy: 1 x Strength amulet (t);Koop: 1 x Sterkte-amulet (t)
-Deposit-1009;Borg-1009
-Withdraw-1009;Intrekken-1009
-Sell: 27 x Sapphire ring;Verkoop: 27 x Saffierring
 Release all placeholders (2);Alle tijdelijke aanduidingen vrijgeven (2)
-Default quantity: 1,009;Standaardhoeveelheid: 1.009
-Sell: 8 x Ring of wealth;Verkopen: 8 x Ring van rijkdom
 Make <col=ff9040>Diamond amulet (u)</col>;Maak <col=ff9040>Diamantenamulet (u)</col>
 Make <col=ff9040>Diamond ring</col>;Maak <col=ff9040>Diamantenring</col>
-Buy: 1 x Dwellberries;Koop: 1 x Dwellberries
 Small net;Klein net
 Make Party;Maak een feestje
 Friends/Clan Only;Alleen vrienden/clan
 View Party:;Bekijk partij:
 Flip;Omdraaien
 Begin;Beginnen
+re:^Withdraw-([\d,]+)$;Opnemen-$1
+re:^Deposit-([\d,]+)$;Storten-$1
+re:^Withdraw ([\d,]+)$;Opnemen $1
+re:^Deposit ([\d,]+)$;Storten $1
+re:^Buy: ([\d,]+) x (.+)$;Kopen: $1 x $2
+re:^Sell: ([\d,]+) x (.+)$;Verkopen: $1 x $2
+re:^Buy ([\d,]+)$;Kopen $1
+re:^Sell ([\d,]+)$;Verkopen $1
+re:^Buy-([\d,]+)$;Kopen-$1
+re:^Sell-([\d,]+)$;Verkopen-$1
+re:^Default quantity: ([\d,]+)$;Standaardhoeveelheid: $1
+re:^Add friend (.+)$;Vriend toevoegen $1
+re:^Add ignore (.+)$;Voeg negeren toe $1
+re:^Remove-([\d,]+)$;Verwijderen-$1
+re:^Take-([\d,]+)$;Nemen-$1

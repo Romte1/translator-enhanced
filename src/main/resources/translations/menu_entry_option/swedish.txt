@@ -223,7 +223,6 @@ All;Alla
 Enter quantity;Ange kvantitet
 +1;+1
 Offer;Erbjuda
-Buy: 1 x Nature rune;Köp: 1 x Naturruna
 Buy-offer;Köp-erbjudande
 Chop-down;Kapa ner
 Look North;Titta norrut
@@ -262,21 +261,14 @@ Guide;Guide
 View tab;Visa fliken
 Collapse tab;Komprimera fliken
 Withdraw-X;Dra tillbaka-X
-Withdraw-10000;Uttag-10000
-Withdraw-10;Uttag-10
 Withdraw-All;Dra tillbaka-Alla
 Remove placeholders;Ta bort platshållare
-Withdraw-5;Uttag-5
 Withdraw-All-but-1;Dra tillbaka-Allt-utom-1
-Withdraw-1;Uttag-1
 Release;Släppa
-Default quantity: 10,000;Standardantal: 10 000
-Default quantity: 1;Standardkvantitet: 1
 Set custom quantity;Ställ in anpassad kvantitet
 View tag tab;Visa taggfliken
 Rename tag tab;Byt namn på taggfliken
 Delete tag tab;Ta bort taggfliken
-Default quantity: 10;Standard kvantitet: 10
 Enable layout;Aktivera layout
 Change icon;Ändra ikon
 Export tag tab;Fliken Exportera tagg
@@ -299,10 +291,7 @@ Default quantity: All;Standardkvantitet: Alla
 Deposit inventory;Depositionsinventering
 Deposit worn items;Deponera slitna föremål
 Disable;Inaktivera
-Default quantity: 5;Standard kvantitet: 5
-Withdraw-14;Uttag-14
 Pay (Fruit tree);Betala (fruktträd)
-Default quantity: 14;Standardantal: 14
 Wield;Svinga
 Wear;Bära
 Dismantle;Ta isär
@@ -347,9 +336,6 @@ Deposit-All;Insättning-Alla
 Default quantity: <col=ff9040>5</col>;Standardkvantitet: <col=ff9040>5</col>
 Deposit Lock Settings;Inställningar för insättningslås
 Disable inventory locks;Inaktivera lagerlås
-Deposit-10;Insättning-10
-Deposit-1;Insättning-1
-Deposit-5;Insättning-5
 Default quantity: <col=ff9040>1</col>;Standardkvantitet: <col=ff9040>1</col>
 Shave;Rakning
 Haircut;Frisyr
@@ -398,8 +384,6 @@ Restore Default Zoom;Återställ standardzoom
 Select <col=ff981f>Interfaces;Välj <col=ff981f>Gränssnitt
 Buy-X;Köp-X
 Potions;Potions
-Buy-5;Köp-5
-Buy-1;Köp-1
 Buy-All;Köp-alla
 Show worn items;Visa slitna föremål
 Bottom-floor;Nedre våningen
@@ -468,11 +452,9 @@ Pass;Passera
 <col=ffff00>Group:</col> Show all;<col=ffff00>Grupp:</col> Visa alla
 <col=ffff00>Group:</col> Show none;<col=ffff00>Grupp:</col> Visa ingen
 Quench;Släcka
-Withdraw-18;Uttag-18
 Inside;Inuti
 Home;Hem
 Group;Grupp
-Deposit-18;Insättning-18
 Build mode;Byggläge
 Resurrect;Återuppväcka
 Friend's house;Vännens hus
@@ -514,12 +496,7 @@ Chart;Diagram
 Last-destination (AIP);Sista destination (AIP)
 Zoom out;Zooma ut
 Zanaris;Zanaris
-Buy 50;Köp 50
 Value;Värde
-Buy 10;Köp 10
-Buy 1;Köp 1
-Buy-50;Köp-50
-Buy 5;Köp 5
 Climb-over;Klättra över
 Milk;Mjölk
 Take-axe;Ta yxa
@@ -555,7 +532,6 @@ View journal <col=ff981f>X Marks the Spot</col>;Visa journal <col=ff981f>X Marks
 Sell 50<col=ff9040>;Sälj 50<col=ff9040>
 Sell 10<col=ff9040>;Sälj 10<col=ff9040>
 Sell 1<col=ff9040>;Sälj 1<col=ff9040>
-Buy-10;Köp-10
 Value<col=ff9040>;Värde<col=ff9040>
 Feel;Känsla
 Sell 5<col=ff9040>;Sälj 5<col=ff9040>
@@ -629,7 +605,6 @@ Group: Previous;Grupp: Föregående
 Pray;Be
 Investigate;Undersöka
 Jump-onto;Hoppa på
-Withdraw-500;Uttag-500
 Move-left;Flytta till vänster
 Grab;Hugg
 Move-down;Flytta ner
@@ -643,9 +618,7 @@ Add-X<col=ff9040>;Lägg till-X<col=ff9040>
 Add-10<col=ff9040>;Lägg till-10<col=ff9040>
 Add-All<col=ff9040>;Lägg till alla<col=ff9040>
 Add<col=ff9040>;Lägg till<col=ff9040>
-Deposit-500;Insättning-500
 Check charges;Kontrollera avgifter
-Default quantity: 500;Standardantal: 500
 Filter;Filtrera
 Load-outs;Belastningar
 Done;Gjort
@@ -707,7 +680,6 @@ Collect-note;Samla-lapp
 Collect-item;Samla föremål
 Disable <col=ff9040>Notes;Inaktivera <col=ff9040>Anteckningar
 Info;Info
-Sell: 1 x Bronze med helm;Sälj: 1 x Brons med rodret
 Pick-Lock;Pick-Lock
 Collect-items;Samla-föremål
 Collect-notes;Samla-lappar
@@ -723,35 +695,19 @@ Tan <col=ff7000>1;Tan <col=ff7000>1
 Tan <col=ff7000>All;Tan <col=ff7000>Alla
 Smithing;Smithing
 Remove-X;Ta bort-X
-Remove-10;Ta bort-10
-Remove-5;Ta bort-5
 Remove-All;Ta bort-alla
 Hunter;Jägare
 Firemaking;Eldning
 Enable <col=ff9040>Swap;Aktivera <col=ff9040>Swap
 Add all;Lägg till alla
 Release all placeholders (1);Släpp alla platshållare (1)
-Buy: 160 x Cowhide;Köp: 160 x kohud
 Set price;Sätt pris
-Sell: 195 x Leather;Sälj: 195 x Läder
-Sell: 175 x Leather;Sälj: 175 x Läder
-Buy: 10 x Air tiara;Köp: 10 x Air tiara
-Buy: 2 x Ring mould;Köp: 2 x Ringform
 pic;bild
 Set quantity;Ställ in kvantitet
 Set wiki price;Ange wiki-pris
 Accept trade;Acceptera handel
 Accept;Acceptera
-Buy: 1 x Mithril gold-trimmed set (lg);Köp: 1 x Mithril guldtrimmad set (lg)
-Buy: 15 x Diamond;Köp: 15 x Diamant
-Sell: 55 x Emerald;Sälj: 55 x Emerald
-Buy: 55 x Emerald;Köp: 55 x Emerald
-Buy: 1 x Poison;Köp: 1 x Poison
-Buy: 34 x Ruby necklace;Köp: 34 x Ruby halsband
 Search for item;Sök efter objekt
-Sell: 124 x Tuna;Sälj: 124 x tonfisk
-Buy: 1 x Rune axe;Köp: 1 x Runyxa
-Sell: 83 x Energy potion(4);Sälj: 83 x energidryck(4)
 Check-Count;Check-Count
 Bash;Våldsamt slag
 Earth Bolt;Jordbult
@@ -767,9 +723,7 @@ Push;Tryck
 Quantity:;Kvantitet:
 View Smithing on the Wiki;Se Smithing på Wiki
 Pull;Dra
-Buy: 129 x Limpwurt root;Köp: 129 x Limpwurtrot
 View <col=ff9040>Mining</col> guide;Se guiden <col=ff9040>Gruv</col>
-Buy: 600 x Hammer;Köp: 600 x Hammer
 Pick refreshment;Välj förfriskningar
 Focus;Fokus
 Open <col=ff9040>Morytania Journal</col>;Öppna <col=ff9040>Morytania Journal</col>
@@ -817,7 +771,6 @@ Fur Clothing;Pälskläder
 Brimhaven;Brimhaven
 Aldarin;Aldarin
 Taverley;Taverley
-Default quantity: 200,000,000;Standardkvantitet: 200 000 000
 Prifddinas;Prifddinas
 Lock-slot;Lås-spår
 Pollnivneach;Pollnivneach
@@ -829,10 +782,7 @@ Hosidius;Hosidius
 WOM lookup;WOM-sökning
 Unload;Lossa
 Contract;Kontrakt
-Withdraw-200000000;Uttag-200000000
 Rimmington;Rimmington
-Deposit-200000000;Insättning-200000000
-Deposit-14;Insättning-14
 Purchase Amulet;Köp amulett
 Drink-from;Drick-från
 Float Canoe;Flytkanot
@@ -865,11 +815,9 @@ Take-seed;Ta-frö
 Take-pickaxe;Ta-plocka
 Dyes;Färgämnen
 Anadir ignorar;Anadir ignorerande
-Withdraw-50000;Uttag-50000
 Informe;Informera
 activar;aktiverar
 Anadir amigo;Anadir amigo
-Deposit-50000;Deposition-50000
 Accurate;Exakt
 Longrange;Lång räckvidd
 Prod;Prod
@@ -879,11 +827,8 @@ Glider-to Ta Quir Priw;Segelflygplan till Ta Quir Priw
 Travel to<col=ff9040> Barbarian Village;Res till<col=ff9040> ​​Barbarian Village
 Travel to<col=ff9040> Edgeville;Res till<col=ff9040> ​​Edgeville
 Downgrade;Nedvärdera
-Buy: 1 x Dragon axe;Köp: 1 x Dragon yxa
 Seers' Village;Siarnas by
 Camelot;Camelot
-Deposit-120000;Deposition-120000
-Withdraw-120000;Uttag-120000
 Gehen Sie hier;Gehen Sie hier
 Reden mit;Reden mit
 Prüfen;Prüfen
@@ -922,7 +867,6 @@ Coin Collection;Myntsamling
 Boss Log;Boss Logg
 Miscellania;Miscellania
 Falador;Falador
-Deposit-10000;Deposition-10000
 Skrach Uglogwee;Skrach Uglogwee
 Lumbridge Guide;Lumbridge Guide
 Wartface & Bentnoze;Wartface & Bentnoze
@@ -931,7 +875,6 @@ Evil Dave;Onda Dave
 Mountain Dwarf;Bergsdvärg
 Pirate Pete;Piraten Pete
 Sir Amik Varze;Sir Amik Varze
-Buy: 10 x Stamina potion(4);Köp: 10 x Stamina potion(4)
 Pass-through;Genomgång
 +99%;+99 %
 Cut;Skära
@@ -963,10 +906,6 @@ Breach Check;Överträdelsekontroll
 Shop;Handla
 Unlocks;Låser upp
 Prayers;Böner
-Sell-10;Sälj-10
-Sell-1;Sälj-1
-Sell-5;Sälj-5
-Sell-50;Sälj-50
 Deadman;Dödman
 Points Info;Poäng Info
 About;Om
@@ -981,16 +920,11 @@ Select <col=ff9040>Confirm</col>;Välj <col=ff9040>Bekräfta</col>
 Dream;Dröm
 Ammo;Ammunition
 Toggle setting;Växla inställning
-Withdraw-19;Uttag-19
-Default quantity: 19;Standardantal: 19
 Manoeuvre-past;Manöver-förbi
-Buy: 1 x Yellow dye;Köp: 1 x Gul färg
 View <col=ff9040>Firemaking</col> guide;Se guiden <col=ff9040>Firemaking</col>
 Weave;Väva
 Take-boat;Ta båt
 Ardougne;Ardougne
-Withdraw-100;Uttag-100
-Deposit-100;Insättning-100
 Remove-coal;Ta bort kol
 Tuxedo-time;Tuxedo-tid
 Turn;Sväng
@@ -1030,10 +964,6 @@ A;A
 Play your tune.;Spela din låt.
 F#;F#
 C#;C#
-Default quantity: 100;Standardantal: 100
-Deposit-1000;Insättning-1000
-Withdraw-1000;Uttag-1000
-Sell: 17 x Big bones;Sälj: 17 x stora ben
 Previous;Tidigare
 45 days membership;45 dagars medlemskap
 Buy Bonds;Köp obligationer
@@ -1048,8 +978,6 @@ Murder;Mörda
 Walk-on;Gå på
 Chill;Kyla
 Fix;Fixera
-Take-5;Ta-5
-Take-10;Ta-10
 Bail-with;Borgen med
 Comercio con;Comercio con
 conjuntos;konjuntos
@@ -1064,9 +992,7 @@ Recolectar;Rekolektar
 Offer-X<col=ff9040>;Erbjudande-X<col=ff9040>
 Offer<col=ff9040>;Erbjudande<col=ff9040>
 Offer-All<col=ff9040>;Erbjudande-Alla<col=ff9040>
-Deposit-107;Insättning-107
 Offer-10<col=ff9040>;Erbjudande-10<col=ff9040>
-Withdraw-107;Uttag-107
 Offer-5<col=ff9040>;Erbjudande-5<col=ff9040>
 Assignment;Uppdrag
 Last-destination (DKS);Sista destination (DKS)
@@ -1074,18 +1000,14 @@ Add Favourite;Lägg till favorit
 Use code;Använd kod
 Destroy ALL;Förstör ALLA
 Comer;Comer
-Deposit-5000;Deposition-5000
 Llevar;Llevar
 Precios;Precios
-Withdraw-5000;Uttag-5000
 Cocinando;Cocinando
 BotÃ­n;Botín
 Kandarin Monastery;Kandarin kloster
-Default quantity: 107;Standardantal: 107
 Empunar;Empunar
 Deposito;Deposito
 +50%;+50 %
-Default quantity: 5,000;Standardantal: 5 000
 Tener puesto;Tener puesto
 -50%;-50 %
 Vista;Perspektiv
@@ -1112,9 +1034,6 @@ Leap;Hoppa
 Mark;Mark
 Unmark;Avmarkera
 Open GE Tracker to;Öppna GE Tracker för att
-Buy: 1 x Iron scimitar;Köp: 1 x Iron scimitar
-Buy: 1 x Iron platebody;Köp: 1 x Iron platebody
-Sell: 1 x Iron dagger;Sälj: 1 x järndolk
 Wind Strike;Vindstrejk
 Fire Wave;Eldvåg
 Wind Bolt;Vindbult
@@ -1133,9 +1052,6 @@ Last-destination (DJR);Last-destination (DJR)
 Illegal / harmful content;Olagligt/skadligt innehåll
 Last-destination (AKR);Sista destination (AKR)
 Hammer;Hammare
-Deposit-600;Deposition-600
-Withdraw-600;Uttag-600
-Withdraw-200000;Uttag-200 000
 Prospect;Utsikt
 Wind-up;Avveckling
 Look-under;Titta under
@@ -1144,8 +1060,6 @@ Climb-across;Klättra över
 Swing-on;Sväng på
 Swing-across;Sväng över
 Pay-fare;Betala biljettpris
-Withdraw-3000;Uttag-3000
-Deposit-3000;Deposition-3000
 Cut down;Skära ner
 Cut-wood;Klippt trä
 Eperlano;Eperlano
@@ -1153,10 +1067,8 @@ Last-destination (CKR);Sista destination (CKR)
 Teeth-grip;Tandgrepp
 Last-destination (DKR);Sista destination (DKR)
 Pick-apple;Plock-äpple
-Remove-1;Ta bort-1
 Cage;Bur
 Banknotes;Sedlar
-Default quantity: 600;Standardantal: 600
 Water Strike;Vattenstrejk
 Fire Surge;Brandvåg
 Wind Surge;Vindsvall
@@ -1197,8 +1109,6 @@ Apply;Tillämpas
 Edit;Redigera
 Members;Medlemmar
 Permissions;Behörigheter
-Withdraw-15;Uttag-15
-Deposit-15;Insättning-15
 Dive;Dyka
 Devices;Enheter
 Charge;Avgift
@@ -1215,30 +1125,22 @@ Heal;Läka
 Up;Upp
 Down;Ner
 Take-many;Ta-många
-Withdraw-28;Uttag-28
-Withdraw-65;Uttag-65
 Change-style;Ändra stil
 Hasty-rummage;Brådskande
 Colossal Wyrm Remains;Kolossala Wyrm Remains
 Choose;Välja
 Slide-along;Glid med
-Deposit-40;Deposition-40
-Withdraw-50;Uttag-50
-Withdraw-40;Uttag-40
-Withdraw-2000;Uttag-2000
 Dive in;Dyk in
 Swim to;Simma till
 Use-rod;Använd-stav
 Swim;Simma
 Construct;Konstruera
-Deposit-2000;Deposition-2000
 Get in;Få in
 Take treasure;Ta skatt
 Get-rewards;Få belöningar
 Plant;Plantera
 Last-destination (DLQ);Sista destination (DLQ)
 Last-destination (AJP);Sista destination (AJP)
-Default quantity: 40;Standardantal: 40
 Load;Ladda
 Demolish;Förstöra
 Quick-escape;Snabbflykt
@@ -1272,7 +1174,6 @@ The Pandemonium;Pandemonium
 Repair-boat;Reparationsbåt
 Modify;Ändra
 Set sails;Sätt segel
-Default quantity: 2,000;Standardantal: 2 000
 Build-trap;Bygg-fälla
 Stop-navigating;Sluta navigera
 Pry-open;Bänd upp
@@ -1287,12 +1188,7 @@ Board friend's boat;Styrelsekompisens båt
 Accept task;Acceptera uppgiften
 Deposit-held;Depositionsinnehav
 Deposit-cargo;Pantlast
-Withdraw-7;Uttag-7
-Deposit-7;Insättning-7
 Select option B;Välj alternativ B
-Default quantity: 7;Standardkvantitet: 7
-Withdraw-2;Uttag-2
-Deposit-2;Insättning-2
 Last-destination (DKP);Sista destination (DKP)
 Reinforce;Förstärka
 Burst;Brista
@@ -1306,11 +1202,6 @@ Check-charge;Check-avgift
 Enakhra's Temple Entrance;Enakhras tempelingång
 Last-tier contract;Sista kontraktet
 Fire-at;Fire-at
-Deposit-35000;Deposition-35000
-Withdraw-35000;Uttag-35000
-Default quantity: 35,000;Standardantal: 35 000
-Deposit-3;Insättning-3
-Withdraw-3;Uttag-3
 Collect-data;Samla-data
 Bloom;Blomma
 Listen;Lyssna
@@ -1320,9 +1211,6 @@ Last-destination (CLR);Last-destination (CLR)
 Flush;Spola
 Last-destination (AKQ);Sista destination (AKQ)
 Set-trap;Ställ-fälla
-Deposit-30;Deposition-30
-Withdraw-30;Uttag-30
-Default quantity: 30;Standardantal: 30
 Check totals;Kontrollera summan
 Reverse;Motsatt
 Stop boat;Stoppa båten
@@ -1342,7 +1230,6 @@ Last-destination (AKS);Sista destination (AKS)
 Last-destination (CIS);Sista destination (CIS)
 View journal <col=ff981f>Shilo Village</col>;Visa journalen <col=ff981f>Shilo Village</col>
 View journal <col=ff981f>Priest in Peril</col>;Visa journalen <col=ff981f>Präst i fara</col>
-Withdraw-20000;Uttag-20000
 Get bird;Skaffa fågel
 Quick-Travel;Snabbresor
 Embark;Gå ombord
@@ -1350,9 +1237,7 @@ Take tools;Ta verktyg
 Climb Up;Klättra upp
 Build on;Bygg på
 Make <col=ff9040>Ruby ring</col>;Gör <col=ff9040>Rubyring</col>
-Withdraw-13;Uttag-13
 Make <col=ff9040>Ruby necklace</col>;Gör <col=ff9040>Ruby-halsband</col>
-Deposit-13;Insättning-13
 Make <col=ff9040>Ruby amulet (u)</col>;Gör <col=ff9040>Ruby amulett (u)</col>
 Charter-to Catherby;Charter till Catherby
 Blow;Blåsa
@@ -1396,31 +1281,23 @@ Storage Unlocks;Lagring låser upp
 Climb-through (private);Klättra igenom (privat)
 Peek (normal);Peek (normal)
 Climb-through (normal);Genomstigning (normal)
-Deposit-20000;Deposition-20000
 Banish;Förvisa
 Check runes;Kolla runor
 Blow-on;Blås på
 Ring;Ringa
-Deposit-1500;Deposition-1500
-Withdraw-1500;Uttag-1500
 Disable warning;Inaktivera varning
 Leave platform;Lämna plattformen
-Withdraw-200;Uttag-200
-Deposit-200;Insättning-200
 Fend;Parera
 Jab;Stöt
-Default quantity: 200;Standardantal: 200
 Swipe;Hårt slag
 Pay (north-west);Betala (nordväst)
 Pay (south-east);Betala (sydost)
-Default quantity: 1,500;Standardantal: 1 500
 Change icon (fazenda);Ändra ikon (fazenda)
 Disable layout;Inaktivera layout
 Duplicate-item;Dubblett-objekt
 Remove-layout;Ta bort-layout
 Harvest;Skörda
 Cure;Bota
-Default quantity: 13;Standardantal: 13
 Make <col=ff9040>Dragonstone ring</col>;Gör <col=ff9040>Dragonstone-ring</col>
 Convert;Konvertera
 Buy or Redeem Bonds;Köp eller lös in obligationer
@@ -1450,22 +1327,16 @@ Wizards' Tower;Trollkarlarnas torn
 Tackle;Tackla
 Form clan;Bilda klan
 Invite;Bjuda
-Withdraw-683;Uttag-683
-Deposit-683;Deposition-683
 Ban;Förbjuda
 Guzzle;Guzzle
-Default quantity: 1,000;Standardantal: 1 000
 <col=ffff00>Set chat mode:</col> Group (/@g);<col=ffff00>Ställ in chattläge:</col> Grupp (/@g)
 Directions;Vägbeskrivning
-Withdraw-500000;Uttag-500 000
-Deposit-500000;Insättning-500 000
 Unpack;Packa upp
 8;8 
 7;7 
 6;6 
 12 months membership;12 månaders medlemskap
 Temple;Tempel
-Default quantity: 50;Standardantal: 50
 Request;Begäran
 Withdraw All;Dra tillbaka alla
 Pay (south);Betala (söder)
@@ -1477,21 +1348,14 @@ Bonds;Obligationer
 Look up name;Slå upp namn
 Redeem;Återlösa
 -3%;-3 %
-Deposit-1000000;Insättning-1000000
 +3%;+3 %
-Withdraw-1000000;Uttag-1000000
-Withdraw-4;Uttag-4
 Put-inside;Sätt inuti
-Deposit-80;Insättning-80
-Deposit-1650;Deposition-1650
-Deposit-4000;Deposition-4000
 Toggle-respawn;Växla-respawn
 Claim Pet Rock;Gör anspråk på Pet Rock
 Ok;Ok
 Deposit-items;Inlåningsobjekt
 Shake;Skaka
 Remove-lid;Ta bort locket
-Buy: 1 x Salve graveyard teleport;Köp: 1 x Salve kyrkogård teleport
 Cast Bloom;Cast Bloom
 Preview;Förhandsvisning
 Colour;Färg
@@ -1506,7 +1370,6 @@ Polish;polska
 Enter name;Ange namn
 View Guest Count;Visa antalet gäster
 Squeeze-past;Kläm-förbi
-Default quantity: 20,000;Standard kvantitet: 20 000
 Take-concoction;Ta-hopkok
 Take-5 concoctions;Ta-5 hopkok
 Talk;Prata
@@ -1592,35 +1455,20 @@ Walk-through;Genomgång
 Not now;Inte nu
 Jump-Down;Hoppa ner
 Clear all;Rensa alla
-Withdraw-652;Uttag-652
-Deposit-652;Insättning-652
-Deposit-57;Insättning-57
-Withdraw-66;Uttag-66
-Withdraw-57;Uttag-57
-Withdraw-63;Uttag-63
 Hide <col=ff9040>Minimap</col>;Dölj <col=ff9040>minikarta</col>
 Show <col=ff9040>Minimap</col>;Visa <col=ff9040>minikarta</col>
 Remove<col=ff9040> Focus;Ta bort<col=ff9040> ​​Fokus
-Default quantity: 57;Standardantal: 57
 Select option A;Välj alternativ A
-Deposit-208;Deposition-208
-Withdraw-208;Uttag-208
-Withdraw-236;Uttag-236
-Default quantity: 208;Standardantal: 208
 Stroke;Stroke
 Pan;Panorera
 Gem Mine;Gem Mine
 Mount Karuulm;Berget Karuulm
 Kourend Woodland;Kourend Woodland
-Withdraw-195;Uttag-195
-Withdraw-2400;Uttag-2400
-Deposit-195;Deposition-195
 View Friends List;Visa vänlistan
 Add Name;Lägg till namn
 Delete Name;Ta bort namn
 Water;Vatten
 Open link;Öppna länken
-Default quantity: 195;Standardantal: 195
 Get-training;Få-träning
 Bank-cargo;Bank-last
 Honour;Ära
@@ -1634,7 +1482,6 @@ Port Roberts;Port Roberts
 Check-ammunition;Kontrollera ammunition
 Command;Kommando
 Change loadout name;Ändra laddningsnamn
-Default quantity: 50,000;Standardkvantitet: 50 000
 Open storage tab;Öppna lagringsfliken
 Reset-ammunition;Återställ-ammunition
 Stop following Captain's target;Sluta följa kaptenens mål
@@ -1663,23 +1510,14 @@ Set Hotkey (D);Ställ in snabbtangent (D)
 Set Hotkey (C);Ställ in snabbtangent (C)
 Set Hotkey (5);Ställ in snabbtangent (5)
 Set Hotkey (6);Ställ in snabbtangent (6)
-Deposit-420000;Deposition-420000
-Withdraw-420000;Uttag-420000
-Default quantity: 420,000;Standardkvantitet: 420 000
 Last-destination (CJR);Sista destination (CJR)
 Last-destination (CIQ);Sista destination (CIQ)
 Last-destination (CIR);Sista destination (CIR)
 Hang-over;Baksmälla
-Withdraw-5529;Uttag-5529
-Deposit-5529;Deposition-5529
-Default quantity: 5,529;Standardantal: 5 529
 Ardougne Farm;Ardougne Farm
 Dump;Dumpa
-Withdraw 3;Återkalla 3
 Alchemy;Alkemi
-Withdraw 4;Uttag 4
 Energy;Energi
-Withdraw 1;Återkalla 1
 Signal;Signal
 Withdraw X;Dra tillbaka X
 Rumour;Rykte
@@ -1704,7 +1542,6 @@ Start-previous-rank;Start-föregående-rang
 Start-trial;Starta prov
 Jump-across;Hoppa över
 Last-destination (ALP);Sista destination (ALP)
-Sell: 3 x Iron arrow;Sälj: 3 x Järnpil
 Quick-Pay(100);Snabbbetalning (100)
 Send-parcel;Skicka-paket
 Reset Safe;Återställ Safe
@@ -1734,25 +1571,11 @@ Set Hotkey (L);Ställ in snabbtangent (L)
 Last-destination (ALS);Sista destination (ALS)
 Descend;Sjunka
 Weiss;Weiss
-Withdraw-503;Uttag-503
 Scoreboard;Resultattavla
-Withdraw-38;Uttag-38
-Default quantity: 38;Standardantal: 38
-Withdraw-25;Uttag-25
-Withdraw-604;Uttag-604
-Deposit-26;Insättning-26
-Withdraw-26;Uttag-26
-Deposit-25;Deposition-25
-Withdraw-220;Uttag-220
-Deposit-36;Insättning-36
-Deposit-115;Deposition-115
-Withdraw-115;Uttag-115
-Withdraw-36;Uttag-36
 Standard;Standard
 Play-fetch;Lek-hämtning
 Climb up;Klättra upp
 Lletya;Lletya
-Default quantity: 115;Standardantal: 115
 Target;Mål
 Activity;Aktivitet
 Enter-corrupted;Enter-skadad
@@ -1772,17 +1595,10 @@ Lower;Lägre
 Claim-slime;Claim-slime
 Port Phasmatys;Port Phasmatys
 Charter-to Port Phasmatys;Charter till Port Phasmatys
-Deposit-4;Insättning-4
-Default quantity: 4;Standardkvantitet: 4
-Withdraw-40000;Uttag-40000
-Deposit-40000;Deposition-40000
-Buy: 1 x Green dragonhide set;Köp: 1 x Green dragonhide set
 Poke;Peta
 Jump off;Hoppa av
 Burgh Teleport;Burgh Teleport
 Ecto Teleport;Ecto Teleport
-Withdraw-1168;Återkalla-1168
-Deposit-1168;Deposition-1168
 Store-preform;Förvara-förform
 Commission;Provision
 Quench-preform;Släck-förform
@@ -1798,49 +1614,18 @@ Fuel;Bränsle
 Next page;Nästa sida
 New partner;Ny partner
 Remove from playlist 1;Ta bort från spellista 1
-Default quantity: 40,000;Standard kvantitet: 40 000
 Ascend;Stiga
-Deposit-2194;Deposition-2194
-Withdraw-2194;Återkalla-2194
-Default quantity: 2,194;Standardantal: 2 194
 Destruir;Destruir
-Deposit-300;Deposition-300
-Withdraw-300;Uttag-300
 Claim-runes;Claim-runor
 Step-into;Kliv in
-Default quantity: 300;Standardantal: 300
-Withdraw-2253;Uttag-2253
-Withdraw-31;Uttag-31
-Withdraw-2236;Uttag-2236
-Deposit-2236;Deposition-2236
-Withdraw-2539;Uttag-2539
-Withdraw-5408;Uttag-5408
-Withdraw-527;Uttag-527
-Default quantity: 15;Standardantal: 15
 Set Hotkey (E);Ställ in snabbtangent (E)
 Cut-vine;Cut-vine
 Camarones;Camarones
 Hardcore Ironman Group;Hardcore Ironman Group
-Default quantity: 2,236;Standardantal: 2 236
-Deposit-680;Deposition-680
-Withdraw-680;Uttag-680
 Rescue;Rädda
-Default quantity: 680;Standardantal: 680
-Deposit-4328;Deposition-4328
-Withdraw-4328;Uttag-4328
-Withdraw-4952;Uttag-4952
-Withdraw-5944;Uttag-5944
-Deposit-4952;Deposition-4952
-Default quantity: 4,952;Standardantal: 4 952
-Default quantity: 5,944;Standardantal: 5 944
-Withdraw-8376;Uttag-8376
-Withdraw-8480;Uttag-8480
-Deposit-8376;Deposition-8376
 Spring;Fjädra
 Safety switch;Säkerhetsbrytare
 Gear;Redskap
-Withdraw-11896;Återkalla-11896
-Deposit-11896;Deposition-11896
 Gandius;Gandius
 Kar-Hewo;Kar-Hewo
 Swing;Svänga
@@ -1877,7 +1662,6 @@ Ouvrir;Ouvrir
 Remove-one;Ta bort en
 Lap-count;Antal varv
 Cooking;Matlagning
-Default quantity: 11,896;Standardantal: 11 896
 Ban guest;Förbjud gäst
 Kick guest;Sparka gäst
 Assemble;Montera
@@ -1891,9 +1675,6 @@ Move Schematic Up;Flytta schemat uppåt
 Rotate the image;Rotera bilden
 Move Schematic Right;Flytta schematiskt åt höger
 Jump-through;Hoppa igenom
-Withdraw-29;Uttag-29
-Deposit-29;Insättning-29
-Default quantity: 29;Standardantal: 29
 Set Hotkey (J);Ställ in snabbtangent (J)
 Set Hotkey (O);Ställ in snabbtangent (O)
 Set Hotkey (H);Ställ in snabbtangent (H)
@@ -1905,17 +1686,13 @@ Play-quietly;Spela-tyst
 Entertain;Underhålla
 Disarm;Avväpna
 Sync WOM Group;Synkronisera WOM Group
-Withdraw-800;Uttag-800
-Deposit-800;Deposition-800
 Retrieve-egg;Retrieve-ägg
 Expanded;Utökad
 Preview auto layout;Förhandsgranska automatisk layout
 Toggle warning;Växla varning
 Climb through;Klättra igenom
 Check count;Kontrollera räkna
-Withdraw-150;Uttag-150
 Disassemble;Ta isär
-Deposit-150;Deposition-150
 Gloomthorn Trail;Gloomthorn Trail
 Make party;Gör fest
 Destinations;Destinationer
@@ -1955,7 +1732,6 @@ General-stats;Allmän statistik
 Teleport to <col=ff8040>Clan Wars</col>;Teleportera till <col=ff8040>Clan Wars</col>
 Join <col=ff8040>Clan Wars</col> channel;Gå med i kanalen <col=ff8040>Clan Wars</col>
 Use this layout;Använd denna layout
-Withdraw-80;Uttag-80
 Quick-slide;Snabbskjutning
 Slide;Glida
 Visual-effects;Visuella effekter
@@ -1964,7 +1740,6 @@ Deposit-runes;Inlåningsrunor
 Power-up;Power-up
 Take-chisel;Ta-mejsel
 Place-cell;Plats-cell
-Take-1;Ta-1
 Dark Mage;Mörk Mage
 View-stats;Visa-statistik
 View-glory;Visa-härlighet
@@ -2001,7 +1776,6 @@ Make <col=ff9040>Gold ring</col>;Gör <col=ff9040>Guldring</col>
 Make <col=ff9040>Gold necklace</col>;Gör <col=ff9040>Guldhalsband</col>
 Swing across;Sväng över
 Pick-orange;Pick-orange
-Buy: 5 x Ranarr seed;Köp: 5 x Ranarr-frö
 Deposit buckets;Panthinkar
 Claim Sand;Gör anspråk på Sand
 Ferry;Färja
@@ -2089,8 +1863,6 @@ Crown Info;Krona Info
 Last-destination (BLR);Sista destination (BLR)
 Complete;Komplett
 Climb over;Klättra över
-Withdraw-56;Uttag-56
-Default quantity: 56;Standardantal: 56
 Smash-to-bits;Smash-to-bits
 Enchant-Vials;Enchant-Vials
 Trade-Co-op;Trade-Co-op
@@ -2116,26 +1888,7 @@ Teleport to destination;Teleportera till destinationen
 eat;äta
 Cast Spell;Cast Spell
 Lift;Lyfta
-Sell: 28 x Bucket of water;Sälj: 28 x hink vatten
-Buy: 350 x Bucket;Köp: 350 x hink
-Sell: 392 x Bucket of water;Sälj: 392 x Hink vatten
-Withdraw-9;Uttag-9
-Deposit-9;Insättning-9
-Withdraw-27;Uttag-27
-Deposit-27;Insättning-27
-Sell: 500 x Logs;Sälj: 500 x stockar
-Default quantity: 27;Standardantal: 27
-Sell: 494 x Banana;Sälj: 494 x Banan
-Sell: 390 x Banana;Sälj: 390 x Banan
-Buy: 400 x Bones;Köp: 400 x Bones
-Sell: 300 x Banana;Sälj: 300 x Banan
 cast;kasta
-Sell: 416 x Banana;Sälj: 416 x Banan
-Default quantity: 9;Standardantal: 9
-Sell: 100 x Pastry dough;Sälj: 100 x wienerbrödsdeg
-Buy: 200 x Pot of flour;Köp: 200 x Gryta mjöl
-Sell: 1,064 x Bucket of water;Sälj: 1 064 x Hink vatten
-Sell: 252 x Bucket of water;Sälj: 252 x Hink vatten
 Toggle-minerals;Växla-mineraler
 Take-bowl;Take-bowl
 Accept exchange;Acceptera utbyte
@@ -2146,41 +1899,13 @@ Activate machine;Aktivera maskinen
 Unlock machine;Lås upp maskinen
 Cancel operation;Avbryt operation
 Rank;Rang
-Sell: 1,010 x Banana;Sälj: 1 010 x Banan
 Last-destination (CIP);Sista destination (CIP)
 Set name;Ange namn
 wield;svinga
-Sell: 99 x Bones;Sälj: 99 x Bones
-Sell: 23 x Logs;Sälj: 23 x stockar
-Withdraw-25000000;Uttag-25000000
-Sell: 1 x Old school bond;Sälj: 1 x Old school obligation
-Withdraw-100000;Uttag-100 000
-Deposit-25000000;Deposition-25000000
-Buy: 2 x Steel scimitar;Köp: 2 x Steel scimitar
-Default quantity: 100,000;Standardkvantitet: 100 000
-Buy: 1 x Studded body;Köp: 1 x Dubbad kropp
-Deposit-100000;Insättning-100 000
 Beanspruchen;Beanspruchen
 Smoke;Rök
 Last-destination (BJR);Sista destination (BJR)
-Deposit-250;Deposition-250
-Withdraw-43;Uttag-43
-Withdraw-250;Uttag-250
-Deposit-43;Insättning-43
-Default quantity: 18;Standardantal: 18
-Withdraw-1971;Återkalla-1971
-Withdraw-1601;Återkalla-1601
-Deposit-1601;Deposition-1601
-Withdraw-552;Uttag-552
-Deposit-552;Insättning-552
-Withdraw-5128;Uttag-5128
-Deposit-5128;Deposition-5128
-Withdraw-72000;Uttag-72000
-Deposit-72000;Deposition-72000
-Default quantity: 72,000;Standardantal: 72 000
-Default quantity: 26;Standardantal: 26
 Buy X;Köp X
-Withdraw-1092;Återkalla-1092
 Ring-last-destination (DLQ);Ring-sista-destination (DLQ)
 Remove-decorations;Ta bort-dekorationer
 Jump on;Hoppa på
@@ -2193,13 +1918,9 @@ Throw-water;Kasta vatten
 Check-level;Kontrollnivå
 Strike;Strejk
 Cut-branch;Klipp-gren
-Deposit-13000;Deposition-13000
-Withdraw-13000;Uttag-13000
 Play-With;Lek-med
 Trophies;Troféer
 Talk-At;Talk-At
-Deposit-7785;Deposition-7785
-Withdraw-7785;Uttag-7785
 Mount;Montera
 Unstuff;Unstuff
 Change-clothes;Byt kläder
@@ -2216,15 +1937,8 @@ Change icon (herb run);Ändra ikon (örtkörning)
 Look out;Titta ut
 Last-destination (DIP);Sista destination (DIP)
 Ta Quir Priw;Ta Quir Priw
-Deposit-9000;Deposition-9000
-Withdraw-9000;Uttag-9000
 Vote Now;Rösta nu
-Withdraw-144000;Uttag-144000
 Give;Ge
-Withdraw-45;Uttag-45
-Deposit-45;Deposition-45
-Sell: 1 x Plank;Sälj: 1 x planka
-Buy: 5 x Bolt of cloth;Köp: 5 x tygbult
 Withdraw-Notes;Återkalla-anteckningar
 Remove-Placeholder;Ta bort-platshållare
 Remove-All-Placeholders;Ta bort-alla-platshållare
@@ -2246,22 +1960,8 @@ Select <col=ff981f>Elite;Välj <col=ff981f>Elite
 Select <col=ff981f>Hard;Välj <col=ff981f>Hård
 Master Tasks;Mästaruppgifter
 Grandmaster Tasks;Stormästaruppdrag
-Withdraw-150000;Uttag-150 000
-Deposit-150000;Deposition-150 000
-Default quantity: 150,000;Standard kvantitet: 150 000
-Withdraw-888;Uttag-888
 Clear-All;Rensa alla
 Climb-through;Klättra igenom
-Withdraw-15000;Uttag-15000
-Deposit-15000;Deposition-15000
-Withdraw-826;Uttag-826
-Withdraw-120;Uttag-120
-Deposit-19;Insättning-19
-Default quantity: 3;Standardkvantitet: 3
-Deposit-264;Insättning-264
-Withdraw-264;Uttag-264
-Withdraw-119;Uttag-119
-Deposit-119;Deposition-119
 Plank sack;Planksäck
 Amy's saw;Amys såg
 Carpenter's boots;Snickarstövlar
@@ -2270,8 +1970,6 @@ Carpenter's shirt;Snickarskjorta
 Hosidius blueprints;Hosidius ritningar
 Supply crate;Tillförsellåda
 Carpenter's helmet;Snickarhjälm
-Withdraw-20;Uttag-20
-Deposit-20;Insättning-20
 Deposit All from Inventory;Sätt in allt från lager
 Ghorrock Dungeon;Ghorrock Dungeon
 The Stranglewood;Stranglewood
@@ -2283,41 +1981,20 @@ Undead Grasp;Undead Fatta
 Take-from <col=00ffff>Fishing;Take-from <col=00ffff>Fiske
 Take-from <col=00ffff>Hunting;Take-from <col=00ffff>Jakt
 Take-from <col=00ffff>Herblore;Take-from <col=00ffff>Herblore
-Default quantity: 119;Standardantal: 119
-Deposit-888;Deposition-888
 Decorate;Dekorera
 Carve;Tälja
-Buy: 1 x Iron pickaxe;Köp: 1 x järnhacka
-Withdraw-12;Uttag-12
-Default quantity: 12;Standardantal: 12
-Deposit-12;Insättning-12
 Boss list;Boss lista
 Pirate's Cove;Pirate's Cove
 Island of Stone;Ö av sten
 Ungael;Ungael
 Waterbirth Island;Waterbirth Island
-Default quantity: 448;Standardantal: 448
-Deposit-448;Deposition-448
-Withdraw-448;Uttag-448
 Exit Speedrunning;Avsluta Speedrunning
-Default quantity: 20;Standardantal: 20
-Withdraw-11;Uttag-11
-Withdraw-6;Uttag-6
-Withdraw-2502;Uttag-2502
-Withdraw-30002;Uttag-30002
-Withdraw-3002;Återkalla-3002
-Deposit-2502;Deposition-2502
-Deposit-30002;Deposition-30002
 Quick-travel;Snabbresa
 Roll;Rulla
-Default quantity: 30,002;Standardkvantitet: 30 002
 Step-over;Steg över
 Menagerie (outdoors);Menageri (utomhus)
 Menagerie (indoors);Menageri (inomhus)
 Hall - Quest trophies;Hall - Quest-troféer
-Buy: 5 x Stamina potion(4);Köp: 5 x Stamina potion(4)
-Default quantity: 3,728;Standardantal: 3 728
-Withdraw-3728;Uttag-3728
 Make <col=ff9040>Sapphire necklace</col>;Gör <col=ff9040>Safirhalsband</col>
 Darkmeyer;Darkmeyer
 Slepe;Sömn
@@ -2338,12 +2015,8 @@ Teleports;Teleporterar
 Black chinchompas;Svarta chinchompas
 Carnivorous chinchompas;Köttätande chinchompas
 POH Portals;POH-portaler
-Deposit-42;Insättning-42
-Withdraw-42;Uttag-42
 The Darkfrost;Darkfrost
 <col=E89C46>Kastori</col>;<col=E89C46>Kastori</col>
-Deposit-3728;Deposition-3728
-Deposit-50;Insättning-50
 Craft-goods;Hantverksvaror
 Pass-to;Pass-to
 Mineral Pack;Mineralförpackning
@@ -2363,7 +2036,6 @@ turn tile;vänd kakel
 Sindarpos;Sindarpos
 Evade;Undgå
 Off/On;Av/På
-Sell: 12 x Iron dagger;Sälj: 12 x Järndolk
 Start-wave;Start-våg
 Finish;Avsluta
 Hoop;Hoop
@@ -2411,11 +2083,8 @@ Say-name;Säg-namn
 Add;Tillägga
 Adjust;Justera
 Gnome Stronghold;Gnome fäste
-Withdraw-8902;Återkalla-8902
-Deposit-8902;Deposition-8902
 Last-destination (ALQ);Sista destination (ALQ)
 View Channel;Visa kanal
-Default quantity: 8,902;Standardantal: 8 902
 Tracker;Spårare
 Goal;Mål
 Set to XP value;Ställ in på XP-värde
@@ -2437,16 +2106,9 @@ Lire;Lire
 Miner;Gruvarbetare
 Retirer;Pensionär
 Armure;Armure
-Withdraw-305;Uttag-305
-Withdraw-378;Uttag-378
-Deposit-378;Deposition-378
 Bind;Binda
 Crawl;Krypa
 Cut-foot;Cut-fot
-Default quantity: 378;Standardantal: 378
-Withdraw-911;Återkalla-911
-Deposit-911;Deposition-911
-Deposit-200000;Deposition-200000
 Sand;Sand
 Staves;Stavar
 S'occuper de;S'occuper de
@@ -2454,32 +2116,8 @@ Se reposer;Se reposer
 Leurre;Leurre
 Voir;Voir
 Vider;Vider
-Sell: 27 x Logs;Sälj: 27 x stockar
 Verrouiller;Verrouiller
-Add ignore TangledHob;Lägg till ignorera TangledHob
-Add ignore TSwangin;Lägg till ignorera TSwangin
-Default quantity: 200,000;Standardantal: 200 000
-Add friend TofuFlies;Lägg till vän TofuFlies
-Add friend TSwangin;Lägg till vän TSwangin
-Add friend Thegravywavy;Lägg till vän Thegravywavy
-Add friend Warmtalon56;Lägg till vän Warmtalon56
-Add ignore Warmtalon56;Lägg till ignorera Warmtalon56
-Add ignore T0x4;Lägg till ignorera T0x4
-Add friend Vixivine;Lägg till vän Vixivine
 Leave <col=ff8040>Pest Control</col> channel;Lämna <col=ff8040>Pest Control</col>-kanalen
-Add ignore SuGIMa Donk;Lägg till ignorera SuGIMa Donk
-Add ignore SynPol;Lägg till ignorera SynPol
-Add friend SynPol;Lägg till vän SynPol
-Add ignore SW4GN4R0K;Lägg till ignorera SW4GN4R0K
-Add ignore Vixivine;Lägg till ignorera Vixivine
-Add ignore Tora Cipha;Lägg till ignorera Tora Cipha
-Add friend T0x4;Lägg till vän T0x4
-Add friend SW4GN4R0K;Lägg till vän SW4GN4R0K
-Add friend Tora Cipha;Lägg till vän Tora Cipha
-Add friend TangledHob;Lägg till vän TangledHob
-Add friend SuGIMa Donk;Lägg till vän SuGIMa Donk
-Add ignore Thegravywavy;Lägg till ignorera Thegravywavy
-Add ignore TofuFlies;Lägg till ignorera TofuFlies
 Ranged XP: 10 points;Ranged XP: 10 poäng
 Hitpoints XP: 10 points;Träffpunkter XP: 10 poäng
 Hitpoints XP: 1 point;Träffpunkter XP: 1 poäng
@@ -2495,21 +2133,11 @@ Acheter;Acheter
 No, don't leave.;Nej, gå inte.
 Expel members;Utvisa medlemmar
 Recruitment;Rekrytering
-Sell: 1 x Bronze axe;Sälj: 1 x bronsyxa
 Check-keys;Check-nycklar
-Withdraw-59;Uttag-59
-Deposit-59;Insättning-59
-Withdraw-82;Uttag-82
-Deposit-49;Deposition-49
-Withdraw-34;Uttag-34
-Withdraw-37;Uttag-37
-Withdraw-49;Uttag-49
-Default quantity: 49;Standardantal: 49
 Attraper;Attraper
 Cueillir;Cueillir
 Interagir;Interagir
 Se faufiler;Se faufiler
-Sell: 1 x Raw trout;Sälj: 1 x rå öring
 Supply;Förse
 Escort;Eskort
 Objets de fêtes;Objets de fêtes
@@ -2530,40 +2158,21 @@ Toggle-view;Växla-vy
 Recharge-prayer;Ladda-bön
 Last-destination (DIS);Sista destination (DIS)
 Last-destination (BKP);Sista destination (BKP)
-Withdraw-51;Uttag-51
-Deposit-60;Insättning-60
-Deposit-51;Insättning-51
-Withdraw-732;Uttag-732
-Withdraw-636;Uttag-636
-Withdraw-64;Uttag-64
-Withdraw-60;Uttag-60
-Deposit-732;Deposition-732
 À l'extérieur;À l'extérieur
 Couper;Couper
-Default quantity: 60;Standardantal: 60
-Deposit-236;Insättning-236
 DJR;DJR
 Favourites;Favoriter
 AJR;AJR
 CIR;CIR
 CIS;CIS
-Default quantity: 236;Standardantal: 236
 View List;Visa lista
 DIP;DOPPA
 Last-destination (BKS);Sista destination (BKS)
 BKS;BKS
-Buy: 1 x Tuna;Köp: 1 x tonfisk
-Deposit-2787;Deposition-2787
-Withdraw-2787;Uttag-2787
-Default quantity: 2,787;Standardantal: 2 787
 Tirer;Tierer
-Sell: 1 x Skills necklace;Sälj: 1 x Skills-halsband
 View-game;Se-spel
 Cancel preview;Avbryt förhandsvisning
-Withdraw-856;Uttag-856
-Deposit-856;Deposition-856
 Last-destination (DLR);Sista destination (DLR)
-Default quantity: 9,000;Standardantal: 9 000
 Click this to add coal.;Klicka här för att lägga till kol.
 Turn tar valve up;Vrid upp tjärventilen
 Turn pressure valve up;Vrid upp tryckventilen
@@ -2619,65 +2228,17 @@ Select <col=ff981f>Nature rune;Välj <col=ff981f>Naturruna
 Examine <col=ff981f>Death rune;Undersök <col=ff981f>Dödsruna
 Lemanto Andra;Lemanto Andra
 Battlefield of Khazard;Khazards slagfält
-Add ignore Wildcat;Lägg till ignorera Wildcat
-Add friend Xclearwater2;Lägg till vän Xclearwater2
-Add friend X1_Cygnus;Lägg till vän X1_Cygnus
-Add friend VeshonsAcc;Lägg till vän VeshonsAcc
-Add ignore X1_Cygnus;Lägg till ignorera X1_Cygnus
-Add friend XRatchet1313;Lägg till vän XRatchet1313
-Add friend Wildcat;Lägg till vän Wildcat
-Add ignore Xclearwater2;Lägg till ignorera Xclearwater2
-Add ignore VeshonsAcc;Lägg till ignorera VeshonsAcc
 Join <col=ff8040>Shield of Arrav</col> channel;Gå med i kanalen <col=ff8040>Shield of Arrav</col>
-Add ignore XRatchet1313;Lägg till ignorera XRatchet1313
-Add ignore XxGARLITCHxX;Lägg till ignorera XxGARLITCHxX
-Add friend XxGARLITCHxX;Lägg till vän XxGARLITCHxX
-Add ignore Zarvll;Lägg till ignorera Zarvll
-Add friend Zpazt196;Lägg till vän Zpazt196
-Add ignore xater;Lägg till ignorera xater
-Add friend Whoisu82;Lägg till vän Whoisu82
-Add friend Zarvll;Lägg till vän Zarvll
-Add friend wblion;Lägg till vän wblion
 Leave <col=ff8040>Shield of Arrav</col> channel;Lämna <col=ff8040>Shield of Arrav</col>-kanalen
-Add ignore Wenedi;Lägg till ignorera Wenedi
-Add ignore wblion;Lägg till ignore wblion
-Add ignore YoMd_Debo;Lägg till ignorera YoMd_Debo
-Add ignore Zpazt196;Lägg till ignorera Zpazt196
 Teleport to <col=ff8040>Shield of Arrav</col>;Teleportera till <col=ff8040>Shield of Arrav</col>
-Add ignore westymartell;Lägg till ignorera westymartell
-Add ignore Zourberts;Lägg till ignorera Zourberts
-Add friend xater;Lägg till vän xater
-Add friend Wenedi;Lägg till vän Wenedi
-Add friend westymartell;Lägg till vän westymartell
-Add friend Zourberts;Lägg till vän Zourberts
-Add friend YoMd_Debo;Lägg till vän YoMd_Debo
-Add ignore Whoisu82;Lägg till ignorera Whoisu82
 Goutte;Goutte
 DÃ©truire;Détruire
 Recherche;Recherche
 Buy Membership;Köp medlemskap
-Add ignore OATHSLAYER42;Lägg till ignorera OATHSLAYER42
 Switch <col=ff8040>491</col>;Switch <col=ff8040>491</col>
-Add friend thobblee;Lägg till vän thobblee
-Add ignore Igvor;Lägg till ignorera Igvor
-Add ignore Trickster416;Lägg till ignorera Trickster416
-Add friend Igvor;Lägg till vän Igvor
-Add friend Iron Veetz;Lägg till vän Iron Veetz
-Add ignore thobblee;Lägg till ignorera thobblee
-Add ignore Runeflick;Lägg till ignorera Runeflick
 Teleport to <col=ff8040>Burthorpe Games Room</col>;Teleportera till <col=ff8040>Burthorpe Games Room</col>
-Add friend GingerbreadF;Lägg till vän GingerbreadF
 Leave <col=ff8040>Burthorpe Games Room</col> channel;Lämna <col=ff8040>Burthorpe Games Room</col>-kanalen
-Add ignore Iron Veetz;Lägg till ignorera Iron Veetz
-Add ignore Wag City;Lägg till ignorera Wag City
-Add friend Wag City;Lägg till vän Wag City
-Add friend OATHSLAYER42;Lägg till vän OATHSLAYER42
-Add ignore GingerbreadF;Lägg till ignorera GingerbreadF
-Add friend jalc2026;Lägg till vän jalc2026
 Join <col=ff8040>Burthorpe Games Room</col> channel;Gå med i kanalen <col=ff8040>Burthorpe Games Room</col>
-Add ignore jalc2026;Lägg till ignorera jalc2026
-Add friend Runeflick;Lägg till vän Runeflick
-Add friend Trickster416;Lägg till vän Trickster416
 Claim-Shield;Claim-Shield
 Swing Across;Sväng över
 Oubliette;Oubliette
@@ -2692,7 +2253,6 @@ CKR;CKR
 Remove<col=ff9040> Hint arrow;Ta bort<col=ff9040> ​​Tipspil
 Show<col=ff9040> Hint;Visa<col=ff9040> ​​tips
 Ring-last-destination (AKP);Ring-sista-destination (AKP)
-Withdraw-1884;Återkalla-1884
 Récompenses;Ersättningar
 Tête de mort;Tête de mort
 Prix;Prix
@@ -2738,7 +2298,6 @@ Entrer (invité);Entrer (invité)
 Entrer (membre);Entrer (medlem)
 NER Lookup;NER Lookup
 Lunar Isle;Lunar Isle
-Sell: 1 x Mithril chainbody;Sälj: 1 x Mithril chainbody
 Tirannwn;Tirannwn
 Kourend;Kourend
 Channel (Wilderness);Kanal (vildmark)
@@ -2746,14 +2305,12 @@ Varlamore;Varlamore
 Asgarnia;Asgarnia
 Swap-Effect;Swap-effekt
 Toggle absorption;Växla absorption
-Default quantity: 500,000;Standardkvantitet: 500 000
 Play-with;Lek-med
 Afirmar;Afirmar
 Withdraw-all;Dra tillbaka allt
 Withdraw-last;Uttag-sist
 Orar en;Orar en
 Crumble Undead;Crumble Undead
-Sell: 104 x Bronze bar;Sälj: 104 x bronsstång
 Valor;Tapperhet
 Remove from playlist 2;Ta bort från spellista 2
 Peer-into;Peer-in
@@ -2763,16 +2320,8 @@ Offer All;Erbjud alla
 Offer X;Erbjudande X
 Robar de;Robar de
 View journal <col=ff981f>Children of the Sun</col>;Se tidskriften <col=ff981f>Solens barn</col>
-Sell: 14 x Cowhide;Sälj: 14 x kohud
-Buy: 1 x Mithril platelegs;Köp: 1 x Mithril plattben
-Default quantity: 3,000;Standardantal: 3 000
-Withdraw-1800;Uttag-1800
-Deposit-1800;Deposition-1800
-Sell: 2 x Gold bar;Sälj: 2 x guldtackor
 Clamber;Klättra
 View journal <col=ff981f>Druidic Ritual</col>;Se tidskriften <col=ff981f>Druidisk ritual</col>
-Sell: 1 x Bronze sq shield;Sälj: 1 x brons kvm sköld
-Buy: 1 x Steel platebody;Köp: 1 x stålplåt
 Rules;Regler
 Looting;Plundring
 Area of effect;Effektområde
@@ -2785,135 +2334,11 @@ Last-destination (Shilo village: Stepping stone);Sista destination (Shilo by: St
 Last-destination (Auburn valley: Log balance (north));Sista destination (Auburn valley: stockbalans (norr))
 Last-destination (Mort myre: Stepping stone);Sista destination (Mort myre: Stepping stone)
 Last-destination (Hosidius: River stepping stone);Sista destination (Hosidius: River stepping stone)
-Buy: 1 x Team-42 cape;Köp: 1 x Team-42 cape
-Add ignore Runheim;Lägg till ignorera Runheim
-Add ignore dds maniac;Lägg till ignore dds galning
-Add ignore maxncheech;Lägg till ignore maxncheech
-Add friend Crybals;Lägg till vän Crybals
-Add ignore Valdromus;Lägg till ignorera Valdromus
-Add ignore keysuka;Lägg till ignorera keysuka
-Add friend Fe Striction;Lägg till vän Fe striction
-Add ignore My Void op;Lägg till ignorera My Void op
-Add ignore ElCapiDanno;Lägg till ignorera ElCapiDanno
-Add friend Lxnchables;Lägg till vän Lxnchables
-Add friend CippsyPotato;Lägg till vän CippsyPotato
-Add friend Rangertomgun;Lägg till vän Rangertomgun
-Add ignore DarkLord845;Lägg till ignorera DarkLord845
-Add ignore jjonive;Lägg till ignore jjonive
-Add friend HueyTheFool;Lägg till vän HueyTheFool
-Add ignore CippsyPotato;Lägg till ignorera CippsyPotato
-Add ignore WasabiHole;Lägg till ignorera WasabiHole
-Add ignore dougismyuser;Lägg till ignorera dougismyuser
-Add ignore ReignDown;Lägg till ignorera ReignDown
-Add friend lil ferdex;Lägg till vän lil ferdex
-Add friend Shaky Knees;Lägg till vän Shaky Knees
-Add ignore EeselIM;Lägg till ignorera EeselIM
-Add friend DarkLord845;Lägg till vän DarkLord845
-Add ignore HueyTheFool;Lägg till ignorera HueyTheFool
-Add friend N00boBaggins;Lägg till vän N00boBaggins
-Add ignore bazy;Lägg till ignorera bazy
-Add ignore Shaky Knees;Lägg till ignorera skakiga knän
-Add friend Onyxmine;Lägg till vän Onyxmine
-Add friend B POS1TIVE;Lägg till vän B POS1TIVE
-Add ignore IronTaint98;Lägg till ignorera IronTaint98
-Add friend jjonive;Lägg till vän jjonive
-Add friend WasabiHole;Lägg till vän WasabiHole
-Add friend Zero Magik;Lägg till vän Zero Magik
-Add friend dds maniac;Lägg till vän dds galning
-Add ignore Lxnchables;Lägg till ignorera Lxnchables
-Add ignore CommonTroll;Lägg till ignorera CommonTroll
-Add ignore mr backshots;Lägg till ignorera mr bakgrundsbilder
-Add ignore Pvt-Stainz;Lägg till ignorera Pvt-Stainz
-Add friend Black Block2;Lägg till vän Black Block2
-Add friend RaioRaioRaio;Lägg till vän RaioRaioRaio
-Add ignore Pee Knight;Lägg till ignorera Pee Knight
-Add friend Wolfsail2331;Lägg till vän Wolfsail2331
-Add friend Nimaruz;Lägg till vän Nimaruz
-Add ignore cas2891111;Lägg till ignore cas2891111
-Add friend 69Potatoes;Lägg till vän 69Potatis
-Add friend AhrimedJob;Lägg till vän AhrimedJob
-Add friend mr backshots;Lägg till vän mr backshots
-Add friend bazy;Lägg till en vän bazy
-Add friend Notdevoid30;Lägg till vän Notdevoid30
-Add ignore AhrimedJob;Lägg till ignorera AhrimedJob
-Add friend Tomtes HCIM;Lägg till vän Tomtes HCIM
-Add ignore JerryJag;Lägg till ignorera JerryJag
-Add friend Pee Knight;Lägg till vän Pee Knight
-Add friend EeselIM;Lägg till vän EeselIM
-Add friend Kappa Cabba;Lägg till vän Kappa Cabba
-Add friend Mazumizu;Lägg till vän Mazumizu
-Add friend Wallpii;Lägg till vän Wallpii
-Add friend SilentEunuch;Lägg till vän SilentEunuch
-Add ignore Rangertomgun;Lägg till ignorera Rangomgun
-Add ignore Tavov;Lägg till ignorera Tavov
-Add friend BreakingChin;Lägg till vän BreakingChin
-Add friend Maatumaatu;Lägg till vän Maatumaatu
-Add friend maxncheech;Lägg till vän maxncheech
-Add friend JerryJag;Lägg till vän JerryJag
-Add friend ElCapiDanno;Lägg till vän ElCapiDanno
-Add friend ReignDown;Lägg till vän ReignDown
-Add friend mr herry 12;Lägg till vän mr herry 12
-Add friend TreviiFTW;Lägg till vän TreviiFTW
-Add friend Runheim;Lägg till vän Runheim
-Add friend dougismyuser;Lägg till vän dougismyuser
-Add ignore Mazumizu;Lägg till ignorera Mazumizu
-Add ignore Zero Magik;Lägg till ignorera Zero Magik
-Add ignore mr herry 12;Lägg till ignorera mr herry 12
-Add friend Pvt-Stainz;Lägg till vän Pvt-Stainz
-Add ignore Frinkytastic;Lägg till ignorera Frinkytastic
-Add friend Valdromus;Lägg till vän Valdromus
-Add friend Futanarian69;Lägg till vän Futanarian69
-Add friend IsIt1ron;Lägg till vän IsIt1ron
-Add ignore TreviiFTW;Lägg till ignorera TreviiFTW
-Add friend IronTaint98;Lägg till vän IronTaint98
-Add friend Frinkytastic;Lägg till vän Frinkytastic
-Add ignore fa gf;Lägg till ignorera fa gf
-Add ignore lil ferdex;Lägg till ignore lil ferdex
-Add ignore Built By AI;Lägg till ignorera Byggd av AI
-Add ignore Maatumaatu;Lägg till ignorera Maatumaatu
-Add ignore Notdevoid30;Lägg till ignorera Notdevoid30
-Add ignore Wolfsail2331;Lägg till ignorera Wolfsail2331
-Add ignore Nimaruz;Lägg till ignorera Nimaruz
-Add friend Built By AI;Lägg till vän Byggd av AI
-Add ignore jpeg art;Lägg till ignorera jpeg-konst
-Add friend cas2891111;Lägg till vän cas2891111
-Add friend keysuka;Lägg till vän keysuka
-Add ignore Black Block2;Lägg till ignorera svart block2
-Add friend H311fire191;Lägg till vän H311fire191
-Add ignore Fe Striction;Lägg till ignorera Fe-striktion
-Add ignore N00boBaggins;Lägg till ignorera N00boBaggins
-Add ignore 69Potatoes;Lägg till ignorera 69potatis
-Add ignore CutePoisonnn;Lägg till ignorera CutePoisonnn
-Add friend fa gf;Lägg till vän fa gf
-Add ignore Onyxmine;Lägg till ignorera Onyxmine
-Add ignore BreakingChin;Lägg till ignorera BreakingChin
-Add ignore Crybals;Lägg till ignore Crybals
-Add ignore Futanarian69;Lägg till ignorera Futanarian69
-Add friend CommonTroll;Lägg till vän CommonTroll
-Add ignore IsIt1ron;Lägg till ignorera IsIt1ron
-Add ignore H311fire191;Lägg till ignorera H311fire191
-Add ignore Wallpii;Lägg till ignorera Wallpii
-Add ignore Tomtes HCIM;Lägg till ignorera Tomtes HCIM
-Add friend CutePoisonnn;Lägg till vän CutePoisonnn
-Add friend Tavov;Lägg till vän Tavov
-Add ignore Kappa Cabba;Lägg till ignorera Kappa Cabba
-Add ignore B POS1TIVE;Lägg till ignorera B POS1TIVE
-Add friend My Void op;Lägg till vän My Void op
-Add ignore RaioRaioRaio;Lägg till ignorera RaioRaioRaio
-Add friend jpeg art;Lägg till vän jpeg art
-Add ignore SilentEunuch;Lägg till ignorera SilentEunuch
-Deposit-400000;Deposition-400000
-Withdraw-400000;Uttag-400 000
-Buy: 10 x Camelot teleport;Köp: 10 x Camelot teleport
 Modo de construccion;Konstruktionssätt
 Casa;Casa
 Casa de amigos;Casa de amigos
 Switch <col=ff8040>394</col>;Switch <col=ff8040>394</col>
 Make<col=ff9040> Waka canoe;Gör<col=ff9040> ​​Waka-kanot
-Default quantity: 99;Standardantal: 99
-Deposit-99;Insättning-99
-Withdraw-99;Uttag-99
-Withdraw 5;Uttag 5
 View <col=ff9040>Woodcutting</col> guide;Se guiden <col=ff9040>Träskärning</col>
 ALP;ALP
 Quick-start;Snabbstart
@@ -2927,33 +2352,21 @@ Select <col=ff891f>Demonic Trident Ornament Kit.;Välj <col=ff891f>Demonisk Trid
 Select <col=ff891f>Leagues VI Relic Hunter (T3);Välj <col=ff891f>Leagues VI Relic Hunter (T3)
 Unlocked;Olåst
 Zoom Out;Zooma ut
-Sell: 21 x Hard leather;Sälj: 21 x Hårt läder
 Sniff;Sniffa
-Withdraw-190;Uttag-190
 Select <col=ff981f>Imp repellent;Välj <col=ff981f>Imp repellent
 Select <col=ff981f>Jar generator;Välj <col=ff981f>Jar generator
 Select <col=ff981f>Magic butterfly net;Välj <col=ff981f>Magiskt fjärilsnät
 Select <col=ff981f>Impling jar;Välj <col=ff981f>Impling jar
 Last-destination (CKQ);Sista destination (CKQ)
-Sell: 1 x Beer glass;Sälj: 1 x Ölglas
-Deposit-190;Deposition-190
 Locked;Låst
 Reclaim;Återvinna
 Select <col=ff891f>Leagues V Death;Välj <col=ff891f>Leagues V Death
 Select <col=ff891f>Leagues V Portal;Välj <col=ff891f>Leagues V Portal
 Select <col=ff891f>Demonic Butler Scroll;Välj <col=ff891f>Demonisk Butler Scroll
 Select <col=ff891f>Leagues V Curtains;Välj <col=ff891f>Leagues V Gardiner
-Buy: 1 x Demonic trident ornament kit;Köp: 1 x Demonisk treudd prydnadssats
-Withdraw-339;Uttag-339
 Rumour-settings;Ryktens inställningar
-Deposit-123123;Deposition-123123
-Withdraw-123123;Uttag-123123
 Fur-clothing;Päls-kläder
 Take-log;Ta-logg
-Default quantity: 55;Standardantal: 55
-Withdraw-55;Uttag-55
-Deposit-55;Insättning-55
-Sell: 19 x Ogre arrow;Sälj: 19 x Ogre pil
 Vote;Rösta
 Check tax;Kontrollera skatt
 Request-supplies;Begär-förnödenheter
@@ -2968,24 +2381,17 @@ Sabotage;Sabotage
 Plant-evidence;Växtbevis
 Charter-to Civitas illa Fortis;Charter till Civitas illa Fortis
 Bless;Välsigna
-Buy: 1 x Steel pickaxe;Köp: 1 x Stålhacka
 Impling-jar;Impling-burk
 Butterfly-jar;Fjärilsburk
 Make <col=ff9040>Sapphire ring</col>;Gör <col=ff9040>Safirring</col>
 Make <col=ff9040>Emerald ring</col>;Gör <col=ff9040>Smaragdring</col>
-Deposit-2500;Deposition-2500
-Withdraw-2500;Uttag-2500
 Crush;Krossa
-Withdraw-35;Uttag-35
-Deposit-35;Deposition-35
 Look-into;Titta in
-Buy: 1 x Rope;Köp: 1 x rep
 Reset Vertical;Återställ vertikal
 Resize Vertical;Ändra storlek vertikal
 View <col=ff9040>Attack</col> guide;Se guiden <col=ff9040>Attack</col>
 View <col=ff9040>Slayer</col> guide;Se guiden <col=ff9040>Slayer</col>
 View <col=ff9040>Hitpoints</col> guide;Se guiden <col=ff9040>Träffpunkter</col>
-Default quantity: 35;Standardantal: 35
 Body type A;Kroppstyp A
 View Facial hair;Se Ansiktshår
 View Hair;Visa hår
@@ -2998,11 +2404,6 @@ View Body types;Visa kroppstyper
 Upgrades;Uppgraderingar
 Benefits;Fördelar
 Lookup-entity;Uppslagsenhet
-Deposit-1181;Deposition-1181
-Withdraw-1181;Återkalla-1181
-Buy: 1 x Rune crossbow;Köp: 1 x Rune armborst
-Deposit-8;Insättning-8
-Withdraw-8;Uttag-8
 Select <col=ff891f>Shattered Relic Hunter (T1);Välj <col=ff891f>Shattered Relic Hunter (T1)
 Select <col=ff891f>Shattered Mystic Orn Kit;Välj <col=ff891f>Shattered Mystic Orn Kit
 Select <col=ff891f>Trailblazer Graceful Kits x6;Välj <col=ff891f>Trailblazer Graceful Kits x6
@@ -3024,17 +2425,10 @@ Select <col=ff891f>Trailblazer Globe;Välj <col=ff891f>Trailblazer Globe
 Select <col=ff891f>Trailblazer Teleport Scroll;Välj <col=ff891f>Trailblazer Teleport Scroll
 Select <col=ff891f>Echo Venator Bow Orn Kit;Välj <col=ff891f>Echo Venator Bow Orn Kit
 Recoil Settings;Rekylinställningar
-Deposit-339;Insättning-339
-Default quantity: 339;Standardantal: 339
 Recoil settings;Rekylinställningar
-Withdraw-6000000;Uttag-6000000
 Bandit Camp;Banditläger
 Lava Maze;Lava labyrint
 Chaos Temple;Kaos tempel
-Withdraw-6000;Uttag-6000
-Deposit-6000;Deposition-6000
-Buy: 13 x Rune platebody;Köp: 13 x Rune platebody
-Buy: 1 x Mithril full helm;Köp: 1 x Mithril helroder
 Check completion;Kontrollera färdigställandet
 Channel (Kandarin);Kanal (Kandarin)
 Make <col=ff9040>Onyx amulet (u)</col>;Gör <col=ff9040>Onyxamulet (u)</col>
@@ -3042,21 +2436,9 @@ Make <col=ff9040>Onyx bracelet</col>;Gör <col=ff9040>Onyx-armband</col>
 Buy sets:;Köp set:
 Jump-from;Hoppa från
 Channel (Karamja);Kanal (Karamja)
-Default quantity: 6,000;Standardantal: 6 000
-Buy: 1 x Adamant full helm;Köp: 1 x Adamant helroder
-Buy: 150 x Rune dagger;Köp: 150 x Rundolk
 Master;Bemästra
 Make <col=ff9040>Slayer ring (8)</col>;Gör <col=ff9040>Slayer ring (8)</col>
-Sell: 1 x Uncut emerald;Sälj: 1 x oslipad smaragd
 Make-cuppa;Make-cuppa
-Buy: 1 x Armadyl rune armour set (lg);Köp: 1 x Armadyl runpansarset (lg)
-Sell: 1 x Armadyl platelegs;Sälj: 1 x Armadyl plattben
-Deposit-499;Deposition-499
-Withdraw-499;Uttag-499
-Buy: 15 x Rune platebody;Köp: 15 x Rune platebody
-Sell: 500 x Amulet of strength;Sälj: 500 x Amulet of Amulet
-Buy: 1 x Rune platebody;Köp: 1 x Rune platebody
-Buy: 1 x Rune longsword;Köp: 1 x Rune långsvärd
 Unstore;Avlagra
 Ring-last-destination (DJP);Ring-sista-destination (DJP)
 Rustle;Prassla
@@ -3066,31 +2448,10 @@ Ring-last-destination (BJS);Ring-sista-destination (BJS)
 Aim and Fire;Sikta och eld
 Amy;Amy
 View Info;Visa info
-Buy: 20 x Rune platebody;Köp: 20 x Rune platebody
-Buy: 40 x Rune full helm;Köp: 40 x Rune helhjälm
-Deposit-38;Insättning-38
-Buy: 80 x Adamant platebody;Köp: 80 x Adamant platebody
-Buy: 100 x Sapphire amulet;Köp: 100 x Safiramulet
-Withdraw-5000000;Uttag-5000000
-Deposit-5000000;Insättning-5000000
-Default quantity: 5,000,000;Standardkvantitet: 5 000 000
-Deposit-3000000;Deposition-3000000
-Deposit-13500000;Deposition-13500000
-Withdraw-13500000;Uttag-13500000
-Deposit-15000000;Deposition-15000000
-Withdraw-3000000;Uttag-3000000
-Withdraw-15000000;Uttag-15000000
-Withdraw-108;Uttag-108
-Deposit-108;Insättning-108
-Deposit-542;Insättning-542
-Withdraw-542;Uttag-542
 Teleport to <col=ff8040>Castle Wars</col>;Teleportera till <col=ff8040>Castle Wars</col>
 Join <col=ff8040>Castle Wars</col> channel;Gå med i kanalen <col=ff8040>Castle Wars</col>
 Make <col=ff9040>Diamond bracelet</col>;Gör <col=ff9040>Diamantarmband</col>
 Blackout;Mörkläggning
-Withdraw-23;Uttag-23
-Deposit-23;Insättning-23
-Default quantity: 23;Standardantal: 23
 Select <col=ff891f>Tier 1 Adventurer's Outfit;Välj <col=ff891f>Tier 1 Adventurer's Outfit
 Select <col=ff891f>Tier 2 Adventurer's Outfit;Välj <col=ff891f>Tier 2 Adventurer's Outfit
 Select <col=ff891f>Speedy Teleport Scroll;Välj <col=ff891f>Speedy Teleport Scroll
@@ -3100,7 +2461,6 @@ Collections overview;Samlingsöversikt
 Stairs to Timeline exhibit;Trappor till tidslinjens utställning
 Collections Overview;Samlingsöversikt
 Last-destination (ALR);Sista destination (ALR)
-Default quantity: 542;Standardantal: 542
 Select <col=ff9040>Pineapple punch;Välj <col=ff9040>Ananasstans
 Select <col=ff9040>Fruit blast;Välj <col=ff9040>Fruit blast
 Select <col=ff9040>Blurberry special;Välj <col=ff9040>Blurberry special
@@ -3108,29 +2468,18 @@ Mix-cocktail;Mix-cocktail
 Select <col=ff9040>Chocolate saturday;Välj <col=ff9040>Choklad lördag
 Select <col=ff9040>Drunk dragon;Välj <col=ff9040>Drunk drake
 Select <col=ff9040>Short green guy;Välj <col=ff9040>Kort grön kille
-Default quantity: 2;Standardkvantitet: 2
 Magic XP: 1 point;Magic XP: 1 poäng
 Magic XP: 100 points;Magic XP: 100 poäng
 Strength XP: 100 points;Styrka XP: 100 poäng
 Magic XP: 10 points;Magic XP: 10 poäng
 Ranged XP: 100 points;Ranged XP: 100 poäng
-Buy: 70 x Ruby amulet;Köp: 70 x Ruby amulett
-Buy: 1,000 x Ruby amulet;Köp: 1 000 x Ruby amulett
 Steal;Stjäla
-Buy: 2,000 x Cosmic rune;Köp: 2 000 x Cosmic runa
 Toggle-activity;Växla-aktivitet
-Buy: 1,320 x Cosmic rune;Köp: 1 320 x Cosmic runa
-Default quantity: 6,000,000;Standardkvantitet: 6 000 000
 Release all placeholders (38);Släpp alla platshållare (38)
-Deposit-6000000;Deposition-6000000
 Dissolve;Upplösa
-Sell: 826 x Amulet of strength;Sälj: 826 x Amulet of Amulet
 BJS;BJS
 BJP;BJP
 Ring-last-destination (CKQ);Ring-sista-destination (CKQ)
-Buy: 1 x Gilded platelegs;Köp: 1 x Förgyllda plattben
-Buy: 1 x Bones;Köp: 1 x Bones
-Sell: 13,000 x Steel nails;Sälj: 13 000 x Stålspik
 View <col=ff9040>Smithing</col> guide;Se guiden <col=ff9040>Smithing</col>
 Clan name;Klannamn
 Permission access;Behörighet åtkomst
@@ -3156,9 +2505,6 @@ Controles;Kontroller
 Conta;Conta
 Habilidades;Habilidades
 Previous page;Föregående sida
-Buy: 1,990 x Ruby amulet;Köp: 1 990 x Ruby amulett
-Sell: 1,310 x Amulet of strength;Sälj: 1 310 x Amulet of Amulet
-Buy: 90 x Rune platebody;Köp: 90 x Rune platebody
 Move Left;Flytta vänster
 Move Right;Flytta höger
 Move Down;Flytta ner
@@ -3188,15 +2534,12 @@ História;História
 Trocar;Trocar
 Confirmar;Bekräfta
 Conjuntos;Conjuntos
-Withdraw-727;Uttag-727
-Buy: 1 x Emerald;Köp: 1 x Emerald
 Ver oferta;Ver oferta
 Abortar oferta;Avbryt oferta
 Depósito-X;Deposito-X
 Preços;Preços
 Depósitar-1;Depositar-1
 Depósitar-10;Depositar-10
-Deposit-727;Deposition-727
 Depósito-Tudo;Depósito-Tudo
 Depósitar-5;Depositar-5
 Insira o preço;Insira o preço
@@ -3204,9 +2547,7 @@ Make <col=ff9040>Emerald necklace</col>;Gör <col=ff9040>Smaragdhalsband</col>
 Adicionar amigo;Ytterligare amigo
 Mostrar no mapa:;Ingen karta:
 Leia o diário:;Lea o diário:
-Sell: 50 x Emerald necklace;Sälj: 50 x Emerald halsband
 Saque;Saque
-Withdraw-4000;Uttag-4000
 Recompensas;Recompensas
 Compre 5;Compre 5
 Vender 50<col=ff9040>;Försäljare 50<col=ff9040>
@@ -3217,7 +2558,6 @@ Valor<col=ff9040>;Valor<col=ff9040>
 Compre 10;Comprera 10
 Vender 5<col=ff9040>;Säljare 5<col=ff9040>
 Compre 1;Comprera 1
-Default quantity: 4,000;Standardantal: 4 000
 Chefes;Kockar
 Tarefas;Tarefas
 Registro de coleta;Registro de coleta
@@ -3226,271 +2566,55 @@ Visão geral da coleção;Visão geral da coleção
 Resgatar;Resgatar
 Compre-50;Compre-50
 Remover;Remover
-Default quantity: 15,000,000;Standardkvantitet: 15 000 000
-Deposit-6;Insättning-6
 Ver estatísticas do equipamento;Ver estatísticas do equipamento
 Empty Dish;Tom skål
-Sell: 1,500 x Iron arrow;Sälj: 1 500 x Järnpil
-Buy: 1,500 x Headless arrow;Köp: 1 500 x Huvudlös pil
-Buy: 3 x Chocolate bar;Köp: 3 x Chokladkaka
 Look-in;Titta in
 Look in;Titta in
 Info:;Info:
 Mostrar no mapa;Mostrar no mapa
 Mostrar;Mostrar
 Clear them all;Rensa dem alla
-Buy: 1 x Adamant platelegs;Köp: 1 x Adamant plattben
 Retaliação automática;Retaliação automática
 Pedágio (10gp);Pedágio (10gp)
 Excluir amigo;Exklusive amigo
 Soco;Soco
 Bloquear;Bloquear
-Deposit-18000;Deposition-18000
-Withdraw-18000;Uttag-18000
-Add friend OmfgitsJezus;Lägg till vän OmfgitsJezus
-Add friend lunaluna;Lägg till vän lunaluna
-Add ignore SPINOZA78;Lägg till ignorera SPINOZA78
-Add ignore YoungJimz;Lägg till ignorera YoungJimz
-Add ignore New Burial;Lägg till ignorera ny begravning
-Add friend ReadSR;Lägg till vän ReadSR
-Add ignore WyattsWildy;Lägg till ignorera WyattsWildy
-Add friend Wheat312;Lägg till vän Wheat312
-Add friend Pow3rmaxsk1l;Lägg till vän Pow3rmaxsk1l
-Add ignore OmfgitsJezus;Lägg till ignorera OmfgitsJezus
-Add ignore Marc Ecko;Lägg till ignorera Marc Ecko
-Add friend LinuxS3XTips;Lägg till vän LinuxS3XTips
-Add friend pedromain;Lägg till vän pedromain
-Add ignore Pimptime69;Lägg till ignorera Pimptime69
-Add ignore Macdin;Lägg till ignorera Macdin
-Add ignore Pow3rmaxsk1l;Lägg till ignorera Pow3rmaxsk1l
-Add friend SirPudrick;Lägg till vän SirPudrick
-Add friend Runsirongi;Lägg till vän Runsirongi
-Add friend Tim Sanchez;Lägg till vän Tim Sanchez
-Add ignore pedromain;Lägg till ignore pedromain
-Add friend WyattsWildy;Lägg till vän WyattsWildy
-Add ignore Voidloser;Lägg till ignorera Voidloser
-Add friend MavenDracan;Lägg till vän MavenDracan
-Add friend Marc Ecko;Lägg till vän Marc Ecko
-Add friend YoungJimz;Lägg till vän YoungJimz
-Add friend Pimptime69;Lägg till vän Pimptime69
-Add ignore TerpyHigh;Lägg till ignorera TerpyHigh
-Add friend SPINOZA78;Lägg till vän SPINOZA78
-Add friend YBN Aleedarg;Lägg till vän YBN Aleedarg
-Add ignore YBN Aleedarg;Lägg till ignorera YBN Aleedarg
-Add ignore Runsirongi;Lägg till ignorera Runsirongi
-Add ignore ReadSR;Lägg till ignorera ReadSR
-Add ignore Wheat312;Lägg till ignorera Wheat312
-Add ignore LinuxS3XTips;Lägg till ignorera LinuxS3XTips
-Add ignore MavenDracan;Lägg till ignorera MavenDracan
-Add ignore x DAPPER DAN;Lägg till ignorera x DAPPER DAN
-Add friend Voidloser;Lägg till vän Voidloser
-Add friend New Burial;Lägg till vän Ny begravning
-Add friend Macdin;Lägg till vän Macdin
-Add friend x DAPPER DAN;Lägg till vän x DAPPER DAN
-Add friend Tylon561;Lägg till vän Tylon561
-Add friend TerpyHigh;Lägg till vän TerpyHigh
-Add friend Serve God;Lägg till vän Tjen Gud
-Add ignore Tim Sanchez;Lägg till ignorera Tim Sanchez
-Add ignore SirPudrick;Lägg till ignorera SirPudrick
-Add ignore Serve God;Lägg till ignorera Serve God
-Add ignore lunaluna;Lägg till ignorera lunaluna
-Add ignore Tylon561;Lägg till ignorera Tylon561
 Void Knight Seal;Void Knight Seal
 Void Knight Top;Void Knight Top
 Void Ranger Helm;Void Ranger Helm
 Void Knight Gloves;Void Knight Handskar
-Add ignore Goth Girl XO;Lägg till ignorera Goth Girl XO
-Add ignore Perry2fly;Lägg till ignorera Perry2fly
-Add friend LAMPTIONED;Lägg till vän LAMPTIONED
-Add friend J a c k e l;Lägg till vän J a c k e l
-Add friend Zul n Dro;Lägg till vän Zul n Dro
-Add friend SekiroTank;Lägg till vän SekiroTank
-Add ignore NotSeeGIM;Lägg till ignorera NotSeeGIM
-Add ignore Lumberg;Lägg till ignorera Lumberg
-Add ignore LAMPTIONED;Lägg till ignorera LAMPTIONED
-Add ignore Pontiff1;Lägg till ignorera Pontiff1
-Add ignore Yunglitho;Lägg till ignorera Yunglitho
-Add friend NotSeeGIM;Lägg till vän NotSeeGIM
-Add ignore KisaMiaow;Lägg till ignorera KisaMiaow
-Add ignore Sibyllistes;Lägg till ignorera sibyllister
-Add ignore ZeroPolone;Lägg till ignorera ZeroPolone
-Add friend Leo LaRocca;Lägg till vän Leo LaRocca
-Add ignore J a c k e l;Lägg till ignorera J a c k e l
-Add friend YurBoiFrost;Lägg till vän YurBoiFrost
-Add friend Ostehbos;Lägg till vän Ostehbos
-Add ignore Kat Kill U;Lägg till ignorera Kat Kill U
-Add friend Kat Kill U;Lägg till vän Kat Kill U
-Add ignore nerdnd;Lägg till ignorera nerdnd
-Add friend ToughShitMF;Lägg till vän ToughShitMF
-Add friend ZeroPolone;Lägg till vän ZeroPolone
-Add friend sky roarrent;Lägg till vän sky roarrent
-Add friend Sibyllistes;Lägg till vän Sibyllistes
-Add friend Goth Girl XO;Lägg till vän Goth Girl XO
-Add ignore Ostehbos;Lägg till ignorera Ostehbos
-Add ignore Zul n Dro;Lägg till ignorera Zul n Dro
-Add ignore YurBoiFrost;Lägg till ignorera YurBoiFrost
-Add ignore R O S I T A;Lägg till ignorera R O S I T A
-Add ignore TBAGMASTER66;Lägg till ignorera TBAGMASTER66
-Add friend nerdnd;Lägg till vän nerdnd
-Add friend Iron Typhil;Lägg till vän Iron Typhil
-Add ignore Iron Typhil;Lägg till ignorera Iron Typhil
-Add ignore sky roarrent;Lägg till ignore sky roarrent
-Add friend Lumberg;Lägg till vän Lumberg
-Add ignore SekiroTank;Lägg till ignorera SekiroTank
-Add ignore S00prman;Lägg till ignorera S00prman
-Add friend R O S I T A;Lägg till vän R O S I T A
-Add friend TBAGMASTER66;Lägg till vän TBAGMASTER66
-Add ignore Leo LaRocca;Lägg till ignorera Leo LaRocca
-Add friend Yunglitho;Lägg till vän Yunglitho
-Add friend S00prman;Lägg till vän S00prman
-Add ignore ToughShitMF;Lägg till ignorera ToughShitMF
-Add friend KisaMiaow;Lägg till vän KisaMiaow
-Add friend Pontiff1;Lägg till vän Pontiff1
-Add friend Perry2fly;Lägg till vän Perry2fly
-Add ignore ValconNE;Lägg till ignorera ValconNE
-Add friend The Fe Boi;Lägg till vän The Fe Boi
-Add friend Uncle Rustus;Lägg till en vän Farbror Rustus
-Add ignore WarheartRahl;Lägg till ignorera WarheartRahl
-Add ignore Uncle Rustus;Lägg till ignorera farbror Rustus
-Add ignore V B Stubby;Lägg till ignorera V B Stubb
 Leave <col=ff8040>Barbarian Assault</col> channel;Lämna <col=ff8040>Barbarian Assault</col>-kanalen
-Add ignore uwu sad;Lägg till ignorera uwu sad
-Add friend thyhighone;Lägg till vän thyhighone
-Add ignore The Fe Boi;Lägg till ignorera The Fe Boi
-Add ignore weedy;Lägg till ignorera weedy
 Switch <col=ff8040>306</col>;Switch <col=ff8040>306</col>
-Add ignore Turk Grimsby;Lägg till ignorera Turk Grimsby
 Join <col=ff8040>Barbarian Assault</col> channel;Gå med i kanalen <col=ff8040>Barbarian Assault</col>
-Add friend Turk Grimsby;Lägg till vän Turk Grimsby
-Add friend WarheartRahl;Lägg till vän WarheartRahl
-Add friend V B Stubby;Lägg till vän V B Stubb
-Add friend uwu sad;Lägg till vän uwu sad
-Add ignore thyhighone;Lägg till ignorera thyhighone
 Teleport to <col=ff8040>Barbarian Assault</col>;Teleportera till <col=ff8040>Barbaranfall</col>
-Add friend ValconNE;Lägg till vän ValconNE
-Add friend weedy;Lägg till en vän weedy
 Take-Tofu;Take-Tofu
 Stock-Up;Stock-Up
 Take-Crackers;Take-Crackers
 Take-Worms;Ta-maskar
-Add friend YarpiYarpi;Lägg till vän YarpiYarpi
-Add ignore Vamp Wook;Lägg till ignore Vamp Wook
-Add friend Vamp Wook;Lägg till vän Vamp Wook
-Add ignore Zomaeris X;Lägg till ignorera Zomaeris X
-Add friend Zomaeris X;Lägg till vän Zomaeris X
-Add friend Zenoo;Lägg till vän Zenoo
-Add ignore YarpiYarpi;Lägg till ignorera YarpiYarpi
-Add ignore Zenoo;Lägg till ignorera Zenoo
-Add friend wookiearmpit;Lägg till vän wookiearmpit
-Add ignore WarluciaIM;Lägg till ignorera WarluciaIM
 Reset-wave;Återställ-våg
-Add ignore ThatVietCong;Lägg till ignorera ThatVietCong
-Add friend ThatVietCong;Lägg till vän ThatVietCong
-Add ignore wookiearmpit;Lägg till ignorera wookiearmpit
-Add friend WarluciaIM;Lägg till vän WarluciaIM
 Write-Role;Skriv-roll
-Add ignore PearlLight21;Lägg till ignorera PearlLight21
-Add friend swar0vski;Lägg till vän swar0vski
 Teleport to <col=ff8040>Soul Wars</col>;Teleportera till <col=ff8040>Soul Wars</col>
-Add friend shayboshark;Lägg till vän shayboshark
-Add friend treterr;Lägg till vän treterr
-Add friend SwitchHeel;Lägg till vän SwitchHeel
-Add ignore treterr;Lägg till ignore treterr
 Leave <col=ff8040>Tombs of Amascut</col> channel;Lämna <col=ff8040>Tombs of Amascut</col>-kanalen
-Add friend Seward Park;Lägg till vän Seward Park
-Add ignore toxicsnopipe;Lägg till ignore toxicsnopipe
-Add ignore Willem Engel;Lägg till ignorera Willem Engel
-Add ignore so258;Lägg till ignorera so258
-Add friend SarpanchJr;Lägg till vän SarpanchJr
-Add ignore xMysiq;Lägg till ignorera xMysiq
-Add friend PearlLight21;Lägg till vän PearlLight21
 Switch <col=ff8040>320</col>;Byt <col=ff8040>320</col>
-Add friend so258;Lägg till vän so258
 Teleport to <col=ff8040>Tombs of Amascut</col>;Teleportera till <col=ff8040>Amascuts gravar</col>
-Add friend verba gladii;Lägg till vän verba gladii
 Join <col=ff8040>Soul Wars</col> channel;Gå med i kanalen <col=ff8040>Soul Wars</col>
-Add ignore TasteSeeker;Lägg till ignorera TasteSeeker
-Add friend Mr Fou;Lägg till vän Mr Fou
-Add ignore swar0vski;Lägg till ignorera swar0vski
-Add ignore SwitchHeel;Lägg till ignorera SwitchHeel
-Add ignore sinsavage3;Lägg till ignore sinsavage3
-Add friend TheBadWo1f;Lägg till vän TheBadWo1f
-Add friend Willem Engel;Lägg till vän Willem Engel
-Add ignore WhiiiteRaven;Lägg till ignorera WhiiiteRaven
 Leave <col=ff8040>Soul Wars</col> channel;Lämna <col=ff8040>Soul Wars</col>-kanalen
-Add ignore Seward Park;Lägg till ignorera Seward Park
 Switch <col=ff8040>338</col>;Switch <col=ff8040>338</col>
-Add ignore shayboshark;Lägg till ignorera shayboshark
-Add friend xMysiq;Lägg till vän xMysiq
-Add ignore TheBadWo1f;Lägg till ignorera TheBadWo1f
 Teleport to <col=ff8040>God Wars</col>;Teleportera till <col=ff8040>God Wars</col>
-Add friend WhiiiteRaven;Lägg till vän WhiiiteRaven
-Add ignore SarpanchJr;Lägg till ignorera SarpanchJr
-Add friend sinsavage3;Lägg till vän sinsavage3
-Add ignore RoughNRaw;Lägg till ignorera RoughNRaw
-Add ignore Tyrolls;Lägg till ignorera tyroller
-Add friend Sun Kannon;Lägg till vän Sun Kannon
-Add friend bballfrk11;Lägg till vän bballfrk11
-Add ignore Jojofatdong;Lägg till ignorera Jojofatdong
-Add friend Jojofatdong;Lägg till vän Jojofatdong
-Add ignore verba gladii;Lägg till ignorera verba gladii
-Add ignore Im Tweedd;Lägg till ignorera Im Tweedd
 Leave <col=ff8040>God Wars</col> channel;Lämna <col=ff8040>God Wars</col>-kanalen
-Add friend RoughNRaw;Lägg till vän RoughNRaw
 Join <col=ff8040>Tombs of Amascut</col> channel;Gå med i kanalen <col=ff8040>Tombs of Amascut</col>
-Add ignore Sun Kannon;Lägg till ignorera Sun Kannon
-Add friend TasteSeeker;Lägg till vän TasteSeeker
 Join <col=ff8040>God Wars</col> channel;Gå med i kanalen <col=ff8040>God Wars</col>
-Add friend Tyrolls;Lägg till vän Tyrols
-Add ignore Mr Fou;Lägg till ignorera Mr Fou
-Add friend Im Tweedd;Lägg till vän Im Tweedd
-Add ignore bballfrk11;Lägg till ignorera bballfrk11
-Add friend toxicsnopipe;Lägg till vän toxicsnopipe
-Add friend Ziconic222;Lägg till vän Ziconic222
-Add friend waudakwoody;Lägg till vän waudakwoody
-Add ignore RockApe101;Lägg till ignorera RockApe101
 Teleport to <col=ff8040>Shooting Stars</col>;Teleportera till <col=ff8040>Shooting Stars</col>
-Add ignore Wildy Powian;Lägg till ignorera Wildy Powian
-Add friend Zunestro;Lägg till vän Zunestro
-Add friend pull an pray;Lägg till vän dra en be
-Add ignore Bxrly;Lägg till ignorera Bxrly
-Add ignore zChap;Lägg till ignorera zChap
-Add friend Salvinate262;Lägg till vän Salvinate262
 Leave <col=ff8040>Shooting Stars</col> channel;Lämna <col=ff8040>Shooting Stars</col>-kanalen
-Add friend youngMendo;Lägg till vän youngMendo
-Add ignore youngMendo;Lägg till ignorera youngMendo
-Add ignore WiseOldDuke;Lägg till ignorera WiseOldDuke
 Join <col=ff8040>Volcanic Mine</col> channel;Gå med i kanalen <col=ff8040>Vulcanic Mine</col>
-Add friend Wildy Powian;Lägg till vän Wildy Powian
-Add friend Bxrly;Lägg till vän Bxrly
-Add friend Wyvnex;Lägg till vän Wyvnex
-Add friend xNeoPure;Lägg till vän xNeoPure
-Add friend zChap;Lägg till vän zChap
-Add friend WiseOldDuke;Lägg till vän WiseOldDuke
-Add ignore Wyvnex;Lägg till ignorera Wyvnex
-Add ignore Ziconic222;Lägg till ignorera Ziconic222
-Add ignore Yeahnope;Lägg till ignorera Yeahnope
 Join <col=ff8040>Shooting Stars</col> channel;Gå med i kanalen <col=ff8040>Shooting Stars</col>
-Add friend Yeahnope;Lägg till vän Yeahnope
-Add ignore Wheresblanky;Lägg till ignorera Wheresblanky
-Add friend Wheresblanky;Lägg till vän Wheresblanky
-Add ignore Zunestro;Lägg till ignorera Zunestro
-Add ignore Salvinate262;Lägg till ignorera Salvinate262
-Add ignore xNeoPure;Lägg till ignore xNeoPure
-Add ignore waudakwoody;Lägg till ignorera waudakwoody
 Switch <col=ff8040>323</col>;Switch <col=ff8040>323</col>
-Add friend RockApe101;Lägg till vän RockApe101
-Add ignore pull an pray;Lägg till ignorera dra en be
 Teleport to <col=ff8040>Volcanic Mine</col>;Teleportera till <col=ff8040>Vulcanic Mine</col>
 Resources;Resurser
 Leave <col=ff8040>Volcanic Mine</col> channel;Lämna <col=ff8040>Vulcanic Mine</col>-kanalen
 Coletar no banco;Coletar ingen banco
 View Hunter on the Wiki;Se Hunter på Wiki
 Karamja Shipyard;Karamja varv
-Deposit-30000;Deposition-30000
-Withdraw-30000;Uttag-30000
-Withdraw-220000;Uttag-220000
-Deposit-220000;Deposition-220000
 Teleport to <col=ff8040>Shades of Mort'ton</col>;Teleportera till <col=ff8040>Shades of Mort'ton</col>
 Join <col=ff8040>Shades of Mort'ton</col> channel;Gå med i kanalen <col=ff8040>Shades of Mort'ton</col>
 Switch <col=ff8040>377</col>;Switch <col=ff8040>377</col>
@@ -3508,22 +2632,14 @@ Comprar-1;Comprar-1
 Saída;Saída
 Open Livestream;Öppna Livestream
 Aya;Aja
-Deposit-3500;Deposition-3500
-Withdraw-3500;Uttag-3500
 Comprar-5;Comprar-5
 Cambio de imagen;Cambio de imagen
-Buy: 10,000 x Stew;Köp: 10 000 x Gryta
-Sell: 2 x Nature rune;Sälj: 2 x Naturruna
 Sync your collection log with Temple;Synkronisera din samlingslogg med Temple
-Sell: 1 x Logs;Sälj: 1 x stockar
-Sell: 1 x Bear fur;Sälj: 1 x Björnpäls
 Stairs to Dig Site exhibit;Trappor till Dig Site utställning
 Stairs to Natural History exhibit;Trappor till naturhistorisk utställning
 Chute;Ränna
 Charter-to Port Khazard;Charter till Port Khazard
 Excluir;Exclair
-Buy: 1 x White bead;Köp: 1 x Vit pärla
-Buy: 1 x Bucket of milk;Köp: 1 x hink mjölk
 Teleport to <col=ff8040>Guardians of the Rift</col>;Teleportera till <col=ff8040>Guardians of the Rift</col>
 Join <col=ff8040>Guardians of the Rift</col> channel;Gå med i kanalen <col=ff8040>Guardians of the Rift</col>
 Ghostly Grasp;Spöklikt grepp
@@ -3537,9 +2653,6 @@ View <col=ff9040>Farming</col> guide;Se guiden <col=ff9040>Löndbruk</col>
 Teleport to <col=ff8040>Tithe Farm</col>;Teleportera till <col=ff8040>Tithe Farm</col>
 Join <col=ff8040>Tithe Farm</col> channel;Gå med i kanalen <col=ff8040>Tithe Farm</col>
 Change icon (corp);Ändra ikon (företag)
-Withdraw-12000000;Uttag-12000000
-Withdraw-1116;Uttag-1116
-Deposit-1116;Deposition-1116
 Change icon (melee);Ändra ikon (närstrid)
 Release all placeholders (18);Släpp alla platshållare (18)
 Change icon (ranger);Ändra ikon (ranger)
@@ -3547,131 +2660,22 @@ Change icon (mage);Ändra ikon (mage)
 Comprar tudo;Comprar tudo
 Compre-X;Compre-X
 Poções;Poções
-Deposit-400;Deposition-400
-Withdraw-400;Uttag-400
 Vault;Valv
-Deposit-2000000;Deposition-2000000
-Withdraw-2000000;Uttag-2000000
 Select <col=ff891f>Grid master tabard (g);Välj <col=ff891f>Grid master tabard (g)
 Select <col=ff891f>Swords and emblem (b);Välj <col=ff891f>Svärd och emblem (b)
 Select <col=ff891f>Grid master tabard (b);Välj <col=ff891f>Grid master tabard (b)
-Buy: 2 x Cheese;Köp: 2 x ost
-Buy: 1 x Bronze bar;Köp: 1 x bronsstång
-Buy: 2 x Teleport to house;Köp: 2 x Teleportera till huset
-Buy: 2 x Falador teleport;Köp: 2 x Falador teleport
-Withdraw-90;Uttag-90
-Deposit-90;Deposition-90
-Buy: 30 x Bones;Köp: 30 x Bones
-Sell: 180 x Arrow shaft;Sälj: 180 x Pilskaft
 He/him;Han/honom
 Comprar;Comprar
 Charter-to Musa Point;Charter till Musa Point
-Buy: 6 x Chocolate cake;Köp: 6 x Chokladkaka
 Leave <col=ff8040>Shades of Mort'ton</col> channel;Lämna <col=ff8040>Shades of Mort'ton</col>-kanalen
-Add ignore GRANDPAROWEN;Lägg till ignorera GRANDPAROWEN
-Add friend vapkez;Lägg till vän vapkez
-Add friend GRANDPAROWEN;Lägg till vän GRANDPAROWEN
-Add friend Marko Slice;Lägg till vän Marko Slice
-Add ignore Meowser121;Lägg till ignorera Meowser121
-Add ignore Zobozo1;Lägg till ignorera Zobozo1
-Add friend Soliidary;Lägg till vän Soliidary
-Add ignore KONQUERX;Lägg till ignorera KONQUERX
-Add ignore Marko Slice;Lägg till ignorera Marko Slice
-Add ignore Sloppy McNut;Lägg till ignorera Sloppy McNut
-Add friend Omegasquadga;Lägg till vän Omegasquadga
-Add friend Sloppy McNut;Lägg till vän Sloppy McNut
-Add friend Zobozo1;Lägg till vän Zobozo1
-Add friend Meowser121;Lägg till vän Meowser121
-Add ignore Omegasquadga;Lägg till ignorera Omegasquadga
-Add ignore vapkez;Lägg till ignore vapkez
-Add ignore Soliidary;Lägg till ignorera Soliidary
-Add friend KONQUERX;Lägg till vän KONQUERX
-Buy: 1 x Black 2h sword;Köp: 1 x svart 2h svärd
-Buy: 2,100 x Chaos rune;Köp: 2 100 x Kaosruna
 Pick-spine;Pick-ryggrad
 Jump-Across;Hoppa över
 Quick-board;Quick-board
-Withdraw-1100;Uttag-1100
-Deposit-1100;Deposition-1100
-Default quantity: 1,100;Standardantal: 1 100
-Withdraw-11000;Uttag-11000
-Deposit-11000;Deposition-11000
 Challenge-mode;Utmaningsläge
-Default quantity: 6;Standard kvantitet: 6
-Add ignore xBroellers;Lägg till ignorera xBroellers
-Add ignore VenturedOut;Lägg till ignorera VenturedOut
-Add ignore POX IV;Lägg till ignore POX IV
-Add ignore RN Kiwi;Lägg till ignorera RN Kiwi
-Add friend S a b a10;Lägg till vän S a b a10
-Add ignore LostTooMany;Lägg till ignorera LostTooMany
-Add ignore Thermidex;Lägg till ignorera Thermidex
-Add friend ZellaDey;Lägg till vän ZellaDey
-Add friend Owlbeaker;Lägg till vän Owlbeaker
-Add friend TheCount423;Lägg till vän TheCount423
-Add friend Tuwah as;Lägg till vän Tuwah as
-Add friend xbongesx;Lägg till vän xbongesx
-Add friend Tm1453;Lägg till vän Tm1453
-Add ignore S a b a10;Lägg till ignorera S a b a10
-Add ignore TheCount423;Lägg till ignorera TheCount423
-Add ignore Pro Flex;Lägg till ignore Pro Flex
-Add ignore slayinfaerie;Lägg till ignore slayinfaerie
-Add friend RN Kiwi;Lägg till vän RN Kiwi
-Add friend Vedranimall;Lägg till vän Vedranimall
-Add friend Urukhairintj;Lägg till vän Urukhairintj
-Add friend qazedc10;Lägg till vän qazedc10
-Add friend vt_8o8;Lägg till vän vt_8o8
-Add friend Monstyyy;Lägg till vän Monstyyy
-Add ignore ZellaDey;Lägg till ignorera ZellaDey
-Add ignore Yrrabo;Lägg till ignorera Yrrabo
-Add friend LostTooMany;Lägg till vän LostTooMany
-Add ignore Ued Ghost;Lägg till ignorera Ued Ghost
-Add friend Stokesberger;Lägg till vän Stokesberger
-Add ignore Owlbeaker;Lägg till ignorera Owlbeaker
-Add friend valerielilw;Lägg till en vän valerielilw
-Add ignore qazedc10;Lägg till ignorera qazedc10
-Add ignore Prolly so;Lägg till ignorera Prolly så
-Add ignore Magolllon;Lägg till ignorera Magolllon
-Add ignore Monstyyy;Lägg till ignorera Monstyyy
-Add friend POX IV;Lägg till vän POX IV
-Add friend Slangbellan;Lägg till vän Slangbellan
-Add ignore xbongesx;Lägg till ignorera xbongesx
-Add ignore Vedranimall;Lägg till ignorera Vedranimall
-Add friend TheoChapman;Lägg till vän TheoChapman
-Add ignore valerielilw;Lägg till ignorera valerielilw
-Add friend xBroellers;Lägg till vän xBroellers
-Add ignore Stokesberger;Lägg till ignorera Stokesberger
-Add ignore vt_8o8;Lägg till ignore vt_8o8
-Add friend Yrrabo;Lägg till vän Yrrabo
-Add friend Ued Ghost;Lägg till vän Ued Ghost
-Add friend Thermidex;Lägg till vän Thermidex
-Add friend Pikig;Lägg till vän Pikig
-Add ignore Tuwah as;Lägg till ignorera Tuwah as
-Add friend slayinfaerie;Lägg till vän slayinfaerie
-Add friend Prolly so;Lägg till vän Prolly så
-Add friend Magolllon;Lägg till vän Magolllon
-Add ignore TheoChapman;Lägg till ignorera TheoChapman
-Add ignore Urukhairintj;Lägg till ignorera Urukhairintj
-Add friend Pro Flex;Lägg till vän Pro Flex
-Add ignore Pikig;Lägg till ignorera Pikig
-Add ignore Slangbellan;Lägg till ignorera Slangbellan
-Add friend VenturedOut;Lägg till vän VenturedOut
-Add ignore Tm1453;Lägg till ignorera Tm1453
 Change icon (mission's);Ändra ikon (uppdrag)
-Add ignore pharmon;Lägg till ignore pharmon
-Add friend pharmon;Lägg till vän pharmon
-Add ignore Sup3rluminal;Lägg till ignorera Sup3rluminal
-Add ignore MercyGate;Lägg till ignorera MercyGate
-Add friend Sup3rluminal;Lägg till vän Sup3rluminal
-Add friend MercyGate;Lägg till vän MercyGate
 Make <col=ff9040>Ruby bracelet</col>;Gör <col=ff9040>Rubyarmband</col>
-Deposit-7000;Deposition-7000
-Withdraw-60000;Uttag-60000
-Withdraw-7000;Uttag-7000
-Withdraw-12000;Uttag-12000
-Deposit-12000;Deposition-12000
 More Info;Mer info
 Look-up;Slå upp
-Buy: 1 x Pot;Köp: 1 x Kruka
 Load last duel's settings;Ladda senaste duellens inställningar
 Load preset settings;Ladda förinställda inställningar
 Save settings;Spara inställningar
@@ -3681,40 +2685,25 @@ CKS;CKS
 AJP;AJP
 DKP;DKP
 Select <col=ff9040>Wizard blizzard;Välj <col=ff9040>Wizard blizzard
-Deposit-12000000;Deposition-12000000
-Default quantity: 7,000;Standardantal: 7 000
 Pay (east);Betala (öst)
 Pay (west);Betala (väst)
 Remove-Bone;Ta bort-ben
 Remove-Pot;Ta bort-Kanna
 Group name;Gruppnamn
 Create Group;Skapa grupp
-Buy: 9 x Bucket;Köp: 9 x hink
-Withdraw-1200;Uttag-1200
-Deposit-1200;Deposition-1200
 Teleport to <col=ff8040>Fishing Trawler</col>;Teleportera till <col=ff8040>fisketrålare</col>
 Join <col=ff8040>Fishing Trawler</col> channel;Gå med i kanalen <col=ff8040>Fishing Trawler</col>
-Buy: 4 x Red dye;Köp: 4 x Röd färg
 Screenshot;Skärmdump
-Buy: 100 x Logs;Köp: 100 x stockar
 +15%;+15 %
-Buy: 5,000 x Pure essence;Köp: 5 000 x Ren essens
 Attempt Translation;Försök översättning
 +40%;+40 %
 -40%;-40 %
-Buy: 1 x Secateurs;Köp: 1 x sekatör
-Withdraw-14000000;Uttag-14000000
-Deposit-14000000;Deposition-14000000
 Abort;Abortera
 Steer left;Styr åt vänster
 Steer right;Styr åt höger
 Increase throttle;Öka gasen
 Decrease throttle;Minska gasen
 -15%;-15 %
-Default quantity: 1,000,000;Standardkvantitet: 1 000 000
-Default quantity: 12,000,000;Standardkvantitet: 12 000 000
-Buy: 20 x Ranarr potion (unf);Köp: 20 x Ranarr-dryck (unf)
-Sell: 1 x Uncut jade;Sälj: 1 x oslipad jade
 DIR;DIR
 BLP;BLP
 Travel to<col=ff9040> Wilderness Pond;Res till<col=ff9040> ​​Wilderness Pond
@@ -3722,7 +2711,6 @@ Restore;Återställa
 Swap-options;Bytesalternativ
 Set Hotkey (Q);Ställ in snabbtangent (Q)
 Set Hotkey (P);Ställ in snabbtangent (P)
-Buy: 1 x Strength potion(4);Köp: 1 x Styrkedryck(4)
 Cyrisus;Cyrisus
 Captain Ginea;Kapten Ginea
 Krystilia;Krystilia
@@ -3731,20 +2719,7 @@ Konar;Konar
 Kuradal;Kuradal
 Barbarian Guard;Barbargardet
 Lanthus;Lanthus
-Buy: 700 x Chocolate dust;Köp: 700 x Chokladdamm
-Buy: 600 x Ranarr potion (unf);Köp: 600 x Ranarr potion (unf)
-Sell: 600 x Prayer potion(3);Sälj: 600 x Böndryck(3)
-Buy: 1 x Limpwurt root;Köp: 1 x Limpwurtrot
-Sell: 1 x Super strength(3);Sälj: 1 x Superstyrka(3)
-Buy: 600 x Limpwurt root;Köp: 600 x Limpwurtrot
-Sell: 600 x Super strength(3);Sälj: 600 x Superstyrka(3)
-Buy: 1 x Bandos rune armour set (lg);Köp: 1 x Bandos runpansarset (lg)
-Buy: 200 x Kwuarm potion (unf);Köp: 200 x Kwuarm potion (unf)
-Buy: 200 x Limpwurt root;Köp: 200 x Limpwurtrot
 Add to;Lägg till
-Buy: 1 x Unfired bowl;Köp: 1 x Obränd skål
-Default quantity: 800;Standardantal: 800
-Sell: 1 x Ensouled troll head;Sälj: 1 x Ensouled trollhuvud
 Remover espaços reservados;Remover espaços reservados
 Contagem de cheques;Contagem de checks
 Escolha;Escolha
@@ -3862,7 +2837,6 @@ Venda 50<col=ff9040>;Venda 50<col=ff9040>
 Reparar;Reparar
 Chupar;Chupar
 Glider-to Lemanto Andra;Segelflygplan till Lemanto Andra
-Buy: 1 x Uncut diamond;Köp: 1 x oslipad diamant
 Rastreamento;Rastreamento
 Características;Egenskaper
 Miscelânea;Miscelânea
@@ -3917,15 +2891,12 @@ Gráfico;Grafico
 Roubar de;Roubar de
 Porto Piscarilius;Porto Piscarilius
 Fazer;Fazer
-Buy: 2 x Xerician fabric;Köp: 2 x Xerician tyg
 Release all placeholders (39);Släpp alla platshållare (39)
 Investigar;Utredare
 Planador;Planador
 Junte-se às Guerras do Castelo;Junte-se às Guerras do Castelo
-Withdraw-875;Uttag-875
 Estatísticas;Estatísticas
 Remexer;Remexer
-Deposit-875;Deposition-875
 Release all placeholders (30);Släpp alla platshållare (30)
 Loja;Loja
 Operar;Operatör
@@ -3944,8 +2915,6 @@ Leite;Leite
 Descarregar;Ladda ner
 Machado;Machado
 Roubar sino;Roubar sino
-Deposit-5555;Deposition-5555
-Withdraw-5555;Uttag-5555
 Taxa de cheque;Taxa de check
 Fogo;Fogo
 Carregar X;Carregar X
@@ -3960,11 +2929,9 @@ Entrem;Entrem
 Gazua;Gazua
 Remover carvão;Remover carvão
 Change icon (coletas);Ändra ikon (coletas)
-Buy: 150 x Mithril arrowtips;Köp: 150 x Mithril pilspetsar
 Ressaca;Ressaca
 Passar;Passar
 Pular;Pular
-Buy: 1 x Gold bar;Köp: 1 x guldtacka
 Localizar;Localizar
 Verifique as etapas;Verifique as etapas
 Sentir;Sentir
@@ -3974,12 +2941,8 @@ Cliente em potencial;Kunder med potential
 Pule para;Pule para
 Cisalhamento;Cisalhamento
 Watchtower;Vakttorn
-Withdraw-855000;Uttag-855000
 Laço;Laço
 Esmagar;Esmagar
-Deposit-855000;Deposition-855000
-Buy: 70 x Dragon longsword;Köp: 70 x Dragon longsword
-Default quantity: 855,000;Standardantal: 855 000
 Reivindicações de registro de recompensas;Reivindicações de registro de recompensas
 Obter registro;Obter registro
 Retirada;Retirada
@@ -3988,9 +2951,6 @@ Pule Através;Pule Através
 Plantar;Plantar
 Pegue o tesouro;Pegue eller tesouro
 Atravessar;Atravessar
-Default quantity: 80,000;Standardantal: 80 000
-Withdraw-80000;Uttag-80000
-Deposit-80000;Deposition-80000
 Iban Blast;Iban Blast
 Escavar;Escavar
 Corte de cabelo;Corte de cabelo
@@ -4051,8 +3011,6 @@ Pagar (canteiro de árvore);Pagar (canteiro de árvore)
 Combustível;Combustível
 Picareta;Picareta
 Último destino;Último destino
-Deposit-255555;Insättning-255555
-Withdraw-255555;Uttag-255555
 Fill-in;Fyll i
 Consult;Rådfråga
 Passo a passo;Passo a passo
@@ -4073,9 +3031,6 @@ Dig-below;Gräv-nedan
 Alternar K/D;Alternar K/D
 Descartar;Descartar
 Nenhum;Nenhum
-Default quantity: 8;Standard kvantitet: 8
-Buy: 1 x Nardah teleport;Köp: 1 x Nardah teleport
-Buy: 380 x Earth battlestaff;Köp: 380 x Earth battlestaff
 Toggle-vials;Toggle-ampuller
 Search-for-traps;Sök efter fällor
 -20%;-20 %
@@ -4084,436 +3039,20 @@ Conjure;Trolla
 Set as Client;Ställ in som klient
 Remove-rat;Ta bort råtta
 Quick-falcon;Snabbfalk
-Buy: 4 x Extended stamina potion(4);Köp: 4 x Extended Stamina Potion(4)
-Default quantity: 1,522;Standardantal: 1 522
-Withdraw-1522;Återkalla-1522
 Check/Uncharge;Kontrollera/avladda
 Set Hotkey (R);Ställ in snabbtangent (R)
 Set Hotkey (S);Ställ in snabbtangent (S)
-Deposit-300000;Deposition-300 000
-Withdraw-300000;Uttag-300 000
 Playback;Uppspelning
 Contact;Kontakta
 Scan;Avsöka
 Castori;Castori
 Prьfen;Prьfen
 Fдllen;Fдllen
-Add friend TheHedgeNite;Lägg till vän TheHedgeNite
-Add friend Yukon772;Lägg till vän Yukon772
-Add ignore X Huka;Lägg till ignorera X Huka
-Add friend wildturkey63;Lägg till vän wildturkey63
-Add ignore unholysadist;Lägg till ignorera unholysadist
-Add friend X Huka;Lägg till vän X Huka
-Add ignore Yukon772;Lägg till ignorera Yukon772
-Add ignore ZooCluesMan;Lägg till ignorera ZooCluesMan
-Add ignore whimsywhale;Lägg till ignorera whimsywhale
-Add friend Temptationss;Lägg till en vän Temptationss
-Add friend thinHairyIM;Lägg till vän thinHairyIM
-Add ignore wildturkey63;Lägg till ignorera wildturkey63
-Add friend ZooCluesMan;Lägg till vän ZooCluesMan
-Add ignore thinHairyIM;Lägg till ignorera thinHairyIM
-Add ignore Tomppazz93;Lägg till ignorera Tomppazz93
-Add friend whimsywhale;Lägg till en vän whimsywhale
-Add ignore ValentHobby;Lägg till ignorera ValentHobby
-Add ignore TheHedgeNite;Lägg till ignorera TheHedgeNite
-Add friend ValentHobby;Lägg till vän ValentHobby
-Add ignore Temptationss;Lägg till ignorera Temptationss
-Add friend unholysadist;Lägg till vän unholysadist
-Add friend Tomppazz93;Lägg till vän Tomppazz93
-Add ignore Rel1ik999;Lägg till ignorera Rel1ik999
-Add ignore Sorry_scrub;Lägg till ignorera Sorry_scrub
-Add ignore Zazzali;Lägg till ignorera Zazzali
-Add ignore LordFalahar;Lägg till ignorera Lord Falahar
-Add ignore Menlo Manny;Lägg till ignorera Menlo Manny
-Add ignore MisWhis4Real;Lägg till ignorera MisWhis4Real
-Add friend PreAres;Lägg till vän PreAres
-Add ignore PlsRngeezus;Lägg till ignorera PlsRngeezus
-Add friend MyFriesBro;Lägg till vän MyFriesBro
-Add friend PrincessCMW;Lägg till vän PrincessCMW
-Add friend Smoker_484;Lägg till vän Smoker_484
-Add ignore RomaRobot;Lägg till ignorera RomaRobot
-Add ignore RentaSoupO;Lägg till ignorera RentaSoupO
-Add friend prutlars47;Lägg till vän prutlars47
-Add friend Plague_Bat;Lägg till vän Plague_Bat
-Add ignore TheNewDos;Lägg till ignorera TheNewDos
-Add friend Rel1ik999;Lägg till vän Rel1ik999
-Add friend TheMurph33;Lägg till vän TheMurph33
-Add ignore Rargh 4 Real;Lägg till ignorera Rargh 4 Real
-Add ignore NsaneVulture;Lägg till ignorera NsaneVulture
-Add ignore MyFriesBro;Lägg till ignorera MyFriesBro
-Add ignore Risin_Up_LDG;Lägg till ignorera Risin_Up_LDG
-Add friend Mangyman13;Lägg till vän Mangyman13
-Add ignore limit 45;Lägg till ignoreringsgräns 45
-Add ignore L0TTl;Lägg till ignorera L0TTl
-Add friend RentaSoupO;Lägg till vän RentaSoupO
-Add friend L0TTl;Lägg till vän L0TTl
-Add friend Tallig3;Lägg till vän Tallig3
-Add ignore Tallig3;Lägg till ignorera Tallig3
-Add ignore ResetHard;Lägg till ignorera ResetHard
-Add friend Ry The Fly;Lägg till vän Ry The Fly
-Add ignore Shade Plus;Lägg till ignorera Shade Plus
-Add friend NoPotsNoPans;Lägg till vän NoPotsNoPans
-Add ignore Saaguu;Lägg till ignorera Saaguu
-Add friend Lady Trinket;Lägg till vän Lady Trinket
-Add friend Zaccdaripper;Lägg till vän Zaccdaripper
-Add ignore Mangyman13;Lägg till ignorera Mangyman13
-Add friend Supahotfye;Lägg till vän Supahotfye
-Add ignore Powngenie420;Lägg till ignorera Powngenie420
-Add friend Zazzali;Lägg till vän Zazzali
-Add friend Paladin Doop;Lägg till vän Paladin Doop
-Add friend Menlo Manny;Lägg till vän Menlo Manny
-Add friend KujooeIM;Lägg till vän KujooeIM
-Add friend SirJzilla;Lägg till vän SirJzilla
-Add ignore PreAres;Lägg till ignorera PreAres
-Add friend ResetHard;Lägg till vän ResetHard
-Add friend LandaHanz;Lägg till vän LandaHanz
-Add friend Risin_Up_LDG;Lägg till vän Risin_Up_LDG
-Add ignore Zaccdaripper;Lägg till ignorera Zaccdaripper
-Add friend Weyate;Lägg till vän Weyate
-Add ignore Ry The Fly;Lägg till ignorera Ry The Fly
-Add friend Rargh 4 Real;Lägg till vän Rargh 4 Real
-Add friend Sorry_scrub;Lägg till vän Sorry_scrub
-Add ignore KujooeIM;Lägg till ignorera KujooeIM
-Add ignore LandaHanz;Lägg till ignorera LandaHanz
-Add ignore PrincessCMW;Lägg till ignorera PrincessCMW
-Add ignore Weyate;Lägg till ignorera Weyate
-Add friend PlsRngeezus;Lägg till vän PlsRngeezus
-Add ignore Supahotfye;Lägg till ignorera Supahotfye
-Add friend Shade Plus;Lägg till vän Shade Plus
-Add friend limit 45;Lägg till vängräns 45
-Add friend MisWhis4Real;Lägg till vän MisWhis4Real
-Add ignore NoPotsNoPans;Lägg till ignorera NoPotsNoPans
-Add ignore TheMurph33;Lägg till ignorera TheMurph33
-Add ignore Lady Trinket;Lägg till ignorera Lady Trinket
-Add friend Powngenie420;Lägg till vän Powngenie420
-Add friend RomaRobot;Lägg till vän RomaRobot
-Add ignore Plague_Bat;Lägg till ignorera Plague_Bat
-Add ignore SirJzilla;Lägg till ignorera SirJzilla
-Add friend TheNewDos;Lägg till vän TheNewDos
-Add friend NsaneVulture;Lägg till vän NsaneVulture
-Add friend LordFalahar;Lägg till vän Lord Falahar
-Add ignore prutlars47;Lägg till ignorera prutlars47
-Add ignore Paladin Doop;Lägg till ignorera Paladin Doop
-Add ignore Smoker_484;Lägg till ignorera Smoker_484
-Add friend Saaguu;Lägg till vän Saaguu
-Add ignore NotN_MyMouth;Lägg till ignorera NotN_MyMouth
-Add friend chxnoodsoup;Lägg till vän chxnoodsoup
-Add ignore BULLY xD;Lägg till ignorera BULLY xD
-Add ignore DabehOfa;Lägg till ignorera DabehOfa
-Add ignore p00pypie;Lägg till ignore p00pypie
-Add ignore BiSpy;Lägg till ignorera BiSpy
-Add friend 3VO4;Lägg till vän 3VO4
-Add ignore Grimgrok26;Lägg till ignorera Grimgrok26
-Add friend p00pypie;Lägg till vän p00pypie
-Add friend EMO POS;Lägg till vän EMO POS
-Add ignore zoublemaul;Lägg till ignorera zoublemaul
-Add ignore Frantoon;Lägg till ignorera Frantoon
-Add ignore Dantelieri;Lägg till ignorera Dantelieri
-Add friend KingBlixky;Lägg till vän KingBlixky
-Add friend Genae;Lägg till vän Genae
-Add ignore Aged Jankem;Lägg till ignorera Åldrig Jankem
-Add friend zoublemaul;Lägg till vän zoublemaul
-Add ignore IMATOBRO123;Lägg till ignorera IMATOBRO123
-Add ignore Fouug;Lägg till ignorera Fouug
-Add friend BakingCo;Lägg till vän BakingCo
-Add ignore Genae;Lägg till ignorera Genae
-Add friend 3WoodLye;Lägg till vän 3WoodLye
-Add friend osrsgflv;Lägg till vän osrsgflv
-Add ignore IvorBromson;Lägg till ignorera IvorBromson
-Add friend BrawnsBoi;Lägg till vän BrawnsBoi
-Add ignore Mage Truffle;Lägg till ignorera Mage Truffle
-Add friend Benchouw2;Lägg till vän Benchouw2
-Add friend DabehOfa;Lägg till vän DabehOfa
-Add ignore Firefuryrose;Lägg till ignorera Firefuryrose
-Add ignore jjiscool1;Lägg till ignorera jjiscool1
-Add friend IMATOBRO123;Lägg till vän IMATOBRO123
-Add friend Fouug;Lägg till vän Fouug
-Add friend Ankou2389;Lägg till vän Ankou2389
-Add ignore LumenGrave;Lägg till ignorera LumenGrave
-Add friend BULLY xD;Lägg till vän BULLY xD
-Add ignore Ankou2389;Lägg till ignorera Ankou2389
-Add ignore rautakotkis;Lägg till ignorera rautakotkis
-Add ignore chxnoodsoup;Lägg till ignorera chxnoodsoup
-Add friend Env IRON;Lägg till vän Env IRON
-Add friend he who dares;Lägg till en vän som vågar
-Add ignore PurejOor;Lägg till ignorera PurejOor
-Add friend IvorBromson;Lägg till vän IvorBromson
-Add ignore 3VO4;Lägg till ignorera 3VO4
-Add friend Aged Jankem;Lägg till vän Ålder Jankem
-Add ignore Env IRON;Lägg till ignorera Env IRON
-Add friend PurejOor;Lägg till vän PurejOor
-Add friend Firefuryrose;Lägg till vän Firefuryrose
-Add friend FlakPanzer95;Lägg till vän FlakPanzer95
-Add ignore 3WoodLye;Lägg till ignorera 3WoodLye
-Add ignore EMO POS;Lägg till ignorera EMO POS
-Add ignore db271;Lägg till ignorera db271
-Add friend db271;Lägg till vän db271
-Add friend NotN_MyMouth;Lägg till vän NotN_MyMouth
-Add ignore KingBlixky;Lägg till ignorera KingBlixky
-Add friend LumenGrave;Lägg till vän LumenGrave
-Add ignore NOBARA03;Lägg till ignorera NOBARA03
-Add friend Dantelieri;Lägg till vän Dantelieri
-Add ignore osrsgflv;Lägg till ignorera osrsgflv
-Add friend Jackm12;Lägg till vän Jackm12
-Add ignore Long Charm;Lägg till ignorera Long Charm
-Add friend jjiscool1;Lägg till vän jjiscool1
-Add friend Long Charm;Lägg till vän Long Charm
-Add friend NOBARA03;Lägg till vän NOBARA03
-Add friend Grimgrok26;Lägg till vän Grimgrok26
-Add ignore Jackm12;Lägg till ignorera Jackm12
-Add friend BiSpy;Lägg till vän BiSpy
-Add friend rautakotkis;Lägg till vän rautakotkis
-Add ignore BakingCo;Lägg till ignorera BakingCo
-Add ignore FlakPanzer95;Lägg till ignorera FlakPanzer95
-Add friend Frantoon;Lägg till vän Frantoon
-Add ignore Benchouw2;Lägg till ignorera Benchouw2
-Add friend Mage Truffle;Lägg till vän Mage Truffle
-Add ignore BrawnsBoi;Lägg till ignorera BrawnsBoi
-Add ignore he who dares;Lägg till ignorera den som vågar
-Add ignore Liddobread;Lägg till ignorera Liddobread
-Add ignore myassishappy;Lägg till ignorera myassishappy
-Add friend J-LO89;Lägg till vän J-LO89
-Add ignore J-LO89;Lägg till ignorera J-LO89
-Add friend JibbaJabbaJo;Lägg till vän JibbaJabbaJo
-Add friend irritablevow;Lägg till vän irritablevow
-Add ignore IronDairyMan;Lägg till ignorera IronDairyMan
-Add friend IronDairyMan;Lägg till vän IronDairyMan
-Add friend PilaNosPes;Lägg till vän PilaNosPes
-Add friend Qataro;Lägg till vän Qataro
-Add friend NormalNaveed;Lägg till vän NormalNaveed
-Add ignore K1ngSlay3rr;Lägg till ignorera K1ngSlay3rr
-Add friend K1ngSlay3rr;Lägg till vän K1ngSlay3rr
-Add friend i finna buss;Lägg till vän i finna buss
-Add friend Liddobread;Lägg till vän Liddobread
-Add friend jattshigh;Lägg till vän jattshigh
-Add friend JaliscoMex;Lägg till vän JaliscoMex
-Add ignore SucubusOfWar;Lägg till ignorera SucubusOfWar
-Add friend naame2forget;Lägg till vän naame2forget
-Add ignore irritablevow;Lägg till ignorera irritabelt löfte
-Add ignore JaliscoMex;Lägg till ignorera JaliscoMex
-Add ignore JibbaJabbaJo;Lägg till ignorera JibbaJabbaJo
-Add friend myassishappy;Lägg till vän myassishappy
-Add ignore jattshigh;Lägg till ignorera jattshigh
-Add friend SucubusOfWar;Lägg till vän SucubusOfWar
-Add ignore Qataro;Lägg till ignorera Qataro
-Add ignore naame2forget;Lägg till ignore naame2forget
-Add ignore PilaNosPes;Lägg till ignorera PilaNosPes
-Add ignore i finna buss;Lägg till ignore i finna buss
-Add ignore NormalNaveed;Lägg till ignorera NormalNaveed
 Dissolver;Upplösare
-Withdraw-22000000;Uttag-22000000
-Add friend whiteclaw96;Lägg till vän whiteclaw96
-Add friend wormnipples;Lägg till kompismasknipplar
-Add ignore wormnipples;Lägg till ignorera masknipplar
-Add ignore whiteclaw96;Lägg till ignorera whiteclaw96
-Add ignore HCIM KITAKER;Lägg till ignorera HCIM KITAKER
-Add friend kkush4life;Lägg till vän kkush4life
-Add ignore Lorik337;Lägg till ignorera Lorik337
-Add ignore Metalmass515;Lägg till ignorera Metalmass515
-Add ignore HulesMcGules;Lägg till ignorera HulesMcGules
-Add ignore Vegitto-Da;Lägg till ignorera Vegitto-Da
-Add friend Tawksic91;Lägg till vän Tawksic91
-Add friend Vegitto-Da;Lägg till vän Vegitto-Da
-Add friend Falco Main;Lägg till vän Falco Main
-Add friend iBeFoxx;Lägg till vän iBeFoxx
-Add ignore Tawksic91;Lägg till ignorera Tawksic91
-Add ignore kkush4life;Lägg till ignorera kkush4life
-Add ignore IndolentHerr;Lägg till ignorera IndolentHerr
-Add friend Lorik337;Lägg till vän Lorik337
-Add friend Fen Beid;Lägg till vän Fen Beid
-Add ignore Falco Main;Lägg till ignorera Falco Main
-Add ignore YepGreg;Lägg till ignorera YepGreg
-Add friend Fearddrkness;Lägg till vän Fearddrkness
-Add friend TwinFlames;Lägg till vän TwinFlames
-Add friend WreckeRalph;Lägg till vän WreckeRalph
-Add ignore SmartRegard;Lägg till ignorera SmartRegard
-Add friend HCIM KITAKER;Lägg till vän HCIM KITAKER
-Add ignore matiainenn;Lägg till ignorera matiainenn
-Add ignore Fehootie;Lägg till ignorera Fehootie
-Add friend SmartRegard;Lägg till vän SmartRegard
-Add friend gennir 124;Lägg till vän gennir 124
-Add friend Ev1LShrek;Lägg till vän Ev1LShrek
 Remove friend Fayyasha;Ta bort vännen Fayyasha
-Add friend Fell Silent;Lägg till vän blev tyst
-Add ignore Fell Silent;Lägg till ignorera Fell Silent
-Add ignore iBeFoxx;Lägg till ignorera iBeFoxx
-Add friend Metalmass515;Lägg till vän Metalmass515
-Add ignore Fearddrkness;Lägg till ignorera Fearddrkness
-Add friend HulesMcGules;Lägg till vän HulesMcGules
-Add ignore TheClawwwg;Lägg till ignorera TheClawwwg
-Add friend Snook10;Lägg till vän Snook10
-Add friend Kurt Nir3;Lägg till vän Kurt Nir3
-Add ignore PhatPhlap;Lägg till ignorera PhatPhlap
-Add ignore goosedrool;Lägg till ignorera gåsdroll
-Add ignore Yewdragon33;Lägg till ignorera Yewdragon33
-Add friend Fayyasha;Lägg till vän Fayyasha
-Add ignore eyeronSkyler;Lägg till ignorera eyeronSkyler
-Add friend Qualena;Lägg till vän Qualena
-Add ignore Jxper;Lägg till ignorera Jxper
-Add ignore Qualena;Lägg till ignorera Qualena
-Add friend Jxper;Lägg till vän Jxper
-Add friend FPwnJr;Lägg till vän FPwnJr
-Add friend Yewdragon33;Lägg till vän Yewdragon33
-Add friend mackatt79;Lägg till vän macatt79
-Add friend F14SH_177;Lägg till vän F14SH_177
-Add friend EL_FASTASMAS;Lägg till vän EL_FASTASMAS
-Add ignore Snook10;Lägg till ignorera Snook10
-Add friend YepGreg;Lägg till vän YepGreg
-Add friend Pregnantkbd;Lägg till vän Pregnantkbd
-Add friend robbdawgg;Lägg till vän robbdawgg
-Add ignore ix zer0 xi;Lägg till ignorera ix zer0 xi
-Add friend F1ND1NGN3M0;Lägg till vän F1ND1NGN3M0
-Add friend IndolentHerr;Lägg till vän IndolentHerr
-Add ignore TSPsychotic;Lägg till ignorera TSPsychotic
-Add ignore Ev1LShrek;Lägg till ignorera Ev1LShrek
-Add ignore robbdawgg;Lägg till ignorera robbdawgg
-Add ignore OSRSrockstar;Lägg till ignorera OSRSrockstar
-Add friend ix zer0 xi;Lägg till vän ix zer0 xi
-Add friend eyeronSkyler;Lägg till vän eyeronSkyler
-Add friend MysticalGato;Lägg till vän MysticalGato
-Add ignore WreckeRalph;Lägg till ignorera WreckeRalph
-Add ignore dua baji;Lägg till ignore dua baji
-Add ignore gennir 124;Lägg till ignorera gennir 124
-Add friend TheClawwwg;Lägg till vän TheClawwwg
-Add friend TSPsychotic;Lägg till vän TSPsychotic
-Add ignore FPwnJr;Lägg till ignorera FPwnJr
-Add ignore EL_FASTASMAS;Lägg till ignorera EL_FASTASMAS
-Add ignore TwinFlames;Lägg till ignorera TwinFlames
-Add friend PhatPhlap;Lägg till vän PhatPhlap
-Add friend goosedrool;Lägg till en vän goosedrool
-Add ignore Pregnantkbd;Lägg till ignorera Pregnantkbd
-Add ignore Fayyasha;Lägg till ignorera Fayyasha
-Add ignore mackatt79;Lägg till ignorera maccatt79
-Add ignore F1ND1NGN3M0;Lägg till ignorera F1ND1NGN3M0
-Add ignore F14SH_177;Lägg till ignorera F14SH_177
-Add friend matiainenn;Lägg till vän matiainenn
-Add friend Fehootie;Lägg till vän Fehootie
-Add friend dua baji;Lägg till vän dua baji
-Add ignore Fen Beid;Lägg till ignorera Fen Beid
-Add ignore MysticalGato;Lägg till ignorera MysticalGato
-Add ignore Kurt Nir3;Lägg till ignorera Kurt Nir3
-Add friend OSRSrockstar;Lägg till vän OSRSrockstar
-Add ignore DeRobertC;Lägg till ignorera DeRobertC
-Add ignore Artemis460;Lägg till ignorera Artemis460
-Add friend Berrenta;Lägg till vän Berrenta
-Add friend CCoLa1;Lägg till vän CCoLa1
-Add friend deathur5;Lägg till vän deathur5
-Add ignore MAusuiy;Lägg till ignorera MAusuiy
-Add friend Creptarnk;Lägg till vän Creptarnk
-Add ignore MobileSafer;Lägg till ignorera MobileSafer
-Add ignore Creptarnk;Lägg till ignorera Creptarnk
-Add friend Drivemind99;Lägg till vän Drivemind99
-Add friend B J O N ES;Lägg till vän B J O N ES
-Add friend Ulmandur;Lägg till vän Ulmandur
 Remove friend Paladin Doop;Ta bort vännen Paladin Doop
-Add friend soh wretched;Lägg till vän soh wretched
-Add ignore Carihawk54;Lägg till ignorera Carihawk54
-Add friend KatanaKatz;Lägg till vän KatanaKatz
-Add ignore basketluvr;Lägg till ignore basketluvr
-Add friend Ch1ldOfGawd;Lägg till vän Ch1ldOfGawd
-Add friend aceminion;Lägg till vän aceminion
-Add ignore NotMePlayin;Lägg till ignorera NotMePlayin
-Add friend Rox R7;Lägg till vän Rox R7
-Add ignore Germergenmuf;Lägg till ignorera Germergenmuf
 Remove friend OSRSrockstar;Ta bort vän OSRSrockstar
-Add friend sdkflhs3;Lägg till vän sdkflhs3
-Add ignore Atlasleeuwx;Lägg till ignorera Atlasleeuwx
-Add friend Atlasleeuwx;Lägg till vän Atlasleeuwx
-Add ignore Abby55551;Lägg till ignorera Abby55551
-Add friend LADY FOOFOO;Lägg till vän LADY FOOFOO
-Add ignore Lady_Ratmore;Lägg till ignorera Lady_Ratmore
-Add friend Drexter17;Lägg till vän Drexter17
-Add ignore B J O N ES;Lägg till ignorera B J O N ES
-Add ignore CodemanSlim;Lägg till ignorera CodemanSlim
-Add friend Aotrosego;Lägg till vän Aotrosego
-Add ignore LADY FOOFOO;Lägg till ignorera LADY FOOFOO
-Add ignore Rox R7;Lägg till ignorera Rox R7
-Add ignore soh wretched;Lägg till ignorera soh wretched
-Add ignore meet tip;Lägg till ignorera mötestips
-Add friend MobileSafer;Lägg till vän MobileSafer
-Add ignore HighGuySly;Lägg till ignorera HighGuySly
-Add ignore Phegalofi;Lägg till ignorera Phegalofi
-Add friend The Scholar;Lägg till vän The Scholar
-Add ignore Riffmage;Lägg till ignorera Riffmage
-Add friend MAusuiy;Lägg till vän MAusuiy
-Add ignore Ironatemunch;Lägg till ignorera Ironatemunch
-Add ignore Sugmite;Lägg till ignorera Sugmite
-Add friend HighGuySly;Lägg till vän HighGuySly
-Add friend RSN_DRiiiP;Lägg till vän RSN_DRiiiP
-Add ignore Dutchizm;Lägg till ignorera Dutchizm
-Add ignore Drivemind99;Lägg till ignorera Drivemind99
-Add friend LilSlippers;Lägg till vän LilSlippers
-Add ignore LilSlippers;Lägg till ignorera LilSlippers
-Add friend basketluvr;Lägg till en vän basketluvr
-Add friend Abby55551;Lägg till vän Abby55551
-Add ignore IronRyriku;Lägg till ignorera IronRyriku
-Add friend CodemanSlim;Lägg till vän CodemanSlim
-Add ignore 7steelsword;Lägg till ignorera 7steelsword
-Add friend Germergenmuf;Lägg till vän Germergenmuf
-Add ignore IM REDHAWK;Lägg till ignorera IM REDHAWK
-Add friend Ironatemunch;Lägg till vän Ironatemunch
-Add friend 7steelsword;Lägg till vän 7steelsword
-Add ignore kinbred;Lägg till ignorera släktingar
-Add ignore Ulmandur;Lägg till ignorera Ulmandur
-Add friend Bombtiger;Lägg till vän Bombtiger
-Add friend prenga6736;Lägg till vän prenga6736
-Add friend Sugmite;Lägg till vän Sugmite
-Add ignore HugeJuggs5;Lägg till ignorera HugeJuggs5
-Add ignore sdkflhs3;Lägg till ignorera sdkflhs3
-Add friend humpndump69;Lägg till vän humpndump69
-Add ignore Berrenta;Lägg till ignorera Berrenta
-Add ignore CCoLa1;Lägg till ignorera CCoLa1
-Add ignore Alt 4 luck;Lägg till ignorera Alt 4 lycka
-Add ignore deathur5;Lägg till ignore deathur5
-Add ignore iw0wi;Lägg till ignorera iw0wi
-Add friend H1LDRYN;Lägg till vän H1LDRYN
-Add friend iw0wi;Lägg till vän iw0wi
-Add friend NotMePlayin;Lägg till vän NotMePlayin
-Add ignore TankedHim;Lägg till ignorera TankedHim
-Add friend IM REDHAWK;Lägg till vän IM REDHAWK
-Add friend Alt 4 luck;Lägg till vän Alt 4 lycka
-Add ignore Sjse;Lägg till ignorera Sjse
-Add ignore Dameblastop;Lägg till ignorera Dameblastop
-Add ignore prenga6736;Lägg till ignorera prenga6736
-Add friend Dutchizm;Lägg till vän Dutchizm
-Add ignore humpndump69;Lägg till ignore humpndump69
-Add friend Dameblastop;Lägg till vän Dameblastop
-Add friend wildly dan;Lägg till vän wildly dan
-Add ignore Ch1ldOfGawd;Lägg till ignorera Ch1ldOfGawd
-Add ignore The Scholar;Lägg till ignorera The Scholar
-Add friend HugeJuggs5;Lägg till vän HugeJuggs5
-Add friend meet tip;Lägg till vänträfftips
-Add ignore BldCardinal8;Lägg till ignorera BldCardinal8
-Add friend Riffmage;Lägg till vän Riffmage
-Add friend Sjse;Lägg till vän Sjse
-Add friend BldCardinal8;Lägg till vän BldCardinal8
-Add friend Calisto0044;Lägg till vän Calisto0044
-Add friend kinbred;Lägg till vän släkt
-Add ignore SnakemanGIM;Lägg till ignorera SnakemanGIM
-Add friend Lady_Ratmore;Lägg till vän Lady_Ratmore
-Add ignore H1LDRYN;Lägg till ignorera H1LDRYN
-Add friend DmnKngCooler;Lägg till vän DmnKngCooler
-Add friend TankedHim;Lägg till vän TankedHim
-Add ignore Aotrosego;Lägg till ignorera Aotrosego
-Add ignore aceminion;Lägg till ignore aceminion
-Add ignore Bombtiger;Lägg till ignorera Bombtiger
-Add friend dannnit;Lägg till vän dannnit
-Add ignore RSN_DRiiiP;Lägg till ignorera RSN_DRiiiP
-Add friend IronRyriku;Lägg till vän IronRyriku
-Add ignore KatanaKatz;Lägg till ignorera KatanaKatz
-Add ignore Calisto0044;Lägg till ignorera Calisto0044
-Add ignore Drexter17;Lägg till ignorera Drexter17
-Add ignore DmnKngCooler;Lägg till ignorera DmnKngCooler
-Add friend SnakemanGIM;Lägg till vän SnakemanGIM
-Add ignore dannnit;Lägg till ignorera dannnit
-Add friend Carihawk54;Lägg till vän Carihawk54
-Add friend Artemis460;Lägg till vän Artemis460
-Add ignore wildly dan;Lägg till ignorera vilt dan
-Add friend DeRobertC;Lägg till vän DeRobertC
-Add friend Phegalofi;Lägg till vän Phegalofi
 Change icon (clue);Ändra ikon (ledtråd)
-Default quantity: 22,000,000;Standardkvantitet: 22 000 000
-Deposit-22000000;Deposition-22000000
 Implantar;Implantar
 Aparar;Aparar
 Desembarcar;Desembarcar
@@ -4533,7 +3072,6 @@ Select <col=ff9040>2500 Tokens/Soul cape</col>;Välj <col=ff9040>2500 Tokens/Sou
 Select <col=ff9040>Spoils of war</col>;Välj <col=ff9040>Krigsbyte</col>
 Código de resgate;Código de resgate
 Itens de férias;Itens de ferias
-Buy: 3 x Trout;Köp: 3 x Öring
 Switch <col=ff8040>334</col>;Switch <col=ff8040>334</col>
 Torre de Vigia;Torre de Vigia
 Vez;Vez
@@ -4544,7 +3082,6 @@ Release all placeholders (16);Släpp alla platshållare (16)
 AKR;AKR
 Switch <col=ff8040>370</col>;Byt <col=ff8040>370</col>
 Leave <col=ff8040>Fishing Trawler</col> channel;Lämna <col=ff8040>Fishing Trawler</col>-kanalen
-Default quantity: 45;Standardantal: 45
 Sacrifício;Sacrifício
 O Pandemônio;O Pandemônio
 Pegue-barco;Pegue-barco
@@ -4644,11 +3181,8 @@ Show more;Visa mer
 Arrombar;Arrombar
 Mudar de Nome;Mudar de Nome
 Retirar-1000;Pensionär-1000
-Sell: 1 x Xerician hat;Sälj: 1 x Xerician hatt
 Orar;Orar
 Oferta;Oferta
-Buy: 3 x Shattered cannon ornament kit;Köp: 3 x krossad kanon prydnadssats
-Buy: 1 x Mystic hat (light);Köp: 1 x Mystic hatt (lätt)
 Change icon (runas);Ändra ikon (runas)
 Change icon (teleport);Ändra ikon (teleportera)
 Change icon (seed);Ändra ikon (frö)
@@ -4664,11 +3198,8 @@ Set Hotkey (Not set);Ställ in snabbtangent (ej inställt)
 Float;Flyta
 Tosquiar;Tosquiar
 Fornalha;Fornalha
-Buy: 1 x Eye of newt;Köp: 1 x Eye of newt
-Buy: 1 x Raw herring;Köp: 1 x Rå sill
 Change icon (rocks);Ändra ikon (stenar)
 Verifique elogios;Verifique elogios
-Default quantity: 150;Standardantal: 150
 Use Suggested Settings;Använd föreslagna inställningar
 Castle Drakan;Slott Drakan
 Ponder;Fundera
@@ -4693,7 +3224,6 @@ Take-supplies;Ta förnödenheter
 Harvest-from;Skörda-från
 Wrangle;Käbbla
 BLS;BLS
-Sell: 5 x Goblin mail;Sälj: 5 x Goblin post
 Interface;Gränssnitt
 Rede;Rede
 Trocar de mundo;Trocar de mundo
@@ -4722,45 +3252,22 @@ Lithkren;Lithkren
 Remover decorações;Remover decorações
 -6%;-6 %
 +6%;+6 %
-Buy: 30 x Saradomin brew(4);Köp: 30 x Saradomin brygg(4)
-Buy: 1 x Amulet of strength;Köp: 1 x Amulet av styrka
 Show less;Visa mindre
 Pull-back;Dra tillbaka
 Give-feathers;Ge-fjädrar
 Trade-teeth;Handel-tänder
 Crystalise-potion;Kristallisera-dryck
-Buy: 2 x Onion;Köp: 2 x Lök
-Sell: 1 x Bandos godsword;Sälj: 1 x Bandos gudsvärd
-Withdraw-2,000;Uttag-2 000
 Configuração;Configuração
 Procure por armadilhas;Skaffa por armadilhas
 Extinguir;Släckare
-Buy: 100 x Bronze arrowtips;Köp: 100 x Brons pilspetsar
-Withdraw-605;Uttag-605
-Default quantity: 605;Standardantal: 605
-Deposit-605;Deposition-605
 Ofertar<col=ff9040>;Ofertar<col=ff9040>
 Change icon (boses);Ändra ikon (boses)
 Sync (Right-click Search);Synkronisera (högerklicka på Sök)
-Buy: 1 x Blighted manta ray;Köp: 1 x Blighted manta ray
-Buy: 1 x Leather body;Köp: 1 x Läderkropp
-Buy: 1 x Climbing boots;Köp: 1 x Klätterstövlar
-Buy: 20 x Dragon thrownaxe;Köp: 20 x Dragon thrownaxe
-Buy: 300 x Amethyst arrow;Köp: 300 x Ametistpil
-Buy: 10 x Dragon knife;Köp: 10 x Dragon knife
-Buy: 1 x Ring of wealth (5);Köp: 1 x Ring of Wealth (5)
-Buy: 1 x Amulet of glory(6);Köp: 1 x Amulet of Glory(6)
-Buy: 1 x Ranging potion(4);Köp: 1 x Ranging potion(4)
-Buy: 1 x Anti-venom(4);Köp: 1 x Anti-venom(4)
-Buy: 100 x Rune knife(p++);Köp: 100 x Runekniv(p++)
-Buy: 1 x Red d'hide chaps;Köp: 1 x Red d'hide chaps
-Buy: 1 x Coif;Köp: 1 x Coif
 Release all placeholders (69);Släpp alla platshållare (69)
 Select <col=ff9040>Blighted vengeance sack</col>;Välj <col=ff9040>Blighted vengeance sack</col>
 Select <col=ff9040>Soul cape</col>;Välj <col=ff9040>Soul cape</col>
 Select <col=ff9040>Blighted karambwan</col>;Välj <col=ff9040>Blighted karambwan</col>
 Select <col=ff9040>Blighted manta ray</col>;Välj <col=ff9040>Blighted manta ray</col>
-Deposit-9000000;Deposition-9000000
 Padrão;Padrão
 Wipe;Torka
 Seek;Söka
@@ -4768,8 +3275,6 @@ Sign up;Anmäl dig
 Max/Med;Max/Med
 Join fight;Gå med i kampen
 Zerker;Zerker
-Deposit-124000;Deposition-124000
-Withdraw-124000;Uttag-124000
 Toggle set effect;Växla inställningseffekt
 <col=ff0000>Delete tag tab;<col=ff0000>Ta bort taggfliken
 CIP;CIP
@@ -4778,19 +3283,11 @@ Store-2,000;Butik-2 000
 Bryophyta;Bryophyta
 Obor;Obor
 Branda and Eldric;Branda och Eldric
-Buy: 50 x Super restore(4);Köp: 50 x Super Restore(4)
-Buy: 100 x Anglerfish;Köp: 100 x Marulk
 Change icon (royal titans);Ändra ikon (royal titans)
-Default quantity: 124,000;Standardantal: 124 000
-Buy: 2,000 x Soul rune;Köp: 2 000 x Soul runa
 Dentro;Dentro
 Carregar;Carregar
 Release all placeholders (42);Släpp alla platshållare (42)
-Sell: 185 x Revenant ether;Sälj: 185 x Revenant eter
 Release all placeholders (36);Släpp alla platshållare (36)
-Sell: 1 x Bandos chestplate;Sälj: 1 x Bandos bröstplatta
-Sell: 1 x Bandos tassets;Sälj: 1 x Bandos-tassets
-Buy: 1 x Pegasian boots;Köp: 1 x Pegasian stövlar
 Bank-All;Bank-Alla
 Destroy-All;Förstör-alla
 Destroy-X;Förstör-X
@@ -4857,37 +3354,25 @@ Release all placeholders (23);Släpp alla platshållare (23)
 Deadman's Chest;Deadman's Chest
 Adamant Arrow;Adamant Arrow
 Dragon Pickaxe Upgrade Kit;Dragon Pickaxe Upgrade Kit
-Sell: 1 x Zaryte vambraces;Sälj: 1 x Zaryte vambraces
-Sell: 1 x Crimson kisten;Sälj: 1 x Crimson kisten
-Buy: 1 x Helm of neitiznot;Köp: 1 x Helm of neitiznot
-Buy: 1 x Super combat potion(4);Köp: 1 x Super combat potion(4)
 Last-destination (DJQ);Last-destination (DJQ)
 Last-destination (AJS);Sista destination (AJS)
 Last-destination (AIR);Sista destination (AIR)
 Pick-pocket;Ficktjuv
-Buy: 100 x Blighted anglerfish;Köp: 100 x Fördärvad marulk
 Heart;Hjärta
 Change icon (pets);Ändra ikon (husdjur)
 Brincar com;Brincar com
-Default quantity: 250;Standardantal: 250
 Reset-time;Återställningstid
 Create-book;Skapa-bok
-Buy: 1 x Beer;Köp: 1 x öl
 Continue-trek;Fortsätt vandringen
 Evade-event;Undvik-händelse
 Return-to-Paterdomus;Återvänd till Paterdomus
 Swing-from;Sväng-från
 Return-to-Burgh;Återvänd till Burgh
-Sell: 1 x Zamorak monk bottom;Sälj: 1 x Zamorak munkbotten
-Buy: 100 x Zamorak monk bottom;Köp: 100 x Zamorak munkbotten
 Poison Waste;Giftavfall
 Definir destino;Definir destino
 Teleporte para o destino;Teleport för destination
 Copy Load-out;Kopiera Ladda ut
 +5;+5
-Deposit-700;Deposition-700
-Withdraw-700;Uttag-700
-Default quantity: 700;Standardantal: 700
 View journal <col=ff981f>Temple of the Eye</col>;Se tidskriften <col=ff981f>Ögattemple</col>
 View journal <col=ff981f>Witch's Potion</col>;Visa journalen <col=ff981f>Witch's Potion</col>
 View journal <col=ff981f>Fishing Contest</col>;Visa journalen <col=ff981f>Fisketävling</col>
@@ -4899,8 +3384,6 @@ Coletar-Item;Coletar-Item
 Coletar-Nota;Coletar-Nota
 Trocar capa de fogo;Trocar capa de fogo
 Release all placeholders (48);Släpp alla platshållare (48)
-Withdraw-24;Uttag-24
-Deposit-24;Insättning-24
 Armadyl Halo;Armadyl Halo
 Select <col=ff9040>10 Tokens/Blighted teleport spell sack</col>;Välj <col=ff9040>10 tokens/Blighted teleport spell sack</col>
 Select <col=ff9040>10 Tokens/Blighted anglerfish</col>;Välj <col=ff9040>10 tokens/fördärvad marulk</col>
@@ -4909,8 +3392,6 @@ Select <col=ff9040>10 Tokens/Blighted ancient ice sack</col>;Välj <col=ff9040>1
 Select <col=ff9040>10 Tokens/Blighted manta ray</col>;Välj <col=ff9040>10 Tokens/Blighted manta ray</col>
 Select <col=ff9040>10 Tokens/Blighted karambwan</col>;Välj <col=ff9040>10 Tokens/Blighted karambwan</col>
 Select <col=ff9040>250 Tokens/Ectoplasmator</col>;Välj <col=ff9040>250 tokens/ektoplasmator</col>
-Default quantity: 24;Standardantal: 24
-Sell: 4 x Amulet of glory;Sälj: 4 x Amulet of Glory
 Toggle Respawn;Växla Respawn
 Toggle Effect;Växla effekt
 Tie-rope;Knytrep
@@ -4922,20 +3403,14 @@ Brassica Halo;Brassica Halo
 Seren Halo;Seren Halo
 Adicionar Todos;Ytterligare Todos
 Adicionar<col=ff9040>;Tillägg<col=ff9040>
-Withdraw-1300;Uttag-1300
-Default quantity: 1,300;Standardantal: 1 300
 Surrender;Överlämna
-Deposit-184512;Deposition-184512
-Withdraw-184512;Återkalla-184512
 Red Rock;Red Rock
-Deposit-1300;Deposition-1300
 Teleport to <col=ff8040>TzHaar Fight Pit</col>;Teleportera till <col=ff8040>TzHaar Fight Pit</col>
 Join <col=ff8040>TzHaar Fight Pit</col> channel;Gå med i kanalen <col=ff8040>TzHaar Fight Pit</col>
 Switch <col=ff8040>362</col>;Byt <col=ff8040>362</col>
 Botﾃｭn;Botﾃｭn
 Take-eggs;Ta-ägg
 Open-stomach;Öppen mage
-Buy: 1 x Iron platelegs;Köp: 1 x järnplattben
 Short fuse;Kort säkring
 Medium fuse;Medium säkring
 Long fuse;Lång säkring
@@ -4959,7 +3434,6 @@ Tell-accurate;Berätta-exakt
 Tell-defensive;Berätta-defensiv
 Tell-aggressive;Säg-aggressiv
 Tell-controlled;Tell-kontrollerad
-Sell: 100 x Dragon arrow(p++);Sälj: 100 x Dragon arrow(p++)
 Fill-X;Fyll-X
 Fill-All;Fyll-Alla
 Eat-from;Ät-från
@@ -4971,89 +3445,33 @@ Tell-crackers;Berättar-knäckare
 Tell-tofu;Berätta-tofu
 Tell-worms;Berätta-maskar
 Fill potions;Fyll trolldrycker
-Buy: 1 x Blood moon tassets;Köp: 1 x Blood moon tassets
-Buy: 1 x Crimson kisten;Köp: 1 x Crimson kisten
-Buy: 1 x Eye of ayak (uncharged);Köp: 1 x Eye of ayak (oladdad)
-Withdraw-840000;Uttag-840000
 Custom quantity: 2,000;Anpassat antal: 2 000
-Buy: 1 x Saradomin brew(4);Köp: 1 x Saradomin brygg(4)
-Deposit-840000;Deposition-840000
 Watson;Watson
 Deposit potions;Sätt in potions
 Smoke Rush;Smoke Rush
 Target Teleport Scroll;Target Teleport Scroll
 Dark Bow Green Paint;Mörk rosett grön färg
 Dark Bow White Paint;Mörk rosett vit färg
-Buy: 1 x Rune platelegs;Köp: 1 x Rune plattben
-Buy: 30 x Blighted super restore(4);Köp: 30 x Blighted superrestore(4)
-Buy: 60 x Blighted vengeance sack;Köp: 60 x Blighted vengeance säck
-Default quantity: 400;Standardantal: 400
-Sell: 4,444 x Revenant ether;Sälj: 4 444 x Revenant eter
-Sell: 1 x Extended anti-venom+(2);Sälj: 1 x Extended anti-venom+(2)
 Release all placeholders (37);Släpp alla platshållare (37)
 Sangvesti;Sangvesti
-Sell: 1 x Adamant arrow;Sälj: 1 x Adamant pil
-Sell: 1 x Adamant full helm;Sälj: 1 x Adamant helroder
 Release all placeholders (41);Släpp alla platshållare (41)
 Release all placeholders (22);Släpp alla platshållare (22)
 Release all placeholders (5);Släpp alla platshållare (5)
 Release all placeholders (3);Släpp alla platshållare (3)
 Release all placeholders (31);Släpp alla platshållare (31)
-Default quantity: 99,000;Standardantal: 99 000
-Deposit-99000;Deposition-99000
-Withdraw-99000;Uttag-99000
 DIQ;DIQ
-Deposit-1600;Deposition-1600
-Withdraw-1600;Uttag-1600
-Withdraw-450;Uttag-450
-Deposit-450;Deposition-450
-Sell: 33 x Bronze full helm;Sälj: 33 x Brons helroder
 Charter-to Sunset Coast;Charter till Sunset Coast
 Bottle-boat;Flask-båt
 Tell-meat;Berätta-kött
-Default quantity: 450;Standardantal: 450
 Release all placeholders (11);Släpp alla platshållare (11)
 Release all placeholders (28);Släpp alla platshållare (28)
-Sell: 107 x Stymphike feather;Sälj: 107 x Stymphike fjäder
-Buy: 1 x Bronze platebody;Köp: 1 x bronsplatta
-Sell: 1 x Bronze kiteshield;Sälj: 1 x draksköld i brons
-Buy: 8 x Tuna;Köp: 8 x tonfisk
-Deposit-744;Deposition-744
-Withdraw-744;Uttag-744
-Default quantity: 744;Standardantal: 744
 Accept challenge;Acceptera utmaningen
 1 Def Pure;1 Def Pure
-Buy: 10 x Willow longbow;Köp: 10 x Willow longbow
-Buy: 10 x Oak longbow;Köp: 10 x Ek långbåge
-Sell: 9 x Banana;Sälj: 9 x banan
-Sell: 162 x Banana;Sälj: 162 x Banan
-Buy: 100 x Willow longbow;Köp: 100 x Willow longbow
-Sell: 10 x Bronze scimitar;Sälj: 10 x brons-scimitar
-Deposit-11;Insättning-11
-Sell: 318 x Cowhide;Sälj: 318 x kohud
-Buy: 200 x Bronze bar;Köp: 200 x Bronsstång
 Select <col=ff9040>Blighted anglerfish</col>;Välj <col=ff9040>Slutad marulk</col>
-Sell: 1 x Torva full helm (damaged);Sälj: 1 x Torva helroder (skadat)
-Buy: 200 x Coal;Köp: 200 x Kol
-Sell: 304 x Steel bar;Sälj: 304 x Stålstång
-Withdraw-136;Uttag-136
-Deposit-99999;Deposition-99999
-Withdraw-99999;Uttag-99999
 Balance-across;Balansera över
-Buy: 250 x Iron ore;Köp: 250 x Järnmalm
-Deposit-136;Insättning-136
-Default quantity: 136;Standardantal: 136
-Sell: 499 x Steel bar;Sälj: 499 x Stålstång
-Buy: 1,200 x Coal;Köp: 1 200 x Kol
 9;9 
 Fill-1;Fyll-1
 Fill-5;Fyll-5
-Buy: 1 x Soft clay;Köp: 1 x Mjuk lera
-Buy: 1 x Redberries;Köp: 1 x Rödbär
-Withdraw-125000000;Uttag-125000000
-Deposit-740000;Deposition-740000
-Withdraw-740000;Uttag-740000
-Default quantity: 740,000;Standardkvantitet: 740 000
 View Magic on the Wiki;Se magi på Wiki
 Donate-X;Donera-X
 Donate-10;Donera-10
@@ -5062,57 +3480,31 @@ Donate;Donera
 Donate-All;Donera-Alla
 Travel-Start;Travel-Start
 Travel-End;Reseslut
-Sell: 12 x Oak shortbow (u);Sälj: 12 x kortbåge i ek (u)
 Trade-Builders-Store;Trade-Builders-Butik
 Trade-General-Store;Handel-General-Butik
-Withdraw-17;Uttag-17
-Buy: 1 x Hueycoatl hide armour set;Köp: 1 x Hueycoatl skinnskyddsset
-Withdraw-5250;Uttag-5250
-Deposit-5250;Deposition-5250
-Default quantity: 5,250;Standardantal: 5 250
 Check rank;Kontrollera rang
 Check Rank;Kontrollera rang
 Set head slot to;Ställ in huvudöppningen på
-Default quantity: 99,999;Standardantal: 99 999
 Set legs slot to;Ställ in benöppningen på
 Set torso slot to;Ställ in bålslits på
 Set amulet slot to;Ställ in amulettplats på
 Set boots slot to;Ställ in boots slot till
 Set hands slot to;Ställ in händerna på
 Set cape slot to;Ställ in kapslitsen på
-Sell: 32 x Air orb;Sälj: 32 x Air orb
-Buy: 400 x Wine of zamorak;Köp: 400 x Vin av zamorak
 Charter-to Aldarin;Charter till Aldarin
 Release all placeholders (10);Släpp alla platshållare (10)
 Last-destination (CLP);Sista destination (CLP)
-Buy: 2,120 x Air rune;Köp: 2 120 x Luftruna
 Examine <col=ff981f>Infinity boots;Undersök <col=ff981f>Infinity boots
 Select <col=ff981f>Infinity boots;Välj <col=ff981f>Infinity boots
-Withdraw-565;Uttag-565
-Deposit-565;Insättning-565
-Withdraw-410;Uttag-410
 Take-cutting;Take-cutting
 Release-all;Släpp alla
-Sell: 204 x Leather;Sälj: 204 x Läder
 Chant;Sång
-Buy: 1 x Eclipse moon armour set;Köp: 1 x Eclipse moon pansarset
-Buy: 1 x Rune full helm;Köp: 1 x Rune helhjälm
-Withdraw-32000;Uttag-32000
-Deposit-32000;Deposition-32000
-Default quantity: 32,000;Standardantal: 32 000
 Pelt;Päls
 Prepare-fish;Förbered-fisk
-Withdraw-36200;Uttag-36200
-Deposit-36200;Deposition-36200
-Withdraw-3200;Uttag-3200
-Deposit-3200;Deposition-3200
 -10%;-10 %
 +10%;+10 %
-Buy: 100 x Prayer potion(4);Köp: 100 x Böndryck(4)
-Buy: 1 x Pot of flour;Köp: 1 x Gryta mjöl
 Smash-ice;Smash-ice
 Step-off;Avsteg
-Buy: 1 x Mage's book;Köp: 1 x Mages bok
 Walk-to;Gå-till
 Press;Trycka
 Dismantle kit;Demonteringssats
@@ -5123,39 +3515,22 @@ Open (private);Öppen (privat)
 Open (normal);Öppen (normal)
 Travel to<col=ff9040> The Clocktower;Res till<col=ff9040> ​​The Clocktower
 Travel to<col=ff9040> Tree Gnome Village;Res till<col=ff9040> ​​Tree Gnome Village
-Buy: 1 x Orange dye;Köp: 1 x Orange färgämne
-Buy: 1 x Goblin mail;Köp: 1 x Goblin post
-Buy: 1 x Twisted trousers (t1);Köp: 1 x vridna byxor (t1)
 Push-against;Push-emot
 Exit-through;Exit-through
 Set shield slot to;Ställ in sköldspåret på
 Set weapon slot to;Ställ in vapenplats på
 Release all placeholders (53);Släpp alla platshållare (53)
-Default quantity: 2,147,483,647;Standardkvantitet: 2 147 483 647
-Deposit-2147483647;Deposition-2147483647
-Withdraw-2147483647;Uttag-2147483647
 Travel to<col=ff9040> Tree Gnome Stronghold;Res till<col=ff9040> ​​Tree Gnome Stronghold
 Travel to<col=ff9040> Chaos Druid Tower;Res till<col=ff9040> ​​Chaos Druid Tower
 Make <col=ff9040>Sapphire bracelet</col>;Gör <col=ff9040>Sapphire armband</col>
 Botín;Botín
-Withdraw-36000;Uttag-36000
-Deposit-36000;Deposition-36000
-Sell: 1 x Necklace of anguish;Sälj: 1 x Halsband av ångest
 AKQ;AKQ
 CJQ;CJQ
 DKS;DKS
-Buy: 1 x Snakeskin boots;Köp: 1 x ormskinnsstövlar
-Buy: 1 x Rune kiteshield;Köp: 1 x Rune kiteshield
 Teleport to <col=ff8040>Last Man Standing</col>;Teleportera till <col=ff8040>Last Man Standing</col>
 Join <col=ff8040>Last Man Standing</col> channel;Gå med i kanalen <col=ff8040>Last Man Standing</col>
 Golden Zamorak Special;Golden Zamorak Special
-Deposit-7680;Deposition-7680
-Withdraw-7680;Uttag-7680
-Default quantity: 7,680;Standardantal: 7 680
 Volcanic Whip Mix;Volcanic Whip Mix
-Sell: 3 x Crystal key;Sälj: 3 x Crystal nyckel
-Buy: 23 x Loop half of key;Köp: 23 x Loop halva nyckeln
-Sell: 33 x Crystal key;Sälj: 33 x Crystal nyckel
 LatamDark;LatamDark
 Expel;Driva ut
 Resignation;Resignation
@@ -5163,8 +3538,6 @@ Wipe title;Torka rubriken
 Emote;Emot
 Sing;Sjunga
 Change icon (armaduras);Ändra ikon (armaduras)
-Sell: 1,090 x Steel cannonball;Sälj: 1 090 x Stålkanonkula
-Buy: 100 x Blighted vengeance sack;Köp: 100 x Blighted vengeance säck
 Select <col=ff981f>Dust rune;Välj <col=ff981f>Dust rune
 Examine <col=ff981f>Dust rune;Undersök <col=ff981f>Dust rune
 Select <col=ff981f>Chaos rune;Välj <col=ff981f>Chaos rune
@@ -5172,13 +3545,8 @@ Examine <col=ff981f>Chaos rune;Undersök <col=ff981f>Kaosruna
 Release all placeholders (8);Släpp alla platshållare (8)
 Join <col=ff8040>Mage Training Arena</col> channel;Gå med i kanalen <col=ff8040>Mage Training Arena</col>
 Teleport to <col=ff8040>Mage Training Arena</col>;Teleportera till <col=ff8040>Mage Training Arena</col>
-Default quantity: 300,000;Standardkvantitet: 300 000
 Wyrmscraig;Wyrmscraig
 Simple;Enkel
-Withdraw-3600;Uttag-3600
-Buy: 1 x Old school bond;Köp: 1 x Old school obligation
-Withdraw-70000;Uttag-70000
-Deposit-70000;Deposition-70000
 <col=00afff>Resume autochat</col>;<col=00afff>Återuppta autochatt</col>
 <col=00afff>Pause autochat</col>;<col=00afff>Pausa autochatt</col>
 Look-through;Titta igenom
@@ -5199,32 +3567,11 @@ Level-up increments of 5;Nivå upp steg på 5
 Loot key broadcast value;Root nyckel sändningsvärde
 Level-up increments of 10;Nivå upp steg på 10
 Personal best broadcasts;Personbästa sändningar
-Buy: 10,000 x Death rune;Köp: 10 000 x Dödsruna
-Sell: 1 x Guthix coif;Sälj: 1 x Guthix coif
-Buy: 14,546 x Death rune;Köp: 14 546 x Dödsruna
-Sell: 6,000 x Blood rune;Sälj: 6 000 x Blodruna
-Sell: 1 x Chaos rune;Sälj: 1 x kaosruna
-Deposit-240;Deposition-240
-Withdraw-240;Uttag-240
-Withdraw-121;Uttag-121
-Deposit-121;Insättning-121
-Sell: 1 x Looting bag note;Sälj: 1 x Plundringsväska
 Distract;Distrahera
 Burn-down;Nedbränning
-Default quantity: 2,500;Standardantal: 2 500
-Sell: 30 x Iron ore;Sälj: 30 x järnmalm
-Withdraw-999;Uttag-999
-Withdraw-1050;Uttag-1050
-Buy: 1 x Bloodbark legs;Köp: 1 x Bloodbark-ben
-Deposit-999;Insättning-999
 View <col=ff9040>Gauntlet Map</col>;Visa <col=ff9040>Gauntlet-karta</col>
 Pedal;Trampa
-Buy: 8 x Split log;Köp: 8 x Delad stock
 Échanger avec;Échanger avec
-Withdraw-12500;Uttag-12500
-Deposit-12500;Deposition-12500
-Deposit-28;Insättning-28
-Buy: 400 x Aether rune;Köp: 400 x Eterruna
 Shape-Air;Shape-Air
 Shape-Water;Shape-vatten
 Shape-Fire;Shape-Fire
@@ -5239,119 +3586,58 @@ Move Fragment Down;Flytta fragment nedåt
 Move Fragment Right;Flytta fragment åt höger
 Shape-Mind;Shape-Mind
 Move Fragment Up;Flytta fragment uppåt
-Withdraw-25000;Uttag-25000
-Deposit-25000;Deposition-25000
-Withdraw-719;Uttag-719
-Deposit-719;Deposition-719
 Charter-to Corsair Cove;Charter till Corsair Cove
-Withdraw-344;Uttag-344
-Deposit-344;Insättning-344
-Withdraw-977;Uttag-977
-Deposit-977;Deposition-977
-Default quantity: 977;Standardantal: 977
-Withdraw-175000000;Uttag-175000000
-Default quantity: 175,000,000;Standardkvantitet: 175 000 000
 Restore <col=ff9040>Minimap</col>;Återställ <col=ff9040>Minimap</col>
-Default quantity: 28;Standardantal: 28
 Last-destination (DIR);Sista destination (DIR)
 Enter-cloud;Enter-moln
 Submit;Överlämna
-Deposit-175000000;Deposition-175000000
-Buy: 1 x Water tiara;Köp: 1 x Vattentiara
-Withdraw-130;Uttag-130
-Deposit-130;Deposition-130
 Examine <col=ff981f>Mist rune;Undersök <col=ff981f>Mistruna
 Select <col=ff981f>Mist rune;Välj <col=ff981f>Dimruna
-Sell: 100 x Cowhide;Sälj: 100 x kohud
-Sell: 1 x Bronze dagger;Sälj: 1 x bronsdolk
-Buy: 1 x Rune pickaxe;Köp: 1 x Runhacka
-Default quantity: 2,121,212,121;Standardkvantitet: 2 121 212 121
-Withdraw-2121212121;Uttag-2121212121
-Deposit-2121212121;Deposition-2121212121
-Sell: 41 x Big bones;Sälj: 41 x stora ben
 Go-up;Gå upp
-Buy: 1 x Swampbark armour set;Köp: 1 x Swampbark pansarset
-Withdraw-106500;Uttag-106500
-Deposit-106500;Deposition-106500
-Default quantity: 106,500;Standardantal: 106 500
-Buy: 100 x Anchovy pizza;Köp: 100 x Ansjovispizza
-Buy: 1 x Snakeskin bandana;Köp: 1 x Snakeskin bandana
-Buy: 100 x Blighted karambwan;Köp: 100 x Blighted karambwan
-Buy: 1 x Bandos tassets;Köp: 1 x Bandos dosor
-Buy: 1 x Red dragonhide set;Köp: 1 x Red dragonhide set
-Buy: 1 x Zombie helmet;Köp: 1 x Zombiehjälm
 Swim-to;Simma till
-Buy: 1 x Teal boots;Köp: 1 x Teal boots
-Withdraw-8600;Uttag-8600
-Deposit-8600;Deposition-8600
-Withdraw-160;Uttag-160
-Deposit-160;Deposition-160
-Sell: 110 x Steel nails;Sälj: 110 x Stålspik
 The Summer Shore;Sommarstranden
-Deposit-1750;Deposition-1750
-Withdraw-1750;Uttag-1750
 Quick-open;Snabböppning
-Default quantity: 3,200;Standardantal: 3 200
 View Slayer on the Wiki;Se Slayer på Wiki
 Wyrmscraig Cavern;Wyrmscraig Cavern
-Withdraw-5500;Uttag-5500
-Deposit-6500;Deposition-6500
-Withdraw-6500;Uttag-6500
-Deposit-5500;Deposition-5500
-Withdraw-680000;Uttag-680000
 Scorch;Bränna
 Flare;Blossa
 Ring-last-destination (BLP);Ring-sista-destination (BLP)
 Zerstören;Zerstören
 Take-one;Ta en
-Default quantity: 15,000;Standardantal: 15 000
-Withdraw-1899;Återkalla-1899
-Deposit-1899;Deposition-1899
-Buy: 5,000 x Air rune;Köp: 5 000 x Luftruna
 ÐžÑ‚Ð¼ÐµÐ½Ð°;ÐžÑ‚Ð¼ÐµÐ½Ð°
 Ð˜Ð´Ð¸ Ñ�ÑŽÐ´Ð°;Ð˜Ð´Ð¸ Ñ�ÑŽÐ´Ð°
-Withdraw-45000;Uttag-45000
-Deposit-45000;Deposition-45000
-Default quantity: 45,000;Standardantal: 45 000
-Deposit-942;Deposition-942
-Withdraw-942;Uttag-942
-Buy: 100 x Iron arrow;Köp: 100 x Järnpil
 Release all placeholders (20);Släpp alla platshållare (20)
-Withdraw-296;Uttag-296
-Deposit-296;Deposition-296
-Default quantity: 296;Standardantal: 296
-Buy: 30 x Blighted vengeance sack;Köp: 30 x Blighted vengeance säck
-Buy: 1 x Ring of recoil;Köp: 1 x Ring av rekyl
-Buy: 1 x Black d'hide chaps;Köp: 1 x Black d'hide chaps
-Default quantity: 12,000;Standard kvantitet: 12 000
-Buy: 10,000 x Nature rune;Köp: 10 000 x Naturruna
 Cross-bridge;Överbrygga
-Withdraw-340;Uttag-340
-Deposit-340;Deposition-340
-Default quantity: 340;Standardantal: 340
 Store-1,000;Butik-1 000
 Release all placeholders (7);Släpp alla platshållare (7)
 Remove <col=ff981f>Dragonstone bolts (e);Ta bort <col=ff981f>Dragonstone-bultar (e)
-Buy: 1 x Botanical pie;Köp: 1 x Botanisk paj
 Select-trial;Välj-prov
 Deliver-rum;Leverera-rom
 Minimise;Minimera
 Exit trial;Avsluta rättegången
 Quick-reset trial;Testversion av snabbåterställning
 Reset trial;Återställ testperioden
-Buy: 1 x Strength amulet (t);Köp: 1 x Styrkeamulett (t)
-Deposit-1009;Insättning-1009
-Withdraw-1009;Återkalla-1009
-Sell: 27 x Sapphire ring;Sälj: 27 x Safirring
 Release all placeholders (2);Släpp alla platshållare (2)
-Default quantity: 1,009;Standardantal: 1 009
-Sell: 8 x Ring of wealth;Sälj: 8 x Ring of wealth
 Make <col=ff9040>Diamond amulet (u)</col>;Gör <col=ff9040>Diamond amulett (u)</col>
 Make <col=ff9040>Diamond ring</col>;Gör <col=ff9040>Diamantring</col>
-Buy: 1 x Dwellberries;Köp: 1 x Dwellberries
 Small net;Litet nät
 Make Party;Gör fest
 Friends/Clan Only;Endast vänner/klan
 View Party:;Visa fest:
 Flip;Flip
 Begin;Börja
+re:^Withdraw-([\d,]+)$;Ta ut-$1
+re:^Deposit-([\d,]+)$;Sätt in-$1
+re:^Withdraw ([\d,]+)$;Ta ut $1
+re:^Deposit ([\d,]+)$;Sätt in $1
+re:^Buy: ([\d,]+) x (.+)$;Köp: $1 x $2
+re:^Sell: ([\d,]+) x (.+)$;Sälj: $1 x $2
+re:^Buy ([\d,]+)$;Köp $1
+re:^Sell ([\d,]+)$;Sälj $1
+re:^Buy-([\d,]+)$;Köp-$1
+re:^Sell-([\d,]+)$;Sälj-$1
+re:^Default quantity: ([\d,]+)$;Standardkvantitet: $1
+re:^Add friend (.+)$;Lägg till vän $1
+re:^Add ignore (.+)$;Lägg till ignorera $1
+re:^Remove-([\d,]+)$;Ta bort-$1
+re:^Take-([\d,]+)$;Ta-$1

@@ -28,6 +28,7 @@ public class MenuDictionaryTest
 
 	private static final Pattern TAG = Pattern.compile("<[^>]*>");
 	private static final Pattern NUMBER = Pattern.compile("\\d+");
+	private static final Pattern PLACEHOLDER = Pattern.compile("\\$(\\d+)");
 	private static final Pattern SKILL_GUIDE =
 		Pattern.compile("^View (<col=[^>]+>)([A-Za-z]+)(</col>) guide$");
 
@@ -57,6 +58,11 @@ public class MenuDictionaryTest
 		{
 			for (Map.Entry<String, String> entry : dictionary(language).entrySet())
 			{
+				if (entry.getKey().startsWith("re:"))
+				{
+					continue;
+				}
+
 				assertEquals(language + ": tags differ for: " + entry.getKey(),
 					tags(entry.getKey()), tags(entry.getValue()));
 			}
@@ -70,10 +76,10 @@ public class MenuDictionaryTest
 		{
 			for (Map.Entry<String, String> entry : dictionary(language).entrySet())
 			{
-				if (entry.getKey().startsWith("Add friend ")
+				if (entry.getKey().startsWith("re:")
+					|| entry.getKey().startsWith("Add friend ")
 					|| entry.getKey().startsWith("Add ignore "))
 				{
-					// player names are not game numbers and may contain digits
 					continue;
 				}
 
@@ -93,6 +99,63 @@ public class MenuDictionaryTest
 				assertTrue(language + ": empty value for: " + entry.getKey(),
 					!entry.getValue().trim().isEmpty());
 			}
+		}
+	}
+
+	@Test
+	public void patternsUseExistingGroups() throws Exception
+	{
+		for (String language : languages())
+		{
+			for (Map.Entry<String, String> entry : dictionary(language).entrySet())
+			{
+				if (!entry.getKey().startsWith("re:"))
+				{
+					continue;
+				}
+
+				Pattern pattern = Pattern.compile(entry.getKey().substring("re:".length()));
+				int groups = pattern.matcher("").groupCount();
+
+				Matcher placeholder = PLACEHOLDER.matcher(entry.getValue());
+				while (placeholder.find())
+				{
+					int group = Integer.parseInt(placeholder.group(1));
+					assertTrue(language + ": pattern " + entry.getKey() + " uses $" + group
+							+ " but only has " + groups + " groups",
+						group >= 1 && group <= groups);
+				}
+			}
+		}
+	}
+
+	@Test
+	public void dynamicMenuOptionsUsePatterns() throws Exception
+	{
+		Map<String, String> spanish = dictionary("spanish");
+
+		assertEquals("Retirar-454", applyPatterns(spanish, "Withdraw-454"));
+		assertEquals("Depositar-454", applyPatterns(spanish, "Deposit-454"));
+		assertEquals("Comprar: 1 x Death rune", applyPatterns(spanish, "Buy: 1 x Death rune"));
+		assertEquals("Comprar: 1,000 x Oak logs", applyPatterns(spanish, "Buy: 1,000 x Oak logs"));
+		assertEquals("Vender: 100 x Death rune", applyPatterns(spanish, "Sell: 100 x Death rune"));
+		assertEquals("Cantidad predeterminada: 10,000", applyPatterns(spanish, "Default quantity: 10,000"));
+		assertEquals("Agregar amigo Player 123", applyPatterns(spanish, "Add friend Player 123"));
+		assertEquals("Agregar ignorar Player 123", applyPatterns(spanish, "Add ignore Player 123"));
+
+		assertTrue(!spanish.containsKey("Withdraw-454"));
+		assertTrue(!spanish.containsKey("Buy: 1 x Death rune"));
+		assertTrue(!spanish.containsKey("Add friend Player 123"));
+
+		for (String language : languages())
+		{
+			Map<String, String> dictionary = dictionary(language);
+			assertTrue(language + ": Withdraw pattern missing",
+				!applyPatterns(dictionary, "Withdraw-454").equals("Withdraw-454"));
+			assertTrue(language + ": Buy pattern missing",
+				!applyPatterns(dictionary, "Buy: 1 x Death rune").equals("Buy: 1 x Death rune"));
+			assertTrue(language + ": Add friend pattern missing",
+				!applyPatterns(dictionary, "Add friend Player 123").equals("Add friend Player 123"));
 		}
 	}
 
@@ -207,6 +270,28 @@ public class MenuDictionaryTest
 		{
 			return TranslationStore.parse(reader);
 		}
+	}
+
+	private static String applyPatterns(Map<String, String> dictionary, String text)
+	{
+		String result = text;
+
+		for (Map.Entry<String, String> entry : dictionary.entrySet())
+		{
+			if (!entry.getKey().startsWith("re:"))
+			{
+				continue;
+			}
+
+			Pattern pattern = Pattern.compile(entry.getKey().substring("re:".length()));
+			Matcher matcher = pattern.matcher(result);
+			if (matcher.find())
+			{
+				result = matcher.replaceAll(entry.getValue());
+			}
+		}
+
+		return result;
 	}
 
 	private static List<String> tags(String text)

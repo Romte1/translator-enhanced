@@ -81,6 +81,16 @@ const knownValues = new Set(
 		.filter(line => line.includes(";"))
 		.map(line => normalize(line.slice(line.indexOf(";") + 1)))
 );
+const knownPatterns = readLines(dictionaryFile)
+	.filter(line => line.startsWith("re:") && line.includes(";"))
+	.map(line => {
+		try {
+			return new RegExp(line.slice("re:".length, line.indexOf(";")));
+		} catch {
+			return null;
+		}
+	})
+	.filter(pattern => pattern !== null);
 
 const otherLanguageValues = language === "spanish"
 	? new Set()
@@ -109,6 +119,7 @@ const texts = remoteTexts ?? localTexts;
 
 const pending = [...new Set([...texts, ...seedTexts])]
 	.filter(key => key.length > 0 && !known.has(normalize(key)) && !knownValues.has(normalize(key)))
+	.filter(key => !knownPatterns.some(pattern => pattern.test(key)))
 	.filter(key => !IGNORED_PREFIXES.some(prefix => key.startsWith(prefix)))
 	.filter(key => !SPANISH_LABEL.test(key))
 	.filter(key => !(normalize(key).length > 12 && sourceValues.has(normalize(key))))

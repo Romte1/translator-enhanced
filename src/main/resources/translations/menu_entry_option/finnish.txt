@@ -223,7 +223,6 @@ All;Kaikki
 Enter quantity;Syötä määrä
 +1;+1
 Offer;Tarjous
-Buy: 1 x Nature rune;Osta: 1 x Nature rune
 Buy-offer;Ostotarjous
 Chop-down;Katkaisu
 Look North;Katso pohjoiseen
@@ -262,21 +261,14 @@ Guide;Opas
 View tab;Näytä-välilehti
 Collapse tab;Tiivistä välilehti
 Withdraw-X;Nosto-X
-Withdraw-10000;Nosto - 10 000
-Withdraw-10;Nosto-10
 Withdraw-All;Poista kaikki
 Remove placeholders;Poista paikkamerkit
-Withdraw-5;Nosto-5
 Withdraw-All-but-1;Nosta-kaikki paitsi-1
-Withdraw-1;Nosto-1
 Release;Vapauta
-Default quantity: 10,000;Oletusmäärä: 10 000
-Default quantity: 1;Oletusmäärä: 1
 Set custom quantity;Aseta mukautettu määrä
 View tag tab;Näytä tunniste -välilehti
 Rename tag tab;Nimeä tunniste-välilehti uudelleen
 Delete tag tab;Poista tagi-välilehti
-Default quantity: 10;Oletusmäärä: 10
 Enable layout;Ota asettelu käyttöön
 Change icon;Vaihda kuvake
 Export tag tab;Vie tagi-välilehti
@@ -299,10 +291,7 @@ Default quantity: All;Oletusmäärä: Kaikki
 Deposit inventory;Talleta varasto
 Deposit worn items;Talleta kuluneet tavarat
 Disable;Poista käytöstä
-Default quantity: 5;Oletusmäärä: 5
-Withdraw-14;Nosto-14
 Pay (Fruit tree);Palkka (hedelmäpuu)
-Default quantity: 14;Oletusmäärä: 14
 Wield;Käytellä
 Wear;Käyttää
 Dismantle;Purkaa
@@ -347,9 +336,6 @@ Deposit-All;Talletus-kaikki
 Default quantity: <col=ff9040>5</col>;Oletusmäärä: <col=ff9040>5</col>
 Deposit Lock Settings;Talletuslukon asetukset
 Disable inventory locks;Poista varaston lukitukset käytöstä
-Deposit-10;Talletus - 10
-Deposit-1;Talletus-1
-Deposit-5;Talletus-5
 Default quantity: <col=ff9040>1</col>;Oletusmäärä: <col=ff9040>1</col>
 Shave;Parranajo
 Haircut;Hiustenleikkaus
@@ -398,8 +384,6 @@ Restore Default Zoom;Palauta oletuszoomaus
 Select <col=ff981f>Interfaces;Valitse <col=ff981f>Liitännät
 Buy-X;Osta-X
 Potions;juomat
-Buy-5;Osta - 5
-Buy-1;Osta-1
 Buy-All;Osta-kaikki
 Show worn items;Näytä kuluneet tuotteet
 Bottom-floor;Alakerta
@@ -468,11 +452,9 @@ Pass;Syöttö
 <col=ffff00>Group:</col> Show all;<col=ffff00>Ryhmä:</col> Näytä kaikki
 <col=ffff00>Group:</col> Show none;<col=ffff00>Ryhmä:</col> ei näytä yhtään
 Quench;Sammuttaa
-Withdraw-18;Nosto-18
 Inside;Sisällä
 Home;Kotiin
 Group;ryhmä
-Deposit-18;Talletus-18
 Build mode;Rakennustila
 Resurrect;Herätä henkiin
 Friend's house;Ystävän talo
@@ -514,12 +496,7 @@ Chart;Kartoittaa
 Last-destination (AIP);Viimeinen kohde (AIP)
 Zoom out;Loitonna
 Zanaris;Zanaris
-Buy 50;Osta 50
 Value;Arvo
-Buy 10;Osta 10
-Buy 1;Osta 1
-Buy-50;Osta - 50
-Buy 5;Osta 5
 Climb-over;Kiipeä yli
 Milk;Maito
 Take-axe;Ota kirves
@@ -555,7 +532,6 @@ View journal <col=ff981f>X Marks the Spot</col>;Näytä päiväkirja <col=ff981f
 Sell 50<col=ff9040>;Myy 50<col=ff9040>
 Sell 10<col=ff9040>;Myy 10<col=ff9040>
 Sell 1<col=ff9040>;Myy 1<col=ff9040>
-Buy-10;Osta - 10
 Value<col=ff9040>;Arvo<col=ff9040>
 Feel;Tunne
 Sell 5<col=ff9040>;Myy 5<col=ff9040>
@@ -629,7 +605,6 @@ Group: Previous;Ryhmä: Edellinen
 Pray;Rukoilla
 Investigate;Tutkia
 Jump-onto;Hyppää päälle
-Withdraw-500;Nosto-500
 Move-left;Siirrä-vasemmalle
 Grab;Napata
 Move-down;Siirrä alas
@@ -643,9 +618,7 @@ Add-X<col=ff9040>;Lisää-X<col=ff9040>
 Add-10<col=ff9040>;Lisää-10<col=ff9040>
 Add-All<col=ff9040>;Add-All<col=ff9040>
 Add<col=ff9040>;Lisää<col=ff9040>
-Deposit-500;Talletus - 500
 Check charges;Tarkista maksut
-Default quantity: 500;Oletusmäärä: 500
 Filter;Suodattaa
 Load-outs;Loadouts
 Done;Tehty
@@ -707,7 +680,6 @@ Collect-note;Kerää-huomaa
 Collect-item;Kerää-esine
 Disable <col=ff9040>Notes;Poista <col=ff9040>muistiinpanot käytöstä
 Info;Tiedot
-Sell: 1 x Bronze med helm;Myydään: 1 x Bronze med ruori
 Pick-Lock;Tiirikka
 Collect-items;Kerää esineitä
 Collect-notes;Kerää muistiinpanoja
@@ -723,35 +695,19 @@ Tan <col=ff7000>1;Rusketus <col=ff7000>1
 Tan <col=ff7000>All;Rusketus <col=ff7000>Kaikki
 Smithing;Smithing
 Remove-X;Poista-X
-Remove-10;Poista-10
-Remove-5;Poista-5
 Remove-All;Poista-Kaikki
 Hunter;Metsästäjä
 Firemaking;Tulityöt
 Enable <col=ff9040>Swap;Ota <col=ff9040>vaihto käyttöön
 Add all;Lisää kaikki
 Release all placeholders (1);Vapauta kaikki paikkamerkit (1)
-Buy: 160 x Cowhide;Osta: 160 x lehmännahka
 Set price;Aseta hinta
-Sell: 195 x Leather;Myydään: 195 x nahkaa
-Sell: 175 x Leather;Myydään: 175 x nahkaa
-Buy: 10 x Air tiara;Osta: 10 x Air tiara
-Buy: 2 x Ring mould;Osta: 2 x rengasmuotti
 pic;kuva
 Set quantity;Aseta määrä
 Set wiki price;Aseta wikin hinta
 Accept trade;Hyväksy kauppa
 Accept;Hyväksyä
-Buy: 1 x Mithril gold-trimmed set (lg);Osta: 1 x Mithril kullalla koristeltu setti (lg)
-Buy: 15 x Diamond;Osta: 15 x Diamond
-Sell: 55 x Emerald;Myydään: 55 x Emerald
-Buy: 55 x Emerald;Osta: 55 x Emerald
-Buy: 1 x Poison;Osta: 1 x Poison
-Buy: 34 x Ruby necklace;Osta: 34 x Ruby kaulakoru
 Search for item;Etsi kohde
-Sell: 124 x Tuna;Myynti: 124 x tonnikala
-Buy: 1 x Rune axe;Osta: 1 x riimukirves
-Sell: 83 x Energy potion(4);Myynti: 83 x energiajuoma(4)
 Check-Count;Check-Count
 Bash;Lyödä
 Earth Bolt;Maadoituspultti
@@ -767,9 +723,7 @@ Push;Työnnä
 Quantity:;Määrä:
 View Smithing on the Wiki;Katso Smithing Wikissä
 Pull;Vedä
-Buy: 129 x Limpwurt root;Osta: 129 x Limpwurt juuri
 View <col=ff9040>Mining</col> guide;Katso <col=ff9040>kaivostyön</col>-opas
-Buy: 600 x Hammer;Osta: 600 x Hammer
 Pick refreshment;Valitse virvokkeita
 Focus;Keskity
 Open <col=ff9040>Morytania Journal</col>;Avaa <col=ff9040>Morytania Journal</col>
@@ -817,7 +771,6 @@ Fur Clothing;Turkisvaatteet
 Brimhaven;Brimhaven
 Aldarin;Aldarin
 Taverley;Taverley
-Default quantity: 200,000,000;Oletusmäärä: 200 000 000
 Prifddinas;Prifddinas
 Lock-slot;Lukko-aukko
 Pollnivneach;Pollnivneach
@@ -829,10 +782,7 @@ Hosidius;Hosidius
 WOM lookup;WOM-haku
 Unload;Purkaa
 Contract;Sopimus
-Withdraw-200000000;Nosto-200000000
 Rimmington;Rimmington
-Deposit-200000000;Talletus - 200 000 000
-Deposit-14;Talletus-14
 Purchase Amulet;Osta amuletti
 Drink-from;Juoma-alkaen
 Float Canoe;Kelluva kanootti
@@ -865,11 +815,9 @@ Take-seed;Ota siemen
 Take-pickaxe;Ota-hakku
 Dyes;Väriaineet
 Anadir ignorar;Anadir tietämätön
-Withdraw-50000;Nosto - 50 000
 Informe;Ilmoita
 activar;aktivar
 Anadir amigo;Anadir amigo
-Deposit-50000;Talletus - 50 000
 Accurate;Tarkka
 Longrange;Pitkän kantaman
 Prod;Tuot
@@ -879,11 +827,8 @@ Glider-to Ta Quir Priw;Purjelentokone Ta Quir Priwiin
 Travel to<col=ff9040> Barbarian Village;Matkusta<col=ff9040> ​​Barbarian Village
 Travel to<col=ff9040> Edgeville;Matkusta<col=ff9040> ​​Edgevilleen
 Downgrade;Vähennä
-Buy: 1 x Dragon axe;Osta: 1 x lohikäärmekirves
 Seers' Village;Näkijöiden kylä
 Camelot;Camelot
-Deposit-120000;Talletus - 120 000
-Withdraw-120000;Nosto - 120 000
 Gehen Sie hier;Gehen Sie täällä
 Reden mit;Reden mit
 Prüfen;Prüfen
@@ -922,7 +867,6 @@ Coin Collection;Kolikkokokoelma
 Boss Log;Boss Log
 Miscellania;Miscellania
 Falador;Falador
-Deposit-10000;Talletus - 10 000
 Skrach Uglogwee;Skrach Uglogwee
 Lumbridge Guide;Lumbridgen opas
 Wartface & Bentnoze;Wartface & Bentnoze
@@ -931,7 +875,6 @@ Evil Dave;Paha Dave
 Mountain Dwarf;Vuoristokääpiö
 Pirate Pete;Piraatti Pete
 Sir Amik Varze;Sir Amik Varze
-Buy: 10 x Stamina potion(4);Osta: 10 x Stamina potion (4)
 Pass-through;Läpikulku
 +99%;+99 %
 Cut;Leikata
@@ -963,10 +906,6 @@ Breach Check;Rikkomuksen tarkistus
 Shop;Kauppa
 Unlocks;Avaa lukituksen
 Prayers;Rukoukset
-Sell-10;Myy -10
-Sell-1;Myy-1
-Sell-5;Myy - 5
-Sell-50;Myy - 50
 Deadman;Kuollut mies
 Points Info;Pisteiden tiedot
 About;Noin
@@ -981,16 +920,11 @@ Select <col=ff9040>Confirm</col>;Valitse <col=ff9040>Vahvista</col>
 Dream;Unelma
 Ammo;Ammo
 Toggle setting;Vaihda asetusta
-Withdraw-19;Nosto-19
-Default quantity: 19;Oletusmäärä: 19
 Manoeuvre-past;Manööveri-menneisyys
-Buy: 1 x Yellow dye;Osta: 1 x keltainen väriaine
 View <col=ff9040>Firemaking</col> guide;Katso <col=ff9040>Tulonteko</col>-opas
 Weave;Kutoa
 Take-boat;Take-vene
 Ardougne;Ardougne
-Withdraw-100;Nosto-100
-Deposit-100;Talletus - 100
 Remove-coal;Poista-hiili
 Tuxedo-time;Tuxedo-aika
 Turn;Käänny
@@ -1030,10 +964,6 @@ A;A
 Play your tune.;Soita sävelmäsi.
 F#;F#
 C#;C#
-Default quantity: 100;Oletusmäärä: 100
-Deposit-1000;Talletus - 1000
-Withdraw-1000;Nosto-1000
-Sell: 17 x Big bones;Myydään: 17 x isot luut
 Previous;Edellinen
 45 days membership;45 päivän jäsenyys
 Buy Bonds;Osta joukkovelkakirjoja
@@ -1048,8 +978,6 @@ Murder;Murhata
 Walk-on;Kävelymatka
 Chill;Rentoudu
 Fix;Korjata
-Take-5;Ota - 5
-Take-10;Ota - 10
 Bail-with;Takuumaksu
 Comercio con;Comercio con
 conjuntos;konjuntit
@@ -1064,9 +992,7 @@ Recolectar;Recolectar
 Offer-X<col=ff9040>;Tarjous-X<col=ff9040>
 Offer<col=ff9040>;Tarjous<col=ff9040>
 Offer-All<col=ff9040>;Tarjoa kaikki<col=ff9040>
-Deposit-107;Talletus-107
 Offer-10<col=ff9040>;Tarjous-10<col=ff9040>
-Withdraw-107;Nosto-107
 Offer-5<col=ff9040>;Tarjous-5<col=ff9040>
 Assignment;Tehtävä
 Last-destination (DKS);Viimeinen määränpää (DKS)
@@ -1074,18 +1000,14 @@ Add Favourite;Lisää suosikki
 Use code;Käytä koodia
 Destroy ALL;Tuhoa KAIKKI
 Comer;Tulija
-Deposit-5000;Talletus - 5000
 Llevar;Llevar
 Precios;Precios
-Withdraw-5000;Nosto-5000
 Cocinando;Cocinando
 BotÃ­n;BotÃn
 Kandarin Monastery;Kandarin luostari
-Default quantity: 107;Oletusmäärä: 107
 Empunar;Empunar
 Deposito;Talletus
 +50%;+50 %
-Default quantity: 5,000;Oletusmäärä: 5 000
 Tener puesto;Tener puesto
 -50%;-50 %
 Vista;Vista
@@ -1112,9 +1034,6 @@ Leap;Harppaus
 Mark;Mark
 Unmark;Poista merkintä
 Open GE Tracker to;Avaa GE Tracker
-Buy: 1 x Iron scimitar;Osta: 1 x rautaleikkuri
-Buy: 1 x Iron platebody;Osta: 1 x rautalevyrunko
-Sell: 1 x Iron dagger;Myydään: 1 x rautatikari
 Wind Strike;Tuulen isku
 Fire Wave;Fire Wave
 Wind Bolt;Tuulipultti
@@ -1133,9 +1052,6 @@ Last-destination (DJR);Viimeinen määränpää (DJR)
 Illegal / harmful content;Laiton/haitallinen sisältö
 Last-destination (AKR);Viimeinen määränpää (AKR)
 Hammer;Vasara
-Deposit-600;Talletus - 600
-Withdraw-600;Nosto-600
-Withdraw-200000;Nosto - 200 000
 Prospect;Prospekti
 Wind-up;Päättäminen
 Look-under;Katso alta
@@ -1144,8 +1060,6 @@ Climb-across;Kiipeä poikki
 Swing-on;Swing-on
 Swing-across;Swing-cross
 Pay-fare;Maksullinen hinta
-Withdraw-3000;Nosto-3000
-Deposit-3000;Talletus - 3000
 Cut down;Kaataa
 Cut-wood;Leikattu puu
 Eperlano;Eperlano
@@ -1153,10 +1067,8 @@ Last-destination (CKR);Viimeinen kohde (CKR)
 Teeth-grip;Hammaspito
 Last-destination (DKR);Viimeinen kohde (DKR)
 Pick-apple;Pick-omena
-Remove-1;Poista-1
 Cage;Häkki
 Banknotes;Setelit
-Default quantity: 600;Oletusmäärä: 600
 Water Strike;Vesilakko
 Fire Surge;Fire Surge
 Wind Surge;Tuulivoima
@@ -1197,8 +1109,6 @@ Apply;Käytä
 Edit;Muokata
 Members;jäsenet
 Permissions;Käyttöoikeudet
-Withdraw-15;Nosto-15
-Deposit-15;Talletus-15
 Dive;Sukeltaa
 Devices;Laitteet
 Charge;Lataa
@@ -1215,30 +1125,22 @@ Heal;Parantaa
 Up;Ylös
 Down;Alas
 Take-many;Ota - monta
-Withdraw-28;Nosto-28
-Withdraw-65;Nosto-65
 Change-style;Vaihda tyyliä
 Hasty-rummage;Kiireistä rukousta
 Colossal Wyrm Remains;Colossal Wyrm Remains
 Choose;Valita
 Slide-along;Liukua mukaan
-Deposit-40;Talletus - 40
-Withdraw-50;Nosto-50
-Withdraw-40;Nosto-40
-Withdraw-2000;Nosto-2000
 Dive in;Sukella sisään
 Swim to;Ui kohti
 Use-rod;Käyttövarsi
 Swim;Uida
 Construct;Rakentaa
-Deposit-2000;Talletus - 2000
 Get in;Astu sisään
 Take treasure;Ota aarre
 Get-rewards;Hanki palkintoja
 Plant;Kasvi
 Last-destination (DLQ);Viimeinen kohde (DLQ)
 Last-destination (AJP);Viimeinen määränpää (AJP)
-Default quantity: 40;Oletusmäärä: 40
 Load;Ladata
 Demolish;Purkaa
 Quick-escape;Pikapako
@@ -1272,7 +1174,6 @@ The Pandemonium;Pandemonium
 Repair-boat;Korjausvene
 Modify;Muuttaa
 Set sails;Aseta purjeet
-Default quantity: 2,000;Oletusmäärä: 2 000
 Build-trap;Rakenna-ansa
 Stop-navigating;Lopeta navigointi
 Pry-open;Avaa
@@ -1287,12 +1188,7 @@ Board friend's boat;Hallita ystävän venettä
 Accept task;Hyväksy tehtävä
 Deposit-held;Talletettu
 Deposit-cargo;Talletus-rahti
-Withdraw-7;Nosto-7
-Deposit-7;Talletus-7
 Select option B;Valitse vaihtoehto B
-Default quantity: 7;Oletusmäärä: 7
-Withdraw-2;Nosto-2
-Deposit-2;Talletus-2
 Last-destination (DKP);Viimeinen kohde (DKP)
 Reinforce;Vahvistaa
 Burst;Räjähtää
@@ -1306,11 +1202,6 @@ Check-charge;Tarkista veloitus
 Enakhra's Temple Entrance;Enakhran temppelin sisäänkäynti
 Last-tier contract;Viimeisen tason sopimus
 Fire-at;Tuli-at
-Deposit-35000;Talletus - 35 000
-Withdraw-35000;Nosto-35 000
-Default quantity: 35,000;Oletusmäärä: 35 000
-Deposit-3;Talletus-3
-Withdraw-3;Nosto-3
 Collect-data;Kerää tietoa
 Bloom;Kukinta
 Listen;Kuunnella
@@ -1320,9 +1211,6 @@ Last-destination (CLR);Viimeinen kohde (CLR)
 Flush;Huuhtele
 Last-destination (AKQ);Viimeinen määränpää (AKQ)
 Set-trap;Aseta ansa
-Deposit-30;Talletus - 30
-Withdraw-30;Nosto-30
-Default quantity: 30;Oletusmäärä: 30
 Check totals;Tarkista kokonaissummat
 Reverse;Käänteinen
 Stop boat;Pysäytä vene
@@ -1342,7 +1230,6 @@ Last-destination (AKS);Viimeinen määränpää (AKS)
 Last-destination (CIS);Viimeinen kohde (CIS)
 View journal <col=ff981f>Shilo Village</col>;Näytä päiväkirja <col=ff981f>Shilo Village</col>
 View journal <col=ff981f>Priest in Peril</col>;Näytä päiväkirja <col=ff981f>Priest in Peril</col>
-Withdraw-20000;Nosto-20 000
 Get bird;Hanki lintu
 Quick-Travel;Pikamatka
 Embark;Lähde alukseen
@@ -1350,9 +1237,7 @@ Take tools;Ota työkalut mukaan
 Climb Up;Kiipeä ylös
 Build on;Rakenna päälle
 Make <col=ff9040>Ruby ring</col>;Tee <col=ff9040>Rubiinirengas</col>
-Withdraw-13;Nosto-13
 Make <col=ff9040>Ruby necklace</col>;Tee <col=ff9040>rubiinikaulakoru</col>
-Deposit-13;Talletus-13
 Make <col=ff9040>Ruby amulet (u)</col>;Tee <col=ff9040>Ruby-amuletti (u)</col>
 Charter-to Catherby;Charter Catherbylle
 Blow;Isku
@@ -1396,31 +1281,23 @@ Storage Unlocks;Tallennus avautuu
 Climb-through (private);Kiipeily (yksityinen)
 Peek (normal);Kurkista (normaali)
 Climb-through (normal);Kiipeily (normaali)
-Deposit-20000;Talletus - 20 000
 Banish;karkottaa
 Check runes;Tarkista riimut
 Blow-on;Puhallus
 Ring;Rengas
-Deposit-1500;Talletus - 1500
-Withdraw-1500;Nosto-1500
 Disable warning;Poista varoitus käytöstä
 Leave platform;Poistu alustalta
-Withdraw-200;Nosto-200
-Deposit-200;Talletus - 200
 Fend;Fend
 Jab;Tökätä
-Default quantity: 200;Oletusmäärä: 200
 Swipe;Pyyhkäise
 Pay (north-west);Maksu (luoteinen)
 Pay (south-east);Maksu (kaakkois)
-Default quantity: 1,500;Oletusmäärä: 1 500
 Change icon (fazenda);Vaihda kuvake (fazenda)
 Disable layout;Poista asettelu käytöstä
 Duplicate-item;Kohteen kaksoiskappale
 Remove-layout;Poista-asettelu
 Harvest;Sato
 Cure;Parantaa
-Default quantity: 13;Oletusmäärä: 13
 Make <col=ff9040>Dragonstone ring</col>;Tee <col=ff9040>Dragonstone-sormus</col>
 Convert;Muuntaa
 Buy or Redeem Bonds;Osta tai lunasta joukkovelkakirjoja
@@ -1450,22 +1327,16 @@ Wizards' Tower;Wizards' Tower
 Tackle;Taklata
 Form clan;Muodosta klaani
 Invite;Kutsu
-Withdraw-683;Nosto-683
-Deposit-683;Talletus-683
 Ban;Kieltää
 Guzzle;Ahmia
-Default quantity: 1,000;Oletusmäärä: 1 000
 <col=ffff00>Set chat mode:</col> Group (/@g);<col=ffff00>Aseta chat-tila:</col> Ryhmä (/@g)
 Directions;Ohjeet
-Withdraw-500000;Nosto - 500 000
-Deposit-500000;Talletus - 500 000
 Unpack;Pura pakkauksesta
 8;8 
 7;7 
 6;6 
 12 months membership;12 kuukauden jäsenyys
 Temple;Temppeli
-Default quantity: 50;Oletusmäärä: 50
 Request;Pyytää
 Withdraw All;Poista kaikki
 Pay (south);Maksa (etelä)
@@ -1477,21 +1348,14 @@ Bonds;Joukkovelkakirjat
 Look up name;Etsi nimi
 Redeem;Lunastaa
 -3%;-3 %
-Deposit-1000000;Talletus - 1 000 000
 +3%;+3 %
-Withdraw-1000000;Nosto - 1 000 000
-Withdraw-4;Nosto-4
 Put-inside;Laita sisään
-Deposit-80;Talletus - 80
-Deposit-1650;Talletus 1650
-Deposit-4000;Talletus - 4000
 Toggle-respawn;Toggle-respawn
 Claim Pet Rock;Lunasta Pet Rock
 Ok;Ok
 Deposit-items;Talletuskohteet
 Shake;Ravista
 Remove-lid;Irrota kansi
-Buy: 1 x Salve graveyard teleport;Osta: 1 x Salve hautausmaa teleportti
 Cast Bloom;Näyttelijät Bloom
 Preview;Esikatselu
 Colour;Väri
@@ -1506,7 +1370,6 @@ Polish;Kiillottaa
 Enter name;Kirjoita nimi
 View Guest Count;Näytä vierasmäärä
 Squeeze-past;Purista ohi
-Default quantity: 20,000;Oletusmäärä: 20 000
 Take-concoction;Ota-kehitys
 Take-5 concoctions;Ota - 5 sekoitusta
 Talk;Puhua
@@ -1592,35 +1455,20 @@ Walk-through;Kävelevä läpi
 Not now;Ei nyt
 Jump-Down;Hyppää alas
 Clear all;Tyhjennä kaikki
-Withdraw-652;Nosto-652
-Deposit-652;Talletus-652
-Deposit-57;Talletus-57
-Withdraw-66;Nosto-66
-Withdraw-57;Nosto-57
-Withdraw-63;Nosto-63
 Hide <col=ff9040>Minimap</col>;Piilota <col=ff9040>pienikartta</col>
 Show <col=ff9040>Minimap</col>;Näytä <col=ff9040>pienikartta</col>
 Remove<col=ff9040> Focus;Poista<col=ff9040> ​​Focus
-Default quantity: 57;Oletusmäärä: 57
 Select option A;Valitse vaihtoehto A
-Deposit-208;Talletus-208
-Withdraw-208;Nosto-208
-Withdraw-236;Nosto-236
-Default quantity: 208;Oletusmäärä: 208
 Stroke;Aivohalvaus
 Pan;Panoroida
 Gem Mine;Jalokivikaivos
 Mount Karuulm;Karuulm vuori
 Kourend Woodland;Kourend Woodland
-Withdraw-195;Nosto-195
-Withdraw-2400;Nosto-2400
-Deposit-195;Talletus - 195
 View Friends List;Näytä ystävälista
 Add Name;Lisää nimi
 Delete Name;Poista nimi
 Water;Vesi
 Open link;Avaa linkki
-Default quantity: 195;Oletusmäärä: 195
 Get-training;Hanki koulutus
 Bank-cargo;Pankki-rahti
 Honour;Kunnia
@@ -1634,7 +1482,6 @@ Port Roberts;Port Roberts
 Check-ammunition;Tarkista ammukset
 Command;Komento
 Change loadout name;Vaihda latauksen nimi
-Default quantity: 50,000;Oletusmäärä: 50 000
 Open storage tab;Avaa tallennusvälilehti
 Reset-ammunition;Reset-ammukset
 Stop following Captain's target;Lopeta kapteenin kohteen seuraaminen
@@ -1663,23 +1510,14 @@ Set Hotkey (D);Aseta pikanäppäin (D)
 Set Hotkey (C);Aseta pikanäppäin (C)
 Set Hotkey (5);Aseta pikanäppäin (5)
 Set Hotkey (6);Aseta pikanäppäin (6)
-Deposit-420000;Talletus - 420 000
-Withdraw-420000;Nosto-420 000
-Default quantity: 420,000;Oletusmäärä: 420 000
 Last-destination (CJR);Viimeinen määränpää (CJR)
 Last-destination (CIQ);Viimeinen kohde (CIQ)
 Last-destination (CIR);Viimeinen kohde (CIR)
 Hang-over;Krapula
-Withdraw-5529;Nosto-5529
-Deposit-5529;Talletus-5529
-Default quantity: 5,529;Oletusmäärä: 5 529
 Ardougne Farm;Ardougne Farm
 Dump;Kaatopaikka
-Withdraw 3;Nosta 3
 Alchemy;Alkemia
-Withdraw 4;Nosta 4
 Energy;Energiaa
-Withdraw 1;Nosta 1
 Signal;Signaali
 Withdraw X;Nosta X
 Rumour;Huhu
@@ -1704,7 +1542,6 @@ Start-previous-rank;Aloitus-edellinen-sijoitus
 Start-trial;Aloitus-koe
 Jump-across;Hyppy poikki
 Last-destination (ALP);Viimeinen kohde (ALP)
-Sell: 3 x Iron arrow;Myydään: 3 x rautanuoli
 Quick-Pay(100);Quick-Pay (100)
 Send-parcel;Lähetä-paketti
 Reset Safe;Nollaa kassakaappi
@@ -1734,25 +1571,11 @@ Set Hotkey (L);Aseta pikanäppäin (L)
 Last-destination (ALS);Viimeinen kohde (ALS)
 Descend;Laskeutua
 Weiss;Weiss
-Withdraw-503;Nosto-503
 Scoreboard;Tulostaulu
-Withdraw-38;Nosto-38
-Default quantity: 38;Oletusmäärä: 38
-Withdraw-25;Nosto-25
-Withdraw-604;Nosto-604
-Deposit-26;Talletus-26
-Withdraw-26;Nosto-26
-Deposit-25;Talletus - 25
-Withdraw-220;Nosto-220
-Deposit-36;Talletus-36
-Deposit-115;Talletus - 115
-Withdraw-115;Nosto-115
-Withdraw-36;Nosto-36
 Standard;Vakio
 Play-fetch;Pelaa-haku
 Climb up;Kiipeä ylös
 Lletya;Lletya
-Default quantity: 115;Oletusmäärä: 115
 Target;Kohde
 Activity;Toiminta
 Enter-corrupted;Enter-korruptoitunut
@@ -1772,17 +1595,10 @@ Lower;Alentaa
 Claim-slime;Väite-lima
 Port Phasmatys;Port Phasmatys
 Charter-to Port Phasmatys;Tilauslento satamaan Phasmatys
-Deposit-4;Talletus-4
-Default quantity: 4;Oletusmäärä: 4
-Withdraw-40000;Nosto - 40 000
-Deposit-40000;Talletus - 40 000
-Buy: 1 x Green dragonhide set;Osta: 1 x Vihreä lohikäärmesarja
 Poke;Poke
 Jump off;Hyppää pois
 Burgh Teleport;Burgh Teleport
 Ecto Teleport;Ecto Teleport
-Withdraw-1168;Nosto-1168
-Deposit-1168;Talletus-1168
 Store-preform;Myymälä-aihio
 Commission;Komissio
 Quench-preform;Sammutusaihio
@@ -1798,49 +1614,18 @@ Fuel;Polttoaine
 Next page;Seuraava sivu
 New partner;Uusi kumppani
 Remove from playlist 1;Poista soittolistasta 1
-Default quantity: 40,000;Oletusmäärä: 40 000
 Ascend;Nousta
-Deposit-2194;Talletus-2194
-Withdraw-2194;Nosto-2194
-Default quantity: 2,194;Oletusmäärä: 2 194
 Destruir;Destruir
-Deposit-300;Talletus - 300
-Withdraw-300;Nosto-300
 Claim-runes;Väite-riimut
 Step-into;Astu sisään
-Default quantity: 300;Oletusmäärä: 300
-Withdraw-2253;Nosto-2253
-Withdraw-31;Nosto-31
-Withdraw-2236;Nosto-2236
-Deposit-2236;Talletus-2236
-Withdraw-2539;Nosto-2539
-Withdraw-5408;Nosto-5408
-Withdraw-527;Nosto-527
-Default quantity: 15;Oletusmäärä: 15
 Set Hotkey (E);Aseta pikanäppäin (E)
 Cut-vine;Leikkaa viiniköynnös
 Camarones;Camarones
 Hardcore Ironman Group;Hardcore Ironman Group
-Default quantity: 2,236;Oletusmäärä: 2 236
-Deposit-680;Talletus - 680
-Withdraw-680;Nosto-680
 Rescue;Pelastaa
-Default quantity: 680;Oletusmäärä: 680
-Deposit-4328;Talletus-4328
-Withdraw-4328;Nosto-4328
-Withdraw-4952;Nosto-4952
-Withdraw-5944;Nosto-5944
-Deposit-4952;Talletus-4952
-Default quantity: 4,952;Oletusmäärä: 4 952
-Default quantity: 5,944;Oletusmäärä: 5 944
-Withdraw-8376;Nosto-8376
-Withdraw-8480;Nosto-8480
-Deposit-8376;Talletus-8376
 Spring;Kevät
 Safety switch;Turvakytkin
 Gear;Gear
-Withdraw-11896;Nosto-11896
-Deposit-11896;Talletus-11896
 Gandius;Gandius
 Kar-Hewo;Kar-Hewo
 Swing;Swing
@@ -1877,7 +1662,6 @@ Ouvrir;Ouvrir
 Remove-one;Poista yksi
 Lap-count;Kierrosluku
 Cooking;Ruoanlaitto
-Default quantity: 11,896;Oletusmäärä: 11 896
 Ban guest;Estä vieras
 Kick guest;Potkia vieras
 Assemble;Koota
@@ -1891,9 +1675,6 @@ Move Schematic Up;Siirrä kaavio ylös
 Rotate the image;Kierrä kuvaa
 Move Schematic Right;Siirrä kaavamainen oikealle
 Jump-through;Hyppää läpi
-Withdraw-29;Nosto-29
-Deposit-29;Talletus-29
-Default quantity: 29;Oletusmäärä: 29
 Set Hotkey (J);Aseta pikanäppäin (J)
 Set Hotkey (O);Aseta pikanäppäin (O)
 Set Hotkey (H);Aseta pikanäppäin (H)
@@ -1905,17 +1686,13 @@ Play-quietly;Leiki - hiljaa
 Entertain;Viihdyttää
 Disarm;Poista aseista
 Sync WOM Group;Synkronoi WOM-ryhmä
-Withdraw-800;Nosto-800
-Deposit-800;Talletus - 800
 Retrieve-egg;Hae muna
 Expanded;Laajennettu
 Preview auto layout;Esikatsele automaattista asettelua
 Toggle warning;Varoitus päälle/pois
 Climb through;Kiipeä läpi
 Check count;Tarkista määrä
-Withdraw-150;Nosto-150
 Disassemble;Pura
-Deposit-150;Talletus - 150
 Gloomthorn Trail;Gloomthornin polku
 Make party;Järjestä juhlat
 Destinations;Kohteet
@@ -1955,7 +1732,6 @@ General-stats;Yleistilastot
 Teleport to <col=ff8040>Clan Wars</col>;Teleportoi <col=ff8040>Clan Warsiin</col>
 Join <col=ff8040>Clan Wars</col> channel;Liity <col=ff8040>Clan Wars</col> -kanavalle
 Use this layout;Käytä tätä asettelua
-Withdraw-80;Nosto-80
 Quick-slide;Nopea liuku
 Slide;Liuku
 Visual-effects;Visuaaliset efektit
@@ -1964,7 +1740,6 @@ Deposit-runes;Talletus-riimut
 Power-up;Virran päälle
 Take-chisel;Ota taltta
 Place-cell;Paikka-solu
-Take-1;Take-1
 Dark Mage;Dark Mage
 View-stats;Näytä-tilastot
 View-glory;Näytä - loistoa
@@ -2001,7 +1776,6 @@ Make <col=ff9040>Gold ring</col>;Tee <col=ff9040>kultasormus</col>
 Make <col=ff9040>Gold necklace</col>;Tee <col=ff9040>kultainen kaulakoru</col>
 Swing across;Käänny poikki
 Pick-orange;Pick-oranssi
-Buy: 5 x Ranarr seed;Osta: 5 x Ranarr siemen
 Deposit buckets;Talletusämpärit
 Claim Sand;Vaatii Sand
 Ferry;Lautta
@@ -2089,8 +1863,6 @@ Crown Info;Kruunun tiedot
 Last-destination (BLR);Viimeinen kohde (BLR)
 Complete;Täydellinen
 Climb over;Kiipeä yli
-Withdraw-56;Nosto-56
-Default quantity: 56;Oletusmäärä: 56
 Smash-to-bits;Smash-to-bits
 Enchant-Vials;Enchant-pullot
 Trade-Co-op;Trade-Co-op
@@ -2116,26 +1888,7 @@ Teleport to destination;Teleportoi määränpäähän
 eat;syödä
 Cast Spell;Cast Spell
 Lift;Hissi
-Sell: 28 x Bucket of water;Myydään: 28 x ämpäri vettä
-Buy: 350 x Bucket;Osta: 350 x ämpäri
-Sell: 392 x Bucket of water;Myydään: 392 x ämpäri vettä
-Withdraw-9;Nosto-9
-Deposit-9;Talletus-9
-Withdraw-27;Nosto-27
-Deposit-27;Talletus-27
-Sell: 500 x Logs;Myydään: 500 x Tukit
-Default quantity: 27;Oletusmäärä: 27
-Sell: 494 x Banana;Myynti: 494 x banaani
-Sell: 390 x Banana;Myynti: 390 x banaani
-Buy: 400 x Bones;Osta: 400 x Bones
-Sell: 300 x Banana;Myynti: 300 x banaani
 cast;heittää
-Sell: 416 x Banana;Myynti: 416 x banaani
-Default quantity: 9;Oletusmäärä: 9
-Sell: 100 x Pastry dough;Myynti: 100 x taikina
-Buy: 200 x Pot of flour;Osta: 200 x kattila jauhoja
-Sell: 1,064 x Bucket of water;Myynti: 1 064 x ämpäri vettä
-Sell: 252 x Bucket of water;Myydään: 252 x ämpäri vettä
 Toggle-minerals;Toggle-mineraalit
 Take-bowl;Take-Bowl
 Accept exchange;Hyväksy vaihto
@@ -2146,41 +1899,13 @@ Activate machine;Aktivoi kone
 Unlock machine;Avaa koneen lukitus
 Cancel operation;Peruuta toiminto
 Rank;Sijoitus
-Sell: 1,010 x Banana;Myynti: 1010 x banaani
 Last-destination (CIP);Viimeinen kohde (CIP)
 Set name;Aseta nimi
 wield;käytellä
-Sell: 99 x Bones;Myydään: 99 x Bones
-Sell: 23 x Logs;Myydään: 23 x Tukit
-Withdraw-25000000;Nosto - 25 000 000
-Sell: 1 x Old school bond;Myydään: 1 x Old school joukkovelkakirja
-Withdraw-100000;Nosto - 100 000
-Deposit-25000000;Talletus - 25 000 000
-Buy: 2 x Steel scimitar;Osta: 2 x teräsleikkuri
-Default quantity: 100,000;Oletusmäärä: 100 000
-Buy: 1 x Studded body;Osta: 1 x nastoitettu runko
-Deposit-100000;Talletus - 100 000
 Beanspruchen;Beanspruchen
 Smoke;Savu
 Last-destination (BJR);Viimeinen määränpää (BJR)
-Deposit-250;Talletus - 250
-Withdraw-43;Nosto-43
-Withdraw-250;Nosto-250
-Deposit-43;Talletus-43
-Default quantity: 18;Oletusmäärä: 18
-Withdraw-1971;Veto-1971
-Withdraw-1601;Nosto-1601
-Deposit-1601;Talletus-1601
-Withdraw-552;Nosto-552
-Deposit-552;Talletus-552
-Withdraw-5128;Nosto-5128
-Deposit-5128;Talletus-5128
-Withdraw-72000;Nosto-72000
-Deposit-72000;Talletus - 72 000
-Default quantity: 72,000;Oletusmäärä: 72 000
-Default quantity: 26;Oletusmäärä: 26
 Buy X;Osta X
-Withdraw-1092;Nosto-1092
 Ring-last-destination (DLQ);Ring-last-destination (DLQ)
 Remove-decorations;Poista-koristeet
 Jump on;Hyppää päälle
@@ -2193,13 +1918,9 @@ Throw-water;Heitä vettä
 Check-level;Tarkista taso
 Strike;Lakko
 Cut-branch;Leikkaushaara
-Deposit-13000;Talletus - 13 000
-Withdraw-13000;Nosto-13 000
 Play-With;Leikki-kanssa
 Trophies;Palkinnot
 Talk-At;Talk-At
-Deposit-7785;Talletus-7785
-Withdraw-7785;Nosto-7785
 Mount;Kiinnitä
 Unstuff;Unstuff
 Change-clothes;Vaihtovaatteet
@@ -2216,15 +1937,8 @@ Change icon (herb run);Vaihda kuvake (yrttijuoksu)
 Look out;Varoa
 Last-destination (DIP);Viimeinen määränpää (DIP)
 Ta Quir Priw;Ta Quir Priw
-Deposit-9000;Talletus - 9000
-Withdraw-9000;Nosto-9000
 Vote Now;Äänestä nyt
-Withdraw-144000;Nosto-144000
 Give;Antaa
-Withdraw-45;Nosto-45
-Deposit-45;Talletus-45
-Sell: 1 x Plank;Myydään: 1 x lankku
-Buy: 5 x Bolt of cloth;Osta: 5 x kangaspultti
 Withdraw-Notes;Nosto-muistiinpanot
 Remove-Placeholder;Poista-paikkamerkki
 Remove-All-Placeholders;Poista kaikki paikkamerkit
@@ -2246,22 +1960,8 @@ Select <col=ff981f>Elite;Valitse <col=ff981f>Elite
 Select <col=ff981f>Hard;Valitse <col=ff981f>Kova
 Master Tasks;Master Tasks
 Grandmaster Tasks;Suurmestarin tehtävät
-Withdraw-150000;Nosto - 150 000
-Deposit-150000;Talletus - 150 000
-Default quantity: 150,000;Oletusmäärä: 150 000
-Withdraw-888;Nosto-888
 Clear-All;Tyhjennä-kaikki
 Climb-through;Kiipeä läpi
-Withdraw-15000;Nosto-15 000
-Deposit-15000;Talletus - 15 000
-Withdraw-826;Nosto-826
-Withdraw-120;Nosto-120
-Deposit-19;Talletus-19
-Default quantity: 3;Oletusmäärä: 3
-Deposit-264;Talletus-264
-Withdraw-264;Nosto-264
-Withdraw-119;Nosto-119
-Deposit-119;Talletus-119
 Plank sack;Lankku säkki
 Amy's saw;Amy näki
 Carpenter's boots;Puusepän saappaat
@@ -2270,8 +1970,6 @@ Carpenter's shirt;Puusepän paita
 Hosidius blueprints;Hosidiuksen piirustukset
 Supply crate;Tarvikelaatikko
 Carpenter's helmet;Puusepän kypärä
-Withdraw-20;Nosto-20
-Deposit-20;Talletus - 20
 Deposit All from Inventory;Talleta kaikki varastosta
 Ghorrock Dungeon;Ghorrock Dungeon
 The Stranglewood;Stranglewood
@@ -2283,41 +1981,20 @@ Undead Grasp;Undead Tartu
 Take-from <col=00ffff>Fishing;Take-from <col=00ffff>Kalastus
 Take-from <col=00ffff>Hunting;Take-from <col=00ffff>Metsästys
 Take-from <col=00ffff>Herblore;Take from <col=00ffff>Herblore
-Default quantity: 119;Oletusmäärä: 119
-Deposit-888;Talletus-888
 Decorate;Koristella
 Carve;Carve
-Buy: 1 x Iron pickaxe;Osta: 1 x rautahakku
-Withdraw-12;Nosto-12
-Default quantity: 12;Oletusmäärä: 12
-Deposit-12;Talletus-12
 Boss list;Boss lista
 Pirate's Cove;Pirate's Cove
 Island of Stone;Kiven saari
 Ungael;Ungael
 Waterbirth Island;Vesisyntymäsaari
-Default quantity: 448;Oletusmäärä: 448
-Deposit-448;Talletus-448
-Withdraw-448;Nosto-448
 Exit Speedrunning;Lopeta Speedrunning
-Default quantity: 20;Oletusmäärä: 20
-Withdraw-11;Nosto-11
-Withdraw-6;Nosto-6
-Withdraw-2502;Nosto-2502
-Withdraw-30002;Nosto-30002
-Withdraw-3002;Nosto-3002
-Deposit-2502;Talletus-2502
-Deposit-30002;Talletus-30002
 Quick-travel;Pikamatka
 Roll;Rullaa
-Default quantity: 30,002;Oletusmäärä: 30 002
 Step-over;Astu yli
 Menagerie (outdoors);Menagerie (ulkona)
 Menagerie (indoors);Menagerie (sisätiloissa)
 Hall - Quest trophies;Hall - Quest-palkinnot
-Buy: 5 x Stamina potion(4);Osta: 5 x Stamina potion (4)
-Default quantity: 3,728;Oletusmäärä: 3 728
-Withdraw-3728;Nosto-3728
 Make <col=ff9040>Sapphire necklace</col>;Tee <col=ff9040>safiirikaulakoru</col>
 Darkmeyer;Darkmeyer
 Slepe;Nuku
@@ -2338,12 +2015,8 @@ Teleports;Teleportit
 Black chinchompas;Mustat chinchompat
 Carnivorous chinchompas;Lihansyöjä chinchompas
 POH Portals;POH-portaalit
-Deposit-42;Talletus-42
-Withdraw-42;Nosto-42
 The Darkfrost;The Darkfrost
 <col=E89C46>Kastori</col>;<col=E89C46>Kastori</col>
-Deposit-3728;Talletus-3728
-Deposit-50;Talletus - 50
 Craft-goods;Käsityötavarat
 Pass-to;Pass-to
 Mineral Pack;Mineraalipaketti
@@ -2363,7 +2036,6 @@ turn tile;käännä laatta
 Sindarpos;Sindarpos
 Evade;Kiertää
 Off/On;Pois/päällä
-Sell: 12 x Iron dagger;Myydään: 12 x rautatikari
 Start-wave;Aloitus-aalto
 Finish;Valmis
 Hoop;Vanne
@@ -2411,11 +2083,8 @@ Say-name;Sano nimi
 Add;Lisätä
 Adjust;Säätää
 Gnome Stronghold;Gnome Stronghold
-Withdraw-8902;Nosto-8902
-Deposit-8902;Talletus-8902
 Last-destination (ALQ);Viimeinen kohde (ALQ)
 View Channel;Näytä kanava
-Default quantity: 8,902;Oletusmäärä: 8 902
 Tracker;Tracker
 Goal;Maali
 Set to XP value;Aseta XP-arvoksi
@@ -2437,16 +2106,9 @@ Lire;Lire
 Miner;Kaivosmies
 Retirer;Eläkkeellä oleva
 Armure;Armure
-Withdraw-305;Nosto-305
-Withdraw-378;Nosto-378
-Deposit-378;Talletus-378
 Bind;Bind
 Crawl;Indeksoi
 Cut-foot;Leikattu jalka
-Default quantity: 378;Oletusmäärä: 378
-Withdraw-911;Nosto-911
-Deposit-911;Talletus-911
-Deposit-200000;Talletus - 200 000
 Sand;Hiekka
 Staves;Sauvat
 S'occuper de;S'occuper de
@@ -2454,32 +2116,8 @@ Se reposer;Katso reposer
 Leurre;Leurre
 Voir;Voir
 Vider;Vider
-Sell: 27 x Logs;Myydään: 27 x Tukit
 Verrouiller;Verrouiller
-Add ignore TangledHob;Lisää ohittaa TangledHob
-Add ignore TSwangin;Lisää ohita TSwangin
-Default quantity: 200,000;Oletusmäärä: 200 000
-Add friend TofuFlies;Lisää ystävä TofuFlies
-Add friend TSwangin;Lisää ystävä TSwangin
-Add friend Thegravywavy;Lisää kaveri Thegravywavy
-Add friend Warmtalon56;Lisää kaveri Warmtalon56
-Add ignore Warmtalon56;Lisää ignore Warmtalon56
-Add ignore T0x4;Lisää ohitus T0x4
-Add friend Vixivine;Lisää kaveri Vixivine
 Leave <col=ff8040>Pest Control</col> channel;Poistu <col=ff8040>Tuholaistorjunta</col>-kanavasta
-Add ignore SuGIMa Donk;Lisää ohita SuGIMa Donk
-Add ignore SynPol;Lisää ohittaa SynPol
-Add friend SynPol;Lisää ystävä SynPol
-Add ignore SW4GN4R0K;Lisää ohitus SW4GN4R0K
-Add ignore Vixivine;Lisää ignore Vixivine
-Add ignore Tora Cipha;Lisää ohita Tora Cipha
-Add friend T0x4;Lisää ystävä T0x4
-Add friend SW4GN4R0K;Lisää ystävä SW4GN4R0K
-Add friend Tora Cipha;Lisää ystävä Tora Cipha
-Add friend TangledHob;Lisää kaveri TangledHob
-Add friend SuGIMa Donk;Lisää ystävä SuGIMa Donk
-Add ignore Thegravywavy;Lisää ohittaa Thegravywavy
-Add ignore TofuFlies;Lisää ignore TofuFlies
 Ranged XP: 10 points;Range XP: 10 pistettä
 Hitpoints XP: 10 points;Hitpoints XP: 10 pistettä
 Hitpoints XP: 1 point;Hitpoints XP: 1 piste
@@ -2495,21 +2133,11 @@ Acheter;Acheter
 No, don't leave.;Ei, älä lähde.
 Expel members;Erota jäsenet
 Recruitment;Rekrytointi
-Sell: 1 x Bronze axe;Myydään: 1 x pronssikirves
 Check-keys;Check-avaimet
-Withdraw-59;Nosto-59
-Deposit-59;Talletus-59
-Withdraw-82;Nosto-82
-Deposit-49;Talletus-49
-Withdraw-34;Nosto-34
-Withdraw-37;Nosto-37
-Withdraw-49;Nosto-49
-Default quantity: 49;Oletusmäärä: 49
 Attraper;Attraper
 Cueillir;Cueillir
 Interagir;Interagir
 Se faufiler;Katso vianetsintä
-Sell: 1 x Raw trout;Myydään: 1 x raaka taimen
 Supply;Toimittaa
 Escort;Saattaja
 Objets de fêtes;Fêtes
@@ -2530,40 +2158,21 @@ Toggle-view;Vaihda näkymää
 Recharge-prayer;Lataa-rukous
 Last-destination (DIS);Viimeinen kohde (DIS)
 Last-destination (BKP);Viimeinen kohde (BKP)
-Withdraw-51;Nosto-51
-Deposit-60;Talletus - 60
-Deposit-51;Talletus-51
-Withdraw-732;Nosto-732
-Withdraw-636;Nosto-636
-Withdraw-64;Nosto-64
-Withdraw-60;Nosto-60
-Deposit-732;Talletus-732
 À l'extérieur;À l'extérieur
 Couper;Couper
-Default quantity: 60;Oletusmäärä: 60
-Deposit-236;Talletus-236
 DJR;DJR
 Favourites;Suosikit
 AJR;AJR
 CIR;CIR
 CIS;IVY
-Default quantity: 236;Oletusmäärä: 236
 View List;Näytä luettelo
 DIP;DIP
 Last-destination (BKS);Viimeinen kohde (BKS)
 BKS;BKS
-Buy: 1 x Tuna;Osta: 1 x tonnikala
-Deposit-2787;Talletus-2787
-Withdraw-2787;Nosto-2787
-Default quantity: 2,787;Oletusmäärä: 2 787
 Tirer;Tyler
-Sell: 1 x Skills necklace;Myydään: 1 x Skills kaulakoru
 View-game;Katso peli
 Cancel preview;Peruuta esikatselu
-Withdraw-856;Nosto-856
-Deposit-856;Talletus-856
 Last-destination (DLR);Viimeinen määränpää (DLR)
-Default quantity: 9,000;Oletusmäärä: 9 000
 Click this to add coal.;Napsauta tätä lisätäksesi hiiltä.
 Turn tar valve up;Käännä tervaventtiili ylös
 Turn pressure valve up;Käännä paineventtiili ylös
@@ -2619,65 +2228,17 @@ Select <col=ff981f>Nature rune;Valitse <col=ff981f>Nature Rune
 Examine <col=ff981f>Death rune;Tutki <col=ff981f>Kuoleman riimu
 Lemanto Andra;Lemanto Andra
 Battlefield of Khazard;Khazardin taistelukenttä
-Add ignore Wildcat;Lisää ignore Wildcat
-Add friend Xclearwater2;Lisää kaveri Xclearwater2
-Add friend X1_Cygnus;Lisää kaveri X1_Cygnus
-Add friend VeshonsAcc;Lisää kaveri VeshonsAcc
-Add ignore X1_Cygnus;Lisää ohitus X1_Cygnus
-Add friend XRatchet1313;Lisää kaveri XRatchet1313
-Add friend Wildcat;Lisää ystävä Wildcat
-Add ignore Xclearwater2;Lisää ohittaa Xclearwater2
-Add ignore VeshonsAcc;Lisää ohittaa VeshonsAcc
 Join <col=ff8040>Shield of Arrav</col> channel;Liity <col=ff8040>Shield of Arrav</col> -kanavalle
-Add ignore XRatchet1313;Lisää ohitus XRatchet1313
-Add ignore XxGARLITCHxX;Lisää ohitus XxGARLITCHxX
-Add friend XxGARLITCHxX;Lisää kaveri XxGARLITCHxX
-Add ignore Zarvll;Lisää ignore Zarvll
-Add friend Zpazt196;Lisää kaveri Zpazt196
-Add ignore xater;Lisää ignore xater
-Add friend Whoisu82;Lisää kaveri Whoisu82
-Add friend Zarvll;Lisää kaveri Zarvll
-Add friend wblion;Lisää ystävä wblion
 Leave <col=ff8040>Shield of Arrav</col> channel;Poistu <col=ff8040>Shield of Arrav</col> -kanavasta
-Add ignore Wenedi;Lisää ignore Wenedi
-Add ignore wblion;Lisää ignore wblion
-Add ignore YoMd_Debo;Lisää ohitus YoMd_Debo
-Add ignore Zpazt196;Lisää ignore Zpazt196
 Teleport to <col=ff8040>Shield of Arrav</col>;Teleportoi <col=ff8040>Shield of Arrav</col>iin
-Add ignore westymartell;Lisää ignore westymartell
-Add ignore Zourberts;Lisää ohittaa Zourberts
-Add friend xater;Lisää ystävä xater
-Add friend Wenedi;Lisää ystävä Wenedi
-Add friend westymartell;Lisää ystävä westymartell
-Add friend Zourberts;Lisää kaveri Zourberts
-Add friend YoMd_Debo;Lisää ystävä YoMd_Debo
-Add ignore Whoisu82;Lisää ohittaa Whoisu82
 Goutte;Goutte
 DÃ©truire;DÃ©truire
 Recherche;Recherche
 Buy Membership;Osta jäsenyys
-Add ignore OATHSLAYER42;Lisää ohitus OATHSLAYER42
 Switch <col=ff8040>491</col>;Vaihda <col=ff8040>491</col>
-Add friend thobblee;Lisää ystävä thobblee
-Add ignore Igvor;Lisää ohittaa Igvor
-Add ignore Trickster416;Lisää ignore Trickster416
-Add friend Igvor;Lisää ystävä Igvor
-Add friend Iron Veetz;Lisää ystävä Iron Veetz
-Add ignore thobblee;Lisää huomioimatta thobblee
-Add ignore Runeflick;Lisää ohita Runeflick
 Teleport to <col=ff8040>Burthorpe Games Room</col>;Teleportoi <col=ff8040>Burthorpe-pelihuoneeseen</col>
-Add friend GingerbreadF;Lisää kaveri GingerbreadF
 Leave <col=ff8040>Burthorpe Games Room</col> channel;Poistu <col=ff8040>Burthorpe Games Room</col> -kanavalta
-Add ignore Iron Veetz;Lisää ohittaa Iron Veetz
-Add ignore Wag City;Lisää ohita Wag City
-Add friend Wag City;Lisää ystävä Wag City
-Add friend OATHSLAYER42;Lisää kaveri OATHSLAYER42
-Add ignore GingerbreadF;Lisää ignore GingerbreadF
-Add friend jalc2026;Lisää kaveri jalc2026
 Join <col=ff8040>Burthorpe Games Room</col> channel;Liity <col=ff8040>Burthorpe Games Room</col> -kanavalle
-Add ignore jalc2026;Lisää ignore jalc2026
-Add friend Runeflick;Lisää kaveri Runeflick
-Add friend Trickster416;Lisää kaveri Trickster416
 Claim-Shield;Claim-Shield
 Swing Across;Swing Across
 Oubliette;Oubliette
@@ -2692,7 +2253,6 @@ CKR;CKR
 Remove<col=ff9040> Hint arrow;Poista<col=ff9040> ​​Vihje-nuoli
 Show<col=ff9040> Hint;Näytä<col=ff9040> ​​Vihje
 Ring-last-destination (AKP);Ring-last-destination (AKP)
-Withdraw-1884;Veto-1884
 Récompenses;Recompenses
 Tête de mort;Tête de mort
 Prix;Prix
@@ -2738,7 +2298,6 @@ Entrer (invité);Osallistuja (kutsu)
 Entrer (membre);Osallistuja (jäsen)
 NER Lookup;NER-haku
 Lunar Isle;Kuun saari
-Sell: 1 x Mithril chainbody;Myydään: 1 x Mithril-ketjurunko
 Tirannwn;Tirannwn
 Kourend;Kourend
 Channel (Wilderness);Kanava (erämaa)
@@ -2746,14 +2305,12 @@ Varlamore;Varlamore
 Asgarnia;Asgarnia
 Swap-Effect;Swap-efekti
 Toggle absorption;Vaihda absorptio
-Default quantity: 500,000;Oletusmäärä: 500 000
 Play-with;Leikkiä kanssa
 Afirmar;Afirmar
 Withdraw-all;Nosta kaikki
 Withdraw-last;Nosto-viimeinen
 Orar en;Orar en
 Crumble Undead;Crumble Undead
-Sell: 104 x Bronze bar;Myydään: 104 x pronssitanko
 Valor;Valor
 Remove from playlist 2;Poista soittolistasta 2
 Peer-into;Tutustu
@@ -2763,16 +2320,8 @@ Offer All;Tarjoa kaikki
 Offer X;Tarjous X
 Robar de;Robar de
 View journal <col=ff981f>Children of the Sun</col>;Näytä päiväkirja <col=ff981f>Auringon lapset</col>
-Sell: 14 x Cowhide;Myydään: 14 x lehmännahkaa
-Buy: 1 x Mithril platelegs;Osta: 1 x Mithrill-levyjalka
-Default quantity: 3,000;Oletusmäärä: 3 000
-Withdraw-1800;Nosto-1800
-Deposit-1800;Talletus 1800
-Sell: 2 x Gold bar;Myydään: 2 x kultaharkko
 Clamber;Kiivetä
 View journal <col=ff981f>Druidic Ritual</col>;Näytä päiväkirja <col=ff981f>Druidirituaali</col>
-Sell: 1 x Bronze sq shield;Myydään: 1 x pronssineliökilpi
-Buy: 1 x Steel platebody;Osta: 1 x teräslevyrunko
 Rules;säännöt
 Looting;Ryöstämistä
 Area of effect;Vaikutusalue
@@ -2785,135 +2334,11 @@ Last-destination (Shilo village: Stepping stone);Viimeinen määränpää (Shilo
 Last-destination (Auburn valley: Log balance (north));Viimeinen määränpää (Auburnin laakso: Puun saldo (pohjoinen))
 Last-destination (Mort myre: Stepping stone);Viimeinen määränpää (Mort myre: Stepping stone)
 Last-destination (Hosidius: River stepping stone);Viimeinen määränpää (Hosidius: Joen ponnahduskivi)
-Buy: 1 x Team-42 cape;Osta: 1 x Team-42 viitta
-Add ignore Runheim;Lisää ignore Runheim
-Add ignore dds maniac;Lisää ohita dds-maniac
-Add ignore maxncheech;Lisää ignore maxncheech
-Add friend Crybals;Lisää ystävä Crybals
-Add ignore Valdromus;Lisää huomiotta Valdromus
-Add ignore keysuka;Lisää ignore keysuka
-Add friend Fe Striction;Lisää kaveri Fe Striction
-Add ignore My Void op;Lisää ohita My Void op
-Add ignore ElCapiDanno;Lisää huomiotta ElCapiDanno
-Add friend Lxnchables;Lisää ystävä Lxnchables
-Add friend CippsyPotato;Lisää kaveri CippsyPotato
-Add friend Rangertomgun;Lisää kaveri Rangertomgun
-Add ignore DarkLord845;Lisää ohita DarkLord845
-Add ignore jjonive;Lisää ignore jjonive
-Add friend HueyTheFool;Lisää kaveri HueyTheFool
-Add ignore CippsyPotato;Lisää ohittaa CippsyPotato
-Add ignore WasabiHole;Lisää ignore WasabiHole
-Add ignore dougismyuser;Lisää ignore dougismyuser
-Add ignore ReignDown;Lisää ignore ReignDown
-Add friend lil ferdex;Lisää ystävä lil ferdex
-Add friend Shaky Knees;Lisää ystävä Shaky Knees
-Add ignore EeselIM;Lisää ohittaa EeselIM
-Add friend DarkLord845;Lisää kaveri DarkLord845
-Add ignore HueyTheFool;Lisää ohittaa HueyTheFool
-Add friend N00boBaggins;Lisää kaveri N00boBaggins
-Add ignore bazy;Lisää ignore bazy
-Add ignore Shaky Knees;Lisää ignore Shaky Knees
-Add friend Onyxmine;Lisää kaveri Onyxmine
-Add friend B POS1TIVE;Lisää ystävä B POS1TIVE
-Add ignore IronTaint98;Lisää huomiotta IronTaint98
-Add friend jjonive;Lisää ystävä jjonive
-Add friend WasabiHole;Lisää ystävä WasabiHole
-Add friend Zero Magik;Lisää kaveri Zero Magik
-Add friend dds maniac;Lisää ystävä dds-maniakki
-Add ignore Lxnchables;Lisää ignore Lxnchables
-Add ignore CommonTroll;Lisää ohittaa CommonTroll
-Add ignore mr backshots;Lisää ohita herra backshots
-Add ignore Pvt-Stainz;Lisää ignore Pvt-Stainz
-Add friend Black Block2;Lisää ystävä Black Block2
-Add friend RaioRaioRaio;Lisää ystävä RaioRaioRaio
-Add ignore Pee Knight;Lisää ohita Pee Knight
-Add friend Wolfsail2331;Lisää kaveri Wolfsail2331
-Add friend Nimaruz;Lisää kaveri Nimaruz
-Add ignore cas2891111;Lisää ohitus cas2891111
-Add friend 69Potatoes;Lisää kaveri 69Potatoes
-Add friend AhrimedJob;Lisää ystävä AhrimedJob
-Add friend mr backshots;Lisää kaverin taustakuvat
-Add friend bazy;Lisää ystävä bazy
-Add friend Notdevoid30;Lisää ystävä Notderoid30
-Add ignore AhrimedJob;Lisää ohittaa AhrimedJob
-Add friend Tomtes HCIM;Lisää ystävä Tomtes HCIM
-Add ignore JerryJag;Lisää ohittaa JerryJag
-Add friend Pee Knight;Lisää kaveri Pee Knight
-Add friend EeselIM;Lisää ystävä EeselIM
-Add friend Kappa Cabba;Lisää kaveri Kappa Cabba
-Add friend Mazumizu;Lisää kaveri Mazumizu
-Add friend Wallpii;Lisää ystävä Wallpii
-Add friend SilentEunuch;Lisää kaveri SilentEunuch
-Add ignore Rangertomgun;Lisää ohittaa Rangertomgun
-Add ignore Tavov;Lisää huomiotta Tavov
-Add friend BreakingChin;Lisää ystävä BreakingChin
-Add friend Maatumaatu;Lisää kaveri Maatumaatu
-Add friend maxncheech;Lisää ystävä maxncheech
-Add friend JerryJag;Lisää kaveri JerryJag
-Add friend ElCapiDanno;Lisää kaveri ElCapiDanno
-Add friend ReignDown;Lisää ystävä ReignDown
-Add friend mr herry 12;Lisää ystävä, herra herry 12
-Add friend TreviiFTW;Lisää kaveri TreviiFTW
-Add friend Runheim;Lisää kaveri Runheim
-Add friend dougismyuser;Lisää ystävä dougismyuser
-Add ignore Mazumizu;Lisää ignore Mazumizu
-Add ignore Zero Magik;Lisää ignore Zero Magik
-Add ignore mr herry 12;Lisää ohita herra herry 12
-Add friend Pvt-Stainz;Lisää kaveri Pvt-Stainz
-Add ignore Frinkytastic;Lisää ohittaa Frinkytastic
-Add friend Valdromus;Lisää kaveri Valdromus
-Add friend Futanarian69;Lisää kaveri Futanarian69
-Add friend IsIt1ron;Lisää kaveri IsIt1ron
-Add ignore TreviiFTW;Lisää ignore TreviiFTW
-Add friend IronTaint98;Lisää kaveri IronTaint98
-Add friend Frinkytastic;Lisää kaveri Frinkytastic
-Add ignore fa gf;Lisää ohita fa gf
-Add ignore lil ferdex;Lisää ignore lil ferdex
-Add ignore Built By AI;Lisää ohitus, jonka on rakentanut AI
-Add ignore Maatumaatu;Lisää ignore Maatumaatu
-Add ignore Notdevoid30;Lisää ohitus Notdevoid30
-Add ignore Wolfsail2331;Lisää ignore Wolfsail2331
-Add ignore Nimaruz;Lisää ohittaa Nimaruz
-Add friend Built By AI;Lisää ystävä, jonka on rakentanut AI
-Add ignore jpeg art;Lisää ohita jpeg-taide
-Add friend cas2891111;Lisää kaveri cas2891111
-Add friend keysuka;Lisää ystävä keysuka
-Add ignore Black Block2;Lisää ohittaa Black Block2
-Add friend H311fire191;Lisää kaveri H311fire191
-Add ignore Fe Striction;Lisää ohittaa Fe Striction
-Add ignore N00boBaggins;Lisää ignore N00boBaggins
-Add ignore 69Potatoes;Lisää ignore 69Potatoes
-Add ignore CutePoisonnn;Lisää ohita CutePoisonnn
-Add friend fa gf;Lisää ystävä fa gf
-Add ignore Onyxmine;Lisää ignore Onyxmine
-Add ignore BreakingChin;Lisää ohittaa BreakingChin
-Add ignore Crybals;Lisää ignore Crybals
-Add ignore Futanarian69;Lisää ohita Futanarian69
-Add friend CommonTroll;Lisää ystävä CommonTroll
-Add ignore IsIt1ron;Lisää ignore IsIt1ron
-Add ignore H311fire191;Lisää ignore H311fire191
-Add ignore Wallpii;Lisää ignore Wallpii
-Add ignore Tomtes HCIM;Lisää ohita Tomtes HCIM
-Add friend CutePoisonnn;Lisää ystävä CutePoisonnn
-Add friend Tavov;Lisää ystävä Tavov
-Add ignore Kappa Cabba;Lisää ohita Kappa Cabba
-Add ignore B POS1TIVE;Lisää ohitus B POS1TIVE
-Add friend My Void op;Lisää ystävä My Void op
-Add ignore RaioRaioRaio;Lisää ohita RaioRaioRaio
-Add friend jpeg art;Lisää ystävä jpeg-taidetta
-Add ignore SilentEunuch;Lisää ohita SilentEunuch
-Deposit-400000;Talletus - 400 000
-Withdraw-400000;Nosto - 400 000
-Buy: 10 x Camelot teleport;Osta: 10 x Camelot-teleportti
 Modo de construccion;Modo de construction
 Casa;Casa
 Casa de amigos;Casa de amigos
 Switch <col=ff8040>394</col>;Vaihda <col=ff8040>394</col>
 Make<col=ff9040> Waka canoe;Merkki<col=ff9040> ​​Waka-kanootti
-Default quantity: 99;Oletusmäärä: 99
-Deposit-99;Talletus - 99
-Withdraw-99;Nosto-99
-Withdraw 5;Nosta 5
 View <col=ff9040>Woodcutting</col> guide;Katso <col=ff9040>Puunleikkaus</col>-opas
 ALP;ALP
 Quick-start;Pika-aloitus
@@ -2927,33 +2352,21 @@ Select <col=ff891f>Demonic Trident Ornament Kit.;Valitse <col=ff891f>Demonic Tri
 Select <col=ff891f>Leagues VI Relic Hunter (T3);Valitse <col=ff891f>Leagues VI Relic Hunter (T3)
 Unlocked;Avattu
 Zoom Out;Loitonna
-Sell: 21 x Hard leather;Myydään: 21 x Kova nahka
 Sniff;Haistella
-Withdraw-190;Nosto-190
 Select <col=ff981f>Imp repellent;Valitse <col=ff981f>Imp repellent
 Select <col=ff981f>Jar generator;Valitse <col=ff981f>Tölkkigeneraattori
 Select <col=ff981f>Magic butterfly net;Valitse <col=ff981f>Maaginen perhosverkko
 Select <col=ff981f>Impling jar;Valitse <col=ff981f>Impling jar
 Last-destination (CKQ);Viimeinen määränpää (CKQ)
-Sell: 1 x Beer glass;Myydään: 1 x olutlasi
-Deposit-190;Talletus - 190
 Locked;Lukittu
 Reclaim;Takaisin
 Select <col=ff891f>Leagues V Death;Valitse <col=ff891f>Leagues V Death
 Select <col=ff891f>Leagues V Portal;Valitse <col=ff891f>Liigat V -portaali
 Select <col=ff891f>Demonic Butler Scroll;Valitse <col=ff891f>Demoninen Butler Scroll
 Select <col=ff891f>Leagues V Curtains;Valitse <col=ff891f>Liigat V -verhot
-Buy: 1 x Demonic trident ornament kit;Osta: 1 x Demonic trident -koristesarja
-Withdraw-339;Nosto-339
 Rumour-settings;Huhu-asetukset
-Deposit-123123;Talletus-123123
-Withdraw-123123;Nosto-123123
 Fur-clothing;Turkis-vaatteet
 Take-log;Ota loki
-Default quantity: 55;Oletusmäärä: 55
-Withdraw-55;Nosto-55
-Deposit-55;Talletus - 55
-Sell: 19 x Ogre arrow;Myydään: 19 x Ogre-nuoli
 Vote;Äänestää
 Check tax;Tarkista vero
 Request-supplies;Pyydä tarvikkeita
@@ -2968,24 +2381,17 @@ Sabotage;Sabotoida
 Plant-evidence;Kasvien todisteet
 Charter-to Civitas illa Fortis;Charter-to Civitas illa Fortis
 Bless;Siunata
-Buy: 1 x Steel pickaxe;Osta: 1 x teräshakku
 Impling-jar;Impling-purkki
 Butterfly-jar;Butterfly-purkki
 Make <col=ff9040>Sapphire ring</col>;Tee <col=ff9040>safiirisormus</col>
 Make <col=ff9040>Emerald ring</col>;Tee <col=ff9040>Smaragdisormus</col>
-Deposit-2500;Talletus - 2500
-Withdraw-2500;Nosto-2500
 Crush;Murskata
-Withdraw-35;Nosto-35
-Deposit-35;Talletus - 35
 Look-into;Tutustuminen
-Buy: 1 x Rope;Osta: 1 x köysi
 Reset Vertical;Palauta pystysuuntainen
 Resize Vertical;Muuta kokoa pystysuunnassa
 View <col=ff9040>Attack</col> guide;Katso <col=ff9040>hyökkäys</col>-opas
 View <col=ff9040>Slayer</col> guide;Katso <col=ff9040>Slayer</col> -opas
 View <col=ff9040>Hitpoints</col> guide;Katso <col=ff9040>Hitpoints</col>-opas
-Default quantity: 35;Oletusmäärä: 35
 Body type A;Runkotyyppi A
 View Facial hair;Näytä Kasvojen hiukset
 View Hair;Näytä Hiukset
@@ -2998,11 +2404,6 @@ View Body types;Näytä vartalotyypit
 Upgrades;Päivitykset
 Benefits;Edut
 Lookup-entity;Haku-entiteetti
-Deposit-1181;Talletus-1181
-Withdraw-1181;Nosto-1181
-Buy: 1 x Rune crossbow;Osta: 1 x Rune varsijousi
-Deposit-8;Talletus-8
-Withdraw-8;Nosto-8
 Select <col=ff891f>Shattered Relic Hunter (T1);Valitse <col=ff891f>Shattered Relic Hunter (T1)
 Select <col=ff891f>Shattered Mystic Orn Kit;Valitse <col=ff891f>Shattered Mystic Orn Kit
 Select <col=ff891f>Trailblazer Graceful Kits x6;Valitse <col=ff891f>Trailblazer Graceful Kits x6
@@ -3024,17 +2425,10 @@ Select <col=ff891f>Trailblazer Globe;Valitse <col=ff891f>Trailblazer Globe
 Select <col=ff891f>Trailblazer Teleport Scroll;Valitse <col=ff891f>Trailblazer Teleport Scroll
 Select <col=ff891f>Echo Venator Bow Orn Kit;Valitse <col=ff891f>Echo Venator Bow Orn Kit
 Recoil Settings;Rekyyliasetukset
-Deposit-339;Talletus-339
-Default quantity: 339;Oletusmäärä: 339
 Recoil settings;Rekyyliasetukset
-Withdraw-6000000;Nosto-6000000
 Bandit Camp;Bandiitin leiri
 Lava Maze;Laava labyrintti
 Chaos Temple;Kaaoksen temppeli
-Withdraw-6000;Nosto-6000
-Deposit-6000;Talletus - 6000
-Buy: 13 x Rune platebody;Osta: 13 x Rune platebody
-Buy: 1 x Mithril full helm;Osta: 1 x Mithril-täysruori
 Check completion;Tarkista valmistuminen
 Channel (Kandarin);kanava (kandariini)
 Make <col=ff9040>Onyx amulet (u)</col>;Tee <col=ff9040>Onyx-amuletti (u)</col>
@@ -3042,21 +2436,9 @@ Make <col=ff9040>Onyx bracelet</col>;Tee <col=ff9040>Onyx-rannekoru</col>
 Buy sets:;Osta sarjat:
 Jump-from;Jump-from
 Channel (Karamja);Kanava (Karamja)
-Default quantity: 6,000;Oletusmäärä: 6 000
-Buy: 1 x Adamant full helm;Osta: 1 x Adamant-täysruori
-Buy: 150 x Rune dagger;Osta: 150 x Rune tikari
 Master;Hallita
 Make <col=ff9040>Slayer ring (8)</col>;Tee <col=ff9040>Slayer-rengas (8)</col>
-Sell: 1 x Uncut emerald;Myydään: 1 x leikkaamaton smaragdi
 Make-cuppa;Make-cuppa
-Buy: 1 x Armadyl rune armour set (lg);Osta: 1 x Armadyl rune panssarisarja (lg)
-Sell: 1 x Armadyl platelegs;Myydään: 1 x Armadyl levyjalka
-Deposit-499;Talletus - 499
-Withdraw-499;Nosto-499
-Buy: 15 x Rune platebody;Osta: 15 x Rune platebody
-Sell: 500 x Amulet of strength;Myynti: 500 x voimaamuletti
-Buy: 1 x Rune platebody;Osta: 1 x Rune platebody
-Buy: 1 x Rune longsword;Osta: 1 x Rune pitkä miekka
 Unstore;Poista tallennus
 Ring-last-destination (DJP);Ring-last-destination (DJP)
 Rustle;Rasahdus
@@ -3066,31 +2448,10 @@ Ring-last-destination (BJS);Ring-last-destination (BJS)
 Aim and Fire;Tähtää ja tulta
 Amy;Amy
 View Info;Näytä tiedot
-Buy: 20 x Rune platebody;Osta: 20 x Rune platebody
-Buy: 40 x Rune full helm;Osta: 40 x Rune täysi ruori
-Deposit-38;Talletus-38
-Buy: 80 x Adamant platebody;Osta: 80 x Adamant platebody
-Buy: 100 x Sapphire amulet;Osta: 100 x Sapphire amuletti
-Withdraw-5000000;Nosto - 5 000 000
-Deposit-5000000;Talletus - 5 000 000
-Default quantity: 5,000,000;Oletusmäärä: 5 000 000
-Deposit-3000000;Talletus - 3 000 000
-Deposit-13500000;Talletus 13500000
-Withdraw-13500000;Nosto-13500000
-Deposit-15000000;Talletus - 15 000 000
-Withdraw-3000000;Nosto - 3 000 000
-Withdraw-15000000;Nosto - 15 000 000
-Withdraw-108;Nosto-108
-Deposit-108;Talletus-108
-Deposit-542;Talletus-542
-Withdraw-542;Nosto-542
 Teleport to <col=ff8040>Castle Wars</col>;Teleportoi <col=ff8040>Castle Warsiin</col>
 Join <col=ff8040>Castle Wars</col> channel;Liity <col=ff8040>Castle Wars</col> -kanavalle
 Make <col=ff9040>Diamond bracelet</col>;Tee <col=ff9040>timanttirannekoru</col>
 Blackout;Sähkökatkos
-Withdraw-23;Nosto-23
-Deposit-23;Talletus-23
-Default quantity: 23;Oletusmäärä: 23
 Select <col=ff891f>Tier 1 Adventurer's Outfit;Valitse <col=ff891f>Tier 1 Seikkailijan asu
 Select <col=ff891f>Tier 2 Adventurer's Outfit;Valitse <col=ff891f>Tier 2 Seikkailijan asu
 Select <col=ff891f>Speedy Teleport Scroll;Valitse <col=ff891f>Speedy Teleport Scroll
@@ -3100,7 +2461,6 @@ Collections overview;Kokoelmien yleiskatsaus
 Stairs to Timeline exhibit;Portaat aikajanalle -näyttely
 Collections Overview;Kokoelmien yleiskatsaus
 Last-destination (ALR);Viimeinen kohde (ALR)
-Default quantity: 542;Oletusmäärä: 542
 Select <col=ff9040>Pineapple punch;Valitse <col=ff9040>Ananaspunssi
 Select <col=ff9040>Fruit blast;Valitse <col=ff9040>Fruit blast
 Select <col=ff9040>Blurberry special;Valitse <col=ff9040>Blurberry-erikois
@@ -3108,29 +2468,18 @@ Mix-cocktail;Mix-cocktail
 Select <col=ff9040>Chocolate saturday;Valitse <col=ff9040>Suklaalauantai
 Select <col=ff9040>Drunk dragon;Valitse <col=ff9040>Huoneen lohikäärme
 Select <col=ff9040>Short green guy;Valitse <col=ff9040>Lyhyt vihreä kaveri
-Default quantity: 2;Oletusmäärä: 2
 Magic XP: 1 point;Magic XP: 1 piste
 Magic XP: 100 points;Magic XP: 100 pistettä
 Strength XP: 100 points;Vahvuus XP: 100 pistettä
 Magic XP: 10 points;Magic XP: 10 pistettä
 Ranged XP: 100 points;Range XP: 100 pistettä
-Buy: 70 x Ruby amulet;Osta: 70 x Ruby amulet
-Buy: 1,000 x Ruby amulet;Osta: 1 000 x Ruby amuletti
 Steal;Varastaa
-Buy: 2,000 x Cosmic rune;Osta: 2000 x Cosmic Rune
 Toggle-activity;Toggle-aktiviteetti
-Buy: 1,320 x Cosmic rune;Osta: 1 320 x Cosmic Rune
-Default quantity: 6,000,000;Oletusmäärä: 6 000 000
 Release all placeholders (38);Vapauta kaikki paikkamerkit (38)
-Deposit-6000000;Talletus - 6 000 000
 Dissolve;Liuota
-Sell: 826 x Amulet of strength;Myydään: 826 x voimaamuletti
 BJS;BJS
 BJP;BJP
 Ring-last-destination (CKQ);Ring-last-destination (CKQ)
-Buy: 1 x Gilded platelegs;Osta: 1 x kullatut levyjalat
-Buy: 1 x Bones;Osta: 1 x Bones
-Sell: 13,000 x Steel nails;Myydään: 13 000 x teräsnaulat
 View <col=ff9040>Smithing</col> guide;Katso <col=ff9040>Smithingin</col>-opas
 Clan name;Klaanin nimi
 Permission access;Käyttöoikeus
@@ -3156,9 +2505,6 @@ Controles;Ohjaimet
 Conta;Conta
 Habilidades;Habilidades
 Previous page;Edellinen sivu
-Buy: 1,990 x Ruby amulet;Osta: 1 990 x Ruby amulet
-Sell: 1,310 x Amulet of strength;Myynti: 1 310 x voimaamuletti
-Buy: 90 x Rune platebody;Osta: 90 x Rune platebody
 Move Left;Siirrä vasemmalle
 Move Right;Siirrä oikealle
 Move Down;Siirrä alas
@@ -3188,15 +2534,12 @@ História;Historia
 Trocar;Trocar
 Confirmar;Vahvistaja
 Conjuntos;Conjuntos
-Withdraw-727;Nosto-727
-Buy: 1 x Emerald;Osta: 1 x Emerald
 Ver oferta;Ver oferta
 Abortar oferta;Abortar tarjous
 Depósito-X;Depósito-X
 Preços;Preços
 Depósitar-1;Depósitar-1
 Depósitar-10;Depósitar-10
-Deposit-727;Talletus-727
 Depósito-Tudo;Depósito-Tudo
 Depósitar-5;Depósitar-5
 Insira o preço;Insira o preço
@@ -3204,9 +2547,7 @@ Make <col=ff9040>Emerald necklace</col>;Tee <col=ff9040>Smaragdikaulakoru</col>
 Adicionar amigo;Adicionar amigo
 Mostrar no mapa:;Mostrar ei karttaa:
 Leia o diário:;Leia tai diário:
-Sell: 50 x Emerald necklace;Myydään: 50 x smaragdi kaulakoru
 Saque;Saque
-Withdraw-4000;Nosto-4000
 Recompensas;Recompensas
 Compre 5;Vertaa 5
 Vender 50<col=ff9040>;Myyjä 50<col=ff9040>
@@ -3217,7 +2558,6 @@ Valor<col=ff9040>;Valor<col=ff9040>
 Compre 10;Vertaa 10
 Vender 5<col=ff9040>;Myyjä 5<col=ff9040>
 Compre 1;Vertaa 1
-Default quantity: 4,000;Oletusmäärä: 4 000
 Chefes;Kokit
 Tarefas;Tarefas
 Registro de coleta;Registro de coleta
@@ -3226,271 +2566,55 @@ Visão geral da coleção;Visão geral da coleção
 Resgatar;Resgatar
 Compre-50;Compre-50
 Remover;Poistoaine
-Default quantity: 15,000,000;Oletusmäärä: 15 000 000
-Deposit-6;Talletus-6
 Ver estatísticas do equipamento;Ver estatísticas do equipamento
 Empty Dish;Tyhjä astia
-Sell: 1,500 x Iron arrow;Myydään: 1500 x rautanuoli
-Buy: 1,500 x Headless arrow;Osta: 1 500 x päätön nuoli
-Buy: 3 x Chocolate bar;Osta: 3 x suklaapatukka
 Look-in;Katso sisään
 Look in;Katso sisään
 Info:;Tiedot:
 Mostrar no mapa;Mostrar ei karttaa
 Mostrar;Mostrar
 Clear them all;Tyhjennä ne kaikki
-Buy: 1 x Adamant platelegs;Osta: 1 x Adamant-levyjalka
 Retaliação automática;Retaliação automatica
 Pedágio (10gp);Pedágio (10gp)
 Excluir amigo;Excluir amigo
 Soco;Soco
 Bloquear;Bloquear
-Deposit-18000;Talletus - 18 000
-Withdraw-18000;Nosto-18000
-Add friend OmfgitsJezus;Lisää kaveri OmfgitsJezus
-Add friend lunaluna;Lisää kaveri lunaluna
-Add ignore SPINOZA78;Lisää ohitus SPINOZA78
-Add ignore YoungJimz;Lisää ohita YoungJimz
-Add ignore New Burial;Lisää ohita Uusi hautaaminen
-Add friend ReadSR;Lisää ystävä ReadSR
-Add ignore WyattsWildy;Lisää ohittaa WyattsWildy
-Add friend Wheat312;Lisää kaveri Wheat312
-Add friend Pow3rmaxsk1l;Lisää kaveri Pow3rmaxsk1l
-Add ignore OmfgitsJezus;Lisää ignore OmfgitsJezus
-Add ignore Marc Ecko;Lisää ohitus Marc Ecko
-Add friend LinuxS3XTips;Lisää ystävä LinuxS3XTips
-Add friend pedromain;Lisää kaveri pedromain
-Add ignore Pimptime69;Lisää ohitus Pimptime69
-Add ignore Macdin;Lisää ohita Macdin
-Add ignore Pow3rmaxsk1l;Lisää ignore Pow3rmaxsk1l
-Add friend SirPudrick;Lisää ystävä SirPudrick
-Add friend Runsirongi;Lisää kaveri Runsirongi
-Add friend Tim Sanchez;Lisää kaveri Tim Sanchez
-Add ignore pedromain;Lisää ignore pedromain
-Add friend WyattsWildy;Lisää ystävä WyattsWildy
-Add ignore Voidloser;Lisää ohittaa Voidloser
-Add friend MavenDracan;Lisää ystävä MavenDracan
-Add friend Marc Ecko;Lisää ystävä Marc Ecko
-Add friend YoungJimz;Lisää kaveri YoungJimz
-Add friend Pimptime69;Lisää ystävä Pimptime69
-Add ignore TerpyHigh;Lisää ohittaa TerpyHigh
-Add friend SPINOZA78;Lisää ystävä SPINOZA78
-Add friend YBN Aleedarg;Lisää kaveri YBN Aleedarg
-Add ignore YBN Aleedarg;Lisää ignore YBN Aleedarg
-Add ignore Runsirongi;Lisää ohita Runsirongi
-Add ignore ReadSR;Lisää ohittaa ReadSR
-Add ignore Wheat312;Lisää ignore Wheat312
-Add ignore LinuxS3XTips;Lisää ohittaa LinuxS3XTips
-Add ignore MavenDracan;Lisää ignore MavenDracan
-Add ignore x DAPPER DAN;Lisää ohitus x DAPPER DAN
-Add friend Voidloser;Lisää ystävä Voidloser
-Add friend New Burial;Lisää ystävä Uusi hautaus
-Add friend Macdin;Lisää ystävä Macdin
-Add friend x DAPPER DAN;Lisää ystävä x DAPPER DAN
-Add friend Tylon561;Lisää kaveri Tylon561
-Add friend TerpyHigh;Lisää kaveri TerpyHigh
-Add friend Serve God;Lisää ystävä Palvele Jumalaa
-Add ignore Tim Sanchez;Lisää huomiotta Tim Sanchez
-Add ignore SirPudrick;Lisää ohittaa SirPudrick
-Add ignore Serve God;Lisää huomiotta palvele Jumalaa
-Add ignore lunaluna;Lisää ignore lunaluna
-Add ignore Tylon561;Lisää ohittaa Tylon561
 Void Knight Seal;Void Knight Seal
 Void Knight Top;Void Knight Top
 Void Ranger Helm;Void Ranger Helm
 Void Knight Gloves;Void Knight Gloves
-Add ignore Goth Girl XO;Lisää ohittaa Goth Girl XO
-Add ignore Perry2fly;Lisää ignore Perry2fly
-Add friend LAMPTIONED;Lisää ystävä LAMPTIONED
-Add friend J a c k e l;Lisää ystävä J a c k e l
-Add friend Zul n Dro;Lisää ystävä Zul n Dro
-Add friend SekiroTank;Lisää kaveri SekiroTank
-Add ignore NotSeeGIM;Lisää ohittaa NotSeeGIM
-Add ignore Lumberg;Lisää huomioimatta Lumberg
-Add ignore LAMPTIONED;Lisää ohitus LAMPTIONED
-Add ignore Pontiff1;Lisää ohittaa Pontiff1
-Add ignore Yunglitho;Lisää ignore Yunglitho
-Add friend NotSeeGIM;Lisää ystävä NotSeeGIM
-Add ignore KisaMiaow;Lisää ohita KisaMiaow
-Add ignore Sibyllistes;Lisää ohita Sibyllistes
-Add ignore ZeroPolone;Lisää ohittaa ZeroPolone
-Add friend Leo LaRocca;Lisää ystävä Leo LaRocca
-Add ignore J a c k e l;Lisää ohitus J a c k e l
-Add friend YurBoiFrost;Lisää kaveri YurBoiFrost
-Add friend Ostehbos;Lisää kaveri Ostehbos
-Add ignore Kat Kill U;Lisää ohita Kat Kill U
-Add friend Kat Kill U;Lisää kaveri Kat Kill U
-Add ignore nerdnd;Lisää ignore nerdnd
-Add friend ToughShitMF;Lisää ystävä ToughShitMF
-Add friend ZeroPolone;Lisää ystävä ZeroPolone
-Add friend sky roarrent;Lisää ystävä taivas roarrent
-Add friend Sibyllistes;Lisää kaveri Sibyllistes
-Add friend Goth Girl XO;Lisää kaveri Goth Girl XO
-Add ignore Ostehbos;Lisää ohittaa Ostehbos
-Add ignore Zul n Dro;Lisää ohita Zul n Dro
-Add ignore YurBoiFrost;Lisää ignore YurBoiFrost
-Add ignore R O S I T A;Lisää ohitus R O S I T A
-Add ignore TBAGMASTER66;Lisää ohitus TBAGMASTER66
-Add friend nerdnd;Lisää ystävä nerdnd
-Add friend Iron Typhil;Lisää ystävä Iron Typhil
-Add ignore Iron Typhil;Lisää ohittaa Iron Typhil
-Add ignore sky roarrent;Lisää ignore sky roarrent
-Add friend Lumberg;Lisää kaveri Lumberg
-Add ignore SekiroTank;Lisää ohita SekiroTank
-Add ignore S00prman;Lisää ignore S00prman
-Add friend R O S I T A;Lisää ystävä R O S I T A
-Add friend TBAGMASTER66;Lisää kaveri TBAGMASTER66
-Add ignore Leo LaRocca;Lisää ohittaa Leo LaRocca
-Add friend Yunglitho;Lisää ystävä Yunglitho
-Add friend S00prman;Lisää kaveri S00prman
-Add ignore ToughShitMF;Lisää ohittaa ToughShitMF
-Add friend KisaMiaow;Lisää kaveri KisaMiaow
-Add friend Pontiff1;Lisää kaveri Pontiff1
-Add friend Perry2fly;Lisää ystävä Perry2fly
-Add ignore ValconNE;Lisää ohitus ValconNE
-Add friend The Fe Boi;Lisää ystävä The Fe Boi
-Add friend Uncle Rustus;Lisää ystävä setä Rustus
-Add ignore WarheartRahl;Lisää ignore WarheartRahl
-Add ignore Uncle Rustus;Lisää ohita setä Rustus
-Add ignore V B Stubby;Lisää ohitus V B Stubby
 Leave <col=ff8040>Barbarian Assault</col> channel;Poistu <col=ff8040>Barbarian Assault</col> -kanavalta
-Add ignore uwu sad;Lisää ohita uwu sad
-Add friend thyhighone;Lisää ystävä thyhighone
-Add ignore The Fe Boi;Lisää ohitus The Fe Boi
-Add ignore weedy;Lisää ignore weedy
 Switch <col=ff8040>306</col>;Vaihda <col=ff8040>306</col>
-Add ignore Turk Grimsby;Lisää ignore Turk Grimsby
 Join <col=ff8040>Barbarian Assault</col> channel;Liity <col=ff8040>Barbarian Assault</col> -kanavalle
-Add friend Turk Grimsby;Lisää kaveri Turk Grimsby
-Add friend WarheartRahl;Lisää kaveri WarheartRahl
-Add friend V B Stubby;Lisää ystävä V B Stubby
-Add friend uwu sad;Lisää ystävä uwu sad
-Add ignore thyhighone;Lisää ignore thyhighone
 Teleport to <col=ff8040>Barbarian Assault</col>;Teleportoi <col=ff8040>Barbarian Assaultiin</col>
-Add friend ValconNE;Lisää kaveri ValconNE
-Add friend weedy;Lisää ystävä weedy
 Take-Tofu;Take-Tofu
 Stock-Up;Varastoiminen
 Take-Crackers;Take-crackers
 Take-Worms;Take-Worms
-Add friend YarpiYarpi;Lisää kaveri YarpiYarpi
-Add ignore Vamp Wook;Lisää ohita Vamp Wook
-Add friend Vamp Wook;Lisää ystävä Vamp Wook
-Add ignore Zomaeris X;Lisää ohita Zomaeris X
-Add friend Zomaeris X;Lisää ystävä Zomaeris X
-Add friend Zenoo;Lisää kaveri Zenoo
-Add ignore YarpiYarpi;Lisää ohita YarpiYarpi
-Add ignore Zenoo;Lisää ignore Zenoo
-Add friend wookiearmpit;Lisää kaveri wookiearmpit
-Add ignore WarluciaIM;Lisää ignore WarluciaIM
 Reset-wave;Reset-aalto
-Add ignore ThatVietCong;Lisää ohittaa ThatVietCong
-Add friend ThatVietCong;Lisää ystävä ThatVietCong
-Add ignore wookiearmpit;Lisää ignore wookiearmpit
-Add friend WarluciaIM;Lisää ystävä WarluciaIM
 Write-Role;Kirjoitusrooli
-Add ignore PearlLight21;Lisää ignore PearlLight21
-Add friend swar0vski;Lisää kaveri swar0vski
 Teleport to <col=ff8040>Soul Wars</col>;Teleportoi <col=ff8040>Soul Warsiin</col>
-Add friend shayboshark;Lisää ystävä shayboshark
-Add friend treterr;Lisää ystävä treterr
-Add friend SwitchHeel;Lisää ystävä SwitchHeel
-Add ignore treterr;Lisää ignore treterr
 Leave <col=ff8040>Tombs of Amascut</col> channel;Poistu <col=ff8040>Tombs of Amascut</col> -kanavasta
-Add friend Seward Park;Lisää ystävä Seward Park
-Add ignore toxicsnopipe;Lisää ignore toxicsnopipe
-Add ignore Willem Engel;Lisää ohita Willem Engel
-Add ignore so258;Lisää huomiotta niin258
-Add friend SarpanchJr;Lisää kaveri SarpanchJr
-Add ignore xMysiq;Lisää ohitus xMysiq
-Add friend PearlLight21;Lisää kaveri PearlLight21
 Switch <col=ff8040>320</col>;Vaihda <col=ff8040>320</col>
-Add friend so258;Lisää ystävä so258
 Teleport to <col=ff8040>Tombs of Amascut</col>;Teleportoi kohteeseen <col=ff8040>Tombs of Amascut</col>
-Add friend verba gladii;Lisää ystävä verba gladii
 Join <col=ff8040>Soul Wars</col> channel;Liity <col=ff8040>Soul Wars</col> -kanavalle
-Add ignore TasteSeeker;Lisää ignore TasteSeeker
-Add friend Mr Fou;Lisää ystävä herra Fou
-Add ignore swar0vski;Lisää ignore swar0vski
-Add ignore SwitchHeel;Lisää ohittaa SwitchHeel
-Add ignore sinsavage3;Lisää ignore sinsavage3
-Add friend TheBadWo1f;Lisää kaveri TheBadWo1f
-Add friend Willem Engel;Lisää ystävä Willem Engel
-Add ignore WhiiiteRaven;Lisää ignore WhiiiteRaven
 Leave <col=ff8040>Soul Wars</col> channel;Poistu <col=ff8040>Soul Wars</col> -kanavasta
-Add ignore Seward Park;Lisää ohita Seward Park
 Switch <col=ff8040>338</col>;Vaihda <col=ff8040>338</col>
-Add ignore shayboshark;Lisää ignore shayboshark
-Add friend xMysiq;Lisää ystävä xMysiq
-Add ignore TheBadWo1f;Lisää ohitus TheBadWo1f
 Teleport to <col=ff8040>God Wars</col>;Teleportoi <col=ff8040>God Warsiin</col>
-Add friend WhiiiteRaven;Lisää kaveri WhiiiteRaven
-Add ignore SarpanchJr;Lisää ohita SarpanchJr
-Add friend sinsavage3;Lisää ystävä sinsavage3
-Add ignore RoughNRaw;Lisää ignore RoughNRaw
-Add ignore Tyrolls;Lisää ignore Tyrolls
-Add friend Sun Kannon;Lisää kaveri Sun Kannon
-Add friend bballfrk11;Lisää kaveri bballfrk11
-Add ignore Jojofatdong;Lisää ohittaa Jojofatdong
-Add friend Jojofatdong;Lisää ystävä Jojofatdong
-Add ignore verba gladii;Lisää ohita verba gladii
-Add ignore Im Tweedd;Lisää ohitus Im Tweedd
 Leave <col=ff8040>God Wars</col> channel;Poistu <col=ff8040>God Wars</col> -kanavasta
-Add friend RoughNRaw;Lisää ystävä RoughNRaw
 Join <col=ff8040>Tombs of Amascut</col> channel;Liity <col=ff8040>Tombs of Amascut</col> -kanavalle
-Add ignore Sun Kannon;Lisää ohittaa Sun Kannon
-Add friend TasteSeeker;Lisää ystävä TasteSeeker
 Join <col=ff8040>God Wars</col> channel;Liity <col=ff8040>God Wars</col> -kanavalle
-Add friend Tyrolls;Lisää kaveri Tyrolls
-Add ignore Mr Fou;Lisää ohita herra Fou
-Add friend Im Tweedd;Lisää ystävä Im Tweedd
-Add ignore bballfrk11;Lisää ignore bballfrk11
-Add friend toxicsnopipe;Lisää ystävä toxicsnopipe
-Add friend Ziconic222;Lisää kaveri Ziconic222
-Add friend waudakwoody;Lisää ystävä waudakwoody
-Add ignore RockApe101;Lisää ohita RockApe101
 Teleport to <col=ff8040>Shooting Stars</col>;Teleportoi <col=ff8040>Shooting Starsiin</col>
-Add ignore Wildy Powian;Lisää ohita Wildy Powian
-Add friend Zunestro;Lisää kaveri Zunestro
-Add friend pull an pray;Lisää ystävä vedä rukous
-Add ignore Bxrly;Lisää ignore Bxrly
-Add ignore zChap;Lisää ohita zChap
-Add friend Salvinate262;Lisää kaveri Salvinate262
 Leave <col=ff8040>Shooting Stars</col> channel;Poistu <col=ff8040>Shooting Stars</col> -kanavalta
-Add friend youngMendo;Lisää kaveri youngMendo
-Add ignore youngMendo;Lisää ignore youngMendo
-Add ignore WiseOldDuke;Lisää ohittaa WiseOldDuke
 Join <col=ff8040>Volcanic Mine</col> channel;Liity <col=ff8040>Volcanic Mine</col> -kanavalle
-Add friend Wildy Powian;Lisää ystävä Wildy Powian
-Add friend Bxrly;Lisää ystävä Bxrly
-Add friend Wyvnex;Lisää ystävä Wyvnex
-Add friend xNeoPure;Lisää ystävä xNeoPure
-Add friend zChap;Lisää ystävä zChap
-Add friend WiseOldDuke;Lisää ystävä WiseOldDuke
-Add ignore Wyvnex;Lisää ohittaa Wyvnex
-Add ignore Ziconic222;Lisää ignore Ziconic222
-Add ignore Yeahnope;Lisää ignore Yeahnope
 Join <col=ff8040>Shooting Stars</col> channel;Liity <col=ff8040>Shooting Stars</col> -kanavalle
-Add friend Yeahnope;Lisää ystävä Yeahnope
-Add ignore Wheresblanky;Lisää ignore Wheresblanky
-Add friend Wheresblanky;Lisää ystävä Wheresblanky
-Add ignore Zunestro;Lisää ignore Zunestro
-Add ignore Salvinate262;Lisää ohita Salvinate262
-Add ignore xNeoPure;Lisää ohittaa xNeoPure
-Add ignore waudakwoody;Lisää ignore waudakwoody
 Switch <col=ff8040>323</col>;Vaihda <col=ff8040>323</col>
-Add friend RockApe101;Lisää kaveri RockApe101
-Add ignore pull an pray;Lisää huomiotta vedä rukous
 Teleport to <col=ff8040>Volcanic Mine</col>;Teleportoi <col=ff8040>vulkaanikaivokselle</col>
 Resources;Resurssit
 Leave <col=ff8040>Volcanic Mine</col> channel;Poistu <col=ff8040>Volcanic Mine</col> -kanavalta
 Coletar no banco;Coletar no banco
 View Hunter on the Wiki;Katso Hunter Wikissä
 Karamja Shipyard;Karamjan telakka
-Deposit-30000;Talletus - 30 000
-Withdraw-30000;Nosto - 30 000
-Withdraw-220000;Nosto - 220 000
-Deposit-220000;Talletus - 220 000
 Teleport to <col=ff8040>Shades of Mort'ton</col>;Teleportoi <col=ff8040>Shades of Mort'toniin</col>
 Join <col=ff8040>Shades of Mort'ton</col> channel;Liity <col=ff8040>Shades of Mort'ton</col> -kanavalle
 Switch <col=ff8040>377</col>;Vaihda <col=ff8040>377</col>
@@ -3508,22 +2632,14 @@ Comprar-1;Vertaa-1
 Saída;Saída
 Open Livestream;Avaa suora lähetys
 Aya;Aya
-Deposit-3500;Talletus - 3500
-Withdraw-3500;Nosto-3500
 Comprar-5;Vertaa-5
 Cambio de imagen;Cambio de imagen
-Buy: 10,000 x Stew;Osta: 10 000 x muhennos
-Sell: 2 x Nature rune;Myydään: 2 x Nature riimu
 Sync your collection log with Temple;Synkronoi kokoelmalokisi Templen kanssa
-Sell: 1 x Logs;Myydään: 1 x Tukit
-Sell: 1 x Bear fur;Myydään: 1 x karhun turkki
 Stairs to Dig Site exhibit;Portaat kaivauspaikalle -näyttely
 Stairs to Natural History exhibit;Portaat luonnonhistorialliseen näyttelyyn
 Chute;Ränni
 Charter-to Port Khazard;Tilauslento Port Khazardiin
 Excluir;Exluir
-Buy: 1 x White bead;Osta: 1 x valkoinen helmi
-Buy: 1 x Bucket of milk;Osta: 1 x ämpäri maitoa
 Teleport to <col=ff8040>Guardians of the Rift</col>;Teleportoi <col=ff8040>Guardians of the Rift</col> -palveluun
 Join <col=ff8040>Guardians of the Rift</col> channel;Liity <col=ff8040>Guardians of the Rift</col> -kanavalle
 Ghostly Grasp;Ghostly Grasp
@@ -3537,9 +2653,6 @@ View <col=ff9040>Farming</col> guide;Katso <col=ff9040>Maatalous</col>-opas
 Teleport to <col=ff8040>Tithe Farm</col>;Teleportoi <col=ff8040>Tithe Farmiin</col>
 Join <col=ff8040>Tithe Farm</col> channel;Liity <col=ff8040>Tithe Farm</col> -kanavalle
 Change icon (corp);Vaihda kuvake (yritys)
-Withdraw-12000000;Nosto-12000000
-Withdraw-1116;Nosto-1116
-Deposit-1116;Talletus-1116
 Change icon (melee);Vaihda kuvake (lähitaistelu)
 Release all placeholders (18);Vapauta kaikki paikkamerkit (18)
 Change icon (ranger);Vaihda kuvake (ranger)
@@ -3547,131 +2660,22 @@ Change icon (mage);Vaihda kuvake (mage)
 Comprar tudo;Comprar tudo
 Compre-X;Compre-X
 Poções;Poções
-Deposit-400;Talletus - 400
-Withdraw-400;Nosto-400
 Vault;Holvi
-Deposit-2000000;Talletus - 2 000 000
-Withdraw-2000000;Nosto-2000000
 Select <col=ff891f>Grid master tabard (g);Valitse <col=ff891f>Grid-päälehti (g)
 Select <col=ff891f>Swords and emblem (b);Valitse <col=ff891f>Miekat ja tunnus (b)
 Select <col=ff891f>Grid master tabard (b);Valitse <col=ff891f>Grid-päälehti (b)
-Buy: 2 x Cheese;Osta: 2 x Juusto
-Buy: 1 x Bronze bar;Osta: 1 x pronssitanko
-Buy: 2 x Teleport to house;Osta: 2 x Teleport taloon
-Buy: 2 x Falador teleport;Osta: 2 x Falador-teleportti
-Withdraw-90;Nosto-90
-Deposit-90;Talletus - 90
-Buy: 30 x Bones;Osta: 30 x Bones
-Sell: 180 x Arrow shaft;Myydään: 180 x nuolivarsi
 He/him;Hän/hän
 Comprar;Vertaa
 Charter-to Musa Point;Charter - Musa Point
-Buy: 6 x Chocolate cake;Osta: 6 x suklaakakku
 Leave <col=ff8040>Shades of Mort'ton</col> channel;Poistu <col=ff8040>Shades of Mort'ton</col> -kanavasta
-Add ignore GRANDPAROWEN;Lisää ohitus GRANDPAROWEN
-Add friend vapkez;Lisää ystävä vapkez
-Add friend GRANDPAROWEN;Lisää ystävä GRANDPAROWEN
-Add friend Marko Slice;Lisää ystävä Marko Slice
-Add ignore Meowser121;Lisää ohitus Meowser121
-Add ignore Zobozo1;Lisää ohita Zobozo1
-Add friend Soliidary;Lisää kaveri Soliidary
-Add ignore KONQUERX;Lisää ohitus KONQUERX
-Add ignore Marko Slice;Lisää ohita Marko Slice
-Add ignore Sloppy McNut;Lisää ohita Sloppy McNut
-Add friend Omegasquadga;Lisää kaveri Omegasquadga
-Add friend Sloppy McNut;Lisää ystävä Sloppy McNut
-Add friend Zobozo1;Lisää kaveri Zobozo1
-Add friend Meowser121;Lisää kaveri Meowser121
-Add ignore Omegasquadga;Lisää ignore Omegasquadga
-Add ignore vapkez;Lisää ignore vapkez
-Add ignore Soliidary;Lisää ohita Soliidary
-Add friend KONQUERX;Lisää kaveri KONQUERX
-Buy: 1 x Black 2h sword;Osta: 1 x musta 2h miekka
-Buy: 2,100 x Chaos rune;Osta: 2 100 x Chaos-riimu
 Pick-spine;Pick-selkäranka
 Jump-Across;Jump-Across
 Quick-board;Pikalauta
-Withdraw-1100;Nosto-1100
-Deposit-1100;Talletus 1100
-Default quantity: 1,100;Oletusmäärä: 1 100
-Withdraw-11000;Nosto-11000
-Deposit-11000;Talletus 11 000
 Challenge-mode;Haaste-tila
-Default quantity: 6;Oletusmäärä: 6
-Add ignore xBroellers;Lisää ignore xBroellers
-Add ignore VenturedOut;Lisää ohita VenturedOut
-Add ignore POX IV;Lisää ohittaa POX IV
-Add ignore RN Kiwi;Lisää ohita RN Kiwi
-Add friend S a b a10;Lisää ystävä S a b a10
-Add ignore LostTooMany;Lisää ohittaa LostTooMany
-Add ignore Thermidex;Lisää huomioimatta Thermidex
-Add friend ZellaDey;Lisää kaveri ZellaDey
-Add friend Owlbeaker;Lisää ystävä Owlbeaker
-Add friend TheCount423;Lisää kaveri TheCount423
-Add friend Tuwah as;Lisää ystävä Tuwah as
-Add friend xbongesx;Lisää ystävä xbongesx
-Add friend Tm1453;Lisää ystävä Tm1453
-Add ignore S a b a10;Lisää ohitus S a b a10
-Add ignore TheCount423;Lisää ohittaa TheCount423
-Add ignore Pro Flex;Lisää ohittaa Pro Flex
-Add ignore slayinfaerie;Lisää ignore slayinfaerie
-Add friend RN Kiwi;Lisää ystävä RN Kiwi
-Add friend Vedranimall;Lisää kaveri Vedranimall
-Add friend Urukhairintj;Lisää kaveri Urukhairintj
-Add friend qazedc10;Lisää kaveri qazedc10
-Add friend vt_8o8;Lisää ystävä vt_8o8
-Add friend Monstyyy;Lisää ystävä Monstyyy
-Add ignore ZellaDey;Lisää ignore ZellaDey
-Add ignore Yrrabo;Lisää ignore Yrrabo
-Add friend LostTooMany;Lisää ystävä LostTooMany
-Add ignore Ued Ghost;Lisää ohittaa Ued Ghost
-Add friend Stokesberger;Lisää kaveri Stokesberger
-Add ignore Owlbeaker;Lisää ignore Owlbeaker
-Add friend valerielilw;Lisää ystävä valerielilw
-Add ignore qazedc10;Lisää ohita qazedc10
-Add ignore Prolly so;Lisää ohita Prolly niin
-Add ignore Magolllon;Lisää ohita Magolllon
-Add ignore Monstyyy;Lisää huomioimatta Monstyy
-Add friend POX IV;Lisää ystävä POX IV
-Add friend Slangbellan;Lisää kaveri Slangbellan
-Add ignore xbongesx;Lisää ignore xbongesx
-Add ignore Vedranimall;Lisää ignore Vedranimall
-Add friend TheoChapman;Lisää kaveri TheoChapman
-Add ignore valerielilw;Lisää ignore valerielilw
-Add friend xBroellers;Lisää kaveri xBroellers
-Add ignore Stokesberger;Lisää ohita Stokesberger
-Add ignore vt_8o8;Lisää ohitus vt_8o8
-Add friend Yrrabo;Lisää ystävä Yrrabo
-Add friend Ued Ghost;Lisää ystävä Ued Ghost
-Add friend Thermidex;Lisää kaveri Thermidex
-Add friend Pikig;Lisää ystävä Pikig
-Add ignore Tuwah as;Lisää ohita Tuwah as
-Add friend slayinfaerie;Lisää kaveri slayinfaerie
-Add friend Prolly so;Lisää ystävä Prolly niin
-Add friend Magolllon;Lisää kaveri Magolllon
-Add ignore TheoChapman;Lisää ohittaa TheoChapman
-Add ignore Urukhairintj;Lisää ohita Urukhairintj
-Add friend Pro Flex;Lisää ystävä Pro Flex
-Add ignore Pikig;Lisää ohita Pikig
-Add ignore Slangbellan;Lisää ohita Slangbellan
-Add friend VenturedOut;Lisää kaveri VenturedOut
-Add ignore Tm1453;Lisää ohitus Tm1453
 Change icon (mission's);Vaihda kuvake (tehtävän)
-Add ignore pharmon;Lisää ignore pharmon
-Add friend pharmon;Lisää ystävä pharmon
-Add ignore Sup3rluminal;Lisää ignore Sup3rluminal
-Add ignore MercyGate;Lisää ohittaa MercyGate
-Add friend Sup3rluminal;Lisää kaveri Sup3rluminal
-Add friend MercyGate;Lisää ystävä MercyGate
 Make <col=ff9040>Ruby bracelet</col>;Tee <col=ff9040>Ruby-rannekoru</col>
-Deposit-7000;Talletus - 7000
-Withdraw-60000;Nosto-60 000
-Withdraw-7000;Nosto-7000
-Withdraw-12000;Nosto-12000
-Deposit-12000;Talletus - 12 000
 More Info;Lisätietoja
 Look-up;Katso ylös
-Buy: 1 x Pot;Osta: 1 x potti
 Load last duel's settings;Lataa viimeisen kaksintaistelun asetukset
 Load preset settings;Lataa esiasetetut asetukset
 Save settings;Tallenna asetukset
@@ -3681,40 +2685,25 @@ CKS;CKS
 AJP;AJP
 DKP;DKP
 Select <col=ff9040>Wizard blizzard;Valitse <col=ff9040>Wizard Blizzard
-Deposit-12000000;Talletus - 12000000
-Default quantity: 7,000;Oletusmäärä: 7 000
 Pay (east);Maksa (itä)
 Pay (west);Maksa (länsi)
 Remove-Bone;Poista-Bone
 Remove-Pot;Poista-Pot
 Group name;Ryhmän nimi
 Create Group;Luo ryhmä
-Buy: 9 x Bucket;Osta: 9 x ämpäri
-Withdraw-1200;Nosto-1200
-Deposit-1200;Talletus - 1200
 Teleport to <col=ff8040>Fishing Trawler</col>;Teleportoi <col=ff8040>kalastustroolariin</col>
 Join <col=ff8040>Fishing Trawler</col> channel;Liity <col=ff8040>Fishing Trawler</col> -kanavalle
-Buy: 4 x Red dye;Osta: 4 x punainen väriaine
 Screenshot;Kuvakaappaus
-Buy: 100 x Logs;Osta: 100 x Tukit
 +15%;+15 %
-Buy: 5,000 x Pure essence;Osta: 5 000 x Pure essence
 Attempt Translation;Yritä kääntää
 +40%;+40 %
 -40%;-40 %
-Buy: 1 x Secateurs;Osta: 1 x sakset
-Withdraw-14000000;Nosto-14000000
-Deposit-14000000;Talletus - 14 000 000
 Abort;Keskeyttää
 Steer left;Ohjaa vasemmalle
 Steer right;Ohjaa oikealle
 Increase throttle;Lisää kaasua
 Decrease throttle;Vähennä kaasua
 -15%;-15 %
-Default quantity: 1,000,000;Oletusmäärä: 1 000 000
-Default quantity: 12,000,000;Oletusmäärä: 12 000 000
-Buy: 20 x Ranarr potion (unf);Osta: 20 x Ranarr potion (unf)
-Sell: 1 x Uncut jade;Myydään: 1 x leikkaamaton jade
 DIR;OHJ
 BLP;BLP
 Travel to<col=ff9040> Wilderness Pond;Matkusta<col=ff9040> ​​erämaalampi
@@ -3722,7 +2711,6 @@ Restore;Palauttaa
 Swap-options;Vaihtovaihtoehdot
 Set Hotkey (Q);Aseta pikanäppäin (Q)
 Set Hotkey (P);Aseta pikanäppäin (P)
-Buy: 1 x Strength potion(4);Osta: 1 x voimajuoma(4)
 Cyrisus;Cyrisus
 Captain Ginea;Kapteeni Ginea
 Krystilia;Krystilia
@@ -3731,20 +2719,7 @@ Konar;Konar
 Kuradal;Kuradal
 Barbarian Guard;Barbaarivartija
 Lanthus;Lanthus
-Buy: 700 x Chocolate dust;Osta: 700 x suklaapöly
-Buy: 600 x Ranarr potion (unf);Osta: 600 x Ranarr potion (unf)
-Sell: 600 x Prayer potion(3);Myy: 600 x rukousjuoma(3)
-Buy: 1 x Limpwurt root;Osta: 1 x Limpwurt juuri
-Sell: 1 x Super strength(3);Myy: 1 x Super vahvuus(3)
-Buy: 600 x Limpwurt root;Osta: 600 x Limpwurt juuri
-Sell: 600 x Super strength(3);Myynti: 600 x Super vahvuus(3)
-Buy: 1 x Bandos rune armour set (lg);Osta: 1 x Bandos-riimupanssarisarja (lg)
-Buy: 200 x Kwuarm potion (unf);Osta: 200 x Kwuarm potion (unf)
-Buy: 200 x Limpwurt root;Osta: 200 x Limpwurt juuri
 Add to;Lisää
-Buy: 1 x Unfired bowl;Osta: 1 x polttamaton kulho
-Default quantity: 800;Oletusmäärä: 800
-Sell: 1 x Ensouled troll head;Myydään: 1 x sielullinen peikkopää
 Remover espaços reservados;Remover espaços reservados
 Contagem de cheques;Contagem de checks
 Escolha;Escolha
@@ -3862,7 +2837,6 @@ Venda 50<col=ff9040>;Venda 50<col=ff9040>
 Reparar;Reparar
 Chupar;Chupar
 Glider-to Lemanto Andra;Purjelentokone Lemanto Andralle
-Buy: 1 x Uncut diamond;Osta: 1 x leikkaamaton timantti
 Rastreamento;Rastreamento
 Características;Characterísticas
 Miscelânea;Sekalaista
@@ -3917,15 +2891,12 @@ Gráfico;Graphico
 Roubar de;Roubar de
 Porto Piscarilius;Porto Piscarilius
 Fazer;Fazer
-Buy: 2 x Xerician fabric;Osta: 2 x Xerician kangasta
 Release all placeholders (39);Vapauta kaikki paikkamerkit (39)
 Investigar;Investigar
 Planador;Planador
 Junte-se às Guerras do Castelo;Junte-se às Guerras do Castelo
-Withdraw-875;Nosto-875
 Estatísticas;Estatísticas
 Remexer;Remexer
-Deposit-875;Talletus-875
 Release all placeholders (30);Vapauta kaikki paikkamerkit (30)
 Loja;Loja
 Operar;Operaattori
@@ -3944,8 +2915,6 @@ Leite;Leite
 Descarregar;Decarregar
 Machado;Machado
 Roubar sino;Kiinan roubar
-Deposit-5555;Talletus-5555
-Withdraw-5555;Nosto-5555
 Taxa de cheque;Taxa de shekki
 Fogo;Fogo
 Carregar X;Carregar X
@@ -3960,11 +2929,9 @@ Entrem;Entrem
 Gazua;Gazua
 Remover carvão;Poistoaine carvão
 Change icon (coletas);Vaihda kuvake (coletas)
-Buy: 150 x Mithril arrowtips;Osta: 150 x Mithril-nuolenpäät
 Ressaca;Ressaca
 Passar;Passar
 Pular;Pular
-Buy: 1 x Gold bar;Osta: 1 x kultatanko
 Localizar;Localizar
 Verifique as etapas;Vahvista vaiheena
 Sentir;Sentir
@@ -3974,12 +2941,8 @@ Cliente em potencial;Asiakaspotentiaalia
 Pule para;Pule para
 Cisalhamento;Cisalhamento
 Watchtower;Vartiotorni
-Withdraw-855000;Nosto-855000
 Laço;Laço
 Esmagar;Esmagar
-Deposit-855000;Talletus - 855 000
-Buy: 70 x Dragon longsword;Osta: 70 x Dragon longsword
-Default quantity: 855,000;Oletusmäärä: 855 000
 Reivindicações de registro de recompensas;Reivindicações de registro de recompensas
 Obter registro;Obter rekisteri
 Retirada;Retirada
@@ -3988,9 +2951,6 @@ Pule Através;Pule Através
 Plantar;Plantar
 Pegue o tesouro;Pegue tai tesouro
 Atravessar;Atravessar
-Default quantity: 80,000;Oletusmäärä: 80 000
-Withdraw-80000;Nosto-80 000
-Deposit-80000;Talletus - 80 000
 Iban Blast;Iban Blast
 Escavar;Escavar
 Corte de cabelo;Corte de cabelo
@@ -4051,8 +3011,6 @@ Pagar (canteiro de árvore);Pagar (canteiro de árvore)
 Combustível;Combustível
 Picareta;Picareta
 Último destino;Último destino
-Deposit-255555;Talletus-255555
-Withdraw-255555;Nosto-255555
 Fill-in;Täytä
 Consult;Ota yhteyttä
 Passo a passo;Passo a passo
@@ -4073,9 +3031,6 @@ Dig-below;Kaivaa alla
 Alternar K/D;Vaihtoehtoinen K/D
 Descartar;Descartar
 Nenhum;Nenhum
-Default quantity: 8;Oletusmäärä: 8
-Buy: 1 x Nardah teleport;Osta: 1 x Nardah-teleportti
-Buy: 380 x Earth battlestaff;Osta: 380 x Earth battlestaff
 Toggle-vials;Toggle-injektiopullot
 Search-for-traps;Etsi ansoja
 -20%;-20 %
@@ -4084,436 +3039,20 @@ Conjure;Loihtia
 Set as Client;Aseta asiakkaaksi
 Remove-rat;Poista-rotta
 Quick-falcon;Pikahaukka
-Buy: 4 x Extended stamina potion(4);Osta: 4 x Extended Stamina Potion (4)
-Default quantity: 1,522;Oletusmäärä: 1 522
-Withdraw-1522;Nosto-1522
 Check/Uncharge;Tarkista/Poista lataus
 Set Hotkey (R);Aseta pikanäppäin (R)
 Set Hotkey (S);Aseta pikanäppäin (S)
-Deposit-300000;Talletus - 300 000
-Withdraw-300000;Nosto - 300 000
 Playback;Toisto
 Contact;Ota yhteyttä
 Scan;Skannata
 Castori;Castori
 Prьfen;Prьfen
 Fдllen;Fдllen
-Add friend TheHedgeNite;Lisää ystävä TheHedgeNite
-Add friend Yukon772;Lisää kaveri Yukon772
-Add ignore X Huka;Lisää ohita X Huka
-Add friend wildturkey63;Lisää kaveri wildturkey63
-Add ignore unholysadist;Lisää ignore unholysadist
-Add friend X Huka;Lisää ystävä X Huka
-Add ignore Yukon772;Lisää ohitus Yukon772
-Add ignore ZooCluesMan;Lisää ohittaa ZooCluesMan
-Add ignore whimsywhale;Lisää ignore whimsywhale
-Add friend Temptationss;Lisää ystävä Temptations
-Add friend thinHairyIM;Lisää kaveri thinHairyIM
-Add ignore wildturkey63;Lisää ignore wildturkey63
-Add friend ZooCluesMan;Lisää ystävä ZooCluesMan
-Add ignore thinHairyIM;Lisää ohita thinHairyIM
-Add ignore Tomppazz93;Lisää ohittaa Tomppazz93
-Add friend whimsywhale;Lisää ystävä whimsywhale
-Add ignore ValentHobby;Lisää ohittaa ValentHobby
-Add ignore TheHedgeNite;Lisää ohittaa TheHedgeNite
-Add friend ValentHobby;Lisää kaveri ValentHobby
-Add ignore Temptationss;Lisää ohittaa kiusauksia
-Add friend unholysadist;Lisää ystävä unholysadist
-Add friend Tomppazz93;Lisää kaveri Tomppazz93
-Add ignore Rel1ik999;Lisää ohitus Rel1ik999
-Add ignore Sorry_scrub;Lisää ohitus Sorry_scrub
-Add ignore Zazzali;Lisää ignore Zazzali
-Add ignore LordFalahar;Lisää ohita LordFahar
-Add ignore Menlo Manny;Lisää ohita Menlo Manny
-Add ignore MisWhis4Real;Lisää ohittaa MisWhis4Real
-Add friend PreAres;Lisää ystävä PreAres
-Add ignore PlsRngeezus;Lisää ohita PlsRngeezus
-Add friend MyFriesBro;Lisää kaveri MyFriesBro
-Add friend PrincessCMW;Lisää kaveri PrincessCMW
-Add friend Smoker_484;Lisää ystävä Smoker_484
-Add ignore RomaRobot;Lisää ohita RomaRobot
-Add ignore RentaSoupO;Lisää ignore RentaSoupO
-Add friend prutlars47;Lisää kaveri prutlars47
-Add friend Plague_Bat;Lisää kaveri Plague_Bat
-Add ignore TheNewDos;Lisää ohittaa TheNewDos
-Add friend Rel1ik999;Lisää kaveri Rel1ik999
-Add friend TheMurph33;Lisää kaveri TheMurph33
-Add ignore Rargh 4 Real;Lisää ohitus Rargh 4 Real
-Add ignore NsaneVulture;Lisää ignore NsaneVulture
-Add ignore MyFriesBro;Lisää ohita MyFriesBro
-Add ignore Risin_Up_LDG;Lisää ohitus Risin_Up_LDG
-Add friend Mangyman13;Lisää kaveri Mangyman13
-Add ignore limit 45;Lisää ohitusraja 45
-Add ignore L0TTl;Lisää ohitus L0TTl
-Add friend RentaSoupO;Lisää kaveri RentaSoupO
-Add friend L0TTl;Lisää ystävä L0TTl
-Add friend Tallig3;Lisää kaveri Tallig3
-Add ignore Tallig3;Lisää ignore Tallig3
-Add ignore ResetHard;Lisää ohitus ResetHard
-Add friend Ry The Fly;Lisää ystävä Ry The Fly
-Add ignore Shade Plus;Lisää ignore Shade Plus
-Add friend NoPotsNoPans;Lisää ystävä NoPotsNoPans
-Add ignore Saaguu;Lisää huomiotta Saaguu
-Add friend Lady Trinket;Lisää ystävä Lady Trinket
-Add friend Zaccdaripper;Lisää kaveri Zaccdaripper
-Add ignore Mangyman13;Lisää ohitus Mangyman13
-Add friend Supahotfye;Lisää kaveri Supahotfye
-Add ignore Powngenie420;Lisää ohita Powngenie420
-Add friend Zazzali;Lisää kaveri Zazzali
-Add friend Paladin Doop;Lisää ystävä Paladin Doop
-Add friend Menlo Manny;Lisää ystävä Menlo Manny
-Add friend KujooeIM;Lisää kaveri KujooeIM
-Add friend SirJzilla;Lisää ystävä SirJzilla
-Add ignore PreAres;Lisää ohittaa PreAres
-Add friend ResetHard;Lisää ystävä ResetHard
-Add friend LandaHanz;Lisää kaveri LandaHanz
-Add friend Risin_Up_LDG;Lisää kaveri Risin_Up_LDG
-Add ignore Zaccdaripper;Lisää ohittaa Zaccdaripper
-Add friend Weyate;Lisää ystävä Weyate
-Add ignore Ry The Fly;Lisää ohitus Ry The Fly
-Add friend Rargh 4 Real;Lisää ystävä Rargh 4 Real
-Add friend Sorry_scrub;Lisää ystävä Sorry_scrub
-Add ignore KujooeIM;Lisää ohittaa KujooeIM
-Add ignore LandaHanz;Lisää ignore LandaHanz
-Add ignore PrincessCMW;Lisää ohittaa PrincessCMW
-Add ignore Weyate;Lisää ohita Weyate
-Add friend PlsRngeezus;Lisää kaveri PlsRngeezus
-Add ignore Supahotfye;Lisää ohita Supahotfye
-Add friend Shade Plus;Lisää ystävä Shade Plus
-Add friend limit 45;Lisää ystäväraja 45
-Add friend MisWhis4Real;Lisää kaveri MisWhis4Real
-Add ignore NoPotsNoPans;Lisää ohittaa NoPotsNoPans
-Add ignore TheMurph33;Lisää ohittaa TheMurph33
-Add ignore Lady Trinket;Lisää ohita Lady Trinket
-Add friend Powngenie420;Lisää kaveri Powngenie420
-Add friend RomaRobot;Lisää ystävä RomaRobot
-Add ignore Plague_Bat;Lisää ohitus Plague_Bat
-Add ignore SirJzilla;Lisää ohittaa SirJzilla
-Add friend TheNewDos;Lisää ystävä TheNewDos
-Add friend NsaneVulture;Lisää kaveri NsaneVulture
-Add friend LordFalahar;Lisää kaveri LordFalahar
-Add ignore prutlars47;Lisää ignore prutlars47
-Add ignore Paladin Doop;Lisää ohittaa Paladin Doop
-Add ignore Smoker_484;Lisää ohita Smoker_484
-Add friend Saaguu;Lisää kaveri Saaguu
-Add ignore NotN_MyMouth;Lisää ohitus NotN_MyMouth
-Add friend chxnoodsoup;Lisää ystävä chxnoodsoup
-Add ignore BULLY xD;Lisää ohittaa BULLY xD
-Add ignore DabehOfa;Lisää ignore DabehOfa
-Add ignore p00pypie;Lisää ignore p00pypie
-Add ignore BiSpy;Lisää ignore BiSpy
-Add friend 3VO4;Lisää ystävä 3VO4
-Add ignore Grimgrok26;Lisää ohita Grimgrok26
-Add friend p00pypie;Lisää ystävä p00pypie
-Add friend EMO POS;Lisää ystävä EMO POS
-Add ignore zoublemaul;Lisää ohita zoublemaul
-Add ignore Frantoon;Lisää ignore Frantoon
-Add ignore Dantelieri;Lisää ignore Dantelieri
-Add friend KingBlixky;Lisää kaveri KingBlixky
-Add friend Genae;Lisää ystävä Genae
-Add ignore Aged Jankem;Lisää ohitus Aged Jankemin
-Add friend zoublemaul;Lisää ystävä zoublemaul
-Add ignore IMATOBRO123;Lisää ohitus IMATOBRO123
-Add ignore Fouug;Lisää huomiotta Fouug
-Add friend BakingCo;Lisää kaveri BakingCo
-Add ignore Genae;Lisää ignore Genae
-Add friend 3WoodLye;Lisää kaveri 3WoodLye
-Add friend osrsgflv;Lisää ystävä osrsgflv
-Add ignore IvorBromson;Lisää ignore IvorBromon
-Add friend BrawnsBoi;Lisää kaveri BrawnsBoi
-Add ignore Mage Truffle;Lisää ignore Mage Truffle
-Add friend Benchouw2;Lisää kaveri Benchouw2
-Add friend DabehOfa;Lisää ystävä DabehOfa
-Add ignore Firefuryrose;Lisää ohita Firefuryrose
-Add ignore jjiscool1;Lisää ohita jjiscool1
-Add friend IMATOBRO123;Lisää kaveri IMATOBRO123
-Add friend Fouug;Lisää kaveri Fouug
-Add friend Ankou2389;Lisää kaveri Ankou2389
-Add ignore LumenGrave;Lisää ohittaa LumenGrave
-Add friend BULLY xD;Lisää ystävä BULLY xD
-Add ignore Ankou2389;Lisää ohittaa Ankou2389
-Add ignore rautakotkis;Lisää ohita rautakotkis
-Add ignore chxnoodsoup;Lisää ignore chxnoodsoup
-Add friend Env IRON;Lisää ystävä Env IRON
-Add friend he who dares;Lisää ystävä, joka uskaltaa
-Add ignore PurejOor;Lisää ohittaa PurejOor
-Add friend IvorBromson;Lisää kaveri IvorBromon
-Add ignore 3VO4;Lisää ohitus 3VO4
-Add friend Aged Jankem;Lisää ystävä Aged Jankem
-Add ignore Env IRON;Lisää ignore Env IRON
-Add friend PurejOor;Lisää ystävä PurejOor
-Add friend Firefuryrose;Lisää ystävä Firefuryrose
-Add friend FlakPanzer95;Lisää kaveri FlakPanzer95
-Add ignore 3WoodLye;Lisää ignore 3WoodLye
-Add ignore EMO POS;Lisää ohita EMO POS
-Add ignore db271;Lisää ignore db271
-Add friend db271;Lisää ystävä db271
-Add friend NotN_MyMouth;Lisää ystävä NotN_MyMouth
-Add ignore KingBlixky;Lisää ohittaa KingBlixky
-Add friend LumenGrave;Lisää kaveri LumenGrave
-Add ignore NOBARA03;Lisää ohitus NOBARA03
-Add friend Dantelieri;Lisää kaveri Dantelieri
-Add ignore osrsgflv;Lisää ohita osrsgflv
-Add friend Jackm12;Lisää kaveri Jackm12
-Add ignore Long Charm;Lisää ohittaa pitkä viehätys
-Add friend jjiscool1;Lisää kaveri jjiscool1
-Add friend Long Charm;Lisää ystävä Long Charm
-Add friend NOBARA03;Lisää ystävä NOBARA03
-Add friend Grimgrok26;Lisää kaveri Grimgrok26
-Add ignore Jackm12;Lisää ignore Jackm12
-Add friend BiSpy;Lisää ystävä BiSpy
-Add friend rautakotkis;Lisää ystävä rautakotkis
-Add ignore BakingCo;Lisää ignore BakingCo
-Add ignore FlakPanzer95;Lisää ohittaa FlakPanzer95
-Add friend Frantoon;Lisää kaveri Frantoon
-Add ignore Benchouw2;Lisää huomioimatta Benchouw2
-Add friend Mage Truffle;Lisää kaveri Mage Truffle
-Add ignore BrawnsBoi;Lisää ignore BrawnsBoi
-Add ignore he who dares;Lisää huomiotta se, joka uskaltaa
-Add ignore Liddobread;Lisää ohita Liddobread
-Add ignore myassishappy;Lisää ignore myassishappy
-Add friend J-LO89;Lisää kaveri J-LO89
-Add ignore J-LO89;Lisää ohitus J-LO89
-Add friend JibbaJabbaJo;Lisää kaveri JibbaJabbaJo
-Add friend irritablevow;Lisää ystävä irritablevow
-Add ignore IronDairyMan;Lisää ohittaa IronDairyMan
-Add friend IronDairyMan;Lisää kaveri IronDairyMan
-Add friend PilaNosPes;Lisää kaveri PilaNosPes
-Add friend Qataro;Lisää ystävä Qataro
-Add friend NormalNaveed;Lisää ystävä NormalNaveed
-Add ignore K1ngSlay3rr;Lisää ignore K1ngSlay3rr
-Add friend K1ngSlay3rr;Lisää kaveri K1ngSlay3rr
-Add friend i finna buss;Lisää ystävä i finna buss
-Add friend Liddobread;Lisää ystävä Liddobread
-Add friend jattshigh;Lisää ystävä jattshigh
-Add friend JaliscoMex;Lisää kaveri JaliscoMex
-Add ignore SucubusOfWar;Lisää ohittaa SucubusOfWar
-Add friend naame2forget;Lisää ystävä naame2forget
-Add ignore irritablevow;Lisää huomiotta ärtyvä lupaus
-Add ignore JaliscoMex;Lisää ohittaa JaliscoMex
-Add ignore JibbaJabbaJo;Lisää ohita JibbaJabbaJo
-Add friend myassishappy;Lisää ystävä myassishappy
-Add ignore jattshigh;Lisää ignore jattshigh
-Add friend SucubusOfWar;Lisää kaveri SucubusOfWar
-Add ignore Qataro;Lisää ignore Qataro
-Add ignore naame2forget;Lisää ignore naame2forget
-Add ignore PilaNosPes;Lisää ohittaa PilaNosPes
-Add ignore i finna buss;Lisää ignore i finna buss
-Add ignore NormalNaveed;Lisää ohitus NormalNaveed
 Dissolver;Liuotin
-Withdraw-22000000;Nosto-22000000
-Add friend whiteclaw96;Lisää kaveri whiteclaw96
-Add friend wormnipples;Lisää kaverille madonnännit
-Add ignore wormnipples;Lisää huomioimatta madonnännejä
-Add ignore whiteclaw96;Lisää ignore whiteclaw96
-Add ignore HCIM KITAKER;Lisää ohitus HCIM KITAKER
-Add friend kkush4life;Lisää ystävä kkush4life
-Add ignore Lorik337;Lisää ohita Lorik337
-Add ignore Metalmass515;Lisää ignore Metalmass515
-Add ignore HulesMcGules;Lisää ohittaa HulesMcGules
-Add ignore Vegitto-Da;Lisää ohita Vegitto-Da
-Add friend Tawksic91;Lisää kaveri Tawksic91
-Add friend Vegitto-Da;Lisää kaveri Vegitto-Da
-Add friend Falco Main;Lisää ystävä Falco Main
-Add friend iBeFoxx;Lisää ystävä iBeFoxx
-Add ignore Tawksic91;Lisää ohita Tawksic91
-Add ignore kkush4life;Lisää ignore kkush4life
-Add ignore IndolentHerr;Lisää ohittaa IndolentHerr
-Add friend Lorik337;Lisää ystävä Lorik337
-Add friend Fen Beid;Lisää ystävä Fen Beid
-Add ignore Falco Main;Lisää ohita Falco Main
-Add ignore YepGreg;Lisää ohitus YepGreg
-Add friend Fearddrkness;Lisää kaveri Fearddrkness
-Add friend TwinFlames;Lisää kaveri TwinFlames
-Add friend WreckeRalph;Lisää kaveri WreckeRalph
-Add ignore SmartRegard;Lisää ohita SmartRegard
-Add friend HCIM KITAKER;Lisää ystävä HCIM KITAKER
-Add ignore matiainenn;Lisää ignore mataiinenn
-Add ignore Fehootie;Lisää ignore Fehootie
-Add friend SmartRegard;Lisää ystävä SmartRegard
-Add friend gennir 124;Lisää ystävä gennir 124
-Add friend Ev1LShrek;Lisää kaveri Ev1LShrek
 Remove friend Fayyasha;Poista ystävä Fayyasha
-Add friend Fell Silent;Lisää ystävä Hiljaiseksi
-Add ignore Fell Silent;Lisää ohitus vaikeutui
-Add ignore iBeFoxx;Lisää ohita iBeFoxx
-Add friend Metalmass515;Lisää kaveri Metalmass515
-Add ignore Fearddrkness;Lisää ignore Fearddrkness
-Add friend HulesMcGules;Lisää kaveri HulesMcGules
-Add ignore TheClawwwg;Lisää ohittaa TheClawwwg
-Add friend Snook10;Lisää kaveri Snook10
-Add friend Kurt Nir3;Lisää kaveri Kurt Nir3
-Add ignore PhatPhlap;Lisää ohittaa PhatPhlap
-Add ignore goosedrool;Lisää ignore goosdrool
-Add ignore Yewdragon33;Lisää ignore Yewdragon33
-Add friend Fayyasha;Lisää ystävä Fayyasha
-Add ignore eyeronSkyler;Lisää ignore eyeronSkyler
-Add friend Qualena;Lisää ystävä Qualena
-Add ignore Jxper;Lisää ignore Jxper
-Add ignore Qualena;Lisää ohita Qualena
-Add friend Jxper;Lisää kaveri Jxper
-Add friend FPwnJr;Lisää kaveri FPwnJr
-Add friend Yewdragon33;Lisää kaveri Yewdragon33
-Add friend mackatt79;Lisää ystävä mackatt79
-Add friend F14SH_177;Lisää ystävä F14SH_177
-Add friend EL_FASTASMAS;Lisää ystävä EL_FASTASMAS
-Add ignore Snook10;Lisää ignore Snook10
-Add friend YepGreg;Lisää ystävä YepGreg
-Add friend Pregnantkbd;Lisää ystävä Pregnantkbd
-Add friend robbdawgg;Lisää ystävä robbdawgg
-Add ignore ix zer0 xi;Lisää ohitus ix zer0 xi
-Add friend F1ND1NGN3M0;Lisää ystävä F1ND1NGN3M0
-Add friend IndolentHerr;Lisää kaveri IndolentHerr
-Add ignore TSPsychotic;Lisää ohittaa TSPsychotic
-Add ignore Ev1LShrek;Lisää ohittaa Ev1LShrek
-Add ignore robbdawgg;Lisää ignore robbdawgg
-Add ignore OSRSrockstar;Lisää ohittaa OSRSrockstar
-Add friend ix zer0 xi;Lisää ystävä ix zer0 xi
-Add friend eyeronSkyler;Lisää ystävä eyeronSkyler
-Add friend MysticalGato;Lisää kaveri MysticalGato
-Add ignore WreckeRalph;Lisää ignore WreckeRalph
-Add ignore dua baji;Lisää ohita dua baji
-Add ignore gennir 124;Lisää ignore gennir 124
-Add friend TheClawwwg;Lisää kaveri TheClawwwg
-Add friend TSPsychotic;Lisää ystävä TSPsychotic
-Add ignore FPwnJr;Lisää ohitus FPwnJr
-Add ignore EL_FASTASMAS;Lisää ohitus EL_FASTASMAS
-Add ignore TwinFlames;Lisää ignore TwinFlames
-Add friend PhatPhlap;Lisää ystävä PhatPhlap
-Add friend goosedrool;Lisää kaveri goosdrool
-Add ignore Pregnantkbd;Lisää ignore Pregnantkbd
-Add ignore Fayyasha;Lisää ohita Fayyasha
-Add ignore mackatt79;Lisää ignore mackatt79
-Add ignore F1ND1NGN3M0;Lisää ohitus F1ND1NGN3M0
-Add ignore F14SH_177;Lisää ohitus F14SH_177
-Add friend matiainenn;Lisää ystävä mataiinenn
-Add friend Fehootie;Lisää kaveri Fehootie
-Add friend dua baji;Lisää ystävä dua Baji
-Add ignore Fen Beid;Lisää ohita Fen Beid
-Add ignore MysticalGato;Lisää ohita MysticalGato
-Add ignore Kurt Nir3;Lisää ohittaa Kurt Nir3
-Add friend OSRSrockstar;Lisää ystävä OSRSrockstar
-Add ignore DeRobertC;Lisää huomiotta DeRobertC
-Add ignore Artemis460;Lisää ohittaa Artemis460
-Add friend Berrenta;Lisää kaveri Berrenta
-Add friend CCoLa1;Lisää ystävä CCoLa1
-Add friend deathur5;Lisää ystävä deathur5
-Add ignore MAusuiy;Lisää ignore MAusuiy
-Add friend Creptarnk;Lisää ystävä Creptarnk
-Add ignore MobileSafer;Lisää ohita MobileSafer
-Add ignore Creptarnk;Lisää ohita Creptarnk
-Add friend Drivemind99;Lisää kaveri Drivemind99
-Add friend B J O N ES;Lisää ystävä B J O N ES
-Add friend Ulmandur;Lisää kaveri Ulmandur
 Remove friend Paladin Doop;Poista ystävä Paladin Doop
-Add friend soh wretched;Lisää ystävä niin kurja
-Add ignore Carihawk54;Lisää ignore Carihawk54
-Add friend KatanaKatz;Lisää kaveri KatanaKatz
-Add ignore basketluvr;Lisää ignore basketluvr
-Add friend Ch1ldOfGawd;Lisää kaveri Ch1ldOfGawd
-Add friend aceminion;Lisää ystävä aceminion
-Add ignore NotMePlayin;Lisää ohittaa NotMePlayin
-Add friend Rox R7;Lisää ystävä Rox R7
-Add ignore Germergenmuf;Lisää ignore Germergenmuf
 Remove friend OSRSrockstar;Poista ystävä OSRSrockstar
-Add friend sdkflhs3;Lisää ystävä sdkflhs3
-Add ignore Atlasleeuwx;Lisää ignore Atlasleeuwx
-Add friend Atlasleeuwx;Lisää ystäväsi Atlasleeuwx
-Add ignore Abby55551;Lisää huomiotta Abby55551
-Add friend LADY FOOFOO;Lisää ystävä LADY FOOFOO
-Add ignore Lady_Ratmore;Lisää ohita Lady_Ratmore
-Add friend Drexter17;Lisää ystävä Drexter17
-Add ignore B J O N ES;Lisää ohitus B J O N ES
-Add ignore CodemanSlim;Lisää ohita CodemanSlim
-Add friend Aotrosego;Lisää kaveri Aotrosego
-Add ignore LADY FOOFOO;Lisää ohitus LADY FOOFOO
-Add ignore Rox R7;Lisää ohittaa Rox R7
-Add ignore soh wretched;Lisää huomiotta niin kurja
-Add ignore meet tip;Lisää ohitustapaamisvinkki
-Add friend MobileSafer;Lisää ystävä MobileSafer
-Add ignore HighGuySly;Lisää ohita HighGuySly
-Add ignore Phegalofi;Lisää ohita Phegalofi
-Add friend The Scholar;Lisää ystävä The Scholar
-Add ignore Riffmage;Lisää ignore Riffmage
-Add friend MAusuiy;Lisää kaveri MAusuiy
-Add ignore Ironatemunch;Lisää ignore Ironatemunch
-Add ignore Sugmite;Lisää ohita Sugmite
-Add friend HighGuySly;Lisää ystävä HighGuySly
-Add friend RSN_DRiiiP;Lisää ystävä RSN_DRiiiP
-Add ignore Dutchizm;Lisää ignore Dutchizm
-Add ignore Drivemind99;Lisää ohita Drivemind99
-Add friend LilSlippers;Lisää ystävä LilSlippers
-Add ignore LilSlippers;Lisää ignore LilSlippers
-Add friend basketluvr;Lisää ystävä basketluvr
-Add friend Abby55551;Lisää kaveri Abby55551
-Add ignore IronRyriku;Lisää huomiotta IronRyriku
-Add friend CodemanSlim;Lisää ystävä CodemanSlim
-Add ignore 7steelsword;Lisää ignore 7steelsword
-Add friend Germergenmuf;Lisää kaveri Germergenmuf
-Add ignore IM REDHAWK;Lisää ohita IM REDHAWK
-Add friend Ironatemunch;Lisää kaveri Ironatemunch
-Add friend 7steelsword;Lisää ystävä 7steelsword
-Add ignore kinbred;Lisää ohita sukujuuri
-Add ignore Ulmandur;Lisää ohita Ulmandur
-Add friend Bombtiger;Lisää kaveri Bombtiger
-Add friend prenga6736;Lisää kaveri prenga6736
-Add friend Sugmite;Lisää ystävä Sugmite
-Add ignore HugeJuggs5;Lisää huomiotta HugeJuggs5
-Add ignore sdkflhs3;Lisää ignore sdkflhs3
-Add friend humpndump69;Lisää ystävä humpndump69
-Add ignore Berrenta;Lisää ohita Berrenta
-Add ignore CCoLa1;Lisää ohitus CCoLa1
-Add ignore Alt 4 luck;Lisää ohita Alt 4 onnea
-Add ignore deathur5;Lisää ignore deathur5
-Add ignore iw0wi;Lisää ohita iw0wi
-Add friend H1LDRYN;Lisää kaveri H1LDRYN
-Add friend iw0wi;Lisää kaveri iw0wi
-Add friend NotMePlayin;Lisää ystävä NotMePlayin
-Add ignore TankedHim;Lisää ignore TankedHim
-Add friend IM REDHAWK;Lisää ystävä IM REDHAWK
-Add friend Alt 4 luck;Lisää ystävä Alt 4 onnea
-Add ignore Sjse;Lisää ohita Sjse
-Add ignore Dameblastop;Lisää ignore Dameblastop
-Add ignore prenga6736;Lisää ignore prenga6736
-Add friend Dutchizm;Lisää kaveri Dutchizm
-Add ignore humpndump69;Lisää ohita humpndump69
-Add friend Dameblastop;Lisää ystävä Dameblastop
-Add friend wildly dan;Lisää ystävä wildly dan
-Add ignore Ch1ldOfGawd;Lisää ohitus Ch1ldOfGawd
-Add ignore The Scholar;Lisää ohittaa The Scholar
-Add friend HugeJuggs5;Lisää kaveri HugeJuggs5
-Add friend meet tip;Lisää kaveritapaamisvinkki
-Add ignore BldCardinal8;Lisää ignore BldCardinal8
-Add friend Riffmage;Lisää kaveri Riffmage
-Add friend Sjse;Lisää ystävä Sjse
-Add friend BldCardinal8;Lisää kaveri BldCardinal8
-Add friend Calisto0044;Lisää kaveri Calisto0044
-Add friend kinbred;Lisää ystävä kinbred
-Add ignore SnakemanGIM;Lisää ohita SnakemanGIM
-Add friend Lady_Ratmore;Lisää kaveri Lady_Ratmore
-Add ignore H1LDRYN;Lisää ohitus H1LDRYN
-Add friend DmnKngCooler;Lisää kaveri DmnKngCooler
-Add friend TankedHim;Lisää kaveri TankedHim
-Add ignore Aotrosego;Lisää ohittaa Aotrosego
-Add ignore aceminion;Lisää ignore aceminion
-Add ignore Bombtiger;Lisää ohita Bombtiger
-Add friend dannnit;Lisää ystävä dannit
-Add ignore RSN_DRiiiP;Lisää ohitus RSN_DRiiiP
-Add friend IronRyriku;Lisää kaveri IronRyriku
-Add ignore KatanaKatz;Lisää ohita KatanaKatz
-Add ignore Calisto0044;Lisää ohitus Calisto0044
-Add ignore Drexter17;Lisää ohitus Drexter17
-Add ignore DmnKngCooler;Lisää ignore DmnKngCooler
-Add friend SnakemanGIM;Lisää ystävä SnakemanGIM
-Add ignore dannnit;Lisää ignore dannnit
-Add friend Carihawk54;Lisää kaveri Carihawk54
-Add friend Artemis460;Lisää kaveri Artemis460
-Add ignore wildly dan;Lisää ohita villisti dan
-Add friend DeRobertC;Lisää ystävä DeRobertC
-Add friend Phegalofi;Lisää kaveri Phegalofi
 Change icon (clue);Vaihda kuvake (vihje)
-Default quantity: 22,000,000;Oletusmäärä: 22 000 000
-Deposit-22000000;Talletus - 22 000 000
 Implantar;Implantaari
 Aparar;Aparar
 Desembarcar;Desembarcar
@@ -4533,7 +3072,6 @@ Select <col=ff9040>2500 Tokens/Soul cape</col>;Valitse <col=ff9040>2500 Tokens/S
 Select <col=ff9040>Spoils of war</col>;Valitse <col=ff9040>Sodasaalis</col>
 Código de resgate;Código de resgate
 Itens de férias;Itens de férias
-Buy: 3 x Trout;Osta: 3 x Trout
 Switch <col=ff8040>334</col>;Vaihda <col=ff8040>334</col>
 Torre de Vigia;Torre de Vigia
 Vez;Vez
@@ -4544,7 +3082,6 @@ Release all placeholders (16);Vapauta kaikki paikkamerkit (16)
 AKR;AKR
 Switch <col=ff8040>370</col>;Vaihda <col=ff8040>370</col>
 Leave <col=ff8040>Fishing Trawler</col> channel;Poistu <col=ff8040>Kalastustroolari</col>-kanavasta
-Default quantity: 45;Oletusmäärä: 45
 Sacrifício;Sacrifício
 O Pandemônio;Oi Pandemônio
 Pegue-barco;Pegue-barco
@@ -4644,11 +3181,8 @@ Show more;Näytä lisää
 Arrombar;Arrombar
 Mudar de Nome;Mudar de Nome
 Retirar-1000;Eläkkeellä - 1000
-Sell: 1 x Xerician hat;Myydään: 1 x Xerician hattu
 Orar;Orar
 Oferta;Offerta
-Buy: 3 x Shattered cannon ornament kit;Osta: 3 x Shattered cannon ornament kit
-Buy: 1 x Mystic hat (light);Osta: 1 x Mystic-hattu (kevyt)
 Change icon (runas);Vaihda kuvake (runas)
 Change icon (teleport);Vaihda kuvake (teleportti)
 Change icon (seed);Vaihda kuvake (siemen)
@@ -4664,11 +3198,8 @@ Set Hotkey (Not set);Aseta pikanäppäin (ei asetettu)
 Float;Kellua
 Tosquiar;Tosquiar
 Fornalha;Fornalha
-Buy: 1 x Eye of newt;Osta: 1 x newt eye
-Buy: 1 x Raw herring;Osta: 1 x raaka silli
 Change icon (rocks);Vaihda kuvake (kivet)
 Verifique elogios;Verifique elogios
-Default quantity: 150;Oletusmäärä: 150
 Use Suggested Settings;Käytä ehdotettuja asetuksia
 Castle Drakan;Drakanin linna
 Ponder;Mieti
@@ -4693,7 +3224,6 @@ Take-supplies;Take-tarvikkeita
 Harvest-from;Sato-alkaen
 Wrangle;Riita
 BLS;BLS
-Sell: 5 x Goblin mail;Myydään: 5 x Goblin-postia
 Interface;Käyttöliittymä
 Rede;Rede
 Trocar de mundo;Trocar de mundo
@@ -4722,45 +3252,22 @@ Lithkren;Lithkren
 Remover decorações;Decorações-poistoaine
 -6%;-6 %
 +6%;+6 %
-Buy: 30 x Saradomin brew(4);Osta: 30 x Saradomin olut(4)
-Buy: 1 x Amulet of strength;Osta: 1 x voimaamuletti
 Show less;Näytä vähemmän
 Pull-back;Vetäytyminen
 Give-feathers;Anna höyhenet
 Trade-teeth;Kauppa-hampaita
 Crystalise-potion;Kiteytysjuoma
-Buy: 2 x Onion;Osta: 2 x sipulia
-Sell: 1 x Bandos godsword;Myydään: 1 x Bandos jumalamiekka
-Withdraw-2,000;Nosto - 2000
 Configuração;Configuração
 Procure por armadilhas;Hanki armadilhas
 Extinguir;Extinguir
-Buy: 100 x Bronze arrowtips;Osta: 100 x pronssikärjet
-Withdraw-605;Nosto-605
-Default quantity: 605;Oletusmäärä: 605
-Deposit-605;Talletus-605
 Ofertar<col=ff9040>;Ofertar<col=ff9040>
 Change icon (boses);Vaihda kuvake (boses)
 Sync (Right-click Search);Synkronoi (haku hiiren kakkospainikkeella)
-Buy: 1 x Blighted manta ray;Osta: 1 x Blighted manta ray
-Buy: 1 x Leather body;Osta: 1 x nahkainen runko
-Buy: 1 x Climbing boots;Osta: 1 x kiipeilysaappaat
-Buy: 20 x Dragon thrownaxe;Osta: 20 x Dragon thrownaxe
-Buy: 300 x Amethyst arrow;Osta: 300 x ametisti nuoli
-Buy: 10 x Dragon knife;Osta: 10 x lohikäärmeveitsi
-Buy: 1 x Ring of wealth (5);Osta: 1 x Ring of Wealth (5)
-Buy: 1 x Amulet of glory(6);Osta: 1 x Amulet of glory(6)
-Buy: 1 x Ranging potion(4);Osta: 1 x Ranging potion(4)
-Buy: 1 x Anti-venom(4);Osta: 1 x Anti-venom(4)
-Buy: 100 x Rune knife(p++);Osta: 100 x riimuveitsi (p++)
-Buy: 1 x Red d'hide chaps;Osta: 1 x Red d'hide chaps
-Buy: 1 x Coif;Osta: 1 x Coif
 Release all placeholders (69);Vapauta kaikki paikkamerkit (69)
 Select <col=ff9040>Blighted vengeance sack</col>;Valitse <col=ff9040>Blighted Vengeance Sack</col>
 Select <col=ff9040>Soul cape</col>;Valitse <col=ff9040>Soul cape</col>
 Select <col=ff9040>Blighted karambwan</col>;Valitse <col=ff9040>Blighted karambwan</col>
 Select <col=ff9040>Blighted manta ray</col>;Valitse <col=ff9040>Blighted manta ray</col>
-Deposit-9000000;Talletus - 9000000
 Padrão;Padrão
 Wipe;Pyyhi
 Seek;Etsi
@@ -4768,8 +3275,6 @@ Sign up;Rekisteröidy
 Max/Med;Max/Med
 Join fight;Liity taisteluun
 Zerker;Zerker
-Deposit-124000;Talletus 124 000
-Withdraw-124000;Nosto-124000
 Toggle set effect;Aseta tehoste päälle/pois
 <col=ff0000>Delete tag tab;<col=ff0000>Poista tunniste-välilehti
 CIP;CIP
@@ -4778,19 +3283,11 @@ Store-2,000;Kauppa - 2000
 Bryophyta;Bryophyta
 Obor;Obor
 Branda and Eldric;Branda ja Eldric
-Buy: 50 x Super restore(4);Osta: 50 x Super return(4)
-Buy: 100 x Anglerfish;Osta: 100 x Anglerfish
 Change icon (royal titans);Vaihda kuvake (kuninkaalliset titaanit)
-Default quantity: 124,000;Oletusmäärä: 124 000
-Buy: 2,000 x Soul rune;Osta: 2000 x Soul-rune
 Dentro;Dentro
 Carregar;Carregar
 Release all placeholders (42);Vapauta kaikki paikkamerkit (42)
-Sell: 185 x Revenant ether;Myydään: 185 x Revenant eetteri
 Release all placeholders (36);Vapauta kaikki paikkamerkit (36)
-Sell: 1 x Bandos chestplate;Myydään: 1 x Bandos rintalevy
-Sell: 1 x Bandos tassets;Myydään: 1 x Bandos-tassetit
-Buy: 1 x Pegasian boots;Osta: 1 x Pegasian-saappaat
 Bank-All;Pankki-kaikki
 Destroy-All;Tuhoa kaikki
 Destroy-X;Tuhoa-X
@@ -4857,37 +3354,25 @@ Release all placeholders (23);Vapauta kaikki paikkamerkit (23)
 Deadman's Chest;Deadmanin arkku
 Adamant Arrow;Adamant Arrow
 Dragon Pickaxe Upgrade Kit;Dragon Pickaxe -päivityssarja
-Sell: 1 x Zaryte vambraces;Myydään: 1 x Zaryte vambraces
-Sell: 1 x Crimson kisten;Myydään: 1 x Crimson kisten
-Buy: 1 x Helm of neitiznot;Osta: 1 x Helm of neitiznot
-Buy: 1 x Super combat potion(4);Osta: 1 x supertaistelujuoma(4)
 Last-destination (DJQ);Viimeinen määränpää (DJQ)
 Last-destination (AJS);Viimeinen määränpää (AJS)
 Last-destination (AIR);Viimeinen määränpää (AIR)
 Pick-pocket;Taskuvaras
-Buy: 100 x Blighted anglerfish;Osta: 100 x Blighted merikrotti
 Heart;Sydän
 Change icon (pets);Vaihda kuvake (lemmikkieläimet)
 Brincar com;Brincar com
-Default quantity: 250;Oletusmäärä: 250
 Reset-time;Nollausaika
 Create-book;Luo kirja
-Buy: 1 x Beer;Osta: 1 x olut
 Continue-trek;Jatka vaellusta
 Evade-event;Kiertää tapahtuma
 Return-to-Paterdomus;Paluu Paterdomukseen
 Swing-from;Swing-alkaen
 Return-to-Burgh;Paluu Burghiin
-Sell: 1 x Zamorak monk bottom;Myydään: 1 x Zamorak munkkipohja
-Buy: 100 x Zamorak monk bottom;Osta: 100 x Zamorak munkkipohja
 Poison Waste;Myrkkyjäte
 Definir destino;Määrittele kohde
 Teleporte para o destino;Teleporte para o destino
 Copy Load-out;Kopioi Load-out
 +5;+5
-Deposit-700;Talletus - 700
-Withdraw-700;Nosto-700
-Default quantity: 700;Oletusmäärä: 700
 View journal <col=ff981f>Temple of the Eye</col>;Näytä päiväkirja <col=ff981f>Silmän temppeli</col>
 View journal <col=ff981f>Witch's Potion</col>;Näytä päiväkirja <col=ff981f>Witch's Potion</col>
 View journal <col=ff981f>Fishing Contest</col>;Näytä päiväkirja <col=ff981f>Kalastuskilpailu</col>
@@ -4899,8 +3384,6 @@ Coletar-Item;Coletar-tuote
 Coletar-Nota;Coletar-Nota
 Trocar capa de fogo;Trocar capa de fogo
 Release all placeholders (48);Vapauta kaikki paikkamerkit (48)
-Withdraw-24;Nosto-24
-Deposit-24;Talletus-24
 Armadyl Halo;Armadyl Halo
 Select <col=ff9040>10 Tokens/Blighted teleport spell sack</col>;Valitse <col=ff9040>10 merkkiä/Blighted teleport-loitsusäkki</col>
 Select <col=ff9040>10 Tokens/Blighted anglerfish</col>;Valitse <col=ff9040>10 Tokens/Blighted merikrotti</col>
@@ -4909,8 +3392,6 @@ Select <col=ff9040>10 Tokens/Blighted ancient ice sack</col>;Valitse <col=ff9040
 Select <col=ff9040>10 Tokens/Blighted manta ray</col>;Valitse <col=ff9040>10 Tokens/Blighted manta ray</col>
 Select <col=ff9040>10 Tokens/Blighted karambwan</col>;Valitse <col=ff9040>10 Tokens/Blighted karambwan</col>
 Select <col=ff9040>250 Tokens/Ectoplasmator</col>;Valitse <col=ff9040>250 Tokens/Ectoplasmator</col>
-Default quantity: 24;Oletusmäärä: 24
-Sell: 4 x Amulet of glory;Myydään: 4 x Amulet of glory
 Toggle Respawn;Vaihda Respawn
 Toggle Effect;Vaihda tehoste
 Tie-rope;Kiinnitysköysi
@@ -4922,20 +3403,14 @@ Brassica Halo;Brassica Halo
 Seren Halo;Seren Halo
 Adicionar Todos;Lisätiedot Todos
 Adicionar<col=ff9040>;Lisävaruste<col=ff9040>
-Withdraw-1300;Nosto-1300
-Default quantity: 1,300;Oletusmäärä: 1 300
 Surrender;Antaudu
-Deposit-184512;Talletus-184512
-Withdraw-184512;Nosto-184512
 Red Rock;Punainen kivi
-Deposit-1300;Talletus 1300
 Teleport to <col=ff8040>TzHaar Fight Pit</col>;Teleportoi <col=ff8040>TzHaar Fight Pitiin</col>
 Join <col=ff8040>TzHaar Fight Pit</col> channel;Liity <col=ff8040>TzHaar Fight Pit</col> -kanavalle
 Switch <col=ff8040>362</col>;Vaihda <col=ff8040>362</col>
 Botﾃｭn;Botﾃｭn
 Take-eggs;Ota munia
 Open-stomach;Avoin vatsa
-Buy: 1 x Iron platelegs;Osta: 1 x rautalevyjalat
 Short fuse;Lyhyt sulake
 Medium fuse;Keskikokoinen sulake
 Long fuse;Pitkä sulake
@@ -4959,7 +3434,6 @@ Tell-accurate;Kerro tarkasti
 Tell-defensive;Puolustava
 Tell-aggressive;Kerro aggressiivinen
 Tell-controlled;Kerro-ohjattu
-Sell: 100 x Dragon arrow(p++);Myydään: 100 x Dragon arrow (p++)
 Fill-X;Täytä-X
 Fill-All;Täytä-kaikki
 Eat-from;Syö-alkaen
@@ -4971,89 +3445,33 @@ Tell-crackers;Kerro-keksejä
 Tell-tofu;Kerro tofu
 Tell-worms;Kerromadot
 Fill potions;Täytä juomia
-Buy: 1 x Blood moon tassets;Osta: 1 x Blood moon -tassetit
-Buy: 1 x Crimson kisten;Osta: 1 x Crimson kisten
-Buy: 1 x Eye of ayak (uncharged);Osta: 1 x Eye of Ayak (lataamaton)
-Withdraw-840000;Nosto-840 000
 Custom quantity: 2,000;Mukautettu määrä: 2 000
-Buy: 1 x Saradomin brew(4);Osta: 1 x Saradomin olut(4)
-Deposit-840000;Talletus - 840 000
 Watson;Watson
 Deposit potions;Talleta juomia
 Smoke Rush;Smoke Rush
 Target Teleport Scroll;Kohde Teleport Scroll
 Dark Bow Green Paint;Tumma jousenvihreä maali
 Dark Bow White Paint;Tumma rusetin valkoinen maali
-Buy: 1 x Rune platelegs;Osta: 1 x riimulevyjalka
-Buy: 30 x Blighted super restore(4);Osta: 30 x Blighted super restaurointi(4)
-Buy: 60 x Blighted vengeance sack;Osta: 60 x Blighted kostosäkki
-Default quantity: 400;Oletusmäärä: 400
-Sell: 4,444 x Revenant ether;Myynti: 4 444 x Revenant-eetteri
-Sell: 1 x Extended anti-venom+(2);Myy: 1 x Extended anti-venom+(2)
 Release all placeholders (37);Vapauta kaikki paikkamerkit (37)
 Sangvesti;Sangvesti
-Sell: 1 x Adamant arrow;Myydään: 1 x Adamant-nuoli
-Sell: 1 x Adamant full helm;Myydään: 1 x Adamant täysi ruori
 Release all placeholders (41);Vapauta kaikki paikkamerkit (41)
 Release all placeholders (22);Vapauta kaikki paikkamerkit (22)
 Release all placeholders (5);Vapauta kaikki paikkamerkit (5)
 Release all placeholders (3);Vapauta kaikki paikkamerkit (3)
 Release all placeholders (31);Vapauta kaikki paikkamerkit (31)
-Default quantity: 99,000;Oletusmäärä: 99 000
-Deposit-99000;Talletus 99 000
-Withdraw-99000;Nosto-99000
 DIQ;DIQ
-Deposit-1600;Talletus 1600
-Withdraw-1600;Nosto-1600
-Withdraw-450;Nosto-450
-Deposit-450;Talletus - 450
-Sell: 33 x Bronze full helm;Myydään: 33 x pronssi täysi ruori
 Charter-to Sunset Coast;Charterista Sunset Coastille
 Bottle-boat;Pullo-vene
 Tell-meat;Kerro lihaa
-Default quantity: 450;Oletusmäärä: 450
 Release all placeholders (11);Vapauta kaikki paikkamerkit (11)
 Release all placeholders (28);Vapauta kaikki paikkamerkit (28)
-Sell: 107 x Stymphike feather;Myydään: 107 x Stymphike höyhen
-Buy: 1 x Bronze platebody;Osta: 1 x pronssilevyrunko
-Sell: 1 x Bronze kiteshield;Myydään: 1 x pronssinen kiteshield
-Buy: 8 x Tuna;Osta: 8 x tonnikala
-Deposit-744;Talletus-744
-Withdraw-744;Nosto-744
-Default quantity: 744;Oletusmäärä: 744
 Accept challenge;Hyväksy haaste
 1 Def Pure;1 Def Pure
-Buy: 10 x Willow longbow;Osta: 10 x Willow longbow
-Buy: 10 x Oak longbow;Osta: 10 x tammi pitkäjousi
-Sell: 9 x Banana;Myydään: 9 x banaani
-Sell: 162 x Banana;Myynti: 162 x banaani
-Buy: 100 x Willow longbow;Osta: 100 x Willow pitkäjousi
-Sell: 10 x Bronze scimitar;Myydään: 10 x pronssisakka
-Deposit-11;Talletus-11
-Sell: 318 x Cowhide;Myydään: 318 x lehmännahka
-Buy: 200 x Bronze bar;Osta: 200 x pronssitanko
 Select <col=ff9040>Blighted anglerfish</col>;Valitse <col=ff9040>Blighted merikrotti</col>
-Sell: 1 x Torva full helm (damaged);Myydään: 1 x Torva täysruori (vaurioitunut)
-Buy: 200 x Coal;Osta: 200 x hiili
-Sell: 304 x Steel bar;Myydään: 304 x terästanko
-Withdraw-136;Nosto-136
-Deposit-99999;Talletus - 99 999
-Withdraw-99999;Nosto-99999
 Balance-across;Tasapaino
-Buy: 250 x Iron ore;Osta: 250 x rautamalmi
-Deposit-136;Talletus-136
-Default quantity: 136;Oletusmäärä: 136
-Sell: 499 x Steel bar;Myydään: 499 x terästanko
-Buy: 1,200 x Coal;Osta: 1 200 x hiili
 9;9 
 Fill-1;Täyttö-1
 Fill-5;Täyttö-5
-Buy: 1 x Soft clay;Osta: 1 x pehmeä savi
-Buy: 1 x Redberries;Osta: 1 x punamarjat
-Withdraw-125000000;Nosto-125000000
-Deposit-740000;Talletus - 740 000
-Withdraw-740000;Nosto-740 000
-Default quantity: 740,000;Oletusmäärä: 740 000
 View Magic on the Wiki;Katso Magic Wikissä
 Donate-X;Lahjoita-X
 Donate-10;Lahjoita - 10
@@ -5062,57 +3480,31 @@ Donate;Lahjoittaa
 Donate-All;Lahjoita - Kaikki
 Travel-Start;Matka-aloitus
 Travel-End;Matkan loppu
-Sell: 12 x Oak shortbow (u);Myydään: 12 x Oak shortbow (u)
 Trade-Builders-Store;Trade-Builders-Store
 Trade-General-Store;Yleiskauppa
-Withdraw-17;Nosto-17
-Buy: 1 x Hueycoatl hide armour set;Osta: 1 x Hueycoatl hide panssarisarja
-Withdraw-5250;Nosto-5250
-Deposit-5250;Talletus - 5250
-Default quantity: 5,250;Oletusmäärä: 5 250
 Check rank;Tarkista sijoitus
 Check Rank;Tarkista sijoitus
 Set head slot to;Aseta pään aukko asentoon
-Default quantity: 99,999;Oletusmäärä: 99 999
 Set legs slot to;Aseta jalkojen aukko asentoon
 Set torso slot to;Aseta vartalon aukko asentoon
 Set amulet slot to;Aseta amulettipaikka asentoon
 Set boots slot to;Aseta saappaiden paikka asentoon
 Set hands slot to;Aseta käsien aukko asentoon
 Set cape slot to;Aseta viittapaikka asentoon
-Sell: 32 x Air orb;Myydään: 32 x Air orb
-Buy: 400 x Wine of zamorak;Osta: 400 x Zamorak-viini
 Charter-to Aldarin;Peruskirja Aldarinille
 Release all placeholders (10);Vapauta kaikki paikkamerkit (10)
 Last-destination (CLP);Viimeinen kohde (CLP)
-Buy: 2,120 x Air rune;Osta: 2 120 x ilmarune
 Examine <col=ff981f>Infinity boots;Tutki <col=ff981f>Infinity-saappaat
 Select <col=ff981f>Infinity boots;Valitse <col=ff981f>Infinity-saappaat
-Withdraw-565;Nosto-565
-Deposit-565;Talletus-565
-Withdraw-410;Nosto-410
 Take-cutting;Take-leikkaus
 Release-all;Vapauta kaikki
-Sell: 204 x Leather;Myydään: 204 x nahkaa
 Chant;Laulaa
-Buy: 1 x Eclipse moon armour set;Osta: 1 x Eclipse moon panssarisarja
-Buy: 1 x Rune full helm;Osta: 1 x Rune täysi ruori
-Withdraw-32000;Nosto-32000
-Deposit-32000;Talletus - 32 000
-Default quantity: 32,000;Oletusmäärä: 32 000
 Pelt;Pelt
 Prepare-fish;Valmista-kala
-Withdraw-36200;Nosto-36200
-Deposit-36200;Talletus-36200
-Withdraw-3200;Nosto-3200
-Deposit-3200;Talletus - 3200
 -10%;-10 %
 +10%;+10 %
-Buy: 100 x Prayer potion(4);Osta: 100 x rukousjuoma(4)
-Buy: 1 x Pot of flour;Osta: 1 x kattila jauhoja
 Smash-ice;Murskaa jäätä
 Step-off;Astu pois
-Buy: 1 x Mage's book;Osta: 1 x Magen kirja
 Walk-to;Kävele
 Press;Paina
 Dismantle kit;Purkamissarja
@@ -5123,39 +3515,22 @@ Open (private);Avoin (yksityinen)
 Open (normal);Avoin (normaali)
 Travel to<col=ff9040> The Clocktower;Matkusta<col=ff9040> ​​Kellotorniin
 Travel to<col=ff9040> Tree Gnome Village;Matkusta<col=ff9040> ​​Tree Gnome Villageen
-Buy: 1 x Orange dye;Osta: 1 x oranssi väriaine
-Buy: 1 x Goblin mail;Osta: 1 x Goblin mail
-Buy: 1 x Twisted trousers (t1);Osta: 1 x kierretyt housut (t1)
 Push-against;Työnnä vastaan
 Exit-through;Läpivienti
 Set shield slot to;Aseta suojuksen paikka asentoon
 Set weapon slot to;Aseta asepaikka asentoon
 Release all placeholders (53);Vapauta kaikki paikkamerkit (53)
-Default quantity: 2,147,483,647;Oletusmäärä: 2 147 483 647
-Deposit-2147483647;Talletus-2147483647
-Withdraw-2147483647;Nosto-2147483647
 Travel to<col=ff9040> Tree Gnome Stronghold;Matkusta<col=ff9040> ​​Tree Gnome Strongholdiin
 Travel to<col=ff9040> Chaos Druid Tower;Matkusta<col=ff9040> ​​Chaos Druid Toweriin
 Make <col=ff9040>Sapphire bracelet</col>;Tee <col=ff9040>safiirirannekoru</col>
 Botín;Botín
-Withdraw-36000;Nosto-36000
-Deposit-36000;Talletus - 36 000
-Sell: 1 x Necklace of anguish;Myydään: 1 x ahdistuksen kaulakoru
 AKQ;AKQ
 CJQ;CJQ
 DKS;DKS
-Buy: 1 x Snakeskin boots;Osta: 1 x käärmeennahkasaappaat
-Buy: 1 x Rune kiteshield;Osta: 1 x Rune kiteshield
 Teleport to <col=ff8040>Last Man Standing</col>;Teleportoi <col=ff8040>Last Man Standingiin</col>
 Join <col=ff8040>Last Man Standing</col> channel;Liity <col=ff8040>Last Man Standing</col> -kanavalle
 Golden Zamorak Special;Golden Zamorak Special
-Deposit-7680;Talletus-7680
-Withdraw-7680;Nosto-7680
-Default quantity: 7,680;Oletusmäärä: 7 680
 Volcanic Whip Mix;Volcanic Whip Mix
-Sell: 3 x Crystal key;Myydään: 3 x kristalliavain
-Buy: 23 x Loop half of key;Osta: 23 x Loop puolikas avaimesta
-Sell: 33 x Crystal key;Myydään: 33 x kristalliavain
 LatamDark;LatamDark
 Expel;Karkottaa
 Resignation;Eroaminen
@@ -5163,8 +3538,6 @@ Wipe title;Pyyhi otsikko
 Emote;Emote
 Sing;Laulaa
 Change icon (armaduras);Vaihda kuvake (armaduras)
-Sell: 1,090 x Steel cannonball;Myydään: 1 090 x teräksinen kanuunankuula
-Buy: 100 x Blighted vengeance sack;Osta: 100 x Blighted kostosäkki
 Select <col=ff981f>Dust rune;Valitse <col=ff981f>Pölyrune
 Examine <col=ff981f>Dust rune;Tutki <col=ff981f>Pölyriimu
 Select <col=ff981f>Chaos rune;Valitse <col=ff981f>Chaos Rune
@@ -5172,13 +3545,8 @@ Examine <col=ff981f>Chaos rune;Tutki <col=ff981f>kaaosriimua
 Release all placeholders (8);Vapauta kaikki paikkamerkit (8)
 Join <col=ff8040>Mage Training Arena</col> channel;Liity <col=ff8040>Mage Training Arena</col> -kanavalle
 Teleport to <col=ff8040>Mage Training Arena</col>;Teleportoi <col=ff8040>Mage Training Arenalle</col>
-Default quantity: 300,000;Oletusmäärä: 300 000
 Wyrmscraig;Wyrmscraig
 Simple;Yksinkertainen
-Withdraw-3600;Nosto-3600
-Buy: 1 x Old school bond;Osta: 1 x Old school bond
-Withdraw-70000;Nosto-70 000
-Deposit-70000;Talletus - 70 000
 <col=00afff>Resume autochat</col>;<col=00afff>Jatka automaattista keskustelua</col>
 <col=00afff>Pause autochat</col>;<col=00afff>Keskeytä automaattinen keskustelu</col>
 Look-through;Katse läpi
@@ -5199,32 +3567,11 @@ Level-up increments of 5;Tason nousu 5
 Loot key broadcast value;Luota avaimen lähetysarvo
 Level-up increments of 10;Tason nousu 10
 Personal best broadcasts;Henkilökohtaiset parhaat lähetykset
-Buy: 10,000 x Death rune;Osta: 10 000 x Death Rune
-Sell: 1 x Guthix coif;Myydään: 1 x Guthix coif
-Buy: 14,546 x Death rune;Osta: 14 546 x Death Rune
-Sell: 6,000 x Blood rune;Myynti: 6000 x Verirune
-Sell: 1 x Chaos rune;Myydään: 1 x Chaos-riimu
-Deposit-240;Talletus - 240
-Withdraw-240;Nosto-240
-Withdraw-121;Nosto-121
-Deposit-121;Talletus-121
-Sell: 1 x Looting bag note;Myydään: 1 x ryöstölaukkulappu
 Distract;Hajauttaa
 Burn-down;Poltettu
-Default quantity: 2,500;Oletusmäärä: 2 500
-Sell: 30 x Iron ore;Myydään: 30 x rautamalmi
-Withdraw-999;Nosto-999
-Withdraw-1050;Nosto-1050
-Buy: 1 x Bloodbark legs;Osta: 1 x Bloodbark jalat
-Deposit-999;Talletus - 999
 View <col=ff9040>Gauntlet Map</col>;Näytä <col=ff9040>Gauntlet-kartta</col>
 Pedal;Polkea
-Buy: 8 x Split log;Osta: 8 x Halkaistu hirsi
 Échanger avec;Échanger avec
-Withdraw-12500;Nosto-12500
-Deposit-12500;Talletus 12 500
-Deposit-28;Talletus-28
-Buy: 400 x Aether rune;Osta: 400 x eetterirune
 Shape-Air;Muoto-ilma
 Shape-Water;Muoto-Vesi
 Shape-Fire;Muoto-Tulo
@@ -5239,119 +3586,58 @@ Move Fragment Down;Siirrä fragmentti alas
 Move Fragment Right;Siirrä fragmenttia oikealle
 Shape-Mind;Muoto-mieli
 Move Fragment Up;Siirrä fragmentti ylös
-Withdraw-25000;Nosto - 25 000
-Deposit-25000;Talletus - 25 000
-Withdraw-719;Nosto-719
-Deposit-719;Talletus-719
 Charter-to Corsair Cove;Charter-matka Corsair Coveen
-Withdraw-344;Nosto-344
-Deposit-344;Talletus-344
-Withdraw-977;Nosto-977
-Deposit-977;Talletus-977
-Default quantity: 977;Oletusmäärä: 977
-Withdraw-175000000;Nosto-175000000
-Default quantity: 175,000,000;Oletusmäärä: 175 000 000
 Restore <col=ff9040>Minimap</col>;Palauta <col=ff9040>pienikartta</col>
-Default quantity: 28;Oletusmäärä: 28
 Last-destination (DIR);Viimeinen määränpää (DIR)
 Enter-cloud;Enter-pilvi
 Submit;Lähetä
-Deposit-175000000;Talletus 175000000
-Buy: 1 x Water tiara;Osta: 1 x vesitiara
-Withdraw-130;Nosto-130
-Deposit-130;Talletus - 130
 Examine <col=ff981f>Mist rune;Tutki <col=ff981f>Sumurune
 Select <col=ff981f>Mist rune;Valitse <col=ff981f>Sumurune
-Sell: 100 x Cowhide;Myynti: 100 x lehmännahka
-Sell: 1 x Bronze dagger;Myydään: 1 x pronssitikari
-Buy: 1 x Rune pickaxe;Osta: 1 x riimuhakku
-Default quantity: 2,121,212,121;Oletusmäärä: 2 121 212 121
-Withdraw-2121212121;Nosto-2121212121
-Deposit-2121212121;Talletus-2121212121
-Sell: 41 x Big bones;Myydään: 41 x isot luut
 Go-up;Nouse ylös
-Buy: 1 x Swampbark armour set;Osta: 1 x Swampbark panssarisarja
-Withdraw-106500;Nosto-106500
-Deposit-106500;Talletus 106 500
-Default quantity: 106,500;Oletusmäärä: 106 500
-Buy: 100 x Anchovy pizza;Osta: 100 x anjovispizza
-Buy: 1 x Snakeskin bandana;Osta: 1 x Snakeskin huivi
-Buy: 100 x Blighted karambwan;Osta: 100 x Blighted karambwan
-Buy: 1 x Bandos tassets;Osta: 1 x Bandos-tassetit
-Buy: 1 x Red dragonhide set;Osta: 1 x Red Dragonhide setti
-Buy: 1 x Zombie helmet;Osta: 1 x Zombie-kypärä
 Swim-to;Uimaan
-Buy: 1 x Teal boots;Osta: 1 x sinivihreät saappaat
-Withdraw-8600;Nosto-8600
-Deposit-8600;Talletus 8600
-Withdraw-160;Nosto-160
-Deposit-160;Talletus - 160
-Sell: 110 x Steel nails;Myydään: 110 x teräsnaulat
 The Summer Shore;Kesä Ranta
-Deposit-1750;Talletus 1750
-Withdraw-1750;Nosto-1750
 Quick-open;Pika-avattava
-Default quantity: 3,200;Oletusmäärä: 3 200
 View Slayer on the Wiki;Katso Slayer Wikissä
 Wyrmscraig Cavern;Wyrmscraig-luola
-Withdraw-5500;Nosto-5500
-Deposit-6500;Talletus - 6500
-Withdraw-6500;Nosto-6500
-Deposit-5500;Talletus - 5500
-Withdraw-680000;Nosto - 680 000
 Scorch;Paahtaa
 Flare;Leimahdus
 Ring-last-destination (BLP);Ring-last-destination (BLP)
 Zerstören;Zerstören
 Take-one;Ota yksi
-Default quantity: 15,000;Oletusmäärä: 15 000
-Withdraw-1899;Nosto-1899
-Deposit-1899;Talletus-1899
-Buy: 5,000 x Air rune;Osta: 5 000 x ilmarune
 ÐžÑ‚Ð¼ÐµÐ½Ð°;ÐžÑ‚Ð¼ÐµÐ½Ð°
 Ð˜Ð´Ð¸ Ñ�ÑŽÐ´Ð°;Ð˜Ð´Ð¸ Ñ�ÑŽÐ´Ð°
-Withdraw-45000;Nosto-45 000
-Deposit-45000;Talletus - 45 000
-Default quantity: 45,000;Oletusmäärä: 45 000
-Deposit-942;Talletus-942
-Withdraw-942;Nosto-942
-Buy: 100 x Iron arrow;Osta: 100 x rautanuoli
 Release all placeholders (20);Vapauta kaikki paikkamerkit (20)
-Withdraw-296;Nosto-296
-Deposit-296;Talletus - 296
-Default quantity: 296;Oletusmäärä: 296
-Buy: 30 x Blighted vengeance sack;Osta: 30 x Blighted kostosäkki
-Buy: 1 x Ring of recoil;Osta: 1 x rekyylirengas
-Buy: 1 x Black d'hide chaps;Osta: 1 x Black d'hide chaps
-Default quantity: 12,000;Oletusmäärä: 12 000
-Buy: 10,000 x Nature rune;Osta: 10 000 x Nature rune
 Cross-bridge;Ristisilta
-Withdraw-340;Nosto-340
-Deposit-340;Talletus - 340
-Default quantity: 340;Oletusmäärä: 340
 Store-1,000;Kauppa - 1000
 Release all placeholders (7);Vapauta kaikki paikkamerkit (7)
 Remove <col=ff981f>Dragonstone bolts (e);Poista <col=ff981f>Dragonstone-pultit (e)
-Buy: 1 x Botanical pie;Osta: 1 x kasvitieteellinen piirakka
 Select-trial;Valitse-kokeilu
 Deliver-rum;Toimita rommi
 Minimise;Minimoida
 Exit trial;Poistu kokeilusta
 Quick-reset trial;Pikareset-kokeilu
 Reset trial;Nollaa kokeilu
-Buy: 1 x Strength amulet (t);Osta: 1 x Strength amulet (t)
-Deposit-1009;Talletus-1009
-Withdraw-1009;Nosto-1009
-Sell: 27 x Sapphire ring;Myydään: 27 x safiirisormus
 Release all placeholders (2);Vapauta kaikki paikkamerkit (2)
-Default quantity: 1,009;Oletusmäärä: 1 009
-Sell: 8 x Ring of wealth;Myy: 8 x Ring of Wealth
 Make <col=ff9040>Diamond amulet (u)</col>;Tee <col=ff9040>Timanttiamuletti (u)</col>
 Make <col=ff9040>Diamond ring</col>;Tee <col=ff9040>timanttisormus</col>
-Buy: 1 x Dwellberries;Osta: 1 x Dwellberries
 Small net;Pieni verkko
 Make Party;Tee juhlat
 Friends/Clan Only;Vain ystävät/klaanit
 View Party:;Näytä juhlat:
 Flip;Kääntää
 Begin;Alkaa
+re:^Withdraw-([\d,]+)$;Nosta-$1
+re:^Deposit-([\d,]+)$;Talleta-$1
+re:^Withdraw ([\d,]+)$;Nosta $1
+re:^Deposit ([\d,]+)$;Talleta $1
+re:^Buy: ([\d,]+) x (.+)$;Osta: $1 x $2
+re:^Sell: ([\d,]+) x (.+)$;Myy: $1 x $2
+re:^Buy ([\d,]+)$;Osta $1
+re:^Sell ([\d,]+)$;Myy $1
+re:^Buy-([\d,]+)$;Osta-$1
+re:^Sell-([\d,]+)$;Myy-$1
+re:^Default quantity: ([\d,]+)$;Oletusmäärä: $1
+re:^Add friend (.+)$;Lisää ystävä $1
+re:^Add ignore (.+)$;Lisää ohitus $1
+re:^Remove-([\d,]+)$;Poista-$1
+re:^Take-([\d,]+)$;Ota-$1

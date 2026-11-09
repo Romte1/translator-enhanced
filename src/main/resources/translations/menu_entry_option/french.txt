@@ -223,7 +223,6 @@ All;Tous
 Enter quantity;Entrez la quantité
 +1;+1
 Offer;Offre
-Buy: 1 x Nature rune;Acheter: 1 x Rune Nature
 Buy-offer;Offre d'achat
 Chop-down;Couper
 Look North;Regardez vers le nord
@@ -262,21 +261,14 @@ Guide;Guide
 View tab;Onglet Afficher
 Collapse tab;Onglet Réduire
 Withdraw-X;Retrait-X
-Withdraw-10000;Retrait-10000
-Withdraw-10;Retrait-10
 Withdraw-All;Tout retirer
 Remove placeholders;Supprimer les espaces réservés
-Withdraw-5;Retrait-5
 Withdraw-All-but-1;Retirer tout sauf 1
-Withdraw-1;Retrait-1
 Release;Libérer
-Default quantity: 10,000;Quantité par défaut : 10 000
-Default quantity: 1;Quantité par défaut : 1
 Set custom quantity;Définir une quantité personnalisée
 View tag tab;Afficher l'onglet Balise
 Rename tag tab;Renommer l'onglet Balise
 Delete tag tab;Supprimer l'onglet de balise
-Default quantity: 10;Quantité par défaut : 10
 Enable layout;Activer la mise en page
 Change icon;Changer d'icône
 Export tag tab;Onglet Exporter la balise
@@ -299,10 +291,7 @@ Default quantity: All;Quantité par défaut : Tous
 Deposit inventory;Inventaire de dépôt
 Deposit worn items;Dépôt des objets portés
 Disable;Désactiver
-Default quantity: 5;Quantité par défaut : 5
-Withdraw-14;Retrait-14
 Pay (Fruit tree);Payer (Arbre fruitier)
-Default quantity: 14;Quantité par défaut : 14
 Wield;Exercer
 Wear;Porter
 Dismantle;Démanteler
@@ -347,9 +336,6 @@ Deposit-All;Dépôt-Tout
 Default quantity: <col=ff9040>5</col>;Quantité par défaut : <col=ff9040>5</col>
 Deposit Lock Settings;Paramètres de verrouillage des dépôts
 Disable inventory locks;Désactiver les verrous d'inventaire
-Deposit-10;Dépôt-10
-Deposit-1;Dépôt-1
-Deposit-5;Dépôt-5
 Default quantity: <col=ff9040>1</col>;Quantité par défaut : <col=ff9040>1</col>
 Shave;Raser
 Haircut;Coupe de cheveux
@@ -398,8 +384,6 @@ Restore Default Zoom;Restaurer le zoom par défaut
 Select <col=ff981f>Interfaces;Sélectionnez <col=ff981f>Interfaces
 Buy-X;Acheter-X
 Potions;Potions
-Buy-5;Acheter-5
-Buy-1;Acheter-1
 Buy-All;Acheter tout
 Show worn items;Afficher les articles portés
 Bottom-floor;Rez-de-chaussée
@@ -468,11 +452,9 @@ Pass;Passer
 <col=ffff00>Group:</col> Show all;<col=ffff00>Groupe :</col> Afficher tout
 <col=ffff00>Group:</col> Show none;<col=ffff00>Groupe :</col> Afficher aucun
 Quench;Éteindre
-Withdraw-18;Retrait-18
 Inside;À l'intérieur
 Home;Maison
 Group;Groupe
-Deposit-18;Dépôt-18
 Build mode;Mode construction
 Resurrect;Ressusciter
 Friend's house;La maison d'un ami
@@ -514,12 +496,7 @@ Chart;Graphique
 Last-destination (AIP);Dernière destination (AIP)
 Zoom out;Zoom arrière
 Zanaris;Zanaris
-Buy 50;Achetez-en 50
 Value;Valeur
-Buy 10;Achetez-en 10
-Buy 1;Achetez-en 1
-Buy-50;Acheter-50
-Buy 5;Achetez-en 5
 Climb-over;Grimper
 Milk;Lait
 Take-axe;Prendre une hache
@@ -555,7 +532,6 @@ View journal <col=ff981f>X Marks the Spot</col>;Afficher le journal <col=ff981f>
 Sell 50<col=ff9040>;Vendre 50<col=ff9040>
 Sell 10<col=ff9040>;Vendre 10<col=ff9040>
 Sell 1<col=ff9040>;Vendre 1<col=ff9040>
-Buy-10;Acheter-10
 Value<col=ff9040>;Valeur<col=ff9040>
 Feel;Sentir
 Sell 5<col=ff9040>;Vendre 5<col=ff9040>
@@ -629,7 +605,6 @@ Group: Previous;Groupe : Précédent
 Pray;Prier
 Investigate;Enquêter
 Jump-onto;Sautez sur
-Withdraw-500;Retrait-500
 Move-left;Déplacer vers la gauche
 Grab;Saisir
 Move-down;Descendre
@@ -643,9 +618,7 @@ Add-X<col=ff9040>;Add-X<col=ff9040>
 Add-10<col=ff9040>;Ajout-10<col=ff9040>
 Add-All<col=ff9040>;Ajouter tout<col=ff9040>
 Add<col=ff9040>;Ajouter<col=ff9040>
-Deposit-500;Dépôt-500
 Check charges;Vérifier les frais
-Default quantity: 500;Quantité par défaut : 500
 Filter;Filtre
 Load-outs;Chargements
 Done;Fait
@@ -707,7 +680,6 @@ Collect-note;Note à collectionner
 Collect-item;Objet de collection
 Disable <col=ff9040>Notes;Désactiver <col=ff9040>Notes
 Info;Informations
-Sell: 1 x Bronze med helm;Vendre : 1 x Casque médical en bronze
 Pick-Lock;Crochet
 Collect-items;Objets à collectionner
 Collect-notes;Notes de collecte
@@ -723,35 +695,19 @@ Tan <col=ff7000>1;Tan <col=ff7000>1
 Tan <col=ff7000>All;Tan <col=ff7000>Tous
 Smithing;Forge
 Remove-X;Supprimer-X
-Remove-10;Supprimer-10
-Remove-5;Supprimer-5
 Remove-All;Supprimer tout
 Hunter;Chasseur
 Firemaking;Faire du feu
 Enable <col=ff9040>Swap;Activer <col=ff9040>Échange
 Add all;Ajouter tout
 Release all placeholders (1);Libérer tous les espaces réservés (1)
-Buy: 160 x Cowhide;Acheter: 160 x Peau de vache
 Set price;Fixer le prix
-Sell: 195 x Leather;Vendre : 195 x Cuir
-Sell: 175 x Leather;Vendre : 175 x Cuir
-Buy: 10 x Air tiara;Acheter: 10 x Diadème Air
-Buy: 2 x Ring mould;Acheter: 2 x Moule à anneaux
 pic;photo
 Set quantity;Définir la quantité
 Set wiki price;Fixer le prix du wiki
 Accept trade;Accepter le commerce
 Accept;Accepter
-Buy: 1 x Mithril gold-trimmed set (lg);Acheter: 1 x ensemble mithril orné d'or (lg)
-Buy: 15 x Diamond;Acheter : 15 x Diamant
-Sell: 55 x Emerald;Vendre : 55 x Émeraude
-Buy: 55 x Emerald;Acheter: 55 x Émeraude
-Buy: 1 x Poison;Acheter : 1 x Poison
-Buy: 34 x Ruby necklace;Acheter: 34 x Collier Rubis
 Search for item;Rechercher un article
-Sell: 124 x Tuna;Vendre : 124 x Thon
-Buy: 1 x Rune axe;Acheter: 1 x hache runique
-Sell: 83 x Energy potion(4);Vendre : 83 x Potion énergétique(4)
 Check-Count;Décompte des chèques
 Bash;Frapper
 Earth Bolt;Boulon de terre
@@ -767,9 +723,7 @@ Push;Pousser
 Quantity:;Quantité:
 View Smithing on the Wiki;Voir Smithing sur le Wiki
 Pull;Tirer
-Buy: 129 x Limpwurt root;Acheter: 129 x Racine de Limpwurt
 View <col=ff9040>Mining</col> guide;Voir le guide du <col=ff9040>Exploitation minière</col>
-Buy: 600 x Hammer;Acheter: 600 x Marteau
 Pick refreshment;Choisissez un rafraîchissement
 Focus;Se concentrer
 Open <col=ff9040>Morytania Journal</col>;Ouvrir le <col=ff9040>Journal Morytania</col>
@@ -817,7 +771,6 @@ Fur Clothing;Vêtements en fourrure
 Brimhaven;Brimhaven
 Aldarin;Aldarin
 Taverley;Taverley
-Default quantity: 200,000,000;Quantité par défaut : 200 000 000
 Prifddinas;Priddinas
 Lock-slot;Fente de verrouillage
 Pollnivneach;Pollnivneach
@@ -829,10 +782,7 @@ Hosidius;Hosidius
 WOM lookup;Recherche WOM
 Unload;Décharger
 Contract;Contracter
-Withdraw-200000000;Retrait-200000000
 Rimmington;Rimington
-Deposit-200000000;Dépôt-200000000
-Deposit-14;Dépôt-14
 Purchase Amulet;Acheter une amulette
 Drink-from;Boire de
 Float Canoe;Canoë flottant
@@ -865,11 +815,9 @@ Take-seed;Prendre des graines
 Take-pickaxe;Prendre une pioche
 Dyes;Colorants
 Anadir ignorar;Anadir ignorer
-Withdraw-50000;Retrait-50000
 Informe;Informer
 activar;activer
 Anadir amigo;Anadir amigo
-Deposit-50000;Dépôt-50000
 Accurate;Précis
 Longrange;Longue portée
 Prod;Produit
@@ -879,11 +827,8 @@ Glider-to Ta Quir Priw;Planeur vers Ta Quir Priw
 Travel to<col=ff9040> Barbarian Village;Rendez-vous au<col=ff9040> ​​village barbare
 Travel to<col=ff9040> Edgeville;Voyagez à<col=ff9040> ​​Edgeville
 Downgrade;Rétrograder
-Buy: 1 x Dragon axe;Acheter: 1 x Hache Dragon
 Seers' Village;Village des voyants
 Camelot;Camelot
-Deposit-120000;Dépôt-120000
-Withdraw-120000;Retrait-120000
 Gehen Sie hier;Voir ici
 Reden mit;Reden mit
 Prüfen;Prüfen
@@ -922,7 +867,6 @@ Coin Collection;Collection de pièces
 Boss Log;Journal du patron
 Miscellania;Divers
 Falador;Falador
-Deposit-10000;Dépôt-10000
 Skrach Uglogwee;Skrach Uglogwee
 Lumbridge Guide;Guide de Lumbridge
 Wartface & Bentnoze;Verrue et bentnoze
@@ -931,7 +875,6 @@ Evil Dave;Le méchant Dave
 Mountain Dwarf;Nain des montagnes
 Pirate Pete;Pierre le pirate
 Sir Amik Varze;Monsieur Amik Varze
-Buy: 10 x Stamina potion(4);Acheter: 10 x Potion d'endurance(4)
 Pass-through;Passage
 +99%;+99%
 Cut;Couper
@@ -963,10 +906,6 @@ Breach Check;Vérification des violations
 Shop;Boutique
 Unlocks;Déverrouille
 Prayers;Prières
-Sell-10;Vendre-10
-Sell-1;Vendre-1
-Sell-5;Vendre-5
-Sell-50;Vendre-50
 Deadman;Homme mort
 Points Info;Informations sur les points
 About;À propos
@@ -981,16 +920,11 @@ Select <col=ff9040>Confirm</col>;Sélectionnez <col=ff9040>Confirmer</col>
 Dream;Rêve
 Ammo;Munitions
 Toggle setting;Basculer le réglage
-Withdraw-19;Retrait-19
-Default quantity: 19;Quantité par défaut : 19
 Manoeuvre-past;Manœuvre-passé
-Buy: 1 x Yellow dye;Acheter: 1 x Teinture jaune
 View <col=ff9040>Firemaking</col> guide;Voir le guide <col=ff9040>Faire du feu</col>
 Weave;Tisser
 Take-boat;Prendre un bateau
 Ardougne;Ardougne
-Withdraw-100;Retrait-100
-Deposit-100;Dépôt-100
 Remove-coal;Supprimer le charbon
 Tuxedo-time;L'heure du smoking
 Turn;Tourner
@@ -1030,10 +964,6 @@ A;UN
 Play your tune.;Jouez votre musique.
 F#;Fa#
 C#;C#
-Default quantity: 100;Quantité par défaut : 100
-Deposit-1000;Dépôt-1000
-Withdraw-1000;Retrait-1000
-Sell: 17 x Big bones;Vendre : 17 x Gros os
 Previous;Précédent
 45 days membership;45 jours d'adhésion
 Buy Bonds;Acheter des obligations
@@ -1048,8 +978,6 @@ Murder;Meurtre
 Walk-on;Sans rendez-vous
 Chill;Froideur
 Fix;Réparer
-Take-5;Prise-5
-Take-10;Prendre-10
 Bail-with;Cautionnement avec
 Comercio con;Commerce avec
 conjuntos;ensembles
@@ -1064,9 +992,7 @@ Recolectar;Recueillir
 Offer-X<col=ff9040>;Offre-X<col=ff9040>
 Offer<col=ff9040>;Offre<col=ff9040>
 Offer-All<col=ff9040>;Offre-Tout<col=ff9040>
-Deposit-107;Dépôt-107
 Offer-10<col=ff9040>;Offre-10<col=ff9040>
-Withdraw-107;Retrait-107
 Offer-5<col=ff9040>;Offre-5<col=ff9040>
 Assignment;Affectation
 Last-destination (DKS);Dernière destination (DKS)
@@ -1074,18 +1000,14 @@ Add Favourite;Ajouter un favori
 Use code;Utiliser du code
 Destroy ALL;Détruisez TOUT
 Comer;Arrivant
-Deposit-5000;Dépôt-5000
 Llevar;Llevar
 Precios;Prix
-Withdraw-5000;Retrait-5000
 Cocinando;Cocinando
 BotÃ­n;Botín
 Kandarin Monastery;Monastère Kandarin
-Default quantity: 107;Quantité par défaut : 107
 Empunar;Empunar
 Deposito;Dépôt
 +50%;+50%
-Default quantity: 5,000;Quantité par défaut : 5 000
 Tener puesto;Tener puesto
 -50%;-50%
 Vista;Vue
@@ -1112,9 +1034,6 @@ Leap;Saut
 Mark;Marque
 Unmark;Décocher
 Open GE Tracker to;Ouvrez GE Tracker pour
-Buy: 1 x Iron scimitar;Acheter: 1 x Cimeterre en fer
-Buy: 1 x Iron platebody;Acheter: 1 x Corps en plaque de fer
-Sell: 1 x Iron dagger;Vendre : 1 x Dague de fer
 Wind Strike;Coup de vent
 Fire Wave;Vague de feu
 Wind Bolt;Éclair de vent
@@ -1133,9 +1052,6 @@ Last-destination (DJR);Dernière destination (DJR)
 Illegal / harmful content;Contenu illégal/préjudiciable
 Last-destination (AKR);Dernière destination (AKR)
 Hammer;Marteau
-Deposit-600;Dépôt-600
-Withdraw-600;Retrait-600
-Withdraw-200000;Retrait-200000
 Prospect;Perspective
 Wind-up;Liquidation
 Look-under;Regarder en dessous
@@ -1144,8 +1060,6 @@ Climb-across;Traverser
 Swing-on;Basculant
 Swing-across;Traverser
 Pay-fare;Tarif payant
-Withdraw-3000;Retrait-3000
-Deposit-3000;Dépôt-3000
 Cut down;Réduire
 Cut-wood;Bois coupé
 Eperlano;Éperlan
@@ -1153,10 +1067,8 @@ Last-destination (CKR);Dernière destination (CKR)
 Teeth-grip;Poignée-dents
 Last-destination (DKR);Dernière destination (DKR)
 Pick-apple;Cueillette de pomme
-Remove-1;Supprimer-1
 Cage;Cage
 Banknotes;Billets de banque
-Default quantity: 600;Quantité par défaut : 600
 Water Strike;Frappe d'eau
 Fire Surge;Onde de feu
 Wind Surge;Onde de vent
@@ -1197,8 +1109,6 @@ Apply;Appliquer
 Edit;Modifier
 Members;Membres
 Permissions;Autorisations
-Withdraw-15;Retrait-15
-Deposit-15;Dépôt-15
 Dive;Plonger
 Devices;Appareils
 Charge;Charge
@@ -1215,30 +1125,22 @@ Heal;Guérir
 Up;En haut
 Down;Vers le bas
 Take-many;Prenez-en plusieurs
-Withdraw-28;Retrait-28
-Withdraw-65;Retrait-65
 Change-style;Changer de style
 Hasty-rummage;Fouiller à la hâte
 Colossal Wyrm Remains;Restes colossaux de wyrm
 Choose;Choisir
 Slide-along;Glissez
-Deposit-40;Dépôt-40
-Withdraw-50;Retrait-50
-Withdraw-40;Retrait-40
-Withdraw-2000;Retrait-2000
 Dive in;Plongez
 Swim to;Nager jusqu'à
 Use-rod;Utiliser-tige
 Swim;Nager
 Construct;Construction
-Deposit-2000;Dépôt-2000
 Get in;Montez
 Take treasure;Prends un trésor
 Get-rewards;Obtenez des récompenses
 Plant;Usine
 Last-destination (DLQ);Dernière destination (DLQ)
 Last-destination (AJP);Dernière destination (AJP)
-Default quantity: 40;Quantité par défaut : 40
 Load;Charger
 Demolish;Démolir
 Quick-escape;Évasion rapide
@@ -1272,7 +1174,6 @@ The Pandemonium;Le pandémonium
 Repair-boat;Bateau de réparation
 Modify;Modifier
 Set sails;Mettre les voiles
-Default quantity: 2,000;Quantité par défaut : 2 000
 Build-trap;Construire un piège
 Stop-navigating;Arrêter la navigation
 Pry-open;Ouverture par levier
@@ -1287,12 +1188,7 @@ Board friend's boat;Embarquez sur le bateau d'un ami
 Accept task;Accepter la tâche
 Deposit-held;Dépôt détenu
 Deposit-cargo;Dépôt-cargo
-Withdraw-7;Retrait-7
-Deposit-7;Dépôt-7
 Select option B;Sélectionnez l'option B
-Default quantity: 7;Quantité par défaut : 7
-Withdraw-2;Retrait-2
-Deposit-2;Dépôt-2
 Last-destination (DKP);Dernière destination (DKP)
 Reinforce;Renforcer
 Burst;Éclatement
@@ -1306,11 +1202,6 @@ Check-charge;Chèque-charge
 Enakhra's Temple Entrance;Entrée du temple d'Enakhra
 Last-tier contract;Contrat de dernier palier
 Fire-at;Tirer sur
-Deposit-35000;Dépôt-35000
-Withdraw-35000;Retrait-35000
-Default quantity: 35,000;Quantité par défaut : 35 000
-Deposit-3;Dépôt-3
-Withdraw-3;Retrait-3
 Collect-data;Collecter des données
 Bloom;Floraison
 Listen;Écouter
@@ -1320,9 +1211,6 @@ Last-destination (CLR);Dernière destination (CLR)
 Flush;Flush
 Last-destination (AKQ);Dernière destination (AKQ)
 Set-trap;Piège tendu
-Deposit-30;Dépôt-30
-Withdraw-30;Retrait-30
-Default quantity: 30;Quantité par défaut : 30
 Check totals;Vérifier les totaux
 Reverse;Inverse
 Stop boat;Arrêter le bateau
@@ -1342,7 +1230,6 @@ Last-destination (AKS);Dernière destination (AKS)
 Last-destination (CIS);Dernière destination (CIS)
 View journal <col=ff981f>Shilo Village</col>;Voir le journal <col=ff981f>Shilo Village</col>
 View journal <col=ff981f>Priest in Peril</col>;Voir le journal <col=ff981f>Prêtre en péril</col>
-Withdraw-20000;Retrait-20000
 Get bird;Obtenez un oiseau
 Quick-Travel;Voyage rapide
 Embark;Embarquer
@@ -1350,9 +1237,7 @@ Take tools;Prendre des outils
 Climb Up;Grimper
 Build on;Construire sur
 Make <col=ff9040>Ruby ring</col>;Fabriquer une <col=ff9040>bague rubis</col>
-Withdraw-13;Retrait-13
 Make <col=ff9040>Ruby necklace</col>;Fabriquer un <col=ff9040>collier de rubis</col>
-Deposit-13;Dépôt-13
 Make <col=ff9040>Ruby amulet (u)</col>;Fabriquer une <col=ff9040>Amulette de rubis (u)</col>
 Charter-to Catherby;Charte à Catherby
 Blow;Souffler
@@ -1396,31 +1281,23 @@ Storage Unlocks;Déverrouillage du stockage
 Climb-through (private);Passage (privé)
 Peek (normal);Coup d'oeil (normal)
 Climb-through (normal);Passage (normal)
-Deposit-20000;Dépôt-20000
 Banish;Bannir
 Check runes;Vérifier les runes
 Blow-on;Blow-on
 Ring;Anneau
-Deposit-1500;Dépôt-1500
-Withdraw-1500;Retrait-1500
 Disable warning;Désactiver l'avertissement
 Leave platform;Quitter la plateforme
-Withdraw-200;Retrait-200
-Deposit-200;Dépôt-200
 Fend;Repousser
 Jab;Coup
-Default quantity: 200;Quantité par défaut : 200
 Swipe;Glisser
 Pay (north-west);Payer (nord-ouest)
 Pay (south-east);Payer (sud-est)
-Default quantity: 1,500;Quantité par défaut : 1 500
 Change icon (fazenda);Changer d'icône (fazenda)
 Disable layout;Désactiver la mise en page
 Duplicate-item;Article en double
 Remove-layout;Supprimer la mise en page
 Harvest;Récolte
 Cure;Guérir
-Default quantity: 13;Quantité par défaut : 13
 Make <col=ff9040>Dragonstone ring</col>;Fabriquer une <col=ff9040>bague Dragonstone</col>
 Convert;Convertir
 Buy or Redeem Bonds;Acheter ou racheter des obligations
@@ -1450,22 +1327,16 @@ Wizards' Tower;Tour des sorciers
 Tackle;Tacle
 Form clan;Former un clan
 Invite;Inviter
-Withdraw-683;Retrait-683
-Deposit-683;Dépôt-683
 Ban;Interdire
 Guzzle;Bouffer
-Default quantity: 1,000;Quantité par défaut : 1 000
 <col=ffff00>Set chat mode:</col> Group (/@g);<col=ffff00>Définir le mode de discussion :</col> Groupe (@g)
 Directions;Instructions
-Withdraw-500000;Retrait-500000
-Deposit-500000;Dépôt-500000
 Unpack;Déballer
 8;8 
 7;7 
 6;6 
 12 months membership;12 mois d'adhésion
 Temple;Temple
-Default quantity: 50;Quantité par défaut : 50
 Request;Demande
 Withdraw All;Tout retirer
 Pay (south);Payer (sud)
@@ -1477,21 +1348,14 @@ Bonds;Obligations
 Look up name;Rechercher le nom
 Redeem;Racheter
 -3%;-3%
-Deposit-1000000;Dépôt-1000000
 +3%;+3%
-Withdraw-1000000;Retrait-1000000
-Withdraw-4;Retrait-4
 Put-inside;Mettre à l'intérieur
-Deposit-80;Dépôt-80
-Deposit-1650;Dépôt-1650
-Deposit-4000;Dépôt-4000
 Toggle-respawn;Basculer la réapparition
 Claim Pet Rock;Réclamez la pierre de compagnie
 Ok;D'accord
 Deposit-items;Objets en dépôt
 Shake;Secouer
 Remove-lid;Retirer le couvercle
-Buy: 1 x Salve graveyard teleport;Acheter : 1 x Téléportation du cimetière de Salve
 Cast Bloom;Jeter Bloom
 Preview;Aperçu
 Colour;Couleur
@@ -1506,7 +1370,6 @@ Polish;polonais
 Enter name;Entrez le nom
 View Guest Count;Afficher le nombre d'invités
 Squeeze-past;Presser-passé
-Default quantity: 20,000;Quantité par défaut : 20 000
 Take-concoction;Prendre-concoction
 Take-5 concoctions;Take-5 concoctions
 Talk;Parler
@@ -1592,35 +1455,20 @@ Walk-through;Procédure pas à pas
 Not now;Pas maintenant
 Jump-Down;Saut vers le bas
 Clear all;Tout effacer
-Withdraw-652;Retrait-652
-Deposit-652;Dépôt-652
-Deposit-57;Dépôt-57
-Withdraw-66;Retrait-66
-Withdraw-57;Retrait-57
-Withdraw-63;Retrait-63
 Hide <col=ff9040>Minimap</col>;Masquer la <col=ff9040>Mini-carte</col>
 Show <col=ff9040>Minimap</col>;Afficher la <col=ff9040>mini-carte</col>
 Remove<col=ff9040> Focus;Supprimer<col=ff9040> ​​Focus
-Default quantity: 57;Quantité par défaut : 57
 Select option A;Sélectionnez l'option A
-Deposit-208;Dépôt-208
-Withdraw-208;Retrait-208
-Withdraw-236;Retrait-236
-Default quantity: 208;Quantité par défaut : 208
 Stroke;Accident vasculaire cérébral
 Pan;Poêle
 Gem Mine;Mine de pierres précieuses
 Mount Karuulm;Mont Karuulm
 Kourend Woodland;Forêt de Kourend
-Withdraw-195;Retrait-195
-Withdraw-2400;Retrait-2400
-Deposit-195;Dépôt-195
 View Friends List;Afficher la liste d'amis
 Add Name;Ajouter un nom
 Delete Name;Supprimer le nom
 Water;Eau
 Open link;Ouvrir le lien
-Default quantity: 195;Quantité par défaut : 195
 Get-training;Se former
 Bank-cargo;Cargaison bancaire
 Honour;Honneur
@@ -1634,7 +1482,6 @@ Port Roberts;Port-Roberts
 Check-ammunition;Contrôle des munitions
 Command;Commande
 Change loadout name;Changer le nom du chargement
-Default quantity: 50,000;Quantité par défaut : 50 000
 Open storage tab;Ouvrir l'onglet de stockage
 Reset-ammunition;Munitions de réinitialisation
 Stop following Captain's target;Arrêtez de suivre la cible du capitaine
@@ -1663,23 +1510,14 @@ Set Hotkey (D);Définir le raccourci clavier (D)
 Set Hotkey (C);Définir le raccourci clavier (C)
 Set Hotkey (5);Définir le raccourci clavier (5)
 Set Hotkey (6);Définir le raccourci clavier (6)
-Deposit-420000;Dépôt-420000
-Withdraw-420000;Retrait-420000
-Default quantity: 420,000;Quantité par défaut : 420 000
 Last-destination (CJR);Dernière destination (CJR)
 Last-destination (CIQ);Dernière destination (CIQ)
 Last-destination (CIR);Dernière destination (CIR)
 Hang-over;Gueule de bois
-Withdraw-5529;Retrait-5529
-Deposit-5529;Dépôt-5529
-Default quantity: 5,529;Quantité par défaut : 5 529
 Ardougne Farm;Ferme d'Ardougne
 Dump;Décharge
-Withdraw 3;Retirer 3
 Alchemy;Alchimie
-Withdraw 4;Retirer 4
 Energy;Énergie
-Withdraw 1;Retirer 1
 Signal;Signal
 Withdraw X;Retirer X
 Rumour;Rumeur
@@ -1704,7 +1542,6 @@ Start-previous-rank;Début-classement-précédent
 Start-trial;Début de l'essai
 Jump-across;Saut à travers
 Last-destination (ALP);Dernière destination (ALP)
-Sell: 3 x Iron arrow;Vendre : 3 x Flèche de fer
 Quick-Pay(100);Paiement rapide(100)
 Send-parcel;Envoyer-colis
 Reset Safe;Réinitialiser le coffre-fort
@@ -1734,25 +1571,11 @@ Set Hotkey (L);Définir le raccourci clavier (L)
 Last-destination (ALS);Dernière destination (ALS)
 Descend;Descendre
 Weiss;Blanc
-Withdraw-503;Retrait-503
 Scoreboard;Tableau de bord
-Withdraw-38;Retrait-38
-Default quantity: 38;Quantité par défaut : 38
-Withdraw-25;Retrait-25
-Withdraw-604;Retrait-604
-Deposit-26;Dépôt-26
-Withdraw-26;Retrait-26
-Deposit-25;Dépôt-25
-Withdraw-220;Retrait-220
-Deposit-36;Dépôt-36
-Deposit-115;Dépôt-115
-Withdraw-115;Retrait-115
-Withdraw-36;Retrait-36
 Standard;Standard
 Play-fetch;Jouer-récupérer
 Climb up;Grimper
 Lletya;Lletya
-Default quantity: 115;Quantité par défaut : 115
 Target;Cible
 Activity;Activité
 Enter-corrupted;Entrée-corrompu
@@ -1772,17 +1595,10 @@ Lower;Inférieur
 Claim-slime;Réclamation-slime
 Port Phasmatys;Port Phasmatys
 Charter-to Port Phasmatys;Affrètement au port Phasmatys
-Deposit-4;Dépôt-4
-Default quantity: 4;Quantité par défaut : 4
-Withdraw-40000;Retrait-40000
-Deposit-40000;Dépôt-40000
-Buy: 1 x Green dragonhide set;Acheter: 1 x Ensemble de peau de dragon vert
 Poke;Pousser
 Jump off;Sauter
 Burgh Teleport;Téléportation de Burgh
 Ecto Teleport;Téléportation Ecto
-Withdraw-1168;Retrait-1168
-Deposit-1168;Dépôt-1168
 Store-preform;Magasin-préforme
 Commission;Commission
 Quench-preform;Préforme de trempe
@@ -1798,49 +1614,18 @@ Fuel;Carburant
 Next page;Page suivante
 New partner;Nouveau partenaire
 Remove from playlist 1;Supprimer de la playlist 1
-Default quantity: 40,000;Quantité par défaut : 40 000
 Ascend;Monter
-Deposit-2194;Dépôt-2194
-Withdraw-2194;Retrait-2194
-Default quantity: 2,194;Quantité par défaut : 2 194
 Destruir;Détruire
-Deposit-300;Dépôt-300
-Withdraw-300;Retrait-300
 Claim-runes;Runes de réclamation
 Step-into;Entrez dans
-Default quantity: 300;Quantité par défaut : 300
-Withdraw-2253;Retrait-2253
-Withdraw-31;Retrait-31
-Withdraw-2236;Retrait-2236
-Deposit-2236;Dépôt-2236
-Withdraw-2539;Retrait-2539
-Withdraw-5408;Retrait-5408
-Withdraw-527;Retrait-527
-Default quantity: 15;Quantité par défaut : 15
 Set Hotkey (E);Définir le raccourci clavier (E)
 Cut-vine;Vigne coupée
 Camarones;Camarones
 Hardcore Ironman Group;Groupe Ironman hardcore
-Default quantity: 2,236;Quantité par défaut : 2 236
-Deposit-680;Dépôt-680
-Withdraw-680;Retrait-680
 Rescue;Sauvetage
-Default quantity: 680;Quantité par défaut : 680
-Deposit-4328;Dépôt-4328
-Withdraw-4328;Retrait-4328
-Withdraw-4952;Retrait-4952
-Withdraw-5944;Retrait-5944
-Deposit-4952;Dépôt-4952
-Default quantity: 4,952;Quantité par défaut : 4 952
-Default quantity: 5,944;Quantité par défaut : 5 944
-Withdraw-8376;Retrait-8376
-Withdraw-8480;Retrait-8480
-Deposit-8376;Dépôt-8376
 Spring;Printemps
 Safety switch;Interrupteur de sécurité
 Gear;Engrenage
-Withdraw-11896;Retrait-11896
-Deposit-11896;Dépôt-11896
 Gandius;Gandius
 Kar-Hewo;Kar-Hewo
 Swing;Balançoire
@@ -1877,7 +1662,6 @@ Ouvrir;Ouvrir
 Remove-one;Supprimer un
 Lap-count;Nombre de tours
 Cooking;Cuisson
-Default quantity: 11,896;Quantité par défaut : 11 896
 Ban guest;Interdire un invité
 Kick guest;Kick invité
 Assemble;Assembler
@@ -1891,9 +1675,6 @@ Move Schematic Up;Déplacer le schéma vers le haut
 Rotate the image;Faire pivoter l'image
 Move Schematic Right;Déplacer le schéma vers la droite
 Jump-through;Passer à travers
-Withdraw-29;Retrait-29
-Deposit-29;Dépôt-29
-Default quantity: 29;Quantité par défaut : 29
 Set Hotkey (J);Définir le raccourci clavier (J)
 Set Hotkey (O);Définir le raccourci clavier (O)
 Set Hotkey (H);Définir le raccourci clavier (H)
@@ -1905,17 +1686,13 @@ Play-quietly;Jouer tranquillement
 Entertain;Divertir
 Disarm;Désarmer
 Sync WOM Group;Synchroniser le groupe WOM
-Withdraw-800;Retrait-800
-Deposit-800;Dépôt-800
 Retrieve-egg;Récupérer l'oeuf
 Expanded;Étendu
 Preview auto layout;Aperçu de la mise en page automatique
 Toggle warning;Activer/désactiver l'avertissement
 Climb through;Grimper à travers
 Check count;Nombre de chèques
-Withdraw-150;Retrait-150
 Disassemble;Démonter
-Deposit-150;Dépôt-150
 Gloomthorn Trail;Sentier Gloomthorn
 Make party;Faire la fête
 Destinations;Destinations
@@ -1955,7 +1732,6 @@ General-stats;Statistiques générales
 Teleport to <col=ff8040>Clan Wars</col>;Téléportation vers <col=ff8040>Guerres de clans</col>
 Join <col=ff8040>Clan Wars</col> channel;Rejoignez la chaîne <col=ff8040>Guerres de clans</col>
 Use this layout;Utilisez cette mise en page
-Withdraw-80;Retrait-80
 Quick-slide;Glissement rapide
 Slide;Glisser
 Visual-effects;Effets visuels
@@ -1964,7 +1740,6 @@ Deposit-runes;Dépôt de runes
 Power-up;Mise sous tension
 Take-chisel;Prendre un ciseau
 Place-cell;Placer une cellule
-Take-1;Prise-1
 Dark Mage;Mage noir
 View-stats;Voir les statistiques
 View-glory;Vue-gloire
@@ -2001,7 +1776,6 @@ Make <col=ff9040>Gold ring</col>;Fabriquer une <col=ff9040>Bague en or</col>
 Make <col=ff9040>Gold necklace</col>;Fabriquer un <col=ff9040>Collier en or</col>
 Swing across;Balancez-vous à travers
 Pick-orange;Cueillette d'orange
-Buy: 5 x Ranarr seed;Acheter: 5 x graines de Ranarr
 Deposit buckets;Seaux de dépôt
 Claim Sand;Réclamez du sable
 Ferry;Traversier
@@ -2089,8 +1863,6 @@ Crown Info;Informations sur la couronne
 Last-destination (BLR);Dernière destination (BLR)
 Complete;Complet
 Climb over;Grimper
-Withdraw-56;Retrait-56
-Default quantity: 56;Quantité par défaut : 56
 Smash-to-bits;Écraser en morceaux
 Enchant-Vials;Fioles d'enchantement
 Trade-Co-op;Coopérative commerciale
@@ -2116,26 +1888,7 @@ Teleport to destination;Téléportation à destination
 eat;manger
 Cast Spell;Lancer un sort
 Lift;Ascenseur
-Sell: 28 x Bucket of water;Vendre : 28 x Seau d'eau
-Buy: 350 x Bucket;Acheter: 350 x Seau
-Sell: 392 x Bucket of water;Vendre : 392 x Seau d'eau
-Withdraw-9;Retrait-9
-Deposit-9;Dépôt-9
-Withdraw-27;Retrait-27
-Deposit-27;Dépôt-27
-Sell: 500 x Logs;Vendre : 500 x bûches
-Default quantity: 27;Quantité par défaut : 27
-Sell: 494 x Banana;Vendre : 494 x Banane
-Sell: 390 x Banana;Vendre : 390 x Banane
-Buy: 400 x Bones;Acheter: 400 x Os
-Sell: 300 x Banana;Vendre : 300 x Banane
 cast;casting
-Sell: 416 x Banana;Vendre : 416 x Banane
-Default quantity: 9;Quantité par défaut : 9
-Sell: 100 x Pastry dough;Vendre : 100 x Pâte à pâtisserie
-Buy: 200 x Pot of flour;Acheter: 200 x Pot de farine
-Sell: 1,064 x Bucket of water;Vendre : 1 064 x Seau d'eau
-Sell: 252 x Bucket of water;Vendre : 252 x Seau d'eau
 Toggle-minerals;Basculer les minéraux
 Take-bowl;Bol à emporter
 Accept exchange;Accepter l'échange
@@ -2146,41 +1899,13 @@ Activate machine;Activer la machine
 Unlock machine;Déverrouiller l'appareil
 Cancel operation;Annuler l'opération
 Rank;Rang
-Sell: 1,010 x Banana;Vendre : 1 010 x Banane
 Last-destination (CIP);Dernière destination (CIP)
 Set name;Définir le nom
 wield;exercer
-Sell: 99 x Bones;Vendre : 99 x Os
-Sell: 23 x Logs;Vendre : 23 x bûches
-Withdraw-25000000;Retrait-25000000
-Sell: 1 x Old school bond;Vendre : 1 x obligation de la vieille école
-Withdraw-100000;Retrait-100000
-Deposit-25000000;Dépôt-25000000
-Buy: 2 x Steel scimitar;Acheter: 2 x Cimeterre en acier
-Default quantity: 100,000;Quantité par défaut : 100 000
-Buy: 1 x Studded body;Acheter: 1 x Corps clouté
-Deposit-100000;Dépôt-100000
 Beanspruchen;Pommes de terre
 Smoke;Fumée
 Last-destination (BJR);Dernière destination (BJR)
-Deposit-250;Dépôt-250
-Withdraw-43;Retrait-43
-Withdraw-250;Retrait-250
-Deposit-43;Dépôt-43
-Default quantity: 18;Quantité par défaut : 18
-Withdraw-1971;Retrait-1971
-Withdraw-1601;Retrait-1601
-Deposit-1601;Dépôt-1601
-Withdraw-552;Retrait-552
-Deposit-552;Dépôt-552
-Withdraw-5128;Retrait-5128
-Deposit-5128;Dépôt-5128
-Withdraw-72000;Retrait-72000
-Deposit-72000;Dépôt-72000
-Default quantity: 72,000;Quantité par défaut : 72 000
-Default quantity: 26;Quantité par défaut : 26
 Buy X;Acheter X
-Withdraw-1092;Retrait-1092
 Ring-last-destination (DLQ);Sonner la dernière destination (DLQ)
 Remove-decorations;Supprimer les décorations
 Jump on;Sautez dessus
@@ -2193,13 +1918,9 @@ Throw-water;Jeter de l'eau
 Check-level;Niveau de contrôle
 Strike;Grève
 Cut-branch;Branche coupée
-Deposit-13000;Dépôt-13000
-Withdraw-13000;Retrait-13000
 Play-With;Jouer avec
 Trophies;Trophées
 Talk-At;Parler à
-Deposit-7785;Dépôt-7785
-Withdraw-7785;Retrait-7785
 Mount;Monter
 Unstuff;Débourrer
 Change-clothes;Changer de vêtements
@@ -2216,15 +1937,8 @@ Change icon (herb run);Changer d'icône (parcours aux herbes)
 Look out;Attention
 Last-destination (DIP);Dernière destination (DIP)
 Ta Quir Priw;Ta Quir Priw
-Deposit-9000;Dépôt-9000
-Withdraw-9000;Retrait-9000
 Vote Now;Votez maintenant
-Withdraw-144000;Retrait-144000
 Give;Donner
-Withdraw-45;Retrait-45
-Deposit-45;Dépôt-45
-Sell: 1 x Plank;Vendre : 1 x planche
-Buy: 5 x Bolt of cloth;Acheter: 5 x Rouleau de tissu
 Withdraw-Notes;Notes de retrait
 Remove-Placeholder;Supprimer l'espace réservé
 Remove-All-Placeholders;Supprimer tous les espaces réservés
@@ -2246,22 +1960,8 @@ Select <col=ff981f>Elite;Sélectionnez <col=ff981f>Élite
 Select <col=ff981f>Hard;Sélectionnez <col=ff981f>Difficile
 Master Tasks;Tâches principales
 Grandmaster Tasks;Tâches de grand maître
-Withdraw-150000;Retrait-150000
-Deposit-150000;Dépôt-150000
-Default quantity: 150,000;Quantité par défaut : 150 000
-Withdraw-888;Retrait-888
 Clear-All;Tout effacer
 Climb-through;Traversée
-Withdraw-15000;Retrait-15000
-Deposit-15000;Dépôt-15000
-Withdraw-826;Retrait-826
-Withdraw-120;Retrait-120
-Deposit-19;Dépôt-19
-Default quantity: 3;Quantité par défaut : 3
-Deposit-264;Dépôt-264
-Withdraw-264;Retrait-264
-Withdraw-119;Retrait-119
-Deposit-119;Dépôt-119
 Plank sack;Sac de planches
 Amy's saw;La scie d'Amy
 Carpenter's boots;bottes de menuisier
@@ -2270,8 +1970,6 @@ Carpenter's shirt;Chemise de menuisier
 Hosidius blueprints;Plans d'Hosidius
 Supply crate;Caisse de ravitaillement
 Carpenter's helmet;Casque de charpentier
-Withdraw-20;Retrait-20
-Deposit-20;Dépôt-20
 Deposit All from Inventory;Déposer tout depuis l'inventaire
 Ghorrock Dungeon;Donjon de Ghorrock
 The Stranglewood;Le Bois étranglé
@@ -2283,41 +1981,20 @@ Undead Grasp;Emprise des morts-vivants
 Take-from <col=00ffff>Fishing;À emporter <col=00ffff>Pêche
 Take-from <col=00ffff>Hunting;Prise de <col=00ffff>Chasse
 Take-from <col=00ffff>Herblore;Extrait de <col=00ffff>Herblore
-Default quantity: 119;Quantité par défaut : 119
-Deposit-888;Dépôt-888
 Decorate;Décorer
 Carve;Tailler
-Buy: 1 x Iron pickaxe;Acheter: 1 x Pioche en fer
-Withdraw-12;Retrait-12
-Default quantity: 12;Quantité par défaut : 12
-Deposit-12;Dépôt-12
 Boss list;Liste des patrons
 Pirate's Cove;La Crique des Pirates
 Island of Stone;Île de pierre
 Ungael;Ungael
 Waterbirth Island;Île de naissance de l'eau
-Default quantity: 448;Quantité par défaut : 448
-Deposit-448;Dépôt-448
-Withdraw-448;Retrait-448
 Exit Speedrunning;Quitter le speedrun
-Default quantity: 20;Quantité par défaut : 20
-Withdraw-11;Retrait-11
-Withdraw-6;Retrait-6
-Withdraw-2502;Retrait-2502
-Withdraw-30002;Retrait-30002
-Withdraw-3002;Retrait-3002
-Deposit-2502;Dépôt-2502
-Deposit-30002;Dépôt-30002
 Quick-travel;Voyage rapide
 Roll;Rouler
-Default quantity: 30,002;Quantité par défaut : 30 002
 Step-over;Enjambement
 Menagerie (outdoors);Ménagerie (extérieur)
 Menagerie (indoors);Ménagerie (à l'intérieur)
 Hall - Quest trophies;Hall - Trophées de quête
-Buy: 5 x Stamina potion(4);Acheter: 5 x Potion d'endurance(4)
-Default quantity: 3,728;Quantité par défaut : 3 728
-Withdraw-3728;Retrait-3728
 Make <col=ff9040>Sapphire necklace</col>;Fabriquer un <col=ff9040>Collier saphir</col>
 Darkmeyer;Darkmeyer
 Slepe;Dormir
@@ -2338,12 +2015,8 @@ Teleports;Téléportations
 Black chinchompas;Chinchonpas noirs
 Carnivorous chinchompas;Chinchonpas carnivores
 POH Portals;Portails POH
-Deposit-42;Dépôt-42
-Withdraw-42;Retrait-42
 The Darkfrost;Le Givre Sombre
 <col=E89C46>Kastori</col>;<col=E89C46>Kastori</col>
-Deposit-3728;Dépôt-3728
-Deposit-50;Dépôt-50
 Craft-goods;Produits artisanaux
 Pass-to;Passer à
 Mineral Pack;Pack Minéral
@@ -2363,7 +2036,6 @@ turn tile;tourner la tuile
 Sindarpos;Sindarpos
 Evade;Éluder
 Off/On;Arrêt/Marche
-Sell: 12 x Iron dagger;Vendre : 12 x Dague de fer
 Start-wave;Vague de départ
 Finish;Finition
 Hoop;Cerceau
@@ -2411,11 +2083,8 @@ Say-name;Dire-nom
 Add;Ajouter
 Adjust;Ajuster
 Gnome Stronghold;Forteresse des Gnomes
-Withdraw-8902;Retrait-8902
-Deposit-8902;Dépôt-8902
 Last-destination (ALQ);Dernière destination (ALQ)
 View Channel;Voir la chaîne
-Default quantity: 8,902;Quantité par défaut : 8 902
 Tracker;Traqueur
 Goal;But
 Set to XP value;Définir sur la valeur XP
@@ -2437,16 +2106,9 @@ Lire;lires
 Miner;Mineur
 Retirer;Supprimer
 Armure;Armure
-Withdraw-305;Retrait-305
-Withdraw-378;Retrait-378
-Deposit-378;Dépôt-378
 Bind;Lier
 Crawl;Crawl
 Cut-foot;Pied coupé
-Default quantity: 378;Quantité par défaut : 378
-Withdraw-911;Retrait-911
-Deposit-911;Dépôt-911
-Deposit-200000;Dépôt-200000
 Sand;Sable
 Staves;Portées
 S'occuper de;S'occuper de
@@ -2454,32 +2116,8 @@ Se reposer;Se reposer
 Leurre;Leurre
 Voir;Voir
 Vider;Vider
-Sell: 27 x Logs;Vendre : 27 x bûches
 Verrouiller;Verrouiller
-Add ignore TangledHob;Ajouter ignorer TangledHob
-Add ignore TSwangin;Ajouter ignorer TSwangin
-Default quantity: 200,000;Quantité par défaut : 200 000
-Add friend TofuFlies;Ajouter un ami
-Add friend TSwangin;Ajouter un ami
-Add friend Thegravywavy;Ajouter un ami
-Add friend Warmtalon56;Ajouter un ami
-Add ignore Warmtalon56;Ajouter ignorer Warmtalon56
-Add ignore T0x4;Ajouter ignorer T0x4
-Add friend Vixivine;Ajouter un ami
 Leave <col=ff8040>Pest Control</col> channel;Quitter le canal <col=ff8040>Contrôle antiparasitaire</col>
-Add ignore SuGIMa Donk;Ajouter ignorer SuGIMa Donk
-Add ignore SynPol;Ajouter ignorer SynPol
-Add friend SynPol;Ajouter un ami
-Add ignore SW4GN4R0K;Ajouter ignorer SW4GN4R0K
-Add ignore Vixivine;Ajouter ignorer Vixivine
-Add ignore Tora Cipha;Ajouter ignorer Tora Cipha
-Add friend T0x4;Ajouter un ami T0x4
-Add friend SW4GN4R0K;Ajouter un ami SW4GN4R0K
-Add friend Tora Cipha;Ajouter un ami Tora Cipha
-Add friend TangledHob;Ajouter un ami
-Add friend SuGIMa Donk;Ajouter un ami
-Add ignore Thegravywavy;Ajouter ignorer Thegravywavy
-Add ignore TofuFlies;Ajouter ignorer TofuFlies
 Ranged XP: 10 points;XP à distance : 10 points
 Hitpoints XP: 10 points;Points de vie XP : 10 points
 Hitpoints XP: 1 point;Points de vie XP : 1 point
@@ -2495,21 +2133,11 @@ Acheter;Acheter
 No, don't leave.;Non, ne pars pas.
 Expel members;Expulser des membres
 Recruitment;Recrutement
-Sell: 1 x Bronze axe;Vendre : 1 x hache en bronze
 Check-keys;Clés de contrôle
-Withdraw-59;Retrait-59
-Deposit-59;Dépôt-59
-Withdraw-82;Retrait-82
-Deposit-49;Dépôt-49
-Withdraw-34;Retrait-34
-Withdraw-37;Retrait-37
-Withdraw-49;Retrait-49
-Default quantity: 49;Quantité par défaut : 49
 Attraper;Attrapeur
 Cueillir;Cueillir
 Interagir;Interagir
 Se faufiler;Se faufiler
-Sell: 1 x Raw trout;Vendre : 1 x Truite crue
 Supply;Fournir
 Escort;Escorte
 Objets de fêtes;Objets de fêtes
@@ -2530,40 +2158,21 @@ Toggle-view;Basculer la vue
 Recharge-prayer;Prière de recharge
 Last-destination (DIS);Dernière destination (DIS)
 Last-destination (BKP);Dernière destination (BKP)
-Withdraw-51;Retrait-51
-Deposit-60;Dépôt-60
-Deposit-51;Dépôt-51
-Withdraw-732;Retrait-732
-Withdraw-636;Retrait-636
-Withdraw-64;Retrait-64
-Withdraw-60;Retrait-60
-Deposit-732;Dépôt-732
 À l'extérieur;À l'extérieur
 Couper;Couper
-Default quantity: 60;Quantité par défaut : 60
-Deposit-236;Dépôt-236
 DJR;DJR
 Favourites;Favoris
 AJR;AJR
 CIR;CIR
 CIS;CEI
-Default quantity: 236;Quantité par défaut : 236
 View List;Voir la liste
 DIP;TREMPER
 Last-destination (BKS);Dernière destination (BKS)
 BKS;BKS
-Buy: 1 x Tuna;Acheter: 1 x Thon
-Deposit-2787;Dépôt-2787
-Withdraw-2787;Retrait-2787
-Default quantity: 2,787;Quantité par défaut : 2 787
 Tirer;Tirer
-Sell: 1 x Skills necklace;Vendre : 1 x collier de compétences
 View-game;Voir le jeu
 Cancel preview;Annuler l'aperçu
-Withdraw-856;Retrait-856
-Deposit-856;Dépôt-856
 Last-destination (DLR);Dernière destination (DLR)
-Default quantity: 9,000;Quantité par défaut : 9 000
 Click this to add coal.;Cliquez dessus pour ajouter du charbon.
 Turn tar valve up;Tournez la valve de goudron vers le haut
 Turn pressure valve up;Augmentez la soupape de pression
@@ -2619,65 +2228,17 @@ Select <col=ff981f>Nature rune;Sélectionnez <col=ff981f>Rune nature
 Examine <col=ff981f>Death rune;Examinez la <col=ff981f>Rune de la mort
 Lemanto Andra;Lemanto Andra
 Battlefield of Khazard;Champ de bataille de Khazard
-Add ignore Wildcat;Ajouter ignorer Wildcat
-Add friend Xclearwater2;Ajouter un ami
-Add friend X1_Cygnus;Ajouter un ami X1_Cygnus
-Add friend VeshonsAcc;Ajouter un ami
-Add ignore X1_Cygnus;Ajouter ignorer X1_Cygnus
-Add friend XRatchet1313;Ajouter un ami
-Add friend Wildcat;Ajouter un ami
-Add ignore Xclearwater2;Ajouter ignorer Xclearwater2
-Add ignore VeshonsAcc;Ajouter ignorer VeshonsAcc
 Join <col=ff8040>Shield of Arrav</col> channel;Rejoignez la chaîne <col=ff8040>Shield of Arrav</col>
-Add ignore XRatchet1313;Ajouter ignorer XRatchet1313
-Add ignore XxGARLITCHxX;Ajouter ignorer XxGARLITCHxX
-Add friend XxGARLITCHxX;Ajouter un ami XxGARLITCHxX
-Add ignore Zarvll;Ajouter ignorer Zarvll
-Add friend Zpazt196;Ajouter un ami
-Add ignore xater;Ajouter ignorer xater
-Add friend Whoisu82;Ajouter un ami Whoisu82
-Add friend Zarvll;Ajouter un ami
-Add friend wblion;Ajouter un ami
 Leave <col=ff8040>Shield of Arrav</col> channel;Quitter le canal <col=ff8040>Bouclier d'Arrav</col>
-Add ignore Wenedi;Ajouter ignorer Wenedi
-Add ignore wblion;Ajouter ignorer wblion
-Add ignore YoMd_Debo;Ajouter ignorer YoMd_Debo
-Add ignore Zpazt196;Ajouter ignorer Zpazt196
 Teleport to <col=ff8040>Shield of Arrav</col>;Téléportation vers le <col=ff8040>Bouclier d'Arrav</col>
-Add ignore westymartell;Ajouter ignorer westymartell
-Add ignore Zourberts;Ajouter ignorer Zourberts
-Add friend xater;Ajouter un ami
-Add friend Wenedi;Ajouter un ami
-Add friend westymartell;Ajouter un ami
-Add friend Zourberts;Ajouter un ami
-Add friend YoMd_Debo;Ajouter un ami YoMd_Debo
-Add ignore Whoisu82;Ajouter ignorer Whoisu82
 Goutte;Goutte
 DÃ©truire;Détruire
 Recherche;Recherché
 Buy Membership;Acheter un abonnement
-Add ignore OATHSLAYER42;Ajouter ignorer OATHSLAYER42
 Switch <col=ff8040>491</col>;Changer <col=ff8040>491</col>
-Add friend thobblee;Ajouter un ami
-Add ignore Igvor;Ajouter ignorer Igvor
-Add ignore Trickster416;Ajouter ignorer Trickster416
-Add friend Igvor;Ajouter un ami
-Add friend Iron Veetz;Ajouter un ami
-Add ignore thobblee;Ajouter ignorer thobblee
-Add ignore Runeflick;Ajouter ignorer Runeflick
 Teleport to <col=ff8040>Burthorpe Games Room</col>;Téléportez-vous à la <col=ff8040>Salle de jeux Burthorpe</col>
-Add friend GingerbreadF;Ajouter un ami
 Leave <col=ff8040>Burthorpe Games Room</col> channel;Quitter la chaîne <col=ff8040>Burthorpe Games Room</col>
-Add ignore Iron Veetz;Ajouter ignorer Iron Veetz
-Add ignore Wag City;Ajouter ignorer Wag City
-Add friend Wag City;Ajouter un ami Wag City
-Add friend OATHSLAYER42;Ajouter un ami
-Add ignore GingerbreadF;Ajouter ignorer GingerbreadF
-Add friend jalc2026;Ajouter un ami jalc2026
 Join <col=ff8040>Burthorpe Games Room</col> channel;Rejoignez la chaîne <col=ff8040>Burthorpe Games Room</col>
-Add ignore jalc2026;Ajouter ignorer jalc2026
-Add friend Runeflick;Ajouter un ami
-Add friend Trickster416;Ajouter un ami Trickster416
 Claim-Shield;Bouclier de réclamation
 Swing Across;Balancer à travers
 Oubliette;Oubliette
@@ -2692,7 +2253,6 @@ CKR;CKR
 Remove<col=ff9040> Hint arrow;Supprimer<col=ff9040> ​​Flèche d'indice
 Show<col=ff9040> Hint;Afficher<col=ff9040> ​​l'indice
 Ring-last-destination (AKP);Sonner la dernière destination (AKP)
-Withdraw-1884;Retrait-1884
 Récompenses;Récompenses
 Tête de mort;Tête de mort
 Prix;Prix
@@ -2738,7 +2298,6 @@ Entrer (invité);Entrer (invité)
 Entrer (membre);Entrer (membre)
 NER Lookup;Recherche NER
 Lunar Isle;Île lunaire
-Sell: 1 x Mithril chainbody;Vendre : 1 x corps de chaîne en mithril
 Tirannwn;Tiranwn
 Kourend;Kourend
 Channel (Wilderness);Canal (zone sauvage)
@@ -2746,14 +2305,12 @@ Varlamore;Varlamore
 Asgarnia;Asgarnie
 Swap-Effect;Effet d'échange
 Toggle absorption;Basculer l'absorption
-Default quantity: 500,000;Quantité par défaut : 500 000
 Play-with;Jouer avec
 Afirmar;Affirmer
 Withdraw-all;Tout retirer
 Withdraw-last;Retrait en dernier
 Orar en;Ouar fr
 Crumble Undead;Émietter les morts-vivants
-Sell: 104 x Bronze bar;Vendre : 104 x Lingot de bronze
 Valor;Valeur
 Remove from playlist 2;Supprimer de la playlist 2
 Peer-into;Examinez
@@ -2763,16 +2320,8 @@ Offer All;Offrir tout
 Offer X;Offre X
 Robar de;Robar de
 View journal <col=ff981f>Children of the Sun</col>;Voir le journal <col=ff981f>Les Enfants du Soleil</col>
-Sell: 14 x Cowhide;Vendre : 14 x Peau de vache
-Buy: 1 x Mithril platelegs;Acheter: 1 x Jambes de plaques en Mithril
-Default quantity: 3,000;Quantité par défaut : 3 000
-Withdraw-1800;Retrait-1800
-Deposit-1800;Dépôt-1800
-Sell: 2 x Gold bar;Vendre : 2 x Lingot d'or
 Clamber;Grimper
 View journal <col=ff981f>Druidic Ritual</col>;Afficher le journal <col=ff981f>Rituel Druidique</col>
-Sell: 1 x Bronze sq shield;Vendre : 1 x Bouclier carré en bronze
-Buy: 1 x Steel platebody;Acheter: 1 x Corps en tôle d'acier
 Rules;Règles
 Looting;Pillage
 Area of effect;Zone d'effet
@@ -2785,135 +2334,11 @@ Last-destination (Shilo village: Stepping stone);Dernière destination (village 
 Last-destination (Auburn valley: Log balance (north));Dernière destination (vallée d'Auburn : solde du journal (nord))
 Last-destination (Mort myre: Stepping stone);Dernière destination (Mort myre : Tremplin)
 Last-destination (Hosidius: River stepping stone);Dernière destination (Hosidius : tremplin fluvial)
-Buy: 1 x Team-42 cape;Acheter: 1 x cape Team-42
-Add ignore Runheim;Ajouter ignorer Runheim
-Add ignore dds maniac;Ajouter ignorer DDS maniac
-Add ignore maxncheech;Ajouter ignorer maxncheech
-Add friend Crybals;Ajouter un ami
-Add ignore Valdromus;Ajouter ignorer Valdromus
-Add ignore keysuka;Ajouter ignorer les clésuka
-Add friend Fe Striction;Ajouter un ami Fe Sstriction
-Add ignore My Void op;Ajouter l'opération Ignorer My Void 
-Add ignore ElCapiDanno;Ajouter ignorer ElCapiDanno
-Add friend Lxnchables;Ajouter un ami
-Add friend CippsyPotato;Ajouter un ami
-Add friend Rangertomgun;Ajouter un ami
-Add ignore DarkLord845;Ajouter ignorer DarkLord845
-Add ignore jjonive;Ajouter ignorer jjonive
-Add friend HueyTheFool;Ajouter un ami
-Add ignore CippsyPotato;Ajouter ignorer CippsyPotato
-Add ignore WasabiHole;Ajouter ignorer WasabiHole
-Add ignore dougismyuser;Ajouter ignorer dougismyuser
-Add ignore ReignDown;Ajouter ignorer ReignDown
-Add friend lil ferdex;Ajouter un ami Lil Ferdex
-Add friend Shaky Knees;Ajouter un ami
-Add ignore EeselIM;Ajouter ignorer EeselIM
-Add friend DarkLord845;Ajouter un ami
-Add ignore HueyTheFool;Ajouter ignorer HueyTheFool
-Add friend N00boBaggins;Ajouter un ami N00boBaggins
-Add ignore bazy;Ajouter ignorer bazy
-Add ignore Shaky Knees;Ajouter ignorer Shaky Knees
-Add friend Onyxmine;Ajouter un ami
-Add friend B POS1TIVE;Ajouter un ami B POS1TIVE
-Add ignore IronTaint98;Ajouter ignorer IronTaint98
-Add friend jjonive;Ajouter un ami
-Add friend WasabiHole;Ajouter un ami
-Add friend Zero Magik;Ajouter un ami Zero Magik
-Add friend dds maniac;Ajouter un ami DDS Maniac
-Add ignore Lxnchables;Ajouter ignorer Lxnchables
-Add ignore CommonTroll;Ajouter ignorer CommonTroll
-Add ignore mr backshots;Ajouter ignorer mr backshots
-Add ignore Pvt-Stainz;Ajouter ignorer Pvt-Stainz
-Add friend Black Block2;Ajouter un ami Black Block2
-Add friend RaioRaioRaio;Ajouter un ami
-Add ignore Pee Knight;Ajouter ignorer Pee Knight
-Add friend Wolfsail2331;Ajouter un ami
-Add friend Nimaruz;Ajouter un ami
-Add ignore cas2891111;Ajouter ignorer cas2891111
-Add friend 69Potatoes;Ajouter un ami
-Add friend AhrimedJob;Ajouter un ami
-Add friend mr backshots;Ajouter un ami mr backshots
-Add friend bazy;Ajouter un ami Bazy
-Add friend Notdevoid30;Ajouter un ami Notdevoid30
-Add ignore AhrimedJob;Ajouter ignorer AhrimedJob
-Add friend Tomtes HCIM;Ajouter un ami Tomtes HCIM
-Add ignore JerryJag;Ajouter ignorer JerryJag
-Add friend Pee Knight;Ajouter un ami Pee Knight
-Add friend EeselIM;Ajouter un ami
-Add friend Kappa Cabba;Ajouter un ami Kappa Cabba
-Add friend Mazumizu;Ajouter un ami
-Add friend Wallpii;Ajouter un ami
-Add friend SilentEunuch;Ajouter un ami
-Add ignore Rangertomgun;Ajouter ignorer Rangertomgun
-Add ignore Tavov;Ajouter ignorer Tavov
-Add friend BreakingChin;Ajouter un ami
-Add friend Maatumaatu;Ajouter un ami
-Add friend maxncheech;Ajouter un ami
-Add friend JerryJag;Ajouter un ami
-Add friend ElCapiDanno;Ajouter un ami
-Add friend ReignDown;Ajouter un ami
-Add friend mr herry 12;Ajouter un ami m. herry 12
-Add friend TreviiFTW;Ajouter un ami
-Add friend Runheim;Ajouter un ami
-Add friend dougismyuser;Ajouter un ami
-Add ignore Mazumizu;Ajouter ignorer Mazumizu
-Add ignore Zero Magik;Ajouter ignorer Zero Magik
-Add ignore mr herry 12;Ajouter ignorer M. Herry 12
-Add friend Pvt-Stainz;Ajouter un ami
-Add ignore Frinkytastic;Ajouter ignorer Frinkytastic
-Add friend Valdromus;Ajouter un ami
-Add friend Futanarian69;Ajouter un ami
-Add friend IsIt1ron;Ajouter un ami
-Add ignore TreviiFTW;Ajouter ignorer TreviiFTW
-Add friend IronTaint98;Ajouter un ami
-Add friend Frinkytastic;Ajouter un ami
-Add ignore fa gf;Ajouter ignorer fa gf
-Add ignore lil ferdex;Ajouter ignorer Lil Ferdex
-Add ignore Built By AI;Ajouter ignorer Construit par IA
-Add ignore Maatumaatu;Ajouter ignorer Maatumaatu
-Add ignore Notdevoid30;Ajouter ignorer Notdevoid30
-Add ignore Wolfsail2331;Ajouter ignorer Wolfsail2331
-Add ignore Nimaruz;Ajouter ignorer Nimaruz
-Add friend Built By AI;Ajouter un ami Construit par IA
-Add ignore jpeg art;Ajouter ignorer les illustrations JPEG
-Add friend cas2891111;Ajouter un ami cas2891111
-Add friend keysuka;Ajouter un ami
-Add ignore Black Block2;Ajouter ignorer Black Block2
-Add friend H311fire191;Ajouter un ami H311fire191
-Add ignore Fe Striction;Ajouter ignorer la striction Fe
-Add ignore N00boBaggins;Ajouter ignorer N00boBaggins
-Add ignore 69Potatoes;Ajouter ignorer 69Potatoes
-Add ignore CutePoisonnn;Ajouter ignorer CutePoisonnn
-Add friend fa gf;Ajouter un ami fa gf
-Add ignore Onyxmine;Ajouter ignorer Onyxmine
-Add ignore BreakingChin;Ajouter ignorer BreakingChin
-Add ignore Crybals;Ajouter ignorer les Crybals
-Add ignore Futanarian69;Ajouter ignorer Futanarian69
-Add friend CommonTroll;Ajouter un ami
-Add ignore IsIt1ron;Ajouter ignorer IsIt1ron
-Add ignore H311fire191;Ajouter ignorer H311fire191
-Add ignore Wallpii;Ajouter ignorer Wallpii
-Add ignore Tomtes HCIM;Ajouter ignorer Tomtes HCIM
-Add friend CutePoisonnn;Ajouter un ami
-Add friend Tavov;Ajouter un ami
-Add ignore Kappa Cabba;Ajouter ignorer Kappa Cabba
-Add ignore B POS1TIVE;Ajouter ignorer B POS1TIVE
-Add friend My Void op;Ajouter un ami Mon opération Void
-Add ignore RaioRaioRaio;Ajouter ignorer RaioRaioRaio
-Add friend jpeg art;Ajouter une image JPEG à un ami
-Add ignore SilentEunuch;Ajouter ignorer SilentEunuch
-Deposit-400000;Dépôt-400000
-Withdraw-400000;Retrait-400000
-Buy: 10 x Camelot teleport;Acheter : 10 x Téléportation Camelot
 Modo de construccion;Mode de construction
 Casa;Maison
 Casa de amigos;Maison d'amis
 Switch <col=ff8040>394</col>;Changer <col=ff8040>394</col>
 Make<col=ff9040> Waka canoe;Fabriquer<col=ff9040> ​​canoë Waka
-Default quantity: 99;Quantité par défaut : 99
-Deposit-99;Dépôt-99
-Withdraw-99;Retrait-99
-Withdraw 5;Retirer 5
 View <col=ff9040>Woodcutting</col> guide;Voir le <col=ff9040>Guide de coupe du bois</col>
 ALP;ALP
 Quick-start;Démarrage rapide
@@ -2927,33 +2352,21 @@ Select <col=ff891f>Demonic Trident Ornament Kit.;Sélectionnez le <col=ff891f>Ki
 Select <col=ff891f>Leagues VI Relic Hunter (T3);Sélectionnez <col=ff891f>Chasseur de reliques des Ligues VI (T3)
 Unlocked;Débloqué
 Zoom Out;Zoom arrière
-Sell: 21 x Hard leather;Vendre : 21 x Cuir dur
 Sniff;Renifler
-Withdraw-190;Retrait-190
 Select <col=ff981f>Imp repellent;Sélectionnez <col=ff981f>Répulsif Diablotin
 Select <col=ff981f>Jar generator;Sélectionnez <col=ff981f>Générateur Jar
 Select <col=ff981f>Magic butterfly net;Sélectionnez <col=ff981f>Filet à papillons magique
 Select <col=ff981f>Impling jar;Sélectionnez <col=ff981f>Pot d'implémentation
 Last-destination (CKQ);Dernière destination (CKQ)
-Sell: 1 x Beer glass;Vendre : 1 x Verre à bière
-Deposit-190;Dépôt-190
 Locked;Fermé
 Reclaim;Récupérer
 Select <col=ff891f>Leagues V Death;Sélectionnez <col=ff891f>Ligues V Mort
 Select <col=ff891f>Leagues V Portal;Sélectionnez <col=ff891f>Portail Leagues V
 Select <col=ff891f>Demonic Butler Scroll;Sélectionnez <col=ff891f>Parchemin de majordome démoniaque
 Select <col=ff891f>Leagues V Curtains;Sélectionnez <col=ff891f>Rideaux Ligues V
-Buy: 1 x Demonic trident ornament kit;Acheter: 1 x Kit d'ornement trident démoniaque
-Withdraw-339;Retrait-339
 Rumour-settings;Paramètres de rumeur
-Deposit-123123;Dépôt-123123
-Withdraw-123123;Retrait-123123
 Fur-clothing;Vêtements en fourrure
 Take-log;Journal de prise
-Default quantity: 55;Quantité par défaut : 55
-Withdraw-55;Retrait-55
-Deposit-55;Dépôt-55
-Sell: 19 x Ogre arrow;Vendre : 19 x Flèche Ogre
 Vote;Voter
 Check tax;Vérifier la taxe
 Request-supplies;Demande de fournitures
@@ -2968,24 +2381,17 @@ Sabotage;Sabotage
 Plant-evidence;Preuve végétale
 Charter-to Civitas illa Fortis;Charte-à Civitas illa Fortis
 Bless;Bénir
-Buy: 1 x Steel pickaxe;Acheter: 1 x Pioche en acier
 Impling-jar;Pot d'implant
 Butterfly-jar;Pot-papillon
 Make <col=ff9040>Sapphire ring</col>;Fabriquer une <col=ff9040>Bague saphir</col>
 Make <col=ff9040>Emerald ring</col>;Fabriquer une <col=ff9040>Bague émeraude</col>
-Deposit-2500;Dépôt-2500
-Withdraw-2500;Retrait-2500
 Crush;Écraser
-Withdraw-35;Retrait-35
-Deposit-35;Dépôt-35
 Look-into;Rechercher
-Buy: 1 x Rope;Acheter: 1 x Corde
 Reset Vertical;Réinitialiser verticalement
 Resize Vertical;Redimensionner verticalement
 View <col=ff9040>Attack</col> guide;Voir le guide <col=ff9040>Attaque</col>
 View <col=ff9040>Slayer</col> guide;Voir le guide <col=ff9040>Slayer</col>
 View <col=ff9040>Hitpoints</col> guide;Afficher le guide des <col=ff9040>Points de repère</col>
-Default quantity: 35;Quantité par défaut : 35
 Body type A;Type de carrosserie A
 View Facial hair;Voir les poils du visage
 View Hair;Voir les cheveux
@@ -2998,11 +2404,6 @@ View Body types;Voir les types de corps
 Upgrades;Mises à niveau
 Benefits;Avantages
 Lookup-entity;Entité de recherche
-Deposit-1181;Dépôt-1181
-Withdraw-1181;Retrait-1181
-Buy: 1 x Rune crossbow;Acheter : 1 x Arbalète Rune
-Deposit-8;Dépôt-8
-Withdraw-8;Retrait-8
 Select <col=ff891f>Shattered Relic Hunter (T1);Sélectionnez <col=ff891f>Chasseur de reliques brisées (T1)
 Select <col=ff891f>Shattered Mystic Orn Kit;Sélectionnez le <col=ff891f>Kit d'ornement mystique brisé
 Select <col=ff891f>Trailblazer Graceful Kits x6;Sélectionnez <col=ff891f>Kits gracieux Trailblazer x6
@@ -3024,17 +2425,10 @@ Select <col=ff891f>Trailblazer Globe;Sélectionnez <col=ff891f>Globe Trailblazer
 Select <col=ff891f>Trailblazer Teleport Scroll;Sélectionnez <col=ff891f>Parchemin de téléportation Trailblazer
 Select <col=ff891f>Echo Venator Bow Orn Kit;Sélectionnez <col=ff891f>Kit de décorations pour arc Echo Venator
 Recoil Settings;Paramètres de recul
-Deposit-339;Dépôt-339
-Default quantity: 339;Quantité par défaut : 339
 Recoil settings;Paramètres de recul
-Withdraw-6000000;Retrait-6000000
 Bandit Camp;Camp de bandits
 Lava Maze;Labyrinthe de lave
 Chaos Temple;Temple du Chaos
-Withdraw-6000;Retrait-6000
-Deposit-6000;Dépôt-6000
-Buy: 13 x Rune platebody;Acheter: 13 x Corps de plaque Rune
-Buy: 1 x Mithril full helm;Acheter: 1 x Casque complet en Mithril
 Check completion;Vérifier l'achèvement
 Channel (Kandarin);Chaîne (Kandarin)
 Make <col=ff9040>Onyx amulet (u)</col>;Fabriquer une <col=ff9040>amulette en onyx (u)</col>
@@ -3042,21 +2436,9 @@ Make <col=ff9040>Onyx bracelet</col>;Fabriquer un <col=ff9040>bracelet en onyx</
 Buy sets:;Acheter des ensembles :
 Jump-from;Sauter de
 Channel (Karamja);Canal (Karamja)
-Default quantity: 6,000;Quantité par défaut : 6 000
-Buy: 1 x Adamant full helm;Acheter: 1 x Casque intégral Adamant
-Buy: 150 x Rune dagger;Acheter: 150 x Dague runique
 Master;Maître
 Make <col=ff9040>Slayer ring (8)</col>;Créer un <col=ff9040>anneau de Slayer (8)</col>
-Sell: 1 x Uncut emerald;Vendre : 1 x émeraude non taillée
 Make-cuppa;Faire une tasse de thé
-Buy: 1 x Armadyl rune armour set (lg);Acheter: 1 x ensemble d'armure runique Armadyl (lg)
-Sell: 1 x Armadyl platelegs;Vendre : 1 x pattes de plaque Armadyl
-Deposit-499;Dépôt-499
-Withdraw-499;Retrait-499
-Buy: 15 x Rune platebody;Acheter: 15 x Corps de plaque Rune
-Sell: 500 x Amulet of strength;Vendre : 500 x Amulette de force
-Buy: 1 x Rune platebody;Acheter: 1 x Corps de plaque Rune
-Buy: 1 x Rune longsword;Acheter: 1 x Épée longue runique
 Unstore;Annuler le stockage
 Ring-last-destination (DJP);Sonner la dernière destination (DJP)
 Rustle;Bruissement
@@ -3066,31 +2448,10 @@ Ring-last-destination (BJS);Sonner la dernière destination (BJS)
 Aim and Fire;Viser et tirer
 Amy;Amy
 View Info;Afficher les informations
-Buy: 20 x Rune platebody;Acheter: 20 x Corps de plaque Rune
-Buy: 40 x Rune full helm;Acheter: 40 x Casque complet Rune
-Deposit-38;Dépôt-38
-Buy: 80 x Adamant platebody;Acheter: 80 x Plaque Adamant
-Buy: 100 x Sapphire amulet;Acheter: 100 x Amulette Saphir
-Withdraw-5000000;Retrait-5000000
-Deposit-5000000;Dépôt-5000000
-Default quantity: 5,000,000;Quantité par défaut : 5 000 000
-Deposit-3000000;Dépôt-3000000
-Deposit-13500000;Dépôt-13500000
-Withdraw-13500000;Retrait-13500000
-Deposit-15000000;Dépôt-15000000
-Withdraw-3000000;Retrait-3000000
-Withdraw-15000000;Retrait-15000000
-Withdraw-108;Retrait-108
-Deposit-108;Dépôt-108
-Deposit-542;Dépôt-542
-Withdraw-542;Retrait-542
 Teleport to <col=ff8040>Castle Wars</col>;Téléportation vers <col=ff8040>Castle Wars</col>
 Join <col=ff8040>Castle Wars</col> channel;Rejoignez la chaîne <col=ff8040>Castle Wars</col>
 Make <col=ff9040>Diamond bracelet</col>;Fabriquer un <col=ff9040>Bracelet en diamant</col>
 Blackout;Black-out
-Withdraw-23;Retrait-23
-Deposit-23;Dépôt-23
-Default quantity: 23;Quantité par défaut : 23
 Select <col=ff891f>Tier 1 Adventurer's Outfit;Sélectionnez la <col=ff891f>tenue d'aventurier de niveau 1
 Select <col=ff891f>Tier 2 Adventurer's Outfit;Sélectionnez la <col=ff891f>tenue d'aventurier de niveau 2
 Select <col=ff891f>Speedy Teleport Scroll;Sélectionnez <col=ff891f>Parchemin de téléportation rapide
@@ -3100,7 +2461,6 @@ Collections overview;Aperçu des collections
 Stairs to Timeline exhibit;Exposition Escaliers vers la chronologie
 Collections Overview;Aperçu des collections
 Last-destination (ALR);Dernière destination (ALR)
-Default quantity: 542;Quantité par défaut : 542
 Select <col=ff9040>Pineapple punch;Sélectionnez <col=ff9040>Punch Ananas
 Select <col=ff9040>Fruit blast;Sélectionnez <col=ff9040>Explosion de fruits
 Select <col=ff9040>Blurberry special;Sélectionnez <col=ff9040>Spécial Blurberry
@@ -3108,29 +2468,18 @@ Mix-cocktail;Mix-cocktail
 Select <col=ff9040>Chocolate saturday;Sélectionnez <col=ff9040>Samedi chocolat
 Select <col=ff9040>Drunk dragon;Sélectionnez <col=ff9040>Dragon ivre
 Select <col=ff9040>Short green guy;Sélectionnez <col=ff9040>Petit gars vert
-Default quantity: 2;Quantité par défaut : 2
 Magic XP: 1 point;XP magique : 1 point
 Magic XP: 100 points;XP magique : 100 points
 Strength XP: 100 points;Force XP : 100 points
 Magic XP: 10 points;XP magique : 10 points
 Ranged XP: 100 points;XP à distance : 100 points
-Buy: 70 x Ruby amulet;Acheter: 70 x Amulette Rubis
-Buy: 1,000 x Ruby amulet;Acheter : 1 000 x Amulette Rubis
 Steal;Voler
-Buy: 2,000 x Cosmic rune;Acheter : 2 000 x Rune cosmique
 Toggle-activity;Activité à bascule
-Buy: 1,320 x Cosmic rune;Acheter : 1 320 x Rune cosmique
-Default quantity: 6,000,000;Quantité par défaut : 6 000 000
 Release all placeholders (38);Libérer tous les espaces réservés (38)
-Deposit-6000000;Dépôt-6000000
 Dissolve;Dissoudre
-Sell: 826 x Amulet of strength;Vendre : 826 x Amulette de force
 BJS;BJS
 BJP;BJP
 Ring-last-destination (CKQ);Sonner la dernière destination (CKQ)
-Buy: 1 x Gilded platelegs;Acheter: 1 x Pieds de plaque dorés
-Buy: 1 x Bones;Acheter: 1 x Os
-Sell: 13,000 x Steel nails;Vendre : 13 000 x Clous en acier
 View <col=ff9040>Smithing</col> guide;Voir le <col=ff9040>Guide de forge</col>
 Clan name;Nom du clan
 Permission access;Accès aux autorisations
@@ -3156,9 +2505,6 @@ Controles;Contrôles
 Conta;Conta
 Habilidades;Capacités
 Previous page;Page précédente
-Buy: 1,990 x Ruby amulet;Acheter: 1 990 x Amulette Rubis
-Sell: 1,310 x Amulet of strength;Vendre : 1 310 x Amulette de force
-Buy: 90 x Rune platebody;Acheter: 90 x Corps de plaque Rune
 Move Left;Déplacer vers la gauche
 Move Right;Déplacer à droite
 Move Down;Descendre
@@ -3188,15 +2534,12 @@ História;Histoire
 Trocar;Trocar
 Confirmar;Confirmer
 Conjuntos;Ensembles
-Withdraw-727;Retrait-727
-Buy: 1 x Emerald;Acheter: 1 x Émeraude
 Ver oferta;Voir l'offre
 Abortar oferta;Abandonner l'offre
 Depósito-X;Dépôt-X
 Preços;Prix
 Depósitar-1;Dépôt-1
 Depósitar-10;Dépôt-10
-Deposit-727;Dépôt-727
 Depósito-Tudo;Dépôt-Tudo
 Depósitar-5;Dépôt-5
 Insira o preço;Insira le prix
@@ -3204,9 +2547,7 @@ Make <col=ff9040>Emerald necklace</col>;Fabriquer un <col=ff9040>Collier d'émer
 Adicionar amigo;Ajouter un ami
 Mostrar no mapa:;Afficher aucune carte :
 Leia o diário:;Leia ou le journal :
-Sell: 50 x Emerald necklace;Vendre : 50 x Collier émeraude
 Saque;Saqué
-Withdraw-4000;Retrait-4000
 Recompensas;Récompenses
 Compre 5;Comprendre 5
 Vender 50<col=ff9040>;Vendeur 50<col=ff9040>
@@ -3217,7 +2558,6 @@ Valor<col=ff9040>;Valeur<col=ff9040>
 Compre 10;Compre 10
 Vender 5<col=ff9040>;Vendeur 5<col=ff9040>
 Compre 1;Compris 1
-Default quantity: 4,000;Quantité par défaut : 4 000
 Chefes;Chefs
 Tarefas;Tarefas
 Registro de coleta;Registre de la coleta
@@ -3226,271 +2566,55 @@ Visão geral da coleção;Visibilité générale du collège
 Resgatar;Régatar
 Compre-50;Compré-50
 Remover;Dissolvant
-Default quantity: 15,000,000;Quantité par défaut : 15 000 000
-Deposit-6;Dépôt-6
 Ver estatísticas do equipamento;Voir les statistiques de l'équipement
 Empty Dish;Plat vide
-Sell: 1,500 x Iron arrow;Vendre : 1 500 x Flèche de fer
-Buy: 1,500 x Headless arrow;Acheter : 1 500 x Flèche sans tête
-Buy: 3 x Chocolate bar;Acheter: 3 x Tablette de chocolat
 Look-in;Regarder dans
 Look in;Regarder dans
 Info:;Infos :
 Mostrar no mapa;Montrer sans carte
 Mostrar;Montrer
 Clear them all;Effacez-les tous
-Buy: 1 x Adamant platelegs;Acheter: 1 x Plaquettes Adamant
 Retaliação automática;Représailles automatiques
 Pedágio (10gp);Pédagogie (10gp)
 Excluir amigo;Exclure amigo
 Soco;Soco
 Bloquear;Bloquer
-Deposit-18000;Dépôt-18000
-Withdraw-18000;Retrait-18000
-Add friend OmfgitsJezus;Ajouter un ami
-Add friend lunaluna;Ajouter un ami
-Add ignore SPINOZA78;Ajouter ignorer SPINOZA78
-Add ignore YoungJimz;Ajouter ignorer YoungJimz
-Add ignore New Burial;Ajouter ignorer le nouvel enterrement
-Add friend ReadSR;Ajouter un ami LireSR
-Add ignore WyattsWildy;Ajouter ignorer WyattsWildy
-Add friend Wheat312;Ajouter un ami
-Add friend Pow3rmaxsk1l;Ajouter un ami
-Add ignore OmfgitsJezus;Ajouter ignorer OmfgitsJezus
-Add ignore Marc Ecko;Ajouter ignorer Marc Ecko
-Add friend LinuxS3XTips;Ajouter un ami LinuxS3XTips
-Add friend pedromain;Ajouter un ami
-Add ignore Pimptime69;Ajouter ignorer Pimptime69
-Add ignore Macdin;Ajouter ignorer Macdin
-Add ignore Pow3rmaxsk1l;Ajouter ignorer Pow3rmaxsk1l
-Add friend SirPudrick;Ajouter un ami
-Add friend Runsirongi;Ajouter un ami
-Add friend Tim Sanchez;Ajouter un ami Tim Sanchez
-Add ignore pedromain;Ajouter ignorer le pédromain
-Add friend WyattsWildy;Ajouter un ami
-Add ignore Voidloser;Ajouter ignorer Voidloser
-Add friend MavenDracan;Ajouter un ami
-Add friend Marc Ecko;Ajouter un ami Marc Ecko
-Add friend YoungJimz;Ajouter un ami
-Add friend Pimptime69;Ajouter un ami
-Add ignore TerpyHigh;Ajouter ignorer TerpyHigh
-Add friend SPINOZA78;Ajouter un ami SPINOZA78
-Add friend YBN Aleedarg;Ajouter un ami
-Add ignore YBN Aleedarg;Ajouter ignorer YBN Aleedarg
-Add ignore Runsirongi;Ajouter ignorer Runsirongi
-Add ignore ReadSR;Ajouter ignorer ReadSR
-Add ignore Wheat312;Ajouter ignorer Wheat312
-Add ignore LinuxS3XTips;Ajouter ignorer LinuxS3XTips
-Add ignore MavenDracan;Ajouter ignorer MavenDracan
-Add ignore x DAPPER DAN;Ajouter ignorer x DAPPER DAN
-Add friend Voidloser;Ajouter un ami
-Add friend New Burial;Ajouter un ami Nouvel enterrement
-Add friend Macdin;Ajouter un ami
-Add friend x DAPPER DAN;Ajouter un ami x DAPPER DAN
-Add friend Tylon561;Ajouter un ami Tylon561
-Add friend TerpyHigh;Ajouter un ami
-Add friend Serve God;Ajouter un ami Servir Dieu
-Add ignore Tim Sanchez;Ajouter ignorer Tim Sanchez
-Add ignore SirPudrick;Ajouter ignorer SirPudrick
-Add ignore Serve God;Ajouter ignorer Servir Dieu
-Add ignore lunaluna;Ajouter ignorer Lunaluna
-Add ignore Tylon561;Ajouter ignorer Tylon561
 Void Knight Seal;Sceau de chevalier du Vide
 Void Knight Top;Haut du Chevalier du Vide
 Void Ranger Helm;Heaume de Ranger du Vide
 Void Knight Gloves;Gants de chevalier du Vide
-Add ignore Goth Girl XO;Ajouter ignorer Goth Girl XO
-Add ignore Perry2fly;Ajouter ignorer Perry2fly
-Add friend LAMPTIONED;Ajouter un ami
-Add friend J a c k e l;Ajouter un ami J a c k e l
-Add friend Zul n Dro;Ajouter un ami
-Add friend SekiroTank;Ajouter un ami
-Add ignore NotSeeGIM;Ajouter ignorer NotSeeGIM
-Add ignore Lumberg;Ajouter ignorer Lumberg
-Add ignore LAMPTIONED;Ajouter ignorer LAMPTIONED
-Add ignore Pontiff1;Ajouter ignorer Pontife1
-Add ignore Yunglitho;Ajouter ignorer Yunglitho
-Add friend NotSeeGIM;Ajouter un ami NotSeeGIM
-Add ignore KisaMiaow;Ajouter ignorer KisaMiaow
-Add ignore Sibyllistes;Ajouter ignorer les Sibyllistes
-Add ignore ZeroPolone;Ajouter ignorer ZeroPolone
-Add friend Leo LaRocca;Ajouter un ami Leo LaRocca
-Add ignore J a c k e l;Ajouter ignorer J a c k e l
-Add friend YurBoiFrost;Ajouter un ami
-Add friend Ostehbos;Ajouter un ami
-Add ignore Kat Kill U;Ajouter ignorer Kat Kill U
-Add friend Kat Kill U;Ajouter un ami Kat Kill U
-Add ignore nerdnd;Ajouter ignorer nerdnd
-Add friend ToughShitMF;Ajouter un ami
-Add friend ZeroPolone;Ajouter un ami
-Add friend sky roarrent;Ajouter un ami
-Add friend Sibyllistes;Ajouter un ami
-Add friend Goth Girl XO;Ajouter un ami Goth Girl XO
-Add ignore Ostehbos;Ajouter ignorer Ostehbos
-Add ignore Zul n Dro;Ajouter ignorer Zul n Dro
-Add ignore YurBoiFrost;Ajouter ignorer YurBoiFrost
-Add ignore R O S I T A;Ajouter ignorer R O S I T A
-Add ignore TBAGMASTER66;Ajouter ignorer TBAGMASTER66
-Add friend nerdnd;Ajouter un ami
-Add friend Iron Typhil;Ajouter un ami Iron Typhil
-Add ignore Iron Typhil;Ajouter ignorer Iron Typhil
-Add ignore sky roarrent;Ajouter ignorer le rugissement du ciel
-Add friend Lumberg;Ajouter un ami
-Add ignore SekiroTank;Ajouter ignorer SekiroTank
-Add ignore S00prman;Ajouter ignorer S00prman
-Add friend R O S I T A;Ajouter un ami R O S I T A
-Add friend TBAGMASTER66;Ajouter un ami TBAGMASTER66
-Add ignore Leo LaRocca;Ajouter ignorer Leo LaRocca
-Add friend Yunglitho;Ajouter un ami
-Add friend S00prman;Ajouter un ami S00prman
-Add ignore ToughShitMF;Ajouter ignorer ToughShitMF
-Add friend KisaMiaow;Ajouter un ami
-Add friend Pontiff1;Ajouter un ami Pontife1
-Add friend Perry2fly;Ajouter un ami
-Add ignore ValconNE;Ajouter ignorer ValconNE
-Add friend The Fe Boi;Ajouter un ami
-Add friend Uncle Rustus;Ajouter un ami Oncle Rustus
-Add ignore WarheartRahl;Ajouter ignorer WarheartRahl
-Add ignore Uncle Rustus;Ajouter ignorer Oncle Rustus
-Add ignore V B Stubby;Ajouter ignorer V B Stubby
 Leave <col=ff8040>Barbarian Assault</col> channel;Quitter la chaîne <col=ff8040>Assaut barbare</col>
-Add ignore uwu sad;Ajouter ignorer uwu sad
-Add friend thyhighone;Ajouter un ami Thyhighone
-Add ignore The Fe Boi;Ajouter ignorer The Fe Boi
-Add ignore weedy;Ajouter ignorer les mauvaises herbes
 Switch <col=ff8040>306</col>;Commutateur <col=ff8040>306</col>
-Add ignore Turk Grimsby;Ajouter ignorer Turk Grimsby
 Join <col=ff8040>Barbarian Assault</col> channel;Rejoignez la chaîne <col=ff8040>Assaut barbare</col>
-Add friend Turk Grimsby;Ajouter un ami Turk Grimsby
-Add friend WarheartRahl;Ajouter un ami
-Add friend V B Stubby;Ajouter un ami
-Add friend uwu sad;Ajouter un ami uwu triste
-Add ignore thyhighone;Ajouter ignorer Thyhighone
 Teleport to <col=ff8040>Barbarian Assault</col>;Téléportation vers <col=ff8040>Assaut barbare</col>
-Add friend ValconNE;Ajouter un ami
-Add friend weedy;Ajouter un ami
 Take-Tofu;Prendre du tofu
 Stock-Up;Faire des stocks
 Take-Crackers;Prenez des crackers
 Take-Worms;Prendre des vers
-Add friend YarpiYarpi;Ajouter un ami
-Add ignore Vamp Wook;Ajouter ignorer Vamp Wook
-Add friend Vamp Wook;Ajouter un ami Vamp Wook
-Add ignore Zomaeris X;Ajouter ignorer Zomaeris X
-Add friend Zomaeris X;Ajouter un ami
-Add friend Zenoo;Ajouter un ami
-Add ignore YarpiYarpi;Ajouter ignorer YarpiYarpi
-Add ignore Zenoo;Ajouter ignorer Zenoo
-Add friend wookiearmpit;Ajouter un ami
-Add ignore WarluciaIM;Ajouter ignorer WarluciaIM
 Reset-wave;Réinitialiser la vague
-Add ignore ThatVietCong;Ajouter ignorer ThatVietCong
-Add friend ThatVietCong;Ajouter un ami
-Add ignore wookiearmpit;Ajouter ignorer wookiearmpit
-Add friend WarluciaIM;Ajouter un ami
 Write-Role;Rôle d'écriture
-Add ignore PearlLight21;Ajouter ignorer PearlLight21
-Add friend swar0vski;Ajouter un ami
 Teleport to <col=ff8040>Soul Wars</col>;Téléportation vers <col=ff8040>Soul Wars</col>
-Add friend shayboshark;Ajouter un ami
-Add friend treterr;Ajouter un ami
-Add friend SwitchHeel;Ajouter un ami
-Add ignore treterr;Ajouter ignorer treterr
 Leave <col=ff8040>Tombs of Amascut</col> channel;Quitter la chaîne <col=ff8040>Tombs d'Amascut</col>
-Add friend Seward Park;Ajouter un ami
-Add ignore toxicsnopipe;Ajouter ignorer toxicsnopipe
-Add ignore Willem Engel;Ajouter ignorer Willem Engel
-Add ignore so258;Ajouter ignorer so258
-Add friend SarpanchJr;Ajouter un ami
-Add ignore xMysiq;Ajouter ignorer xMysiq
-Add friend PearlLight21;Ajouter un ami
 Switch <col=ff8040>320</col>;Changer <col=ff8040>320</col>
-Add friend so258;Ajouter un ami so258
 Teleport to <col=ff8040>Tombs of Amascut</col>;Téléportation vers les <col=ff8040>Tombes d'Amascut</col>
-Add friend verba gladii;Ajouter un ami verba gladii
 Join <col=ff8040>Soul Wars</col> channel;Rejoignez la chaîne <col=ff8040>Soul Wars</col>
-Add ignore TasteSeeker;Ajouter ignorer TasteSeeker
-Add friend Mr Fou;Ajouter un ami M. Fou
-Add ignore swar0vski;Ajouter ignorer swar0vski
-Add ignore SwitchHeel;Ajouter ignorer SwitchHeel
-Add ignore sinsavage3;Ajouter ignorer sinsavage3
-Add friend TheBadWo1f;Ajouter un ami
-Add friend Willem Engel;Ajouter un ami Willem Engel
-Add ignore WhiiiteRaven;Ajouter ignorer WhiiiteRaven
 Leave <col=ff8040>Soul Wars</col> channel;Quitter la chaîne <col=ff8040>Soul Wars</col>
-Add ignore Seward Park;Ajouter ignorer Seward Park
 Switch <col=ff8040>338</col>;Changer <col=ff8040>338</col>
-Add ignore shayboshark;Ajouter ignorer Shayboshark
-Add friend xMysiq;Ajouter un ami xMysiq
-Add ignore TheBadWo1f;Ajouter ignorer TheBadWo1f
 Teleport to <col=ff8040>God Wars</col>;Téléportation vers <col=ff8040>God Wars</col>
-Add friend WhiiiteRaven;Ajouter un ami
-Add ignore SarpanchJr;Ajouter ignorer SarpanchJr
-Add friend sinsavage3;Ajouter un ami
-Add ignore RoughNRaw;Ajouter ignorer RoughNRaw
-Add ignore Tyrolls;Ajouter ignorer les Tyrols
-Add friend Sun Kannon;Ajouter un ami Sun Kannon
-Add friend bballfrk11;Ajouter un ami
-Add ignore Jojofatdong;Ajouter ignorer Jojofatdong
-Add friend Jojofatdong;Ajouter un ami
-Add ignore verba gladii;Ajouter ignorer verba gladii
-Add ignore Im Tweedd;Ajouter ignorer Je Tweedd
 Leave <col=ff8040>God Wars</col> channel;Quitter la chaîne <col=ff8040>God Wars</col>
-Add friend RoughNRaw;Ajouter un ami
 Join <col=ff8040>Tombs of Amascut</col> channel;Rejoignez la chaîne <col=ff8040>Tombs of Amascut</col>
-Add ignore Sun Kannon;Ajouter ignorer Sun Kannon
-Add friend TasteSeeker;Ajouter un ami
 Join <col=ff8040>God Wars</col> channel;Rejoignez la chaîne <col=ff8040>God Wars</col>
-Add friend Tyrolls;Ajouter un ami
-Add ignore Mr Fou;Ajouter ignorer M. Fou
-Add friend Im Tweedd;Ajouter un ami Je suis Tweedd
-Add ignore bballfrk11;Ajouter ignorer bballfrk11
-Add friend toxicsnopipe;Ajouter un ami
-Add friend Ziconic222;Ajouter un ami
-Add friend waudakwoody;Ajouter un ami
-Add ignore RockApe101;Ajouter ignorer RockApe101
 Teleport to <col=ff8040>Shooting Stars</col>;Téléportation vers les <col=ff8040>Étoiles filantes</col>
-Add ignore Wildy Powian;Ajouter ignorer Wildy Powian
-Add friend Zunestro;Ajouter un ami
-Add friend pull an pray;Ajouter un ami, faites une prière
-Add ignore Bxrly;Ajouter ignorer Bxrly
-Add ignore zChap;Ajouter ignorer zChap
-Add friend Salvinate262;Ajouter un ami
 Leave <col=ff8040>Shooting Stars</col> channel;Quitter la chaîne <col=ff8040>Étoiles filantes</col>
-Add friend youngMendo;Ajouter un ami
-Add ignore youngMendo;Ajouter ignorer youngMendo
-Add ignore WiseOldDuke;Ajouter ignorer WiseOldDuke
 Join <col=ff8040>Volcanic Mine</col> channel;Rejoignez la chaîne <col=ff8040>Mine volcanique</col>
-Add friend Wildy Powian;Ajouter un ami Wildy Powian
-Add friend Bxrly;Ajouter un ami
-Add friend Wyvnex;Ajouter un ami
-Add friend xNeoPure;Ajouter un ami
-Add friend zChap;Ajouter un ami
-Add friend WiseOldDuke;Ajouter un ami
-Add ignore Wyvnex;Ajouter ignorer Wyvnex
-Add ignore Ziconic222;Ajouter ignorer Ziconic222
-Add ignore Yeahnope;Ajouter ignorer Yeahnope
 Join <col=ff8040>Shooting Stars</col> channel;Rejoignez la chaîne <col=ff8040>Étoiles filantes</col>
-Add friend Yeahnope;Ajouter un ami
-Add ignore Wheresblanky;Ajouter ignorer Wheresblanky
-Add friend Wheresblanky;Ajouter un ami
-Add ignore Zunestro;Ajouter ignorer Zunestro
-Add ignore Salvinate262;Ajouter ignorer Salvinate262
-Add ignore xNeoPure;Ajouter ignorer xNeoPure
-Add ignore waudakwoody;Ajouter ignorer waudakwoody
 Switch <col=ff8040>323</col>;Commutateur <col=ff8040>323</col>
-Add friend RockApe101;Ajouter un ami
-Add ignore pull an pray;Ajouter ignorer, tirer et prier
 Teleport to <col=ff8040>Volcanic Mine</col>;Téléportation à la <col=ff8040>Mine volcanique</col>
 Resources;Ressources
 Leave <col=ff8040>Volcanic Mine</col> channel;Quitter le canal <col=ff8040>Mine volcanique</col>
 Coletar no banco;Coletar no banco
 View Hunter on the Wiki;Voir Hunter sur le Wiki
 Karamja Shipyard;Chantier naval de Karamja
-Deposit-30000;Dépôt-30000
-Withdraw-30000;Retrait-30000
-Withdraw-220000;Retrait-220000
-Deposit-220000;Dépôt-220000
 Teleport to <col=ff8040>Shades of Mort'ton</col>;Téléportation vers <col=ff8040>Shades of Mort'ton</col>
 Join <col=ff8040>Shades of Mort'ton</col> channel;Rejoignez la chaîne <col=ff8040>Shades of Mort'ton</col>
 Switch <col=ff8040>377</col>;Changer <col=ff8040>377</col>
@@ -3508,22 +2632,14 @@ Comprar-1;Comparer-1
 Saída;Saïda
 Open Livestream;Ouvrir la diffusion en direct
 Aya;Aya
-Deposit-3500;Dépôt-3500
-Withdraw-3500;Retrait-3500
 Comprar-5;Comparer-5
 Cambio de imagen;Changement d'image
-Buy: 10,000 x Stew;Acheter : 10 000 x Ragoût
-Sell: 2 x Nature rune;Vendre : 2 x Rune Nature
 Sync your collection log with Temple;Synchronisez votre journal de collecte avec Temple
-Sell: 1 x Logs;Vendre : 1 x bûches
-Sell: 1 x Bear fur;Vendre : 1 x Fourrure d'ours
 Stairs to Dig Site exhibit;Exposition sur le site des escaliers pour creuser
 Stairs to Natural History exhibit;Exposition Escaliers vers histoire naturelle
 Chute;Chute
 Charter-to Port Khazard;Affrètement à Port Khazard
 Excluir;Exclure
-Buy: 1 x White bead;Acheter: 1 x Perle blanche
-Buy: 1 x Bucket of milk;Acheter: 1 x Seau de lait
 Teleport to <col=ff8040>Guardians of the Rift</col>;Téléportation vers les <col=ff8040>Gardiens de la Faille</col>
 Join <col=ff8040>Guardians of the Rift</col> channel;Rejoignez la chaîne <col=ff8040>Gardiens de la Faille</col>
 Ghostly Grasp;Poigne fantomatique
@@ -3537,9 +2653,6 @@ View <col=ff9040>Farming</col> guide;Voir le <col=ff9040>guide agricole</col>
 Teleport to <col=ff8040>Tithe Farm</col>;Téléportation à la <col=ff8040>Ferme de la Dîme</col>
 Join <col=ff8040>Tithe Farm</col> channel;Rejoignez la chaîne <col=ff8040>Tithe Farm</col>
 Change icon (corp);Changer d'icône (corps)
-Withdraw-12000000;Retrait-12000000
-Withdraw-1116;Retrait-1116
-Deposit-1116;Dépôt-1116
 Change icon (melee);Changer d'icône (mêlée)
 Release all placeholders (18);Libérer tous les espaces réservés (18)
 Change icon (ranger);Changer d'icône (ranger)
@@ -3547,131 +2660,22 @@ Change icon (mage);Changer d'icône (mage)
 Comprar tudo;Acheter tout
 Compre-X;Compré-X
 Poções;Poções
-Deposit-400;Dépôt-400
-Withdraw-400;Retrait-400
 Vault;Sauter
-Deposit-2000000;Dépôt-2000000
-Withdraw-2000000;Retrait-2000000
 Select <col=ff891f>Grid master tabard (g);Sélectionnez <col=ff891f>Tabard maître de grille (g)
 Select <col=ff891f>Swords and emblem (b);Sélectionnez <col=ff891f>Épées et emblème (b)
 Select <col=ff891f>Grid master tabard (b);Sélectionnez le <col=ff891f>Tabard maître de la grille (b)
-Buy: 2 x Cheese;Acheter: 2 x Fromage
-Buy: 1 x Bronze bar;Acheter: 1 x Lingot de bronze
-Buy: 2 x Teleport to house;Acheter : 2 x Téléportation vers la maison
-Buy: 2 x Falador teleport;Acheter : 2 x téléportation Falador
-Withdraw-90;Retrait-90
-Deposit-90;Dépôt-90
-Buy: 30 x Bones;Acheter: 30 x Os
-Sell: 180 x Arrow shaft;Vendre : 180 x Flèche
 He/him;Il/lui
 Comprar;Comparer
 Charter-to Musa Point;Charte-à Musa Point
-Buy: 6 x Chocolate cake;Acheter: 6 x Gâteau au chocolat
 Leave <col=ff8040>Shades of Mort'ton</col> channel;Quitter la chaîne <col=ff8040>Shades of Mort'ton</col>
-Add ignore GRANDPAROWEN;Ajouter ignorer GRANDPAROWEN
-Add friend vapkez;Ajouter un ami
-Add friend GRANDPAROWEN;Ajouter un ami
-Add friend Marko Slice;Ajouter un ami Marko Slice
-Add ignore Meowser121;Ajouter ignorer Meowser121
-Add ignore Zobozo1;Ajouter ignorer Zobozo1
-Add friend Soliidary;Ajouter un ami Solidaire
-Add ignore KONQUERX;Ajouter ignorer KONQUERX
-Add ignore Marko Slice;Ajouter ignorer Marko Slice
-Add ignore Sloppy McNut;Ajouter ignorer Sloppy McNut
-Add friend Omegasquadga;Ajouter un ami
-Add friend Sloppy McNut;Ajouter un ami Sloppy McNut
-Add friend Zobozo1;Ajouter un ami
-Add friend Meowser121;Ajouter un ami Meowser121
-Add ignore Omegasquadga;Ajouter ignorer Omegasquadga
-Add ignore vapkez;Ajouter ignorer vapkez
-Add ignore Soliidary;Ajouter ignorer Solidaire
-Add friend KONQUERX;Ajouter un ami
-Buy: 1 x Black 2h sword;Acheter: 1 x Épée Noire 2h
-Buy: 2,100 x Chaos rune;Acheter : 2 100 x Rune du Chaos
 Pick-spine;Pioche
 Jump-Across;Saut à travers
 Quick-board;Tableau rapide
-Withdraw-1100;Retrait-1100
-Deposit-1100;Dépôt-1100
-Default quantity: 1,100;Quantité par défaut : 1 100
-Withdraw-11000;Retrait-11000
-Deposit-11000;Dépôt-11000
 Challenge-mode;Mode défi
-Default quantity: 6;Quantité par défaut : 6
-Add ignore xBroellers;Ajouter ignorer xBroellers
-Add ignore VenturedOut;Ajouter ignorer VenturedOut
-Add ignore POX IV;Ajouter ignorer POX IV
-Add ignore RN Kiwi;Ajouter ignorer RN Kiwi
-Add friend S a b a10;Ajouter un ami S a b a10
-Add ignore LostTooMany;Ajouter ignorer LostTooMany
-Add ignore Thermidex;Ajouter ignorer Thermidex
-Add friend ZellaDey;Ajouter un ami
-Add friend Owlbeaker;Ajouter un ami
-Add friend TheCount423;Ajouter un ami
-Add friend Tuwah as;Ajouter un ami Tuwah en tant que
-Add friend xbongesx;Ajouter un ami
-Add friend Tm1453;Ajouter un ami Tm1453
-Add ignore S a b a10;Ajouter ignorer S a b a10
-Add ignore TheCount423;Ajouter ignorer TheCount423
-Add ignore Pro Flex;Ajouter ignorer Pro Flex
-Add ignore slayinfaerie;Ajouter ignorer slayinfaerie
-Add friend RN Kiwi;Ajouter un ami RN Kiwi
-Add friend Vedranimall;Ajouter un ami
-Add friend Urukhairintj;Ajouter un ami
-Add friend qazedc10;Ajouter un ami
-Add friend vt_8o8;Ajouter un ami vt_8o8
-Add friend Monstyyy;Ajouter un ami
-Add ignore ZellaDey;Ajouter ignorer ZellaDey
-Add ignore Yrrabo;Ajouter ignorer Yrrabo
-Add friend LostTooMany;Ajouter un ami
-Add ignore Ued Ghost;Ajouter ignorer Ued Ghost
-Add friend Stokesberger;Ajouter un ami
-Add ignore Owlbeaker;Ajouter ignorer Owlbeaker
-Add friend valerielilw;Ajouter un ami
-Add ignore qazedc10;Ajouter ignorer qazedc10
-Add ignore Prolly so;Ajoutez ignorer Prolly donc
-Add ignore Magolllon;Ajouter ignorer Magolllon
-Add ignore Monstyyy;Ajouter ignorer Monstyyy
-Add friend POX IV;Ajouter un ami POX IV
-Add friend Slangbellan;Ajouter un ami
-Add ignore xbongesx;Ajouter ignorer xbongesx
-Add ignore Vedranimall;Ajouter ignorer Vedranimall
-Add friend TheoChapman;Ajouter un ami
-Add ignore valerielilw;Ajouter ignorer valerielilw
-Add friend xBroellers;Ajouter un ami xBroellers
-Add ignore Stokesberger;Ajouter ignorer Stokesberger
-Add ignore vt_8o8;Ajouter ignorer vt_8o8
-Add friend Yrrabo;Ajouter un ami
-Add friend Ued Ghost;Ajouter un ami Ued Ghost
-Add friend Thermidex;Ajouter un ami
-Add friend Pikig;Ajouter un ami
-Add ignore Tuwah as;Ajouter ignorer Tuwah comme
-Add friend slayinfaerie;Ajouter un ami
-Add friend Prolly so;Ajouter un ami Prolly donc
-Add friend Magolllon;Ajouter un ami
-Add ignore TheoChapman;Ajouter ignorer TheoChapman
-Add ignore Urukhairintj;Ajouter ignorer Urukhairintj
-Add friend Pro Flex;Ajouter un ami Pro Flex
-Add ignore Pikig;Ajouter ignorer Pikig
-Add ignore Slangbellan;Ajouter ignorer Slangbellan
-Add friend VenturedOut;Ajouter un ami
-Add ignore Tm1453;Ajouter ignorer Tm1453
 Change icon (mission's);Changer d'icône (mission)
-Add ignore pharmon;Ajouter ignorer le pharmon
-Add friend pharmon;Ajouter un ami
-Add ignore Sup3rluminal;Ajouter ignorer Sup3rluminal
-Add ignore MercyGate;Ajouter ignorer MercyGate
-Add friend Sup3rluminal;Ajouter un ami
-Add friend MercyGate;Ajouter un ami
 Make <col=ff9040>Ruby bracelet</col>;Fabriquer un <col=ff9040>bracelet rubis</col>
-Deposit-7000;Dépôt-7000
-Withdraw-60000;Retrait-60000
-Withdraw-7000;Retrait-7000
-Withdraw-12000;Retrait-12000
-Deposit-12000;Dépôt-12000
 More Info;Plus d'informations
 Look-up;Chercher
-Buy: 1 x Pot;Acheter: 1 x Pot
 Load last duel's settings;Charger les paramètres du dernier duel
 Load preset settings;Charger les paramètres prédéfinis
 Save settings;Enregistrer les paramètres
@@ -3681,40 +2685,25 @@ CKS;CKS
 AJP;AJP
 DKP;DKP
 Select <col=ff9040>Wizard blizzard;Sélectionnez <col=ff9040>Assistant Blizzard
-Deposit-12000000;Dépôt-12000000
-Default quantity: 7,000;Quantité par défaut : 7 000
 Pay (east);Payer (est)
 Pay (west);Payer (ouest)
 Remove-Bone;Supprimer l'os
 Remove-Pot;Supprimer le pot
 Group name;Nom du groupe
 Create Group;Créer un groupe
-Buy: 9 x Bucket;Acheter: 9 x Seau
-Withdraw-1200;Retrait-1200
-Deposit-1200;Dépôt-1200
 Teleport to <col=ff8040>Fishing Trawler</col>;Téléportation vers le <col=ff8040>Chalutier de pêche</col>
 Join <col=ff8040>Fishing Trawler</col> channel;Rejoignez la chaîne <col=ff8040>Chalutier de pêche</col>
-Buy: 4 x Red dye;Acheter: 4 x Teinture rouge
 Screenshot;Capture d'écran
-Buy: 100 x Logs;Acheter: 100 x Bûches
 +15%;+15%
-Buy: 5,000 x Pure essence;Acheter : 5 000 x Essence pure
 Attempt Translation;Tentative de traduction
 +40%;+40%
 -40%;-40%
-Buy: 1 x Secateurs;Acheter: 1 x Sécateur
-Withdraw-14000000;Retrait-14000000
-Deposit-14000000;Dépôt-14000000
 Abort;Avorter
 Steer left;Dirigez-vous vers la gauche
 Steer right;Dirigez-vous vers la droite
 Increase throttle;Augmenter les gaz
 Decrease throttle;Diminuer les gaz
 -15%;-15%
-Default quantity: 1,000,000;Quantité par défaut : 1 000 000
-Default quantity: 12,000,000;Quantité par défaut : 12 000 000
-Buy: 20 x Ranarr potion (unf);Acheter : 20 x Potion Ranarr (unf)
-Sell: 1 x Uncut jade;Vendre : 1 x Jade non coupé
 DIR;DIR
 BLP;BLP
 Travel to<col=ff9040> Wilderness Pond;Se rendre à<col=ff9040> ​​Wilderness Pond
@@ -3722,7 +2711,6 @@ Restore;Restaurer
 Swap-options;Options d'échange
 Set Hotkey (Q);Définir le raccourci clavier (Q)
 Set Hotkey (P);Définir le raccourci clavier (P)
-Buy: 1 x Strength potion(4);Acheter : 1 x Potion de force(4)
 Cyrisus;Cyrisus
 Captain Ginea;Capitaine Ginéa
 Krystilia;Krystilia
@@ -3731,20 +2719,7 @@ Konar;Konar
 Kuradal;Kuradal
 Barbarian Guard;Garde barbare
 Lanthus;Lanthe
-Buy: 700 x Chocolate dust;Acheter: 700 x Poudre de chocolat
-Buy: 600 x Ranarr potion (unf);Acheter : 600 x Potion Ranarr (unf)
-Sell: 600 x Prayer potion(3);Vendre : 600 x Potion de prière(3)
-Buy: 1 x Limpwurt root;Acheter: 1 x Racine de Limpwurt
-Sell: 1 x Super strength(3);Vendre : 1 x Super force (3)
-Buy: 600 x Limpwurt root;Acheter: 600 x Racine de Limpwurt
-Sell: 600 x Super strength(3);Vendre : 600 x Super force(3)
-Buy: 1 x Bandos rune armour set (lg);Acheter: 1 x Ensemble d'armure runique Bandos (lg)
-Buy: 200 x Kwuarm potion (unf);Acheter : 200 x Potion Kwuarm (unf)
-Buy: 200 x Limpwurt root;Acheter: 200 x Racine de Limpwurt
 Add to;Ajouter à
-Buy: 1 x Unfired bowl;Acheter: 1 x Bol non cuit
-Default quantity: 800;Quantité par défaut : 800
-Sell: 1 x Ensouled troll head;Vendre : 1 x Tête de troll Ensouled
 Remover espaços reservados;Remover espaces réservés
 Contagem de cheques;Contagem de chèques
 Escolha;Escolha
@@ -3862,7 +2837,6 @@ Venda 50<col=ff9040>;Vente 50<col=ff9040>
 Reparar;Réparer
 Chupar;Chupar
 Glider-to Lemanto Andra;Planeur vers Lemanto Andra
-Buy: 1 x Uncut diamond;Acheter : 1 x Diamant non taillé
 Rastreamento;Rastreamento
 Características;Caractéristiques
 Miscelânea;Divers
@@ -3917,15 +2891,12 @@ Gráfico;Graphique
 Roubar de;Roubar de
 Porto Piscarilius;Porto Piscarilius
 Fazer;Fazer
-Buy: 2 x Xerician fabric;Acheter: 2 x Tissu Xéricien
 Release all placeholders (39);Libérer tous les espaces réservés (39)
 Investigar;Enquêteur
 Planador;Planificateur
 Junte-se às Guerras do Castelo;Junte-se à Guerras do Castelo
-Withdraw-875;Retrait-875
 Estatísticas;Statistiques
 Remexer;Remexer
-Deposit-875;Dépôt-875
 Release all placeholders (30);Libérer tous les espaces réservés (30)
 Loja;Loja
 Operar;Opératrice
@@ -3944,8 +2915,6 @@ Leite;Leite
 Descarregar;Télécharger
 Machado;Machado
 Roubar sino;Roubar sino
-Deposit-5555;Dépôt-5555
-Withdraw-5555;Retrait-5555
 Taxa de cheque;Taxons de chèque
 Fogo;Fogo
 Carregar X;Carregar X
@@ -3960,11 +2929,9 @@ Entrem;Entrem
 Gazua;Gazua
 Remover carvão;Dissolvant carvão
 Change icon (coletas);Changer d'icône (coletas)
-Buy: 150 x Mithril arrowtips;Acheter: 150 x pointes de flèches en mithril
 Ressaca;Ressaca
 Passar;Passer
 Pular;Pulaire
-Buy: 1 x Gold bar;Acheter: 1 x Lingot d'or
 Localizar;Localiser
 Verifique as etapas;Vérifier comme etapas
 Sentir;Sentir
@@ -3974,12 +2941,8 @@ Cliente em potencial;Clientèle potentielle
 Pule para;Pule para
 Cisalhamento;Cisalhamento
 Watchtower;Tour de guet
-Withdraw-855000;Retrait-855000
 Laço;Laço
 Esmagar;Esmagar
-Deposit-855000;Dépôt-855000
-Buy: 70 x Dragon longsword;Acheter: 70 x Épée longue du dragon
-Default quantity: 855,000;Quantité par défaut : 855 000
 Reivindicações de registro de recompensas;Reivindicações de registro de recompensas
 Obter registro;Obtenir le registre
 Retirada;Retraitée
@@ -3988,9 +2951,6 @@ Pule Através;Pule Atraves
 Plantar;Plantaire
 Pegue o tesouro;Pegue ou tesouro
 Atravessar;Atravessar
-Default quantity: 80,000;Quantité par défaut : 80 000
-Withdraw-80000;Retrait-80000
-Deposit-80000;Dépôt-80000
 Iban Blast;Explosion d'Iban
 Escavar;Escavar
 Corte de cabelo;Corte de cabelo
@@ -4051,8 +3011,6 @@ Pagar (canteiro de árvore);Pagar (canteiro de árvore)
 Combustível;Combustible
 Picareta;Picareta
 Último destino;Dernière destination
-Deposit-255555;Dépôt-255555
-Withdraw-255555;Retrait-255555
 Fill-in;Remplir
 Consult;Consulter
 Passo a passo;Passo à passo
@@ -4073,9 +3031,6 @@ Dig-below;Creusez ci-dessous
 Alternar K/D;K/D alternatif
 Descartar;Descartar
 Nenhum;Nenhum
-Default quantity: 8;Quantité par défaut : 8
-Buy: 1 x Nardah teleport;Acheter : 1 x téléportation de Nardah
-Buy: 380 x Earth battlestaff;Acheter : 380 x Bâton de combat terrestre
 Toggle-vials;Flacons à bascule
 Search-for-traps;Recherche de pièges
 -20%;-20%
@@ -4084,436 +3039,20 @@ Conjure;Conjurer
 Set as Client;Définir comme client
 Remove-rat;Supprimer le rat
 Quick-falcon;Faucon rapide
-Buy: 4 x Extended stamina potion(4);Acheter: 4 x Potion d'endurance prolongée(4)
-Default quantity: 1,522;Quantité par défaut : 1 522
-Withdraw-1522;Retrait-1522
 Check/Uncharge;Vérifier/Décharger
 Set Hotkey (R);Définir le raccourci clavier (R)
 Set Hotkey (S);Définir le raccourci clavier (S)
-Deposit-300000;Dépôt-300000
-Withdraw-300000;Retrait-300000
 Playback;Lecture
 Contact;Contact
 Scan;Balayage
 Castori;Castori
 Prьfen;Prüfen
 Fдllen;Fällen
-Add friend TheHedgeNite;Ajouter un ami
-Add friend Yukon772;Ajouter un ami
-Add ignore X Huka;Ajouter ignorer X Huka
-Add friend wildturkey63;Ajouter un ami wildturkey63
-Add ignore unholysadist;Ajouter ignorer unholysadiste
-Add friend X Huka;Ajouter un ami X Huka
-Add ignore Yukon772;Ajouter ignorer Yukon772
-Add ignore ZooCluesMan;Ajouter ignorer ZooCluesMan
-Add ignore whimsywhale;Ajouter ignorer whimsywhale
-Add friend Temptationss;Ajouter un ami Tentations
-Add friend thinHairyIM;Ajouter un ami
-Add ignore wildturkey63;Ajouter ignorer wildturkey63
-Add friend ZooCluesMan;Ajouter un ami
-Add ignore thinHairyIM;Ajouter ignorer ThinHairyIM
-Add ignore Tomppazz93;Ajouter ignorer Tomppazz93
-Add friend whimsywhale;Ajouter un ami
-Add ignore ValentHobby;Ajouter ignorer ValentHobby
-Add ignore TheHedgeNite;Ajouter ignorer TheHedgeNite
-Add friend ValentHobby;Ajouter un ami
-Add ignore Temptationss;Ajouter ignorer les tentations
-Add friend unholysadist;Ajouter un ami
-Add friend Tomppazz93;Ajouter un ami
-Add ignore Rel1ik999;Ajouter ignorer Rel1ik999
-Add ignore Sorry_scrub;Ajouter ignorer Sorry_scrub
-Add ignore Zazzali;Ajouter ignorer Zazzali
-Add ignore LordFalahar;Ajouter ignorer LordFalahar
-Add ignore Menlo Manny;Ajouter ignorer Menlo Manny
-Add ignore MisWhis4Real;Ajouter ignorer MisWhis4Real
-Add friend PreAres;Ajouter un ami
-Add ignore PlsRngeezus;Ajouter ignorer PlsRngeezus
-Add friend MyFriesBro;Ajouter un ami
-Add friend PrincessCMW;Ajouter un ami
-Add friend Smoker_484;Ajouter un ami Smoker_484
-Add ignore RomaRobot;Ajouter ignorer RomaRobot
-Add ignore RentaSoupO;Ajouter ignorer RentaSoupO
-Add friend prutlars47;Ajouter un ami prutlars47
-Add friend Plague_Bat;Ajouter un ami Plague_Bat
-Add ignore TheNewDos;Ajouter ignorer TheNewDos
-Add friend Rel1ik999;Ajouter un ami Rel1ik999
-Add friend TheMurph33;Ajouter un ami
-Add ignore Rargh 4 Real;Ajouter ignorer Rargh 4 Real
-Add ignore NsaneVulture;Ajouter ignorer NsaneVulture
-Add ignore MyFriesBro;Ajouter ignorer MyFriesBro
-Add ignore Risin_Up_LDG;Ajouter ignorer Risin_Up_LDG
-Add friend Mangyman13;Ajouter un ami
-Add ignore limit 45;Ajouter une limite d'ignorance 45
-Add ignore L0TTl;Ajouter ignorer L0TTl
-Add friend RentaSoupO;Ajouter un ami
-Add friend L0TTl;Ajouter un ami L0TTl
-Add friend Tallig3;Ajouter un ami
-Add ignore Tallig3;Ajouter ignorer Tallig3
-Add ignore ResetHard;Ajouter ignorer ResetHard
-Add friend Ry The Fly;Ajouter un ami Ry The Fly
-Add ignore Shade Plus;Ajouter ignorer Shade Plus
-Add friend NoPotsNoPans;Ajouter un ami
-Add ignore Saaguu;Ajouter ignorer Saaguu
-Add friend Lady Trinket;Ajouter un ami Lady Trinket
-Add friend Zaccdaripper;Ajouter un ami
-Add ignore Mangyman13;Ajouter ignorer Mangyman13
-Add friend Supahotfye;Ajouter un ami
-Add ignore Powngenie420;Ajouter ignorer Powngenie420
-Add friend Zazzali;Ajouter un ami
-Add friend Paladin Doop;Ajouter un ami Paladin Doop
-Add friend Menlo Manny;Ajouter un ami Menlo Manny
-Add friend KujooeIM;Ajouter un ami
-Add friend SirJzilla;Ajouter un ami
-Add ignore PreAres;Ajouter ignorer PreAres
-Add friend ResetHard;Ajouter un ami
-Add friend LandaHanz;Ajouter un ami
-Add friend Risin_Up_LDG;Ajouter un ami
-Add ignore Zaccdaripper;Ajouter ignorer Zaccdaripper
-Add friend Weyate;Ajouter un ami
-Add ignore Ry The Fly;Ajouter ignorer Ry The Fly
-Add friend Rargh 4 Real;Ajouter un ami
-Add friend Sorry_scrub;Ajouter un ami Sorry_scrub
-Add ignore KujooeIM;Ajouter ignorer KujooeIM
-Add ignore LandaHanz;Ajouter ignorer LandaHanz
-Add ignore PrincessCMW;Ajouter ignorer PrincessCMW
-Add ignore Weyate;Ajouter ignorer Weyate
-Add friend PlsRngeezus;Ajouter un ami PlsRngeezus
-Add ignore Supahotfye;Ajouter ignorer Supahotfye
-Add friend Shade Plus;Ajouter un ami
-Add friend limit 45;Ajouter une limite d'amis 45
-Add friend MisWhis4Real;Ajouter un ami
-Add ignore NoPotsNoPans;Ajouter ignorer NoPotsNoPans
-Add ignore TheMurph33;Ajouter ignorer TheMurph33
-Add ignore Lady Trinket;Ajouter ignorer Lady Trinket
-Add friend Powngenie420;Ajouter un ami
-Add friend RomaRobot;Ajouter un ami
-Add ignore Plague_Bat;Ajouter ignorer Plague_Bat
-Add ignore SirJzilla;Ajouter ignorer SirJzilla
-Add friend TheNewDos;Ajouter un ami
-Add friend NsaneVulture;Ajouter un ami
-Add friend LordFalahar;Ajouter un ami
-Add ignore prutlars47;Ajouter ignorer prutlars47
-Add ignore Paladin Doop;Ajouter ignorer Paladin Doop
-Add ignore Smoker_484;Ajouter ignorer Smoker_484
-Add friend Saaguu;Ajouter un ami
-Add ignore NotN_MyMouth;Ajouter ignorer NotN_MyMouth
-Add friend chxnoodsoup;Ajouter un ami
-Add ignore BULLY xD;Ajouter ignorer BULLY xD
-Add ignore DabehOfa;Ajouter ignorer DabehOfa
-Add ignore p00pypie;Ajouter ignorer p00pypie
-Add ignore BiSpy;Ajouter ignorer BiSpy
-Add friend 3VO4;Ajouter un ami 3VO4
-Add ignore Grimgrok26;Ajouter ignorer Grimgrok26
-Add friend p00pypie;Ajouter un ami p00pypie
-Add friend EMO POS;Ajouter un ami EMO POS
-Add ignore zoublemaul;Ajouter ignorer zoublemaul
-Add ignore Frantoon;Ajouter ignorer Frantoon
-Add ignore Dantelieri;Ajouter ignorer Dantelieri
-Add friend KingBlixky;Ajouter un ami
-Add friend Genae;Ajouter un ami
-Add ignore Aged Jankem;Ajouter ignorer Aged Jankem
-Add friend zoublemaul;Ajouter un ami
-Add ignore IMATOBRO123;Ajouter ignorer IMATOBRO123
-Add ignore Fouug;Ajouter ignorer Fouug
-Add friend BakingCo;Ajouter un ami
-Add ignore Genae;Ajouter ignorer Genae
-Add friend 3WoodLye;Ajouter un ami
-Add friend osrsgflv;Ajouter un ami
-Add ignore IvorBromson;Ajouter ignorer IvorBromson
-Add friend BrawnsBoi;Ajouter un ami
-Add ignore Mage Truffle;Ajouter ignorer la truffe du mage
-Add friend Benchouw2;Ajouter un ami
-Add friend DabehOfa;Ajouter un ami
-Add ignore Firefuryrose;Ajouter ignorer Firefuryrose
-Add ignore jjiscool1;Ajouter ignorer jjiscool1
-Add friend IMATOBRO123;Ajouter un ami IMATOBRO123
-Add friend Fouug;Ajouter un ami
-Add friend Ankou2389;Ajouter un ami Ankou2389
-Add ignore LumenGrave;Ajouter ignorer LumenGrave
-Add friend BULLY xD;Ajouter un ami BULLY xD
-Add ignore Ankou2389;Ajouter ignorer Ankou2389
-Add ignore rautakotkis;Ajouter ignorer les rautakotkis
-Add ignore chxnoodsoup;Ajouter ignorer chxnoodsoup
-Add friend Env IRON;Ajouter un ami Env IRON
-Add friend he who dares;Ajouter un ami à celui qui ose
-Add ignore PurejOor;Ajouter ignorer PurejOor
-Add friend IvorBromson;Ajouter un ami
-Add ignore 3VO4;Ajouter ignorer 3VO4
-Add friend Aged Jankem;Ajouter un ami Jankem âgé
-Add ignore Env IRON;Ajouter ignorer Env IRON
-Add friend PurejOor;Ajouter un ami
-Add friend Firefuryrose;Ajouter un ami
-Add friend FlakPanzer95;Ajouter un ami
-Add ignore 3WoodLye;Ajouter ignorer 3WoodLye
-Add ignore EMO POS;Ajouter ignorer EMO POS
-Add ignore db271;Ajouter ignorer db271
-Add friend db271;Ajouter un ami db271
-Add friend NotN_MyMouth;Ajouter un ami NotN_MyMouth
-Add ignore KingBlixky;Ajouter ignorer KingBlixky
-Add friend LumenGrave;Ajouter un ami
-Add ignore NOBARA03;Ajouter ignorer NOBARA03
-Add friend Dantelieri;Ajouter un ami
-Add ignore osrsgflv;Ajouter ignorer osrsgflv
-Add friend Jackm12;Ajouter un ami
-Add ignore Long Charm;Ajouter le charme long Ignorer
-Add friend jjiscool1;Ajouter un ami
-Add friend Long Charm;Ajouter un ami Long Charme
-Add friend NOBARA03;Ajouter un ami NOBARA03
-Add friend Grimgrok26;Ajouter un ami
-Add ignore Jackm12;Ajouter ignorer Jackm12
-Add friend BiSpy;Ajouter un ami
-Add friend rautakotkis;Ajouter un ami
-Add ignore BakingCo;Ajouter ignorer BakingCo
-Add ignore FlakPanzer95;Ajouter ignorer FlakPanzer95
-Add friend Frantoon;Ajouter un ami
-Add ignore Benchouw2;Ajouter ignorer Benchouw2
-Add friend Mage Truffle;Ajouter un ami Truffe Mage
-Add ignore BrawnsBoi;Ajouter ignorer BrawnsBoi
-Add ignore he who dares;Ajouter ignorer celui qui ose
-Add ignore Liddobread;Ajouter ignorer Liddopain
-Add ignore myassishappy;Ajouter ignorer myassishappy
-Add friend J-LO89;Ajouter un ami
-Add ignore J-LO89;Ajouter ignorer J-LO89
-Add friend JibbaJabbaJo;Ajouter un ami
-Add friend irritablevow;Ajouter un ami
-Add ignore IronDairyMan;Ajouter ignorer IronDairyMan
-Add friend IronDairyMan;Ajouter un ami
-Add friend PilaNosPes;Ajouter un ami
-Add friend Qataro;Ajouter un ami
-Add friend NormalNaveed;Ajouter un ami
-Add ignore K1ngSlay3rr;Ajouter ignorer K1ngSlay3rr
-Add friend K1ngSlay3rr;Ajouter un ami
-Add friend i finna buss;Ajouter un ami, je finis par bus
-Add friend Liddobread;Ajouter un ami
-Add friend jattshigh;Ajouter un ami
-Add friend JaliscoMex;Ajouter un ami
-Add ignore SucubusOfWar;Ajouter ignorer SucubusOfWar
-Add friend naame2forget;Ajouter un ami naame2forget
-Add ignore irritablevow;Ajouter ignorer le vœu irritable
-Add ignore JaliscoMex;Ajouter ignorer JaliscoMex
-Add ignore JibbaJabbaJo;Ajouter ignorer JibbaJabbaJo
-Add friend myassishappy;Ajouter un ami myassishappy
-Add ignore jattshigh;Ajouter ignorer jattshigh
-Add friend SucubusOfWar;Ajouter un ami
-Add ignore Qataro;Ajouter ignorer Qataro
-Add ignore naame2forget;Ajouter ignorer naame2forget
-Add ignore PilaNosPes;Ajouter ignorer PilaNosPes
-Add ignore i finna buss;Ajouter ignorer je finis par bus
-Add ignore NormalNaveed;Ajouter ignorer NormalNaveed
 Dissolver;Dissolveur
-Withdraw-22000000;Retrait-22000000
-Add friend whiteclaw96;Ajouter un ami
-Add friend wormnipples;Ajouter des amis
-Add ignore wormnipples;Ajouter ignorer les tétons de ver
-Add ignore whiteclaw96;Ajouter ignorer whiteclaw96
-Add ignore HCIM KITAKER;Ajouter ignorer HCIM KITAKER
-Add friend kkush4life;Ajouter un ami
-Add ignore Lorik337;Ajouter ignorer Lorik337
-Add ignore Metalmass515;Ajouter ignorer Metalmass515
-Add ignore HulesMcGules;Ajouter ignorer HulesMcGules
-Add ignore Vegitto-Da;Ajouter ignorer Vegitto-Da
-Add friend Tawksic91;Ajouter un ami
-Add friend Vegitto-Da;Ajouter un ami
-Add friend Falco Main;Ajouter un ami Falco Main
-Add friend iBeFoxx;Ajouter un ami
-Add ignore Tawksic91;Ajouter ignorer Tawksic91
-Add ignore kkush4life;Ajouter ignorer kkush4life
-Add ignore IndolentHerr;Ajouter ignorer IndolentHerr
-Add friend Lorik337;Ajouter un ami Lorik337
-Add friend Fen Beid;Ajouter un ami Fen Beid
-Add ignore Falco Main;Ajouter ignorer Falco Main
-Add ignore YepGreg;Ajouter ignorer YepGreg
-Add friend Fearddrkness;Ajouter un ami
-Add friend TwinFlames;Ajouter un ami
-Add friend WreckeRalph;Ajouter un ami
-Add ignore SmartRegard;Ajouter ignorer SmartRegard
-Add friend HCIM KITAKER;Ajouter un ami HCIM KITAKER
-Add ignore matiainenn;Ajouter ignorer matiainenn
-Add ignore Fehootie;Ajouter ignorer Fehootie
-Add friend SmartRegard;Ajouter un ami SmartRegard
-Add friend gennir 124;Ajouter un ami Gennir 124
-Add friend Ev1LShrek;Ajouter un ami
 Remove friend Fayyasha;Supprimer l'ami Fayyasha
-Add friend Fell Silent;Ajouter un ami
-Add ignore Fell Silent;Ajouter ignorer Est devenu silencieux
-Add ignore iBeFoxx;Ajouter ignorer iBeFoxx
-Add friend Metalmass515;Ajouter un ami
-Add ignore Fearddrkness;Ajouter ignorer Fearddrkness
-Add friend HulesMcGules;Ajouter un ami
-Add ignore TheClawwwg;Ajouter ignorer TheClawwwg
-Add friend Snook10;Ajouter un ami
-Add friend Kurt Nir3;Ajouter un ami Kurt Nir3
-Add ignore PhatPhlap;Ajouter ignorer PhatPhlap
-Add ignore goosedrool;Ajouter ignorer la bave d'oie
-Add ignore Yewdragon33;Ajouter ignorer Yewdragon33
-Add friend Fayyasha;Ajouter un ami
-Add ignore eyeronSkyler;Ajouter ignorer eyeronSkyler
-Add friend Qualena;Ajouter un ami
-Add ignore Jxper;Ajouter ignorer Jxper
-Add ignore Qualena;Ajouter ignorer Qualina
-Add friend Jxper;Ajouter un ami
-Add friend FPwnJr;Ajouter un ami
-Add friend Yewdragon33;Ajouter un ami
-Add friend mackatt79;Ajouter un ami mackatt79
-Add friend F14SH_177;Ajouter un ami F14SH_177
-Add friend EL_FASTASMAS;Ajouter un ami EL_FASTASMAS
-Add ignore Snook10;Ajouter ignorer Snook10
-Add friend YepGreg;Ajouter un ami
-Add friend Pregnantkbd;Ajouter un ami
-Add friend robbdawgg;Ajouter un ami
-Add ignore ix zer0 xi;Ajouter ignorer ix zer0 xi
-Add friend F1ND1NGN3M0;Ajouter un ami F1ND1NGN3M0
-Add friend IndolentHerr;Ajouter un ami
-Add ignore TSPsychotic;Ajouter ignorer TSPsychotic
-Add ignore Ev1LShrek;Ajouter ignorer Ev1LShrek
-Add ignore robbdawgg;Ajouter ignorer robbdawgg
-Add ignore OSRSrockstar;Ajouter ignorer OSRSrockstar
-Add friend ix zer0 xi;Ajouter un ami ix zer0 xi
-Add friend eyeronSkyler;Ajouter un ami eyeronSkyler
-Add friend MysticalGato;Ajouter un ami
-Add ignore WreckeRalph;Ajouter ignorer WreckeRalph
-Add ignore dua baji;Ajouter ignorer dua baji
-Add ignore gennir 124;Ajouter ignorer Gennir 124
-Add friend TheClawwwg;Ajouter un ami
-Add friend TSPsychotic;Ajouter un ami TSPsychotic
-Add ignore FPwnJr;Ajouter ignorer FPwnJr
-Add ignore EL_FASTASMAS;Ajouter ignorer EL_FASTASMAS
-Add ignore TwinFlames;Ajouter ignorer TwinFlames
-Add friend PhatPhlap;Ajouter un ami
-Add friend goosedrool;Ajouter un ami
-Add ignore Pregnantkbd;Ajouter ignorer Pregnantkbd
-Add ignore Fayyasha;Ajouter ignorer Fayyasha
-Add ignore mackatt79;Ajouter ignorer mackatt79
-Add ignore F1ND1NGN3M0;Ajouter ignorer F1ND1NGN3M0
-Add ignore F14SH_177;Ajouter ignorer F14SH_177
-Add friend matiainenn;Ajouter un ami
-Add friend Fehootie;Ajouter un ami
-Add friend dua baji;Ajouter un ami dua baji
-Add ignore Fen Beid;Ajouter ignorer Fen Beid
-Add ignore MysticalGato;Ajouter ignorer MysticalGato
-Add ignore Kurt Nir3;Ajouter ignorer Kurt Nir3
-Add friend OSRSrockstar;Ajouter un ami
-Add ignore DeRobertC;Ajouter ignorer DeRobertC
-Add ignore Artemis460;Ajouter ignorer Artemis460
-Add friend Berrenta;Ajouter un ami
-Add friend CCoLa1;Ajouter un ami CCoLa1
-Add friend deathur5;Ajouter un ami
-Add ignore MAusuiy;Ajouter ignorer MAusuiy
-Add friend Creptarnk;Ajouter un ami
-Add ignore MobileSafer;Ajouter ignorer MobileSafer
-Add ignore Creptarnk;Ajouter ignorer Creptarnk
-Add friend Drivemind99;Ajouter un ami
-Add friend B J O N ES;Ajouter un ami
-Add friend Ulmandur;Ajouter un ami
 Remove friend Paladin Doop;Supprimer un ami Paladin Doop
-Add friend soh wretched;Ajouter un ami soh misérable
-Add ignore Carihawk54;Ajouter ignorer Carihawk54
-Add friend KatanaKatz;Ajouter un ami
-Add ignore basketluvr;Ajouter ignorer basketluvr
-Add friend Ch1ldOfGawd;Ajouter un ami
-Add friend aceminion;Ajouter un ami
-Add ignore NotMePlayin;Ajouter ignorer NotMePlayin
-Add friend Rox R7;Ajouter un ami Rox R7
-Add ignore Germergenmuf;Ajouter ignorer Germergenmuf
 Remove friend OSRSrockstar;Supprimer un ami OSRSrockstar
-Add friend sdkflhs3;Ajouter un ami
-Add ignore Atlasleeuwx;Ajouter ignorer Atlasleeuwx
-Add friend Atlasleeuwx;Ajouter un ami
-Add ignore Abby55551;Ajouter ignorer Abby55551
-Add friend LADY FOOFOO;Ajouter un ami LADY FOOFOO
-Add ignore Lady_Ratmore;Ajouter ignorer Lady_Ratmore
-Add friend Drexter17;Ajouter un ami
-Add ignore B J O N ES;Ajouter ignorer B J O N ES
-Add ignore CodemanSlim;Ajouter ignorer CodemanSlim
-Add friend Aotrosego;Ajouter un ami
-Add ignore LADY FOOFOO;Ajouter ignorer LADY FOOFOO
-Add ignore Rox R7;Ajouter ignorer Rox R7
-Add ignore soh wretched;Ajouter ignorer soh misérable
-Add ignore meet tip;Ajouter un conseil pour ignorer la rencontre
-Add friend MobileSafer;Ajouter un ami
-Add ignore HighGuySly;Ajouter ignorer HighGuySly
-Add ignore Phegalofi;Ajouter ignorer Phegalofi
-Add friend The Scholar;Ajouter un ami
-Add ignore Riffmage;Ajouter ignorer Riffmage
-Add friend MAusuiy;Ajouter un ami
-Add ignore Ironatemunch;Ajouter ignorer Ironatemunch
-Add ignore Sugmite;Ajouter ignorer Sugmite
-Add friend HighGuySly;Ajouter un ami
-Add friend RSN_DRiiiP;Ajouter un ami RSN_DRiiiP
-Add ignore Dutchizm;Ajouter ignorer Dutchizm
-Add ignore Drivemind99;Ajouter ignorer Drivemind99
-Add friend LilSlippers;Ajouter un ami
-Add ignore LilSlippers;Ajouter ignorer Lilslippers
-Add friend basketluvr;Ajouter un ami
-Add friend Abby55551;Ajouter un ami Abby55551
-Add ignore IronRyriku;Ajouter ignorer IronRyriku
-Add friend CodemanSlim;Ajouter un ami
-Add ignore 7steelsword;Ajouter ignorer 7steelsword
-Add friend Germergenmuf;Ajouter un ami
-Add ignore IM REDHAWK;Ajouter ignorer IM REDHAWK
-Add friend Ironatemunch;Ajouter un ami
-Add friend 7steelsword;Ajouter un ami
-Add ignore kinbred;Ajouter un parent ignoré
-Add ignore Ulmandur;Ajouter ignorer Ulmandur
-Add friend Bombtiger;Ajouter un ami
-Add friend prenga6736;Ajouter un ami prenga6736
-Add friend Sugmite;Ajouter un ami
-Add ignore HugeJuggs5;Ajouter ignorer HugeJuggs5
-Add ignore sdkflhs3;Ajouter ignorer sdkflhs3
-Add friend humpndump69;Ajouter un ami
-Add ignore Berrenta;Ajouter ignorer Berrenta
-Add ignore CCoLa1;Ajouter ignorer CCoLa1
-Add ignore Alt 4 luck;Ajouter ignorer Alt 4 chance
-Add ignore deathur5;Ajouter ignorer deathur5
-Add ignore iw0wi;Ajouter ignorer iw0wi
-Add friend H1LDRYN;Ajouter un ami
-Add friend iw0wi;Ajouter un ami iw0wi
-Add friend NotMePlayin;Ajouter un ami
-Add ignore TankedHim;Ajouter ignorer TankedHim
-Add friend IM REDHAWK;Ajouter un ami IM REDHAWK
-Add friend Alt 4 luck;Ajouter un ami Alt 4 chance
-Add ignore Sjse;Ajouter ignorer Sjse
-Add ignore Dameblastop;Ajouter ignorer Dameblastop
-Add ignore prenga6736;Ajouter ignorer prenga6736
-Add friend Dutchizm;Ajouter un ami
-Add ignore humpndump69;Ajouter ignorer humndump69
-Add friend Dameblastop;Ajouter un ami
-Add friend wildly dan;Ajouter un ami sauvagement dan
-Add ignore Ch1ldOfGawd;Ajouter ignorer Ch1ldOfGawd
-Add ignore The Scholar;Ajouter ignorer The Scholar
-Add friend HugeJuggs5;Ajouter un ami
-Add friend meet tip;Ajouter un conseil pour rencontrer un ami
-Add ignore BldCardinal8;Ajouter ignorer BldCardinal8
-Add friend Riffmage;Ajouter un ami
-Add friend Sjse;Ajouter un ami
-Add friend BldCardinal8;Ajouter un ami
-Add friend Calisto0044;Ajouter un ami
-Add friend kinbred;Ajouter un ami parent
-Add ignore SnakemanGIM;Ajouter ignorer SnakemanGIM
-Add friend Lady_Ratmore;Ajouter un ami Lady_Ratmore
-Add ignore H1LDRYN;Ajouter ignorer H1LDRYN
-Add friend DmnKngCooler;Ajouter un ami
-Add friend TankedHim;Ajouter un ami
-Add ignore Aotrosego;Ajouter ignorer Aotrosego
-Add ignore aceminion;Ajouter ignorer l'aceminion
-Add ignore Bombtiger;Ajouter ignorer Bombtiger
-Add friend dannnit;Ajouter un ami, bon sang
-Add ignore RSN_DRiiiP;Ajouter ignorer RSN_DRiiiP
-Add friend IronRyriku;Ajouter un ami
-Add ignore KatanaKatz;Ajouter ignorer KatanaKatz
-Add ignore Calisto0044;Ajouter ignorer Calisto0044
-Add ignore Drexter17;Ajouter ignorer Drexter17
-Add ignore DmnKngCooler;Ajouter ignorer DmnKngCooler
-Add friend SnakemanGIM;Ajouter un ami
-Add ignore dannnit;Ajouter ignorer, bon sang
-Add friend Carihawk54;Ajouter un ami
-Add friend Artemis460;Ajouter un ami
-Add ignore wildly dan;Ajouter ignorer sauvagement dan
-Add friend DeRobertC;Ajouter un ami
-Add friend Phegalofi;Ajouter un ami
 Change icon (clue);Changer d'icône (indice)
-Default quantity: 22,000,000;Quantité par défaut : 22 000 000
-Deposit-22000000;Dépôt-22000000
 Implantar;Implantaire
 Aparar;Apparar
 Desembarcar;Débarquer
@@ -4533,7 +3072,6 @@ Select <col=ff9040>2500 Tokens/Soul cape</col>;Sélectionnez <col=ff9040>2 500 j
 Select <col=ff9040>Spoils of war</col>;Sélectionnez <col=ff9040>Butin de guerre</col>
 Código de resgate;Code de resgate
 Itens de férias;Articles de férias
-Buy: 3 x Trout;Acheter: 3 x Truite
 Switch <col=ff8040>334</col>;Changer <col=ff8040>334</col>
 Torre de Vigia;Tour de Vigia
 Vez;Vez
@@ -4544,7 +3082,6 @@ Release all placeholders (16);Libérer tous les espaces réservés (16)
 AKR;AKR
 Switch <col=ff8040>370</col>;Changer <col=ff8040>370</col>
 Leave <col=ff8040>Fishing Trawler</col> channel;Quitter le canal <col=ff8040>Chalutier de pêche</col>
-Default quantity: 45;Quantité par défaut : 45
 Sacrifício;Sacrificio
 O Pandemônio;O Pandemônio
 Pegue-barco;Pegue-barco
@@ -4644,11 +3181,8 @@ Show more;Afficher plus
 Arrombar;Arrombar
 Mudar de Nome;Mudar de Nome
 Retirar-1000;Retraité-1000
-Sell: 1 x Xerician hat;Vendre : 1 x chapeau Xéricien
 Orar;Orar
 Oferta;Offre
-Buy: 3 x Shattered cannon ornament kit;Acheter: 3 x Kit d'ornements Canon brisé
-Buy: 1 x Mystic hat (light);Acheter: 1 x Chapeau Mystic (léger)
 Change icon (runas);Changer d'icône (runas)
 Change icon (teleport);Changer d'icône (téléportation)
 Change icon (seed);Changer d'icône (graine)
@@ -4664,11 +3198,8 @@ Set Hotkey (Not set);Définir le raccourci clavier (non défini)
 Float;Flotter
 Tosquiar;Tosquiar
 Fornalha;Fornalha
-Buy: 1 x Eye of newt;Acheter: 1 x Oeil de triton
-Buy: 1 x Raw herring;Acheter: 1 x Hareng cru
 Change icon (rocks);Changer d'icône (rochers)
 Verifique elogios;Vérifier les éloges
-Default quantity: 150;Quantité par défaut : 150
 Use Suggested Settings;Utiliser les paramètres suggérés
 Castle Drakan;Château de Drakán
 Ponder;Réfléchir
@@ -4693,7 +3224,6 @@ Take-supplies;Prendre des fournitures
 Harvest-from;Récolte de
 Wrangle;Dispute
 BLS;BLS
-Sell: 5 x Goblin mail;Vendre : 5 x Courrier gobelin
 Interface;Interface
 Rede;Rede
 Trocar de mundo;Trocart du monde
@@ -4722,45 +3252,22 @@ Lithkren;Lithkren
 Remover decorações;Décorations dissolvantes
 -6%;-6%
 +6%;+6%
-Buy: 30 x Saradomin brew(4);Acheter: 30 x Infusion Saradomin(4)
-Buy: 1 x Amulet of strength;Acheter : 1 x Amulette de force
 Show less;Afficher moins
 Pull-back;Retrait
 Give-feathers;Donner des plumes
 Trade-teeth;Commerce de dents
 Crystalise-potion;Potion de cristallisation
-Buy: 2 x Onion;Acheter: 2 x Oignon
-Sell: 1 x Bandos godsword;Vendre : 1 x épée divine Bandos
-Withdraw-2,000;Retrait-2 000
 Configuração;Configuration
 Procure por armadilhas;Procurez-vous des tatous
 Extinguir;Extincteur
-Buy: 100 x Bronze arrowtips;Acheter: 100 x Pointes de flèches en bronze
-Withdraw-605;Retrait-605
-Default quantity: 605;Quantité par défaut : 605
-Deposit-605;Dépôt-605
 Ofertar<col=ff9040>;Offrir<col=ff9040>
 Change icon (boses);Changer d'icône (boses)
 Sync (Right-click Search);Synchroniser (clic droit sur la recherche)
-Buy: 1 x Blighted manta ray;Acheter: 1 x Raie manta dévastée
-Buy: 1 x Leather body;Acheter: 1 x Corps en cuir
-Buy: 1 x Climbing boots;Acheter: 1 x Chaussures d'escalade
-Buy: 20 x Dragon thrownaxe;Acheter: 20 x Hache de lancer Dragon
-Buy: 300 x Amethyst arrow;Acheter: 300 x Flèche améthyste
-Buy: 10 x Dragon knife;Acheter: 10 x Couteau Dragon
-Buy: 1 x Ring of wealth (5);Acheter : 1 x Anneau de richesse (5)
-Buy: 1 x Amulet of glory(6);Acheter: 1 x Amulette de gloire(6)
-Buy: 1 x Ranging potion(4);Acheter: 1 x Potion de télémétrie(4)
-Buy: 1 x Anti-venom(4);Acheter: 1 x Anti-venin(4)
-Buy: 100 x Rune knife(p++);Acheter: 100 x Couteau runique(p++)
-Buy: 1 x Red d'hide chaps;Acheter: 1 x Mini-chaps Rouge d'Hide
-Buy: 1 x Coif;Acheter: 1 x Coiffe
 Release all placeholders (69);Libérer tous les espaces réservés (69)
 Select <col=ff9040>Blighted vengeance sack</col>;Sélectionnez <col=ff9040>Sac de vengeance corrompu</col>
 Select <col=ff9040>Soul cape</col>;Sélectionnez la <col=ff9040>Cape d'âme</col>
 Select <col=ff9040>Blighted karambwan</col>;Sélectionnez <col=ff9040>Karambwan infesté</col>
 Select <col=ff9040>Blighted manta ray</col>;Sélectionnez <col=ff9040>raie manta infectée</col>
-Deposit-9000000;Dépôt-9000000
 Padrão;Padrão
 Wipe;Essuyer
 Seek;Chercher
@@ -4768,8 +3275,6 @@ Sign up;S'inscrire
 Max/Med;Max/Moy
 Join fight;Rejoignez le combat
 Zerker;Zerker
-Deposit-124000;Dépôt-124000
-Withdraw-124000;Retrait-124000
 Toggle set effect;Activer/Désactiver l'effet défini
 <col=ff0000>Delete tag tab;<col=ff0000>Onglet Supprimer la balise
 CIP;CIP
@@ -4778,19 +3283,11 @@ Store-2,000;Magasin-2 000
 Bryophyta;Bryophytes
 Obor;Obor
 Branda and Eldric;Branda et Eldric
-Buy: 50 x Super restore(4);Acheter: 50 x Super restauration(4)
-Buy: 100 x Anglerfish;Acheter: 100 x Baudroie
 Change icon (royal titans);Changer d'icône (titans royaux)
-Default quantity: 124,000;Quantité par défaut : 124 000
-Buy: 2,000 x Soul rune;Acheter : 2 000 x Rune de l'âme
 Dentro;Dent
 Carregar;Carregar
 Release all placeholders (42);Libérer tous les espaces réservés (42)
-Sell: 185 x Revenant ether;Vendre : 185 x Éther Revenant
 Release all placeholders (36);Libérer tous les espaces réservés (36)
-Sell: 1 x Bandos chestplate;Vendre : 1 x Plastron Bandos
-Sell: 1 x Bandos tassets;Vendre : 1 x Tassettes Bandos
-Buy: 1 x Pegasian boots;Acheter: 1 x bottes pégasiennes
 Bank-All;Banque-Tout
 Destroy-All;Détruire tout
 Destroy-X;Détruire-X
@@ -4857,37 +3354,25 @@ Release all placeholders (23);Libérer tous les espaces réservés (23)
 Deadman's Chest;Coffre du mort
 Adamant Arrow;Flèche inflexible
 Dragon Pickaxe Upgrade Kit;Kit de mise à niveau de pioche dragon
-Sell: 1 x Zaryte vambraces;Vendre : 1 x Avant-bras Zaryte
-Sell: 1 x Crimson kisten;Vendre : 1 x Kisten cramoisi
-Buy: 1 x Helm of neitiznot;Acheter : 1 x Heaume de neitiznot
-Buy: 1 x Super combat potion(4);Acheter: 1 x Super potion de combat(4)
 Last-destination (DJQ);Dernière destination (DJQ)
 Last-destination (AJS);Dernière destination (AJS)
 Last-destination (AIR);Dernière destination (AIR)
 Pick-pocket;Pickpocket
-Buy: 100 x Blighted anglerfish;Acheter: 100 x Baudroie infectée
 Heart;Cœur
 Change icon (pets);Changer d'icône (animaux de compagnie)
 Brincar com;Brincar com
-Default quantity: 250;Quantité par défaut : 250
 Reset-time;Temps de réinitialisation
 Create-book;Créer un livre
-Buy: 1 x Beer;Acheter: 1 x Bière
 Continue-trek;Continuer la randonnée
 Evade-event;Événement d'évasion
 Return-to-Paterdomus;Retour à Paterdomus
 Swing-from;Swing de
 Return-to-Burgh;Retour à Burgh
-Sell: 1 x Zamorak monk bottom;Vendre : 1 x Bas de moine Zamorak
-Buy: 100 x Zamorak monk bottom;Acheter: 100 x Bas de moine Zamorak
 Poison Waste;Déchets de poison
 Definir destino;Définir la destination
 Teleporte para o destino;Téléporter pour le destin
 Copy Load-out;Copie du chargement
 +5;+5
-Deposit-700;Dépôt-700
-Withdraw-700;Retrait-700
-Default quantity: 700;Quantité par défaut : 700
 View journal <col=ff981f>Temple of the Eye</col>;Voir le journal <col=ff981f>Temple de l'Œil</col>
 View journal <col=ff981f>Witch's Potion</col>;Afficher le journal <col=ff981f>Potion de sorcière</col>
 View journal <col=ff981f>Fishing Contest</col>;Voir le journal <col=ff981f>Concours de pêche</col>
@@ -4899,8 +3384,6 @@ Coletar-Item;Objet Coletar
 Coletar-Nota;Coletar-Nota
 Trocar capa de fogo;Trocart capa de fogo
 Release all placeholders (48);Libérer tous les espaces réservés (48)
-Withdraw-24;Retrait-24
-Deposit-24;Dépôt-24
 Armadyl Halo;Halo d'Armadyl
 Select <col=ff9040>10 Tokens/Blighted teleport spell sack</col>;Sélectionnez <col=ff9040>10 jetons/sac de sorts de téléportation infesté</col>
 Select <col=ff9040>10 Tokens/Blighted anglerfish</col>;Sélectionnez <col=ff9040>10 jetons/baudroie infestée</col>
@@ -4909,8 +3392,6 @@ Select <col=ff9040>10 Tokens/Blighted ancient ice sack</col>;Sélectionnez <col=
 Select <col=ff9040>10 Tokens/Blighted manta ray</col>;Sélectionnez <col=ff9040>10 jetons/raie manta infestée</col>
 Select <col=ff9040>10 Tokens/Blighted karambwan</col>;Sélectionnez <col=ff9040>10 jetons/karambwan fléau</col>
 Select <col=ff9040>250 Tokens/Ectoplasmator</col>;Sélectionnez <col=ff9040>250 jetons/Ectoplasmateur</col>
-Default quantity: 24;Quantité par défaut : 24
-Sell: 4 x Amulet of glory;Vendre : 4 x Amulette de gloire
 Toggle Respawn;Activer/désactiver la réapparition
 Toggle Effect;Effet bascule
 Tie-rope;Corde d'attache
@@ -4922,20 +3403,14 @@ Brassica Halo;Brassica Halo
 Seren Halo;Seren Halo
 Adicionar Todos;Ajouter toutes ces choses
 Adicionar<col=ff9040>;Ajouter<col=ff9040>
-Withdraw-1300;Retrait-1300
-Default quantity: 1,300;Quantité par défaut : 1 300
 Surrender;Se rendre
-Deposit-184512;Dépôt-184512
-Withdraw-184512;Retrait-184512
 Red Rock;Roche rouge
-Deposit-1300;Dépôt-1300
 Teleport to <col=ff8040>TzHaar Fight Pit</col>;Téléportation au <col=ff8040>TzHaar Fight Pit</col>
 Join <col=ff8040>TzHaar Fight Pit</col> channel;Rejoignez la chaîne <col=ff8040>TzHaar Fight Pit</col>
 Switch <col=ff8040>362</col>;Changer <col=ff8040>362</col>
 Botﾃｭn;Botzon
 Take-eggs;Prendre des œufs
 Open-stomach;Ventre ouvert
-Buy: 1 x Iron platelegs;Acheter: 1 x Pieds en fer
 Short fuse;Fusible court
 Medium fuse;Fusible moyen
 Long fuse;Fusible long
@@ -4959,7 +3434,6 @@ Tell-accurate;dire avec précision
 Tell-defensive;Tell-défensif
 Tell-aggressive;Dire-agressif
 Tell-controlled;Tell-contrôlé
-Sell: 100 x Dragon arrow(p++);Vendre : 100 x Flèche de dragon (p++)
 Fill-X;Remplissez-X
 Fill-All;Remplir tout
 Eat-from;Manger de
@@ -4971,89 +3445,33 @@ Tell-crackers;Tell-crackers
 Tell-tofu;Dites-tofu
 Tell-worms;Dire aux vers
 Fill potions;Remplir des potions
-Buy: 1 x Blood moon tassets;Acheter: 1 x Tassettes Lune de sang
-Buy: 1 x Crimson kisten;Acheter: 1 x Kisten cramoisi
-Buy: 1 x Eye of ayak (uncharged);Acheter : 1 x Oeil d'Ayak (non chargé)
-Withdraw-840000;Retrait-840000
 Custom quantity: 2,000;Quantité personnalisée : 2 000
-Buy: 1 x Saradomin brew(4);Acheter: 1 x infusion Saradomin(4)
-Deposit-840000;Dépôt-840000
 Watson;Watson
 Deposit potions;Potions de dépôt
 Smoke Rush;Ruée vers la fumée
 Target Teleport Scroll;Parchemin de téléportation cible
 Dark Bow Green Paint;Peinture vert arc foncé
 Dark Bow White Paint;Peinture blanche foncée
-Buy: 1 x Rune platelegs;Acheter: 1 x Plaquettes Rune
-Buy: 30 x Blighted super restore(4);Acheter: 30 x Super restauration infestée(4)
-Buy: 60 x Blighted vengeance sack;Acheter: 60 x Sac de vengeance Blighted
-Default quantity: 400;Quantité par défaut : 400
-Sell: 4,444 x Revenant ether;Vendre : 4 444 x Éther Revenant
-Sell: 1 x Extended anti-venom+(2);Vendre : 1 x Anti-venin étendu+(2)
 Release all placeholders (37);Libérer tous les espaces réservés (37)
 Sangvesti;Sangvesti
-Sell: 1 x Adamant arrow;Vendre : 1 x Flèche inflexible
-Sell: 1 x Adamant full helm;Vendre : 1 x Casque complet Adamant
 Release all placeholders (41);Libérer tous les espaces réservés (41)
 Release all placeholders (22);Libérer tous les espaces réservés (22)
 Release all placeholders (5);Libérer tous les espaces réservés (5)
 Release all placeholders (3);Libérer tous les espaces réservés (3)
 Release all placeholders (31);Libérer tous les espaces réservés (31)
-Default quantity: 99,000;Quantité par défaut : 99 000
-Deposit-99000;Dépôt-99000
-Withdraw-99000;Retrait-99000
 DIQ;DIQ
-Deposit-1600;Dépôt-1600
-Withdraw-1600;Retrait-1600
-Withdraw-450;Retrait-450
-Deposit-450;Dépôt-450
-Sell: 33 x Bronze full helm;Vendre : 33 x Heaume complet en bronze
 Charter-to Sunset Coast;Charter vers Sunset Coast
 Bottle-boat;Bateau-bouteille
 Tell-meat;Dites-viande
-Default quantity: 450;Quantité par défaut : 450
 Release all placeholders (11);Libérer tous les espaces réservés (11)
 Release all placeholders (28);Libérer tous les espaces réservés (28)
-Sell: 107 x Stymphike feather;Vendre : 107 x Plume de Stymphike
-Buy: 1 x Bronze platebody;Acheter: 1 x Corps en plaque de bronze
-Sell: 1 x Bronze kiteshield;Vendre : 1 x Bouclier de kite en bronze
-Buy: 8 x Tuna;Acheter: 8 x Thon
-Deposit-744;Dépôt-744
-Withdraw-744;Retrait-744
-Default quantity: 744;Quantité par défaut : 744
 Accept challenge;Accepter le défi
 1 Def Pure;1 Déf pur
-Buy: 10 x Willow longbow;Acheter: 10 x Arc long en saule
-Buy: 10 x Oak longbow;Acheter: 10 x Arc long en chêne
-Sell: 9 x Banana;Vendre : 9 x Banane
-Sell: 162 x Banana;Vendre : 162 x Banane
-Buy: 100 x Willow longbow;Acheter: 100 x Arc long en saule
-Sell: 10 x Bronze scimitar;Vendre : 10 x Cimeterre en bronze
-Deposit-11;Dépôt-11
-Sell: 318 x Cowhide;Vendre : 318 x Peau de vache
-Buy: 200 x Bronze bar;Acheter: 200 x Lingot de bronze
 Select <col=ff9040>Blighted anglerfish</col>;Sélectionnez <col=ff9040>baudroie infectée</col>
-Sell: 1 x Torva full helm (damaged);Vendre : 1 x Casque complet Torva (endommagé)
-Buy: 200 x Coal;Acheter : 200 x Charbon
-Sell: 304 x Steel bar;Vendre : 304 x Barre d'acier
-Withdraw-136;Retrait-136
-Deposit-99999;Dépôt-99999
-Withdraw-99999;Retrait-99999
 Balance-across;Équilibre
-Buy: 250 x Iron ore;Acheter: 250 x Minerai de fer
-Deposit-136;Dépôt-136
-Default quantity: 136;Quantité par défaut : 136
-Sell: 499 x Steel bar;Vendre : 499 x Barre d'acier
-Buy: 1,200 x Coal;Acheter : 1 200 x Charbon
 9;9 
 Fill-1;Remplissage-1
 Fill-5;Remplissage-5
-Buy: 1 x Soft clay;Acheter: 1 x Argile molle
-Buy: 1 x Redberries;Acheter: 1 x Redberries
-Withdraw-125000000;Retrait-125000000
-Deposit-740000;Dépôt-740000
-Withdraw-740000;Retrait-740000
-Default quantity: 740,000;Quantité par défaut : 740 000
 View Magic on the Wiki;Voir Magic sur le Wiki
 Donate-X;Faire un don-X
 Donate-10;Faire un don-10
@@ -5062,57 +3480,31 @@ Donate;Faire un don
 Donate-All;Faire un don
 Travel-Start;Départ du voyage
 Travel-End;Fin du voyage
-Sell: 12 x Oak shortbow (u);Vendre : 12 x Arc court en chêne (u)
 Trade-Builders-Store;Commerce-Constructeurs-Magasin
 Trade-General-Store;Commerce-Général-Magasin
-Withdraw-17;Retrait-17
-Buy: 1 x Hueycoatl hide armour set;Acheter : 1 x ensemble d'armures en peau Hueycoatl
-Withdraw-5250;Retrait-5250
-Deposit-5250;Dépôt-5250
-Default quantity: 5,250;Quantité par défaut : 5 250
 Check rank;Vérifier le classement
 Check Rank;Vérifier le classement
 Set head slot to;Réglez la fente de la tête sur
-Default quantity: 99,999;Quantité par défaut : 99 999
 Set legs slot to;Réglez la fente des pieds sur
 Set torso slot to;Réglez la fente du torse sur
 Set amulet slot to;Réglez l'emplacement de l'amulette sur
 Set boots slot to;Réglez l'emplacement des bottes sur
 Set hands slot to;Réglez l'emplacement des mains sur
 Set cape slot to;Réglez l'emplacement de la cape sur
-Sell: 32 x Air orb;Vendre : 32 x Orbe d'air
-Buy: 400 x Wine of zamorak;Acheter: 400 x Vin de zamorak
 Charter-to Aldarin;Affrètement à Aldarin
 Release all placeholders (10);Libérer tous les espaces réservés (10)
 Last-destination (CLP);Dernière destination (CLP)
-Buy: 2,120 x Air rune;Acheter : 2 120 x Rune Air
 Examine <col=ff981f>Infinity boots;Examinez les <col=ff981f>bottes Infinity
 Select <col=ff981f>Infinity boots;Sélectionnez les <col=ff981f>bottes Infinity
-Withdraw-565;Retrait-565
-Deposit-565;Dépôt-565
-Withdraw-410;Retrait-410
 Take-cutting;Prendre-coupe
 Release-all;Libérer tout
-Sell: 204 x Leather;Vendre : 204 x Cuir
 Chant;Chant
-Buy: 1 x Eclipse moon armour set;Acheter : 1 x ensemble d'armure de lune Eclipse
-Buy: 1 x Rune full helm;Acheter: 1 x Casque complet Rune
-Withdraw-32000;Retrait-32000
-Deposit-32000;Dépôt-32000
-Default quantity: 32,000;Quantité par défaut : 32 000
 Pelt;Peau
 Prepare-fish;Préparer le poisson
-Withdraw-36200;Retrait-36200
-Deposit-36200;Dépôt-36200
-Withdraw-3200;Retrait-3200
-Deposit-3200;Dépôt-3200
 -10%;-10%
 +10%;+10%
-Buy: 100 x Prayer potion(4);Acheter: 100 x Potion de prière(4)
-Buy: 1 x Pot of flour;Acheter: 1 x Pot de farine
 Smash-ice;Briser la glace
 Step-off;Débarquement
-Buy: 1 x Mage's book;Acheter : 1 x Livre du Mage
 Walk-to;À pied
 Press;Presse
 Dismantle kit;Kit de démontage
@@ -5123,39 +3515,22 @@ Open (private);Ouvert (privé)
 Open (normal);Ouvert (normal)
 Travel to<col=ff9040> The Clocktower;Rendez-vous à<col=ff9040> ​​la Tour de l'Horloge
 Travel to<col=ff9040> Tree Gnome Village;Rendez-vous au<col=ff9040> ​​Village des Gnomes des Arbres
-Buy: 1 x Orange dye;Acheter: 1 x Teinture Orange
-Buy: 1 x Goblin mail;Acheter : 1 x courrier gobelin
-Buy: 1 x Twisted trousers (t1);Acheter: 1 x Pantalon Torsadé (t1)
 Push-against;Pousser contre
 Exit-through;Sortie par
 Set shield slot to;Réglez l'emplacement du bouclier sur
 Set weapon slot to;Réglez l'emplacement de l'arme sur
 Release all placeholders (53);Libérer tous les espaces réservés (53)
-Default quantity: 2,147,483,647;Quantité par défaut : 2 147 483 647
-Deposit-2147483647;Dépôt-2147483647
-Withdraw-2147483647;Retrait-2147483647
 Travel to<col=ff9040> Tree Gnome Stronghold;Voyagez jusqu'au<col=ff9040> ​​Bastion des Gnomes des Arbres
 Travel to<col=ff9040> Chaos Druid Tower;Rendez-vous à la<col=ff9040> ​​Tour des Druides du Chaos
 Make <col=ff9040>Sapphire bracelet</col>;Fabriquer un <col=ff9040>Bracelet saphir</col>
 Botín;Botín
-Withdraw-36000;Retrait-36000
-Deposit-36000;Dépôt-36000
-Sell: 1 x Necklace of anguish;Vendre : 1 x Collier d'angoisse
 AKQ;AKQ
 CJQ;CJQ
 DKS;DKS
-Buy: 1 x Snakeskin boots;Acheter: 1 x Bottes en peau de serpent
-Buy: 1 x Rune kiteshield;Acheter: 1 x Bouclier de kit runique
 Teleport to <col=ff8040>Last Man Standing</col>;Téléportation vers le <col=ff8040>Dernier homme debout</col>
 Join <col=ff8040>Last Man Standing</col> channel;Rejoignez la chaîne <col=ff8040>Last Man Standing</col>
 Golden Zamorak Special;Spécial Zamorak doré
-Deposit-7680;Dépôt-7680
-Withdraw-7680;Retrait-7680
-Default quantity: 7,680;Quantité par défaut : 7 680
 Volcanic Whip Mix;Mélange fouet volcanique
-Sell: 3 x Crystal key;Vendre : 3 x Clé de cristal
-Buy: 23 x Loop half of key;Acheter: 23 x Boucle moitié de clé
-Sell: 33 x Crystal key;Vendre : 33 x Clé de cristal
 LatamDark;LatamSombre
 Expel;Expulser
 Resignation;Démission
@@ -5163,8 +3538,6 @@ Wipe title;Effacer le titre
 Emote;Émote
 Sing;Chanter
 Change icon (armaduras);Changer d'icône (armaduras)
-Sell: 1,090 x Steel cannonball;Vendre : 1 090 x Boulet de canon en acier
-Buy: 100 x Blighted vengeance sack;Acheter: 100 x Sac de vengeance Blighted
 Select <col=ff981f>Dust rune;Sélectionnez <col=ff981f>Rune poussière
 Examine <col=ff981f>Dust rune;Examinez la <col=ff981f>rune de poussière
 Select <col=ff981f>Chaos rune;Sélectionnez <col=ff981f>Rune du chaos
@@ -5172,13 +3545,8 @@ Examine <col=ff981f>Chaos rune;Examinez la <col=ff981f>rune du chaos
 Release all placeholders (8);Libérer tous les espaces réservés (8)
 Join <col=ff8040>Mage Training Arena</col> channel;Rejoignez la chaîne <col=ff8040>Mage Training Arena</col>
 Teleport to <col=ff8040>Mage Training Arena</col>;Téléportation vers l'<col=ff8040>arène d'entraînement des mages</col>
-Default quantity: 300,000;Quantité par défaut : 300 000
 Wyrmscraig;Wyrmscraig
 Simple;Simple
-Withdraw-3600;Retrait-3600
-Buy: 1 x Old school bond;Acheter: 1 x Obligations Old School
-Withdraw-70000;Retrait-70000
-Deposit-70000;Dépôt-70000
 <col=00afff>Resume autochat</col>;<col=00afff>Reprendre le chat automatique</col>
 <col=00afff>Pause autochat</col>;<col=00afff>Suspendre le chat automatique</col>
 Look-through;Consultation
@@ -5199,32 +3567,11 @@ Level-up increments of 5;Incréments de niveau supérieur de 5
 Loot key broadcast value;Valeur de diffusion de la clé de butin
 Level-up increments of 10;Incréments de niveau supérieur de 10
 Personal best broadcasts;Meilleures diffusions personnelles
-Buy: 10,000 x Death rune;Acheter : 10 000 x Rune de la mort
-Sell: 1 x Guthix coif;Vendre : 1 x coiffe Guthix
-Buy: 14,546 x Death rune;Acheter : 14 546 x Rune de la mort
-Sell: 6,000 x Blood rune;Vendre : 6 000 x Rune de sang
-Sell: 1 x Chaos rune;Vendre : 1 x Rune du Chaos
-Deposit-240;Dépôt-240
-Withdraw-240;Retrait-240
-Withdraw-121;Retrait-121
-Deposit-121;Dépôt-121
-Sell: 1 x Looting bag note;Vendre : 1 x Note sur le sac de butin
 Distract;Distraire
 Burn-down;Brûlage
-Default quantity: 2,500;Quantité par défaut : 2 500
-Sell: 30 x Iron ore;Vendre : 30 x Minerai de fer
-Withdraw-999;Retrait-999
-Withdraw-1050;Retrait-1050
-Buy: 1 x Bloodbark legs;Acheter: 1 x Pattes d'écorce de sang
-Deposit-999;Dépôt-999
 View <col=ff9040>Gauntlet Map</col>;Afficher la <col=ff9040>Carte du Gauntlet</col>
 Pedal;Pédale
-Buy: 8 x Split log;Acheter: 8 x Bûches fendues
 Échanger avec;Échanger avec
-Withdraw-12500;Retrait-12500
-Deposit-12500;Dépôt-12500
-Deposit-28;Dépôt-28
-Buy: 400 x Aether rune;Acheter: 400 x Rune Éther
 Shape-Air;Forme-Air
 Shape-Water;Forme-Eau
 Shape-Fire;Forme-Feu
@@ -5239,119 +3586,58 @@ Move Fragment Down;Déplacer le fragment vers le bas
 Move Fragment Right;Déplacer le fragment vers la droite
 Shape-Mind;Forme-Esprit
 Move Fragment Up;Déplacer le fragment vers le haut
-Withdraw-25000;Retrait-25000
-Deposit-25000;Dépôt-25000
-Withdraw-719;Retrait-719
-Deposit-719;Dépôt-719
 Charter-to Corsair Cove;Charter à Corsair Cove
-Withdraw-344;Retrait-344
-Deposit-344;Dépôt-344
-Withdraw-977;Retrait-977
-Deposit-977;Dépôt-977
-Default quantity: 977;Quantité par défaut : 977
-Withdraw-175000000;Retrait-175000000
-Default quantity: 175,000,000;Quantité par défaut : 175 000 000
 Restore <col=ff9040>Minimap</col>;Restaurer la <col=ff9040>Mini-carte</col>
-Default quantity: 28;Quantité par défaut : 28
 Last-destination (DIR);Dernière destination (DIR)
 Enter-cloud;Entrez dans le cloud
 Submit;Soumettre
-Deposit-175000000;Dépôt-175000000
-Buy: 1 x Water tiara;Acheter: 1 x Diadème d'eau
-Withdraw-130;Retrait-130
-Deposit-130;Dépôt-130
 Examine <col=ff981f>Mist rune;Examinez la <col=ff981f>rune de brume
 Select <col=ff981f>Mist rune;Sélectionnez <col=ff981f>Rune de brume
-Sell: 100 x Cowhide;Vendre : 100 x peau de vache
-Sell: 1 x Bronze dagger;Vendre : 1 x Dague en bronze
-Buy: 1 x Rune pickaxe;Acheter: 1 x Pioche Rune
-Default quantity: 2,121,212,121;Quantité par défaut : 2 121 212 121
-Withdraw-2121212121;Retrait-2121212121
-Deposit-2121212121;Dépôt-2121212121
-Sell: 41 x Big bones;Vendre : 41 x Gros os
 Go-up;Monter
-Buy: 1 x Swampbark armour set;Acheter : 1 x Ensemble d'armure d'écorce des marais
-Withdraw-106500;Retrait-106500
-Deposit-106500;Dépôt-106500
-Default quantity: 106,500;Quantité par défaut : 106 500
-Buy: 100 x Anchovy pizza;Acheter: 100 x Pizza aux anchois
-Buy: 1 x Snakeskin bandana;Acheter : 1 x Bandana peau de serpent
-Buy: 100 x Blighted karambwan;Acheter: 100 x Karambwan fléau
-Buy: 1 x Bandos tassets;Acheter: 1 x Tassettes Bandos
-Buy: 1 x Red dragonhide set;Acheter : 1 x Ensemble en peau de dragon rouge
-Buy: 1 x Zombie helmet;Acheter : 1 x casque Zombie
 Swim-to;Nager jusqu'à
-Buy: 1 x Teal boots;Acheter: 1 x Bottes bleu sarcelle
-Withdraw-8600;Retrait-8600
-Deposit-8600;Dépôt-8600
-Withdraw-160;Retrait-160
-Deposit-160;Dépôt-160
-Sell: 110 x Steel nails;Vendre : 110 x Clous en acier
 The Summer Shore;La rive d'été
-Deposit-1750;Dépôt-1750
-Withdraw-1750;Retrait-1750
 Quick-open;Ouverture rapide
-Default quantity: 3,200;Quantité par défaut : 3 200
 View Slayer on the Wiki;Voir Slayer sur le Wiki
 Wyrmscraig Cavern;Caverne de Wyrmscraig
-Withdraw-5500;Retrait-5500
-Deposit-6500;Dépôt-6500
-Withdraw-6500;Retrait-6500
-Deposit-5500;Dépôt-5500
-Withdraw-680000;Retrait-680000
 Scorch;Brûler
 Flare;Éclater
 Ring-last-destination (BLP);Sonner la dernière destination (BLP)
 Zerstören;Zerstoren
 Take-one;Prenez-en un
-Default quantity: 15,000;Quantité par défaut : 15 000
-Withdraw-1899;Retrait-1899
-Deposit-1899;Dépôt-1899
-Buy: 5,000 x Air rune;Acheter : 5 000 x Rune Air
 ÐžÑ‚Ð¼ÐµÐ½Ð°;ÐžÑ‚Ð¼ÐµÐ½Ð°
 Ð˜Ð´Ð¸ Ñ�ÑŽÐ´Ð°;Ð˜Ð´Ð¸ Ñ�ÑŽÐ´Ð°
-Withdraw-45000;Retrait-45000
-Deposit-45000;Dépôt-45000
-Default quantity: 45,000;Quantité par défaut : 45 000
-Deposit-942;Dépôt-942
-Withdraw-942;Retrait-942
-Buy: 100 x Iron arrow;Acheter: 100 x Flèche en fer
 Release all placeholders (20);Libérer tous les espaces réservés (20)
-Withdraw-296;Retrait-296
-Deposit-296;Dépôt-296
-Default quantity: 296;Quantité par défaut : 296
-Buy: 30 x Blighted vengeance sack;Acheter: 30 x Sac de vengeance Blighted
-Buy: 1 x Ring of recoil;Acheter: 1 x Anneau de recul
-Buy: 1 x Black d'hide chaps;Acheter: 1 x Mini-chaps Black d'hide
-Default quantity: 12,000;Quantité par défaut : 12 000
-Buy: 10,000 x Nature rune;Acheter : 10 000 x Rune Nature
 Cross-bridge;Pont transversal
-Withdraw-340;Retrait-340
-Deposit-340;Dépôt-340
-Default quantity: 340;Quantité par défaut : 340
 Store-1,000;Magasin-1 000
 Release all placeholders (7);Libérer tous les espaces réservés (7)
 Remove <col=ff981f>Dragonstone bolts (e);Retirez les <col=ff981f>boulons Dragonstone (e).
-Buy: 1 x Botanical pie;Acheter: 1 x Tarte Botanique
 Select-trial;Essai sélectif
 Deliver-rum;Livrer du rhum
 Minimise;Minimiser
 Exit trial;Quitter l'essai
 Quick-reset trial;Essai de réinitialisation rapide
 Reset trial;Réinitialiser l'essai
-Buy: 1 x Strength amulet (t);Acheter: 1 x Amulette de Force (t)
-Deposit-1009;Dépôt-1009
-Withdraw-1009;Retrait-1009
-Sell: 27 x Sapphire ring;Vendre : 27 x Bague saphir
 Release all placeholders (2);Libérer tous les espaces réservés (2)
-Default quantity: 1,009;Quantité par défaut : 1 009
-Sell: 8 x Ring of wealth;Vendre : 8 x Anneau de richesse
 Make <col=ff9040>Diamond amulet (u)</col>;Fabriquer une <col=ff9040>Amulette de diamant (u)</col>
 Make <col=ff9040>Diamond ring</col>;Fabriquer une <col=ff9040>Bague diamant</col>
-Buy: 1 x Dwellberries;Acheter: 1 x Baies
 Small net;Petit filet
 Make Party;Faire la fête
 Friends/Clan Only;Amis/Clan uniquement
 View Party:;Voir la fête :
 Flip;Retourner
 Begin;Commencer
+re:^Withdraw-([\d,]+)$;Retirer-$1
+re:^Deposit-([\d,]+)$;Déposer-$1
+re:^Withdraw ([\d,]+)$;Retirer $1
+re:^Deposit ([\d,]+)$;Déposer $1
+re:^Buy: ([\d,]+) x (.+)$;Acheter: $1 x $2
+re:^Sell: ([\d,]+) x (.+)$;Vendre: $1 x $2
+re:^Buy ([\d,]+)$;Acheter $1
+re:^Sell ([\d,]+)$;Vendre $1
+re:^Buy-([\d,]+)$;Acheter-$1
+re:^Sell-([\d,]+)$;Vendre-$1
+re:^Default quantity: ([\d,]+)$;Quantité par défaut: $1
+re:^Add friend (.+)$;Ajouter un ami $1
+re:^Add ignore (.+)$;Ajouter ignorer $1
+re:^Remove-([\d,]+)$;Retirer-$1
+re:^Take-([\d,]+)$;Prendre-$1
