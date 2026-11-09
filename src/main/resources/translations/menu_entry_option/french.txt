@@ -5355,3 +5355,9 @@ Friends/Clan Only;Amis/Clan uniquement
 View Party:;Voir la fête :
 Flip;Retourner
 Begin;Commencer
+Withdraw-454;Retirar-454
+Deposit-454;Depositar-454
+Buy: 1 x Earth talisman;Comprar: 1 x Earth talisman
+Buy: 1 x Iron ore;Comprar: 1 x Iron ore
+Buy: 100 x Oak logs;Comprar: 100 x Oak logs
+Buy: 4 x Coal;Comprar: 4 x Coal
