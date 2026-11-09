@@ -192,3 +192,39 @@ Warden't you believe it;Warden, tror du inte det?
 <col=000000>Browse Sarah's farm shop.;<col=000000>Bläddra i Sarahs gårdsbutik.
 <col=000000>Fill a bucket from the pump north of Falador west bank.;<col=000000>Fyll en hink från pumpen norr om västra banken i Falador.
 <col=000000>Make a mind tiara.;<col=000000>Tillverka en mind tiara.
+<col=000000>the Falador Castle courtyard.;<col=000000>gården i Falador Castle.
+You are awarded:;Du får:
+<col=000000>If I ever lose my Falador shield I can speak to Sir Rebral in;<col=000000>Om jag någonsin förlorar mitt Falador shield kan jag prata med Sir Rebral i
+<col=000000>If I ever lose my Wilderness sword I can speak to<br>the;<col=000000>Om jag någonsin förlorar mitt Wilderness sword kan jag prata med<br>
+<col=000000>Lesser Fanatic by the Wilderness ditch in<br>Edgeville.;<col=000000>Lesser Fanatic vid Wilderness ditch i<br>Edgeville.
+<col=000000>Gnome Child north at the Gnome Stronghold.;<col=000000>Gnome Child norr om Gnome Stronghold.
+<str>Kill the Thermonuclear Smoke devil.;<str>Döda Thermonuclear Smoke devil.
+<col=000000>Varrock square.;<col=000000>Varrock torg.
+<str>Bake a summer pie in the Cooking Guild.<col=ffffff>(<col=000080><str>95 Cooking</str><col=ffffff>);<str>Baka en summer pie i Cooking Guild.<col=ffffff>(<col=000080><str>95 Cooking</str><col=ffffff>)
+<str>Browse Thessalia's store.;<str>Bläddra i Thessalias butik.
+<str>Buy a newspaper.;<str>Köp en newspaper.
+<str>Catch some trout in the River Lum at Barbarian Village.<col=ffffff>(<col=000080><str>20 Fishing</str><col=ffffff>);<str>Fånga några trout i River Lum vid Barbarian Village.<col=ffffff>(<col=000080><str>20 Fishing</str><col=ffffff>)
+<str>Chop down a dying tree in the Lumber Yard.;<str>Hugg ner ett dying tree i Lumber Yard.
+<str>Complete a lap of the Varrock Agility course.<col=ffffff>(<col=000080><str>30 Agility</str><col=ffffff>);<str>Fullfölj ett varv av Varrock Agility course.<col=ffffff>(<col=000080><str>30 Agility</str><col=ffffff>)
+<str>Craft some Earth runes from Essence.<col=ffffff>(<col=000080><str>9 Runecraft</str><col=ffffff>);<str>Tillverka några Earth runes från Essence.<col=ffffff>(<col=000080><str>9 Runecraft</str><col=ffffff>)
+<str>Enter the Champions' Guild.<col=ffffff>(<col=000080><str>32 Quest points</str><col=ffffff>);<str>Gå in i Champions' Guild.<col=ffffff>(<col=000080><str>32 Quest points</str><col=ffffff>)
+<str>Enter the second level of the Stronghold of<br>Security.;<str>Gå in på andra nivån av Stronghold of<br>Security.
+<str>Get a Slayer task from Vannaka.<col=ffffff>(<col=000080><str>40 Combat</str><col=ffffff>);<str>Få ett Slayer-uppdrag från Vannaka.<col=ffffff>(<col=000080><str>40 Combat</str><col=ffffff>)
+<str>Give a dog a bone!;<str>Ge en hund en bone!
+<str>Jump over the fence south of Varrock.<col=ffffff>(<col=000080><str>13 Agility</str><col=ffffff>);<str>Hoppa över staketet söder om Varrock.<col=ffffff>(<col=000080><str>13 Agility</str><col=ffffff>)
+<str>Make 20 Mahogany Planks in one go.;<str>Tillverka 20 Mahogany Planks på en gång.
+<str>Make a normal plank at the Sawmill.;<str>Tillverka en normal plank vid Sawmill.
+<str>Mine some Iron in the south east mining patch near;<str>Bryt lite Iron i den sydöstra gruvfläcken nära
+<str>Perform the 4 emotes from the Stronghold of<br>Security.;<str>Utför de 4 emotes från Stronghold of<br>Security.
+<str>Pray at the altar in Varrock palace with Smite active.<col=ffffff>(<col=000080><str>52 Prayer</str><col=ffffff>);<str>Be vid altaret i palatset i Varrock med Smite aktiv.<col=ffffff>(<col=000080><str>52 Prayer</str><col=ffffff>)
+<str>Select a colour for your kitten.;<str>Välj en färg för din kattunge.
+<str>Steal from the Tea stall in Varrock.<col=ffffff>(<col=000080><str>5 Thieving</str><col=ffffff>);<str>Stjäl från Tea stall i Varrock.<col=ffffff>(<col=000080><str>5 Thieving</str><col=ffffff>)
+<str>Teleport to Barbarian Village with a skull<br>sceptre.;<str>Teleporter till Barbarian Village med en skull<br>sceptre.
+<str>Teleport to Paddewwa.<col=ffffff>(<col=000080><str>54 Magic</str>, <col=000080><str>Desert Treasure I</str><col=ffffff>);<str>Teleporter till Paddewwa.<col=ffffff>(<col=000080><str>54 Magic</str>, <col=000080><str>Desert Treasure I</str><col=ffffff>)
+<str>Teleport to the digsite using a Digsite pendant.<col=ffffff>(<col=000080><str>The Dig Site</str><col=ffffff>);<str>Teleporter till Digsite med en Digsite pendant.<col=ffffff>(<col=000080><str>The Dig Site</str><col=ffffff>)
+<str>Trade furs with the Fancy Dress Seller for a<br>spottier cape;<str>Handla furs med Fancy Dress Seller för en<br>spottier cape
+<str>Use the balloon to travel from Varrock.;<str>Använd ballongen för att resa från Varrock.
+<str>Use the spirit tree north of Varrock.<col=ffffff>(<col=000080><str>Tree Gnome Village</str><col=ffffff>);<str>Använd spirit tree norr om Varrock.<col=ffffff>(<col=000080><str>Tree Gnome Village</str><col=ffffff>)
+<str>and equip it.<col=ffffff>(<col=000080><str>66 Hunter</str><col=ffffff>);<str>och utrusta den.<col=ffffff>(<col=000080><str>66 Hunter</str><col=ffffff>)
+<col=000000>If I ever lose my Varrock armour I can speak to<br>Toby in;<col=000000>Om jag någonsin förlorar min Varrock armour kan jag prata med<br>Toby i
+<col=000000>If I ever lose my Western banner I can speak to the Elder;<col=000000>Om jag någonsin förlorar min Western banner kan jag prata med Elder
