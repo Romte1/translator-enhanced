@@ -3645,6 +3645,6 @@ Enable-autotele;Abilita-autotele
 Challenges;Sfide
 Information;Informazioni
 Reclaim-items;Riprendi-oggetti
-Align-net;Allinea-rete
+Align-net;Allinea-net
 Create-last;Crea-ultimo
 Remove-plank;Rimuovi-plank
