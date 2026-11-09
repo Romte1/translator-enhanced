@@ -3641,3 +3641,10 @@ re:^Add friend (.+)$;Vriend toevoegen $1
 re:^Add ignore (.+)$;Voeg negeren toe $1
 re:^Remove-([\d,]+)$;Verwijderen-$1
 re:^Take-([\d,]+)$;Nemen-$1
+Enable-autotele;Autotele inschakelen
+Challenges;Uitdagingen
+Information;Informatie
+Reclaim-items;Items terugvorderen
+Align-net;Net uitlijnen
+Create-last;Laatste maken
+Remove-plank;Plank verwijderen
