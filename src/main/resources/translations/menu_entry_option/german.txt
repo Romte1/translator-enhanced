@@ -3644,6 +3644,6 @@ re:^Take-([\d,]+)$;Nehmen-$1
 Enable-autotele;Aktivieren-Autotele
 Challenges;Herausforderungen
 Reclaim-items;Zurückfordern-Gegenstände
-Align-net;Ausrichten-Netz
+Align-net;Ausrichten-net
 Create-last;Erstellen-letztes
-Remove-plank;Entfernen-Brett
+Remove-plank;Entfernen-plank
