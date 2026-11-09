@@ -5090,13 +5090,13 @@ Enable-autotele;Activar-autotele
 Challenges;Desafíos
 Information;Información
 Reclaim-items;Reclamar-artículos
-Align-net;Alinear-red
+Align-net;Alinear-net
 Buy: 1 x Earth talisman;Comprar: 1 x Earth talisman
 Buy: 1 x Iron ore;Comprar: 1 x Iron ore
 Buy: 100 x Oak logs;Comprar: 100 x Oak logs
 Buy: 4 x Coal;Comprar: 4 x Coal
 Create-last;Crear-último
-Remove-plank;Quitar-tabla
+Remove-plank;Quitar-plank
 Sell: 100 x Death rune;Vender: 100 x Death rune
 Sell: 16 x Iron ore;Vender: 16 x Iron ore
 Sell: 2 x Grimy ranarr weed;Vender: 2 x Grimy ranarr weed
