@@ -71,9 +71,18 @@ class TranslatorAPI
 	Map<String, String> downloadCurated(TranslationType type, TranslatorConfig.Language lang,
 		Filepath cache) throws IOException
 	{
-		JsonObject manifest = gson.fromJson(new String(
-			downloadBytes(CURATED_MANIFEST_URL, MAX_MANIFEST_BYTES), StandardCharsets.UTF_8),
-			JsonObject.class);
+		JsonObject manifest;
+		try
+		{
+			manifest = gson.fromJson(new String(
+				downloadBytes(CURATED_MANIFEST_URL, MAX_MANIFEST_BYTES), StandardCharsets.UTF_8),
+				JsonObject.class);
+		}
+		catch (RuntimeException e)
+		{
+			throw new IOException("invalid translation manifest", e);
+		}
+
 		if (manifest == null || manifest.get("schemaVersion") == null
 			|| manifest.get("schemaVersion").getAsInt() != 1)
 		{
