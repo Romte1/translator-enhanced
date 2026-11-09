@@ -3646,4 +3646,4 @@ Challenges;Utmaningar
 Reclaim-items;Återta-föremål
 Align-net;Justera-net
 Create-last;Skapa-sista
-Remove-plank;Ta-bort-planka
+Remove-plank;Ta-bort-plank
