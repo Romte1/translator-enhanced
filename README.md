@@ -99,7 +99,7 @@ everybody gets it.
 The reviewed menu and interface dictionaries are maintained in
 [translator-enhanced-translations](https://github.com/Romte1/translator-enhanced-translations).
 The plugin downloads them, validates the SHA-256 from the repository manifest, caches the
-last valid copy and uses the bundled interface dictionary as a fallback.
+last valid copy and uses the bundled dictionaries as offline fallbacks.
 
 ## Privacy
 

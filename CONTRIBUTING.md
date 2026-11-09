@@ -35,8 +35,8 @@ once published, so the client thread never sees a half-loaded map, and the hot p
 The reviewed menu and interface dictionaries live in a separate repository:
 [translator-enhanced-translations](https://github.com/Romte1/translator-enhanced-translations).
 Its manifest pins every file with SHA-256. The plugin downloads the selected dictionaries,
-validates them, caches the last valid copy and keeps the bundled interface dictionary as an
-offline fallback.
+validates them, caches the last valid copy and keeps bundled offline fallbacks for the
+interface and common menu actions.
 
 Translation workers, rules, validation and GitHub Actions live in that repository. The
 plugin repository only contains the client code and the small interface fallback.
