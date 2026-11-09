@@ -3641,3 +3641,10 @@ re:^Add friend (.+)$;Lisää ystävä $1
 re:^Add ignore (.+)$;Lisää ohitus $1
 re:^Remove-([\d,]+)$;Poista-$1
 re:^Take-([\d,]+)$;Ota-$1
+Enable-autotele;Ota käyttöön-autotele
+Challenges;Haasteet
+Information;Tiedot
+Reclaim-items;Palauta-items
+Align-net;Tasaa-net
+Create-last;Luo-last
+Remove-plank;Poista-plank
