@@ -225,3 +225,40 @@ There is no escape!;Er is geen ontsnapping!
 Three Times the Thrashing;Drie keer de afranseling
 Through Fire and Flames;Door vuur en vlammen
 Toppling the Diarchy;De diarchie omverwerpen
+<col=000000>the Falador Castle courtyard.;<col=000000>de Falador Castle binnenplaats.
+You are awarded:;Je krijgt:
+<col=000000>If I ever lose my Falador shield I can speak to Sir Rebral in;<col=000000>Als ik ooit mijn Falador shield verlies, kan ik met Sir Rebral praten in
+<col=000000>If I ever lose my Wilderness sword I can speak to<br>the;<col=000000>Als ik ooit mijn Wilderness sword verlies, kan ik met<br>de
+<col=000000>Lesser Fanatic by the Wilderness ditch in<br>Edgeville.;<col=000000>Lesser Fanatic bij de Wilderness greppel in<br>Edgeville.
+<col=000000>Gnome Child north at the Gnome Stronghold.;<col=000000>Gnome Child noord bij de Gnome Stronghold.
+<str>Kill the Thermonuclear Smoke devil.;<str>Vermoord de Thermonuclear Smoke devil.
+<col=000000>Varrock square.;<col=000000>Varrock plein.
+<str>Bake a summer pie in the Cooking Guild.<col=ffffff>(<col=000080><str>95 Cooking</str><col=ffffff>);<str>Bak een zomentaart in de Cooking Guild.<col=ffffff>(<col=000080><str>95 Cooking</str><col=ffffff>)
+<str>Browse Thessalia's store.;<str>Blader door Thessalia's store.
+<str>Buy a newspaper.;<str>Koop een newspaper.
+<str>Catch some trout in the River Lum at Barbarian Village.<col=ffffff>(<col=000080><str>20 Fishing</str><col=ffffff>);<str>Vang wat trout in de River Lum bij Barbarian Village.<col=ffffff>(<col=000080><str>20 Fishing</str><col=ffffff>)
+<str>Chop down a dying tree in the Lumber Yard.;<str>Hak een stervende boom in de Lumber Yard.
+<str>Complete a lap of the Varrock Agility course.<col=ffffff>(<col=000080><str>30 Agility</str><col=ffffff>);<str>Voltooi een ronde van de Varrock Agility-cursus.<col=ffffff>(<col=000080><str>30 Agility</str><col=ffffff>)
+<str>Craft some Earth runes from Essence.<col=ffffff>(<col=000080><str>9 Runecraft</str><col=ffffff>);<str>Maak wat Earth runes van Essence.<col=ffffff>(<col=000080><str>9 Runecraft</str><col=ffffff>)
+<str>Enter the Champions' Guild.<col=ffffff>(<col=000080><str>32 Quest points</str><col=ffffff>);<str>Betreed de Champions' Guild.<col=ffffff>(<col=000080><str>32 Quest points</str><col=ffffff>)
+<str>Enter the second level of the Stronghold of<br>Security.;<str>Betreed het tweede niveau van de Stronghold of<br>Security.
+<str>Get a Slayer task from Vannaka.<col=ffffff>(<col=000080><str>40 Combat</str><col=ffffff>);<str>Krijg een Slayer taak van Vannaka.<col=ffffff>(<col=000080><str>40 Combat</str><col=ffffff>)
+<str>Give a dog a bone!;<str>Geef een hond een bot!
+<str>Jump over the fence south of Varrock.<col=ffffff>(<col=000080><str>13 Agility</str><col=ffffff>);<str>Spring over het hek ten zuiden van Varrock.<col=ffffff>(<col=000080><str>13 Agility</str><col=ffffff>)
+<str>Make 20 Mahogany Planks in one go.;<str>Maak 20 Mahogany Planks in één keer.
+<str>Make a normal plank at the Sawmill.;<str>Maak een normale plank bij de Sawmill.
+<str>Mine some Iron in the south east mining patch near;<str>Mijn wat Iron in het zuidoostelijke mijnveld bij
+<str>Perform the 4 emotes from the Stronghold of<br>Security.;<str>Voer de 4 emotes van Stronghold of<br>Security uit.
+<str>Pray at the altar in Varrock palace with Smite active.<col=ffffff>(<col=000080><str>52 Prayer</str><col=ffffff>);<str>Bid bij het altaar in Varrock palace met Smite actief.<col=ffffff>(<col=000080><str>52 Prayer</str><col=ffffff>)
+<str>Select a colour for your kitten.;<str>Selecteer een kleur voor je kitten.
+<str>Steal from the Tea stall in Varrock.<col=ffffff>(<col=000080><str>5 Thieving</str><col=ffffff>);<str>Steel van de Tea stall in Varrock.<col=ffffff>(<col=000080><str>5 Thieving</str><col=ffffff>)
+<str>Teleport to Barbarian Village with a skull<br>sceptre.;<str>Teleporteer naar Barbarian Village met een skull<br>sceptre.
+<str>Teleport to Paddewwa.<col=ffffff>(<col=000080><str>54 Magic</str>, <col=000080><str>Desert Treasure I</str><col=ffffff>);<str>Teleporteer naar Paddewwa.<col=ffffff>(<col=000080><str>54 Magic</str>, <col=000080><str>Desert Treasure I</str><col=ffffff>)
+<str>Teleport to the digsite using a Digsite pendant.<col=ffffff>(<col=000080><str>The Dig Site</str><col=ffffff>);<str>Teleporteer naar de digsite met een Digsite pendant.<col=ffffff>(<col=000080><str>The Dig Site</str><col=ffffff>)
+<str>Trade furs with the Fancy Dress Seller for a<br>spottier cape;<str>Ruil vachten met de Fancy Dress Seller voor een<br>spottier cape
+<str>Use the balloon to travel from Varrock.;<str>Gebruik de ballon om te reizen vanuit Varrock.
+<str>Use the spirit tree north of Varrock.<col=ffffff>(<col=000080><str>Tree Gnome Village</str><col=ffffff>);<str>Gebruik de spirit tree ten noorden van Varrock.<col=ffffff>(<col=000080><str>Tree Gnome Village</str><col=ffffff>)
+<str>and equip it.<col=ffffff>(<col=000080><str>66 Hunter</str><col=ffffff>);<str>en rust het uit.<col=ffffff>(<col=000080><str>66 Hunter</str><col=ffffff>)
+<str>potion.;<str>drank.
+<col=000000>If I ever lose my Varrock armour I can speak to<br>Toby in;<col=000000>Als ik ooit mijn Varrock armour verlies, kan ik met<br>Toby praten in
+<col=000000>If I ever lose my Western banner I can speak to the Elder;<col=000000>Als ik ooit mijn Western banner verlies, kan ik met de Elder praten
