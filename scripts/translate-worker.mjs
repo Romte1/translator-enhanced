@@ -341,7 +341,7 @@ function buildSystemPrompt(language, rules, examples, menu) {
 			examples.map(([source, target]) => `${source}\n=> ${target}`).join("\n\n");
 
 	const keep = menu
-		? "Translate every action as a Spanish infinitive; only leave item, NPC, place, skill and spell names unchanged."
+		? "Translate every action using the action form of the target language; only leave item, NPC, place, skill and spell names unchanged."
 		: "Translate every input: only return it unchanged when it is a proper name.";
 
 	const ending = menu
