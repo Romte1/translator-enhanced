@@ -5355,3 +5355,20 @@ Friends/Clan Only;Solo amici/clan
 View Party:;Visualizza festa:
 Flip;Capovolgi
 Begin;Inizio
+Withdraw-454;Prelevare-454
+Deposit-454;Depositare-454
+Default quantity: 454;Quantità predefinita: 454
+Enable-autotele;Abilita-autotele
+Challenges;Sfide
+Information;Informazioni
+Reclaim-items;Riprendi-oggetti
+Align-net;Allinea-rete
+Buy: 1 x Earth talisman;Compra: 1 x Earth talisman
+Buy: 1 x Iron ore;Compra: 1 x Iron ore
+Buy: 100 x Oak logs;Compra: 100 x Oak logs
+Buy: 4 x Coal;Compra: 4 x Coal
+Create-last;Crea-ultimo
+Remove-plank;Rimuovi-assato
+Sell: 100 x Death rune;Vendi: 100 x Death rune
+Sell: 16 x Iron ore;Vendi: 16 x Iron ore
+Sell: 2 x Grimy ranarr weed;Vendi: 2 x Grimy ranarr weed
