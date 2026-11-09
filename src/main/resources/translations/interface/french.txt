@@ -289,3 +289,40 @@ Description: <col=ffffff>Kill an Aberrant Spectre.</col>;Description : <col=fff
 <str>security to protect my account.;<str>sécurité pour protéger mon compte.
 <str>Brother Brace taught me about the Prayer skill. It can provide;<str>Brother Brace m'a parlé de la compétence Prayer. Elle peut offrir
 <str>a number of benefits to my regular activities, but costs;<str>un certain nombre d'avantages à mes activités habituelles, mais coûte
+<col=000000>the Falador Castle courtyard.;<col=000000>la cour du Falador Castle.
+You are awarded:;Vous recevez :
+<col=000000>If I ever lose my Falador shield I can speak to Sir Rebral in;<col=000000>Si je perds jamais mon Falador shield je peux parler à Sir Rebral à
+<col=000000>If I ever lose my Wilderness sword I can speak to<br>the;<col=000000>Si je perds jamais mon Wilderness sword je peux parler à<br>le
+<col=000000>Lesser Fanatic by the Wilderness ditch in<br>Edgeville.;<col=000000>Lesser Fanatic près du fossé Wilderness à<br>Edgeville.
+<str><col=ffffff>(<col=000080><str>50 Smithing</str>, <col=000080><str>Started Between a Rock...</str><col=ffffff>);<str><col=ffffff>(<col=000080><str>50 Smithing</str>, <col=000080><str>Commencé entre un rocher...</str><col=ffffff>)
+<col=000000>Gnome Child north at the Gnome Stronghold.;<col=000000>Gnome Child au nord du Gnome Stronghold.
+<str>Kill the Thermonuclear Smoke devil.;<str>Tuez le Thermonuclear Smoke devil.
+<col=000000>Varrock square.;<col=000000>Varrock place.
+<str>Bake a summer pie in the Cooking Guild.<col=ffffff>(<col=000080><str>95 Cooking</str><col=ffffff>);<str>Cuisez une summer pie dans le Cooking Guild.<col=ffffff>(<col=000080><str>95 Cooking</str><col=ffffff>)
+<str>Browse Thessalia's store.;<str>Parcourez le magasin de Thessalia.
+<str>Buy a newspaper.;<str>Achetez un newspaper.
+<str>Catch some trout in the River Lum at Barbarian Village.<col=ffffff>(<col=000080><str>20 Fishing</str><col=ffffff>);<str>Attrapez du trout dans la River Lum à Barbarian Village.<col=ffffff>(<col=000080><str>20 Fishing</str><col=ffffff>)
+<str>Chop down a dying tree in the Lumber Yard.;<str>Abattez un dying tree dans le Lumber Yard.
+<str>Complete a lap of the Varrock Agility course.<col=ffffff>(<col=000080><str>30 Agility</str><col=ffffff>);<str>Complétez un tour du Varrock Agility course.<col=ffffff>(<col=000080><str>30 Agility</str><col=ffffff>)
+<str>Craft some Earth runes from Essence.<col=ffffff>(<col=000080><str>9 Runecraft</str><col=ffffff>);<str>Fabriquez des Earth runes à partir d'Essence.<col=ffffff>(<col=000080><str>9 Runecraft</str><col=ffffff>)
+<str>Enter the Champions' Guild.<col=ffffff>(<col=000080><str>32 Quest points</str><col=ffffff>);<str>Entrez dans le Champions' Guild.<col=ffffff>(<col=000080><str>32 Quest points</str><col=ffffff>)
+<str>Enter the second level of the Stronghold of<br>Security.;<str>Entrez au deuxième niveau du Stronghold of<br>Security.
+<str>Get a Slayer task from Vannaka.<col=ffffff>(<col=000080><str>40 Combat</str><col=ffffff>);<str>Obtenez une tâche Slayer de Vannaka.<col=ffffff>(<col=000080><str>40 Combat</str><col=ffffff>)
+<str>Give a dog a bone!;<str>Donnez un os à un chien !
+<str>Jump over the fence south of Varrock.<col=ffffff>(<col=000080><str>13 Agility</str><col=ffffff>);<str>Sautez par‑dessus la clôture au sud de Varrock.<col=ffffff>(<col=000080><str>13 Agility</str><col=ffffff>)
+<str>Make 20 Mahogany Planks in one go.;<str>Fabriquez 20 Mahogany Planks d’un coup.
+<str>Make a normal plank at the Sawmill.;<str>Fabriquez une planche normale au Sawmill.
+<str>Mine some Iron in the south east mining patch near;<str>Exploitez du Iron dans le patch minier sud‑est près de
+<str>Perform the 4 emotes from the Stronghold of<br>Security.;<str>Effectuez les 4 émotes du Stronghold of<br>Security.
+<str>Pray at the altar in Varrock palace with Smite active.<col=ffffff>(<col=000080><str>52 Prayer</str><col=ffffff>);<str>Priez à l’autel du palais de Varrock avec Smite actif.<col=ffffff>(<col=000080><str>52 Prayer</str><col=ffffff>)
+<str>Select a colour for your kitten.;<str>Sélectionnez une couleur pour votre chaton.
+<str>Steal from the Tea stall in Varrock.<col=ffffff>(<col=000080><str>5 Thieving</str><col=ffffff>);<str>Volez au stand de Tea à Varrock.<col=ffffff>(<col=000080><str>5 Thieving</str><col=ffffff>)
+<str>Teleport to Barbarian Village with a skull<br>sceptre.;<str>Téléportez‑vous au Barbarian Village avec un skull<br>sceptre.
+<str>Teleport to Paddewwa.<col=ffffff>(<col=000080><str>54 Magic</str>, <col=000080><str>Desert Treasure I</str><col=ffffff>);<str>Téléportez‑vous à Paddewwa.<col=ffffff>(<col=000080><str>54 Magic</str>, <col=000080><str>Desert Treasure I</str><col=ffffff>)
+<str>Teleport to the digsite using a Digsite pendant.<col=ffffff>(<col=000080><str>The Dig Site</str><col=ffffff>);<str>Téléportez‑vous au Dig Site en utilisant un Digsite pendant.<col=ffffff>(<col=000080><str>The Dig Site</str><col=ffffff>)
+<str>Trade furs with the Fancy Dress Seller for a<br>spottier cape;<str>Échangez des fourrures avec le Fancy Dress Seller contre une<br>cape plus tachetée
+<str>Use the balloon to travel from Varrock.;<str>Utilisez le ballon pour voyager depuis Varrock.
+<str>Use the spirit tree north of Varrock.<col=ffffff>(<col=000080><str>Tree Gnome Village</str><col=ffffff>);<str>Utilisez l’arbre spirituel au nord de Varrock.<col=ffffff>(<col=000080><str>Tree Gnome Village</str><col=ffffff>)
+<str>and equip it.<col=ffffff>(<col=000080><str>66 Hunter</str><col=ffffff>);<str>et équipez‑le.<col=ffffff>(<col=000080><str>66 Hunter</str><col=ffffff>)
+<col=000000>If I ever lose my Varrock armour I can speak to<br>Toby in;<col=000000>Si je perds jamais mon Varrock armour je peux parler à<br>Toby in
+<col=000000>If I ever lose my Western banner I can speak to the Elder;<col=000000>Si je perds jamais mon Western banner je peux parler à l’Elder
