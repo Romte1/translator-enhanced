@@ -5355,3 +5355,19 @@ Friends/Clan Only;Nur Freunde/Clan
 View Party:;Party ansehen:
 Flip;Umdrehen
 Begin;Beginnen
+Withdraw-454;Abheben-454
+Deposit-454;Einzahlen-454
+Enable-autotele;Autotele aktivieren
+Challenges;Herausforderungen
+Information;Informationen
+Reclaim-items;Gegenstände zurückfordern
+Align-net;Netz ausrichten
+Buy: 1 x Earth talisman;Kaufen: 1 x Earth talisman
+Buy: 1 x Iron ore;Kaufen: 1 x Iron ore
+Buy: 100 x Oak logs;Kaufen: 100 x Oak logs
+Buy: 4 x Coal;Kaufen: 4 x Coal
+Create-last;Erstelle Letztes
+Remove-plank;Planke entfernen
+Sell: 100 x Death rune;Verkaufen: 100 x Death rune
+Sell: 16 x Iron ore;Verkaufen: 16 x Iron ore
+Sell: 2 x Grimy ranarr weed;Verkaufen: 2 x Grimy ranarr weed
