@@ -118,11 +118,6 @@ Bug reports, code and translation corrections are welcome. See
 [CONTRIBUTING.md](CONTRIBUTING.md) for the development setup, the translation rules and how
 the data pipeline works.
 
-Architecture, environment, testing and operational rules are mandatory and documented in
-[AGENTS.md](AGENTS.md) and [docs/](docs/). The project is a modular monolith; production and
-development environments are isolated, and the collection API has local Playwright E2E
-coverage.
-
 ## Credits
 
 * [iolave](https://github.com/iolave) for the original Translator plugin, the translation

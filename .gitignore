@@ -9,8 +9,3 @@ nb-configuration.xml
 nbproject/
 .DS_Store
 .env
-server/node_modules/
-server/test-results/
-server/playwright-report/
-server/.e2e-data/
-server/.local-data/

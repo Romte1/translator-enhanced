@@ -56,10 +56,6 @@ const server = createServer(async (req, res) => {
 			return send(res, 200, { ok: true, texts: texts.size, translated: translated.size });
 		}
 
-		if (req.method === "GET" && url.pathname === "/metrics") {
-			return sendText(res, 200, metrics());
-		}
-
 		if (req.method === "POST" && url.pathname === "/api/v1/data-collection") {
 			if (!allow(req)) {
 				return send(res, 429, { error: "too many requests" });
@@ -238,30 +234,10 @@ function readJson(req, limit) {
 	});
 }
 
-function metrics() {
-	return [
-		"# HELP translator_texts_total Number of distinct collected texts.",
-		"# TYPE translator_texts_total gauge",
-		`translator_texts_total ${texts.size}`,
-		"# HELP translator_translated_total Number of language/text translation marks.",
-		"# TYPE translator_translated_total gauge",
-		`translator_translated_total ${translated.size}`,
-		"",
-	].join("\n");
-}
-
 function send(res, status, payload) {
 	const body = JSON.stringify(payload);
 	res.writeHead(status, {
 		"Content-Type": "application/json; charset=utf-8",
-		"Content-Length": Buffer.byteLength(body),
-	});
-	res.end(body);
-}
-
-function sendText(res, status, body) {
-	res.writeHead(status, {
-		"Content-Type": "text/plain; version=0.0.4; charset=utf-8",
 		"Content-Length": Buffer.byteLength(body),
 	});
 	res.end(body);

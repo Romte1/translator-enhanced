@@ -15,8 +15,7 @@ client (opt-in) ──POST /api/v1/data-collection──► server ──GET /ap
 | `POST` | `/api/v1/data-collection` | none | `[{"type":"interface","text":"..."}]` |
 | `GET` | `/api/v1/pending?limit=500&type=interface&language=french` | bearer | sorted by `count` |
 | `POST` | `/api/v1/translated` | bearer | `{"items":[{"type":"interface","text":"..."}]}` |
-| `GET` | `/health` | none | JSON counters |
-| `GET` | `/metrics` | none | Prometheus counters |
+| `GET` | `/health` | none | counters |
 
 The `translated` state is **per target language**: a text translated to Spanish stays in the
 queue for French. Databases created before this change: run `migrate-language.sql` in the D1
@@ -77,17 +76,6 @@ GET  https://<worker>/api/v1/pending            ← worker, bearer ADMIN_TOKEN
 
 Install `server/worker.mjs`, `server/schema.sql` and `server/wrangler.toml` at the repository
 root of the worker project (or deploy from this folder).
-
-## Tests
-
-The local server has Playwright E2E coverage. It starts on port 8099 with a temporary data
-directory and never contacts the production worker:
-
-```bash
-cd server
-npm ci
-npm run test:e2e
-```
 
 ## Self hosting
 

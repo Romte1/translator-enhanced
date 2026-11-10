@@ -23,12 +23,6 @@ export default {
 				return send(200, { ok: true, texts: texts.n, translated: translated.n });
 			}
 
-			if (request.method === "GET" && url.pathname === "/metrics") {
-				const texts = await env.DB.prepare("SELECT COUNT(*) AS n FROM texts").first();
-				const translated = await env.DB.prepare("SELECT COUNT(*) AS n FROM translated").first();
-				return sendText(200, metrics(texts.n, translated.n));
-			}
-
 			if (request.method === "POST" && url.pathname === "/api/v1/data-collection") {
 				const body = await request.json();
 				if (!Array.isArray(body)) {
@@ -147,25 +141,6 @@ function authorize(request, env) {
 	return env.ADMIN_TOKEN !== undefined && request.headers.get("Authorization") === "Bearer " + env.ADMIN_TOKEN;
 }
 
-function metrics(texts, translated) {
-	return [
-		"# HELP translator_texts_total Number of distinct collected texts.",
-		"# TYPE translator_texts_total gauge",
-		`translator_texts_total ${texts}`,
-		"# HELP translator_translated_total Number of language/text translation marks.",
-		"# TYPE translator_translated_total gauge",
-		`translator_translated_total ${translated}`,
-		"",
-	].join("\n");
-}
-
 function send(status, payload) {
 	return new Response(JSON.stringify(payload), { status, headers: JSON_HEADERS });
-}
-
-function sendText(status, body) {
-	return new Response(body, {
-		status,
-		headers: { "Content-Type": "text/plain; version=0.0.4; charset=utf-8" }
-	});
 }
