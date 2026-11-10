@@ -13,6 +13,23 @@ Requires JDK 11 or newer.
 The `run` task loads the plugin in a development client, so it can be tested without
 installing anything.
 
+The collection service has Playwright E2E tests:
+
+```bash
+cd server
+npm ci
+npm run test:e2e
+```
+
+## Development standards
+
+The mandatory architecture, environment, testing and operations rules are in
+[AGENTS.md](AGENTS.md) and [docs/architecture.md](docs/architecture.md). In short: modular
+monolith, injected collaborators, strict `dev`/`prod` separation, JUnit plus Playwright for
+the collection API, open-source observability and no destructive tests against production.
+
+CI runs `./gradlew test` in `Plugin CI` and the local-server Playwright suite in `Server E2E`.
+
 ## Project layout
 
 ```
