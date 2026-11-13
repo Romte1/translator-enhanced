@@ -9,8 +9,13 @@ import javax.inject.Singleton;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.nio.file.StandardOpenOption;
+import java.util.Queue;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.ConcurrentLinkedQueue;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.RejectedExecutionException;
+import java.util.concurrent.atomic.AtomicBoolean;
 
 /**
  * Saves interface texts that have no reviewed translation, so they can be translated and
@@ -35,9 +40,21 @@ class InterfaceTextCapture
 	 */
 	private final Set<String> captured = ConcurrentHashMap.newKeySet();
 
+	/**
+	 * Texts waiting for the executor. Kept separate from {@link #captured} so a failed write
+	 * can be retried and a text cannot be queued twice while it is being flushed.
+	 */
+	private final Set<String> queued = ConcurrentHashMap.newKeySet();
+
+	private final Queue<PendingCapture> pending = new ConcurrentLinkedQueue<>();
+
 	private final Set<Filepath> loadedFiles = ConcurrentHashMap.newKeySet();
 
+	private final AtomicBoolean flushScheduled = new AtomicBoolean();
+
 	private Filepath directory;
+
+	private ExecutorService executor;
 
 	private boolean writeFailed;
 
@@ -51,9 +68,18 @@ class InterfaceTextCapture
 		this.directory = directory;
 	}
 
+	void setExecutor(ExecutorService executor)
+	{
+		this.executor = executor;
+		if (executor != null && !pending.isEmpty())
+		{
+			scheduleFlush();
+		}
+	}
+
 	/**
-	 * Appends a text to the contribution file. Duplicates are ignored, including the ones
-	 * already in the file from previous sessions.
+	 * Queues a text to be appended to the contribution file. This runs on the client thread,
+	 * so it must never touch the filesystem.
 	 *
 	 * @param language target language this text would be translated to
 	 * @param text     english text as it appears in game
@@ -68,24 +94,74 @@ class InterfaceTextCapture
 		Filepath file = directory.join("untranslated").join(language + ".txt");
 		String key = file + "\u0000" + text;
 
-		if (captured.contains(key) || !captured.add(key))
+		if (captured.contains(key) || !queued.add(key))
 		{
 			return;
 		}
 
-		loadExistingKeys(file);
+		pending.add(new PendingCapture(file, text, key));
+		scheduleFlush();
+	}
+
+	private void scheduleFlush()
+	{
+		ExecutorService current = executor;
+		if (current == null || !flushScheduled.compareAndSet(false, true))
+		{
+			return;
+		}
 
 		try
 		{
-			file.getParent().createDirectories();
-			file.write(text + ";\n", StandardOpenOption.CREATE, StandardOpenOption.APPEND);
+			current.execute(this::flush);
 		}
-		catch (IOException e)
+		catch (RejectedExecutionException e)
 		{
-			if (!writeFailed)
+			flushScheduled.set(false);
+		}
+	}
+
+	private void flush()
+	{
+		try
+		{
+			PendingCapture capture;
+			while ((capture = pending.poll()) != null)
 			{
-				writeFailed = true;
-				log.warn("failed to write untranslated interface texts to {}", file, e);
+				loadExistingKeys(capture.file);
+
+				if (captured.contains(capture.key))
+				{
+					queued.remove(capture.key);
+					continue;
+				}
+
+				try
+				{
+					capture.file.getParent().createDirectories();
+					capture.file.write(capture.text + ";\n",
+						StandardOpenOption.CREATE, StandardOpenOption.APPEND);
+					captured.add(capture.key);
+					queued.remove(capture.key);
+				}
+				catch (IOException e)
+				{
+					queued.remove(capture.key);
+					if (!writeFailed)
+					{
+						writeFailed = true;
+						log.warn("failed to write untranslated interface texts to {}",
+							capture.file, e);
+					}
+				}
+			}
+		}
+		finally
+		{
+			flushScheduled.set(false);
+			if (!pending.isEmpty())
+			{
+				scheduleFlush();
 			}
 		}
 	}
@@ -121,6 +197,20 @@ class InterfaceTextCapture
 		catch (IOException e)
 		{
 			log.debug("failed to read existing untranslated texts from {}", file, e);
+		}
+	}
+
+	private static final class PendingCapture
+	{
+		private final Filepath file;
+		private final String text;
+		private final String key;
+
+		private PendingCapture(Filepath file, String text, String key)
+		{
+			this.file = file;
+			this.text = text;
+			this.key = key;
 		}
 	}
 }
