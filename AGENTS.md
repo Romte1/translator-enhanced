@@ -2,8 +2,9 @@
 
 These rules are mandatory for every change in this repository. Read
 [docs/architecture.md](docs/architecture.md), [docs/environments.md](docs/environments.md),
-[docs/testing.md](docs/testing.md) and [docs/operations.md](docs/operations.md) before editing
-code, tests, workflows or deployment files.
+[docs/testing.md](docs/testing.md), [docs/operations.md](docs/operations.md) and the
+[Plugin Hub rules](docs/plugin-hub-rules.md) before editing code, tests, workflows or
+deployment files.
 
 ## Architecture
 
