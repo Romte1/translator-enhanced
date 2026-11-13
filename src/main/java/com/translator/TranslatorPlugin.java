@@ -130,6 +130,7 @@ public class TranslatorPlugin extends Plugin
 			log.warn("failed to prepare the plugin directory, local corrections are disabled", e);
 		}
 
+		interfaceCapture.setExecutor(collector);
 		store.setLanguage(config.selectLanguage());
 		api.setTextCaptureEnabled(config.enableTextCapture());
 		menuTranslator.setEnabled(settings.anyMenuTranslationEnabled());
