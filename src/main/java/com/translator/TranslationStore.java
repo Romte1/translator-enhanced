@@ -58,6 +58,9 @@ class TranslationStore
 
 	private static final Pattern TAG = Pattern.compile("<[^>]*>");
 	private static final Pattern WHITESPACE = Pattern.compile("\\s+");
+	private static final Pattern LEGACY_ESCAPED_TAG = Pattern.compile(
+		"\\\\u003c(/?(?:col|br|str|img|lt|gt))([^\\\\]*?)\\\\u003e",
+		Pattern.CASE_INSENSITIVE);
 
 	private final TranslatorAPI api;
 	private final TranslatorConfig config;
@@ -737,9 +740,21 @@ class TranslationStore
 				continue;
 			}
 
-			dictionary.put(line.substring(0, separator), line.substring(separator + 1));
+			String key = unescapeLegacyTags(line.substring(0, separator));
+			String value = unescapeLegacyTags(line.substring(separator + 1));
+			dictionary.put(key, value);
 		}
 
 		return dictionary;
+	}
+
+	static String unescapeLegacyTags(String text)
+	{
+		if (text.indexOf('\\') < 0)
+		{
+			return text;
+		}
+
+		return LEGACY_ESCAPED_TAG.matcher(text).replaceAll("<$1$2>");
 	}
 }

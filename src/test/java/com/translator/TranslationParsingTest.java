@@ -100,6 +100,31 @@ public class TranslationParsingTest
 	}
 
 	@Test
+	public void unescapesLegacyDialogueTags() throws Exception
+	{
+		String open = "\\" + "u003c";
+		String close = "\\" + "u003e";
+		String source = open + "col=000080" + close + "-- Slave;"
+			+ open + "col=000080" + close + "-- Esclavo";
+
+		Map<String, String> parsed = TranslationStore.parse(new StringReader(source));
+
+		assertEquals("<col=000080>-- Esclavo", parsed.get("<col=000080>-- Slave"));
+	}
+
+	@Test
+	public void leavesUnknownEscapedAngleBracketsAlone() throws Exception
+	{
+		String open = "\\" + "u003c";
+		String close = "\\" + "u003e";
+		String source = open + "missing" + close + ";texto";
+
+		Map<String, String> parsed = TranslationStore.parse(new StringReader(source));
+
+		assertTrue(parsed.containsKey(open + "missing" + close));
+	}
+
+	@Test
 	public void bundledCorrectionsAreAvailable() throws Exception
 	{
 		InputStream in = getClass().getResourceAsStream("/translations/overrides/spanish.txt");
