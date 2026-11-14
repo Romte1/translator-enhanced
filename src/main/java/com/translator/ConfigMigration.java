@@ -26,9 +26,8 @@ class ConfigMigration
 		new Migration("SelectLanguage", "spanish"),
 		new Migration("enableOSRSTextCollection", "false"),
 		new Migration("translateMenuOptions", "true"),
-		new Migration("translateNpcNames", "false"),
-		new Migration("translateItemNames", "false"),
-		new Migration("translateObjectNames", "false"),
+		// NPC, item and object names stay off by default. They were often enabled in the
+		// original plugin, but translating names is confusing during trading and guides.
 		new Migration("translateDialogues", "true"),
 		new Migration("translateDialogueOptions", "false"),
 		new Migration("translateQuestGuide", "true"),
