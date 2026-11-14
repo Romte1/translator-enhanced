@@ -82,6 +82,9 @@ public class TranslatorPlugin extends Plugin
 	private ConfigManager configManager;
 
 	@Inject
+	private ConfigMigration configMigration;
+
+	@Inject
 	private TranslatorAPI api;
 
 	@Inject
@@ -107,6 +110,8 @@ public class TranslatorPlugin extends Plugin
 
 	private final Set<TranslationType> loading = ConcurrentHashMap.newKeySet();
 
+	private boolean starting;
+
 	@Provides
 	TranslatorConfig provideConfig(ConfigManager configManager)
 	{
@@ -116,6 +121,7 @@ public class TranslatorPlugin extends Plugin
 	@Override
 	protected void startUp()
 	{
+		starting = true;
 		loader = Executors.newFixedThreadPool(2, daemonThreads("translator-loader"));
 		collector = Executors.newSingleThreadScheduledExecutor(daemonThreads("translator-collector"));
 
@@ -131,12 +137,14 @@ public class TranslatorPlugin extends Plugin
 		}
 
 		interfaceCapture.setExecutor(collector);
+		configMigration.migrate();
 		store.setLanguage(config.selectLanguage());
 		api.setTextCaptureEnabled(config.enableTextCapture());
 		menuTranslator.setEnabled(settings.anyMenuTranslationEnabled());
 
 		reloadEnabledTranslations();
 		updateCollectionTask();
+		starting = false;
 	}
 
 	@Override
@@ -166,7 +174,12 @@ public class TranslatorPlugin extends Plugin
 	@Subscribe
 	public void onConfigChanged(ConfigChanged event)
 	{
-		if (!CONFIG_GROUP.equals(event.getGroup()))
+		if (starting || !CONFIG_GROUP.equals(event.getGroup()))
+		{
+			return;
+		}
+
+		if (ConfigMigration.MARKER.equals(event.getKey()))
 		{
 			return;
 		}
