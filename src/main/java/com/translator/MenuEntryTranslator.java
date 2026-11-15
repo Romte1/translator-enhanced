@@ -96,6 +96,12 @@ class MenuEntryTranslator
 		String original = option == null
 			? null
 			: store.lookupOriginal(TranslationType.MENU_OPTION, option);
+		String translatedLookup = store.lookup(TranslationType.MENU_OPTION, "Lookup");
+		if (entry.getType() == MenuAction.RUNELITE_PLAYER
+			&& translatedLookup != null && translatedLookup.equals(option))
+		{
+			original = "Lookup";
+		}
 		if (original != null && !original.equals(option))
 		{
 			entry.setOption(original);
