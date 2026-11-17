@@ -150,6 +150,9 @@ public class TranslatorPlugin extends Plugin
 	@Override
 	protected void shutDown()
 	{
+		widgetTranslator.restoreDialogue();
+		widgetTranslator.resetDialogue();
+
 		if (collectionTask != null)
 		{
 			collectionTask.cancel(false);
@@ -190,6 +193,8 @@ public class TranslatorPlugin extends Plugin
 				store.setLanguage(config.selectLanguage());
 				loading.clear();
 				menuTranslator.reset();
+				widgetTranslator.restoreDialogue();
+				widgetTranslator.resetDialogue();
 				reloadEnabledTranslations();
 				break;
 
@@ -242,7 +247,13 @@ public class TranslatorPlugin extends Plugin
 		menuTranslator.translateMenu(client.getMenuEntries());
 	}
 
-	@Subscribe
+	@Subscribe(priority = 1000f)
+	public void onGameTickRestoreDialogue(GameTick event)
+	{
+		widgetTranslator.restoreDialogue();
+	}
+
+	@Subscribe(priority = -1000f)
 	public void onGameTick(GameTick event)
 	{
 		widgetTranslator.onGameTick();
@@ -304,6 +315,8 @@ public class TranslatorPlugin extends Plugin
 		loading.clear();
 		store.clear();
 		menuTranslator.reset();
+		widgetTranslator.restoreDialogue();
+		widgetTranslator.resetDialogue();
 		reloadEnabledTranslations();
 	}
 

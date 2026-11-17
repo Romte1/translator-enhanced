@@ -24,7 +24,7 @@ dependencies {
 }
 
 group = 'translator-enhanced'
-version = '2.0.2'
+version = '2.0.3'
 sourceCompatibility = '11'
 
 tasks.withType(JavaCompile) {

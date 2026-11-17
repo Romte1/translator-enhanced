@@ -5,6 +5,23 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v2.0.3] - 2026-11-17
+
+### Fixed
+- Keep original English dialogue available to plugins that parse it, fixing the missing
+  Mahogany Homes contract overlay while dialogue translation is enabled.
+
+## [v2.0.2] - 2026-11-16
+
+### Added
+- Plugin icon.
+
+## [v2.0.1] - 2026-11-16
+
+### Fixed
+- Decode legacy escaped tags in dialogue entries.
+- Restore the HiScore Lookup menu option after translation.
+
 ## [v2.0.0] - 2026-11-01
 
 First release as an independent plugin, **Translator Enhanced**, based on Translator 1.4.0

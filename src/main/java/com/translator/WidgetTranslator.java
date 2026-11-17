@@ -15,9 +15,12 @@ import javax.inject.Inject;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.IdentityHashMap;
+import java.util.Iterator;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -63,9 +66,23 @@ class WidgetTranslator
 	private final InterfaceTextCapture interfaceCapture;
 	private final PluginManager pluginManager;
 
+	private final Map<Integer, DialogueState> dialogueStates = new HashMap<>();
+
 	private int ticks;
 	private long lastCaScan;
 	private long lastFrameScan;
+
+	private static final class DialogueState
+	{
+		private final String original;
+		private final String translated;
+
+		private DialogueState(String original, String translated)
+		{
+			this.original = original;
+			this.translated = translated;
+		}
+	}
 
 	@Inject
 	WidgetTranslator(Client client, TranslationStore store, TranslatorConfig config,
@@ -457,6 +474,42 @@ class WidgetTranslator
 		return result.toString();
 	}
 
+	void restoreDialogue()
+	{
+		if (dialogueStates.isEmpty())
+		{
+			return;
+		}
+
+		Iterator<Map.Entry<Integer, DialogueState>> iterator = dialogueStates.entrySet().iterator();
+		while (iterator.hasNext())
+		{
+			Map.Entry<Integer, DialogueState> entry = iterator.next();
+			DialogueState state = entry.getValue();
+			Widget widget = client.getWidget(entry.getKey());
+			if (widget == null)
+			{
+				iterator.remove();
+				continue;
+			}
+
+			String text = widget.getText();
+			if (state.translated.equals(text))
+			{
+				widget.setText(state.original);
+			}
+			else if (!state.original.equals(text))
+			{
+				iterator.remove();
+			}
+		}
+	}
+
+	void resetDialogue()
+	{
+		dialogueStates.clear();
+	}
+
 	private void translateDialogue()
 	{
 		if (!config.translateDialogues())
@@ -479,6 +532,23 @@ class WidgetTranslator
 		if (text == null || text.isEmpty())
 		{
 			return;
+		}
+
+		DialogueState state = dialogueStates.get(widget.getId());
+		if (state != null)
+		{
+			if (state.translated.equals(text))
+			{
+				return;
+			}
+
+			if (state.original.equals(text))
+			{
+				widget.setText(state.translated);
+				return;
+			}
+
+			dialogueStates.remove(widget.getId());
 		}
 
 		String playerName = client.getLocalPlayer() == null ? null : client.getLocalPlayer().getName();
@@ -519,6 +589,7 @@ class WidgetTranslator
 		if (!translated.equals(text))
 		{
 			log.debug("dialogue: [{}] -> [{}]", text, translated);
+			dialogueStates.put(widget.getId(), new DialogueState(text, translated));
 			widget.setText(translated);
 		}
 	}
