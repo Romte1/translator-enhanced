@@ -68,6 +68,7 @@ class WidgetTranslator
 
 	private final Map<Integer, DialogueState> dialogueStates = new HashMap<>();
 
+	private boolean dialogueDirty;
 	private int ticks;
 	private long lastCaScan;
 	private long lastFrameScan;
@@ -121,6 +122,12 @@ class WidgetTranslator
 
 	void onBeforeRender()
 	{
+		if (dialogueDirty)
+		{
+			dialogueDirty = false;
+			translateDialogue();
+		}
+
 		if (!hasVisibleJournal())
 		{
 			return;
@@ -190,7 +197,7 @@ class WidgetTranslator
 
 	void onGameTick()
 	{
-		translateDialogue();
+		restoreDialogue();
 		translateDialogueOptions();
 
 		if (++ticks % QUEST_INTERFACE_POLL_TICKS == 0)
@@ -476,6 +483,8 @@ class WidgetTranslator
 
 	void restoreDialogue()
 	{
+		dialogueDirty = true;
+
 		if (dialogueStates.isEmpty())
 		{
 			return;
@@ -508,6 +517,7 @@ class WidgetTranslator
 	void resetDialogue()
 	{
 		dialogueStates.clear();
+		dialogueDirty = true;
 	}
 
 	private void translateDialogue()

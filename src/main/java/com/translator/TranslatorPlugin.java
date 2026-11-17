@@ -248,12 +248,6 @@ public class TranslatorPlugin extends Plugin
 	}
 
 	@Subscribe(priority = 1000f)
-	public void onGameTickRestoreDialogue(GameTick event)
-	{
-		widgetTranslator.restoreDialogue();
-	}
-
-	@Subscribe(priority = -1000f)
 	public void onGameTick(GameTick event)
 	{
 		widgetTranslator.onGameTick();
@@ -277,7 +271,7 @@ public class TranslatorPlugin extends Plugin
 		widgetTranslator.onVariableChanged();
 	}
 
-	@Subscribe
+	@Subscribe(priority = -1000f)
 	public void onBeforeRender(BeforeRender event)
 	{
 		widgetTranslator.onBeforeRender();
