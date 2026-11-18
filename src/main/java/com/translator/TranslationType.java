@@ -9,7 +9,7 @@ package com.translator;
 public enum TranslationType
 {
 	/** Chatbox dialogues (NPC / player lines). */
-	DIALOGUE("dialogue", false, false),
+	DIALOGUE("dialogue", false, true),
 	/** NPC names, eg. {@code Goblin}. */
 	NPC("npc", false, false),
 	/** Item names, eg. {@code Abyssal whip}. */

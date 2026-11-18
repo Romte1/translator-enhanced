@@ -164,6 +164,22 @@ class TranslationStore
 		if (type.isCurated())
 		{
 			merged = new HashMap<>();
+			boolean online = type == TranslationType.MENU_OPTION
+				? config.useOnlineMenuTranslations()
+				: config.useOnlineInterfaceTranslations();
+
+			if (type == TranslationType.DIALOGUE && online)
+			{
+				try
+				{
+					merged.putAll(api.download(type, language));
+				}
+				catch (IOException e)
+				{
+					log.debug("failed to download legacy dialogue translations", e);
+				}
+			}
+
 			if (type.isBundled())
 			{
 				String resource = type == TranslationType.MENU_OPTION
@@ -175,9 +191,6 @@ class TranslationStore
 					"bundled " + type.fileName() + " " + language);
 			}
 
-			boolean online = type == TranslationType.MENU_OPTION
-				? config.useOnlineMenuTranslations()
-				: config.useOnlineInterfaceTranslations();
 			if (online)
 			{
 				try
@@ -197,6 +210,11 @@ class TranslationStore
 			}
 
 			downloaded = merged.size();
+
+			if (type == TranslationType.DIALOGUE)
+			{
+				writeCache(cache, merged);
+			}
 		}
 		else
 		{

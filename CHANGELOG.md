@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [v2.0.3] - 2026-11-17
 
+### Added
+- Dialogue translations now load from the curated translations repository, with the legacy
+  dictionary kept as a fallback.
+
 ### Fixed
 - Keep original English dialogue available to plugins that parse it, fixing the missing
   Mahogany Homes contract overlay while dialogue translation is enabled.
