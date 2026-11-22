@@ -70,6 +70,7 @@ class WidgetTranslator
 
 	private boolean dialogueDirty;
 	private int ticks;
+	private int journalDelayTicks;
 	private long lastCaScan;
 	private long lastFrameScan;
 
@@ -118,7 +119,7 @@ class WidgetTranslator
 			translateDialogue();
 		}
 
-		if (!hasVisibleJournal())
+		if (journalDelayTicks > 0 || !hasVisibleJournal())
 		{
 			return;
 		}
@@ -185,8 +186,14 @@ class WidgetTranslator
 		return visible.endsWith(" Tasks") || visible.contains("Achievement Diary");
 	}
 
-	void onWidgetLoaded()
+	void onWidgetLoaded(int groupId)
 	{
+		if (groupId == (InterfaceID.AreaTask.UNIVERSE >>> 16)
+			|| groupId == (InterfaceID.Journalscroll.UNIVERSE >>> 16))
+		{
+			journalDelayTicks = 2;
+		}
+
 		translateDialogue();
 		translateDialogueOptions();
 	}
@@ -196,7 +203,11 @@ class WidgetTranslator
 		restoreDialogue();
 		translateDialogueOptions();
 
-		if (++ticks % QUEST_INTERFACE_POLL_TICKS == 0)
+		if (journalDelayTicks > 0)
+		{
+			journalDelayTicks--;
+		}
+		else if (++ticks % QUEST_INTERFACE_POLL_TICKS == 0)
 		{
 			translateQuestInterfaces();
 		}
