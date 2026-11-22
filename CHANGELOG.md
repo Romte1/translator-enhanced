@@ -16,6 +16,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   once that native requirement line is present.
 - Rebuilt diary task translations from the authoritative task list, removing stale split-line
   fragments and duplicate entries that caused overlapping text, especially in Varrock.
+- Added the remaining achievement diary task translations, so every diary task now has a
+  complete entry with its requirements.
 
 ## [v2.0.3] - 2026-11-17
 
