@@ -31,7 +31,6 @@ class WidgetTranslator
 
 	private static final int LINE_HEIGHT = 20;
 	private static final int MAX_WIDGET_DEPTH = 12;
-	private static final int QUEST_INTERFACE_POLL_TICKS = 1;
 	private static final int JOURNAL_SCROLL_GROUP = InterfaceID.Journalscroll.UNIVERSE >>> 16;
 	private static final Pattern LEADING_TAGS = Pattern.compile("^(?:<[^>]+>)+");
 	private static final Pattern TRAILING_TAGS = Pattern.compile("(?:<[^>]+>)+$");
@@ -69,7 +68,6 @@ class WidgetTranslator
 	private final Map<Integer, DialogueState> dialogueStates = new HashMap<>();
 
 	private boolean dialogueDirty;
-	private int ticks;
 	private int journalDelayTicks;
 	private long lastCaScan;
 	private long lastFrameScan;
@@ -206,10 +204,6 @@ class WidgetTranslator
 		if (journalDelayTicks > 0)
 		{
 			journalDelayTicks--;
-		}
-		else if (++ticks % QUEST_INTERFACE_POLL_TICKS == 0)
-		{
-			translateQuestInterfaces();
 		}
 	}
 
