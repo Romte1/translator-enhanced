@@ -102,11 +102,6 @@ class WidgetTranslator
 		translateDialogue();
 		translateDialogueOptions();
 
-		if (isJournalScript(scriptId))
-		{
-			translateQuestInterfaces();
-		}
-
 		translateCaTasksThrottled();
 	}
 
@@ -184,6 +179,12 @@ class WidgetTranslator
 		return scriptId == ScriptID.DIARY_UPDATE_LINECOUNT || scriptId == ScriptID.QUEST_UPDATE_LINECOUNT;
 	}
 
+	static boolean isDiaryHeader(String text)
+	{
+		String visible = WidgetReflow.visibleText(text);
+		return visible.contains("Area Tasks") || visible.contains("Achievement Diary");
+	}
+
 	void onWidgetLoaded()
 	{
 		translateDialogue();
@@ -253,6 +254,11 @@ class WidgetTranslator
 	{
 		String text = widget.getText();
 		if (text == null || text.isEmpty())
+		{
+			return;
+		}
+
+		if (isDiaryHeader(text))
 		{
 			return;
 		}
