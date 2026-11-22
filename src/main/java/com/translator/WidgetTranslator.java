@@ -182,7 +182,7 @@ class WidgetTranslator
 	static boolean isDiaryHeader(String text)
 	{
 		String visible = WidgetReflow.visibleText(text);
-		return visible.contains("Area Tasks") || visible.contains("Achievement Diary");
+		return visible.endsWith(" Tasks") || visible.contains("Achievement Diary");
 	}
 
 	void onWidgetLoaded()
