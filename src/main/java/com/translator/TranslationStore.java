@@ -237,7 +237,6 @@ class TranslationStore
 
 		int overrides = applyOverrides(merged, language);
 		addTrimmedAliases(merged);
-		addAnnotationAliases(merged);
 		addColourCloseAliases(merged);
 		List<PatternTranslation> compiled = extractPatterns(merged, type);
 
