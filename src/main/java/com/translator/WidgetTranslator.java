@@ -68,7 +68,7 @@ class WidgetTranslator
 	private final Map<Integer, DialogueState> dialogueStates = new HashMap<>();
 
 	private boolean dialogueDirty;
-	
+
 	private long lastCaScan;
 	private long lastFrameScan;
 

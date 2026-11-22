@@ -10,6 +10,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 - Achievement diaries now keep the game's original widget layout. Requirement lines no
   longer duplicate, overlap, or leave stale widgets behind; only their text is translated.
+- Diary tasks are translated together with RuneLite's requirement block, so incomplete task
+  translations can no longer hide the requirements.
 
 ## [v2.0.3] - 2026-11-17
 
