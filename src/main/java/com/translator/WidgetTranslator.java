@@ -105,11 +105,6 @@ class WidgetTranslator
 		if (isJournalScript(scriptId))
 		{
 			translateQuestInterfaces();
-
-			if (scriptId == ScriptID.DIARY_UPDATE_LINECOUNT)
-			{
-				refreshJournalLayout();
-			}
 		}
 
 		translateCaTasksThrottled();
@@ -263,14 +258,7 @@ class WidgetTranslator
 		}
 
 		String source = text;
-		String translated = text.contains(ANNOTATION_PREFIX)
-			? null
-			: store.lookupAnnotated(TranslationType.INTERFACE, text);
-
-		if (translated == null)
-		{
-			translated = store.lookup(TranslationType.INTERFACE, text);
-		}
+		String translated = store.lookup(TranslationType.INTERFACE, text);
 
 		if (translated == null)
 		{
@@ -308,19 +296,7 @@ class WidgetTranslator
 		}
 
 		translated = preserveStrike(widget.getText(), source, translated);
-
-		int annotation = translated.indexOf(ANNOTATION_PREFIX);
-		int budget = diaryBudget(widget, null);
-		if (annotation > 0 && WidgetReflow.visibleLength(translated) > budget)
-		{
-			String requirement = translated.substring(annotation);
-			List<String> lines = WidgetReflow.wrap(requirement, budget);
-			translated = translated.substring(0, annotation) + "<br>" + String.join("<br>", lines);
-		}
-
-		boolean struck = isStruck(widget.getText());
 		widget.setText(translated);
-		relayout(widget, struck);
 	}
 
 	static boolean isStruck(String text)
@@ -687,23 +663,6 @@ class WidgetTranslator
 		}
 
 		relayout(parent, widget.getId(), struck);
-	}
-
-	// The built-in Diary Requirements plugin resets the scroll height after our layout.
-	private void refreshJournalLayout()
-	{
-		Widget parent = client.getWidget(InterfaceID.Journalscroll.TEXTLAYER);
-
-		if (parent == null || lastLayoutHeight <= 0)
-		{
-			return;
-		}
-
-		int expectedHeight = Math.max(parent.getHeight(), lastLayoutHeight + LINE_HEIGHT);
-		if (parent.getScrollHeight() != expectedHeight)
-		{
-			relayout(parent, -1, false);
-		}
 	}
 
 	private void relayout(Widget parent, int targetId, boolean struck)
