@@ -262,20 +262,38 @@ class WidgetTranslator
 
 		if (translated == null)
 		{
-			String original = store.lookupOriginal(TranslationType.INTERFACE, text);
-			if (original == null)
+			String annotated = store.lookupAnnotated(TranslationType.INTERFACE, text);
+			if (annotated != null)
 			{
-				api.collect(TranslationType.INTERFACE, text);
-
-				if (config.captureInterfaceTexts())
+				// RuneLite may render a long task and its requirements in two
+				// separate widgets. Translate the task only after the native
+				// requirement line is already on screen, so the built-in diary
+				// plugin still sees the original English task first.
+				if (!hasDiaryRequirementSibling(widget))
 				{
-					interfaceCapture.capture(config.selectLanguage(), text);
+					return;
 				}
-				return;
-			}
 
-			source = original;
-			translated = store.lookup(TranslationType.INTERFACE, original);
+				int annotation = annotated.indexOf(ANNOTATION_PREFIX);
+				translated = annotation > 0 ? annotated.substring(0, annotation) : annotated;
+			}
+			else
+			{
+				String original = store.lookupOriginal(TranslationType.INTERFACE, text);
+				if (original == null)
+				{
+					api.collect(TranslationType.INTERFACE, text);
+
+					if (config.captureInterfaceTexts())
+					{
+						interfaceCapture.capture(config.selectLanguage(), text);
+					}
+					return;
+				}
+
+				source = original;
+				translated = store.lookup(TranslationType.INTERFACE, original);
+			}
 		}
 
 		if (translated == null || translated.equals(text)
@@ -285,6 +303,39 @@ class WidgetTranslator
 		}
 
 		translate(widget, source, translated);
+	}
+
+	private boolean hasDiaryRequirementSibling(Widget widget)
+	{
+		Widget parent = widget.getParent();
+		if (parent == null)
+		{
+			return false;
+		}
+
+		return hasRequirementText(parent.getChildren(), widget)
+			|| hasRequirementText(parent.getDynamicChildren(), widget)
+			|| hasRequirementText(parent.getStaticChildren(), widget)
+			|| hasRequirementText(parent.getNestedChildren(), widget);
+	}
+
+	private static boolean hasRequirementText(Widget[] children, Widget task)
+	{
+		if (children == null)
+		{
+			return false;
+		}
+
+		for (Widget child : children)
+		{
+			if (child != task && child.getText() != null
+				&& child.getText().contains(ANNOTATION_PREFIX))
+			{
+				return true;
+			}
+		}
+
+		return false;
 	}
 
 	private void translate(Widget widget, String source, String translated)

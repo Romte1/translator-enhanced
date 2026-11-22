@@ -12,6 +12,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   longer duplicate, overlap, or leave stale widgets behind; only their text is translated.
 - Diary tasks are translated together with RuneLite's requirement block, so incomplete task
   translations can no longer hide the requirements.
+- Long diary tasks whose requirements RuneLite renders as a separate widget are translated
+  once that native requirement line is present.
 
 ## [v2.0.3] - 2026-11-17
 

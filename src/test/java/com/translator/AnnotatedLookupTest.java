@@ -26,6 +26,22 @@ public class AnnotatedLookupTest
 	}
 
 	@Test
+	public void findsTheBareTaskFromTheAnnotatedEntry()
+	{
+		Map<String, String> dictionary = new HashMap<>();
+		String task = "<col=000000>Cut and burn some magic logs in the Resource Area.";
+		String value = "<col=000000>Corta y quema algunos magic logs en el Resource Area."
+			+ "<col=ffffff>(<col=800000>75 Woodcutting<col=000080>, "
+			+ "<col=800000>75 Firemaking<col=000080><col=ffffff>)";
+		dictionary.put(task + "<col=ffffff>(<col=800000>75 Woodcutting<col=000080>, "
+			+ "<col=800000>75 Firemaking<col=000080><col=ffffff>)", value);
+
+		Map<String, String> index = TranslationStore.buildAnnotated(dictionary);
+
+		assertEquals(value, index.get(task));
+	}
+
+	@Test
 	public void keepsTheDifferentTaskVariantsWorking()
 	{
 		Map<String, String> dictionary = new HashMap<>();
