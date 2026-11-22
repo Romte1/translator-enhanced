@@ -68,7 +68,7 @@ class WidgetTranslator
 	private final Map<Integer, DialogueState> dialogueStates = new HashMap<>();
 
 	private boolean dialogueDirty;
-	private int journalDelayTicks;
+	
 	private long lastCaScan;
 	private long lastFrameScan;
 
@@ -117,7 +117,7 @@ class WidgetTranslator
 			translateDialogue();
 		}
 
-		if (journalDelayTicks > 0 || !hasVisibleJournal())
+		if (!hasVisibleJournal())
 		{
 			return;
 		}
@@ -184,14 +184,8 @@ class WidgetTranslator
 		return visible.endsWith(" Tasks") || visible.contains("Achievement Diary");
 	}
 
-	void onWidgetLoaded(int groupId)
+	void onWidgetLoaded()
 	{
-		if (groupId == (InterfaceID.AreaTask.UNIVERSE >>> 16)
-			|| groupId == (InterfaceID.Journalscroll.UNIVERSE >>> 16))
-		{
-			journalDelayTicks = 2;
-		}
-
 		translateDialogue();
 		translateDialogueOptions();
 	}
@@ -200,11 +194,6 @@ class WidgetTranslator
 	{
 		restoreDialogue();
 		translateDialogueOptions();
-
-		if (journalDelayTicks > 0)
-		{
-			journalDelayTicks--;
-		}
 	}
 
 	void translateQuestInterfaces()

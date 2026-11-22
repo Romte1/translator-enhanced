@@ -262,7 +262,7 @@ public class TranslatorPlugin extends Plugin
 	@Subscribe
 	public void onWidgetLoaded(WidgetLoaded event)
 	{
-		widgetTranslator.onWidgetLoaded(event.getGroupId());
+		widgetTranslator.onWidgetLoaded();
 	}
 
 	@Subscribe
