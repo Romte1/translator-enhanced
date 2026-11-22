@@ -1,6 +1,7 @@
 package com.translator;
 
 import net.runelite.api.Client;
+import net.runelite.api.FontTypeFace;
 import net.runelite.api.ScriptID;
 import net.runelite.api.gameval.InterfaceID;
 import net.runelite.api.widgets.ComponentID;
@@ -30,8 +31,10 @@ class WidgetTranslator
 	private static final Logger log = LoggerFactory.getLogger(WidgetTranslator.class);
 
 	private static final int LINE_HEIGHT = 20;
+	private static final int DIARY_LINE_HEIGHT = 18;
 	private static final int MAX_WIDGET_DEPTH = 12;
 	private static final int JOURNAL_SCROLL_GROUP = InterfaceID.Journalscroll.UNIVERSE >>> 16;
+	private static final int AREA_TASK_GROUP = InterfaceID.AreaTask.UNIVERSE >>> 16;
 	private static final Pattern LEADING_TAGS = Pattern.compile("^(?:<[^>]+>)+");
 	private static final Pattern TRAILING_TAGS = Pattern.compile("(?:<[^>]+>)+$");
 	private static final Pattern COLOUR_TAG = Pattern.compile("<col=[^>]+>");
@@ -66,6 +69,7 @@ class WidgetTranslator
 	private final PluginManager pluginManager;
 
 	private final Map<Integer, DialogueState> dialogueStates = new HashMap<>();
+	private final Map<Widget, Integer> diaryHeightAdjustments = new IdentityHashMap<>();
 
 	private boolean dialogueDirty;
 
@@ -257,6 +261,11 @@ class WidgetTranslator
 			return;
 		}
 
+		if (isDiaryWidget(widget))
+		{
+			applyDiaryLineHeight(widget);
+		}
+
 		String source = text;
 		String translated = store.lookup(TranslationType.INTERFACE, text);
 
@@ -338,6 +347,149 @@ class WidgetTranslator
 		return false;
 	}
 
+	private static boolean isDiaryWidget(Widget widget)
+	{
+		int group = widget.getId() >>> 16;
+		return group == JOURNAL_SCROLL_GROUP || group == AREA_TASK_GROUP;
+	}
+
+	private static void applyDiaryLineHeight(Widget widget)
+	{
+		if (widget.getLineHeight() != DIARY_LINE_HEIGHT)
+		{
+			widget.setLineHeight(DIARY_LINE_HEIGHT);
+		}
+	}
+
+	/**
+	 * A longer translation can wrap onto more lines than the native English text. The
+	 * diary list does not grow its rows automatically, so make room for the extra
+	 * lines and move the following rows down.
+	 */
+	private void adjustDiaryHeight(Widget widget, String text)
+	{
+		Widget parent = widget.getParent();
+		if (parent == null || text == null)
+		{
+			return;
+		}
+
+		int width = widget.getWidth() > 0 ? widget.getWidth() : parent.getWidth();
+		if (width <= 0)
+		{
+			return;
+		}
+
+		int lineHeight = widget.getLineHeight() > 0 ? widget.getLineHeight() : DIARY_LINE_HEIGHT;
+		int lines = countDiaryLines(text, Math.max(1, width - 4), widget.getFont());
+		int required = lines * lineHeight;
+		int current = widget.getOriginalHeight() > 0 ? widget.getOriginalHeight() : widget.getHeight();
+
+		if (required <= current || Integer.valueOf(required).equals(diaryHeightAdjustments.get(widget)))
+		{
+			return;
+		}
+
+		int delta = required - current;
+		log.debug("diary height id={} lines={} {} -> {}", widget.getId(), lines, current, required);
+		widget.setOriginalHeight(required);
+		widget.revalidate();
+		diaryHeightAdjustments.put(widget, required);
+
+		List<Widget> siblings = new ArrayList<>();
+		Set<Widget> seen = Collections.newSetFromMap(new IdentityHashMap<Widget, Boolean>());
+		collectChildren(siblings, seen, parent.getChildren());
+		collectChildren(siblings, seen, parent.getDynamicChildren());
+		collectChildren(siblings, seen, parent.getNestedChildren());
+		collectChildren(siblings, seen, parent.getStaticChildren());
+
+		int targetBottom = widget.getOriginalY() + current;
+		boolean shifted = false;
+		for (Widget child : siblings)
+		{
+			if (child != widget && child.getOriginalY() >= targetBottom)
+			{
+				child.setOriginalY(child.getOriginalY() + delta);
+				child.revalidate();
+				shifted = true;
+			}
+		}
+
+		if (!shifted)
+		{
+			int index = indexOf(siblings, widget);
+			if (index >= 0)
+			{
+				for (int i = index + 1; i < siblings.size(); i++)
+				{
+					Widget child = siblings.get(i);
+					child.setOriginalY(child.getOriginalY() + delta);
+					child.revalidate();
+				}
+			}
+		}
+
+		int scrollHeight = Math.max(parent.getScrollHeight(), parent.getHeight());
+		parent.setScrollHeight(scrollHeight + delta);
+		parent.revalidate();
+		parent.revalidateScroll();
+		updateScrollbar(parent);
+	}
+
+	private static int countDiaryLines(String text, int width, FontTypeFace font)
+	{
+		int lines = 0;
+
+		for (String segment : text.split("<br>", -1))
+		{
+			String visible = WidgetReflow.visibleText(segment);
+			if (visible.isEmpty())
+			{
+				lines++;
+				continue;
+			}
+
+			if (font == null)
+			{
+				lines += Math.max(1, WidgetReflow.wrap(segment, Math.max(30, width / 8)).size());
+				continue;
+			}
+
+			int lineWidth = 0;
+			int segmentLines = 1;
+			for (String word : visible.split(" "))
+			{
+				int wordWidth = font.getTextWidth(word);
+				if (lineWidth > 0 && lineWidth + font.getTextWidth(" ") + wordWidth > width)
+				{
+					segmentLines++;
+					lineWidth = wordWidth;
+				}
+				else
+				{
+					lineWidth += (lineWidth > 0 ? font.getTextWidth(" ") : 0) + wordWidth;
+				}
+			}
+
+			lines += segmentLines;
+		}
+
+		return Math.max(1, lines);
+	}
+
+	private static int indexOf(List<Widget> widgets, Widget target)
+	{
+		for (int i = 0; i < widgets.size(); i++)
+		{
+			if (widgets.get(i) == target)
+			{
+				return i;
+			}
+		}
+
+		return -1;
+	}
+
 	private void translate(Widget widget, String source, String translated)
 	{
 		int originalAnnotation = source.indexOf(ANNOTATION_PREFIX);
@@ -348,6 +500,12 @@ class WidgetTranslator
 
 		translated = preserveStrike(widget.getText(), source, translated);
 		widget.setText(translated);
+
+		if (isDiaryWidget(widget))
+		{
+			applyDiaryLineHeight(widget);
+			adjustDiaryHeight(widget, translated);
+		}
 	}
 
 	static boolean isStruck(String text)

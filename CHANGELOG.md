@@ -14,6 +14,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   translations can no longer hide the requirements.
 - Long diary tasks whose requirements RuneLite renders as a separate widget are translated
   once that native requirement line is present.
+- Diary rows now grow when a translation wraps onto more lines, preventing translated text
+  from overlapping the next task in Varrock and other diaries.
 
 ## [v2.0.3] - 2026-11-17
 
