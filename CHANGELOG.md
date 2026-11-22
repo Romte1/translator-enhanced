@@ -18,6 +18,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   fragments and duplicate entries that caused overlapping text, especially in Varrock.
 - Added the remaining achievement diary task translations, so every diary task now has a
   complete entry with its requirements.
+- Translate long diary tasks that RuneLite splits across several widgets without putting
+  conflicting fragment entries back into the dictionary.
 
 ## [v2.0.3] - 2026-11-17
 

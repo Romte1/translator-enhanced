@@ -93,6 +93,14 @@ class TranslationStore
 	private final Map<TranslationType, Map<String, String>> annotatedSignatures = new ConcurrentHashMap<>();
 
 	/**
+	 * Pieces of a diary task that RuneLite split across several widgets. They are kept
+	 * separate from the normal dictionary so a bare fragment can never be translated before
+	 * the built-in diary plugin has added its requirement block.
+	 */
+	private final Map<TranslationType, Map<String, String>> diaryFragments = new ConcurrentHashMap<>();
+	private final Map<TranslationType, Map<String, String>> diaryFragmentOriginals = new ConcurrentHashMap<>();
+
+	/**
 	 * Language the loaded dictionaries belong to. Bumped on every language change so a slow
 	 * download of the previous language can not overwrite the new one.
 	 */
@@ -121,6 +129,8 @@ class TranslationStore
 		signatures.clear();
 		annotated.clear();
 		annotatedSignatures.clear();
+		diaryFragments.clear();
+		diaryFragmentOriginals.clear();
 	}
 
 	void setDirectory(Filepath directory)
@@ -145,6 +155,8 @@ class TranslationStore
 		signatures.clear();
 		annotated.clear();
 		annotatedSignatures.clear();
+		diaryFragments.clear();
+		diaryFragmentOriginals.clear();
 	}
 
 	/**
@@ -253,6 +265,9 @@ class TranslationStore
 		signatures.put(type, buildSignatures(merged));
 		annotated.put(type, buildAnnotated(merged));
 		annotatedSignatures.put(type, buildAnnotatedSignatures(merged));
+		Map<String, String> fragments = buildDiaryFragments(merged);
+		diaryFragments.put(type, fragments);
+		diaryFragmentOriginals.put(type, buildReverse(fragments));
 		log.info("loaded {} translations for {}/{} ({} corrections applied, {} patterns)",
 			downloaded, language, type.fileName(), overrides, compiled.size());
 	}
@@ -602,6 +617,35 @@ class TranslationStore
 	}
 
 	/**
+	 * @return the translation of one of the widgets RuneLite created when it split a long
+	 * diary task, or {@code null}
+	 */
+	String lookupDiaryFragment(TranslationType type, String text)
+	{
+		if (text == null || text.isEmpty())
+		{
+			return null;
+		}
+
+		Map<String, String> map = diaryFragments.get(type);
+		return map == null ? null : map.get(signature(text));
+	}
+
+	/**
+	 * @return the original English fragment for a translated diary fragment, or {@code null}
+	 */
+	String lookupDiaryFragmentOriginal(TranslationType type, String text)
+	{
+		if (text == null || text.isEmpty())
+		{
+			return null;
+		}
+
+		Map<String, String> map = diaryFragmentOriginals.get(type);
+		return map == null ? null : map.get(signature(text));
+	}
+
+	/**
 	 * @return the text without line breaks or tags, used as a last resort when comparing
 	 */
 	static String signature(String text)
@@ -680,6 +724,91 @@ class TranslationStore
 		}
 
 		return index;
+	}
+
+	/**
+	 * Builds translations for the pieces RuneLite creates when it splits a long diary task
+	 * over several widgets. These pieces are deliberately not part of the normal dictionary:
+	 * they are only used by the diary translator after the native requirement block exists.
+	 */
+	static Map<String, String> buildDiaryFragments(Map<String, String> dictionary)
+	{
+		Map<String, String> index = new HashMap<>();
+
+		for (Map.Entry<String, String> entry : dictionary.entrySet())
+		{
+			String key = entry.getKey();
+			String value = entry.getValue();
+			int annotation = key.indexOf(ANNOTATION_PREFIX);
+			int valueAnnotation = value == null ? -1 : value.indexOf(ANNOTATION_PREFIX);
+
+			if (annotation <= 0 || valueAnnotation <= 0)
+			{
+				continue;
+			}
+
+			String source = WidgetReflow.visibleText(key.substring(0, annotation));
+			String target = WidgetReflow.visibleText(value.substring(0, valueAnnotation));
+			String[] sourceWords = source.split("\\s+");
+			String[] targetWords = target.split("\\s+");
+			if (sourceWords.length < 2 || targetWords.length < 2)
+			{
+				continue;
+			}
+
+			String requirements = key.substring(annotation);
+			for (int start = 0; start < sourceWords.length; start++)
+			{
+				for (int end = start + 1; end <= sourceWords.length; end++)
+				{
+					if (start == 0 && end == sourceWords.length)
+					{
+						continue;
+					}
+
+					int targetStart = (int) Math.round((double) start / sourceWords.length * targetWords.length);
+					int targetEnd = (int) Math.round((double) end / sourceWords.length * targetWords.length);
+					targetStart = Math.max(0, Math.min(targetWords.length, targetStart));
+					targetEnd = Math.max(targetStart, Math.min(targetWords.length, targetEnd));
+					if (targetStart == targetEnd)
+					{
+						continue;
+					}
+
+					String sourcePart = joinWords(sourceWords, start, end);
+					String targetPart = joinWords(targetWords, targetStart, targetEnd);
+					addDiaryFragment(index, sourcePart, "<col=000000>" + targetPart);
+					addDiaryFragment(index, sourcePart + requirements,
+						"<col=000000>" + targetPart + requirements);
+				}
+			}
+		}
+
+		return index;
+	}
+
+	private static void addDiaryFragment(Map<String, String> index, String source, String target)
+	{
+		if (WidgetReflow.visibleText(source).length() < 8)
+		{
+			return;
+		}
+
+		index.putIfAbsent(signature(source), target);
+	}
+
+	private static String joinWords(String[] words, int from, int to)
+	{
+		StringBuilder result = new StringBuilder();
+		for (int i = from; i < to; i++)
+		{
+			if (result.length() > 0)
+			{
+				result.append(' ');
+			}
+			result.append(words[i]);
+		}
+		return result.toString();
 	}
 
 	static Map<String, String> buildAnnotatedSignatures(Map<String, String> dictionary)

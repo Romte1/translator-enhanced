@@ -279,20 +279,45 @@ class WidgetTranslator
 			}
 			else
 			{
-				String original = store.lookupOriginal(TranslationType.INTERFACE, text);
-				if (original == null)
+				String fragment = store.lookupDiaryFragment(TranslationType.INTERFACE, text);
+				if (fragment != null)
 				{
-					api.collect(TranslationType.INTERFACE, text);
-
-					if (config.captureInterfaceTexts())
+					// A split task has no requirement annotation in its first widget.
+					// Wait until the built-in diary plugin has added the requirement
+					// widget, so it still sees the original English task first.
+					if (!text.contains(ANNOTATION_PREFIX) && !hasDiaryRequirementSibling(widget))
 					{
-						interfaceCapture.capture(config.selectLanguage(), text);
+						return;
 					}
-					return;
-				}
 
-				source = original;
-				translated = store.lookup(TranslationType.INTERFACE, original);
+					translated = fragment;
+				}
+				else
+				{
+					String original = store.lookupOriginal(TranslationType.INTERFACE, text);
+					if (original == null)
+					{
+						if (store.lookupDiaryFragmentOriginal(TranslationType.INTERFACE, text) != null)
+						{
+							return;
+						}
+
+						api.collect(TranslationType.INTERFACE, text);
+
+						if (config.captureInterfaceTexts())
+						{
+							interfaceCapture.capture(config.selectLanguage(), text);
+						}
+						return;
+					}
+
+					source = original;
+					translated = store.lookup(TranslationType.INTERFACE, original);
+					if (translated == null)
+					{
+						translated = store.lookupDiaryFragment(TranslationType.INTERFACE, original);
+					}
+				}
 			}
 		}
 

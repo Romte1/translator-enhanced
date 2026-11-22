@@ -26,6 +26,27 @@ public class AnnotatedLookupTest
 	}
 
 	@Test
+	public void translatesBothHalvesOfASplitDiaryTask()
+	{
+		Map<String, String> dictionary = new HashMap<>();
+		String requirements = "<col=ffffff>(<col=800000>78 Runecraft<col=000080><col=ffffff>)";
+		dictionary.put(
+			"<col=000000>Craft 100 or more earth runes simultaneously from Essence without the use of Extracts."
+				+ requirements,
+			"<col=000000>Fabrica 100 o más earth runes simultáneamente a partir de Essence sin usar Extracts."
+				+ requirements);
+
+		Map<String, String> fragments = TranslationStore.buildDiaryFragments(dictionary);
+		String first = fragments.get(TranslationStore.signature(
+			"<col=000000>Craft 100 or more earth runes simultaneously from"));
+		String second = fragments.get(TranslationStore.signature(
+			"<col=000000>Essence without the use of Extracts." + requirements));
+
+		assertEquals(true, first != null && first.contains("Fabrica"));
+		assertEquals(true, second != null && second.contains("Extracts"));
+	}
+
+	@Test
 	public void findsTheBareTaskFromTheAnnotatedEntry()
 	{
 		Map<String, String> dictionary = new HashMap<>();
