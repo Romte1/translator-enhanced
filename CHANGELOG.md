@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v2.0.5] - 2026-11-24
+
+### Fixed
+- Normalise legacy `[JUGADOR_NOMBRE]` dialogue placeholders so the player's name is shown
+  instead of the raw placeholder.
+- Translate the dialogue "Click here to continue" button.
+- Correct mixed-language legacy dialogue, including Vanescula Drakan's negotiation line.
+- Translate split diary tasks whose requirement block is in a different widget container.
+
 ## [v2.0.4] - 2026-11-22
 
 ### Fixed
@@ -20,8 +29,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   complete entry with its requirements.
 - Translate long diary tasks that RuneLite splits across several widgets without putting
   conflicting fragment entries back into the dictionary.
-- Normalise legacy `[JUGADOR_NOMBRE]` dialogue placeholders, translate the dialogue
-  continue button, and correct mixed-language legacy dialogue entries.
 
 ## [v2.0.3] - 2026-11-17
 

@@ -338,10 +338,59 @@ class WidgetTranslator
 			return false;
 		}
 
-		return hasRequirementText(parent.getChildren(), widget)
+		if (hasRequirementText(parent.getChildren(), widget)
 			|| hasRequirementText(parent.getDynamicChildren(), widget)
 			|| hasRequirementText(parent.getStaticChildren(), widget)
-			|| hasRequirementText(parent.getNestedChildren(), widget);
+			|| hasRequirementText(parent.getNestedChildren(), widget))
+		{
+			return true;
+		}
+
+		Widget root = client.getWidget(InterfaceID.AreaTask.UNIVERSE);
+		if (root == null)
+		{
+			root = client.getWidget(InterfaceID.Journalscroll.UNIVERSE);
+		}
+
+		return root != null && containsRequirement(root, 0,
+			Collections.newSetFromMap(new IdentityHashMap<Widget, Boolean>()));
+	}
+
+	private static boolean containsRequirement(Widget widget, int depth, Set<Widget> visited)
+	{
+		if (widget == null || depth > MAX_WIDGET_DEPTH || !visited.add(widget))
+		{
+			return false;
+		}
+
+		String text = widget.getText();
+		if (text != null && text.contains(ANNOTATION_PREFIX))
+		{
+			return true;
+		}
+
+		return containsRequirement(widget.getChildren(), depth, visited)
+			|| containsRequirement(widget.getDynamicChildren(), depth, visited)
+			|| containsRequirement(widget.getNestedChildren(), depth, visited)
+			|| containsRequirement(widget.getStaticChildren(), depth, visited);
+	}
+
+	private static boolean containsRequirement(Widget[] children, int depth, Set<Widget> visited)
+	{
+		if (children == null)
+		{
+			return false;
+		}
+
+		for (Widget child : children)
+		{
+			if (containsRequirement(child, depth + 1, visited))
+			{
+				return true;
+			}
+		}
+
+		return false;
 	}
 
 	private static boolean hasRequirementText(Widget[] children, Widget task)
