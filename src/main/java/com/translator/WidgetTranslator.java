@@ -596,6 +596,8 @@ class WidgetTranslator
 			return;
 		}
 
+		translateDialogueContinue(widget);
+
 		DialogueState state = dialogueStates.get(widget.getId());
 		if (state != null)
 		{
@@ -654,6 +656,81 @@ class WidgetTranslator
 			dialogueStates.put(widget.getId(), new DialogueState(text, translated));
 			widget.setText(translated);
 		}
+	}
+
+	private void translateDialogueContinue(Widget dialogueText)
+	{
+		Widget parent = dialogueText.getParent();
+		Set<Widget> visited = Collections.newSetFromMap(new IdentityHashMap<Widget, Boolean>());
+		if (parent != null && translateDialogueContinue(parent, 0, visited))
+		{
+			return;
+		}
+
+		int group = dialogueText.getId() >>> 16;
+		for (int child = 0; child < 64; child++)
+		{
+			Widget widget = client.getWidget((group << 16) | child);
+			if (translateDialogueContinue(widget, 0, visited))
+			{
+				return;
+			}
+		}
+	}
+
+	private boolean translateDialogueContinue(Widget widget, int depth, Set<Widget> visited)
+	{
+		if (widget == null || depth > MAX_WIDGET_DEPTH || !visited.add(widget))
+		{
+			return false;
+		}
+
+		String text = widget.getText();
+		if (text != null && WidgetReflow.visibleText(text).equals("Click here to continue"))
+		{
+			String translated = store.lookup(TranslationType.INTERFACE, text);
+			if (translated == null)
+			{
+				translated = store.lookup(TranslationType.INTERFACE, "Click here to continue");
+			}
+
+			if (translated != null && !translated.equals(text))
+			{
+				Matcher leading = LEADING_TAGS.matcher(text);
+				Matcher trailing = TRAILING_TAGS.matcher(text);
+				String prefix = leading.find() ? leading.group() : "";
+				String suffix = trailing.find() ? trailing.group() : "";
+				if (!translated.contains("<col="))
+				{
+					translated = prefix + translated + suffix;
+				}
+				widget.setText(translated);
+			}
+			return true;
+		}
+
+		return translateDialogueContinue(widget.getChildren(), depth, visited)
+			|| translateDialogueContinue(widget.getDynamicChildren(), depth, visited)
+			|| translateDialogueContinue(widget.getNestedChildren(), depth, visited)
+			|| translateDialogueContinue(widget.getStaticChildren(), depth, visited);
+	}
+
+	private boolean translateDialogueContinue(Widget[] children, int depth, Set<Widget> visited)
+	{
+		if (children == null)
+		{
+			return false;
+		}
+
+		for (Widget child : children)
+		{
+			if (translateDialogueContinue(child, depth + 1, visited))
+			{
+				return true;
+			}
+		}
+
+		return false;
 	}
 
 	private void translateDialogueOptions()

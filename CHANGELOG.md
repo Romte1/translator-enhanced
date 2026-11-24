@@ -20,6 +20,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   complete entry with its requirements.
 - Translate long diary tasks that RuneLite splits across several widgets without putting
   conflicting fragment entries back into the dictionary.
+- Normalise legacy `[JUGADOR_NOMBRE]` dialogue placeholders, translate the dialogue
+  continue button, and correct mixed-language legacy dialogue entries.
 
 ## [v2.0.3] - 2026-11-17
 

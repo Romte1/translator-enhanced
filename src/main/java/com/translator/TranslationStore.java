@@ -886,12 +886,29 @@ class TranslationStore
 				continue;
 			}
 
-			String key = unescapeLegacyTags(line.substring(0, separator));
-			String value = unescapeLegacyTags(line.substring(separator + 1));
+			String key = normalizePlaceholders(unescapeLegacyTags(line.substring(0, separator)));
+			String value = normalizePlaceholders(unescapeLegacyTags(line.substring(separator + 1)));
 			dictionary.put(key, value);
 		}
 
 		return dictionary;
+	}
+
+	/**
+	 * Legacy iolave dialogue used a Spanish placeholder token. Normalise it to the
+	 * placeholder this plugin replaces with the local player's name.
+	 */
+	static String normalizePlaceholders(String text)
+	{
+		if (text == null)
+		{
+			return null;
+		}
+
+		return text
+			.replace("[JUGADOR_NOMBRE]", "[PLAYER_NAME]")
+			.replace("[NOMBRE_JUGADOR]", "[PLAYER_NAME]")
+			.replace("[nombre del jugador]", "[PLAYER_NAME]");
 	}
 
 	static String unescapeLegacyTags(String text)

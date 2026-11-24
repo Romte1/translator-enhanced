@@ -53,6 +53,16 @@ public class TranslationParsingTest
 	}
 
 	@Test
+	public void normalizesLegacyPlayerNamePlaceholders() throws Exception
+	{
+		Map<String, String> parsed = TranslationStore.parse(new StringReader(
+			"[PLAYER_NAME]. How goes it?;[JUGADOR_NOMBRE]. ¿Cómo va?\n"
+		));
+
+		assertEquals("[PLAYER_NAME]. ¿Cómo va?", parsed.get("[PLAYER_NAME]. How goes it?"));
+	}
+
+	@Test
 	public void addsTrimmedAliases() throws Exception
 	{
 		Map<String, String> parsed = TranslationStore.parse(new StringReader(" Sneaky undead fowl;Ave furtiva\n"));
